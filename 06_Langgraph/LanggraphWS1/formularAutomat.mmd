@@ -1,0 +1,19 @@
+stateDiagram-v2
+    direction LR
+
+    %% Startpunkt
+    [*] --> q0
+
+    %% Erfolgreicher Pfad (Happy Path)
+    q0 --> q1 : Event_sub
+    q1 --> q2 : voll
+    q2 --> q3 : mail
+    q3 --> q4 : visa
+
+    %% Fehler- und Abbruchpfade (Zurück zu q0)
+    q1 --> q0 : unvoll
+    q2 --> q0 : nomail
+    q3 --> q0 : novisa
+
+    %% Endzustand (Formular valide)
+    q4 --> [*]
