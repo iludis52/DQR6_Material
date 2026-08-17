@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agentic AI — Konzeptlandkarte</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f7f5;
+    --surface: #ffffff;
+    --text: #1a1a1a;
+    --text-secondary: #555;
+    --border: #d4d4d4;
+    --accent-core: #1e3a5f;
+    --accent-core-light: #e8eef5;
+    --accent-arch: #5b2e8c;
+    --accent-arch-light: #f0e8f7;
+    --accent-knowledge: #0e6e4e;
+    --accent-knowledge-light: #e6f5ef;
+    --accent-control: #b8510d;
+    --accent-control-light: #fdf0e6;
+    --accent-ops: #8b1a1a;
+    --accent-ops-light: #fbe8e8;
+    --accent-integ: #3a5a1e;
+    --accent-integ-light: #edf5e6;
+    --tag-agentisch: #1e3a5f;
+    --tag-hybrid: #7a6520;
+    --tag-nicht: #888;
+    --tag-neu: #b8510d;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'IBM Plex Sans', -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.55;
+    padding: 2rem 1.5rem 4rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  header {
+    margin-bottom: 2.5rem;
+    border-bottom: 3px solid var(--text);
+    padding-bottom: 1.5rem;
+  }
+
+  header h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.4rem;
+  }
+
+  header p {
+    color: var(--text-secondary);
+    font-size: 0.88rem;
+    max-width: 700px;
+  }
+
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1.5rem 0 0.5rem;
+    font-size: 0.78rem;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .legend-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  .tag {
+    display: inline-block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.65rem;
+    font-weight: 500;
+    padding: 1px 6px;
+    border-radius: 3px;
+    letter-spacing: 0.03em;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  .tag-agentisch { background: var(--tag-agentisch); color: #fff; }
+  .tag-hybrid { background: var(--tag-hybrid); color: #fff; }
+  .tag-nicht { background: var(--tag-nicht); color: #fff; }
+  .tag-neu { background: var(--tag-neu); color: #fff; }
+
+  section {
+    margin-bottom: 2.5rem;
+  }
+
+  .layer-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .layer-number {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.75rem;
+    font-weight: 500;
+    opacity: 0.5;
+  }
+
+  .layer-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  .layer-desc {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    padding-left: 2.4rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+    table-layout: fixed;
+  }
+
+  thead th {
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.5rem 0.6rem;
+    border-bottom: 2px solid var(--border);
+    color: var(--text-secondary);
+  }
+
+  thead th:nth-child(1) { width: 17%; }
+  thead th:nth-child(2) { width: 33%; }
+  thead th:nth-child(3) { width: 35%; }
+  thead th:nth-child(4) { width: 15%; }
+
+  tbody td {
+    padding: 0.6rem 0.6rem;
+    border-bottom: 1px solid #e8e8e8;
+    vertical-align: top;
+  }
+
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  .concept-name {
+    font-weight: 600;
+    font-size: 0.85rem;
+    line-height: 1.3;
+  }
+
+  .table-wrap {
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: var(--surface);
+  }
+
+  .layer-core .table-wrap { border-left: 4px solid var(--accent-core); }
+  .layer-arch .table-wrap { border-left: 4px solid var(--accent-arch); }
+  .layer-knowledge .table-wrap { border-left: 4px solid var(--accent-knowledge); }
+  .layer-control .table-wrap { border-left: 4px solid var(--accent-control); }
+  .layer-ops .table-wrap { border-left: 4px solid var(--accent-ops); }
+  .layer-integ .table-wrap { border-left: 4px solid var(--accent-integ); }
+
+  .layer-core .layer-title { color: var(--accent-core); }
+  .layer-arch .layer-title { color: var(--accent-arch); }
+  .layer-knowledge .layer-title { color: var(--accent-knowledge); }
+  .layer-control .layer-title { color: var(--accent-control); }
+  .layer-ops .layer-title { color: var(--accent-ops); }
+  .layer-integ .layer-title { color: var(--accent-integ); }
+
+  .new-row td {
+    background: #fffcf0;
+  }
+
+  .abgrenzung {
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    font-style: italic;
+  }
+
+  .col-status {
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid var(--text);
+  }
+
+  footer h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+  }
+
+  footer p, footer li {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  footer li::before {
+    content: "→ ";
+    color: var(--accent-core);
+    font-weight: 600;
+  }
+
+  footer li {
+    margin-bottom: 0.3rem;
+  }
+
+  .meta {
+    font-size: 0.72rem;
+    color: #999;
+    margin-top: 2rem;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  @media (max-width: 700px) {
+    body { padding: 1rem 0.75rem 2rem; }
+    header h1 { font-size: 1.3rem; }
+    table { font-size: 0.75rem; }
+    thead th:nth-child(1) { width: 22%; }
+    thead th:nth-child(4) { width: 12%; }
+    .legend { gap: 0.4rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Agentic AI — Konzeptlandkarte</h1>
+  <p>Systematische Taxonomie agentic-AI-Konzepte, geschichtet nach Architekturrolle. Korrigiert Unschärfen gängiger Übersichten, füllt kritische Lücken, und markiert, was tatsächlich agentisch ist — und was nicht.</p>
+  <div class="legend">
+    <span class="legend-item"><span class="legend-dot" style="background:var(--tag-agentisch)"></span> <span class="tag tag-agentisch">GENUIN AGENTISCH</span></span>
+    <span class="legend-item"><span class="legend-dot" style="background:var(--tag-hybrid)"></span> <span class="tag tag-hybrid">HYBRID / OPTIONAL</span></span>
+    <span class="legend-item"><span class="legend-dot" style="background:var(--tag-nicht)"></span> <span class="tag tag-nicht">NICHT AGENTISCH</span></span>
+    <span class="legend-item"><span class="legend-dot" style="background:var(--tag-neu)"></span> <span class="tag tag-neu">ERGÄNZT</span> = fehlt in gängigen Übersichten</span>
+  </div>
+</header>
+
+<!-- ═══════ LAYER 1 ═══════ -->
+<section class="layer-core">
+  <div class="layer-header">
+    <span class="layer-number">01</span>
+    <span class="layer-title">Kernmechanik — Was macht etwas agentisch?</span>
+  </div>
+  <p class="layer-desc">Die minimal notwendigen Bausteine, ohne die ein System kein Agent ist: autonome Schleife, Planung, Zustandshaltung, Werkzeugnutzung.</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Konzept</th><th>Definition &amp; Abgrenzung</th><th>Kritische Anmerkungen</th><th class="col-status">Status</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="concept-name">Agent Loop</span></td>
+          <td>Zyklus aus <em>Perceive → Plan → Act → Observe → Decide(Continue|Stop)</em>. Entscheidend: Der Agent entscheidet selbst, ob er den Zyklus fortsetzt oder terminiert. Ohne autonome Terminierungsbedingung ist es kein Agent Loop, sondern eine Schleife mit Exit-Condition.</td>
+          <td>Die meisten Darstellungen vergessen den Terminierungsschritt. In der Praxis sind Runaway-Loops (Agent terminiert nie) das häufigste Produktionsproblem. Gute Implementierungen haben sowohl inhaltliche Stopps (Ziel erreicht) als auch strukturelle Stopps (Max-Iterations, Timeout, Budget).</td>
+          <td class="col-status"><span class="tag tag-agentisch">AGENTISCH</span></td>
+        </tr>
+        <tr class="new-row">
+          <td><span class="concept-name">Planning</span> <span class="tag tag-neu">ERGÄNZT</span></td>
+          <td>Der Agent zerlegt ein Ziel in Teilschritte und passt den Plan zur Laufzeit an. Unterscheide: <em>Upfront Planning</em> (Plan vor Ausführung) vs. <em>Incremental Planning</em> (Plan entsteht schrittweise) vs. <em>Replanning</em> (Plan wird bei Fehler/neuer Info revidiert).</td>
+          <td>Kritische Lücke in den meisten Übersichten. Planning ist der Kern von Agentizität — ohne Planning ist jedes System reaktiv. Aktuelle LLMs können planen, aber schlecht revidieren: Sunk-Cost-Bias im Plan ist ein dokumentiertes Problem.</td>
+          <td class="col-status"><span class="tag tag-agentisch">AGENTISCH</span></td>
+        </tr>
+        <tr class="new-row">
+          <td><span class="concept-name">State Management</span> <span class="tag tag-neu">ERGÄNZT</span></td>
+          <td>Konsistente Verwaltung des Agentenzustands über Schritte hinweg. Umfasst: Welche Variablen beschreiben den aktuellen Zustand? Wie werden Zustandsübergänge validiert? Welche Invarianten müssen gelten?</td>
+          <td>Formal modellierbar als EFSM (Extended Finite State Machine). In LangGraph: State-Objekt + Reducer-Funktionen. Fehlendes State Management ist die häufigste Ursache für inkonsistentes Agentenverhalten. Ohne explizites State-Schema debuggt man blind.</td>
+          <td class="col-status"><span class="tag tag-agentisch">AGENTISCH</span></td>
+        </tr>
+        <tr>
+          <td><span class="concept-name">Tool Use</span></td>
+          <td>Der Agent ruft externe Werkzeuge auf (APIs, Code-Interpreter, DBs). Unterscheide: <em>Single-shot Tool Use</em> (ein LLM-Call wählt ein Tool) vs. <em>Iterative Tool Use</em> (Agent nutzt Tool-Ergebnisse für nächste Entscheidung).</td>
+          <td>Nur iterative Tool Use ist genuin agentisch. Single-shot Tool Use (z.B. Function Calling in einem Chat) ist eine LLM-Fähigkeit, kein Agentenmerkmal. Die Verwechslung der beiden ist weit verbreitet.</td>
+          <td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ═══════ LAYER 2 ═══════ -->
+<section class="layer-arch">
+  <div class="layer-header">
+    <span class="layer-number">02</span>
+    <span class="layer-title">Architekturmuster — Wie werden Agenten strukturiert?</span>
+  </div>
+  <p class="layer-desc">Kompositionsmuster: Vom einfachen Chain bis zum dynamischen Multi-Agent-System. Wichtig: Nicht jedes Muster ist agentisch.</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Konzept</th><th>Definition &amp; Abgrenzung</th><th>Kritische Anmerkungen</th><th class="col-status">Status</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="concept-name">Prompt Chain / Pipeline</span></td>
+          <td>Lineare Kette: Output von Schritt <em>n</em> wird Input für Schritt <em>n+1</em>. Deterministische Abfolge, kein LLM entscheidet über den nächsten Schritt. <span class="abgrenzung">Abgrenzung: Kein Agent — keine autonome Entscheidung über Kontrollfluss.</span></td>
+          <td>In der Originalgrafik als zwei getrennte Konzepte geführt (Prompt Chaining + Agentic Pipeline). Beide beschreiben dasselbe: eine feste Sequenz. Ist die Basis vieler Systeme, aber das Gegenteil von Agentizität.</td>
+          <td class="col-status"><span class="tag tag-nicht">NICHT AG.</span></td>
+        </tr>
+        <tr>
+          <td><span class="concept-name">ReAct</span></td>
+          <td>Spezifisches Prompting-Schema (Yao et al. 2022): <em>Thought → Action → Observation</em> in expliziter Alternation. Das LLM verbalisiert sein Reasoning vor jeder Aktion.</td>
+          <td>Häufig mit dem allgemeinen Konzept „Reasoning + Acting" verwechselt. ReAct ist ein konkretes Paper/Schema, keine Architekturkategorie. Modernere Ansätze (z.B. LangGraph) implementieren denselben Effekt strukturell statt über Prompt-Formatierung.</td>
+          <td class="col-status"><span class="tag tag-agentisch">AGENTISCH</span></td>
+        </tr>
+        <tr>
+          <td><span class="concept-name">Orchestrator</span></td>
+          <td>Zentrale Instanz, die Teilaufgaben verteilt. Unterscheide: <em>Statischer Orchestrator</em> (fester DAG, z.B. Airflow-artig) vs. <em>Dynamischer Orchestrator</em> (LLM entscheidet Routing zur Laufzeit).</td>
+          <td>Nur der dynamische Orchestrator ist agentisch. Die Originalgrafik trennt Orchestrator und LLM Router, aber ein dynamischer Orchestrator <em>ist</em> ein LLM Router. Der Unterschied liegt in der Granularität: Orchestrator verteilt Tasks, Router wählt Modelle.</td>
+          <td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td>
+        </tr>
+        <tr>
+          <td><span class="concept-name">Multi-Agent System</span></td>
+          <td>Mehrere Agenten mit eigenen Rollen, State und Tools, die über definierte Protokolle kommunizieren. Architekturvarianten: hierarchisch (Orchestrator → Subagents), peer-to-peer (Blackboard), oder marktbasiert (Auktionsmechanismen).</td>
+          <td>„Gleichzeitig und koordiniert" (wie im Original) ist naiv — Concurrency erzeugt Race Conditions, State-Konflikte, Deadlocks. Produktive MAS brauchen explizite Koordinationsprotokolle. Auch: Mehr Agenten ≠ bessere Ergebnisse — Kommunikationsoverhead wächst quadratisch.</td>
+          <td class="col-status"><span class="tag tag-agentisch">AGENTISCH</span></td>
+        </tr>
+        <tr>
+          <td><span class="concept-name">Subagent / Delegation</span></td>
+          <td>Ein Agent delegiert eine Teilaufgabe an einen spezialisierten Agenten. Kritische Fragen: Welche Informationen werden übergeben? Wie wird das Ergebnis validiert? Kann der Subagent seinerseits delegieren (rekursive Delegation)?</td>
+          <td>Rekursive Delegation ist das größte Risiko: Ein Subagent, der eigene Subagents spawnt, kann exponentielle Kosten und unkontrollierbare Ausführungsbäume erzeugen. Delegation Policies (Tiefenlimit, Budget-Propagation) sind Pflicht, werden aber selten thematisiert.</td>
+          <td class="col-status"><span class="tag tag-agentisch">AGENTISCH</span></td>
+        </tr>
+        <tr>
+          <td><span class="concept-name">LLM Router</span></td>
+          <td>Wählt pro Anfrage das passende Modell (Größe, Kosten, Latenz, Fähigkeit). Kann regelbasiert (if/else), classifier-basiert, oder selbst LLM-basiert sein.</td>
+          <td>Bootstrapping-Problem bei LLM-basiertem Routing: Wer routet den Router? Praktischer Ausweg: leichtgewichtiger Classifier als Router, nicht das teuerste Modell. Funktional Teilmenge des Orchestrators — Eigenständigkeit als Konzept ist diskutabel.</td>
+          <td class="col-status"><span class="tag tag-nicht">NICHT AG.</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ═══════ LAYER 3 ═══════ -->
+<section class="layer-knowledge">
+  <div class="layer-header">
+    <span class="layer-number">03</span>
+    <span class="layer-title">Wissen &amp; Kontext — Woher weiß der Agent, was er weiß?</span>
+  </div>
+  <p class="layer-desc">Wie der Agent auf Wissen zugreift, es speichert und an die Realität anbindet.</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Konzept</th><th>Definition &amp; Abgrenzung</th><th>Kritische Anmerkungen</th><th class="col-status">Status</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="concept-name">Context Window</span></td>
+          <td>Der verfügbare Tokenraum für die aktuelle Anfrage. Fungiert als Arbeitsgedächtnis: Alles, was der Agent „gleichzeitig sehen" kann.</td>
+          <td>„Größer = besser" ist falsch. Empirisch: LLMs nutzen Information in der Mitte langer Kontexte schlecht (Lost-in-the-Middle). Effektive Kontextnutzung erfordert aktives Kontextmanagement (was rein, was raus, in welcher Reihenfolge).</td>
+          <td class="col-status"><span class="tag tag-nicht">NICHT AG.</span></td>
+        </tr>
+        <tr>
+          <td><span class="concept-name">RAG</span></td>
+          <td>Retrieval-Augmented Generation: Vor der Antwort werden relevante Dokumente aus einem externen Korpus abgerufen und in den Kontext injiziert. Varianten: naive RAG (Embed → Retrieve → Generate), Advanced RAG (+ Reranking, Query-Transformation), Agentic RAG (Agent entscheidet iterativ über Retrieval-Strategie).</td>
+          <td>RAG <em>reduziert</em> Halluzinationen nicht automatisch — es verlagert das Problem. Der Retrieval-Schritt kann irrelevante Chunks liefern, und das LLM kann über korrekte Chunks halluzinieren. Nur Agentic RAG (iteratives Retrieval mit Qualitätsprüfung) ist genuin agentisch.</td>
+          <td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td>
+        </tr>
+        <tr>
+          <td><span class="concept-name">Memory</span></td>
+          <td>Persistenz über einzelne Interaktionen hinaus. Drei Typen: <em>Episodisch</em> (Logs vergangener Interaktionen), <em>Semantisch</em> (Fakten, Regeln — in Vektor-DBs, KGs, oder strukturierten DBs), <em>Prozedural</em> (gelernte Handlungsmuster, z.B. „so habe ich dieses Problem zuletzt gelöst").</td>
+          <td>Die Originalgrafik reduziert auf „Short-term = Context, Long-term = Vektor-DB". Das ist zu eng: Knowledge Graphs, SQL-Datenbanken, episodische Logs sind gleichwertige Persistenzformen. Prozedurale Memory (der Agent merkt sich <em>wie</em>, nicht nur <em>was</em>) fehlt fast überall.</td>
+          <td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td>
+        </tr>
+        <tr>
+          <td><span class="concept-name">Grounding</span></td>
+          <td>Verankerung von Agentenaussagen an verifizierbaren externen Quellen. Methoden: Zitierung mit Quellenangabe, Faktencheck gegen strukturierte Daten, Tool-Aufrufe zur Verifikation.</td>
+          <td>Das Originalbild verwechselt zwei Dinge: Grounding im NLP-Sinn (Sprache ↔ Weltwissen) und Grounding als Faktenverifizierung. Zudem: Wer entscheidet, was eine „trusted source" ist? Diese Meta-Frage ist selbst ungelöst und politisch aufgeladen.</td>
+          <td class="col-status"><span class="tag tag-nicht">NICHT AG.</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ═══════ LAYER 4 ═══════ -->
+<section class="layer-control">
+  <div class="layer-header">
+    <span class="layer-number">04</span>
+    <span class="layer-title">Steuerung &amp; Sicherheit — Wie wird der Agent kontrolliert?</span>
+  </div>
+  <p class="layer-desc">Mechanismen, die verhindern, dass autonome Agenten Schaden anrichten — vom Leitplanken-System bis zur menschlichen Aufsicht.</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Konzept</th><th>Definition &amp; Abgrenzung</th><th>Kritische Anmerkungen</th><th class="col-status">Status</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="concept-name">Guardrails</span></td>
+          <td>Sicherheitsgrenzen auf drei Ebenen: <em>Input-Guardrails</em> (Prompt Injection Detection, Content-Filter), <em>Execution-Guardrails</em> (Tool-Whitelisting, Rate Limits), <em>Output-Guardrails</em> (Compliance-Checks, PII-Redaktion).</td>
+          <td>Das Originalbild nennt nur „safety boundaries" ohne Differenzierung. Kritisch: LLM-basierte Guardrails sind selbst durch Prompt Injection angreifbar. Robuste Systeme brauchen nicht-LLM-basierte Guardrails (Regex, Classifier, deterministische Regeln) als äußere Schicht.</td>
+          <td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td>
+        </tr>
+        <tr>
+          <td><span class="concept-name">Sandboxing</span></td>
+          <td>Isolation der Agentenausführung von Produktivsystemen. Betrifft nicht nur Code-Ausführung, sondern auch API-Calls (Sandbox-Endpoints), Datenzugriff (Read-only-Modi), State-Isolation (Agent kann Produktions-State nicht mutieren).</td>
+          <td>Das Originalbild verengt auf „run code safely". Produktive Sandboxes sind mehrdimensional: Netzwerk-Isolation, Dateisystem-Isolation, API-Scope-Limitation, Budget-Caps. Container (Docker) allein sind kein Sandbox — der Agent braucht auch eingeschränkte Credentials.</td>
+          <td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td>
+        </tr>
+        <tr>
+          <td><span class="concept-name">Human-in-the-Loop</span></td>
+          <td>Menschliche Intervention im Agenten-Workflow. Drei Modi: <em>Approval Gate</em> (binär: ja/nein vor kritischen Aktionen), <em>Steering</em> (Mensch gibt neue Richtung vor), <em>Escalation</em> (Agent eskaliert bei Unsicherheit an Menschen).</td>
+          <td>Die Originalgrafik kennt nur den Approval-Modus. In der Praxis ist Steering (Mensch korrigiert Kurs mid-flight) oft wichtiger. Auch: HITL skaliert nicht — bei 1000 Agentenläufen pro Stunde kann kein Mensch jede Approval-Anfrage prüfen. Risiko-basiertes HITL (nur bei hoher Unsicherheit) ist die Praxis.</td>
+          <td class="col-status"><span class="tag tag-agentisch">AGENTISCH</span></td>
+        </tr>
+        <tr>
+          <td><span class="concept-name">Reflection</span></td>
+          <td>Der Agent evaluiert sein eigenes Output und revidiert bei erkannten Fehlern. Varianten: Self-Critique (Agent bewertet sich selbst), Verification (Agent prüft Output gegen Spec), Multi-Perspective (verschiedene Prompts bewerten dasselbe Ergebnis).</td>
+          <td>Fundamentales Problem: Reflection ist nur so gut wie die Evaluationsfähigkeit des Modells. Ein Modell, das seinen eigenen Fehler nicht erkennt, „reflektiert" im Kreis. Multi-Perspective Reflection (z.B. vier unabhängige LLM-Passes wie in der SDD Phase 2) ist deutlich robuster als Single-Pass Self-Critique.</td>
+          <td class="col-status"><span class="tag tag-agentisch">AGENTISCH</span></td>
+        </tr>
+        <tr class="new-row">
+          <td><span class="concept-name">Error Recovery</span> <span class="tag tag-neu">ERGÄNZT</span></td>
+          <td>Strategien für den Umgang mit Fehlern zur Laufzeit: Retry mit Backoff, Fallback auf alternatives Tool/Modell, Graceful Degradation (reduziertes Ergebnis statt Totalausfall), Checkpoint/Resume.</td>
+          <td>Fehlt in fast allen populären Übersichten, ist aber in der Produktion das Konzept mit dem höchsten ROI. Ohne Error Recovery ist jeder Agent fragil. LangGraph bietet Checkpointing; die meisten Frameworks ignorieren das Thema.</td>
+          <td class="col-status"><span class="tag tag-agentisch">AGENTISCH</span></td>
+        </tr>
+        <tr class="new-row">
+          <td><span class="concept-name">Trust Chains &amp; Confused Deputy</span> <span class="tag tag-neu">ERGÄNZT</span></td>
+          <td>In Multi-Agent-Systemen: Wenn Agent A Agent B eine Aufgabe delegiert, handelt B mit den Berechtigungen von A. Wird B manipuliert (z.B. via Prompt Injection in einem Dokument), kann B die Berechtigungen von A missbrauchen — das Confused-Deputy-Problem.</td>
+          <td>Das größte ungelöste Sicherheitsproblem in agentic AI. Die Originalgrafik nennt Guardrails und Sandboxing, aber nicht die transitive Vertrauenskette, die beide unterminieren kann. Jeder Agent mit Tool-Zugriff und Input aus nicht-vertrauenswürdigen Quellen ist potenziell betroffen.</td>
+          <td class="col-status"><span class="tag tag-agentisch">AGENTISCH</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ═══════ LAYER 5 ═══════ -->
+<section class="layer-ops">
+  <div class="layer-header">
+    <span class="layer-number">05</span>
+    <span class="layer-title">Betrieb &amp; Qualität — Wie weiß man, ob der Agent funktioniert?</span>
+  </div>
+  <p class="layer-desc">Evaluation, Monitoring, Observability — die Konzepte, die in der Produktion den Unterschied zwischen Demo und Deployment machen.</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Konzept</th><th>Definition &amp; Abgrenzung</th><th>Kritische Anmerkungen</th><th class="col-status">Status</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="concept-name">Evaluation (Evals)</span></td>
+          <td>Systematisches Testen von Agentenverhalten. Dimensionen: <em>End-to-End</em> (Ergebnis korrekt?) vs. <em>Step-Level</em> (jeder Schritt sinnvoll?). Methoden: deterministische Checks, LLM-as-Judge, Human Eval. Offline (vor Deployment) vs. Online (in Produktion).</td>
+          <td>Das Originalbild suggeriert, Evals seien gelöst („test whether an agent performs correctly"). Tatsächlich ist Agent-Evaluation ein offenes Forschungsproblem: Welche Metrik? Wie reproduzierbar? Wie bewertet man Zwischenschritte, wenn nur das Endergebnis zählt?</td>
+          <td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td>
+        </tr>
+        <tr class="new-row">
+          <td><span class="concept-name">Observability</span> <span class="tag tag-neu">ERGÄNZT</span></td>
+          <td>Laufzeit-Transparenz: Traces (welche Schritte hat der Agent gemacht?), Logs (was hat er „gedacht"?), Metriken (Latenz, Token-Verbrauch, Fehlerrate pro Schritt). Tools: LangSmith, Arize Phoenix, Braintrust u.a.</td>
+          <td>Fehlt komplett in der Originalgrafik. Ohne Observability ist jeder Agent eine Black Box. In der Produktion ist „der Agent hat das falsche Ergebnis geliefert" nutzlos — man braucht: „In Schritt 3 hat er Tool X mit Parametern Y aufgerufen und Ergebnis Z bekommen, woraufhin er fälschlich zu Schritt 5 gesprungen ist."</td>
+          <td class="col-status"><span class="tag tag-agentisch">AGENTISCH</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ═══════ LAYER 6 ═══════ -->
+<section class="layer-integ">
+  <div class="layer-header">
+    <span class="layer-number">06</span>
+    <span class="layer-title">Integration &amp; Konfiguration — Wie wird der Agent angebunden und eingestellt?</span>
+  </div>
+  <p class="layer-desc">Schnittstellen-Protokolle und Konfigurationskonzepte — wichtig, aber nicht genuin agentisch.</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Konzept</th><th>Definition &amp; Abgrenzung</th><th>Kritische Anmerkungen</th><th class="col-status">Status</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="concept-name">MCP / Tool-Protokolle</span></td>
+          <td>Standardisierte Schnittstellen zwischen Agent und Tools. MCP (Anthropic) ist ein Vorschlag, nicht der einzige: OpenAI Function Calling, Google Genkit, LangChain Tool-Interface sind Alternativen. Alle lösen dasselbe Problem: Wie beschreibt ein Tool seine Fähigkeiten maschinenlesbar?</td>
+          <td>Das Originalbild nennt MCP „the universal connector" — das ist Marketing, kein Fakt. MCP hat gute Verbreitung, aber kein De-facto-Monopol. Die Wahl des Protokolls ist eine Infrastrukturentscheidung, kein agentisches Konzept.</td>
+          <td class="col-status"><span class="tag tag-nicht">NICHT AG.</span></td>
+        </tr>
+        <tr>
+          <td><span class="concept-name">Agent Persona / System Prompt</span></td>
+          <td>Instruktionen, die Ton, Verhalten und Grenzen des Agenten definieren. Auch bei nicht-agentischen LLM-Anwendungen Standard. <span class="abgrenzung">Abgrenzung: Konfiguration, kein Architekturmuster.</span></td>
+          <td>Die Aufnahme als „agentic concept" im Original ist kategorial falsch. Jeder Chatbot hat eine System Prompt. Was bei Agenten spezifisch wird: Persona muss über viele autonome Schritte stabil bleiben — das erfordert Reinforcement durch Wiederholung oder strukturelle Maßnahmen (z.B. Persona in jedem Sub-Prompt).</td>
+          <td class="col-status"><span class="tag tag-nicht">NICHT AG.</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+</body>
+</html>

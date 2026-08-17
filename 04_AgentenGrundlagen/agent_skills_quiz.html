@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Skills – Wissens-Check</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        
+        /* Sticky Header für Fortschritt und Fehler */
+        .status-bar {
+            position: sticky;
+            top: 0;
+            background: white;
+            padding: 15px 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .status-info {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .mistakes {
+            color: #dc3545;
+        }
+
+        /* Fortschrittsbalken */
+        .progress-container {
+            width: 100%;
+            background-color: #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            height: 12px;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background-color: #28a745;
+            width: 0%;
+            transition: width 0.4s ease;
+        }
+
+        /* Container für alle Fragen */
+        .quiz-container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .quiz-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        h1 { text-align: center; color: #2c3e50; margin-top: 40px; }
+        
+        .question-title {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .question-text {
+            font-size: 1.2rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        button {
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            background: white;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.2s;
+            text-align: left;
+        }
+
+        button:hover:not([disabled]) {
+            background-color: #f0f8ff;
+            border-color: #3498db;
+        }
+
+        button:disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+        button.correct {
+            background-color: #d4edda !important;
+            border-color: #28a745 !important;
+            color: #155724;
+        }
+
+        button.wrong {
+            background-color: #f8d7da !important;
+            border-color: #dc3545 !important;
+            color: #721c24;
+            text-decoration: line-through;
+        }
+
+        .feedback {
+            margin-top: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            display: none;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .feedback.correct-feedback {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .feedback.wrong-feedback {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .final-result {
+            display: none;
+            text-align: center;
+            background: #e8f4fd;
+            border: 2px solid #3498db;
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 40px;
+        }
+
+        code {
+            font-family: Consolas, 'Courier New', monospace;
+            background: rgba(0,0,0,0.06);
+            padding: 1px 5px;
+            border-radius: 4px;
+            font-size: 0.92em;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Fixierte Statusleiste -->
+<div class="status-bar">
+    <div class="status-info">
+        <span>Fortschritt: <span id="progress-text">0%</span></span>
+        <span class="mistakes">Fehler: <span id="mistake-counter">0</span></span>
+    </div>
+    <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+    </div>
+</div>
+
+<h1>Agent Skills richtig bauen</h1>
+
+<!-- Hier werden alle Fragen dynamisch reingeladen -->
+<div class="quiz-container" id="quiz-container"></div>
+
+<!-- Abschlussmeldung -->
+<div class="quiz-container">
+    <div class="final-result" id="final-result">
+        <h2>Quiz abgeschlossen!</h2>
+        <p>Du hast alle Fragen beantwortet. Insgesamt hast du <strong id="final-mistakes">0</strong> Fehler gemacht.</p>
+        <button onclick="location.reload()" style="background: #3498db; color: white; border: none; text-align: center; margin-top: 15px;">Quiz neustarten</button>
+    </div>
+</div>
+
+<script>
+    // MODULARITÄT: Hier einfach weitere Objekte hinzufügen, um neue Fragen zu generieren.
+    const questions = [
+        {
+            text: "Welches Wissen gehört in erster Linie in einen Agent Skill?",
+            options: [
+                "Grundlagenwissen zum Fachgebiet, damit das Modell den Kontext überhaupt versteht.",
+                "Die hausinternen Regeln, Ausnahmen und Stolperfallen, die das Modell nicht kennen kann.",
+                "Möglichst viele Beispieldaten, aus denen das Modell selbst Muster ableitet.",
+                "Die technische Dokumentation der eingesetzten Software."
+            ],
+            correct: 1,
+            explanation: "Genau. Ein Skill vermittelt prozedurales Wissen – also das „Wie“ Ihres Hauses. Das Modell weiß bereits, wie man einen Prüfungsbogen schreibt. Es weiß aber nicht, dass bei Ihnen jede Aufgabe einer Handlungskompetenz zugeordnet wird. Grundlagen zu erklären kostet nur Kontext und bringt nichts."
+        },
+        {
+            text: "Wie ist ein Agent Skill technisch aufgebaut?",
+            options: [
+                "Als einzelne Textdatei namens skill.md ohne feste Struktur.",
+                "Als zusätzlicher Abschnitt in der Konfigurationsdatei des Agenten.",
+                "Als JSON-Datei, die beim Start des Agenten vollständig eingelesen wird.",
+                "Als Ordner mit einer SKILL.md, die einen YAML-Kopf mit name und description enthält.",
+            ],
+            correct: 3,
+            explanation: "Richtig. Ein Skill ist ein Verzeichnis, keine einzelne Datei. Neben der <code>SKILL.md</code> – Großschreibung ist verbindlich – gehören dazu <code>references/</code> für Hintergrundwissen, <code>scripts/</code> für ausführbaren Code und <code>assets/</code> für Vorlagen."
+        },
+        {
+            text: "Welcher Teil eines Skills liegt dauerhaft im Kontextfenster – also auch dann, wenn der Skill gerade gar nicht gebraucht wird?",
+            options: [
+                "Der komplette Haupttext der SKILL.md.",
+                "Alle Dateien aus dem references-Ordner.",
+                "Nur name und description.",
+                "Nichts davon – alles wird ausschließlich bei Bedarf geladen."
+            ],
+            correct: 2,
+            explanation: "Korrekt. Das ist Ebene 1 des Drei-Ebenen-Modells, rund 100 Token pro Skill. Erst wenn die Beschreibung zieht, wird der Haupttext geladen (Ebene 2), und erst danach kommen Referenzen und Skripte in Frage (Ebene 3). Zieht die Beschreibung nicht, kommt das Modell an den Rest nie heran."
+        },
+        {
+            text: "Häufig wird empfohlen, die Beschreibung eines Skills eher offensiv („pushy“) zu formulieren. Warum greift dieser Rat zu kurz?",
+            options: [
+                "Weil lange Beschreibungen zu viele Token verbrauchen und den Agenten verlangsamen.",
+                "Weil der Agent Beschreibungen ohnehin ignoriert und sich nur am Namen orientiert.",
+                "Weil ein Skill auch zu oft greifen kann und sich die Beschreibungen bei vielen Skills überschneiden.",
+                "Weil nachdrückliche Formulierungen gegen die YAML-Syntax verstoßen."
+            ],
+            correct: 2,
+            explanation: "Genau. Untertriggern und Übertriggern sind beide Fehlermodi. Wer zehn Skills installiert und alle Beschreibungen möglichst nachdrücklich formuliert, bekommt Kollisionen – der Agent zieht den falschen Skill. Hilfreich ist nicht Lautstärke, sondern Trennschärfe: das Vokabular Ihrer Nutzer aufnehmen und ausdrücklich abgrenzen („Nicht verwenden für …“)."
+        },
+        {
+            text: "Ihre Lernenden sollen künftig Fragen zu einer 200-seitigen Verordnung beantwortet bekommen. Welches Mittel passt dafür am besten?",
+            options: [
+                "RAG, denn es geht um deklaratives Faktenwissen zum Nachschlagen.",
+                "Ein Agent Skill, in dessen Haupttext der Verordnungstext steht.",
+                "Ein MCP-Server, weil ein Dokument angebunden werden muss.",
+                "Fine-Tuning, weil die Verordnung dauerhaft verfügbar sein soll."
+            ],
+            correct: 0,
+            explanation: "Richtig. Die Faustregel lautet: Fakten, die nachgeschlagen werden sollen, gehören ins RAG. Der Zugriff auf ein System läuft über MCP. Ein Skill ist dagegen für einen wiederkehrenden Arbeitsablauf nach eigenen Regeln gedacht – nicht als Ablage für Textmengen."
+        },
+        {
+            text: "Warum liefert die Bitte „Schreib mir einen Skill für Prüfungsaufgaben“ meist ein unbrauchbares Ergebnis?",
+            options: [
+                "Weil Sprachmodelle die nötige YAML-Syntax nicht zuverlässig beherrschen.",
+                "Weil der erzeugte Skill regelmäßig das Token-Limit überschreitet.",
+                "Weil dabei nur allgemeines Lehrbuchwissen entsteht, das das Modell ohnehin schon hat.",
+                "Weil selbst erzeugte Skills automatisch als Sicherheitsrisiko eingestuft werden."
+            ],
+            correct: 2,
+            explanation: "Exakt. Der Skill kostet dann Kontext, ohne etwas beizutragen. Entscheidend ist nicht, wer tippt, sondern woher der Inhalt stammt: Geben Sie dem Modell Ihre eigenen Artefakte – Musterdokumente, alte Korrekturkommentare, Checklisten – und redigieren Sie den Entwurf anschließend selbst."
+        },
+        {
+            text: "Welcher Schritt gehört am ehesten in ein deterministisches Skript statt ins Modell?",
+            options: [
+                "Eine Aufgabenstellung sprachlich an das DQR-Niveau anpassen.",
+                "Prüfen, ob die Punktesumme aller Aufgaben genau 100 ergibt.",
+                "Entscheiden, welche Themen in der Prüfung vorkommen sollen.",
+                "Auf eine unklar formulierte Rückfrage einer Lernenden reagieren."
+            ],
+            correct: 1,
+            explanation: "Korrekt. Die Faustregel: Gibt es genau eine richtige Antwort und wiederholt sich der Schritt, gehört er in Code. Erfordert er Urteilsvermögen oder muss er mit unerwartetem Input umgehen, bleibt er beim Modell. Rechnen ist der klassische Fall, bei dem Modelle raten – überzeugend, aber falsch."
+        },
+        {
+            text: "Was ist das zentrale Sicherheitsproblem beim Einsatz fremder Skills?",
+            options: [
+                "Fremde Skills senken messbar die sprachliche Qualität der Antworten.",
+                "Fremde Skills lassen sich nach der Installation nicht mehr entfernen.",
+                "Ein Skill erbt den vollen Laufzeitkontext des Agenten – also auch dessen Zugriffsrechte.",
+                "Fremde Skills überschreiben die Systemanweisungen des Agenten dauerhaft."
+            ],
+            correct: 2,
+            explanation: "Richtig. Hat der Agent Zugriff auf ein GitHub-Token oder eine Datenbankverbindung, hat jeder installierte Skill diesen Zugriff ebenfalls; eine Rechtegrenze pro Skill gibt es meist nicht. Das Audit von Snyk (Februar 2026) fand bei knapp 4.000 öffentlichen Skills 13,4 % mit kritischen Mängeln. Prompt Injections stecken dabei häufig nicht im Code, sondern in den Textdateien unter <code>references/</code>."
+        },
+        {
+            text: "Warum genügt es nicht, bei einem neuen Skill nur zu prüfen, ob das Ergebnis stimmt?",
+            options: [
+                "Weil Ergebnisse bei Sprachmodellen grundsätzlich nicht reproduzierbar sind.",
+                "Weil Ergebnistests erst nach der offiziellen Freigabe zulässig sind.",
+                "Weil die Ergebnisqualität ausschließlich vom Anbieter beurteilt werden darf.",
+                "Weil zusätzlich zu prüfen ist, ob der Skill überhaupt greift – und ob er bei Nachbaraufgaben schweigt.",
+            ],
+            correct: 3,
+            explanation: "Genau. Ein Skill kann auf zwei Arten scheitern, deshalb braucht es zwei Tests: den Auslösetest und den Ergebnistest. In der Sprache der spezifikationsgetriebenen Entwicklung ist die <code>SKILL.md</code> die Spezifikation und der Satz an Testprompts sind die Abnahmekriterien – nach jeder Änderung erneut durchlaufen."
+        },
+        {
+            text: "Worin besteht die innere Spannung zwischen der ersten und der vierten Best Practice?",
+            options: [
+                "Die vierte Regel verlangt Determinismus, während die Entscheidung über den Einsatz des Skills selbst probabilistisch bleibt.",
+                "Die erste Regel verbietet Skripte, die vierte schreibt sie ausdrücklich vor.",
+                "Beide Regeln beziehen sich auf dasselbe YAML-Feld und schließen sich formal aus.",
+                "Es gibt keine Spannung – die beiden Regeln betreffen völlig getrennte Ebenen."
+            ],
+            correct: 0,
+            explanation: "Sehr gut erkannt. Wir kapseln die unzuverlässigen Schritte sauber in Code – aber ob diese Kapsel überhaupt geöffnet wird, entscheidet wieder ein Sprachmodell anhand eines Textvergleichs. Daraus folgt die Einsatzregel: Ein Skill lohnt sich vor allem für Aufgaben, die regelmäßig wiederkehren, hausinternen Regeln folgen und von mehreren Personen gleich erledigt werden sollen."
+        }
+    ];
+
+    // Globale Variablen für den Zustand
+    let correctCount = 0;
+    let mistakeCount = 0;
+
+    // Initialisierung des Quiz
+    function initQuiz() {
+        const container = document.getElementById('quiz-container');
+
+        questions.forEach((q, qIndex) => {
+            // Karte für jede Frage erstellen
+            const card = document.createElement('div');
+            card.className = 'quiz-card';
+            card.id = `question-card-${qIndex}`;
+
+            const title = document.createElement('div');
+            title.className = 'question-title';
+            title.textContent = `Frage ${qIndex + 1} von ${questions.length}`;
+
+            const text = document.createElement('div');
+            text.className = 'question-text';
+            text.textContent = q.text;
+
+            const optionsContainer = document.createElement('div');
+            optionsContainer.className = 'options';
+
+            // Buttons für Antworten generieren
+            q.options.forEach((opt, optIndex) => {
+                const btn = document.createElement('button');
+                btn.textContent = opt;
+                btn.onclick = () => handleAnswer(qIndex, optIndex, btn);
+                optionsContainer.appendChild(btn);
+            });
+
+            // Feedback-Bereich (initial versteckt)
+            const feedback = document.createElement('div');
+            feedback.className = 'feedback';
+            feedback.id = `feedback-${qIndex}`;
+
+            // Alles zusammenbauen
+            card.appendChild(title);
+            card.appendChild(text);
+            card.appendChild(optionsContainer);
+            card.appendChild(feedback);
+            container.appendChild(card);
+        });
+    }
+
+    // Logik bei Klick auf eine Antwort
+    function handleAnswer(qIndex, optIndex, btnElement) {
+        const q = questions[qIndex];
+        const card = document.getElementById(`question-card-${qIndex}`);
+        const feedback = document.getElementById(`feedback-${qIndex}`);
+
+        // Prüfen, ob die Frage bereits erfolgreich gelöst wurde
+        if (card.classList.contains('completed')) return; 
+
+        if (optIndex === q.correct) {
+            // --- RICHTIGE ANTWORT ---
+            btnElement.classList.add('correct');
+            card.classList.add('completed'); // Markiert die Frage als gelöst
+
+            // Alle Buttons dieser Frage deaktivieren
+            const allBtns = card.querySelectorAll('button');
+            allBtns.forEach(b => b.disabled = true);
+
+            // Positives Feedback anzeigen
+            feedback.className = 'feedback correct-feedback';
+            feedback.innerHTML = `<strong>Richtig!</strong> ${q.explanation}`;
+            feedback.style.display = 'block';
+
+            correctCount++;
+            updateProgress();
+
+        } else {
+            // --- FALSCHE ANTWORT ---
+            btnElement.classList.add('wrong');
+            btnElement.disabled = true; // Nur diesen Button deaktivieren, damit man es nochmal versuchen kann
+
+            // Fehler-Counter erhöhen
+            mistakeCount++;
+            document.getElementById('mistake-counter').textContent = mistakeCount;
+
+            // Negatives Feedback anzeigen
+            feedback.className = 'feedback wrong-feedback';
+            feedback.innerHTML = `<strong>Leider falsch.</strong> Versuche es noch einmal!`;
+            feedback.style.display = 'block';
+        }
+    }
+
+    // Fortschrittsbalken und Abschlussprüfung
+    function updateProgress() {
+        const percent = Math.round((correctCount / questions.length) * 100);
+        document.getElementById('progress-bar').style.width = percent + '%';
+        document.getElementById('progress-text').textContent = percent + '%';
+
+        // Wenn alle Fragen richtig beantwortet wurden
+        if (correctCount === questions.length) {
+            document.getElementById('final-mistakes').textContent = mistakeCount;
+            document.getElementById('final-result').style.display = 'block';
+        }
+    }
+
+    // Quiz beim Laden der Seite starten
+    initQuiz();
+</script>
+
+</body>
+</html>
