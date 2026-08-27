@@ -1,0 +1,67 @@
+@startuml
+' --- GLOBALE LAYOUT-ANWEISUNGEN ---
+' Ändere dies auf "left to right direction" für ein horizontales Layout
+top to bottom direction
+
+skinparam DefaultFontName Arial
+skinparam State {
+    BackgroundColor<<LLM>> #e6f9ec
+    BorderColor<<LLM>> #2e8b57
+    BackgroundColor<<QLLM>> #f9e6e6
+    BorderColor<<QLLM>> #8b2e2e
+    BackgroundColor<<Deterministic>> #f0f4f8
+    BorderColor<<Deterministic>> #4682b4
+}
+
+title LangGraph-Agent: Vollständiger Lauf (full_graph)
+
+' --- STARTPUNKT ---
+[*] -down-> script : set_entry_point
+
+' --- KNOTEN-DEFINITIONEN ---
+state "🤖 **script** (node_script)" as script <<LLM>>
+script : **Skills:** build_script_prompt
+script : **Tools:** call_llm
+script : ----
+script : Erzeugt didaktisches \nMarkdown-Skript.
+
+state "🤖 **termini** (node_termini)" as termini <<LLM>>
+termini : **Skills:** build_termini_prompt
+termini : **Tools:** call_llm, extract_json
+termini : ----
+termini : Extrahiert Fachtermini als\nJSON/Liste.
+
+state "🤖 **quiz** (node_quiz)" as quiz <<LLM>>
+quiz : **Skills:** build_quiz_prompt
+quiz : **Tools:** call_llm, extract_json
+quiz : ----
+quiz : Generiert Quiz-Fragen \nim JSON-Format.
+
+state "🤖 **quality** (node_quality)" as quality <<QLLM>>
+quality : **Skills:** build_checker_prompt
+quality : **Tools:** structural_checks,
+quality :  word_balance_check, call_llm, extract_json
+quality : ----
+quality : Führt programmatische Checks aus und\nbewertet das Ergebnis per LLM.
+
+state "route_full" as route <<choice>>
+
+state "⚙️ **render** (node_render)" as render <<Deterministic>>
+render : **Skills:** keine
+render : **Tools:** build_quiz_html
+render : ----
+render : Injiziert die JSON-Fragen in\ndas HTML-Template.
+
+' --- KANTEN / VERBINDUNGEN (inkl. Layout-Anweisungen) ---
+script -down-> termini
+termini -down-> quiz
+quiz -down-> quality
+
+quality -down-> route
+
+route -down-> render : **render**\nscript_ok & quiz_ok\nODER\n Iterationen >= MAX
+route -up-> script : **rewrite_script**\nMängel im Skript
+route -up-> quiz : **rewrite_quiz**\nMängel im Quiz
+
+render -down-> [*] : END
+@enduml
