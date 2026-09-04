@@ -1,0 +1,513 @@
+{
+  "quelle_datei": "Zimbardo_Psychologie_18Aufl_Extracted.pdf",
+  "seite": 0,
+  "seite_breite_pt": 594.7655029296875,
+  "seite_hoehe_pt": 793.19091796875,
+  "render_dpi": 200,
+  "bild_breite_px": 1653,
+  "bild_hoehe_px": 2204,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.854204535484314,
+      "bbox": {
+        "x0": 201.7098846435547,
+        "y0": 86.95303344726562,
+        "x1": 734.1788940429688,
+        "y1": 118.19275665283203,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 11,
+      "polygon": [
+        [
+          201.0,
+          86.0
+        ],
+        [
+          201.0,
+          117.0
+        ],
+        [
+          733.0,
+          117.0
+        ],
+        [
+          733.0,
+          86.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Sensorische Prozesse und Wahrnehmung",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 18,
+      "pp_label": "table",
+      "score": 0.8735206723213196,
+      "bbox": {
+        "x0": 357.2670593261719,
+        "y0": 199.13636779785156,
+        "x1": 1284.9688720703125,
+        "y1": 1114.0621337890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 26,
+      "polygon": [
+        [
+          357.0,
+          199.0
+        ],
+        [
+          357.0,
+          1113.0
+        ],
+        [
+          1283.0,
+          1113.0
+        ],
+        [
+          1283.0,
+          199.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "<fcel>A. Eben merklich längere Striche<fcel>B. Standard-strichlänge<fcel>L_{a} - L_{b} = \\(\\Delta L\\)<nl><fcel>11 mm<fcel>10 mm<fcel>11,0 - 10,0 = 1,0<nl><fcel>16,5 mm<fcel>15 mm<fcel>16,5 - 15,0 = 1,5<nl><fcel>22 mm<fcel>20 mm<fcel>22,0 - 20,0 = 2,0<nl><fcel>27,5 mm<fcel>25 mm<fcel>27,5 - 25,0 = 2,5<nl>",
+      "text_format": "otsl",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 9,
+      "pp_label": "inline_formula",
+      "score": 0.6693775057792664,
+      "bbox": {
+        "x0": 1082.4388427734375,
+        "y0": 218.79830932617188,
+        "x1": 1232.0950927734375,
+        "y1": 257.4336242675781,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 39,
+      "polygon": [
+        [
+          1082.0,
+          218.0
+        ],
+        [
+          1082.0,
+          256.0
+        ],
+        [
+          1231.0,
+          256.0
+        ],
+        [
+          1231.0,
+          218.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "$L_{a}-L_{b}=\\Delta L$",
+      "text_format": "latex",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 0,
+      "pp_label": "chart",
+      "score": 0.6751235127449036,
+      "bbox": {
+        "x0": 547.894775390625,
+        "y0": 656.9318237304688,
+        "x1": 1284.2506103515625,
+        "y1": 1110.498291015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 152,
+      "polygon": [
+        [
+          556.0,
+          656.0
+        ],
+        [
+          556.0,
+          1109.0
+        ],
+        [
+          1035.0,
+          1109.0
+        ],
+        [
+          1044.0,
+          1109.0
+        ],
+        [
+          1283.0,
+          1109.0
+        ],
+        [
+          1275.0,
+          656.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Standardstrichlänge (L_b) in Millimetern | Unterschiedsschwelle (ΔL/L_b = 0,1)\n6 | 0.5\n10 | 1.0\n15 | 1.5\n20 | 2.0\n25 | 2.5",
+      "text_format": "datenreihe",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 4,
+      "pp_label": "figure_title",
+      "score": 0.9328699707984924,
+      "bbox": {
+        "x0": 199.08338928222656,
+        "y0": 1138.8367919921875,
+        "x1": 1444.2237548828125,
+        "y1": 1341.1771240234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 175,
+      "polygon": [
+        [
+          199.0,
+          1138.0
+        ],
+        [
+          199.0,
+          1340.0
+        ],
+        [
+          1435.0,
+          1340.0
+        ],
+        [
+          1443.0,
+          1149.0
+        ],
+        [
+          1427.0,
+          1138.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Abbildung 4.8: Eben merkliche Unterschiede und Weber‘sches Gesetz. Angenommen, Sie führen ein Experiment durch, dessen Teilnehmer angeben sollen, ob zwei Striche gleich oder verschieden lang sind. Je länger der Referenzstrich, desto größer ist die hinzu-zufügende Länge (ΔL) von Vergleichsstrichen, um einen eben merklichen Unterschied zu erzielen. Die Unterschiedsschwelle ist die jeweils zu addierende Länge, damit in je der Hälfte der Fälle ein Unterschied erkannt wird. Wenn dieser jeweilige Zuwachs gegen die steigende Länge der Referenzstriche abgetragen wird, bleibt der Quotient gleich. Der benötigte Zuwachs ist immer ein Zehntel der Standardlänge. Die Beziehung ist linear, was sich in der Grafik als Gerade ausdrückt. Wir können vorhersagen, dass ∆L bei einem Referenzstrich von 5 Millimetern 0,5 Millimeter betragen wird.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 10,
+      "pp_label": "figure_title",
+      "score": 0.6227594017982483,
+      "bbox": {
+        "x0": 242.4066925048828,
+        "y0": 1485.58984375,
+        "x1": 762.0869140625,
+        "y1": 1565.4688720703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 219,
+      "polygon": [
+        [
+          242.0,
+          1485.0
+        ],
+        [
+          242.0,
+          1564.0
+        ],
+        [
+          761.0,
+          1564.0
+        ],
+        [
+          761.0,
+          1485.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Weber‘sche Konstanten für ausgewählte Reizdimensionen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 2,
+      "pp_label": "table",
+      "score": 0.8819442987442017,
+      "bbox": {
+        "x0": 237.9770050048828,
+        "y0": 1593.2706298828125,
+        "x1": 763.171630859375,
+        "y1": 1959.390869140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 227,
+      "polygon": [
+        [
+          237.0,
+          1593.0
+        ],
+        [
+          237.0,
+          1947.0
+        ],
+        [
+          257.70237562719876,
+          1945.925876738749
+        ],
+        [
+          313.0,
+          1958.0
+        ],
+        [
+          762.0,
+          1958.0
+        ],
+        [
+          762.0,
+          1593.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "<fcel>Reizdimension<fcel>Weber’sche Konstante (k)<nl><fcel>Schallfrequenz<fcel>0,003<nl><fcel>Lichtintensität<fcel>0,01<nl><fcel>Geruchs-konzentration<fcel>0,07<nl><fcel>Druckintensität<fcel>0,14<nl><fcel>Schallintensität<fcel>0,15<nl><fcel>Geschmacks-konzentration<fcel>0,20<nl>",
+      "text_format": "otsl",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9498471617698669,
+      "bbox": {
+        "x0": 833.2445068359375,
+        "y0": 1409.405517578125,
+        "x1": 1442.25732421875,
+        "y1": 1619.77392578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 247,
+      "polygon": [
+        [
+          833.0,
+          1409.0
+        ],
+        [
+          833.0,
+          1618.0
+        ],
+        [
+          1441.0,
+          1618.0
+        ],
+        [
+          1441.0,
+          1409.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Töne besser unterscheiden kann als die Intensität zweier Lichtpunkte. Diese wiederum sind durch einen kleineren EMU besser zu entdecken als Geruchs- oder Geschmacksunterschiede. Ihre Getränkefabrik bräuchte eine relativ große Menge zusätzlichen Zuckers, um eine merklich süßere Cola zu produzieren!",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 6,
+      "pp_label": "paragraph_title",
+      "score": 0.8832626938819885,
+      "bbox": {
+        "x0": 835.658447265625,
+        "y0": 1683.356689453125,
+        "x1": 1389.3409423828125,
+        "y1": 1756.0145263671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 253,
+      "polygon": [
+        [
+          835.0,
+          1683.0
+        ],
+        [
+          835.0,
+          1755.0
+        ],
+        [
+          1388.0,
+          1755.0
+        ],
+        [
+          1388.0,
+          1683.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "4.2.2 Von physikalischen zu mentalen Ereignissen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9513943195343018,
+      "bbox": {
+        "x0": 834.4879150390625,
+        "y0": 1790.361572265625,
+        "x1": 1443.4306640625,
+        "y1": 2000.908203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 259,
+      "polygon": [
+        [
+          834.0,
+          1790.0
+        ],
+        [
+          834.0,
+          1999.0
+        ],
+        [
+          1442.0,
+          1999.0
+        ],
+        [
+          1442.0,
+          1790.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Unser Überblick über die Psychophysik hat Sie vielleicht auf das grundlegende Mysterium von Empfindungen aufmerksam gemacht: Wie werden aus physikalischen Energien spezifische psychische Erfahrungen? Wie entsteht beispielsweise aus Licht unterschiedlicher physikalischer Wellenlängen die Er-",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 7,
+      "pp_label": "footer",
+      "score": 0.5735229253768921,
+      "bbox": {
+        "x0": 25.78386116027832,
+        "y0": 2140.256103515625,
+        "x1": 820.7232666015625,
+        "y1": 2183.180419921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 265,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "118\nPersönliches Exemplar von Herr Hans Wurst vom 27.04.2011, Lesen & Drucken",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        10,
+        11,
+        12
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 3381.241943359375
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 499.9164123535156
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 3225.52294921875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 2124.563232421875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 2332.997314453125
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1063.0738525390625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 2033.6744384765625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1592.6474609375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1097.38623046875
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 2682.404052734375
+    }
+  ],
+  "warnungen": [
+    "Blöcke [10, 11, 12] zu #10 (footer) zusammengeführt.",
+    "Stufe 2: 12.0 s Modellzeit."
+  ]
+}
