@@ -1,0 +1,868 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 117,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 2,
+      "pp_label": "header",
+      "score": 0.8486327528953552,
+      "bbox": {
+        "x0": 112.74998474121094,
+        "y0": 78.80545043945312,
+        "x1": 649.6390991210938,
+        "y1": 105.98117065429688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 4,
+      "polygon": [
+        [
+          112.0,
+          78.0
+        ],
+        [
+          112.0,
+          104.0
+        ],
+        [
+          648.0,
+          104.0
+        ],
+        [
+          648.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "7.5 · Aversiver Rassismus – Wollen und Tun sind zweierlei",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 26,
+      "pp_label": "number",
+      "score": 0.5964765548706055,
+      "bbox": {
+        "x0": 1184.013427734375,
+        "y0": 54.054656982421875,
+        "x1": 1225.4207763671875,
+        "y1": 80.41751098632812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 16,
+      "polygon": [
+        [
+          1184.0,
+          54.0
+        ],
+        [
+          1184.0,
+          79.0
+        ],
+        [
+          1224.0,
+          79.0
+        ],
+        [
+          1224.0,
+          54.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "111",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 14,
+      "pp_label": "number",
+      "score": 0.6842853426933289,
+      "bbox": {
+        "x0": 1383.4141845703125,
+        "y0": 36.428253173828125,
+        "x1": 1417.7398681640625,
+        "y1": 83.23385620117188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 20,
+      "polygon": [
+        [
+          1383.0,
+          36.0
+        ],
+        [
+          1383.0,
+          82.0
+        ],
+        [
+          1416.0,
+          82.0
+        ],
+        [
+          1416.0,
+          36.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "7",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.955768883228302,
+      "bbox": {
+        "x0": 111.3403549194336,
+        "y0": 182.045654296875,
+        "x1": 1013.7088012695312,
+        "y1": 347.3363037109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 43,
+      "polygon": [
+        [
+          111.0,
+          182.0
+        ],
+        [
+          111.0,
+          346.0
+        ],
+        [
+          1012.0,
+          346.0
+        ],
+        [
+          1012.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "60% der dunkelhäutigen Befragten an, dass sie oft (bzw. sehr oft) von weißen Ärzten diskriminiert würden. Und was die Gleichstellung der Geschlechter betrifft, so ist der männliche Anteil in höheren Führungspositionen trotz Emanzipation und Bemühungen zur Geschlechtergleichheit nach wie vor wesentlich höher als derjenige von Frauen (Eagly & Karau, 2002).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.965016782283783,
+      "bbox": {
+        "x0": 110.9996109008789,
+        "y0": 350.581298828125,
+        "x1": 1013.8021850585938,
+        "y1": 645.7418212890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 59,
+      "polygon": [
+        [
+          118.0,
+          350.0
+        ],
+        [
+          118.0,
+          644.0
+        ],
+        [
+          1012.0,
+          644.0
+        ],
+        [
+          1012.0,
+          350.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "(Lagy & Karat, 2002).\nGaertner und Dovidio (1986) haben sich vor dem Hintergrund bestehender Unterschiede zwischen weißen und dunkelhäutigen Amerikanern mit diesem Phänomen befasst. Sie bezeichnen die Dualität von nach außen hin vertretenen Ansichten, die tolerant bzw. offen sind, und den tatsächlich bestehenden Vorurteilen, die sich in Diskriminierung äußern können, als »aversiven Rassismus«. Basierend auf den Arbeiten von Kovel (1970) stellen sie den aversiven Rassismus als eine neuere Form des Rassismus dar. Im Gegensatz zum klassischen Rassismus, bei dem die eigenen Einstellungen offen ausgelebt werden, betrachten sie den aversiven Rassismus eher als unbewusst und subtil.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.5692943334579468,
+      "bbox": {
+        "x0": 113.20728302001953,
+        "y0": 650.583740234375,
+        "x1": 960.1927490234375,
+        "y1": 713.083251953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 75,
+      "polygon": [
+        [
+          113.0,
+          659.0
+        ],
+        [
+          113.0,
+          712.0
+        ],
+        [
+          898.0,
+          712.0
+        ],
+        [
+          907.0,
+          703.0
+        ],
+        [
+          959.0,
+          703.0
+        ],
+        [
+          952.0,
+          650.0
+        ],
+        [
+          152.0,
+          650.0
+        ],
+        [
+          135.0,
+          659.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Charakteristisch für aversiven Rassismus ist hierbei, dass die jeweilige Person 1. zwar bestrebt ist, nach außen hin tolerant und vorurteilsfrei zu wirken,",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9102158546447754,
+      "bbox": {
+        "x0": 112.3188705444336,
+        "y0": 717.167724609375,
+        "x1": 1011.416748046875,
+        "y1": 780.837646484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 86,
+      "polygon": [
+        [
+          112.0,
+          717.0
+        ],
+        [
+          112.0,
+          779.0
+        ],
+        [
+          1010.0,
+          779.0
+        ],
+        [
+          1010.0,
+          717.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2. sie jedoch innerlich negative Gefühle gegenüber der anderen ethnischen Gruppe empfindet (Dovidio & Gaertner, 2004).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9573611617088318,
+      "bbox": {
+        "x0": 111.73174285888672,
+        "y0": 783.7734375,
+        "x1": 1014.3005981445312,
+        "y1": 1016.33203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 98,
+      "polygon": [
+        [
+          1013.0,
+          794.0
+        ],
+        [
+          853.0,
+          783.0
+        ],
+        [
+          830.0,
+          783.0
+        ],
+        [
+          799.0,
+          783.0
+        ],
+        [
+          111.0,
+          794.0
+        ],
+        [
+          111.0,
+          1015.0
+        ],
+        [
+          1013.0,
+          1015.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3. Auch wenn die Person nicht beabsichtigt, sich diskriminierend zu verhalten, so resultieren ihre aversiven (unangenehmen) Gefühle dennoch in einer subtilen Form der Benachteiligung der jeweiligen ethnischen Gruppe. Dies ist vor allem in Situationen der Fall, die mehrdeutig sind bzw. Situationen, die mit Unsicherheit verbunden sind, d. h., wenn diskriminierendes Verhalten auch durch andere Faktoren (nicht die ethnische Zugehörigkeit) subjektiv „gerechtfertigt“ bzw. dahinter leicht versteckt werden kann (Dovidio & Gaertner, 2000; ☐ Abb. 7.4).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 0,
+      "pp_label": "image",
+      "score": 0.9295404553413391,
+      "bbox": {
+        "x0": 418.4359130859375,
+        "y0": 1060.4031982421875,
+        "x1": 1006.8991088867188,
+        "y1": 1617.4249267578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 148,
+      "polygon": [
+        [
+          418.0,
+          1060.0
+        ],
+        [
+          426.0,
+          1472.0
+        ],
+        [
+          434.0,
+          1503.0
+        ],
+        [
+          448.0,
+          1503.0
+        ],
+        [
+          472.0,
+          1606.0
+        ],
+        [
+          998.0,
+          1616.0
+        ],
+        [
+          1005.0,
+          1307.0
+        ],
+        [
+          1005.0,
+          1060.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0117_08_image.png"
+    },
+    {
+      "id": 9,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.9017157554626465,
+      "bbox": {
+        "x0": 1056.9798583984375,
+        "y0": 353.3517761230469,
+        "x1": 1387.5067138671875,
+        "y1": 492.7790832519531,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 186,
+      "polygon": [
+        [
+          1056.0,
+          353.0
+        ],
+        [
+          1056.0,
+          491.0
+        ],
+        [
+          1386.0,
+          491.0
+        ],
+        [
+          1386.0,
+          353.0
+        ],
+        [
+          1303.0,
+          353.0
+        ],
+        [
+          1263.0,
+          353.0
+        ],
+        [
+          1257.0,
+          353.0
+        ],
+        [
+          1225.0,
+          353.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Als aversiven Rassismus bezeichnet man den unbewusst und subtil ausgelebten Rassismus, der auch heutzutage noch häufig in der Gesellschaft anzutreffen ist.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 15,
+      "pp_label": "text",
+      "score": 0.6616668105125427,
+      "bbox": {
+        "x0": 1057.7449951171875,
+        "y0": 653.6293334960938,
+        "x1": 1379.5528564453125,
+        "y1": 707.6339721679688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 196,
+      "polygon": [
+        [
+          1057.0,
+          653.0
+        ],
+        [
+          1057.0,
+          706.0
+        ],
+        [
+          1378.0,
+          706.0
+        ],
+        [
+          1378.0,
+          653.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kennzeichen des aversiven Rassismus sind:",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 16,
+      "pp_label": "text",
+      "score": 0.6971777081489563,
+      "bbox": {
+        "x0": 1060.779052734375,
+        "y0": 710.843505859375,
+        "x1": 1377.931396484375,
+        "y1": 764.373046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 209,
+      "polygon": [
+        [
+          1060.0,
+          719.0
+        ],
+        [
+          1060.0,
+          736.0
+        ],
+        [
+          1068.0,
+          763.0
+        ],
+        [
+          1112.0,
+          763.0
+        ],
+        [
+          1325.0,
+          763.0
+        ],
+        [
+          1376.0,
+          763.0
+        ],
+        [
+          1376.0,
+          719.0
+        ],
+        [
+          1361.0,
+          710.0
+        ],
+        [
+          1068.0,
+          710.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Streben nach vorurteilsfreier bzw. toleranter Außenwirkung,",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 17,
+      "pp_label": "text",
+      "score": 0.7838926911354065,
+      "bbox": {
+        "x0": 1060.962890625,
+        "y0": 768.0169677734375,
+        "x1": 1381.1053466796875,
+        "y1": 819.5408935546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 240,
+      "polygon": [
+        [
+          1060.0,
+          768.0
+        ],
+        [
+          1060.0,
+          788.0
+        ],
+        [
+          1060.0,
+          799.0
+        ],
+        [
+          1060.0,
+          818.0
+        ],
+        [
+          1380.0,
+          818.0
+        ],
+        [
+          1380.0,
+          768.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– negative Gefühle gegenüber der jeweiligen ethnischen Gruppe,c",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.7340055108070374,
+      "bbox": {
+        "x0": 1059.1593017578125,
+        "y0": 821.3487548828125,
+        "x1": 1314.7523193359375,
+        "y1": 847.3626708984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 254,
+      "polygon": [
+        [
+          1059.0,
+          821.0
+        ],
+        [
+          1059.0,
+          846.0
+        ],
+        [
+          1313.0,
+          846.0
+        ],
+        [
+          1313.0,
+          821.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- subtile Diskriminierung.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 12,
+      "pp_label": "figure_title",
+      "score": 0.8941065073013306,
+      "bbox": {
+        "x0": 1058.364990234375,
+        "y0": 1056.619873046875,
+        "x1": 1377.51708984375,
+        "y1": 1138.470703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 260,
+      "polygon": [
+        [
+          1058.0,
+          1056.0
+        ],
+        [
+          1058.0,
+          1137.0
+        ],
+        [
+          1376.0,
+          1137.0
+        ],
+        [
+          1376.0,
+          1056.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Abb. 7.4 Diskriminierung unter dem Deckmantel mangelnder Kompetenz – Der aversive Rassismus",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 15,
+      "query_id": 9,
+      "pp_label": "paragraph_title",
+      "score": 0.7899070978164673,
+      "bbox": {
+        "x0": 153.97850036621094,
+        "y0": 1680.9990234375,
+        "x1": 240.5319366455078,
+        "y1": 1707.69873046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 265,
+      "polygon": [
+        [
+          153.0,
+          1680.0
+        ],
+        [
+          153.0,
+          1706.0
+        ],
+        [
+          239.0,
+          1706.0
+        ],
+        [
+          239.0,
+          1680.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Beispiel",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 16,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9157233834266663,
+      "bbox": {
+        "x0": 151.31710815429688,
+        "y0": 1718.208251953125,
+        "x1": 1374.3233642578125,
+        "y1": 1912.3128662109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 266,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Stellen Sie sich vor, Sie müssten sich für die Einstellung eines Mitarbeiters zwischen einem dunkelhäutigen und einem weißen Bewerber entscheiden und hätten jeweils Informationen zur Qualifikation dieser Kandidaten (Dovidio & Gaertner, 2000). Weisen beide die gleichen Qualifikationen auf (entweder hoch oder niedrig) und Sie entscheiden sich für den weißen Bewerber, so könnte schnell der Eindruck entstehen, sie hätten Vorurteile. Denn wie könnten Sie Ihre Wahl auch rechtfertigen als über das Kriterium der ethnischen Zu- gehörigkeit? Um also nicht als parteiisch zu gelten, würden",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        16,
+        17
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1893.935546875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 546.1986083984375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 2030.0899658203125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1378.4205322265625
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1951.421875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1189.7208251953125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1210.7098388671875
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 3054.021728515625
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 3032.078125
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 2100.5732421875
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 776.3475952148438
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 609.6943969726562
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 775.8347778320312
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 1602.91162109375
+    },
+    {
+      "von": 14,
+      "nach": 15,
+      "konfidenz": 1.0,
+      "marge": 1340.607666015625
+    },
+    {
+      "von": 15,
+      "nach": 16,
+      "konfidenz": 1.0,
+      "marge": 878.1398315429688
+    }
+  ],
+  "warnungen": [
+    "Blöcke [16, 17] zu #16 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.4309436250005092,
+      "zeitstempel": "2026-09-06T14:31:37.528597Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 10.823166584003047,
+      "zeitstempel": "2026-09-06T14:56:32.668720Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

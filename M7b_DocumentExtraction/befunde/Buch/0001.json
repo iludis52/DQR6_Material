@@ -1,0 +1,1024 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 1,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.5773236155509949,
+      "bbox": {
+        "x0": 111.39378356933594,
+        "y0": 268.5074157714844,
+        "x1": 380.47076416015625,
+        "y1": 334.3008117675781,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 38,
+      "polygon": [
+        [
+          111.0,
+          268.0
+        ],
+        [
+          111.0,
+          333.0
+        ],
+        [
+          372.0,
+          333.0
+        ],
+        [
+          379.0,
+          315.0
+        ],
+        [
+          379.0,
+          268.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Dipl. Psych. Kathrin Asal\nUniversität Regensburg",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.580891489982605,
+      "bbox": {
+        "x0": 111.80836486816406,
+        "y0": 368.78857421875,
+        "x1": 412.8438720703125,
+        "y1": 435.289306640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 60,
+      "polygon": [
+        [
+          111.0,
+          368.0
+        ],
+        [
+          111.0,
+          434.0
+        ],
+        [
+          411.0,
+          434.0
+        ],
+        [
+          411.0,
+          368.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Prof. Dr. Joachim I. Krueger Brown University",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.7678835988044739,
+      "bbox": {
+        "x0": 113.09689331054688,
+        "y0": 808.00732421875,
+        "x1": 891.4300537109375,
+        "y1": 835.746826171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 69,
+      "polygon": [
+        [
+          113.0,
+          808.0
+        ],
+        [
+          113.0,
+          834.0
+        ],
+        [
+          890.0,
+          834.0
+        ],
+        [
+          890.0,
+          808.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Zusätzliches Material zu diesem Buch finden Sie auf http://www.lehrbuch-psychologie.de",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 19,
+      "pp_label": "text",
+      "score": 0.6478793621063232,
+      "bbox": {
+        "x0": 112.42931365966797,
+        "y0": 890.6702880859375,
+        "x1": 400.4357604980469,
+        "y1": 945.5101318359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 82,
+      "polygon": [
+        [
+          112.0,
+          890.0
+        ],
+        [
+          112.0,
+          944.0
+        ],
+        [
+          399.0,
+          944.0
+        ],
+        [
+          399.0,
+          890.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "ISBN-13 978-3-642-30271-8\nDOI 10.1007/978-3-642-30272-5",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.666610062122345,
+      "bbox": {
+        "x0": 513.82177734375,
+        "y0": 890.3941650390625,
+        "x1": 805.9142456054688,
+        "y1": 917.2264404296875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 89,
+      "polygon": [
+        [
+          513.0,
+          890.0
+        ],
+        [
+          513.0,
+          916.0
+        ],
+        [
+          804.0,
+          916.0
+        ],
+        [
+          804.0,
+          890.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "ISBN 978-3-642-30272-5 (eBook)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.8652614951133728,
+      "bbox": {
+        "x0": 112.45137023925781,
+        "y0": 973.694580078125,
+        "x1": 994.9418334960938,
+        "y1": 1029.446533203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 121,
+      "polygon": [
+        [
+          112.0,
+          973.0
+        ],
+        [
+          112.0,
+          1028.0
+        ],
+        [
+          993.0,
+          1028.0
+        ],
+        [
+          993.0,
+          973.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Deutsche Nationalbibliothek verzeichnet diese Publikation in der Deutschen Nationalbibliografie; detaillierte bibliografische Daten sind im Internet über http://dnb.d-nb.de abrufbar.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 18,
+      "pp_label": "paragraph_title",
+      "score": 0.5950412750244141,
+      "bbox": {
+        "x0": 112.89765930175781,
+        "y0": 1058.38037109375,
+        "x1": 277.41705322265625,
+        "y1": 1083.672119140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 132,
+      "polygon": [
+        [
+          112.0,
+          1058.0
+        ],
+        [
+          112.0,
+          1082.0
+        ],
+        [
+          276.0,
+          1082.0
+        ],
+        [
+          276.0,
+          1058.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Springer Medizin",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.7032878398895264,
+      "bbox": {
+        "x0": 113.14356994628906,
+        "y0": 1087.0,
+        "x1": 483.2309265136719,
+        "y1": 1111.685791015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 135,
+      "polygon": [
+        [
+          113.0,
+          1087.0
+        ],
+        [
+          113.0,
+          1110.0
+        ],
+        [
+          482.0,
+          1110.0
+        ],
+        [
+          482.0,
+          1087.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "© Springer-Verlag Berlin Heidelberg 2013",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.922013521194458,
+      "bbox": {
+        "x0": 111.30674743652344,
+        "y0": 1115.2384033203125,
+        "x1": 1148.5045166015625,
+        "y1": 1309.4842529296875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 143,
+      "polygon": [
+        [
+          111.0,
+          1115.0
+        ],
+        [
+          111.0,
+          1308.0
+        ],
+        [
+          1147.0,
+          1308.0
+        ],
+        [
+          1147.0,
+          1115.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "© Springer-Verlag • Berlin Heidelberg 2013\nDieses Werk ist urheberrechtlich geschützt. Die dadurch begründeten Rechte, insbesondere die der Übersetzung, des Nachdrucks, des Vortrags, der Entnahme von Abbildungen und Tabellen, der Funksendung, der Mikroverfilmung oder der Vervielfältigung auf anderen Wegen und der Speicherung in Datenverarbeitungsanlagen, bleiben, auch bei nur auszugsweiser Verwertung, vorbehalten. Eine Vervielfältigung dieses Werkes oder von Teilen dieses Werkes ist auch im Einzelfall nur in den Grenzen der gesetzlichen Bestimmungen des Urheberrechtsgesetzes der Bundesrepublik Deutschland vom 9. September 1965 in der jeweils geltenden Fassung zulässig. Sie ist grundsätzlich vergütungspflichtig. Zuwiderhandlungen unterliegen den Strafbestimmungen des Urheberrechtsgesetzes.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9126589298248291,
+      "bbox": {
+        "x0": 111.12703704833984,
+        "y0": 1335.0208740234375,
+        "x1": 1141.6546630859375,
+        "y1": 1419.5599365234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 169,
+      "polygon": [
+        [
+          111.0,
+          1335.0
+        ],
+        [
+          111.0,
+          1418.0
+        ],
+        [
+          1140.0,
+          1409.0
+        ],
+        [
+          1140.0,
+          1335.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Produkthaftung: Für Angaben über Dosierungsanweisungen und Applikationsformen kann vom Verlag keine Gewährübernommen werden. Derartige Angaben müssen vom jeweiligen Anwender im Einzelfall anhand anderer Literaturstellen auf ihre Richtigkeit überprüft werden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9229761958122253,
+      "bbox": {
+        "x0": 111.73228454589844,
+        "y0": 1446.4588623046875,
+        "x1": 1168.6339111328125,
+        "y1": 1531.5841064453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 184,
+      "polygon": [
+        [
+          111.0,
+          1446.0
+        ],
+        [
+          111.0,
+          1530.0
+        ],
+        [
+          1167.0,
+          1521.0
+        ],
+        [
+          1160.0,
+          1446.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Wiedergabe von Gebrauchsnamen, Warenbezeichnungen usw. in diesem Werk berechtigt auch ohne besondere Kennzeichnung nicht zu der Annahme, dass solche Namen im Sinne der Warenzeichen- und Markenschutzgesetzgebung als frei zu betrachten wären und daher von jedermann benutzt werden dürfen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.7393864989280701,
+      "bbox": {
+        "x0": 113.21648406982422,
+        "y0": 1559.342041015625,
+        "x1": 430.3839416503906,
+        "y1": 1583.8427734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 190,
+      "polygon": [
+        [
+          113.0,
+          1559.0
+        ],
+        [
+          113.0,
+          1582.0
+        ],
+        [
+          429.0,
+          1582.0
+        ],
+        [
+          429.0,
+          1559.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Planung: Joachim Coch, Heidelberg",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 17,
+      "pp_label": "text",
+      "score": 0.7078549265861511,
+      "bbox": {
+        "x0": 112.81175231933594,
+        "y0": 1586.798583984375,
+        "x1": 832.6495971679688,
+        "y1": 1613.46875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 194,
+      "polygon": [
+        [
+          112.0,
+          1586.0
+        ],
+        [
+          112.0,
+          1603.0
+        ],
+        [
+          153.77943639774162,
+          1602.1563029654774
+        ],
+        [
+          212.0,
+          1612.0
+        ],
+        [
+          227.0,
+          1612.0
+        ],
+        [
+          268.7794363977416,
+          1602.1563029654774
+        ],
+        [
+          289.0,
+          1612.0
+        ],
+        [
+          318.0,
+          1612.0
+        ],
+        [
+          350.0,
+          1612.0
+        ],
+        [
+          364.0,
+          1612.0
+        ],
+        [
+          442.0,
+          1612.0
+        ],
+        [
+          472.0,
+          1612.0
+        ],
+        [
+          831.0,
+          1612.0
+        ],
+        [
+          831.0,
+          1586.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Projektmanagement: Michael Barton, Katrin Meissner, Judith Danziger, Heidelberg",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 16,
+      "pp_label": "text",
+      "score": 0.7159197926521301,
+      "bbox": {
+        "x0": 113.38726043701172,
+        "y0": 1614.299072265625,
+        "x1": 486.49530029296875,
+        "y1": 1640.20849609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 198,
+      "polygon": [
+        [
+          113.0,
+          1614.0
+        ],
+        [
+          113.0,
+          1639.0
+        ],
+        [
+          485.0,
+          1639.0
+        ],
+        [
+          485.0,
+          1614.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Lektorat: Dr. Christiane Grosser, Viernheim",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.7067375779151917,
+      "bbox": {
+        "x0": 113.7794189453125,
+        "y0": 1642.6011962890625,
+        "x1": 571.735107421875,
+        "y1": 1669.0726318359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 207,
+      "polygon": [
+        [
+          113.0,
+          1642.0
+        ],
+        [
+          113.0,
+          1668.0
+        ],
+        [
+          570.0,
+          1668.0
+        ],
+        [
+          570.0,
+          1642.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Projektkoordination: Heidemarie Wolter, Heidelberg",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 15,
+      "query_id": 15,
+      "pp_label": "text",
+      "score": 0.7234647870063782,
+      "bbox": {
+        "x0": 113.11226654052734,
+        "y0": 1670.0828857421875,
+        "x1": 422.762939453125,
+        "y1": 1695.7916259765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 210,
+      "polygon": [
+        [
+          113.0,
+          1670.0
+        ],
+        [
+          113.0,
+          1694.0
+        ],
+        [
+          414.0,
+          1694.0
+        ],
+        [
+          421.0,
+          1686.0
+        ],
+        [
+          421.0,
+          1670.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Umschlaggestaltung: deblik Berlin",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 16,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.7213173508644104,
+      "bbox": {
+        "x0": 113.63346099853516,
+        "y0": 1698.65771484375,
+        "x1": 592.9022827148438,
+        "y1": 1723.552978515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 219,
+      "polygon": [
+        [
+          113.0,
+          1698.0
+        ],
+        [
+          113.0,
+          1722.0
+        ],
+        [
+          591.0,
+          1722.0
+        ],
+        [
+          591.0,
+          1698.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Fotonachweis Umschlag: © mangostock / shutterstock",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 17,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.6855547428131104,
+      "bbox": {
+        "x0": 113.0626449584961,
+        "y0": 1724.89453125,
+        "x1": 432.4883728027344,
+        "y1": 1749.89892578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 229,
+      "polygon": [
+        [
+          113.0,
+          1724.0
+        ],
+        [
+          113.0,
+          1748.0
+        ],
+        [
+          431.0,
+          1748.0
+        ],
+        [
+          431.0,
+          1733.0
+        ],
+        [
+          424.0,
+          1724.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Cartoons: Claudia Styrsky, München",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 18,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.6793339848518372,
+      "bbox": {
+        "x0": 113.15763854980469,
+        "y0": 1753.1812744140625,
+        "x1": 698.7789916992188,
+        "y1": 1779.2088623046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 250,
+      "polygon": [
+        [
+          113.0,
+          1753.0
+        ],
+        [
+          113.0,
+          1778.0
+        ],
+        [
+          697.0,
+          1778.0
+        ],
+        [
+          697.0,
+          1753.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Satz: Fotosatz-Service Köhler GmbH - Reinhold Schöberl, Würzburg",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 19,
+      "query_id": 14,
+      "pp_label": "text",
+      "score": 0.7252757549285889,
+      "bbox": {
+        "x0": 112.87216186523438,
+        "y0": 1835.2464599609375,
+        "x1": 629.6008911132812,
+        "y1": 1863.1939697265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 260,
+      "polygon": [
+        [
+          112.0,
+          1835.0
+        ],
+        [
+          112.0,
+          1862.0
+        ],
+        [
+          628.0,
+          1862.0
+        ],
+        [
+          628.0,
+          1835.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Gedruckt auf säurefreiem und chlorfrei gebleichtem Papier",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 20,
+      "query_id": 20,
+      "pp_label": "text",
+      "score": 0.6316394805908203,
+      "bbox": {
+        "x0": 113.40979766845703,
+        "y0": 1890.8846435546875,
+        "x1": 824.17138671875,
+        "y1": 1946.7198486328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 288,
+      "polygon": [
+        [
+          113.0,
+          1890.0
+        ],
+        [
+          113.0,
+          1945.0
+        ],
+        [
+          823.0,
+          1945.0
+        ],
+        [
+          823.0,
+          1890.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Springer Medizin ist Teil der Fachverlagsgruppe Springer Science+Business Media www.springer.com",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1970.926513671875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1260.687255859375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1808.8260498046875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 326.7300720214844
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1238.64794921875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1319.81884765625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1394.0443115234375
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1522.08740234375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 2015.952880859375
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1249.923583984375
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1331.620361328125
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1134.395751953125
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 863.154052734375
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 423.3566589355469
+    },
+    {
+      "von": 14,
+      "nach": 15,
+      "konfidenz": 1.0,
+      "marge": 1600.9339599609375
+    },
+    {
+      "von": 15,
+      "nach": 16,
+      "konfidenz": 0.0,
+      "marge": -240.72740173339844
+    },
+    {
+      "von": 16,
+      "nach": 17,
+      "konfidenz": 0.0,
+      "marge": -262.4033508300781
+    },
+    {
+      "von": 17,
+      "nach": 18,
+      "konfidenz": 1.0,
+      "marge": 2104.91845703125
+    },
+    {
+      "von": 18,
+      "nach": 19,
+      "konfidenz": 1.0,
+      "marge": 2319.354736328125
+    },
+    {
+      "von": 19,
+      "nach": 20,
+      "konfidenz": 1.0,
+      "marge": 1911.325439453125
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.4515108749983483,
+      "zeitstempel": "2026-09-06T14:30:51.642925Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 8.845289917000628,
+      "zeitstempel": "2026-09-06T14:32:54.667201Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

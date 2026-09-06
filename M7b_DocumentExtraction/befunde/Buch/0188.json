@@ -1,0 +1,547 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 188,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.8492621779441833,
+      "bbox": {
+        "x0": 114.87039184570312,
+        "y0": 78.87075805664062,
+        "x1": 384.5890197753906,
+        "y1": 105.81161499023438,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 4,
+      "polygon": [
+        [
+          114.0,
+          78.0
+        ],
+        [
+          114.0,
+          104.0
+        ],
+        [
+          383.0,
+          104.0
+        ],
+        [
+          383.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "11.5 · Zurück zum Leviathan",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 15,
+      "pp_label": "number",
+      "score": 0.7236985564231873,
+      "bbox": {
+        "x0": 1370.564697265625,
+        "y0": 34.75567626953125,
+        "x1": 1431.2303466796875,
+        "y1": 85.16864013671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 30,
+      "polygon": [
+        [
+          1370.0,
+          34.0
+        ],
+        [
+          1370.0,
+          84.0
+        ],
+        [
+          1430.0,
+          84.0
+        ],
+        [
+          1430.0,
+          34.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "11",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.9191352725028992,
+      "bbox": {
+        "x0": 151.0236053466797,
+        "y0": 217.36557006835938,
+        "x1": 1374.5616455078125,
+        "y1": 416.9798278808594,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 61,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "eine bessere Vorstellung davon, wie eine gerechte Verteilung der Schokoladensplitter auszusehen habe. Zum anderen nahmen dieselben Personen aber auch an, alle anderen Spieler würden versuchen, eine überproportional große Menge an Schokosplittern zu ergattern. Diese Annahme führte wiederum dazu, selbst viel Schokolade zu beanspru- chen – allerdings nur bei den Probanden in der Wettbewerbsbedingung. Wurde dagegen die Gruppe im Gesamten bewertet, so nahmen sich die Probanden unter hoher Perspektivenübernahme sogar weniger Schokolade als diejenigen, die nur ihre eigene Sichtweise beachten sollten.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        2,
+        3
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.8499433398246765,
+      "bbox": {
+        "x0": 113.83848571777344,
+        "y0": 506.4830322265625,
+        "x1": 529.6576538085938,
+        "y1": 543.0513916015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 90,
+      "polygon": [
+        [
+          113.0,
+          516.0
+        ],
+        [
+          113.0,
+          542.0
+        ],
+        [
+          528.0,
+          542.0
+        ],
+        [
+          528.0,
+          506.0
+        ],
+        [
+          174.0,
+          506.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "11.5 Zurück zum Leviathan",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9612656235694885,
+      "bbox": {
+        "x0": 110.20651245117188,
+        "y0": 582.7822265625,
+        "x1": 1013.4925537109375,
+        "y1": 881.4627685546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 100,
+      "polygon": [
+        [
+          110.0,
+          582.0
+        ],
+        [
+          110.0,
+          880.0
+        ],
+        [
+          1012.0,
+          880.0
+        ],
+        [
+          1012.0,
+          582.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Viele dieser Befunde trüben die Hoffnung, soziale Dilemmata durch bestimmte psychologische Merkmale beeinflussen bzw. lösen zu können. Hardins Pessimismus scheint sich also zu bestätigen. Was schlägt Hardin selbst vor? Der Kern seiner Annahme beruht auf der politischen Philosophie von Thomas Hobbes (1651/1963). Im »Leviathan« argumentiert Hobbes, dass die Menschen untereinander wie Wölfe seien, die sich gegenseitig bekriegen (»homo homini lupus est«). Hier sei angemerkt, dass die Hobbes’sche Metapher biologisch gesehen unsinnig ist: Denn als Rudeltiere sind Wölfe ausgezeichnete Kooperateure, wobei natürlich ihre Beutetiere das Nachsehen haben. Insofern ist eine Metapher eben manchmal nur eine Metapher!",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9647842049598694,
+      "bbox": {
+        "x0": 109.36393737792969,
+        "y0": 882.740966796875,
+        "x1": 1014.9560546875,
+        "y1": 1247.942626953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 124,
+      "polygon": [
+        [
+          109.0,
+          893.0
+        ],
+        [
+          117.0,
+          1246.0
+        ],
+        [
+          1013.0,
+          1246.0
+        ],
+        [
+          1013.0,
+          882.0
+        ],
+        [
+          117.0,
+          882.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Wie Hobbes so folgert Hardin, dass sich sozialer Frieden und Wohlstand nicht allein durch den guten Willen der Einzelnen erreichen lassen. Gewalt ist vonnöten. Genauer gesagt ist es die Gewalt des Staates (der Leviathan), die die Anreizstruktur so verändert, dass Kooperation zur dominanten Strategie wird. Dies kann beispielsweise durch Besteuerung oder Bestrafung (was auf das gleiche hinausläuft) des Desertierens erreicht werden. Der Einzelne zahlt X € für das Privileg, zu desertieren. Dabei muss X so groß sein, dass die Rangordnung der erzielbaren Werte (»payoffs«) diese ist: allseitiges Kooperieren > einseitiges Desertieren > einseitiges Kooperieren > allseitiges Desertieren. Egal was andere tun, Kooperation ist stets die attraktivste Strategie. Der Egoismus und der moralische Imperativ verlangen nun die gleiche Handlung. Nur Dumme würden unter diesen Bedingungen desertieren.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9377840757369995,
+      "bbox": {
+        "x0": 109.94866180419922,
+        "y0": 1249.85546875,
+        "x1": 1014.8678588867188,
+        "y1": 1380.82958984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 156,
+      "polygon": [
+        [
+          117.0,
+          1249.0
+        ],
+        [
+          117.0,
+          1379.0
+        ],
+        [
+          132.0,
+          1379.0
+        ],
+        [
+          1013.0,
+          1379.0
+        ],
+        [
+          1013.0,
+          1249.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Idee von Hardin besteht darin, die Werte einer Gesellschaft so zu verändern, dass egoistisches Handeln als unmoralisch eingestuft und bestraft wird. Doch wie kann man bewirken, dass sich Menschen auf einmal kooperativ verhalten und ihre eigenen Interessen hinter das Wohl der Gemeinschaft stellen? Wie oben beschrieben schlägt Hardin",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.8138879537582397,
+      "bbox": {
+        "x0": 110.2170639038086,
+        "y0": 1387.4613037109375,
+        "x1": 1199.650390625,
+        "y1": 1949.3414306640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 170,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "vor, dass dies durch staatliche Regelungen erreicht werden könne. Diese erzeugen zwar Druck und Zwang (»coercion«), verhindern aber auch gleichzeitig, dass allgemeine Güter (»commons«) systematisch aufgebraucht werden (Hardin, 1968). Am Beispiel der Steuern verdeutlicht Hardin seinen Ansatz: Jeder klagt darüber, Steuern zahlen zu müssen, sieht aber ein, dass diese Pflicht notwendig ist, da kein Mensch freiwillig Steuern zahlen würde. Die Einführung von Steuern und damit auch die Bestrafung von Steuerhinterziehung kommen also einer Verpflichtung bzw. einem Zwang gleich (»mutual coercion«), womit egoistisches Verhalten bestraft werden soll. Trotz eigener Nachteile des Einzelnen wird diese Idee allerdings von der Mehrheit geteilt (»mutually agreed upon«). Hardin fasst seine Lösung unter dem Begriff »mutual coercion mutually agreed upon« zusammen (▪ Abb. 11.5).\nAbb. 11.5 »Mutual coercion mutually agreed upon«",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        8,
+        12
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.8658937811851501,
+      "bbox": {
+        "x0": 1056.8804931640625,
+        "y0": 585.1864013671875,
+        "x1": 1380.68994140625,
+        "y1": 697.1246337890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 214,
+      "polygon": [
+        [
+          1056.0,
+          585.0
+        ],
+        [
+          1056.0,
+          696.0
+        ],
+        [
+          1379.0,
+          696.0
+        ],
+        [
+          1379.0,
+          585.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Nach der Leviathan-Hypothese las- sen sich sozialer Frieden und Wohl- stand nicht durch den guten Willen der Einzelnen erreichen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.8996687531471252,
+      "bbox": {
+        "x0": 1057.252685546875,
+        "y0": 885.3857421875,
+        "x1": 1381.7899169921875,
+        "y1": 998.259765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 239,
+      "polygon": [
+        [
+          1057.0,
+          885.0
+        ],
+        [
+          1057.0,
+          997.0
+        ],
+        [
+          1380.0,
+          997.0
+        ],
+        [
+          1380.0,
+          896.0
+        ],
+        [
+          1328.0,
+          885.0
+        ],
+        [
+          1321.0,
+          885.0
+        ],
+        [
+          1290.0,
+          885.0
+        ],
+        [
+          1284.0,
+          885.0
+        ],
+        [
+          1260.0,
+          885.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Durch die Bestrafung des Desertierens kann erreicht werden, dass Ko-operation zur dominanten Strategie wird (vgl. Leviathan).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 0,
+      "pp_label": "image",
+      "score": 0.9434136748313904,
+      "bbox": {
+        "x0": 725.1463623046875,
+        "y0": 1423.6058349609375,
+        "x1": 1396.8739013671875,
+        "y1": 1891.8116455078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 261,
+      "polygon": [
+        [
+          725.0,
+          1434.0
+        ],
+        [
+          733.0,
+          1890.0
+        ],
+        [
+          1290.0,
+          1890.0
+        ],
+        [
+          1365.0,
+          1890.0
+        ],
+        [
+          1388.0,
+          1870.0
+        ],
+        [
+          1395.0,
+          1423.0
+        ],
+        [
+          733.0,
+          1423.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0188_10_image.png"
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2710.756103515625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1499.4488525390625
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1418.727294921875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1273.262939453125
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1848.287109375
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1576.7742919921875
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1570.4283447265625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2192.736328125
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1871.334716796875
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 2115.025146484375
+    },
+    {
+      "von": 10,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1358.298095703125
+    }
+  ],
+  "warnungen": [
+    "Blöcke [2, 3] zu #2 (text) zusammengeführt.",
+    "Blöcke [8, 12] zu #7 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.40467250000074273,
+      "zeitstempel": "2026-09-06T14:32:05.260624Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 13.005331291002221,
+      "zeitstempel": "2026-09-06T15:11:05.497565Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

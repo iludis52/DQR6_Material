@@ -1,0 +1,504 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 37,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 13,
+      "pp_label": "number",
+      "score": 0.5341857671737671,
+      "bbox": {
+        "x0": 1382.01025390625,
+        "y0": 31.5595703125,
+        "x1": 1420.2640380859375,
+        "y1": 82.6107177734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 8,
+      "polygon": [
+        [
+          1382.0,
+          31.0
+        ],
+        [
+          1382.0,
+          81.0
+        ],
+        [
+          1419.0,
+          81.0
+        ],
+        [
+          1419.0,
+          31.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 2,
+      "pp_label": "paragraph_title",
+      "score": 0.8879925012588501,
+      "bbox": {
+        "x0": 112.46160888671875,
+        "y0": 167.56741333007812,
+        "x1": 828.6194458007812,
+        "y1": 226.16989135742188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 23,
+      "polygon": [
+        [
+          112.0,
+          167.0
+        ],
+        [
+          112.0,
+          225.0
+        ],
+        [
+          827.0,
+          225.0
+        ],
+        [
+          827.0,
+          167.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3 Urteilen und Entscheiden",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 23,
+      "pp_label": "text",
+      "score": 0.5046737194061279,
+      "bbox": {
+        "x0": 152.99948120117188,
+        "y0": 1048.345947265625,
+        "x1": 730.6006469726562,
+        "y1": 1114.693603515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 179,
+      "polygon": [
+        [
+          152.0,
+          1058.0
+        ],
+        [
+          152.0,
+          1113.0
+        ],
+        [
+          729.0,
+          1113.0
+        ],
+        [
+          729.0,
+          1058.0
+        ],
+        [
+          722.0,
+          1048.0
+        ],
+        [
+          578.0,
+          1048.0
+        ],
+        [
+          562.0,
+          1048.0
+        ],
+        [
+          419.0,
+          1048.0
+        ],
+        [
+          402.0,
+          1048.0
+        ],
+        [
+          387.0,
+          1048.0
+        ],
+        [
+          267.0,
+          1048.0
+        ],
+        [
+          235.0,
+          1048.0
+        ],
+        [
+          197.0,
+          1048.0
+        ],
+        [
+          175.0,
+          1048.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Den Begriff Urteilsheuristiken erklären und die verschiedene Arten von Heuristiken beschreiben können.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.6491152048110962,
+      "bbox": {
+        "x0": 772.2588500976562,
+        "y0": 1049.1348876953125,
+        "x1": 1364.16015625,
+        "y1": 1113.7886962890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 216,
+      "polygon": [
+        [
+          772.0,
+          1049.0
+        ],
+        [
+          772.0,
+          1112.0
+        ],
+        [
+          1363.0,
+          1112.0
+        ],
+        [
+          1363.0,
+          1059.0
+        ],
+        [
+          1340.0,
+          1049.0
+        ],
+        [
+          1280.0,
+          1049.0
+        ],
+        [
+          1271.0,
+          1049.0
+        ],
+        [
+          888.0,
+          1049.0
+        ],
+        [
+          848.0,
+          1049.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Den Unterschied zwischen kognitiven und motivationalen Ursachen für Urteilsverzerrungen erläutern können.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.6999542713165283,
+      "bbox": {
+        "x0": 771.7889404296875,
+        "y0": 1117.9737548828125,
+        "x1": 1333.75390625,
+        "y1": 1179.2017822265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 239,
+      "polygon": [
+        [
+          771.0,
+          1117.0
+        ],
+        [
+          771.0,
+          1147.0
+        ],
+        [
+          771.0,
+          1169.0
+        ],
+        [
+          771.0,
+          1178.0
+        ],
+        [
+          1332.0,
+          1178.0
+        ],
+        [
+          1332.0,
+          1117.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Grundannahmen der Prospekttheorie benennen können.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9580404162406921,
+      "bbox": {
+        "x0": 110.13756561279297,
+        "y0": 1248.33984375,
+        "x1": 1012.78271484375,
+        "y1": 1515.483154296875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 247,
+      "polygon": [
+        [
+          118.0,
+          1248.0
+        ],
+        [
+          110.0,
+          1514.0
+        ],
+        [
+          1011.0,
+          1514.0
+        ],
+        [
+          1011.0,
+          1248.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Menschen sind grundsätzlich motiviert, möglichst korrekte Urteile und Entscheidungen zu treffen (Wahrheitsmotivation). Diese Grundeinstellung hat evolutionäre Wurzeln, da das Überleben des Menschen in einer herausfordernden Umwelt nicht möglich gewesen wäre, wenn er nicht ein Meister darin geworden wäre, seine Urteils- und Entscheidungsprozesse zu optimieren und den Gegebenheiten der Umwelt anzupassen (Musahl, 1997). Grundsätzlich ist es in allen Bereichen wichtig, bei Entscheidungen Fehler gering zu halten oder ganz zu vermeiden; dies gilt sowohl für Einzelpersonen als auch für Gruppen, Organisationen und ganze Gesellschaften.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9622504115104675,
+      "bbox": {
+        "x0": 109.33915710449219,
+        "y0": 1514.95849609375,
+        "x1": 1013.6224365234375,
+        "y1": 1884.752685546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 250,
+      "polygon": [
+        [
+          109.0,
+          1525.0
+        ],
+        [
+          109.0,
+          1883.0
+        ],
+        [
+          1012.0,
+          1883.0
+        ],
+        [
+          1012.0,
+          1514.0
+        ],
+        [
+          117.0,
+          1514.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "auch für Gruppen, Organisationen und ganze Gesellschaften.\nNatürlich gelingt es nicht immer, optimal zu urteilen und zu entscheiden. Die psychologische Forschung hat zahlreiche Prozesse und Effekte aufgedeckt, die die menschliche Urteilskraft zumindest in bestimmten Situationen in Frage stellen. Fehlerhaftes Denken kann tragische Folgen haben. Aber wie kommen durchschnittliche Einzelpersonen, Politiker und Politikerinnen oder Führungskräfte in der Wirtschaft zu ihren Urteilen bzw. Entscheidungen und durch welche Faktoren werden diese positiv oder negativ beeinflusst? Wie entscheidet ein Individuum darüber, ob es sein Geld lieber in Aktien oder festverzinslichen Wertpapieren anlegt, ob es bei Schmerzen ärztlichen Rat einholt oder nicht oder ob es Psychologie oder Betriebswirtschaft studieren soll? Das folgende Kapitel betrachtet diese Fragen aus sozialpsychologischer Perspektive (Krueger, 2012; Swets, Dawes & Monahan, 2000).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.6380229592323303,
+      "bbox": {
+        "x0": 1056.8731689453125,
+        "y0": 1250.6707763671875,
+        "x1": 1326.2056884765625,
+        "y1": 1367.1700439453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 259,
+      "polygon": [
+        [
+          1056.0,
+          1250.0
+        ],
+        [
+          1056.0,
+          1366.0
+        ],
+        [
+          1325.0,
+          1366.0
+        ],
+        [
+          1325.0,
+          1250.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Menschen sind grundsätzlich motiviert, möglichst korrekte Urteile und Entscheidungen zu treffen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.8298951387405396,
+      "bbox": {
+        "x0": 1056.6285400390625,
+        "y0": 1517.357666015625,
+        "x1": 1369.2022705078125,
+        "y1": 1662.852294921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 262,
+      "polygon": [
+        [
+          1056.0,
+          1517.0
+        ],
+        [
+          1056.0,
+          1661.0
+        ],
+        [
+          1368.0,
+          1661.0
+        ],
+        [
+          1368.0,
+          1517.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Entscheidungsprozesse sind ein zentrales sozialpsychologisches Forschungsgebiet, da die Qualität menschlicher Urteile und Entscheidungen häufig nicht optimal ist.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 554.62109375
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2571.01708984375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1759.623779296875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1431.3509521484375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1547.3511962890625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 998.0433349609375
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 2980.165283203125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1586.3253173828125
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3765515419981966,
+      "zeitstempel": "2026-09-06T14:31:05.961787Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 7.145020625001052,
+      "zeitstempel": "2026-09-06T14:39:36.344773Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

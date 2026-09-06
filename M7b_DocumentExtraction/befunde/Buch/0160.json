@@ -1,0 +1,1122 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 160,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.8379857540130615,
+      "bbox": {
+        "x0": 115.04533386230469,
+        "y0": 78.16891479492188,
+        "x1": 410.29443359375,
+        "y1": 106.37527465820312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 8,
+      "polygon": [
+        [
+          115.0,
+          78.0
+        ],
+        [
+          115.0,
+          105.0
+        ],
+        [
+          409.0,
+          105.0
+        ],
+        [
+          409.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.1 · Religion und Gesundheit",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 18,
+      "pp_label": "header",
+      "score": 0.5480619072914124,
+      "bbox": {
+        "x0": 1184.7078857421875,
+        "y0": 54.021820068359375,
+        "x1": 1225.3565673828125,
+        "y1": 79.64602661132812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 20,
+      "polygon": [
+        [
+          1184.0,
+          54.0
+        ],
+        [
+          1184.0,
+          78.0
+        ],
+        [
+          1224.0,
+          78.0
+        ],
+        [
+          1224.0,
+          54.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "157",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 23,
+      "pp_label": "number",
+      "score": 0.7526078224182129,
+      "bbox": {
+        "x0": 1369.745849609375,
+        "y0": 34.9493408203125,
+        "x1": 1437.9774169921875,
+        "y1": 84.2325439453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 36,
+      "polygon": [
+        [
+          1369.0,
+          34.0
+        ],
+        [
+          1369.0,
+          83.0
+        ],
+        [
+          1436.0,
+          83.0
+        ],
+        [
+          1436.0,
+          34.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9467847347259521,
+      "bbox": {
+        "x0": 110.81621551513672,
+        "y0": 181.44754028320312,
+        "x1": 566.87841796875,
+        "y1": 347.6237487792969,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 67,
+      "polygon": [
+        [
+          110.0,
+          181.0
+        ],
+        [
+          110.0,
+          191.0
+        ],
+        [
+          118.0,
+          346.0
+        ],
+        [
+          565.0,
+          346.0
+        ],
+        [
+          565.0,
+          181.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "die Vorbereitung in konkreten durchführbaren Schritten vorstellen). Dieser gedankliche Weg ist eng mit einer Veränderung der Emotionen verbunden bzw. ist oft auslösend hierfür (▪ Abb. 10.2).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9609613418579102,
+      "bbox": {
+        "x0": 111.13351440429688,
+        "y0": 350.6653137207031,
+        "x1": 568.4426879882812,
+        "y1": 681.18701171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 77,
+      "polygon": [
+        [
+          111.0,
+          350.0
+        ],
+        [
+          111.0,
+          680.0
+        ],
+        [
+          476.0,
+          680.0
+        ],
+        [
+          523.0,
+          680.0
+        ],
+        [
+          538.0,
+          680.0
+        ],
+        [
+          552.0,
+          680.0
+        ],
+        [
+          567.0,
+          670.0
+        ],
+        [
+          567.0,
+          350.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Send Menu (📚 Abb.: 10.2).\nEine weitere Möglichkeit wäre, sich einer Lerngruppe anzuschließen. Dadurch könnten Sie den Stoff schneller erarbeiten oder zumindest die eigenen Sorgen mit der Gruppe teilen und ggf. Hilfe bekommen. Diese verhaltensbasierte Strategie betrifft in diesem Fall die externalen Ressourcen. Damit ist vorwiegend die soziale Unterstützung von außen gemeint; also Gruppen (Freunde, Familie, Sportverein, etc.), die in",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 0,
+      "pp_label": "image",
+      "score": 0.8867250084877014,
+      "bbox": {
+        "x0": 598.9443969726562,
+        "y0": 177.89398193359375,
+        "x1": 996.5350952148438,
+        "y1": 521.9497680664062,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 86,
+      "polygon": [
+        [
+          598.0,
+          188.0
+        ],
+        [
+          598.0,
+          520.0
+        ],
+        [
+          995.0,
+          520.0
+        ],
+        [
+          995.0,
+          177.0
+        ],
+        [
+          790.0,
+          177.0
+        ],
+        [
+          758.0,
+          177.0
+        ],
+        [
+          637.0,
+          177.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0160_05_image.png"
+    },
+    {
+      "id": 6,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.9635611176490784,
+      "bbox": {
+        "x0": 111.0648422241211,
+        "y0": 683.182373046875,
+        "x1": 1012.0594482421875,
+        "y1": 914.66064453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 129,
+      "polygon": [
+        [
+          111.0,
+          683.0
+        ],
+        [
+          111.0,
+          913.0
+        ],
+        [
+          1011.0,
+          913.0
+        ],
+        [
+          1011.0,
+          683.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "schwierigen Situationen helfen (vgl. Grom, 1992). Zusätzlich spielt aber auch materielle Unterstützung eine wichtige Rolle (im obigen Beispiel etwa finanzielle Mittelzum Kauf von Lernmaterial). Unabhängig davon, ob internale oder externaler Ressourcen aktiviert werden: Ziel ist immer ein besserer Umgang mit der Stresssituation, indem die eigenen Emotionen positiv beeinflusst werden und eine optimistischere Grundhaltung aufgebaut wird. Hier wären wir also wieder bei der positiven Psychologie angelangt!",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.935451865196228,
+      "bbox": {
+        "x0": 112.06048583984375,
+        "y0": 916.5615234375,
+        "x1": 1010.8973999023438,
+        "y1": 1013.775146484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 140,
+      "polygon": [
+        [
+          112.0,
+          916.0
+        ],
+        [
+          112.0,
+          1012.0
+        ],
+        [
+          1009.0,
+          1012.0
+        ],
+        [
+          1009.0,
+          916.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Frage ist aber, warum positive Emotionen helfen, Stress zu reduzieren oder Belastungssituationen leichter bewältigen zu können (z.B. Reed & Aspinwall, 1998). Hierfür sind drei Gründe zentral:",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.9213740229606628,
+      "bbox": {
+        "x0": 112.09540557861328,
+        "y0": 1016.190185546875,
+        "x1": 1010.3160400390625,
+        "y1": 1081.46337890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 151,
+      "polygon": [
+        [
+          112.0,
+          1016.0
+        ],
+        [
+          112.0,
+          1080.0
+        ],
+        [
+          1009.0,
+          1080.0
+        ],
+        [
+          1009.0,
+          1016.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1. Positive Emotionen lenken von negativer Stimmung ab und führen dadurch zu einer gelasseneren Einstellung (Fredrickson, Tugade, Waugh & Larkin, 2003).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9466031193733215,
+      "bbox": {
+        "x0": 110.99154663085938,
+        "y0": 1083.5692138671875,
+        "x1": 1012.7114868164062,
+        "y1": 1213.1636962890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 157,
+      "polygon": [
+        [
+          118.0,
+          1083.0
+        ],
+        [
+          118.0,
+          1212.0
+        ],
+        [
+          1011.0,
+          1212.0
+        ],
+        [
+          1011.0,
+          1083.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2. Positive Emotionen dämpfen negative physiologische Erregungszustände (z. B. erhöhter Blutdruck, gesteigerte Herzrate), die als Folge stressiger Ereignisse aufgetreten sind (Fredrickson & Levenson, 1998; Fredrickson, Mancuso, Branigan & Tugade, 2000).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.9307917952537537,
+      "bbox": {
+        "x0": 110.10413360595703,
+        "y0": 1216.1605224609375,
+        "x1": 1012.769775390625,
+        "y1": 1313.9571533203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 169,
+      "polygon": [
+        [
+          118.0,
+          1216.0
+        ],
+        [
+          118.0,
+          1312.0
+        ],
+        [
+          1011.0,
+          1312.0
+        ],
+        [
+          1011.0,
+          1216.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3. Positive Emotionen verändern das Denken in Krisensituationen. Sie erweitern den Aufmerksamkeitsfokus und dadurch auch das Verhaltensrepertoire (Fredrickson, 2000).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 15,
+      "pp_label": "paragraph_title",
+      "score": 0.869325578212738,
+      "bbox": {
+        "x0": 114.1492919921875,
+        "y0": 1374.7034912109375,
+        "x1": 518.0352783203125,
+        "y1": 1410.9224853515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 176,
+      "polygon": [
+        [
+          114.0,
+          1374.0
+        ],
+        [
+          114.0,
+          1409.0
+        ],
+        [
+          517.0,
+          1409.0
+        ],
+        [
+          517.0,
+          1374.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.1.2 Religion und Coping",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9653671979904175,
+      "bbox": {
+        "x0": 110.2308349609375,
+        "y0": 1449.249755859375,
+        "x1": 1012.5015869140625,
+        "y1": 1750.774169921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 178,
+      "polygon": [
+        [
+          110.0,
+          1449.0
+        ],
+        [
+          110.0,
+          1749.0
+        ],
+        [
+          1011.0,
+          1749.0
+        ],
+        [
+          1011.0,
+          1449.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Nun haben wir gehört, dass es bestimmte (Resilienz-) Faktoren gibt, die positive Emotionen fördern und dadurch sowohl internale als auch externale Coping-Strategien freisetzen. Vor diesem Hintergrund möchten wir nun überprüfen, ob auch Religiosität positive Emotionen auslösen und somit Resilienz fördern kann. Dafür spricht, dass Religiosität sowohl internale (religiöse Überzeugungen, Glauben, Vertrauen etc.) als auch externale Ressourcen (sozialer Anschluss in der Glaubensgemeinschaft) bereitstellt. Insofern kann Religiosität als eine gute Bewältigungsmöglichkeit von Stress angesehen werden. Dies wurde auch in zahlreichen Studien gezeigt (Ai, Dunkle, Peterson, & Bolling, 1998; Ai, Peterson, Tice, Bolling, & Koenig, 2004; Hill & Pargament, 2003).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 14,
+      "pp_label": "paragraph_title",
+      "score": 0.8422604203224182,
+      "bbox": {
+        "x0": 112.10057067871094,
+        "y0": 1776.263427734375,
+        "x1": 620.5362548828125,
+        "y1": 1808.830078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 184,
+      "polygon": [
+        [
+          112.0,
+          1776.0
+        ],
+        [
+          112.0,
+          1807.0
+        ],
+        [
+          619.0,
+          1807.0
+        ],
+        [
+          619.0,
+          1776.0
+        ],
+        [
+          370.0,
+          1776.0
+        ],
+        [
+          362.0,
+          1776.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Definition und Messung von Religiosität",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.9471790790557861,
+      "bbox": {
+        "x0": 109.55573272705078,
+        "y0": 1816.421630859375,
+        "x1": 1014.1766357421875,
+        "y1": 1949.263916015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 193,
+      "polygon": [
+        [
+          117.0,
+          1816.0
+        ],
+        [
+          109.0,
+          1948.0
+        ],
+        [
+          1013.0,
+          1948.0
+        ],
+        [
+          1013.0,
+          1816.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Als kritischer Leser fragen Sie sich nun, was die Sozialpsychologie unter Religiosität versteht. Tatsache ist, dass Religiosität äußerst vielfältig ausgeprägt ist (Dittes, 1996). Man kann kaum von »der« Religiosität sprechen, die ausschließlich anhand eines bestimmten Faktors gemessen wird, wie etwa der Anzahl der Gottesdienstbesuche. Die",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 15,
+      "query_id": 17,
+      "pp_label": "figure_title",
+      "score": 0.7768886089324951,
+      "bbox": {
+        "x0": 1059.2713623046875,
+        "y0": 183.17401123046875,
+        "x1": 1371.179931640625,
+        "y1": 238.89556884765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 201,
+      "polygon": [
+        [
+          1059.0,
+          183.0
+        ],
+        [
+          1059.0,
+          237.0
+        ],
+        [
+          1370.0,
+          237.0
+        ],
+        [
+          1370.0,
+          183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Abb. 10.2 Internale Coping-Ressourcen: Die Macht der Gedanken",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 16,
+      "query_id": 22,
+      "pp_label": "text",
+      "score": 0.7087855339050293,
+      "bbox": {
+        "x0": 1057.4869384765625,
+        "y0": 352.8952331542969,
+        "x1": 1371.78125,
+        "y1": 464.3840637207031,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 217,
+      "polygon": [
+        [
+          1057.0,
+          352.0
+        ],
+        [
+          1057.0,
+          463.0
+        ],
+        [
+          1370.0,
+          463.0
+        ],
+        [
+          1370.0,
+          352.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Mit externalen Ressourcen meint man vorwiegend soziale Unterstützung von außen, wie etwa durch Freunde und Familie.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 17,
+      "query_id": 24,
+      "pp_label": "text",
+      "score": 0.6464222073554993,
+      "bbox": {
+        "x0": 1056.488037109375,
+        "y0": 920.2713623046875,
+        "x1": 1376.6842041015625,
+        "y1": 1002.9085693359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 243,
+      "polygon": [
+        [
+          1056.0,
+          920.0
+        ],
+        [
+          1056.0,
+          1001.0
+        ],
+        [
+          1375.0,
+          1001.0
+        ],
+        [
+          1375.0,
+          920.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Positive Emotionen helfen dabei, Belastungssituationen besser zu bewältigen:",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 18,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.8002367615699768,
+      "bbox": {
+        "x0": 1059.264892578125,
+        "y0": 1004.8659057617188,
+        "x1": 1365.3359375,
+        "y1": 1059.2255859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 250,
+      "polygon": [
+        [
+          1059.0,
+          1015.0
+        ],
+        [
+          1059.0,
+          1058.0
+        ],
+        [
+          1364.0,
+          1058.0
+        ],
+        [
+          1364.0,
+          1015.0
+        ],
+        [
+          1357.0,
+          1004.0
+        ],
+        [
+          1067.0,
+          1004.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- Ablenkung von negativer Stimmung (gelassenere Haltung),",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 19,
+      "query_id": 16,
+      "pp_label": "text",
+      "score": 0.8061018586158752,
+      "bbox": {
+        "x0": 1060.9134521484375,
+        "y0": 1061.2237548828125,
+        "x1": 1372.259521484375,
+        "y1": 1112.8895263671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 257,
+      "polygon": [
+        [
+          1060.0,
+          1061.0
+        ],
+        [
+          1060.0,
+          1081.0
+        ],
+        [
+          1060.0,
+          1092.0
+        ],
+        [
+          1060.0,
+          1111.0
+        ],
+        [
+          1371.0,
+          1111.0
+        ],
+        [
+          1371.0,
+          1072.0
+        ],
+        [
+          1364.0,
+          1061.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Dämpfung negativer physiologischer Erregung,",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 20,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.8695518374443054,
+      "bbox": {
+        "x0": 1059.085205078125,
+        "y0": 1115.3634033203125,
+        "x1": 1386.0174560546875,
+        "y1": 1170.7508544921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 270,
+      "polygon": [
+        [
+          1059.0,
+          1115.0
+        ],
+        [
+          1059.0,
+          1169.0
+        ],
+        [
+          1385.0,
+          1169.0
+        ],
+        [
+          1385.0,
+          1115.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– verändertes Denken und erweitertes Verhaltensrepertoire.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 21,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.9048901200294495,
+      "bbox": {
+        "x0": 1056.7647705078125,
+        "y0": 1452.8641357421875,
+        "x1": 1385.8536376953125,
+        "y1": 1565.2969970703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 273,
+      "polygon": [
+        [
+          1056.0,
+          1452.0
+        ],
+        [
+          1056.0,
+          1564.0
+        ],
+        [
+          1384.0,
+          1564.0
+        ],
+        [
+          1384.0,
+          1452.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Da Religiosität sowohl internale als auch externale positive Ressourcen bereitstellt, dient es als Resilienzfaktor bei Stresssituationen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 22,
+      "query_id": 21,
+      "pp_label": "text",
+      "score": 0.8123995065689087,
+      "bbox": {
+        "x0": 1056.638916015625,
+        "y0": 1818.758544921875,
+        "x1": 1382.9583740234375,
+        "y1": 1903.380615234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 290,
+      "polygon": [
+        [
+          1056.0,
+          1818.0
+        ],
+        [
+          1056.0,
+          1902.0
+        ],
+        [
+          1381.0,
+          1902.0
+        ],
+        [
+          1381.0,
+          1818.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Beim Konzept der »Religiosität« unterscheidet man zwischen intrinsi-scher und extrinsischer Religiosität.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2072.716064453125
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2007.8365478515625
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1758.272705078125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1237.1522216796875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 909.2889404296875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1925.13037109375
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1411.4957275390625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1262.701171875
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1680.677001953125
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1031.45068359375
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1861.5079345703125
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 873.6198120117188
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 2371.11572265625
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 758.677978515625
+    },
+    {
+      "von": 14,
+      "nach": 15,
+      "konfidenz": 1.0,
+      "marge": 3304.780029296875
+    },
+    {
+      "von": 15,
+      "nach": 16,
+      "konfidenz": 1.0,
+      "marge": 2404.927001953125
+    },
+    {
+      "von": 16,
+      "nach": 17,
+      "konfidenz": 1.0,
+      "marge": 2228.82763671875
+    },
+    {
+      "von": 17,
+      "nach": 18,
+      "konfidenz": 1.0,
+      "marge": 2241.514404296875
+    },
+    {
+      "von": 18,
+      "nach": 19,
+      "konfidenz": 1.0,
+      "marge": 318.49639892578125
+    },
+    {
+      "von": 19,
+      "nach": 20,
+      "konfidenz": 1.0,
+      "marge": 1192.92529296875
+    },
+    {
+      "von": 20,
+      "nach": 21,
+      "konfidenz": 1.0,
+      "marge": 1634.5614013671875
+    },
+    {
+      "von": 21,
+      "nach": 22,
+      "konfidenz": 1.0,
+      "marge": 1830.4486083984375
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.38780645800216007,
+      "zeitstempel": "2026-09-06T14:31:54.469503Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 13.184862540998438,
+      "zeitstempel": "2026-09-06T15:05:18.035411Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

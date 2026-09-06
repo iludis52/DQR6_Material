@@ -1,0 +1,162 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 6,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "doc_title",
+      "score": 0.7224621772766113,
+      "bbox": {
+        "x0": 330.9531555175781,
+        "y0": 58.3170166015625,
+        "x1": 995.416748046875,
+        "y1": 212.265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 10,
+      "polygon": [
+        [
+          330.0,
+          58.0
+        ],
+        [
+          338.0,
+          211.0
+        ],
+        [
+          994.0,
+          211.0
+        ],
+        [
+          987.0,
+          58.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Fischer, Asal, Krueger Sozialpsychologie für Bachelor Der Wegweiser zu diesem Lehrbuch",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 4,
+      "pp_label": "paragraph_title",
+      "score": 0.6890239715576172,
+      "bbox": {
+        "x0": 745.1422119140625,
+        "y0": 1106.4267578125,
+        "x1": 1375.4715576171875,
+        "y1": 1139.706298828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 222,
+      "polygon": [
+        [
+          745.0,
+          1106.0
+        ],
+        [
+          745.0,
+          1138.0
+        ],
+        [
+          1374.0,
+          1138.0
+        ],
+        [
+          1374.0,
+          1106.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "7.6 Stereotype Threat – Bedrohung durch Stereotype",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 8,
+      "pp_label": "table",
+      "score": 0.6277867555618286,
+      "bbox": {
+        "x0": 755.4348754882812,
+        "y0": 1386.906982421875,
+        "x1": 1429.7034912109375,
+        "y1": 1749.217041015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 246,
+      "polygon": [
+        [
+          755.0,
+          1386.0
+        ],
+        [
+          763.0,
+          1748.0
+        ],
+        [
+          1428.0,
+          1748.0
+        ],
+        [
+          1428.0,
+          1386.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "<fcel>Art der Aggression<fcel>Reales Modell<fcel>Film<fcel>Comic<fcel>Kontrollgruppe<nl><fcel>Imitierende Aggression gegen Puppe<lcel><lcel><lcel><lcel><nl><fcel>w<fcel>14,2<fcel>9,0<fcel>7,8<fcel>1,8<nl><fcel>m<fcel>28,4<fcel>23,8<fcel>16,2<fcel>3,9<nl><fcel>gesamt<fcel>21,3<fcel>16,4<fcel>12,0<fcel>2,9<nl><ecel><lcel><lcel><lcel><lcel><nl><fcel>Schlagen anderer Objekte<lcel><lcel><lcel><lcel><nl><fcel>w<fcel>18,0<fcel>34,4<fcel>36,8<fcel>13,1<nl><fcel>m<fcel>22,2<fcel>18,4<fcel>12,5<fcel>13,5<nl><fcel>gesamt<fcel>20,1<fcel>26,4<fcel>24,7<fcel>13,3<nl><ecel><lcel><lcel><lcel><lcel><nl><fcel>Aggressives Waffenspiel<lcel><lcel><lcel><lcel><nl><fcel>w<fcel>3,2<fcel>10,7<fcel>8,8<fcel>3,7<nl><fcel>m<fcel>11,6<fcel>18,3<fcel>16,6<fcel>14,3<nl><fcel>gesamt<fcel>7,4<fcel>14,5<fcel>12,7<fcel>9,0<nl>",
+      "text_format": "otsl",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2887.32421875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2684.64111328125
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.4303528339987679,
+      "zeitstempel": "2026-09-06T14:30:53.693222Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 3.256092333002016,
+      "zeitstempel": "2026-09-06T14:33:29.030274Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

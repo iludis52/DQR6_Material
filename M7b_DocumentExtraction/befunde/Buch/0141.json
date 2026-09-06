@@ -1,0 +1,128 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 141,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 29,
+      "pp_label": "header",
+      "score": 0.7719955444335938,
+      "bbox": {
+        "x0": 116.38312530517578,
+        "y0": 78.7342529296875,
+        "x1": 661.423583984375,
+        "y1": 106.8341064453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "136 Kapitel 8 · Gruppenprozesse und soziale Identität",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 24,
+      "pp_label": "reference",
+      "score": 0.8846548795700073,
+      "bbox": {
+        "x0": 505.76507568359375,
+        "y0": 182.502197265625,
+        "x1": 1405.0289306640625,
+        "y1": 1951.80224609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 25,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Fischer, P., Greitemeyer, T., Omay, S. I. & Frey, D. (2007). Mergers and group status: the impact of high, low and equal group status on identification and satisfaction with a company merger, experienced controllability, group identity and group cohesion. Journal of Community and Applied Social Psychology, 17, 203–217.\n\nFreud, S. (1921). Massenpsychologie und Ich-Analyse. Wien: Internationaler Psychoanalytischer Verlag.\n\nFreud, S. (1960). Das Unbewußte. Frankfurt am Main: Fischer.\n\nFrey, D. & Bierhoff, H. W. (2011). Bachelorstudium Psychologie: Sozialpsychologie – Interaktion und Gruppe. Göttingen: Hogrefe.\n\nFrey, D. & Gaska, A. (1993). Die Theorie der kognitiven Dissonanz. In D. Frey & M. Irle (Eds.), Kognitive Theorien der Sozialpsychologie (2 vollständig überarbeitete Auflage, pp. 275–325). Bern: Huber.\n\nGaertner, S. L. & Dovidio, J. F. (2000). Reducing intergroup bias. The common ingroup identity model. Philadelphia: Taylor & Francis.\n\nGaertner, S. L., Dovidio, J. F., Anastasio, P. A., Bachman, B. A. & Rust, M. C. (1993). The common ingroup identity model: Recategorization and the reduction of intergroup bias. European Review of Social Psychology, 4, 1–26.\n\nGaertner, S. L., Mann, J., Murrell, A. & Dovidio, J. F. (1989). Reducing intergroup bias: The benefits of recategorization. Journal of Personality and Social Psychology, 57, 239–249.\n\nHaslam, S. A. (2004). Psychology in organizations: The social identity approach. Thousand Oaks: Sage.\n\nHewstone, M. & Brown, R. (1986). Contact and conflict in intergroup encounters. Social psychology and society. Cambridge: Blackwell.\n\nHogg, M. A. & Abrams, D. (1988). Social identifications: A social psychology of intergroup relations and group processes. Florence: Taylor & Frances/Routledge.\n\nHogg, M. A. & Reid, S. A. (2006). Social Identity, self-categorization, and the communication of group norms. Communication Theory, 16, 7–30.\n\nHogg, M. A. & Turner, J. C. (1987). Intergroup behaviour, self-stereotyping and the salience of social categories. British Journal of Social Psychology, 26, 325–340.\n\nJackson, L. A., Sullivan, L. A., Harnish, R. & Hodge, C. N. (1996). Achieving positive social identity: Social mobility, social creativity, and permeability of group boundaries. Journal of Personality and Social Psychology, 70, 241–254.\n\nJanis, I. L. (1972). Victims of groupthink: A psychological study of foreign-policy decisions and fiascoes. Oxford: Houghton Mifflin.\n\nKarau, S. J. & Williams, K. D. (1993). Social loafing: A meta-analytic review and theoretical integration. Journal of Personality and Social Psychology, 65, 681–706.\n\nKelley, H. H. (1952). Two functions of reference groups. In G. E. Swanson, T. M. Newcomb & E. L. Hartley (Eds.), Readings in social psychology (2nd ed., pp. 410–414). New York: Holt, Rinehart & Winston.\n\nKrueger, J. K. & DiDonato, T. E. (2008). Social categorization and the perception of groups and group differences. Social and Personality Psychology Compass, 2, 733–750.\n\nLatané, B., Williams, K. & Harkins, S. (1979). Many hands make light the work: The causes and consequences of social loafing. Journal of Personality and Social Psychology, 37, 822–832.\n\nLatrofa, M., Vaes, J., Cadinu, M. & Carnaghi, A. (2010). The cognitive representation of self-stereotyping. Personality and Social Psychology Bulletin, 36, 911–922.\n\nLe Bon, G. (1895). Psychologie des foules. Paris: Félix Alcan (dtsch. Übers. 2009 von R. Eisler: Psychologie der Massen. Hamburg: Nikol Verlagsgesellschaft).\n\nLiang, D. W., Moreland, R. & Argote, L. (1995). Group versus individual training and group performance: The mediating rule of transactive memory. Personality and Social Psychology Bulletin, 21, 384–393.\n\nLickel, B., Hamilton, D. L., Wieczorkowska, G., Lewis, A., Sherman, S. J. & Uhles, A. N. (2000). Varieties of groups and the perception of group entitativity. Journal of Personality and Social Psychology, 78, 223–246.\n\nMackie, D. M., Hamilton, D. L., Susskind, J. & Rosseli, F. (1996). Social psychological foundations of stereotype formation. In C. N. Macrae, C. Stangor & M. Hewstone (Eds.), Stereotypes and stereotyping (pp. 41–78). New York: Guilford.\n\nMiller, N., Brewer, M. B. & Edwards, K. (1985). Cooperative interaction in desegregated settings: A laboratory analogue. Journal of Social Issues, 41, 63–79.\n\nNail, P. R. (1986). Toward an integration of some models and theories of social response. Psychological Bulletin, 100, 190–206.\n\nPark, B. & Rothbart, M. (1982). Perception of out-group homogeneity and levels of social categorization: Memory for the subordinate attributes of in-group and out-group members. Journal of Personality and Social Psychology, 42, 1051–1068.\n\nPostmes, T. & Spears, R. (1998). Deindividuation and antinormative behavior: A meta-analysis. Psychological Bulletin, 123, 238–259.\n\nSherif, M. (1966). In common predicament: Social psychology of intergroup conflict and cooperation. Boston: Houghton Mifflin.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2074.08544921875
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt.",
+    "Blöcke [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30] zu #1 (reference) zusammengeführt.",
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt.",
+    "Blöcke [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30] zu #1 (reference) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.41312091600048007,
+      "zeitstempel": "2026-09-06T14:31:46.980706Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 10.294339125000988,
+      "zeitstempel": "2026-09-06T15:01:49.983744Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 10.376674957999057,
+      "zeitstempel": "2026-09-06T15:21:54.511522Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

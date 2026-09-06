@@ -1,0 +1,733 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 179,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.6503308415412903,
+      "bbox": {
+        "x0": 116.9061279296875,
+        "y0": 78.57742309570312,
+        "x1": 486.6014709472656,
+        "y1": 106.28927612304688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "176 Kapitel 11 · Soziale Dilemmata",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 19,
+      "pp_label": "number",
+      "score": 0.6925510168075562,
+      "bbox": {
+        "x0": 15.404535293579102,
+        "y0": 981.190673828125,
+        "x1": 62.31523513793945,
+        "y1": 1023.144287109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 34,
+      "polygon": [
+        [
+          15.0,
+          981.0
+        ],
+        [
+          15.0,
+          1022.0
+        ],
+        [
+          61.0,
+          1022.0
+        ],
+        [
+          61.0,
+          981.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "11",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9424506425857544,
+      "bbox": {
+        "x0": 503.577392578125,
+        "y0": 181.3150634765625,
+        "x1": 1407.0919189453125,
+        "y1": 319.0780029296875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 76,
+      "polygon": [
+        [
+          503.0,
+          181.0
+        ],
+        [
+          503.0,
+          318.0
+        ],
+        [
+          1406.0,
+          318.0
+        ],
+        [
+          1406.0,
+          181.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "komplexe Situationen und Problemstellungen ergeben, die zu keiner Lösung führen; es kommt zu einem sozialen Dilemma. Die Spieltheorie beschreibt eine Vielzahl solcher Dilemmata, indem sie versucht, die jeweiligen sozialen Problemstellungen in Spielen darzustellen. Im Folgenden möchten wir nun auf einige wichtige Dilemmata eingehen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 12,
+      "pp_label": "paragraph_title",
+      "score": 0.6979948282241821,
+      "bbox": {
+        "x0": 544.8598022460938,
+        "y0": 350.0384521484375,
+        "x1": 663.52978515625,
+        "y1": 380.078857421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 96,
+      "polygon": [
+        [
+          544.0,
+          350.0
+        ],
+        [
+          544.0,
+          379.0
+        ],
+        [
+          662.0,
+          379.0
+        ],
+        [
+          662.0,
+          350.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- Definition",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9048895239830017,
+      "bbox": {
+        "x0": 543.571044921875,
+        "y0": 381.6325988769531,
+        "x1": 1366.1151123046875,
+        "y1": 485.5848083496094,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 117,
+      "polygon": [
+        [
+          551.0,
+          381.0
+        ],
+        [
+          551.0,
+          484.0
+        ],
+        [
+          1365.0,
+          484.0
+        ],
+        [
+          1365.0,
+          381.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Ein soziales Dilemma besteht dann, wenn individuelles rationales Handeln zu kollektiven Konsequenzen führt, die jeder Einzelne ablehnt. Die Verfolgung des individuellen Nutzens steht also im Widerspruch zum Wohl der Allgemeinheit.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.8621900081634521,
+      "bbox": {
+        "x0": 508.0725402832031,
+        "y0": 574.4344482421875,
+        "x1": 921.4068603515625,
+        "y1": 610.973388671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 129,
+      "polygon": [
+        [
+          508.0,
+          574.0
+        ],
+        [
+          508.0,
+          609.0
+        ],
+        [
+          920.0,
+          609.0
+        ],
+        [
+          920.0,
+          574.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "11.2.1 Gefangenendilemma",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9113577008247375,
+      "bbox": {
+        "x0": 504.7937316894531,
+        "y0": 649.0206298828125,
+        "x1": 1405.882568359375,
+        "y1": 717.2010498046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 132,
+      "polygon": [
+        [
+          504.0,
+          659.0
+        ],
+        [
+          504.0,
+          716.0
+        ],
+        [
+          1404.0,
+          716.0
+        ],
+        [
+          1404.0,
+          649.0
+        ],
+        [
+          512.0,
+          649.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das bekannteste Spiel ist das Gefangenendilemma (»prisoner’s dilemma«; Flood & Drescher, 1952). Das folgende klassische Beispiel soll die Situation verdeutlichen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 10,
+      "pp_label": "paragraph_title",
+      "score": 0.7439121603965759,
+      "bbox": {
+        "x0": 154.1355743408203,
+        "y0": 747.4560546875,
+        "x1": 239.93048095703125,
+        "y1": 774.852783203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 136,
+      "polygon": [
+        [
+          154.0,
+          747.0
+        ],
+        [
+          154.0,
+          773.0
+        ],
+        [
+          238.0,
+          773.0
+        ],
+        [
+          238.0,
+          747.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Beispiel",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 15,
+      "pp_label": "paragraph_title",
+      "score": 0.5655173659324646,
+      "bbox": {
+        "x0": 152.40188598632812,
+        "y0": 783.0137939453125,
+        "x1": 438.1047668457031,
+        "y1": 812.8775634765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 139,
+      "polygon": [
+        [
+          152.0,
+          793.0
+        ],
+        [
+          152.0,
+          811.0
+        ],
+        [
+          437.0,
+          811.0
+        ],
+        [
+          437.0,
+          783.0
+        ],
+        [
+          228.0,
+          783.0
+        ],
+        [
+          219.0,
+          783.0
+        ],
+        [
+          213.0,
+          783.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Prisoner's Dilemma Game",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.9391583800315857,
+      "bbox": {
+        "x0": 150.359375,
+        "y0": 816.91748046875,
+        "x1": 1364.6915283203125,
+        "y1": 1051.3724365234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 153,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Wegen eines Verbrechens wurden zwei Verdächtige verhaftet und in getrennte Zellen gesperrt. Der Staatsanwalt bietet ihnen getrennt voneinander folgenden Handel an: Für ein Geständnis des mutmaßlichen Kapitalverbrechens gibt es 1 Jahr Haft sofern der andere nicht gesteht; gestehen beide, so liegt ihre Strafe jeweils bei 10 Jahren Haft. Schweigt die Person, muss sie mit 5 Jahren Gefängnis rechnen, falls der andere Verdächtige auch schweigt, bzw. mit 20 Jahren, falls dieser gesteht. Diese Situation stellt ein Dilemma dar, weil zwei rationale Entscheidungen zu einem schlechten Ergebnis führen. Wären beide Spieler irrational, so würden sie beide schweigen und damit ein besseres Ergebnis erzielen (nur 5 Jahre Haft per capita).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        10,
+        11
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 14,
+      "pp_label": "paragraph_title",
+      "score": 0.5993548631668091,
+      "bbox": {
+        "x0": 129.69114685058594,
+        "y0": 1119.400634765625,
+        "x1": 403.0996398925781,
+        "y1": 1146.228515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 199,
+      "polygon": [
+        [
+          129.0,
+          1119.0
+        ],
+        [
+          129.0,
+          1145.0
+        ],
+        [
+          402.0,
+          1145.0
+        ],
+        [
+          402.0,
+          1119.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Nach der traditionellen Spiel-",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.8186612129211426,
+      "bbox": {
+        "x0": 129.01231384277344,
+        "y0": 1138.908203125,
+        "x1": 452.9986572265625,
+        "y1": 1344.28564453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 202,
+      "polygon": [
+        [
+          129.0,
+          1138.0
+        ],
+        [
+          129.0,
+          1343.0
+        ],
+        [
+          451.0,
+          1343.0
+        ],
+        [
+          451.0,
+          1149.0
+        ],
+        [
+          444.0,
+          1138.0
+        ],
+        [
+          422.0,
+          1138.0
+        ],
+        [
+          305.0,
+          1138.0
+        ],
+        [
+          283.0,
+          1138.0
+        ],
+        [
+          275.0,
+          1138.0
+        ],
+        [
+          153.0,
+          1138.0
+        ],
+        [
+          136.0,
+          1138.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Nach der traditionellen Spiel-\ntheorie wird von beiden Spielern\ndiejenige Strategie gewählt, die zu einem kollektiven Äquilibrium führt.\nDoch oft ist die Versuchung groß, den eigenen Nutzen auf Kosten der anderen zu maximieren (»Trittbrett-fahrerproblem«).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 16,
+      "pp_label": "text",
+      "score": 0.5625323057174683,
+      "bbox": {
+        "x0": 128.37911987304688,
+        "y0": 1785.879638671875,
+        "x1": 430.2388000488281,
+        "y1": 1898.963134765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 217,
+      "polygon": [
+        [
+          128.0,
+          1785.0
+        ],
+        [
+          128.0,
+          1897.0
+        ],
+        [
+          429.0,
+          1897.0
+        ],
+        [
+          429.0,
+          1796.0
+        ],
+        [
+          422.0,
+          1785.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "In Experimenten, die nach dem Gefangenendilemma konzipiert sind, kooperieren fast die Hälfte der Teilnehmer.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9711557626724243,
+      "bbox": {
+        "x0": 503.9204406738281,
+        "y0": 1115.6019287109375,
+        "x1": 1406.0133056640625,
+        "y1": 1783.2166748046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 222,
+      "polygon": [
+        [
+          503.0,
+          1115.0
+        ],
+        [
+          511.0,
+          1782.0
+        ],
+        [
+          1405.0,
+          1782.0
+        ],
+        [
+          1405.0,
+          1115.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die traditionelle Spieltheorie besagt, dass Spieler diejenige Strategie wählen, die zu einem Äquilibrium führt. Im Gefangenendilemma ist das Äquilibrium gegeben, wenn beide gestehen (jeweils 10 Jahre). Würde ein Gefangener einseitig widerrufen, verdoppelte sich die Haftzeit. Jeder Spieler kann leicht sehen, dass ein Geständnis zu einem besseren Resultat führt, ganz egal, wie sich der andere Spieler verhält. Im spieltheoretischen Jargon ist das Geständnis ein Akt des Desertierens (d.h., man fällt dem anderen Spieler in den Rücken), während das Schweigen der Kooperation gleichkommt. Vom Standpunkt des Kollektivs der beiden Gefangenen wäre die erfolgreiche Koordination natürlich am besten – oder effizientesten. In diesem Beispiel wäre die Summe der Haftzeiten 10 Jahre, wohingegen die beiden rationalen Deserteure insgesamt 20 Jahre absitzen würden. Das Dilemma besteht also darin, dass sowohl die Gruppe als auch der Einzelne besser dastehen würden, wenn sie sich koordinieren bzw. untereinander absprechen könnten. Man würde vermuten, dass jeder an einer Kooperation interessiert sei, da sich – wie bereits gesagt – auch der Einzelne in einer Gruppe von Kooperieren- den besser tut als in einer Gruppe von Deserteuren. Doch diese theoretische Überlegung trifft in der Praxis nicht immer zu. Warum? Die Antwort liegt in der »Versuchung« Wenn der andere (oder alle anderen) kooperiert, kann der individuelle Deserteur am meisten gewinnen. In unserem Beispiel lockt ihn also die Aussicht darauf, nur 1 Jahr hinter Gittern zu verbringen. Diese Versuchung ist auch als das sog. »Trittbrett-fahrerproblem« («freerider problem«) bekannt (Andreoni, 1988).\nFür klassische Spieltheoretiker ist der Fall klar. Alle rationalen Alteure desertieren",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9530186653137207,
+      "bbox": {
+        "x0": 502.7572021484375,
+        "y0": 1782.4315185546875,
+        "x1": 1407.3790283203125,
+        "y1": 1951.1861572265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 292,
+      "polygon": [
+        [
+          502.0,
+          1782.0
+        ],
+        [
+          502.0,
+          1941.0
+        ],
+        [
+          533.0,
+          1950.0
+        ],
+        [
+          1232.0,
+          1950.0
+        ],
+        [
+          1406.0,
+          1950.0
+        ],
+        [
+          1406.0,
+          1782.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Für klassische Spieltheoretiker ist der Fall klar. Alle rationalen Akteure desertieren. Das Resultat mag zwar bedauerlich sein, aber dem mathematisch Gesinnten ist dies egal. »Es ist, wie es ist!« Orthodoxen Spieltheoretikern kommen die Sorgenfalten erst im Angesicht der empirischen Befundlage. In Experimenten, die nach dem Gefangennendilemma konzipiert sind, kooperieren fast die Hälfte der Versuchspersonen (Sally,",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 979.984375
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2067.668701171875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1584.950439453125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1319.13623046875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1482.52099609375
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 633.3973388671875
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1437.313232421875
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1192.633056640625
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1537.4981689453125
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1952.7664794921875
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1296.7919921875
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 2481.937255859375
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 99.18603515625
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 1630.4478759765625
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt.",
+    "Blöcke [10, 11] zu #9 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3968873750018247,
+      "zeitstempel": "2026-09-06T14:32:01.852468Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 12.712159041002451,
+      "zeitstempel": "2026-09-06T15:09:13.751183Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

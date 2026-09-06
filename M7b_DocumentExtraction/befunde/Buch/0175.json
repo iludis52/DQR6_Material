@@ -1,0 +1,159 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 175,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 11,
+      "pp_label": "header",
+      "score": 0.8679431676864624,
+      "bbox": {
+        "x0": 190.33984375,
+        "y0": 79.17330932617188,
+        "x1": 1205.8607177734375,
+        "y1": 106.73464965820312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 2,
+      "polygon": [
+        [
+          190.0,
+          79.0
+        ],
+        [
+          190.0,
+          105.0
+        ],
+        [
+          1204.0,
+          105.0
+        ],
+        [
+          1204.0,
+          79.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 10 · Sozialpsychologie der menschlichen Existenz: Positive Psychologie und Psychologie der Religion",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 21,
+      "pp_label": "number",
+      "score": 0.64158695936203,
+      "bbox": {
+        "x0": 16.249553680419922,
+        "y0": 906.0532836914062,
+        "x1": 63.41963577270508,
+        "y1": 941.0444946289062,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 4,
+      "polygon": [
+        [
+          16.0,
+          906.0
+        ],
+        [
+          16.0,
+          940.0
+        ],
+        [
+          62.0,
+          940.0
+        ],
+        [
+          62.0,
+          906.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 10,
+      "pp_label": "reference_content",
+      "score": 0.9251802563667297,
+      "bbox": {
+        "x0": 508.2466735839844,
+        "y0": 186.69512939453125,
+        "x1": 1404.3211669921875,
+        "y1": 798.909423828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 51,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Smith, B. W., Pargament, K. I., Brant, C. R. & Oliver, J. M. (2000). Noah revisited: Religious coping by church members and the impact of the 1993 Midwest flood. Journal of Community Psychology, 28, 169–186.\nSolomon, S., Greenberg, J. & Pyszczynski, T. (2004). The cultural animal: Twenty years of terror management theory and research. In J. Greenberg, S. Koole & T. Pyszczynski (Eds.), Handbook of experimental existential psychology (pp. 13–34). New York: Guilford Press.\nSpilka, B., Hood, R. W. Jr. & Gorsuch, R. L. (1985). The psychology of religion: An empirical approach. Englewood Cliffs: Prentice Hall.\nStatistisches Bundesamt (2005). Gesundheitsausgaben und Gesundheitspersonalrechnung. Retrieved from http://www.bpb.de/politik/innenpolitik/gesundheitspolitik/72547/einfuehrung-gesundheitswesen-ueberblick\nStreet, D., Burge, S., Quadagno, J. & Barret, A. (2007). The salience of social relationships for resident wellbeing in assisted living. Journal of Gerontology, 62, 129–134.\nStröhle, A. (2009). Physical activity, exercise, depression and anxiety disorders. Journal of Neural Transmission, 116, 777–784.\nTajfel, H. & Turner, J. C. (1979). An integrative theory of social contact. In W. Austin & S. Worchel (Ed.), The social psychology of intergroup relations (pp. 33–47). Monterey: Brooks/Cole.\nTix, A. P. & Frazier, P. A. (1998). The use of religious coping during stressful life events: Main effects, moderation, and mediation. Journal of Consulting and Clinical Psychology, 66, 411–422.\nTurner, J. C., Oakes, P. J., Haslam, S. A. & McGarty, C. (1994). Self and collective: Cognition and social context. Personality and Social Psychology Bulletin, 20, 454–463.\nZuckerman, P. (2005). Atheism: Contemporary rates and patterns. In M. Martin (Ed.), The Cambridge companion to atheism (pp. 47–67). Cambridge: Cambridge University Press.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 277.32550048828125
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1184.2708740234375
+    }
+  ],
+  "warnungen": [
+    "Blöcke [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] zu #2 (reference_content) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.42876745800094795,
+      "zeitstempel": "2026-09-06T14:32:00.329583Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 5.594189916999312,
+      "zeitstempel": "2026-09-06T15:08:28.820304Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

@@ -1,0 +1,693 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 74,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.8218827247619629,
+      "bbox": {
+        "x0": 112.86398315429688,
+        "y0": 78.6339111328125,
+        "x1": 752.3494262695312,
+        "y1": 106.5965576171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 5,
+      "polygon": [
+        [
+          112.0,
+          78.0
+        ],
+        [
+          112.0,
+          105.0
+        ],
+        [
+          751.0,
+          105.0
+        ],
+        [
+          751.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5.2 · Verschiedene psychologische Erklärungsansätze für Aggression",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 10,
+      "pp_label": "number",
+      "score": 0.6500165462493896,
+      "bbox": {
+        "x0": 1383.051513671875,
+        "y0": 35.685028076171875,
+        "x1": 1420.28955078125,
+        "y1": 84.62173461914062,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 40,
+      "polygon": [
+        [
+          1383.0,
+          35.0
+        ],
+        [
+          1383.0,
+          83.0
+        ],
+        [
+          1419.0,
+          83.0
+        ],
+        [
+          1419.0,
+          35.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9604707360267639,
+      "bbox": {
+        "x0": 109.83133697509766,
+        "y0": 182.93832397460938,
+        "x1": 1013.4027709960938,
+        "y1": 414.7568664550781,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 64,
+      "polygon": [
+        [
+          117.0,
+          182.0
+        ],
+        [
+          109.0,
+          413.0
+        ],
+        [
+          1012.0,
+          413.0
+        ],
+        [
+          1012.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Ablehnung oder eine Bedrohung des Selbstwerts Frustration und folglich auch aggres-sives Verhalten auslösen (Leary, Twenge & Quinlivan, 2006). Interessanterweise haben hauptsächlich Personen mit einem übersteigerten Selbstwertgefühl (Narzissmus) die Tendenz, auf Beleidigungen mit aggressivem Verhalten zu reagieren (Bushman & Baumeister, 1998; Vazire & Funder, 2006). Dies ist vermutlich darauf zurückzuführen, dass sich Narzissten vor allem gegenüber denjenigen Menschen beweisen möchten, die ihre positive Selbstsicht nicht teilen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9528577327728271,
+      "bbox": {
+        "x0": 111.10538482666016,
+        "y0": 417.7041015625,
+        "x1": 1013.3836669921875,
+        "y1": 613.534423828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 70,
+      "polygon": [
+        [
+          111.0,
+          417.0
+        ],
+        [
+          111.0,
+          612.0
+        ],
+        [
+          1012.0,
+          612.0
+        ],
+        [
+          1012.0,
+          417.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Erstmals aufmerksam wurde man auf den Frustrations-Aggressions-Effekt, als man statistisch feststellte, dass im frühen Amerika die Baumwollpreise negativ mit den Lynchmorden an dunkelhäutigen Dorfbewohnern korreliert waren. Gemäß der Frustrations-Aggressions-Hypothese führten sinkende Baumwollpreise bei den Farmbesitzern zu erhöhter Frustration, was wiederum in erhöhter Aggression gegenüber ihren Mitarbeitern mündete.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9610146284103394,
+      "bbox": {
+        "x0": 110.2994613647461,
+        "y0": 616.3812255859375,
+        "x1": 1015.4183349609375,
+        "y1": 1016.6077880859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 79,
+      "polygon": [
+        [
+          118.0,
+          616.0
+        ],
+        [
+          118.0,
+          1015.0
+        ],
+        [
+          1007.0,
+          1015.0
+        ],
+        [
+          1007.0,
+          616.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Ahnliche Effekte wurden auch in anderen Zusammenhängen festgestellt: So treten bei hohen Temperaturen (Hitze als erlebte Frustration) signifikant mehr Ausschreitungen und Gewalttaten auf als in den Wintermonaten (»long hot summer effect«; Carlsmith & Anderson, 1979; zit. nach Aronson et al., 2008). Neuere experimentelle Studien legen den Schluss nahe, dass der Einfluss der Temperatur auf Aggressivität an der unangenehmen Wahrnehmung als solcher liegt; sowohl extreme Hitze als auch extreme Kälte erhöhen das Auftreten aggressiver Gefühle (Anderson, Anderson & Deuser, 1996). Die Wirkung von Temperatur auf aggressives Verhalten scheint somit über den affektiven (gefühlsmäßigen) Weg zu funktionieren. Neben diesem Umweltreiz »Temperatur« wird der Frustrations-Aggressions-Effekt auch durch andere situationsbedingter Reize verstärkt, die speziell mit Gewalt und Aggression verbunden sind (vgl. Aronson et al., 2008; ▶ Studie: Der Waffeneffekt).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.6602110266685486,
+      "bbox": {
+        "x0": 1056.422607421875,
+        "y0": 619.4217529296875,
+        "x1": 1369.943359375,
+        "y1": 731.1260986328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 118,
+      "polygon": [
+        [
+          1056.0,
+          619.0
+        ],
+        [
+          1056.0,
+          730.0
+        ],
+        [
+          1368.0,
+          730.0
+        ],
+        [
+          1368.0,
+          619.0
+        ],
+        [
+          1347.0,
+          619.0
+        ],
+        [
+          1315.0,
+          619.0
+        ],
+        [
+          1308.0,
+          619.0
+        ],
+        [
+          1201.0,
+          619.0
+        ],
+        [
+          1148.0,
+          619.0
+        ],
+        [
+          1117.0,
+          619.0
+        ],
+        [
+          1087.0,
+          619.0
+        ],
+        [
+          1063.0,
+          619.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Personen verhalten sich an heißen Tagen aggressiver als an weniger heißen Tagen (»Long Hot Summer Effect«).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 12,
+      "pp_label": "paragraph_title",
+      "score": 0.6803828477859497,
+      "bbox": {
+        "x0": 152.7464141845703,
+        "y0": 1046.7784423828125,
+        "x1": 226.70111083984375,
+        "y1": 1073.8609619140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 142,
+      "polygon": [
+        [
+          152.0,
+          1046.0
+        ],
+        [
+          152.0,
+          1072.0
+        ],
+        [
+          225.0,
+          1072.0
+        ],
+        [
+          225.0,
+          1046.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 14,
+      "pp_label": "paragraph_title",
+      "score": 0.5048655867576599,
+      "bbox": {
+        "x0": 152.0009002685547,
+        "y0": 1082.91015625,
+        "x1": 781.3496704101562,
+        "y1": 1112.4296875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 164,
+      "polygon": [
+        [
+          152.0,
+          1082.0
+        ],
+        [
+          152.0,
+          1111.0
+        ],
+        [
+          379.0,
+          1111.0
+        ],
+        [
+          403.0,
+          1111.0
+        ],
+        [
+          418.0,
+          1111.0
+        ],
+        [
+          780.0,
+          1111.0
+        ],
+        [
+          780.0,
+          1082.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der Waffeneffekt – Wie die Waffe zur aggressiven Tat führt",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.8814146518707275,
+      "bbox": {
+        "x0": 149.91360473632812,
+        "y0": 1113.82666015625,
+        "x1": 1383.3255615234375,
+        "y1": 1483.0419921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 181,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Der wانهnekt – wie die wäle zur aggressiven Tat fünft\nBerkowitz und LePage (1967) zeigten in einer Reihe\nberühmter Studien, dass Frustrationen in noch stärkerem\nMaße zu Aggression führen, wenn zusätzlich Waffen zu\nsehen sind. Die Versuchspersonen wurden zunächst durch\ndie negative Rückmeldung eines Konföderierten (= Ein-\ngeweihter des Versuchsleiters) frustriert. Im Anschluss daran\nhatten die Probanden die Möglichkeit, dem Konföderierten\n(also dem »Täter«) Elektroschocks zu verabreichen. Während\ndies geschah, lag auf einem Nebentisch im Versuchsraum\nentweder ein Gewehr oder ein Federballschläger. Wenn\neine Waffe im Blickfeld lag, gaben die Versuchspersonen\nvergleichsweise stärkere Elektroschocks. Die Erklärung\ndieses Effektes ist folgendermaßen: Die Anwesenheit einer Waffe erhöht automatisch die kognitive Zugänglichkeit\naggressiver Konstrukte, die im kognitiven System als neuro-\nnale Netzwerke abgespeichert sind. Im Gegensatz zu der Beeinflussung durch Temperatur handelt es sich hier also\nhauptsächlich um einen Wirkungspfad der kognitiv vermittelt ist (Anderson et al., 1996). Im Zustand erhöhter Frustration sinkt also durch die erleichterte Zugänglichkeit aggressiver\nGedanken die Schwelle, auch aggressives Verhalten zu zeigen\n(▪ Abb. 5.2).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        8,
+        9
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.9122059345245361,
+      "bbox": {
+        "x0": 112.82369232177734,
+        "y0": 1549.664306640625,
+        "x1": 1012.2332153320312,
+        "y1": 1646.883056640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 229,
+      "polygon": [
+        [
+          112.0,
+          1549.0
+        ],
+        [
+          112.0,
+          1645.0
+        ],
+        [
+          1011.0,
+          1645.0
+        ],
+        [
+          1011.0,
+          1549.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Beim Waffeneffekt handelt es sich um einen robusten und generalisierbaren Befund, der nicht an ein bestimmtes experimentelles Vorgehen gebunden ist; stattdessen tritt der Waffeneffekt bei unterschiedlichen Gegenständen (Pistole, Messer etc.),",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.9227398633956909,
+      "bbox": {
+        "x0": 111.91181182861328,
+        "y0": 1650.6763916015625,
+        "x1": 578.7677001953125,
+        "y1": 1783.4149169921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 233,
+      "polygon": [
+        [
+          111.0,
+          1650.0
+        ],
+        [
+          111.0,
+          1782.0
+        ],
+        [
+          577.0,
+          1782.0
+        ],
+        [
+          577.0,
+          1650.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "bei echten oder grafisch dargestellten Ge- genständen (echte Waffe vs. Bild), in Experi- mental- oder Feldstudien (Anderson, Benja- min & Bartholow, 1998) auf.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 3,
+      "pp_label": "image",
+      "score": 0.9431589841842651,
+      "bbox": {
+        "x0": 623.8876342773438,
+        "y0": 1681.35791015625,
+        "x1": 1014.7794189453125,
+        "y1": 1927.258056640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 256,
+      "polygon": [
+        [
+          623.0,
+          1681.0
+        ],
+        [
+          623.0,
+          1855.0
+        ],
+        [
+          631.0,
+          1926.0
+        ],
+        [
+          1013.0,
+          1926.0
+        ],
+        [
+          1013.0,
+          1681.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0074_11_image.png"
+    },
+    {
+      "id": 12,
+      "query_id": 16,
+      "pp_label": "text",
+      "score": 0.5496185421943665,
+      "bbox": {
+        "x0": 1057.891357421875,
+        "y0": 1553.3009033203125,
+        "x1": 1387.3931884765625,
+        "y1": 1721.7486572265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 283,
+      "polygon": [
+        [
+          1057.0,
+          1553.0
+        ],
+        [
+          1057.0,
+          1720.0
+        ],
+        [
+          1386.0,
+          1720.0
+        ],
+        [
+          1386.0,
+          1553.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der bloße Anblick von Waffen erhöht die kognitive Zugänglichkeit aggres-siver Gedanken und erhöht somit die Wahrscheinlichkeit für tatsächlich gezeigtes aggressives Verhalten (»weapon effect«)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 9,
+      "pp_label": "figure_title",
+      "score": 0.8669951558113098,
+      "bbox": {
+        "x0": 1058.176025390625,
+        "y0": 1836.02490234375,
+        "x1": 1378.501708984375,
+        "y1": 1919.889404296875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 289,
+      "polygon": [
+        [
+          1058.0,
+          1836.0
+        ],
+        [
+          1058.0,
+          1918.0
+        ],
+        [
+          1377.0,
+          1918.0
+        ],
+        [
+          1377.0,
+          1836.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "▪ Abb. 5.2 Der Anblick einer Waffe erhöht die kognitive Zugänglichkeit aggressiver Konstrukte",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2375.5009765625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2248.792724609375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1340.90283203125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1406.6832275390625
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1849.19677734375
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 820.773681640625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1191.3062744140625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1740.87890625
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1892.921875
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 2138.959228515625
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1458.0584716796875
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1364.9757080078125
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 1903.2666015625
+    }
+  ],
+  "warnungen": [
+    "Blöcke [8, 9] zu #8 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.41487816700100666,
+      "zeitstempel": "2026-09-06T14:31:20.587075Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 13.74661529199875,
+      "zeitstempel": "2026-09-06T14:47:29.091206Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

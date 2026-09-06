@@ -1,0 +1,481 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 152,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.6816082000732422,
+      "bbox": {
+        "x0": 116.82322692871094,
+        "y0": 78.63653564453125,
+        "x1": 450.6458740234375,
+        "y1": 105.91107177734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "148 Kapitel 9 · Sozialer Einfluss",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.8845775127410889,
+      "bbox": {
+        "x0": 127.99166870117188,
+        "y0": 252.58209228515625,
+        "x1": 453.1394348144531,
+        "y1": 365.71807861328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 24,
+      "polygon": [
+        [
+          127.0,
+          252.0
+        ],
+        [
+          127.0,
+          364.0
+        ],
+        [
+          445.0,
+          364.0
+        ],
+        [
+          452.0,
+          354.0
+        ],
+        [
+          452.0,
+          252.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Um den Einfluss von Minderheiten auf Mehrheiten zu überprüfen, kehrten Moscovici et al. (1969) das klassische Asch-Paradigma einfach um.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9067080020904541,
+      "bbox": {
+        "x0": 503.7078552246094,
+        "y0": 182.45742797851562,
+        "x1": 1405.47705078125,
+        "y1": 245.76998901367188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 27,
+      "polygon": [
+        [
+          503.0,
+          182.0
+        ],
+        [
+          503.0,
+          244.0
+        ],
+        [
+          1404.0,
+          244.0
+        ],
+        [
+          1404.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "nende Mehrheit ausüben können. Doch welche psychologischen Prozesse sind dafür verantwortlich?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9551820158958435,
+      "bbox": {
+        "x0": 504.44921875,
+        "y0": 250.29986572265625,
+        "x1": 1407.238037109375,
+        "y1": 449.73284912109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 34,
+      "polygon": [
+        [
+          504.0,
+          260.0
+        ],
+        [
+          504.0,
+          448.0
+        ],
+        [
+          1406.0,
+          448.0
+        ],
+        [
+          1399.0,
+          250.0
+        ],
+        [
+          1384.0,
+          250.0
+        ],
+        [
+          512.0,
+          250.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Umm den Einfluss von Minderheiten auf Mehrheiten zu demonstrieren, kehrten Moscovici, Lage und Naffrechoux (1969) das klassische Asch-Paradigma zum normativen sozialen Einfluss (s. oben) einfach um und wandelten es inhaltlich etwas ab. Nungab nicht mehr die Mehrheit der Konföderierten eine falsche Einschätzung ab, sondern diejenigen mit falscher Angabe blieben in der Minderheit (▶ Studie: Experimentelle Untersuchung zum Einfluss von Minderheiten).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 9,
+      "pp_label": "paragraph_title",
+      "score": 0.733045756816864,
+      "bbox": {
+        "x0": 153.23306274414062,
+        "y0": 480.5372619628906,
+        "x1": 226.24435424804688,
+        "y1": 507.1895446777344,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 42,
+      "polygon": [
+        [
+          153.0,
+          480.0
+        ],
+        [
+          153.0,
+          506.0
+        ],
+        [
+          225.0,
+          506.0
+        ],
+        [
+          225.0,
+          480.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.8935717344284058,
+      "bbox": {
+        "x0": 150.2202606201172,
+        "y0": 541.4401245117188,
+        "x1": 1381.0968017578125,
+        "y1": 984.1153564453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 59,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Experimentelle Untersuchung zum Einfluss von Minderheiten\nIn einem Experiment von Moscovici et al. (1969) nahmen die Versuchspersonen in Gruppen zu 6 Personen teil. Alle der Versuchspersonen bekamen in den experimentellen Durchgängen stets blaue Dias zu sehen. Die Aufgabe der Versuchspersonen bestand dabei darin, die Farbe des gesehenen Dias öffentlich dem Versuchsleiter mitzuteilen. Die Farbe war immer blau, lediglich deren Intensität wurde in den einzelnen Durchgängen verändert. Es gab zwei Experimentalgruppen (mit je 2 Konföderierten und 4 tatsächlichen Versuchspersonen) und eine Kontrollgruppe. Letztere bestand ausschließlich aus naiven Versuchspersonen, also wirklichenTeilnehmern, die keine Konföderierten waren. In der ersten Experimentalbedingung verhielt sich die Minder-heit (Konföderierte) inkonsistent, d. h., sie gab in zwei Drittel der Durchgänge eine falsche Antwort ab (sie teilte dem Versuchsleiter mit, dass das Dia grün sei). In der zweiten experimentellen Bedingung handelte es sich um eine konsistente Minderheit, d. h., die beiden Konföderierten beharrten in allen Versuchsdurchgängen auf der falschen Antwort »grün«.\nAls Ergebnis zeigte sich, dass nur die konsistente Minderheit einen signifikanten Einfluss auf die die Versuchspersonen (die Mehrheit) hatte; und zwar sowohl hinsichtlich der öffentli-chen Compliance als auch in Bezug auf die private Akzeptanz. Inkonsistente Minoritäten hatten dagegen nur einen gering-fügigen Einfluss auf die Rate der falschen Antworten.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        6,
+        7,
+        8
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.8765200972557068,
+      "bbox": {
+        "x0": 128.2701873779297,
+        "y0": 1052.176513671875,
+        "x1": 452.20965576171875,
+        "y1": 1165.8857421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 115,
+      "polygon": [
+        [
+          128.0,
+          1052.0
+        ],
+        [
+          128.0,
+          1164.0
+        ],
+        [
+          451.0,
+          1164.0
+        ],
+        [
+          451.0,
+          1052.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Persistierende Minderheiten lösen bei uns einen kognitiven Konflikt aus und bringen uns dazu, tiefer zu elaborieren (»think twice«).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.6597499251365662,
+      "bbox": {
+        "x0": 128.68699645996094,
+        "y0": 1515.66650390625,
+        "x1": 452.4019775390625,
+        "y1": 1544.29296875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 123,
+      "polygon": [
+        [
+          128.0,
+          1515.0
+        ],
+        [
+          128.0,
+          1543.0
+        ],
+        [
+          451.0,
+          1543.0
+        ],
+        [
+          451.0,
+          1515.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Abb. 9.5 Der Validierungsprozess",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9621408581733704,
+      "bbox": {
+        "x0": 503.25164794921875,
+        "y0": 1049.312255859375,
+        "x1": 1409.3223876953125,
+        "y1": 1449.1396484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 131,
+      "polygon": [
+        [
+          503.0,
+          1059.0
+        ],
+        [
+          511.0,
+          1448.0
+        ],
+        [
+          1408.0,
+          1448.0
+        ],
+        [
+          1408.0,
+          1059.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Warum und wie können Minderheiten Einfluss nehmen? Moscovici und Personnaz (1980) argumentieren, dass – wenn Minderheiten über eine längere Zeitspanne hinweg auf ihrer Meinung beharren (persistieren) – Personen noch ein zweites Mal über bestimmte Probleme nachdenken (»think twice«). Ursächlich dafür ist ein kognitiver Konflikt, der durch die voneinander abweichenden Meinungen ausgelöst wird. Man fragt sich natürlich, ob das Urteil der Minderheit nicht doch einen wahren Kern hat, da diese ja sehr konsistent in ihrer Meinung ist. Diese Überprüfung wird auch als Vali-dierungsprozess bezeichnet. Er führt zu einer tieferen kognitiven Verarbeitung der jeweiligen Entscheidungs- und Urteilsprobleme, da man sich intensiv mit der Thema- tik auseinandersetzt und die einzelnen Argumente gegeneinander abwägt. Darüber hinaus werden Mehrheitsnormen hinterfragt und können somit durchbrochen werden (▪ Abb. 9.5).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 10,
+      "pp_label": "image",
+      "score": 0.8321887254714966,
+      "bbox": {
+        "x0": 504.67340087890625,
+        "y0": 1511.673583984375,
+        "x1": 1234.702880859375,
+        "y1": 1942.853271484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 189,
+      "polygon": [
+        [
+          512.0,
+          1542.0
+        ],
+        [
+          504.0,
+          1839.0
+        ],
+        [
+          520.0,
+          1931.0
+        ],
+        [
+          558.0,
+          1931.0
+        ],
+        [
+          596.0,
+          1941.0
+        ],
+        [
+          1233.0,
+          1931.0
+        ],
+        [
+          1233.0,
+          1511.0
+        ],
+        [
+          535.0,
+          1511.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0152_09_image.png"
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2920.985107421875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 558.3407592773438
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 482.2278747558594
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1220.3095703125
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1755.847412109375
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 2174.791259765625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1595.474853515625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 173.8647918701172
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 2239.2001953125
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt.",
+    "Blöcke [6, 7, 8] zu #5 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.40482983400215744,
+      "zeitstempel": "2026-09-06T14:31:51.364092Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 10.497870249997504,
+      "zeitstempel": "2026-09-06T15:03:49.028966Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

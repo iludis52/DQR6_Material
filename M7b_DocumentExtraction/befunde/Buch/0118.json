@@ -1,0 +1,509 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 118,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.7098195552825928,
+      "bbox": {
+        "x0": 116.18885803222656,
+        "y0": 78.756103515625,
+        "x1": 645.3171997070312,
+        "y1": 107.02587890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "112 Kapitel 7 · Stereotype, Vorurteile und Rassismus",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.7993847727775574,
+      "bbox": {
+        "x0": 151.30455017089844,
+        "y0": 215.904052734375,
+        "x1": 1377.2811279296875,
+        "y1": 418.302490234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 57,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Sie vermutlich eher den dunkelhäutigen Bewerber auswählen oder zumindest beide Bewerber mit der derselben Wahrscheinlichkeit. Ist die Situation jedoch nicht eindeutig, d. h., liegen keine Angaben zur Qualifikation vor, so könnte die Einstellung des weißen Bewerbers damit begründet werden, dass dieser sich gegenüber dem Kontrahenten fachlich positiv abhebt. Diskriminierendes Verhalten wäre hier also mit anderen Faktoren als der ethnischen Zugehörig- keit zu rechtfertigen. Als Folge tritt es in derartigen Situation auch häufiger auf (Dovidio & Gaertner, 2000; vgl. auch Dovidio, Gaertner, Kawakami & Hodson, 2002).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        2,
+        3
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.8417744040489197,
+      "bbox": {
+        "x0": 128.61610412597656,
+        "y0": 484.7781677246094,
+        "x1": 457.5701599121094,
+        "y1": 627.566162109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 124,
+      "polygon": [
+        [
+          128.0,
+          484.0
+        ],
+        [
+          128.0,
+          626.0
+        ],
+        [
+          456.0,
+          626.0
+        ],
+        [
+          456.0,
+          484.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Aversiver Rassismus ist dadurch gekennzeichnet, dass auf kognitiver Ebene sämtliche Vorurteile ausge-räumt sind; auf emotionaler Ebene bestehen diese jedoch weiter.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 15,
+      "pp_label": "text",
+      "score": 0.61361163854599,
+      "bbox": {
+        "x0": 130.6360321044922,
+        "y0": 816.0018310546875,
+        "x1": 393.6531066894531,
+        "y1": 881.6014404296875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 148,
+      "polygon": [
+        [
+          130.0,
+          816.0
+        ],
+        [
+          130.0,
+          880.0
+        ],
+        [
+          392.0,
+          880.0
+        ],
+        [
+          392.0,
+          816.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Definition\nAversiver Rassismus",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.7882974147796631,
+      "bbox": {
+        "x0": 128.51646423339844,
+        "y0": 1251.738037109375,
+        "x1": 447.3616638183594,
+        "y1": 1366.94189453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 160,
+      "polygon": [
+        [
+          128.0,
+          1251.0
+        ],
+        [
+          128.0,
+          1365.0
+        ],
+        [
+          446.0,
+          1365.0
+        ],
+        [
+          446.0,
+          1251.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Forschung zum Stereotype-Threat-Effekt untersucht die Auswirkung von Stereotypen auf Personen, die stereotypisiert werden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9424780011177063,
+      "bbox": {
+        "x0": 504.510009765625,
+        "y0": 482.341796875,
+        "x1": 1406.513916015625,
+        "y1": 783.042724609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 166,
+      "polygon": [
+        [
+          504.0,
+          482.0
+        ],
+        [
+          504.0,
+          782.0
+        ],
+        [
+          1405.0,
+          782.0
+        ],
+        [
+          1405.0,
+          482.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der Ausspruch von Allport »defeated intellectually, prejudice lingers emotionally« (All-port, 1954, S. 328) fasst die Thematik des aversiven Rassismus ganz treffend zusammen: Zwar sind die Vorurteile rein intellektuell besiegt, doch auf der emotionalen Ebene bestehen sie weiter. Dies verdeutlicht die häufige Diskrepanz zwischen Gedanken bzw. intellektuellem Wissen und den eigenen Gefühlen. Ich weiß um soziale Normen und möchte mich diesen entsprechend verhalten, doch tue es nicht immer. Stereotype, wenn auch eher subtiler und unbewusster Natur, bestehen nach wie vor und erklären diskriminierendes Verhalten in verschiedenen Bereichen (z. B. Hilfeverhalten; Saucier, Miller & Doucet, 2005).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.8836870193481445,
+      "bbox": {
+        "x0": 541.8271484375,
+        "y0": 849.520263671875,
+        "x1": 1385.4014892578125,
+        "y1": 1084.002685546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 248,
+      "polygon": [
+        [
+          541.0,
+          849.0
+        ],
+        [
+          541.0,
+          1083.0
+        ],
+        [
+          1377.0,
+          1083.0
+        ],
+        [
+          1384.0,
+          1073.0
+        ],
+        [
+          1384.0,
+          890.0
+        ],
+        [
+          1369.0,
+          849.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Demotion Mit aversivem Rassismus ist das gleichzeitige Bestehen einer vorurteilsfreien, öffentlichen Meinung mit egalitären Werten sowie einem vorurteilsbehafteten, diskriminierenden Verhalten gemeint. Aversiver Rassismus äußert sich dabei meist unterschwellig und indirekt. Kennzeichnend sind negative Gefühle gegenüber einer bestimmten ethnischen Gruppe, Vermeidung von Kontakt mit deren Mitgliedern sowie unbeabsichtigtem, diskriminierendem Verhalten gegenüber dieser Ethnie (Gaertner & Dovidio, 1986).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.8259980082511902,
+      "bbox": {
+        "x0": 504.9272766113281,
+        "y0": 1173.284423828125,
+        "x1": 1326.16455078125,
+        "y1": 1211.957275390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 263,
+      "polygon": [
+        [
+          512.0,
+          1173.0
+        ],
+        [
+          512.0,
+          1210.0
+        ],
+        [
+          1325.0,
+          1210.0
+        ],
+        [
+          1325.0,
+          1173.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "7.6 Stereotype Threat – Bedrohung durch Stereotype",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9384062886238098,
+      "bbox": {
+        "x0": 504.7956237792969,
+        "y0": 1248.9451904296875,
+        "x1": 1405.5333251953125,
+        "y1": 1419.5089111328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 274,
+      "polygon": [
+        [
+          504.0,
+          1248.0
+        ],
+        [
+          504.0,
+          1418.0
+        ],
+        [
+          1404.0,
+          1408.0
+        ],
+        [
+          1404.0,
+          1248.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Bisher haben wir die Thematik hauptsächlich aus der »Täterperspektive« betrachtet, d. h., ausgehend von derjenigen Person, die Stereotype und Vorurteile hat. Doch wie verhält sich ein Mensch, gegen den diese Stereotype gerichtet werden? Treffen diese tatsächlich zu und Stereotype und Verhalten entsprechen einander oder wird durch gegenteiliges Verhalten der Person erkennbar, dass die Vorurteile nicht korrekt sind?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 5,
+      "pp_label": "paragraph_title",
+      "score": 0.8271169066429138,
+      "bbox": {
+        "x0": 506.81884765625,
+        "y0": 1474.7440185546875,
+        "x1": 955.765625,
+        "y1": 1510.8800048828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 282,
+      "polygon": [
+        [
+          506.0,
+          1474.0
+        ],
+        [
+          506.0,
+          1509.0
+        ],
+        [
+          954.0,
+          1509.0
+        ],
+        [
+          954.0,
+          1474.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "7.6.1 Definitorische Grundlagen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9574719667434692,
+      "bbox": {
+        "x0": 504.8215026855469,
+        "y0": 1549.2193603515625,
+        "x1": 1407.2723388671875,
+        "y1": 1850.7493896484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 291,
+      "polygon": [
+        [
+          504.0,
+          1560.0
+        ],
+        [
+          504.0,
+          1849.0
+        ],
+        [
+          1406.0,
+          1849.0
+        ],
+        [
+          1406.0,
+          1549.0
+        ],
+        [
+          512.0,
+          1549.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Ein interessantes Phänomen in diesem Zusammenhang ist, dass sich Menschen aus der Angst heraus, ein bestimmtes Stereotyp zu bestätigen, erst recht entsprechend diesem Stereotyp verhalten. Sprich, Personen einer bestimmten Gruppe wissen um bestehende Vorurteile ihnen gegenüber und möchten mit allen Mitteln vermeiden, dass sie diese durch ihr eigenes Verhalten bestätigen. Gerade deshalb tritt jedoch das befürchtete Ereignis im Sinne einer »sich selbst erfüllenden Prophezeiung« (»self-fulfilling-prophecy«; Merton, 1948) ein und sie verhalten sich tatsächlich analog dem Stereotyp. Steele und Aronson (1995) prägten hierfür den Begriff »stereotype threat« oder »Bedrohung durch Stereotype.«",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2644.310546875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1321.73779296875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 2222.73779296875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 2393.197998046875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 486.4517517089844
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 2216.920166015625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 2171.839111328125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1345.0009765625
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1593.8494873046875
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1329.0848388671875
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt.",
+    "Blöcke [2, 3] zu #1 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.39545512499898905,
+      "zeitstempel": "2026-09-06T14:31:37.924999Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 11.401895167000475,
+      "zeitstempel": "2026-09-06T14:56:44.074277Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

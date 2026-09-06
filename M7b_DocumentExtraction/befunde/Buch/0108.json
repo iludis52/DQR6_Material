@@ -1,0 +1,526 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 108,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.7217453122138977,
+      "bbox": {
+        "x0": 116.9750747680664,
+        "y0": 78.72457885742188,
+        "x1": 645.4468383789062,
+        "y1": 106.80154418945312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "102 Kapitel 7 · Stereotype, Vorurteile und Rassismus",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9144068360328674,
+      "bbox": {
+        "x0": 128.2068634033203,
+        "y0": 253.34103393554688,
+        "x1": 454.65673828125,
+        "y1": 449.3069152832031,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 84,
+      "polygon": [
+        [
+          128.0,
+          253.0
+        ],
+        [
+          128.0,
+          448.0
+        ],
+        [
+          453.0,
+          448.0
+        ],
+        [
+          453.0,
+          253.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Trotz groß geschriebener Werte wie etwa Gleichheit und Toleranz treten auch heutzutage Stereotype und Vorurteile auf. Das zeigt, dass öffentliche Meinung und tatsächliche Einstellung bzw. tatsächliches Verhalten nicht immer deckungsgleich sind.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.869417130947113,
+      "bbox": {
+        "x0": 128.04049682617188,
+        "y0": 651.54638671875,
+        "x1": 455.9344177246094,
+        "y1": 766.5927734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 97,
+      "polygon": [
+        [
+          128.0,
+          651.0
+        ],
+        [
+          128.0,
+          765.0
+        ],
+        [
+          454.0,
+          765.0
+        ],
+        [
+          454.0,
+          651.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Vorurteile und Stereotype können direkt (durch Befragung) und indi- rekt (ohne dass die Personen wissen, worum es geht) gemessen werden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.8483597636222839,
+      "bbox": {
+        "x0": 128.13218688964844,
+        "y0": 1351.91259765625,
+        "x1": 449.19927978515625,
+        "y1": 1521.49951171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 131,
+      "polygon": [
+        [
+          128.0,
+          1351.0
+        ],
+        [
+          128.0,
+          1520.0
+        ],
+        [
+          441.0,
+          1520.0
+        ],
+        [
+          448.0,
+          1510.0
+        ],
+        [
+          448.0,
+          1351.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Bogus Pipeline ist eine Art fingierter Lügendetektor: Der Versuchsperson wird glaubhaft gemacht, damit könne die Richtung und das Ausmaß ihrer Einstellung gemessen werden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9165835976600647,
+      "bbox": {
+        "x0": 503.2483215332031,
+        "y0": 182.00735473632812,
+        "x1": 1403.1895751953125,
+        "y1": 247.09481811523438,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 138,
+      "polygon": [
+        [
+          503.0,
+          182.0
+        ],
+        [
+          503.0,
+          246.0
+        ],
+        [
+          1402.0,
+          246.0
+        ],
+        [
+          1402.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "deutschen Unternehmen eingeladen werden als Personen mit einem klassischen deutschen Namen (Kaas & Manger, 2012).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9593620896339417,
+      "bbox": {
+        "x0": 504.26751708984375,
+        "y0": 250.22247314453125,
+        "x1": 1406.1553955078125,
+        "y1": 517.7107543945312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 142,
+      "polygon": [
+        [
+          504.0,
+          261.0
+        ],
+        [
+          504.0,
+          516.0
+        ],
+        [
+          1405.0,
+          516.0
+        ],
+        [
+          1405.0,
+          250.0
+        ],
+        [
+          512.0,
+          250.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Such Nanchi (Kடாச & Mangan), 2012).\nAuch wenn in der Öffentlichkeit Werte wie Gleichheit, Fairness und Toleranz großgeschrieben bzw. Vorurteile und Stereotype abgelehnt werden, zeigen aktuelle Studien (s. oben), dass diese öffentlich vertretene Meinung nicht immer deckungsgleich mit dem tatsächlich gezeigten Verhalten von Personen sein muss. Wir sagen das eine und empfinden bzw. tun aber das Gegenteil. Aus dieser Problematik heraus ergibt sich die Frage, wie wir Stereotype und Vorurteile bei Personen tatsächlich bestimmen bzw. messen können? Welche Methoden sind hierzu geeignet (valide) und zuverlässig (reliabel)? Diese Frage wird im nächsten Abschnitt behandelt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.8648505806922913,
+      "bbox": {
+        "x0": 505.7203369140625,
+        "y0": 572.7518310546875,
+        "x1": 1224.04833984375,
+        "y1": 611.3399658203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 161,
+      "polygon": [
+        [
+          513.0,
+          572.0
+        ],
+        [
+          513.0,
+          610.0
+        ],
+        [
+          1223.0,
+          610.0
+        ],
+        [
+          1223.0,
+          572.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "7.3 Messung von Stereotypen und Vorurteilen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9684737324714661,
+      "bbox": {
+        "x0": 504.7318115234375,
+        "y0": 648.95703125,
+        "x1": 1406.08447265625,
+        "y1": 1218.120361328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 184,
+      "polygon": [
+        [
+          504.0,
+          659.0
+        ],
+        [
+          504.0,
+          1217.0
+        ],
+        [
+          1405.0,
+          1217.0
+        ],
+        [
+          1405.0,
+          648.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der traditionelle sozialwissenschaftliche Ansatz bei der Messung von Stereotypen und Vorurteilen ist es, Personen direkt nach ihren Einstellungen zu befragen (▶ Kap. 6). Dies wird schriftlich per Fragebogenverfahren erreicht. Da sich Stereotype und Vorurteile auf unterschiedlichste Bereiche beziehen können, existiert auch eine Vielzahl an Skalen. So stehen beispielsweise Skalen zur Messung von »Right-Wing Authoritarianism« (rechter Autoritarismus; Altemeyer, 1988), »Social Dominance Orientation« (Theorie der sozialen Dominanz; Pratto, Sidanius, Stallworth & Malle 1994) und ähnlichen Konstrukten zur Verfügung. Wie bereits angedeutet können hier jedoch Zweifel aufkommen, ob diese expliziten Aussagen tatsächlich stimmen oder ob sich die Versuchsteilnehmer nur in einem guten Licht darstellen möchten. Daher wurden Methoden entwickelt, mit denen Vorurteile indirekt gemessen werden, ohne dass dies der Person bewusst ist. Dies kann wiederum ethisch fragwürdig sein, da die Versuchspersonen ja nichts davon wissen. In einer Gesellschaft, in der Vorurteile und negative Stereotype offiziell verpönt sind, ist die Messung derartiger Einstellungen eine heikle Angelegenheit. Die Wissenschaftler, die sich dennoch dieses Problems angenommen haben, mussten also besonders kreativ sein. Heute existieren vier verschiedenen Messparadigmen, die im Folgenden vorgestellt werden sollen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.8244174122810364,
+      "bbox": {
+        "x0": 506.3603210449219,
+        "y0": 1274.4437255859375,
+        "x1": 797.489501953125,
+        "y1": 1310.5767822265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 234,
+      "polygon": [
+        [
+          506.0,
+          1274.0
+        ],
+        [
+          506.0,
+          1309.0
+        ],
+        [
+          796.0,
+          1309.0
+        ],
+        [
+          796.0,
+          1274.0
+        ],
+        [
+          568.0,
+          1274.0
+        ],
+        [
+          513.0,
+          1274.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "7.3.1 Bogus Pipeline",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9633311629295349,
+      "bbox": {
+        "x0": 503.5119323730469,
+        "y0": 1349.5587158203125,
+        "x1": 1406.0364990234375,
+        "y1": 1647.0582275390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 250,
+      "polygon": [
+        [
+          503.0,
+          1349.0
+        ],
+        [
+          503.0,
+          1646.0
+        ],
+        [
+          1405.0,
+          1646.0
+        ],
+        [
+          1405.0,
+          1349.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Eine sehr aufschlussreiche experimentelle Methode bedient sich der sog. »Bogus Pipe-line« (Jones & Sigall, 1971). Dies ist ein Gerät, von dem die Versuchsperson glaubt, es könne ihre tatsächliche implizite Einstellung messen; und zwar sowohl ihre Richtung (z. B. Pro oder Contra) als auch ihr Ausmaß. Insofern stellt die Bogus Pipeline eine Art Lügendetektor dar, der mittels mutmaßlicher Erfassung physiologischer Merkmale auf die innere Haltung einer Versuchsperson schließen lässt. Ein EEG-Gerät ließe sich beispielsweise als eine Bogus Pipeline ausgeben. Das Ziel einer Bogus Pipeline besteht darin, Verzerrungen durch falsche bzw. sozial erwünschte Antworten zu vermeiden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9635661840438843,
+      "bbox": {
+        "x0": 503.5561828613281,
+        "y0": 1649.46337890625,
+        "x1": 1406.10205078125,
+        "y1": 1950.39990234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 269,
+      "polygon": [
+        [
+          503.0,
+          1649.0
+        ],
+        [
+          503.0,
+          1949.0
+        ],
+        [
+          1405.0,
+          1949.0
+        ],
+        [
+          1405.0,
+          1649.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "In einer Validierungsstudie (d. h., einer Studie, die testet, inwieweit ein Verfahren dazu geeignet ist, ein bestimmtes Konstrukt zu messen) zeigten Sigall und Page (1971), dass Versuchspersonen, die an eine Bogus Pipeline angeschlossen waren, eine negativere Einstellungen gegenüber Amerikanern afrikanischer Herkunft bekundeten als Versuchspersonen in der Kontrollbedingung (ohne Bogus Pipeline). Generell sind Personen in der Bogus-Pipeline-Bedingung eher dazu geneigt, sozial verpönte bzw. nicht akzeptierte Einstellungen zu äußern oder entsprechendes Verhalten »zuzugeben«, wie z. B. Zigarettenkonsum (Aguinis, Pierce & Quigley, 1993) oder von Geschlechts-rollen abweichende sexuelle Verhaltensweisen (Alexander & Fisher, 2003).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2612.58154296875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1799.6624755859375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 982.49072265625
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1632.516357421875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 512.7887573242188
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1834.3558349609375
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1071.9642333984375
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1505.8333740234375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1472.9317626953125
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1878.46044921875
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.39017600000079256,
+      "zeitstempel": "2026-09-06T14:31:33.801241Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 13.280097291997663,
+      "zeitstempel": "2026-09-06T14:54:38.697669Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

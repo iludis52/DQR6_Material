@@ -1,0 +1,973 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 26,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8474152088165283,
+      "bbox": {
+        "x0": 112.54960632324219,
+        "y0": 78.89126586914062,
+        "x1": 484.5561218261719,
+        "y1": 106.59432983398438,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 7,
+      "polygon": [
+        [
+          112.0,
+          78.0
+        ],
+        [
+          112.0,
+          105.0
+        ],
+        [
+          483.0,
+          105.0
+        ],
+        [
+          483.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2.2 · Klassische Forschungsparadigmen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 17,
+      "pp_label": "number",
+      "score": 0.6926935315132141,
+      "bbox": {
+        "x0": 1381.60400390625,
+        "y0": 33.9554443359375,
+        "x1": 1421.0782470703125,
+        "y1": 85.1923828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 30,
+      "polygon": [
+        [
+          1381.0,
+          33.0
+        ],
+        [
+          1381.0,
+          84.0
+        ],
+        [
+          1420.0,
+          84.0
+        ],
+        [
+          1420.0,
+          33.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9485999345779419,
+      "bbox": {
+        "x0": 112.9736328125,
+        "y0": 182.74334716796875,
+        "x1": 1010.779296875,
+        "y1": 313.59344482421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 56,
+      "polygon": [
+        [
+          112.0,
+          182.0
+        ],
+        [
+          112.0,
+          302.0
+        ],
+        [
+          128.0,
+          312.0
+        ],
+        [
+          1009.0,
+          312.0
+        ],
+        [
+          1009.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3. Substitution dissonanter durch konsonante Kognitionen – Hervorheben von positiven Bereichen, die unabhängig von der erlebten Dissonanz sind, z. B. »Ungeschütztes Sonnen mag zwar schädlich sein, aber dafür lebe ich sonst sehr gesundheitsbewusst: Ich rauche nicht und treibe viel Sport!«",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9388196468353271,
+      "bbox": {
+        "x0": 111.26443481445312,
+        "y0": 317.13494873046875,
+        "x1": 1011.3677368164062,
+        "y1": 413.41766357421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 62,
+      "polygon": [
+        [
+          111.0,
+          317.0
+        ],
+        [
+          111.0,
+          412.0
+        ],
+        [
+          1010.0,
+          412.0
+        ],
+        [
+          1010.0,
+          317.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "4. Erhöhung der Wichtigkeit konsonanter Kognitionen – z. B. »Lange Sonneneinstrahlung ist zwar ungesund, aber mir ist am wichtigsten, dass ich mich wohlfühle und entspannen kann!«",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9358764886856079,
+      "bbox": {
+        "x0": 112.41255187988281,
+        "y0": 416.479736328125,
+        "x1": 1011.24951171875,
+        "y1": 515.514892578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 82,
+      "polygon": [
+        [
+          112.0,
+          416.0
+        ],
+        [
+          112.0,
+          514.0
+        ],
+        [
+          1010.0,
+          514.0
+        ],
+        [
+          1010.0,
+          416.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5. Reduktion der Wichtigkeit dissonanter Kognitionen – Trivialisierung, z. B. »Ich glaube der medizinischen Forschung nicht, dass UV-Strahlung gesundheitsschädigend ist!«",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.8744409680366516,
+      "bbox": {
+        "x0": 111.51226806640625,
+        "y0": 573.0308837890625,
+        "x1": 712.4801025390625,
+        "y1": 610.7926025390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 89,
+      "polygon": [
+        [
+          111.0,
+          573.0
+        ],
+        [
+          111.0,
+          609.0
+        ],
+        [
+          711.0,
+          609.0
+        ],
+        [
+          711.0,
+          573.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2.2 Klassische Forschungsparadigmen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9311593174934387,
+      "bbox": {
+        "x0": 111.12336730957031,
+        "y0": 649.58984375,
+        "x1": 1012.20458984375,
+        "y1": 746.564453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 101,
+      "polygon": [
+        [
+          111.0,
+          649.0
+        ],
+        [
+          111.0,
+          745.0
+        ],
+        [
+          1011.0,
+          745.0
+        ],
+        [
+          1011.0,
+          649.0
+        ],
+        [
+          371.0,
+          649.0
+        ],
+        [
+          362.0,
+          649.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "In der dissonanztheoretischen Forschung finden sich drei verschiedene klassische Forschungsparadigmen, also klassische Herangehensweisen zur Untersuchung der Theorie (vgl. Frey & Gaska, 2009):",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.8191128969192505,
+      "bbox": {
+        "x0": 114.16863250732422,
+        "y0": 750.234130859375,
+        "x1": 624.6739501953125,
+        "y1": 780.146728515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 112,
+      "polygon": [
+        [
+          114.0,
+          750.0
+        ],
+        [
+          114.0,
+          779.0
+        ],
+        [
+          623.0,
+          779.0
+        ],
+        [
+          623.0,
+          750.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1. forcierte Einwilligung (»forced compliance«)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.8177746534347534,
+      "bbox": {
+        "x0": 113.03016662597656,
+        "y0": 784.134765625,
+        "x1": 499.79962158203125,
+        "y1": 813.2091064453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 117,
+      "polygon": [
+        [
+          113.0,
+          784.0
+        ],
+        [
+          113.0,
+          812.0
+        ],
+        [
+          498.0,
+          812.0
+        ],
+        [
+          498.0,
+          784.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2. Wahlfreiheit (»free choice«) und",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.8239125609397888,
+      "bbox": {
+        "x0": 113.43025207519531,
+        "y0": 816.4736938476562,
+        "x1": 690.0343017578125,
+        "y1": 848.1829223632812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 125,
+      "polygon": [
+        [
+          113.0,
+          816.0
+        ],
+        [
+          113.0,
+          847.0
+        ],
+        [
+          689.0,
+          847.0
+        ],
+        [
+          689.0,
+          816.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3. selective Informationssuche (»selective exposure«).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.8695196509361267,
+      "bbox": {
+        "x0": 111.98075866699219,
+        "y0": 908.062255859375,
+        "x1": 620.9168701171875,
+        "y1": 943.2021484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 127,
+      "polygon": [
+        [
+          111.0,
+          908.0
+        ],
+        [
+          111.0,
+          942.0
+        ],
+        [
+          619.0,
+          942.0
+        ],
+        [
+          619.0,
+          908.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2.2.1 Forced-Compliance-Paradigma",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9464641809463501,
+      "bbox": {
+        "x0": 111.50669860839844,
+        "y0": 982.605712890625,
+        "x1": 1013.1499633789062,
+        "y1": 1114.36083984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 129,
+      "polygon": [
+        [
+          111.0,
+          982.0
+        ],
+        [
+          111.0,
+          1113.0
+        ],
+        [
+          1012.0,
+          1113.0
+        ],
+        [
+          1012.0,
+          982.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das wohl bekannteste und am meisten beforschte Paradigma ist das sog. Forced-Compliance-Paradigma (Festinger & Carlsmith, 1959), in dessen Kontext das klassische 20-Dollar-Experiment (▶ Studie: Forced Compliance – Das 20-Dollar-Experiment) durchgeführt wurde.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 22,
+      "pp_label": "text",
+      "score": 0.7490116357803345,
+      "bbox": {
+        "x0": 1058.768798828125,
+        "y0": 652.7703247070312,
+        "x1": 1371.3486328125,
+        "y1": 735.1754760742188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 163,
+      "polygon": [
+        [
+          1058.0,
+          652.0
+        ],
+        [
+          1058.0,
+          734.0
+        ],
+        [
+          1073.0,
+          734.0
+        ],
+        [
+          1081.0,
+          734.0
+        ],
+        [
+          1111.0,
+          734.0
+        ],
+        [
+          1127.0,
+          734.0
+        ],
+        [
+          1134.0,
+          734.0
+        ],
+        [
+          1142.0,
+          734.0
+        ],
+        [
+          1149.0,
+          734.0
+        ],
+        [
+          1249.0,
+          734.0
+        ],
+        [
+          1256.0,
+          734.0
+        ],
+        [
+          1265.0,
+          734.0
+        ],
+        [
+          1370.0,
+          734.0
+        ],
+        [
+          1370.0,
+          652.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Dissonanztheorie wird haupt-sächlich mit drei Forschungspara-digmen untersucht:",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.7527135014533997,
+      "bbox": {
+        "x0": 1060.253662109375,
+        "y0": 765.3963623046875,
+        "x1": 1231.414794921875,
+        "y1": 790.0435791015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 176,
+      "polygon": [
+        [
+          1060.0,
+          765.0
+        ],
+        [
+          1060.0,
+          789.0
+        ],
+        [
+          1230.0,
+          789.0
+        ],
+        [
+          1230.0,
+          765.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2. Wahlfreiheit und",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.7691393494606018,
+      "bbox": {
+        "x0": 1060.44775390625,
+        "y0": 737.8997802734375,
+        "x1": 1275.0572509765625,
+        "y1": 762.9578857421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 177,
+      "polygon": [
+        [
+          1060.0,
+          737.0
+        ],
+        [
+          1060.0,
+          761.0
+        ],
+        [
+          1274.0,
+          761.0
+        ],
+        [
+          1274.0,
+          737.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1. forcierte Einwilligung,",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 15,
+      "query_id": 23,
+      "pp_label": "text",
+      "score": 0.7877222895622253,
+      "bbox": {
+        "x0": 1060.048828125,
+        "y0": 793.5654296875,
+        "x1": 1332.215087890625,
+        "y1": 818.138671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 187,
+      "polygon": [
+        [
+          1060.0,
+          802.0
+        ],
+        [
+          1060.0,
+          817.0
+        ],
+        [
+          1331.0,
+          817.0
+        ],
+        [
+          1331.0,
+          793.0
+        ],
+        [
+          1068.0,
+          793.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3. selektive Informationssuche.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 16,
+      "query_id": 14,
+      "pp_label": "text",
+      "score": 0.8686195015907288,
+      "bbox": {
+        "x0": 1057.3587646484375,
+        "y0": 986.5762939453125,
+        "x1": 1381.74951171875,
+        "y1": 1124.3687744140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 198,
+      "polygon": [
+        [
+          1057.0,
+          986.0
+        ],
+        [
+          1057.0,
+          1123.0
+        ],
+        [
+          1380.0,
+          1123.0
+        ],
+        [
+          1380.0,
+          986.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Am bekanntesten ist das Forced-Compliance-Paradigma (Festinger & Carlsmith, 1959). Hier lässt sich das klassische 20-Dollar-Experiment einordnen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 17,
+      "query_id": 15,
+      "pp_label": "paragraph_title",
+      "score": 0.7614433169364929,
+      "bbox": {
+        "x0": 153.46144104003906,
+        "y0": 1146.5875244140625,
+        "x1": 226.83590698242188,
+        "y1": 1174.0164794921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 206,
+      "polygon": [
+        [
+          153.0,
+          1146.0
+        ],
+        [
+          153.0,
+          1173.0
+        ],
+        [
+          225.0,
+          1173.0
+        ],
+        [
+          225.0,
+          1146.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 18,
+      "query_id": 21,
+      "pp_label": "paragraph_title",
+      "score": 0.636062741279602,
+      "bbox": {
+        "x0": 152.38308715820312,
+        "y0": 1183.1888427734375,
+        "x1": 668.9443359375,
+        "y1": 1212.5665283203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 214,
+      "polygon": [
+        [
+          152.0,
+          1183.0
+        ],
+        [
+          152.0,
+          1211.0
+        ],
+        [
+          667.0,
+          1211.0
+        ],
+        [
+          667.0,
+          1183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Forced Compliance – Das 20-Dollar-Experiment",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 19,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.5863139033317566,
+      "bbox": {
+        "x0": 149.93775939941406,
+        "y0": 1219.1763916015625,
+        "x1": 1377.2039794921875,
+        "y1": 1920.0303955078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 217,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "In dem klassischen Experiment von Festinger und Carlsmith (1959) wurden Versuchspersonen gebeten an einer besonders langweiligen Aufgabe teilzunehmen (Abschreiben von bedeutungslosen Zahlen- und Buchstabenreihen). Im Experiment wurden sie von der Versuchsleitung aufgefordert, eine nachfolgende Versuchsperson anzulügen, indem sie ihr mitteilten, dass das auf sie wartende Experiment außerordentlich spannend sei. Für diese Lüge wurde ihnen entweder 1 Dollar (niedrige Rechtfertigung für die Lüge) oder 20 Dollar (hohe Rechtfertigung für die Lüge) als Belohnung angeboten. Als abhängige Variable erfassten die Forscher die Einstellung gegenüber der langweiligen Aufgabe, die sie zuvor in dem Experiment durchführen mussten. Das erstaunliche Ergebnis war, dass Personen mit niedriger Rechtfertigung, die also nur 1 Dollar für ihre Lüge erhielten, die Aufgabe als weniger langweilig bewerteten als diejenigen mit hoher Rechtfertigung (20 Dollar).\nFestinger und Carlsmith (1959) erklärten diesen Befund so: Alle Personen, die an dem Experiment teilnahmen, erlebten kognitive Dissonanz (Kognition 1: »Das Experiment war entsetzlich langweilig« – Kognition 2: »Ich soll diese nette Studentin anlügen und erzählen, es sei total spannend gewesen. Die geht doch hinterher nicht mehr mit mir Kaffee trinken!«). Die Personen in der 20-Dollar-Bedingung konnten ihre Lüge gegenüber der nachfolgenden Versuchsperson vor sich selbst allerdings gut damit begründen, dass sie dafür eine ordentliche Belohnung erhielten. Damit reduzierten sie die empfundene kognitive Dissonanz durch die Addition einer konsonanten Kognition. Die Personen in der 1-Dollar-Bedingungen konnten dies dagegen nicht: Der Betrag, mit dem sie entlohnt wurden, war zu gering, um eine hinreichen-de Rechtfertigung für ihr Verhalten sein zu können. Somit standen Einstellung und Verhalten einander unvereinbar entgegen. Den Probanden blieb nichts anderes übrig, als die kognitive Dissonanz durch eine Änderung der Einstellung zum erlebten Experiment zu reduzieren (»Na ja, so schlimm war es ja nun doch nicht« oder »Zumindest lernt man hier, sich zu konzentrieren«). Dadurch fanden sie – statt der ausbleibenden äußeren Rechtfertigung durch 20 Dollar – eine interne Rechtfertigung für ihr Handeln. Dies entspricht der Reduktion dissonanter Kognitionen durch Änderung der eigenen Auffassung.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2557.22021484375
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1809.2161865234375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 934.9778442382812
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 728.8327026367188
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1303.7860107421875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 955.7996826171875
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1648.21337890625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 606.0476684570312
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 916.4483642578125
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1119.9422607421875
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1363.400390625
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1147.34619140625
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 2142.663818359375
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 0.0,
+      "marge": -348.8807373046875
+    },
+    {
+      "von": 14,
+      "nach": 15,
+      "konfidenz": 1.0,
+      "marge": 1126.620849609375
+    },
+    {
+      "von": 15,
+      "nach": 16,
+      "konfidenz": 1.0,
+      "marge": 1611.0697021484375
+    },
+    {
+      "von": 16,
+      "nach": 17,
+      "konfidenz": 1.0,
+      "marge": 877.6917724609375
+    },
+    {
+      "von": 17,
+      "nach": 18,
+      "konfidenz": 1.0,
+      "marge": 1766.718017578125
+    },
+    {
+      "von": 18,
+      "nach": 19,
+      "konfidenz": 1.0,
+      "marge": 1190.4688720703125
+    }
+  ],
+  "warnungen": [
+    "Blöcke [19, 20, 21, 22] zu #19 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3741565829986939,
+      "zeitstempel": "2026-09-06T14:31:01.627147Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 12.88273337499777,
+      "zeitstempel": "2026-09-06T14:37:20.371440Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

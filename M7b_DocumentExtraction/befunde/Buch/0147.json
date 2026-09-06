@@ -1,0 +1,609 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 147,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8340113759040833,
+      "bbox": {
+        "x0": 113.02033233642578,
+        "y0": 78.59762573242188,
+        "x1": 583.6634521484375,
+        "y1": 106.19815063476562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 4,
+      "polygon": [
+        [
+          113.0,
+          78.0
+        ],
+        [
+          113.0,
+          105.0
+        ],
+        [
+          582.0,
+          105.0
+        ],
+        [
+          582.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "9.2 · Normativer und informativer sozialer Einfluss",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 22,
+      "pp_label": "number",
+      "score": 0.6473535895347595,
+      "bbox": {
+        "x0": 1184.101806640625,
+        "y0": 54.425262451171875,
+        "x1": 1226.5902099609375,
+        "y1": 79.86611938476562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 24,
+      "polygon": [
+        [
+          1184.0,
+          54.0
+        ],
+        [
+          1184.0,
+          78.0
+        ],
+        [
+          1225.0,
+          78.0
+        ],
+        [
+          1225.0,
+          54.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "143",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9511852860450745,
+      "bbox": {
+        "x0": 109.31238555908203,
+        "y0": 182.29360961914062,
+        "x1": 1012.1234741210938,
+        "y1": 314.7060241699219,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 89,
+      "polygon": [
+        [
+          109.0,
+          182.0
+        ],
+        [
+          117.0,
+          313.0
+        ],
+        [
+          1011.0,
+          313.0
+        ],
+        [
+          1011.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "ben wirklich, dass diese korrekt ist. Diese Internalisierung (= innerliche Zustimmung) wird auch als private Akzeptanz (Konversion) bezeichnet. Hier kommt der informative soziale Einfluss zum Tragen, da die Versuchspersonen die Gruppe als nützliche und zuverlässige Informationsquelle betrachteten.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9575682282447815,
+      "bbox": {
+        "x0": 108.97077941894531,
+        "y0": 316.62811279296875,
+        "x1": 1014.5195922851562,
+        "y1": 547.6504516601562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 96,
+      "polygon": [
+        [
+          116.0,
+          316.0
+        ],
+        [
+          108.0,
+          546.0
+        ],
+        [
+          1013.0,
+          546.0
+        ],
+        [
+          1013.0,
+          316.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Im Gegensatz dazu gab ein weiterer Teil der Versuchspersonen an, dass sie das falsche Urteil der Gruppe nicht geglaubt, sich diesem aber dennoch anschlossen hatte, um mit der Gruppe konform zu gehen. Die Zustimmung zur Gruppe erfolgte in diesem Fall also lediglich im äußerlichen Verhalten, keinesfalls aber in Bezug auf die innere Überzeugung. Man spricht hierbei von öffentlicher Compliance. Im Vordergrund stand bei diesen Versuchspersonen das Bestreben, nicht negativ aufzufallen; sie unterlagen daher dem normativen sozialen Einfluss.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9488160610198975,
+      "bbox": {
+        "x0": 109.44801330566406,
+        "y0": 550.16357421875,
+        "x1": 1014.7384643554688,
+        "y1": 717.86962890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 105,
+      "polygon": [
+        [
+          117.0,
+          550.0
+        ],
+        [
+          109.0,
+          716.0
+        ],
+        [
+          1013.0,
+          716.0
+        ],
+        [
+          1013.0,
+          550.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Insgesamt zeigt sich also bei den Asch-Studien, dass beide Prozesse möglich sind, informativer wie normativer sozialer Einfluss. Manche Versuchspersonen schlossen sich der falschen Mehrheitsmeinung an, um damit die Validität ihres eigenen Urteils abzugleichen (informativer sozialer Einfluss), während andere vermeiden wollten, sich negativ von der Gruppe abzuheben (normativer sozialer Einfluss).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 11,
+      "pp_label": "paragraph_title",
+      "score": 0.8633312582969666,
+      "bbox": {
+        "x0": 112.20014190673828,
+        "y0": 774.461181640625,
+        "x1": 999.8101806640625,
+        "y1": 810.3690185546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 108,
+      "polygon": [
+        [
+          112.0,
+          774.0
+        ],
+        [
+          112.0,
+          809.0
+        ],
+        [
+          998.0,
+          809.0
+        ],
+        [
+          998.0,
+          774.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "9.2.2 Informationaler sozialer Einfluss: Die Sherif-Studien (1935)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9526021480560303,
+      "bbox": {
+        "x0": 110.9658203125,
+        "y0": 850.1114501953125,
+        "x1": 1014.4254150390625,
+        "y1": 1015.96337890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 116,
+      "polygon": [
+        [
+          118.0,
+          850.0
+        ],
+        [
+          118.0,
+          1014.0
+        ],
+        [
+          1013.0,
+          1014.0
+        ],
+        [
+          1013.0,
+          850.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Sherifs Studien zum autokinetischen Effekt (Sherif, 1935) gehören zu den ersten und wohl einflussreichsten wissenschaftlichen Untersuchungen zum informativen sozialen Einfluss. Der autokinetische Effekt ist eine optische Täuschung, die immer dann auftritt, wenn das menschliche Auge keinen zweiten visuellen Referenzpunkt hat (▶ Studie: Sherifs Studien zum informationalen Gruppeneinfluss).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.9004084467887878,
+      "bbox": {
+        "x0": 1056.068359375,
+        "y0": 319.43988037109375,
+        "x1": 1390.798095703125,
+        "y1": 431.98431396484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 130,
+      "polygon": [
+        [
+          1056.0,
+          319.0
+        ],
+        [
+          1056.0,
+          430.0
+        ],
+        [
+          1389.0,
+          430.0
+        ],
+        [
+          1389.0,
+          319.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Von öffentlicher Compliance spricht man, wenn sich Personen nach dem Gruppenurteil richten, obwohl sie innerlich wissen, dass dieses falsch ist.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.9231247901916504,
+      "bbox": {
+        "x0": 1056.37939453125,
+        "y0": 552.97802734375,
+        "x1": 1381.84716796875,
+        "y1": 693.1650390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 163,
+      "polygon": [
+        [
+          1056.0,
+          552.0
+        ],
+        [
+          1056.0,
+          692.0
+        ],
+        [
+          1380.0,
+          692.0
+        ],
+        [
+          1380.0,
+          552.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Asch-Studien zeigen, dass sowohl normativer als auch informativer sozialer Einfluss bewirken kann, dass Personen sich einem falschen Mehrheitsurteil anschließen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.902262806892395,
+      "bbox": {
+        "x0": 1057.0050048828125,
+        "y0": 853.5267333984375,
+        "x1": 1383.2926025390625,
+        "y1": 963.8331298828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 182,
+      "polygon": [
+        [
+          1057.0,
+          853.0
+        ],
+        [
+          1057.0,
+          962.0
+        ],
+        [
+          1382.0,
+          962.0
+        ],
+        [
+          1382.0,
+          853.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Klassischen Forschungsarbeiten zum informativen sozialen Einfluss sind die Sherif-Studien zum autokinetischen Effekt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 14,
+      "pp_label": "paragraph_title",
+      "score": 0.6791342496871948,
+      "bbox": {
+        "x0": 152.4057159423828,
+        "y0": 1046.052978515625,
+        "x1": 226.76312255859375,
+        "y1": 1074.155517578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 185,
+      "polygon": [
+        [
+          152.0,
+          1046.0
+        ],
+        [
+          152.0,
+          1073.0
+        ],
+        [
+          225.0,
+          1073.0
+        ],
+        [
+          225.0,
+          1046.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.9376413822174072,
+      "bbox": {
+        "x0": 147.04696655273438,
+        "y0": 1081.322998046875,
+        "x1": 1373.8564453125,
+        "y1": 1653.0205078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 204,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Sherifs Studien zum informationalen Gruppeneinfluss\nSherif (1935) erzeugte zunächst einen autokinetischen Effekt: Die Versuchspersonen saßen in einem vollkommen abgedunkelten Raum und sollten einen weißen Punkt beobachten, der an die Wand projiziert wurde. Die optische Täuschung bestand dabei darin, dass der Punkt nach einer gewissen Zeit im Blickfeld des Betrachters als bewegt wahrgenommen wurde. Die Stärke der Bewegung (Amplitude) war dabei abhängig vom physiologischen Aufbau des Auges. In einem ersten Teil des Experiments sollten die Versuchspersonen zunächst das Ausmaß der Amplitude einschätzen, also angeben, wie stark sich der Punkt ihrer Meinung nach bewegt hatte (Einzelphase 1). Der zweite Teil des Experiments sah vor, dass die Versuchspersonen in einer Gruppe mit anderen Versuchspersonen darüber diskutieren sollten, wie stark sich der Punkt bewegt hatte. Sie sollten hierüber eine Gruppenentscheidung treffen (Gruppen- phase). Im dritten und letzten Teil des Experiments wurden die Versuchspersonen dann nochmals gebeten, alleine eine Einschätzung zur wahrgenommenen Amplitude zu treffen (Einzelphase 2).\nWelche Ergebnisse konnte Sherif nun beobachten? In der ersten Einzelphase war die Varianz der Einzelmeinungen zur Stärke der Amplitude des Punktes relativ hoch, d. h., die Einschätzungen der Versuchspersonen unterschieden sich stark. In der Gruppenphase glichen sich die Einzelmeinungen dann an eine moderatere Gruppenmeinung an (die Varianz wurde signifikant geringer). Interessant war nun, dass die Versuchspersonen in der zweiten Einzelphase nicht mehr zu ihrer ursprünglichen Ausgangsmeinung aus Einzelphase 1 zurückkehrten, sondern sich auch bei der individuellen Befragung an das moderatere, geringer streuende Urteil aus der Gruppenphase anpassten (☐ Abb. 9.3).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        11,
+        12,
+        13
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.9547628164291382,
+      "bbox": {
+        "x0": 109.73892974853516,
+        "y0": 1715.1646728515625,
+        "x1": 1014.5707397460938,
+        "y1": 1950.3909912109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 278,
+      "polygon": [
+        [
+          109.0,
+          1726.0
+        ],
+        [
+          109.0,
+          1949.0
+        ],
+        [
+          1013.0,
+          1949.0
+        ],
+        [
+          1013.0,
+          1726.0
+        ],
+        [
+          550.0,
+          1715.0
+        ],
+        [
+          131.0,
+          1715.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Welche psychologischen Prozesse können dieses Ergebnis der Sherif-Studien erklären? Zunächst bleibt festzuhalten, dass die Situation, die Sherif mit dem autokinetischen Effekt erzeugt hatte, von großer Unsicherheit begleitet war; die Probanden waren sich bezüglich ihrer eigenen Einschätzung also sehr unsicher. Als Folge versuchten die Versuchspersonen, gerade in der späteren Gruppenphase die Urteile der anderen Versuchspersonen zu nutzen, um die Realität zu definieren und so letztendlich selbst zu einem validen Urteil zu kommen (informativer sozialer Einfluss). Sobald die Versuchsper-",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1730.6700439453125
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1815.869384765625
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1254.5477294921875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1411.753662109375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 2096.50830078125
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1362.0556640625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1214.09912109375
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1660.78173828125
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1732.5625
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1774.9974365234375
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 2287.148193359375
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1301.878662109375
+    }
+  ],
+  "warnungen": [
+    "Blöcke [11, 12, 13] zu #11 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3900905000009516,
+      "zeitstempel": "2026-09-06T14:31:49.321652Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 13.28371554199839,
+      "zeitstempel": "2026-09-06T15:02:50.436015Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

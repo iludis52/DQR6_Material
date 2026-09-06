@@ -1,0 +1,775 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 17,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 229,
+      "pp_label": "number",
+      "score": 0.5494369864463806,
+      "bbox": {
+        "x0": 115.60111999511719,
+        "y0": 80.13320922851562,
+        "x1": 132.7518310546875,
+        "y1": 102.48287963867188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 1,
+      "polygon": [
+        [
+          115.0,
+          80.0
+        ],
+        [
+          115.0,
+          101.0
+        ],
+        [
+          131.0,
+          101.0
+        ],
+        [
+          131.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "8",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8425986170768738,
+      "bbox": {
+        "x0": 190.7130584716797,
+        "y0": 77.8109130859375,
+        "x1": 1177.910400390625,
+        "y1": 107.5550537109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 23,
+      "polygon": [
+        [
+          190.0,
+          77.0
+        ],
+        [
+          190.0,
+          106.0
+        ],
+        [
+          1176.0,
+          106.0
+        ],
+        [
+          1176.0,
+          77.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 1 · Definitorische, wissenschaftstheoretische und methodische Grundlagen der Sozialpsychologie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.8762884140014648,
+      "bbox": {
+        "x0": 136.59059143066406,
+        "y0": 386.3667907714844,
+        "x1": 453.8009033203125,
+        "y1": 440.6286926269531,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 92,
+      "polygon": [
+        [
+          136.0,
+          386.0
+        ],
+        [
+          136.0,
+          439.0
+        ],
+        [
+          452.0,
+          439.0
+        ],
+        [
+          452.0,
+          386.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Probleme der qualitativen Methode sind, dass:",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.8562262058258057,
+      "bbox": {
+        "x0": 138.85501098632812,
+        "y0": 443.39764404296875,
+        "x1": 448.7908630371094,
+        "y1": 495.92718505859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 96,
+      "polygon": [
+        [
+          138.0,
+          443.0
+        ],
+        [
+          138.0,
+          494.0
+        ],
+        [
+          447.0,
+          494.0
+        ],
+        [
+          447.0,
+          454.0
+        ],
+        [
+          440.0,
+          443.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "keine Ursache-Wirkungs-Zu-sammenhänge benennbar sind,",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.8516382575035095,
+      "bbox": {
+        "x0": 139.21383666992188,
+        "y0": 499.0047607421875,
+        "x1": 437.5681457519531,
+        "y1": 552.00830078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 117,
+      "polygon": [
+        [
+          139.0,
+          499.0
+        ],
+        [
+          139.0,
+          551.0
+        ],
+        [
+          429.0,
+          551.0
+        ],
+        [
+          436.0,
+          541.0
+        ],
+        [
+          436.0,
+          499.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- subjektive Verzerrungen auf-treten können und",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.8643391132354736,
+      "bbox": {
+        "x0": 139.83387756347656,
+        "y0": 554.265625,
+        "x1": 433.9835510253906,
+        "y1": 609.757080078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 132,
+      "polygon": [
+        [
+          139.0,
+          554.0
+        ],
+        [
+          139.0,
+          608.0
+        ],
+        [
+          432.0,
+          608.0
+        ],
+        [
+          432.0,
+          554.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– keine objektiv vergleichbare Ergebnisse erhalten werden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9613749384880066,
+      "bbox": {
+        "x0": 503.1610107421875,
+        "y0": 183.19064331054688,
+        "x1": 1405.73095703125,
+        "y1": 381.2189025878906,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 135,
+      "polygon": [
+        [
+          503.0,
+          183.0
+        ],
+        [
+          503.0,
+          380.0
+        ],
+        [
+          1404.0,
+          380.0
+        ],
+        [
+          1404.0,
+          183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "qualitative Interview übrig, mit Hilfe dessen er versucht, Opfer von Internetbetrug zu finden und diese nach den jeweiligen Gründen zu befragen, weshalb sie ihrer Meinung nach auf den Betrug hereingefallen sind. Dem Opfer würde man dann Fragen stellen, wie z. B. »Was fanden Sie an der E-Mail besonders attraktiv? Was haben Sie gedacht, als Sie die E-Mail geöffnet haben? Wie haben Sie sich gefühlt, als Ihnen eine große Geld- summe versprochen wurde?«",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9694489240646362,
+      "bbox": {
+        "x0": 504.2757873535156,
+        "y0": 381.7272644042969,
+        "x1": 1406.9967041015625,
+        "y1": 886.66162109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 164,
+      "polygon": [
+        [
+          504.0,
+          392.0
+        ],
+        [
+          512.0,
+          885.0
+        ],
+        [
+          1405.0,
+          875.0
+        ],
+        [
+          1398.0,
+          381.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "summe versprochen wurde:«\nProblematisch an der qualitativen Methode ist zum einen, dass sie keine Ursache-Wirkungs-Zusammenhänge untersuchen kann und daher aus Ergebnissen auch keine Rückschlüsse auf mögliche Ursachen gezogen werden können. Des Weiteren ist sie sehr anfällig für subjektive Verzerrungen – sowohl der befragten Person als auch des Forschers – und darüber hinaus liefert sie keine quantifizierbaren und objektiv vergleichbaren Ergebnisse. Daher wird die qualitative Methode von quantitativ arbeitenden Sozialpsychologinnen und Sozialpsychologen häufig nur zur Generierung (Bildung) von Hypothesen verwendet, welche dann später in einem echten Experiment direkt überprüft werden. Von reflexiven bzw. hermeneutisch orientierten Sozialpsychologen (d. h. Sozialpsychologinnen und Sozialpsychologen, für die die Auslegung und Interpretation des jeweiligen Gegenstandes anhand bestimmter Merkmale oder »Zeichen« zentral und das Ziel dabei das korrekte Verstehen ist) wird qualitative Forschung dagegen als Methode der Wahl angewandt (z. B. Flick, von Kardorff, Keupp, von Rosenstiel & Wolff, 1991; Horkheimer & Adorno, 1947); hier steht das Individuum in seiner subjektiven Realität im Mittelpunkt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 9,
+      "pp_label": "paragraph_title",
+      "score": 0.8626741170883179,
+      "bbox": {
+        "x0": 507.5948181152344,
+        "y0": 940.6898193359375,
+        "x1": 923.3751831054688,
+        "y1": 977.5587158203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 185,
+      "polygon": [
+        [
+          507.0,
+          940.0
+        ],
+        [
+          507.0,
+          976.0
+        ],
+        [
+          922.0,
+          976.0
+        ],
+        [
+          922.0,
+          940.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1.3.2 Verhaltensbeobachtung",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9291863441467285,
+      "bbox": {
+        "x0": 505.6850280761719,
+        "y0": 1016.5164794921875,
+        "x1": 1404.580078125,
+        "y1": 1115.5662841796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 198,
+      "polygon": [
+        [
+          513.0,
+          1016.0
+        ],
+        [
+          513.0,
+          1114.0
+        ],
+        [
+          1403.0,
+          1114.0
+        ],
+        [
+          1403.0,
+          1016.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Ein ausgezeichnetes Beispiel für dieses Vorgehen stellt eine Untersuchung von Jahoda, Lazarsfeld und Zeisel (1933) dar, die unter dem Namen »Die Arbeitslosen von Marienthal« bekannt wurde (▶ Studie: Die Arbeitslosen von Marienthal).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 14,
+      "pp_label": "paragraph_title",
+      "score": 0.7165354490280151,
+      "bbox": {
+        "x0": 153.62789916992188,
+        "y0": 1146.89111328125,
+        "x1": 225.89337158203125,
+        "y1": 1173.771484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 220,
+      "polygon": [
+        [
+          153.0,
+          1146.0
+        ],
+        [
+          153.0,
+          1172.0
+        ],
+        [
+          224.0,
+          1172.0
+        ],
+        [
+          224.0,
+          1146.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 16,
+      "pp_label": "paragraph_title",
+      "score": 0.6394261717796326,
+      "bbox": {
+        "x0": 153.58316040039062,
+        "y0": 1182.9599609375,
+        "x1": 506.7484436035156,
+        "y1": 1211.83203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 227,
+      "polygon": [
+        [
+          153.0,
+          1192.0
+        ],
+        [
+          153.0,
+          1210.0
+        ],
+        [
+          505.0,
+          1210.0
+        ],
+        [
+          505.0,
+          1182.0
+        ],
+        [
+          379.0,
+          1182.0
+        ],
+        [
+          370.0,
+          1182.0
+        ],
+        [
+          296.0,
+          1182.0
+        ],
+        [
+          288.0,
+          1182.0
+        ],
+        [
+          281.0,
+          1182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Arbeitslosen von Marienthal",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.9475098848342896,
+      "bbox": {
+        "x0": 150.65147399902344,
+        "y0": 1182.15185546875,
+        "x1": 1383.0472412109375,
+        "y1": 1551.798095703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 235,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Die Arbeitslosen von Marienthal\nDer Hintergrund dieser Forschung war die Schließung einer Fabrik in Marienthal bei Wien. Die Schließung führte zu hoher Arbeitslosigkeit. Die Forscher wollten nun Informatiönen über diese Bevölkerungsgruppe erhalten und damit die unterschiedlichen Aspekte bzw. Folgen von Arbeitslosigkeit untersuchen. Hierzu traten sie vor Ort in Kontakt mit den betroffenen Menschen, zeichneten Befragungen bzw. Interviews mit diesen auf, boten Sprechstunden an, führten Beobachtungen in den einzelnen Haushalten durch, starteten Hilfsaktionen usw. Durch die umfassende Dokumentation ihrer Arbeitsschritte, sowohl mit qualitativen als auch quantitativen Methoden, gewann die Forschergruppe einen tiefen Einblick in die damalige Situation der Arbeitslosen. Der bemerkenswerteste Befund betrifft dabei die psychischen Auswirkungen der Arbeitslosigkeit: Ein Großteil der Betroffenen nahm eine resignierte Haltung ein, zeigte kaum Widerstandskraft (so wurde es aufgegeben, beim Diebstahl von Lebensmitteln Anzeige zu erststatten) und war unfähig, die viele Zeit sinnvoll zu füllen. Statt Aktivität (etwa Beitritt in Vereine) war Rückzug und passives Verhalten zu beobachten (vgl. Jahoda, Lazarsfeld & Zeisel, 1975).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        12,
+        13
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.8994592428207397,
+      "bbox": {
+        "x0": 128.7864990234375,
+        "y0": 1619.345703125,
+        "x1": 452.706298828125,
+        "y1": 1704.673095703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 279,
+      "polygon": [
+        [
+          128.0,
+          1619.0
+        ],
+        [
+          128.0,
+          1703.0
+        ],
+        [
+          451.0,
+          1703.0
+        ],
+        [
+          451.0,
+          1619.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Beobachtung von Verhalten ist ein wichtiger Baustein im Methodenkanon der Sozialpsychologie.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9624826312065125,
+      "bbox": {
+        "x0": 503.1025695800781,
+        "y0": 1616.2724609375,
+        "x1": 1405.632080078125,
+        "y1": 1881.16796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 286,
+      "polygon": [
+        [
+          503.0,
+          1616.0
+        ],
+        [
+          503.0,
+          1880.0
+        ],
+        [
+          851.0,
+          1880.0
+        ],
+        [
+          860.0,
+          1880.0
+        ],
+        [
+          927.0,
+          1880.0
+        ],
+        [
+          1404.0,
+          1880.0
+        ],
+        [
+          1404.0,
+          1616.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Ergebnisse der Marienthal-Studie sind besonders deshalb wichtig, weil sie nicht an Aktualität verloren haben: Arbeitslosigkeit ist nach wie vor ein großes Problem und die Themen Rezession und Finanzkrise scheinen allgegenwärtig zu sein. Die Medien berichten von einer sinkenden Wirtschaftsleistung und Konjunkturexperten halten eine Senkung des Bruttoinlandsprodukts im Zuge der Eurokrise für möglich. Die Fragen nach möglichen psychischen Auswirkungen (etwa Resignation) sind demnach heute genauso zu stellen; und daran anknüpfend sollten geeignete Umgangsweisen damit gefunden werden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 15,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9159687757492065,
+      "bbox": {
+        "x0": 503.7208557128906,
+        "y0": 1882.51953125,
+        "x1": 1407.0693359375,
+        "y1": 1949.0546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 297,
+      "polygon": [
+        [
+          503.0,
+          1882.0
+        ],
+        [
+          503.0,
+          1948.0
+        ],
+        [
+          1406.0,
+          1948.0
+        ],
+        [
+          1406.0,
+          1882.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Andere Varianten der Verhaltensbeobachtung kommen ohne direkte Teilnahme des Forschers aus. Hier sind besonders die sog. nichtreaktiven Methoden interessant,",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1351.5313720703125
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2889.481201171875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 599.06982421875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 715.5143432617188
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1177.1326904296875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1593.1246337890625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 946.5748291015625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2128.467041015625
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1402.626220703125
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 955.6458129882812
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 763.7293090820312
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1566.736083984375
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 1691.5010986328125
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 877.9290161132812
+    },
+    {
+      "von": 14,
+      "nach": 15,
+      "konfidenz": 1.0,
+      "marge": 1156.946044921875
+    }
+  ],
+  "warnungen": [
+    "Blöcke [12, 13] zu #12 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.39346145799936494,
+      "zeitstempel": "2026-09-06T14:30:58.118716Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 14.705897542000457,
+      "zeitstempel": "2026-09-06T14:35:35.929785Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

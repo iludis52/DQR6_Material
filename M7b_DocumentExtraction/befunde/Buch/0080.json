@@ -1,0 +1,391 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 80,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 2,
+      "pp_label": "header",
+      "score": 0.8311366438865662,
+      "bbox": {
+        "x0": 112.73270416259766,
+        "y0": 78.06121826171875,
+        "x1": 752.9364624023438,
+        "y1": 107.28143310546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 5,
+      "polygon": [
+        [
+          112.0,
+          78.0
+        ],
+        [
+          112.0,
+          106.0
+        ],
+        [
+          751.0,
+          106.0
+        ],
+        [
+          751.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5.2 · Verschiedene psychologische Erklärungsansätze für Aggression",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 32,
+      "pp_label": "number",
+      "score": 0.6468405723571777,
+      "bbox": {
+        "x0": 1188.712646484375,
+        "y0": 52.880096435546875,
+        "x1": 1220.8729248046875,
+        "y1": 81.23574829101562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 25,
+      "polygon": [
+        [
+          1188.0,
+          52.0
+        ],
+        [
+          1188.0,
+          80.0
+        ],
+        [
+          1219.0,
+          80.0
+        ],
+        [
+          1219.0,
+          52.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "73",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 8,
+      "pp_label": "number",
+      "score": 0.6328601241111755,
+      "bbox": {
+        "x0": 1382.4150390625,
+        "y0": 34.040252685546875,
+        "x1": 1421.2801513671875,
+        "y1": 86.05850219726562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 36,
+      "polygon": [
+        [
+          1382.0,
+          34.0
+        ],
+        [
+          1382.0,
+          85.0
+        ],
+        [
+          1420.0,
+          85.0
+        ],
+        [
+          1420.0,
+          34.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9698071479797363,
+      "bbox": {
+        "x0": 109.62355041503906,
+        "y0": 181.90066528320312,
+        "x1": 1014.8582153320312,
+        "y1": 851.939453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 66,
+      "polygon": [
+        [
+          109.0,
+          181.0
+        ],
+        [
+          109.0,
+          850.0
+        ],
+        [
+          1013.0,
+          850.0
+        ],
+        [
+          1013.0,
+          181.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "medialen Kontext führt das Zusammenspiel dieser beiden Inputvariablen nach dem Konsum gewalthaltiger Medien zu einem internen psychologischen Zustand, der gekennzeichnet ist durch ein verstärktes Erleben aggressiver Emotionen sowie eine erhöhte Zugänglichkeit aggressionsbezogener Gedanken (Priming) bzw. Verhaltensskripts. Zusätzlich erleben Personen z. B. nach dem Konsum aggressiver Medien ein erhöhtes Maß an physiologischer Erregung (erhöhtes Arousal). Dieser interne psychologische Zustand wiederum lenkt die jeweiligen Bewertungsprozesse und Erwartungshypothesen in der konkreten Situation. So kann ein einfacher Rempler in der Fußgängerzone bereits als beabsichtigter aggressiver Akt bewertet werden, wenn Personen zuvor aggressive Medien konsumiert haben. Dagegen würde die Situation im Zustand verringerten Aggressionserlebens vermutlich lediglich als unabsichtlich eingestuft werden. Dieser Bewertungsprozess beeinflusst wiederum die Art der Reaktion, die eine Person in der jeweiligen Situation zeigt (vgl. Anderson & Dill, 2000). Das GAM gründet auf den theoretischen Annahmen verschiedener anderer Modelle. So ist die Annahme, dass situative Faktoren (z. B. der »Waffeneffekt«) die Zugänglichkeit aggressiver Kognitionen erhöhen, bereits in dem kognitiv-neoassoziationistischen Modell von Berkowitz (1989, s. oben) enthalten. Die Miteinbeziehung des physiologischen Erregungszustandes findet man auch bei Zillmann (1983; Erregungs-Transfer-Modell) und gerade langfristige Effekte von Aggression, die das GAM ebenfalls erklärt, stehen im Mittelpunkt von Banduras Sozialer Lerntheorie (vgl. Bandura et al., 1993; s. oben).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 0,
+      "pp_label": "image",
+      "score": 0.9770050048828125,
+      "bbox": {
+        "x0": 110.31495666503906,
+        "y0": 892.275146484375,
+        "x1": 1007.427001953125,
+        "y1": 1627.728759765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 170,
+      "polygon": [
+        [
+          118.0,
+          892.0
+        ],
+        [
+          118.0,
+          1626.0
+        ],
+        [
+          1006.0,
+          1626.0
+        ],
+        [
+          1006.0,
+          892.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0080_04_image.png"
+    },
+    {
+      "id": 5,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9466538429260254,
+      "bbox": {
+        "x0": 110.16700744628906,
+        "y0": 1683.233154296875,
+        "x1": 1015.1117553710938,
+        "y1": 1950.537353515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 193,
+      "polygon": [
+        [
+          110.0,
+          1694.0
+        ],
+        [
+          110.0,
+          1949.0
+        ],
+        [
+          1014.0,
+          1949.0
+        ],
+        [
+          1007.0,
+          1683.0
+        ],
+        [
+          118.0,
+          1683.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Grundsätzlich wird im Rahmen des GAM angenommen, dass soziokognitive Prozesse in Zusammenhang mit Mediengewalt sowohl kurzfristig als auch langfristig zu gesteigerter Aggression führen können (vgl. Anderson et al., 2004). Kurzfristige Prozesse werden vorwiegend durch Priming-Prozesse erklärt, d. h., der einmalige Konsum gewalthaltiger Medienformate erhöht die kognitive Zugänglichkeit aggressiver Gedanken, Emotionen und Verhaltensskripts, was wiederum zu einer erhöhten Auftretens-wahrscheinlichkeit tatsächlichen aggressiven Verhaltens führt. Bei langfristiger und kontinuierlicher Exposition kann aggressives Verhalten aber auch zu einer chronischen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 5,
+      "pp_label": "figure_title",
+      "score": 0.9149224758148193,
+      "bbox": {
+        "x0": 1057.1488037109375,
+        "y0": 892.2355346679688,
+        "x1": 1383.1962890625,
+        "y1": 1116.3671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 250,
+      "polygon": [
+        [
+          1057.0,
+          892.0
+        ],
+        [
+          1057.0,
+          1115.0
+        ],
+        [
+          1382.0,
+          1115.0
+        ],
+        [
+          1382.0,
+          892.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Abb. 5.5 Das General Aggression Model. (Nach Anderson & Dill, 2000, Copyright © 2000 by the American Psychological Association. Adapted with permission. The use of APA information does not imply endorsement by APA. APA is not responsible for the accuracy of this translation.)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.6658344268798828,
+      "bbox": {
+        "x0": 1055.9576416015625,
+        "y0": 1685.417236328125,
+        "x1": 1374.041259765625,
+        "y1": 1883.478271484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 286,
+      "polygon": [
+        [
+          1055.0,
+          1685.0
+        ],
+        [
+          1055.0,
+          1882.0
+        ],
+        [
+          1373.0,
+          1882.0
+        ],
+        [
+          1373.0,
+          1685.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das General Aggression Model kann sowohl kurzfristige, situativ auftretende Media-Violence-Effekte erklären (via Priming) als auch längerfristige Effekte (via Lernen und chronischer Zugänglichkeit aggressiver kognitiver Konstrukte).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1404.5325927734375
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 741.9620361328125
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1761.891845703125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 2512.53955078125
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1990.7108154296875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 2518.126953125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1015.6531982421875
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.4032073329981358,
+      "zeitstempel": "2026-09-06T14:31:22.855798Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 8.436953167001775,
+      "zeitstempel": "2026-09-06T14:48:40.823710Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

@@ -1,0 +1,2663 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 220,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8220875263214111,
+      "bbox": {
+        "x0": 114.06720733642578,
+        "y0": 77.41989135742188,
+        "x1": 315.06982421875,
+        "y1": 107.01699829101562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": [
+        [
+          114.0,
+          77.0
+        ],
+        [
+          114.0,
+          106.0
+        ],
+        [
+          314.0,
+          106.0
+        ],
+        [
+          314.0,
+          77.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Stichwortverzeichnis",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.5596227645874023,
+      "bbox": {
+        "x0": 1338.3701171875,
+        "y0": 28.374114990234375,
+        "x1": 1466.391845703125,
+        "y1": 86.58743286132812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 3,
+      "polygon": [
+        [
+          1338.0,
+          28.0
+        ],
+        [
+          1338.0,
+          85.0
+        ],
+        [
+          1465.0,
+          85.0
+        ],
+        [
+          1465.0,
+          28.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "K-W",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 57,
+      "pp_label": "text",
+      "score": 0.5367945432662964,
+      "bbox": {
+        "x0": 113.89910125732422,
+        "y0": 650.77783203125,
+        "x1": 326.60504150390625,
+        "y1": 680.167236328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 51,
+      "polygon": [
+        [
+          113.0,
+          650.0
+        ],
+        [
+          113.0,
+          679.0
+        ],
+        [
+          325.0,
+          679.0
+        ],
+        [
+          325.0,
+          650.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Sherif-Studien 143",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 55,
+      "pp_label": "text",
+      "score": 0.5348158478736877,
+      "bbox": {
+        "x0": 113.37840270996094,
+        "y0": 684.6141357421875,
+        "x1": 308.5099792480469,
+        "y1": 714.5194091796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 53,
+      "polygon": [
+        [
+          113.0,
+          684.0
+        ],
+        [
+          113.0,
+          713.0
+        ],
+        [
+          307.0,
+          713.0
+        ],
+        [
+          307.0,
+          684.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Situationismus 4",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 45,
+      "pp_label": "text",
+      "score": 0.5271474123001099,
+      "bbox": {
+        "x0": 114.13316345214844,
+        "y0": 751.259765625,
+        "x1": 394.7817687988281,
+        "y1": 782.46435546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 54,
+      "polygon": [
+        [
+          114.0,
+          751.0
+        ],
+        [
+          114.0,
+          781.0
+        ],
+        [
+          393.0,
+          781.0
+        ],
+        [
+          393.0,
+          751.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Soziale Erleichterung 130",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 46,
+      "pp_label": "text",
+      "score": 0.5562092661857605,
+      "bbox": {
+        "x0": 113.83966827392578,
+        "y0": 716.8323974609375,
+        "x1": 452.4373474121094,
+        "y1": 748.70947265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 55,
+      "polygon": [
+        [
+          113.0,
+          716.0
+        ],
+        [
+          113.0,
+          747.0
+        ],
+        [
+          451.0,
+          747.0
+        ],
+        [
+          451.0,
+          716.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Soziale Eindrucksmotivation 92",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 80,
+      "pp_label": "text",
+      "score": 0.5331666469573975,
+      "bbox": {
+        "x0": 113.45165252685547,
+        "y0": 784.1748046875,
+        "x1": 405.28955078125,
+        "y1": 814.432373046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 58,
+      "polygon": [
+        [
+          113.0,
+          784.0
+        ],
+        [
+          113.0,
+          813.0
+        ],
+        [
+          404.0,
+          813.0
+        ],
+        [
+          404.0,
+          784.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Soziale Erwünschtheit 102",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 95,
+      "pp_label": "text",
+      "score": 0.5288206934928894,
+      "bbox": {
+        "x0": 112.97428894042969,
+        "y0": 917.3471069335938,
+        "x1": 327.5538635253906,
+        "y1": 947.4384155273438,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 66,
+      "polygon": [
+        [
+          112.0,
+          917.0
+        ],
+        [
+          112.0,
+          946.0
+        ],
+        [
+          326.0,
+          946.0
+        ],
+        [
+          326.0,
+          917.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Compliance 143",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 62,
+      "pp_label": "text",
+      "score": 0.5779622197151184,
+      "bbox": {
+        "x0": 111.67312622070312,
+        "y0": 950.5902099609375,
+        "x1": 355.4154968261719,
+        "y1": 981.0970458984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 67,
+      "polygon": [
+        [
+          111.0,
+          950.0
+        ],
+        [
+          111.0,
+          980.0
+        ],
+        [
+          354.0,
+          980.0
+        ],
+        [
+          354.0,
+          950.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Definition 139, 140",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 30,
+      "pp_label": "text",
+      "score": 0.6637565493583679,
+      "bbox": {
+        "x0": 111.20674133300781,
+        "y0": 984.538818359375,
+        "x1": 500.3977355957031,
+        "y1": 1044.92578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 70,
+      "polygon": [
+        [
+          111.0,
+          984.0
+        ],
+        [
+          111.0,
+          1043.0
+        ],
+        [
+          499.0,
+          1043.0
+        ],
+        [
+          499.0,
+          984.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Einfluss von Mehrheiten 141, 143, 144",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 105,
+      "pp_label": "text",
+      "score": 0.5459517240524292,
+      "bbox": {
+        "x0": 109.77693176269531,
+        "y0": 1050.228515625,
+        "x1": 465.9629821777344,
+        "y1": 1082.148193359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 73,
+      "polygon": [
+        [
+          109.0,
+          1072.0
+        ],
+        [
+          109.0,
+          1081.0
+        ],
+        [
+          464.0,
+          1081.0
+        ],
+        [
+          464.0,
+          1050.0
+        ],
+        [
+          117.0,
+          1050.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Einfluss von Minderheiten 147",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 58,
+      "pp_label": "text",
+      "score": 0.5036786198616028,
+      "bbox": {
+        "x0": 112.52989959716797,
+        "y0": 1118.7529296875,
+        "x1": 318.4205627441406,
+        "y1": 1148.009033203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 74,
+      "polygon": [
+        [
+          112.0,
+          1118.0
+        ],
+        [
+          112.0,
+          1147.0
+        ],
+        [
+          317.0,
+          1147.0
+        ],
+        [
+          317.0,
+          1118.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- normativer 140",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 67,
+      "pp_label": "text",
+      "score": 0.5081394910812378,
+      "bbox": {
+        "x0": 111.65451049804688,
+        "y0": 1349.8780517578125,
+        "x1": 460.7908630371094,
+        "y1": 1380.7413330078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 85,
+      "polygon": [
+        [
+          111.0,
+          1349.0
+        ],
+        [
+          111.0,
+          1379.0
+        ],
+        [
+          459.0,
+          1379.0
+        ],
+        [
+          459.0,
+          1349.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– europäisch vs. amerikanisch 5",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 83,
+      "pp_label": "text",
+      "score": 0.5051547884941101,
+      "bbox": {
+        "x0": 112.23601531982422,
+        "y0": 1383.760009765625,
+        "x1": 360.76318359375,
+        "y1": 1414.6923828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 86,
+      "polygon": [
+        [
+          112.0,
+          1383.0
+        ],
+        [
+          112.0,
+          1413.0
+        ],
+        [
+          359.0,
+          1413.0
+        ],
+        [
+          359.0,
+          1383.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Forschungsethik 12",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 66,
+      "pp_label": "text",
+      "score": 0.5793207883834839,
+      "bbox": {
+        "x0": 112.03447723388672,
+        "y0": 1418.3253173828125,
+        "x1": 510.20367431640625,
+        "y1": 1479.0345458984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 89,
+      "polygon": [
+        [
+          112.0,
+          1429.0
+        ],
+        [
+          112.0,
+          1478.0
+        ],
+        [
+          509.0,
+          1478.0
+        ],
+        [
+          509.0,
+          1418.0
+        ],
+        [
+          135.0,
+          1418.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Interaction zw. Person und Situation\n3",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 15,
+      "query_id": 49,
+      "pp_label": "text",
+      "score": 0.5296818017959595,
+      "bbox": {
+        "x0": 111.45211029052734,
+        "y0": 1517.06298828125,
+        "x1": 745.5690307617188,
+        "y1": 1582.1572265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 93,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "– wissenschaftstheoretische Grundlage Triebtheorie\n5 – Aggression 63",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        15,
+        37,
+        38
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 16,
+      "query_id": 38,
+      "pp_label": "text",
+      "score": 0.5605638027191162,
+      "bbox": {
+        "x0": 550.5651245117188,
+        "y0": 181.8984375,
+        "x1": 801.284423828125,
+        "y1": 215.053955078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 120,
+      "polygon": [
+        [
+          550.0,
+          181.0
+        ],
+        [
+          550.0,
+          214.0
+        ],
+        [
+          800.0,
+          214.0
+        ],
+        [
+          800.0,
+          181.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Rebound-Effekt 108",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 17,
+      "query_id": 6,
+      "pp_label": "paragraph_title",
+      "score": 0.7014235258102417,
+      "bbox": {
+        "x0": 591.9942016601562,
+        "y0": 653.182861328125,
+        "x1": 624.3602294921875,
+        "y1": 697.0399169921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 133,
+      "polygon": [
+        [
+          591.0,
+          653.0
+        ],
+        [
+          591.0,
+          696.0
+        ],
+        [
+          623.0,
+          696.0
+        ],
+        [
+          623.0,
+          653.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "T",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 18,
+      "query_id": 37,
+      "pp_label": "text",
+      "score": 0.6220515966415405,
+      "bbox": {
+        "x0": 551.9231567382812,
+        "y0": 749.402587890625,
+        "x1": 901.9509887695312,
+        "y1": 781.06884765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 134,
+      "polygon": [
+        [
+          551.0,
+          749.0
+        ],
+        [
+          551.0,
+          780.0
+        ],
+        [
+          900.0,
+          780.0
+        ],
+        [
+          900.0,
+          749.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Terrormanagement-Theorie (TMT)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 19,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.5161375999450684,
+      "bbox": {
+        "x0": 550.3380737304688,
+        "y0": 783.6303100585938,
+        "x1": 762.93994140625,
+        "y1": 814.6050415039062,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 135,
+      "polygon": [
+        [
+          550.0,
+          794.0
+        ],
+        [
+          550.0,
+          813.0
+        ],
+        [
+          761.0,
+          813.0
+        ],
+        [
+          761.0,
+          783.0
+        ],
+        [
+          588.0,
+          783.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Angstpuffer 161",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 20,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.5998733043670654,
+      "bbox": {
+        "x0": 551.06201171875,
+        "y0": 817.58251953125,
+        "x1": 766.308837890625,
+        "y1": 847.14208984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 137,
+      "polygon": [
+        [
+          551.0,
+          817.0
+        ],
+        [
+          551.0,
+          846.0
+        ],
+        [
+          765.0,
+          846.0
+        ],
+        [
+          765.0,
+          817.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- Gegenstand 161",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 21,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.6892647743225098,
+      "bbox": {
+        "x0": 551.55224609375,
+        "y0": 850.3306884765625,
+        "x1": 832.7432250976562,
+        "y1": 881.1871337890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 138,
+      "polygon": [
+        [
+          551.0,
+          850.0
+        ],
+        [
+          551.0,
+          860.0
+        ],
+        [
+          551.0,
+          871.0
+        ],
+        [
+          551.0,
+          880.0
+        ],
+        [
+          831.0,
+          880.0
+        ],
+        [
+          831.0,
+          850.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– kulturelle Weltsicht 161",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 22,
+      "query_id": 32,
+      "pp_label": "text",
+      "score": 0.6896380186080933,
+      "bbox": {
+        "x0": 551.9066162109375,
+        "y0": 917.7785034179688,
+        "x1": 837.3966674804688,
+        "y1": 947.6231079101562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 139,
+      "polygon": [
+        [
+          551.0,
+          917.0
+        ],
+        [
+          551.0,
+          931.0
+        ],
+        [
+          559.0,
+          946.0
+        ],
+        [
+          836.0,
+          946.0
+        ],
+        [
+          836.0,
+          917.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Worldview Defense 162",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 23,
+      "query_id": 79,
+      "pp_label": "text",
+      "score": 0.7208138108253479,
+      "bbox": {
+        "x0": 550.6334838867188,
+        "y0": 883.6793212890625,
+        "x1": 785.890380859375,
+        "y1": 914.6597900390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 140,
+      "polygon": [
+        [
+          550.0,
+          883.0
+        ],
+        [
+          550.0,
+          893.0
+        ],
+        [
+          558.0,
+          913.0
+        ],
+        [
+          784.0,
+          913.0
+        ],
+        [
+          784.0,
+          883.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Selbstachtung 161",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 24,
+      "query_id": 47,
+      "pp_label": "text",
+      "score": 0.6062105894088745,
+      "bbox": {
+        "x0": 552.2782592773438,
+        "y0": 949.945556640625,
+        "x1": 749.98388671875,
+        "y1": 980.55615234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 143,
+      "polygon": [
+        [
+          552.0,
+          949.0
+        ],
+        [
+          552.0,
+          979.0
+        ],
+        [
+          748.0,
+          979.0
+        ],
+        [
+          748.0,
+          949.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Terrorsalienz 162",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 25,
+      "query_id": 44,
+      "pp_label": "text",
+      "score": 0.5202135443687439,
+      "bbox": {
+        "x0": 552.5316772460938,
+        "y0": 984.0635375976562,
+        "x1": 725.7391357421875,
+        "y1": 1014.8908081054688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 145,
+      "polygon": [
+        [
+          552.0,
+          984.0
+        ],
+        [
+          552.0,
+          1013.0
+        ],
+        [
+          724.0,
+          1013.0
+        ],
+        [
+          724.0,
+          984.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Testosteron 65",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 26,
+      "query_id": 78,
+      "pp_label": "text",
+      "score": 0.6111542582511902,
+      "bbox": {
+        "x0": 551.7872924804688,
+        "y0": 1018.212158203125,
+        "x1": 898.2180786132812,
+        "y1": 1081.387451171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 149,
+      "polygon": [
+        [
+          559.0,
+          1018.0
+        ],
+        [
+          559.0,
+          1080.0
+        ],
+        [
+          852.0,
+          1080.0
+        ],
+        [
+          861.0,
+          1080.0
+        ],
+        [
+          867.0,
+          1080.0
+        ],
+        [
+          897.0,
+          1071.0
+        ],
+        [
+          897.0,
+          1027.0
+        ],
+        [
+          882.0,
+          1018.0
+        ],
+        [
+          589.0,
+          1018.0
+        ],
+        [
+          581.0,
+          1018.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Theorie der kognitiven Dissonanz\n▶ Kognitive Dissonanz",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 27,
+      "query_id": 33,
+      "pp_label": "text",
+      "score": 0.5618374943733215,
+      "bbox": {
+        "x0": 551.7465209960938,
+        "y0": 1082.947021484375,
+        "x1": 1226.9986572265625,
+        "y1": 1144.7371826171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 153,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Theorie der Selbstkategorisierung 81, Verhaltensabsicht 82\n125\nVerhaltenskontrolle, wa",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        27,
+        52
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 28,
+      "query_id": 21,
+      "pp_label": "text",
+      "score": 0.6213824152946472,
+      "bbox": {
+        "x0": 550.431396484375,
+        "y0": 1118.4443359375,
+        "x1": 1386.9248046875,
+        "y1": 1181.54541015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 155,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "125 Verhaltenskontrolle, wahrgenommene\nTheorie der sozialen Identität (SIT) 120 82",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        28,
+        53
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 29,
+      "query_id": 29,
+      "pp_label": "text",
+      "score": 0.606235682964325,
+      "bbox": {
+        "x0": 550.3048095703125,
+        "y0": 1184.173095703125,
+        "x1": 866.399169921875,
+        "y1": 1214.495849609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 159,
+      "polygon": [
+        [
+          550.0,
+          1184.0
+        ],
+        [
+          550.0,
+          1213.0
+        ],
+        [
+          865.0,
+          1213.0
+        ],
+        [
+          865.0,
+          1184.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Anwendungsbereiche 124",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 30,
+      "query_id": 24,
+      "pp_label": "text",
+      "score": 0.5973308086395264,
+      "bbox": {
+        "x0": 550.6228637695312,
+        "y0": 1217.5745849609375,
+        "x1": 906.4456176757812,
+        "y1": 1248.6566162109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 160,
+      "polygon": [
+        [
+          550.0,
+          1217.0
+        ],
+        [
+          550.0,
+          1247.0
+        ],
+        [
+          905.0,
+          1247.0
+        ],
+        [
+          905.0,
+          1217.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– definitorische Grundlagen 122",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 31,
+      "query_id": 60,
+      "pp_label": "text",
+      "score": 0.6107039451599121,
+      "bbox": {
+        "x0": 551.1980590820312,
+        "y0": 1250.495361328125,
+        "x1": 912.7308959960938,
+        "y1": 1281.130859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 161,
+      "polygon": [
+        [
+          551.0,
+          1250.0
+        ],
+        [
+          551.0,
+          1280.0
+        ],
+        [
+          911.0,
+          1280.0
+        ],
+        [
+          911.0,
+          1250.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Theorie der Verantwortlichkeit 55",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 32,
+      "query_id": 35,
+      "pp_label": "text",
+      "score": 0.6448743343353271,
+      "bbox": {
+        "x0": 552.0498657226562,
+        "y0": 1284.393798828125,
+        "x1": 946.1299438476562,
+        "y1": 1347.114501953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 164,
+      "polygon": [
+        [
+          552.0,
+          1284.0
+        ],
+        [
+          552.0,
+          1346.0
+        ],
+        [
+          945.0,
+          1346.0
+        ],
+        [
+          945.0,
+          1284.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Theorie des geplanten Verhaltens 82, 83",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 33,
+      "query_id": 40,
+      "pp_label": "text",
+      "score": 0.6992942094802856,
+      "bbox": {
+        "x0": 551.7982177734375,
+        "y0": 1351.411865234375,
+        "x1": 911.052490234375,
+        "y1": 1414.652099609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 172,
+      "polygon": [
+        [
+          551.0,
+          1393.0
+        ],
+        [
+          551.0,
+          1413.0
+        ],
+        [
+          910.0,
+          1413.0
+        ],
+        [
+          910.0,
+          1351.0
+        ],
+        [
+          559.0,
+          1351.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Theorie des realistischen Gruppen-\nkonflikts 119",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 34,
+      "query_id": 50,
+      "pp_label": "text",
+      "score": 0.681110680103302,
+      "bbox": {
+        "x0": 551.805908203125,
+        "y0": 1417.3316650390625,
+        "x1": 939.7523193359375,
+        "y1": 1448.8165283203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 174,
+      "polygon": [
+        [
+          551.0,
+          1417.0
+        ],
+        [
+          551.0,
+          1427.0
+        ],
+        [
+          559.0,
+          1447.0
+        ],
+        [
+          938.0,
+          1447.0
+        ],
+        [
+          938.0,
+          1417.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Theorie des sozialen Austausches 55",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 35,
+      "query_id": 26,
+      "pp_label": "text",
+      "score": 0.6623074412345886,
+      "bbox": {
+        "x0": 552.7181396484375,
+        "y0": 1450.065673828125,
+        "x1": 838.66650390625,
+        "y1": 1481.593017578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 176,
+      "polygon": [
+        [
+          552.0,
+          1450.0
+        ],
+        [
+          552.0,
+          1480.0
+        ],
+        [
+          837.0,
+          1480.0
+        ],
+        [
+          837.0,
+          1450.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Theory of Mind (TOM) 201",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 36,
+      "query_id": 22,
+      "pp_label": "text",
+      "score": 0.590947151184082,
+      "bbox": {
+        "x0": 552.6592407226562,
+        "y0": 1483.1156005859375,
+        "x1": 739.6751098632812,
+        "y1": 1514.1104736328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 177,
+      "polygon": [
+        [
+          552.0,
+          1483.0
+        ],
+        [
+          552.0,
+          1513.0
+        ],
+        [
+          738.0,
+          1513.0
+        ],
+        [
+          738.0,
+          1483.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Think Twice 148",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 37,
+      "query_id": 14,
+      "pp_label": "paragraph_title",
+      "score": 0.689601719379425,
+      "bbox": {
+        "x0": 592.4155883789062,
+        "y0": 1751.4027099609375,
+        "x1": 628.3323974609375,
+        "y1": 1795.9093017578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 196,
+      "polygon": [
+        [
+          592.0,
+          1751.0
+        ],
+        [
+          592.0,
+          1794.0
+        ],
+        [
+          627.0,
+          1794.0
+        ],
+        [
+          627.0,
+          1751.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "u",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 38,
+      "query_id": 81,
+      "pp_label": "text",
+      "score": 0.5153527855873108,
+      "bbox": {
+        "x0": 989.9752807617188,
+        "y0": 418.5470886230469,
+        "x1": 1209.14892578125,
+        "y1": 450.5574035644531,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 225,
+      "polygon": [
+        [
+          989.0,
+          418.0
+        ],
+        [
+          989.0,
+          449.0
+        ],
+        [
+          1208.0,
+          449.0
+        ],
+        [
+          1208.0,
+          418.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- motivationale 41",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 39,
+      "query_id": 16,
+      "pp_label": "paragraph_title",
+      "score": 0.6044967174530029,
+      "bbox": {
+        "x0": 1029.76318359375,
+        "y0": 551.2705078125,
+        "x1": 1066.6339111328125,
+        "y1": 595.65869140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 230,
+      "polygon": [
+        [
+          1029.0,
+          551.0
+        ],
+        [
+          1029.0,
+          594.0
+        ],
+        [
+          1065.0,
+          594.0
+        ],
+        [
+          1065.0,
+          551.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "V",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 40,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.6014932990074158,
+      "bbox": {
+        "x0": 990.3540649414062,
+        "y0": 751.3781127929688,
+        "x1": 1147.80224609375,
+        "y1": 781.4634399414062,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 241,
+      "polygon": [
+        [
+          990.0,
+          751.0
+        ],
+        [
+          990.0,
+          780.0
+        ],
+        [
+          1146.0,
+          780.0
+        ],
+        [
+          1146.0,
+          751.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- externe 12",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 41,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.6047500371932983,
+      "bbox": {
+        "x0": 990.2513427734375,
+        "y0": 784.1638793945312,
+        "x1": 1141.68798828125,
+        "y1": 814.7372436523438,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 242,
+      "polygon": [
+        [
+          990.0,
+          784.0
+        ],
+        [
+          990.0,
+          813.0
+        ],
+        [
+          1140.0,
+          813.0
+        ],
+        [
+          1140.0,
+          784.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- interne 11",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 42,
+      "query_id": 41,
+      "pp_label": "text",
+      "score": 0.5172393918037415,
+      "bbox": {
+        "x0": 991.5701293945312,
+        "y0": 816.83447265625,
+        "x1": 1083.96533203125,
+        "y1": 848.320556640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 243,
+      "polygon": [
+        [
+          991.0,
+          816.0
+        ],
+        [
+          991.0,
+          847.0
+        ],
+        [
+          1082.0,
+          847.0
+        ],
+        [
+          1082.0,
+          816.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Variable",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 43,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.6267766356468201,
+      "bbox": {
+        "x0": 990.2722778320312,
+        "y0": 850.0909423828125,
+        "x1": 1177.521484375,
+        "y1": 882.4014892578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 244,
+      "polygon": [
+        [
+          990.0,
+          850.0
+        ],
+        [
+          990.0,
+          881.0
+        ],
+        [
+          1176.0,
+          881.0
+        ],
+        [
+          1176.0,
+          850.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– abhängige 11",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 44,
+      "query_id": 28,
+      "pp_label": "text",
+      "score": 0.6020878553390503,
+      "bbox": {
+        "x0": 991.3580322265625,
+        "y0": 916.7088623046875,
+        "x1": 1316.02099609375,
+        "y1": 948.227294921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 246,
+      "polygon": [
+        [
+          991.0,
+          916.0
+        ],
+        [
+          991.0,
+          947.0
+        ],
+        [
+          1315.0,
+          947.0
+        ],
+        [
+          1315.0,
+          916.0
+        ],
+        [
+          1226.0,
+          916.0
+        ],
+        [
+          1210.0,
+          916.0
+        ],
+        [
+          1158.0,
+          916.0
+        ],
+        [
+          1028.0,
+          916.0
+        ],
+        [
+          1022.0,
+          916.0
+        ],
+        [
+          1013.0,
+          916.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Verantwortungsattribution 55",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 45,
+      "query_id": 15,
+      "pp_label": "text",
+      "score": 0.5801608562469482,
+      "bbox": {
+        "x0": 990.7131958007812,
+        "y0": 884.0846557617188,
+        "x1": 1203.605224609375,
+        "y1": 916.1743774414062,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 249,
+      "polygon": [
+        [
+          990.0,
+          884.0
+        ],
+        [
+          990.0,
+          915.0
+        ],
+        [
+          1202.0,
+          915.0
+        ],
+        [
+          1202.0,
+          884.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– unabhängige 11",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 46,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.6441984176635742,
+      "bbox": {
+        "x0": 991.3267822265625,
+        "y0": 982.7239379882812,
+        "x1": 1289.78125,
+        "y1": 1015.1705932617188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 251,
+      "polygon": [
+        [
+          991.0,
+          982.0
+        ],
+        [
+          991.0,
+          1014.0
+        ],
+        [
+          1288.0,
+          1014.0
+        ],
+        [
+          1288.0,
+          982.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Verarbeitungskonflikte 108",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 47,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.6106237769126892,
+      "bbox": {
+        "x0": 991.3533325195312,
+        "y0": 950.3338623046875,
+        "x1": 1298.2459716796875,
+        "y1": 981.2142333984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 252,
+      "polygon": [
+        [
+          991.0,
+          950.0
+        ],
+        [
+          991.0,
+          980.0
+        ],
+        [
+          1297.0,
+          980.0
+        ],
+        [
+          1297.0,
+          950.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Verantwortungsdiffusion 50",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 48,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.620422899723053,
+      "bbox": {
+        "x0": 990.9097290039062,
+        "y0": 1017.4822387695312,
+        "x1": 1316.6298828125,
+        "y1": 1048.502197265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 253,
+      "polygon": [
+        [
+          990.0,
+          1017.0
+        ],
+        [
+          990.0,
+          1047.0
+        ],
+        [
+          1315.0,
+          1047.0
+        ],
+        [
+          1315.0,
+          1017.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Verfügbarkeitsheuristik 34, 35",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 49,
+      "query_id": 27,
+      "pp_label": "text",
+      "score": 0.6011044383049011,
+      "bbox": {
+        "x0": 990.7619018554688,
+        "y0": 1049.054443359375,
+        "x1": 1240.5853271484375,
+        "y1": 1081.85205078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 256,
+      "polygon": [
+        [
+          990.0,
+          1049.0
+        ],
+        [
+          990.0,
+          1072.0
+        ],
+        [
+          998.0,
+          1080.0
+        ],
+        [
+          1239.0,
+          1080.0
+        ],
+        [
+          1239.0,
+          1049.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Vergleich, sozialer 122",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 50,
+      "query_id": 25,
+      "pp_label": "text",
+      "score": 0.5626012086868286,
+      "bbox": {
+        "x0": 990.9374389648438,
+        "y0": 1182.9110107421875,
+        "x1": 1146.4053955078125,
+        "y1": 1214.1285400390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 263,
+      "polygon": [
+        [
+          990.0,
+          1182.0
+        ],
+        [
+          990.0,
+          1213.0
+        ],
+        [
+          1145.0,
+          1213.0
+        ],
+        [
+          1145.0,
+          1182.0
+        ],
+        [
+          1109.0,
+          1182.0
+        ],
+        [
+          1093.0,
+          1182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Verifizieren 6",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 51,
+      "query_id": 39,
+      "pp_label": "text",
+      "score": 0.5745207667350769,
+      "bbox": {
+        "x0": 989.9234008789062,
+        "y0": 1249.9796142578125,
+        "x1": 1334.06494140625,
+        "y1": 1281.1195068359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 265,
+      "polygon": [
+        [
+          989.0,
+          1249.0
+        ],
+        [
+          989.0,
+          1280.0
+        ],
+        [
+          1333.0,
+          1280.0
+        ],
+        [
+          1333.0,
+          1249.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Verteidigungsmotivation 41, 92",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 52,
+      "query_id": 20,
+      "pp_label": "text",
+      "score": 0.54705411195755,
+      "bbox": {
+        "x0": 990.8353271484375,
+        "y0": 1217.573974609375,
+        "x1": 1205.8662109375,
+        "y1": 1247.7958984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 267,
+      "polygon": [
+        [
+          990.0,
+          1217.0
+        ],
+        [
+          990.0,
+          1246.0
+        ],
+        [
+          1204.0,
+          1246.0
+        ],
+        [
+          1204.0,
+          1217.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Verlust-Framing 40",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 53,
+      "query_id": 51,
+      "pp_label": "text",
+      "score": 0.5445929169654846,
+      "bbox": {
+        "x0": 990.161376953125,
+        "y0": 1283.5887451171875,
+        "x1": 1256.456787109375,
+        "y1": 1314.1246337890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 268,
+      "polygon": [
+        [
+          990.0,
+          1283.0
+        ],
+        [
+          990.0,
+          1313.0
+        ],
+        [
+          1255.0,
+          1313.0
+        ],
+        [
+          1255.0,
+          1283.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Verwässerungseffekt 39",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 54,
+      "query_id": 42,
+      "pp_label": "text",
+      "score": 0.5268983840942383,
+      "bbox": {
+        "x0": 989.6200561523438,
+        "y0": 1350.85009765625,
+        "x1": 1377.0989990234375,
+        "y1": 1382.762939453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 271,
+      "polygon": [
+        [
+          989.0,
+          1350.0
+        ],
+        [
+          989.0,
+          1381.0
+        ],
+        [
+          1376.0,
+          1381.0
+        ],
+        [
+          1376.0,
+          1350.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– gesellschaftliche Entwicklung 101",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 55,
+      "query_id": 103,
+      "pp_label": "text",
+      "score": 0.5043184757232666,
+      "bbox": {
+        "x0": 989.5986938476562,
+        "y0": 1650.7255859375,
+        "x1": 1321.2728271484375,
+        "y1": 1684.39453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 288,
+      "polygon": [
+        [
+          989.0,
+          1650.0
+        ],
+        [
+          989.0,
+          1683.0
+        ],
+        [
+          1320.0,
+          1683.0
+        ],
+        [
+          1320.0,
+          1650.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– verdeckte Beobachtung 103",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 56,
+      "query_id": 5,
+      "pp_label": "paragraph_title",
+      "score": 0.7478523254394531,
+      "bbox": {
+        "x0": 1030.256591796875,
+        "y0": 1782.786376953125,
+        "x1": 1077.148681640625,
+        "y1": 1828.861572265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 292,
+      "polygon": [
+        [
+          1030.0,
+          1782.0
+        ],
+        [
+          1030.0,
+          1827.0
+        ],
+        [
+          1076.0,
+          1827.0
+        ],
+        [
+          1076.0,
+          1782.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "W",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 3456.489013671875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2904.204833984375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 626.647705078125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 766.2261962890625
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 0.0,
+      "marge": -805.4527587890625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 742.2793579101562
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 517.6650390625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1160.25830078125
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1240.302734375
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 0.9116749167442322,
+      "marge": 2.334259510040283
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1522.4796142578125
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1878.82666015625
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 304.5270080566406
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 550.296630859375
+    },
+    {
+      "von": 14,
+      "nach": 15,
+      "konfidenz": 1.0,
+      "marge": 922.83349609375
+    },
+    {
+      "von": 15,
+      "nach": 16,
+      "konfidenz": 1.0,
+      "marge": 2069.945556640625
+    },
+    {
+      "von": 16,
+      "nach": 17,
+      "konfidenz": 1.0,
+      "marge": 2504.038818359375
+    },
+    {
+      "von": 17,
+      "nach": 18,
+      "konfidenz": 1.0,
+      "marge": 1437.3226318359375
+    },
+    {
+      "von": 18,
+      "nach": 19,
+      "konfidenz": 1.0,
+      "marge": 752.9671630859375
+    },
+    {
+      "von": 19,
+      "nach": 20,
+      "konfidenz": 1.0,
+      "marge": 1169.1231689453125
+    },
+    {
+      "von": 20,
+      "nach": 21,
+      "konfidenz": 1.0,
+      "marge": 482.6802673339844
+    },
+    {
+      "von": 21,
+      "nach": 22,
+      "konfidenz": 1.0,
+      "marge": 1187.7803955078125
+    },
+    {
+      "von": 22,
+      "nach": 23,
+      "konfidenz": 0.0,
+      "marge": -284.7521057128906
+    },
+    {
+      "von": 23,
+      "nach": 24,
+      "konfidenz": 1.0,
+      "marge": 438.9212951660156
+    },
+    {
+      "von": 24,
+      "nach": 25,
+      "konfidenz": 1.0,
+      "marge": 457.19085693359375
+    },
+    {
+      "von": 25,
+      "nach": 26,
+      "konfidenz": 1.0,
+      "marge": 1038.5628662109375
+    },
+    {
+      "von": 26,
+      "nach": 27,
+      "konfidenz": 1.0,
+      "marge": 809.5126953125
+    },
+    {
+      "von": 27,
+      "nach": 28,
+      "konfidenz": 1.0,
+      "marge": 505.1566467285156
+    },
+    {
+      "von": 28,
+      "nach": 29,
+      "konfidenz": 1.0,
+      "marge": 629.4083251953125
+    },
+    {
+      "von": 29,
+      "nach": 30,
+      "konfidenz": 1.0,
+      "marge": 550.0928344726562
+    },
+    {
+      "von": 30,
+      "nach": 31,
+      "konfidenz": 1.0,
+      "marge": 912.894775390625
+    },
+    {
+      "von": 31,
+      "nach": 32,
+      "konfidenz": 1.0,
+      "marge": 260.5906677246094
+    },
+    {
+      "von": 32,
+      "nach": 33,
+      "konfidenz": 1.0,
+      "marge": 1408.02685546875
+    },
+    {
+      "von": 33,
+      "nach": 34,
+      "konfidenz": 1.0,
+      "marge": 1832.409912109375
+    },
+    {
+      "von": 34,
+      "nach": 35,
+      "konfidenz": 0.0,
+      "marge": -166.68333435058594
+    },
+    {
+      "von": 35,
+      "nach": 36,
+      "konfidenz": 0.0,
+      "marge": -263.3219299316406
+    },
+    {
+      "von": 36,
+      "nach": 15,
+      "konfidenz": 0.0,
+      "marge": -267.27001953125
+    },
+    {
+      "von": 15,
+      "nach": 37,
+      "konfidenz": 1.0,
+      "marge": 950.8072509765625
+    },
+    {
+      "von": 37,
+      "nach": 38,
+      "konfidenz": 1.0,
+      "marge": 629.8103637695312
+    },
+    {
+      "von": 38,
+      "nach": 39,
+      "konfidenz": 1.0,
+      "marge": 1154.0147705078125
+    },
+    {
+      "von": 39,
+      "nach": 40,
+      "konfidenz": 1.0,
+      "marge": 2664.041015625
+    },
+    {
+      "von": 40,
+      "nach": 41,
+      "konfidenz": 0.0,
+      "marge": -276.1507873535156
+    },
+    {
+      "von": 41,
+      "nach": 42,
+      "konfidenz": 1.0,
+      "marge": 113.42161560058594
+    },
+    {
+      "von": 42,
+      "nach": 43,
+      "konfidenz": 1.0,
+      "marge": 720.5056762695312
+    },
+    {
+      "von": 43,
+      "nach": 44,
+      "konfidenz": 1.0,
+      "marge": 293.1470947265625
+    },
+    {
+      "von": 44,
+      "nach": 45,
+      "konfidenz": 1.0,
+      "marge": 323.5777282714844
+    },
+    {
+      "von": 45,
+      "nach": 46,
+      "konfidenz": 1.0,
+      "marge": 1602.4842529296875
+    },
+    {
+      "von": 46,
+      "nach": 47,
+      "konfidenz": 1.0,
+      "marge": 225.80062866210938
+    },
+    {
+      "von": 47,
+      "nach": 48,
+      "konfidenz": 5.981620280312271e-17,
+      "marge": -37.355255126953125
+    },
+    {
+      "von": 48,
+      "nach": 49,
+      "konfidenz": 0.0,
+      "marge": -271.2898254394531
+    },
+    {
+      "von": 49,
+      "nach": 27,
+      "konfidenz": 0.0,
+      "marge": -632.490966796875
+    },
+    {
+      "von": 28,
+      "nach": 50,
+      "konfidenz": 1.0,
+      "marge": 239.0028076171875
+    },
+    {
+      "von": 50,
+      "nach": 51,
+      "konfidenz": 1.0,
+      "marge": 161.09205627441406
+    },
+    {
+      "von": 51,
+      "nach": 52,
+      "konfidenz": 1.0,
+      "marge": 136.56578063964844
+    },
+    {
+      "von": 52,
+      "nach": 53,
+      "konfidenz": 1.0,
+      "marge": 335.93463134765625
+    },
+    {
+      "von": 53,
+      "nach": 54,
+      "konfidenz": 1.0,
+      "marge": 1030.3953857421875
+    },
+    {
+      "von": 54,
+      "nach": 55,
+      "konfidenz": 1.0,
+      "marge": 1724.8419189453125
+    },
+    {
+      "von": 55,
+      "nach": 56,
+      "konfidenz": 1.0,
+      "marge": 810.05322265625
+    }
+  ],
+  "warnungen": [
+    "Blöcke [15, 37, 38] zu #15 (text) zusammengeführt.",
+    "Blöcke [27, 52] zu #27 (text) zusammengeführt.",
+    "Blöcke [28, 53] zu #28 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3783168339978147,
+      "zeitstempel": "2026-09-06T14:32:17.654298Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 14.619205958002567,
+      "zeitstempel": "2026-09-06T15:17:44.421245Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

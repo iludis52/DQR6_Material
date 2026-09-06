@@ -1,0 +1,460 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 163,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.6481411457061768,
+      "bbox": {
+        "x0": 116.63618469238281,
+        "y0": 78.38104248046875,
+        "x1": 1206.4268798828125,
+        "y1": 107.31414794921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "160 Kapitel 10 · Sozialpsychologie der menschlichen Existenz: Positive Psychologie und Psychologie der Religion",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 14,
+      "pp_label": "number",
+      "score": 0.5783545970916748,
+      "bbox": {
+        "x0": 14.213701248168945,
+        "y0": 903.52880859375,
+        "x1": 64.3985595703125,
+        "y1": 942.932861328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 62,
+      "polygon": [
+        [
+          14.0,
+          903.0
+        ],
+        [
+          14.0,
+          941.0
+        ],
+        [
+          63.0,
+          941.0
+        ],
+        [
+          63.0,
+          903.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.965157151222229,
+      "bbox": {
+        "x0": 503.0927429199219,
+        "y0": 183.53237915039062,
+        "x1": 1406.9305419921875,
+        "y1": 546.9334716796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 93,
+      "polygon": [
+        [
+          503.0,
+          183.0
+        ],
+        [
+          503.0,
+          545.0
+        ],
+        [
+          1405.0,
+          545.0
+        ],
+        [
+          1405.0,
+          183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "dem Kosovo eine positive Verbindung zwischen Religion, Optimismus und einem effektiven Coping-Verhalten. Im Hinblick auf Terrorismus zeigte sich bei einer Befragung 3 Monate nach dem Anschlag auf das World Trade Center ein positiver Zusammenhang zwischen Religiosität und dem Zurückgreifen auf Gebete als einer Coping-Strategie: Je höher das Ausmaß der erlebten negativen Emotionen als Folge des Anschlags war, desto häufiger beteten die befragten Studenten, was wiederum mit weniger persönlichem Distress (also emotionalem Leid, negativen Gefühlen) verbunden war (Ai, Tice, Peterson & Huang, 2005). Des Weiteren konnte in einer Längs-schnittstudie gezeigt werden, dass Religiosität mit zukünftigem subjektivem Wohlbefinden (gemessen nach 1 Jahr) einhergeht (McIntosh, Poulin, Silver, Holman, & Gil-Rivas, 2003).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9449967741966248,
+      "bbox": {
+        "x0": 503.8702392578125,
+        "y0": 550.2396240234375,
+        "x1": 1406.8935546875,
+        "y1": 716.2808837890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 113,
+      "polygon": [
+        [
+          503.0,
+          550.0
+        ],
+        [
+          503.0,
+          715.0
+        ],
+        [
+          1405.0,
+          715.0
+        ],
+        [
+          1405.0,
+          550.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Gif-Rivas, 2005).\nAber wie sehen nun die Ergebnisse bei experimentellen Studien im Labor aus? Was besagen europäische Daten? Untenstehend ist ein Beispiel für ein typisches Vorgehen, das zudem auch Aufschluss darüber geben soll, wie intrinsische Religiosität, Stimmung und Coping miteinander zusammenhängen (▶ Studie: Der Einfluss von Terrorismusgefahr auf Stimmung und Selbstwirksamkeitserwartung).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.7237758636474609,
+      "bbox": {
+        "x0": 153.94326782226562,
+        "y0": 747.8946533203125,
+        "x1": 225.68490600585938,
+        "y1": 773.3929443359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 129,
+      "polygon": [
+        [
+          153.0,
+          747.0
+        ],
+        [
+          153.0,
+          772.0
+        ],
+        [
+          224.0,
+          772.0
+        ],
+        [
+          224.0,
+          747.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9235354661941528,
+      "bbox": {
+        "x0": 151.4767303466797,
+        "y0": 848.1541748046875,
+        "x1": 1381.785888671875,
+        "y1": 1317.0767822265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 172,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "In der Studie von Fischer, Greitemeyer, Kastenmüller, Jonas und Frey (2006) bekamen die Versuchspersonen zunächst einen Text zu lesen, in dem der Geheimdienst die Gefahr von Terroranschlägen in Deutschland entweder als hoch oder als niedrig einschätzte. Nach dieser Manipulation füllten die Teilnehmer die Skala zur intrinsischen und extrinsischen Religiosität von Allport und Ross (1967) aus. Die Einteilung in hohe versus niedrige bzw. keine intrinsische Religiosität erfolgte anhand eines Mediansplits (es wird der Wert ermittelt, der die Stichprobe in zwei Gruppen teilt, sodass 50% der Probanden einen kleineren Wert aufweisen und die anderen 50% oberhalb dieser Grenze liegen). Mit der 8-Item-Affekt-Skala von Brunstein (1993) wurde anschließend die Stimmungslage der Teilnehmer erfasst; hier- bei gaben sie ihre aktuellen positiven und negativen Gefühle (z. B. glücklich, zufrieden vs. frustriert, ängstlich) an. Gemäß den Hypothesen zeigten die Ergebnisse, dass eine erhöhte Terrorismusgefahr (im Vergleich zu keiner Gefahr) bei den nicht religiösen Probanden verstärkt zu negativen Emotionen führt. Dies war bei intrinsisch-religiösen Menschen nicht der Fall; hinsichtlich der Stimmung machte es hier keinen Unterschied, ob Terrorgefahr vorlag oder nicht. Der direkte Vergleich beider Gruppen unter der Bedingung hoher Terrorgefahr ergab signifikante Unterschiede, was die Stimmungslage betraf: Gegenüber den nicht religiösen Probanden war die Anzahl der positiven Emotionen bei den religiösen deutlich höher, negative Emotionen kamen dagegen seltener vor.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        6,
+        7
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9098187685012817,
+      "bbox": {
+        "x0": 128.51318359375,
+        "y0": 1386.0054931640625,
+        "x1": 455.8813781738281,
+        "y1": 1554.7479248046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 239,
+      "polygon": [
+        [
+          128.0,
+          1386.0
+        ],
+        [
+          128.0,
+          1553.0
+        ],
+        [
+          454.0,
+          1553.0
+        ],
+        [
+          454.0,
+          1386.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Im Kontext von Terrorismusgefahr zeigt sich, dass intrinsische Religiosität sowohl mit mehr positiven Emotionen als auch einer höheren Selbstwirksamkeitserwartung einhergeht.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.7664516568183899,
+      "bbox": {
+        "x0": 127.86012268066406,
+        "y0": 1819.0654296875,
+        "x1": 457.5951843261719,
+        "y1": 1931.301025390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 256,
+      "polygon": [
+        [
+          127.0,
+          1819.0
+        ],
+        [
+          127.0,
+          1930.0
+        ],
+        [
+          380.0,
+          1930.0
+        ],
+        [
+          442.0,
+          1930.0
+        ],
+        [
+          456.0,
+          1930.0
+        ],
+        [
+          456.0,
+          1819.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der Einfluss von Terrorismusgefahr auf die Stimmungslage wird über die eigene Selbstwirksamkeitserwartung vermittelt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9679286479949951,
+      "bbox": {
+        "x0": 503.3842468261719,
+        "y0": 1381.983642578125,
+        "x1": 1406.727294921875,
+        "y1": 1847.791259765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 261,
+      "polygon": [
+        [
+          503.0,
+          1381.0
+        ],
+        [
+          503.0,
+          1846.0
+        ],
+        [
+          1405.0,
+          1846.0
+        ],
+        [
+          1405.0,
+          1381.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Zusammengefasst kann gesagt werden, dass intrinsische Religiosität mit positiven Emotionen bzw. emotionaler Stabilität in Verbindung steht. Dadurch kommt es zu einem besseren Coping-Verhalten, da positive Emotionen negative Gefühle verdrängen, Arousal reduzieren und gedankliche Prozesse beeinflussen können (Fredrickson et al., 2003). Doch angemessenes Coping-Verhalten ist nicht nur über positive Emotionen vermittelt, sondern steht auch in Verbindung mit einer höheren Selbstwirksamkeits-erwartung (Fischer et al., 2006). Darunter versteht man die subjektive Überzeugung, aufgrund der eigenen Fähigkeiten eine bestimmte Aufgabe erfolgreich bewältigen zukönnen (Bandura, 1997; Schwarzer & Jerusalem, 1995). Man geht also davon aus, dass intrinsische Religiosität mit einem Gefühl stärkerer Kontrolle über äußere Einflüsse bzw. Belastungen verbunden ist (Ellison, 1991). Für das Coping-Verhalten bedeutet dies, dass leichter Bewältigungsstrategien entwickelt werden können und vor allem auch die Überzeugung besteht, durch eigenes aktives Handeln etwas gegen die »Misere« ausrichten zu können.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.931191623210907,
+      "bbox": {
+        "x0": 504.5097961425781,
+        "y0": 1849.0897216796875,
+        "x1": 1407.1058349609375,
+        "y1": 1949.4571533203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 293,
+      "polygon": [
+        [
+          504.0,
+          1849.0
+        ],
+        [
+          504.0,
+          1948.0
+        ],
+        [
+          1406.0,
+          1948.0
+        ],
+        [
+          1406.0,
+          1849.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Fischer et al. (2006) konnten in ihrer zweiten Studie zeigen, dass der Einfluss von Terrorismusgefahr auf die Stimmungslage über Selbstwirksamkeitserwartung vermittelt zu sein scheint. Hohe Terrorgefahr wirkte sich nur bei nicht religiösen Probanden",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1262.352294921875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1713.488525390625
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1633.3939208984375
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 2058.713623046875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1822.20751953125
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 2708.6767578125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 2519.61865234375
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 98.54783630371094
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1638.7489013671875
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt.",
+    "Blöcke [6, 7] zu #5 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.37858754099943326,
+      "zeitstempel": "2026-09-06T14:31:55.594515Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 14.427246458999434,
+      "zeitstempel": "2026-09-06T15:05:55.735792Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

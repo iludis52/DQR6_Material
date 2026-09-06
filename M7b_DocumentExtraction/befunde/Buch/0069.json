@@ -1,0 +1,644 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 69,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 6,
+      "pp_label": "number",
+      "score": 0.6650615334510803,
+      "bbox": {
+        "x0": 115.73832702636719,
+        "y0": 80.29388427734375,
+        "x1": 144.6444549560547,
+        "y1": 103.57012939453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 2,
+      "polygon": [
+        [
+          115.0,
+          80.0
+        ],
+        [
+          115.0,
+          102.0
+        ],
+        [
+          143.0,
+          102.0
+        ],
+        [
+          143.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "62",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 3,
+      "pp_label": "header",
+      "score": 0.8295033574104309,
+      "bbox": {
+        "x0": 192.6111602783203,
+        "y0": 79.17987060546875,
+        "x1": 406.5083923339844,
+        "y1": 106.46026611328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 8,
+      "polygon": [
+        [
+          192.0,
+          79.0
+        ],
+        [
+          192.0,
+          105.0
+        ],
+        [
+          405.0,
+          105.0
+        ],
+        [
+          405.0,
+          79.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 5 · Aggression",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.5855019688606262,
+      "bbox": {
+        "x0": 128.13600158691406,
+        "y0": 253.0460205078125,
+        "x1": 459.4369812011719,
+        "y1": 310.0679931640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 78,
+      "polygon": [
+        [
+          128.0,
+          253.0
+        ],
+        [
+          128.0,
+          309.0
+        ],
+        [
+          458.0,
+          309.0
+        ],
+        [
+          458.0,
+          253.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Definition von Aggression hat sich über die Jahre hinweg verändert.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.8872432112693787,
+      "bbox": {
+        "x0": 128.13348388671875,
+        "y0": 719.6906127929688,
+        "x1": 459.1477355957031,
+        "y1": 972.9636840820312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 104,
+      "polygon": [
+        [
+          128.0,
+          719.0
+        ],
+        [
+          128.0,
+          971.0
+        ],
+        [
+          458.0,
+          971.0
+        ],
+        [
+          458.0,
+          719.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Ein zentraler Bestandteil moderner Aggressionsdefinitionen beinhaltet die Willensabsicht, jemand anderem Schaden zuzufügen. Schädigendes Verhalten, das nicht intentional ist, kann somit nicht als Aggression bezeichnet werden (s. auch den Unterschied in der Rechtsprechung hinsichtlich Totschlag vs. Mord).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 11,
+      "pp_label": "paragraph_title",
+      "score": 0.5097679495811462,
+      "bbox": {
+        "x0": 129.02972412109375,
+        "y0": 1119.71337890625,
+        "x1": 382.8973693847656,
+        "y1": 1145.459228515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 111,
+      "polygon": [
+        [
+          129.0,
+          1119.0
+        ],
+        [
+          129.0,
+          1144.0
+        ],
+        [
+          381.0,
+          1144.0
+        ],
+        [
+          381.0,
+          1119.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Instrumentelle Aggression",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.809274435043335,
+      "bbox": {
+        "x0": 128.62283325195312,
+        "y0": 1133.720703125,
+        "x1": 459.1180725097656,
+        "y1": 1313.677001953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 125,
+      "polygon": [
+        [
+          128.0,
+          1133.0
+        ],
+        [
+          128.0,
+          1312.0
+        ],
+        [
+          458.0,
+          1312.0
+        ],
+        [
+          458.0,
+          1133.0
+        ],
+        [
+          329.0,
+          1133.0
+        ],
+        [
+          320.0,
+          1133.0
+        ],
+        [
+          313.0,
+          1133.0
+        ],
+        [
+          289.0,
+          1133.0
+        ],
+        [
+          282.0,
+          1133.0
+        ],
+        [
+          258.0,
+          1133.0
+        ],
+        [
+          152.0,
+          1133.0
+        ],
+        [
+          135.0,
+          1133.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Instrumentelle Aggression\ndient der Erreichung eines bestimm-\nten Ziels (z. B. Krieg). Feindselige Aggression ist dagegen nicht ziel-\ngerichtet und dient nur dem Zufügen von Schaden und/oder Schmerz (z. B. Rache).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.8423993587493896,
+      "bbox": {
+        "x0": 128.71575927734375,
+        "y0": 1552.450927734375,
+        "x1": 459.22503662109375,
+        "y1": 1916.747314453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 149,
+      "polygon": [
+        [
+          128.0,
+          1552.0
+        ],
+        [
+          128.0,
+          1915.0
+        ],
+        [
+          458.0,
+          1915.0
+        ],
+        [
+          458.0,
+          1552.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Von physischer Aggression spricht man, wenn der aggressive Akt körperlichen Schaden zufügt (z. B. gebrochene Nase), während verbale Aggression sich lediglich auf nicht physische Schädigungen bezieht (z. B. Rufmord). Von direkter Aggression spricht man, wenn sich das schädigende Verhalten des Täters direkt auf eine Zielperson richtet, während bei indirekter Aggression der Täter versucht, sein Schädigungsverhalten zu verschleiern.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 5,
+      "pp_label": "paragraph_title",
+      "score": 0.812555193901062,
+      "bbox": {
+        "x0": 507.13006591796875,
+        "y0": 174.63217163085938,
+        "x1": 732.4004516601562,
+        "y1": 208.49490356445312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 200,
+      "polygon": [
+        [
+          507.0,
+          174.0
+        ],
+        [
+          507.0,
+          207.0
+        ],
+        [
+          731.0,
+          207.0
+        ],
+        [
+          731.0,
+          174.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5.1.1 Definition",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9705632925033569,
+      "bbox": {
+        "x0": 503.83319091796875,
+        "y0": 249.09814453125,
+        "x1": 1406.0537109375,
+        "y1": 715.5084228515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 210,
+      "polygon": [
+        [
+          503.0,
+          260.0
+        ],
+        [
+          503.0,
+          714.0
+        ],
+        [
+          1405.0,
+          714.0
+        ],
+        [
+          1405.0,
+          249.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die wissenschaftliche Definition von Aggression hat sich über die Jahre verändert. Bandura (1973, S. 5) definiert Aggression als Verhalten, das in »persönlichen Verletzungen oder der Zerstörung von Eigentum« resultiert, während Scherer, Abeles und Fischer (1975) Aggression als Verhalten bezeichnen, dessen Ziel es ist, Mitgliedern der eigenen Spezies Schaden zuzufügen (ebd., S. 2). Baron (1977) bietet eine Definition an, die ebenfalls die Absicht des Schadenzufügens enthält: Er betrachtet Aggression als ein »Verhalten, das dem Ziel dient, ein anderes Lebewesen zu schädigen, welches zugleich motiviert ist, dieses Ziel zu vermeiden« (ebd., S. 7). Entscheidend an dieser dritten Definition ist die Rolle des Opfers; denn man spricht nur dann von Aggression, wenn das potenzielle Opfer bestrebt ist, dem drohenden Schaden zu entkommen; etwa wenn ein Kind versucht, vor seinen Mitschülern zu fliehen, von denen es körperlich angegriffen wird. Dagegen handelt es sich nicht um aggressives Verhalten, wenn ein Kampfsportler im Training seinen Partner darum bittet, auf ihn einzuschlagen, um so bestimmte Verteidigungsstrategien üben zu können.\nDie n Relative Definition stammten Rerund Burra (2002) und",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.960045576095581,
+      "bbox": {
+        "x0": 502.8963623046875,
+        "y0": 716.880615234375,
+        "x1": 1407.0228271484375,
+        "y1": 983.325439453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 228,
+      "polygon": [
+        [
+          502.0,
+          716.0
+        ],
+        [
+          502.0,
+          982.0
+        ],
+        [
+          1406.0,
+          982.0
+        ],
+        [
+          1406.0,
+          716.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die neueste und allgemeinste Definition stammt von Baron und Byrne (2002) und betrachtet Aggression als das »absichtliche Zufügen von Schaden gegenüber anderen« (ebd., S. 435). Wichtig ist hierbei das willentliche Handeln des Täters. Zur Abgrenzung sei Folgendes gesagt: Wird man am Bahnhof von einem Passanten angerempelt, der rennend versucht, seinen Zug zu erreichen, so fällt dies nicht unter den Begriff Aggression. Zwar kann man selbst dadurch zu Schaden kommen (beispielsweise wenn das eigene Gepäck dabei zu Bruch geht oder man stürzt), doch dies wäre nicht das eigentliche Ziel des Täters gewesen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.8373472094535828,
+      "bbox": {
+        "x0": 506.5451354980469,
+        "y0": 1042.0107421875,
+        "x1": 889.4923095703125,
+        "y1": 1076.357421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 236,
+      "polygon": [
+        [
+          506.0,
+          1042.0
+        ],
+        [
+          506.0,
+          1075.0
+        ],
+        [
+          888.0,
+          1075.0
+        ],
+        [
+          888.0,
+          1042.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5.1.2 Arten von Aggression",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9674855470657349,
+      "bbox": {
+        "x0": 503.7509765625,
+        "y0": 1116.59130859375,
+        "x1": 1405.8189697265625,
+        "y1": 1615.501708984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 256,
+      "polygon": [
+        [
+          503.0,
+          1116.0
+        ],
+        [
+          511.0,
+          1614.0
+        ],
+        [
+          1404.0,
+          1614.0
+        ],
+        [
+          1404.0,
+          1116.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Im Rahmen der grundlegenden Definition von Aggression unterscheidet man zwischen instrumenteller und feindseliger Aggression (Anderson & Bushman, 2002b). Von instrumenteller Aggression ist die Rede, wenn durch die aggressive Tat ein bestimmtes Ziel erreicht werden soll. Beispielsweise fallen Kriege unter »instrumentelle Aggression«, da sie meist auf den Gewinn von Land oder andere Ressourcen abzielen. Ebenso würde man es als instrumentelle Aggression bezeichnen, wenn beim Fußball ein Verteidiger einen Stürmer fout, um dadurch ein Tor zu verhindern. Im Gegensatz dazu dient die feindselige Aggression nicht der Erreichung eines bestimmten Ziels, sondern der Zufügung von Schaden und Schmerz. Feindselige Aggression ist getrieben von Emotionen wie Wut und Ärger und tritt oft auch als Folge einer wahrgenommenen Provokation auf. Aus diesem Grund wird hier auch von »reaktiver Aggression« oder »affektiver Aggression« gesprochen (Geen, 1990). Eine Kosten-Nutzen-Bilanz wird bei dieser Verhaltensform meist nicht aufgestellt (Gollwitzer, Meder & Schmitt 2011). Das heißt, einer anderen Person wird selbst dann Schaden zugefügt, wenn dies mit negativen Konsequenzen für den Täter verbunden ist.\nNeben der Unterteilung in instrumentelle bzw. feindselige wird auch zwischen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9670163989067078,
+      "bbox": {
+        "x0": 503.0459289550781,
+        "y0": 1615.8480224609375,
+        "x1": 1407.0897216796875,
+        "y1": 1951.0355224609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 281,
+      "polygon": [
+        [
+          503.0,
+          1615.0
+        ],
+        [
+          503.0,
+          1950.0
+        ],
+        [
+          1406.0,
+          1950.0
+        ],
+        [
+          1406.0,
+          1615.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Neben der Unterteilung in instrumentelle bzw. feindselige wird auch zwischen physischer und verbaler Aggression sowie zwischen direkter und indirekter Aggression unterschieden (Björkqvist, Österman & Hjelt-Bäck, 1994). Erstere Einteilung ist eindeutig – sie bezieht sich darauf, dass mit aggressivem Verhalten entweder körperlicher Schaden zugefügt werden kann (jemanden schlagen, stoßen etc.) oder aber die Schädigung verbal erfolgt (jemanden beschimpfen, über jemanden reden etc.). Mit direkter Aggression ist gemeint, dass sich das Verhalten des Täters offensichtlich bzw. direkt an die Zielperson richtet (physisch oder verbal). Bei der indirekten Aggression versucht der Täter dagegen, seine eigentliche Intention, jemandem zu schaden, zu verbergen (Björkqvist, Lagerspetz & Kaukiainen, 1992). Dadurch kann er unter Umstän-",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 927.9076538085938
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2784.008544921875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1636.3115234375
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1277.2554931640625
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1425.9617919921875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 2227.209228515625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1650.3133544921875
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1012.9597778320312
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1723.04638671875
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1875.066650390625
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1681.6802978515625
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1884.41552734375
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.41069641599824536,
+      "zeitstempel": "2026-09-06T14:31:18.600630Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 16.009518917002424,
+      "zeitstempel": "2026-09-06T14:46:28.129760Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

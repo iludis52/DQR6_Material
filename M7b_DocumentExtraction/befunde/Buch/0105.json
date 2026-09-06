@@ -1,0 +1,575 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 105,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.8282308578491211,
+      "bbox": {
+        "x0": 113.15079498291016,
+        "y0": 79.11102294921875,
+        "x1": 329.1537170410156,
+        "y1": 106.37481689453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 5,
+      "polygon": [
+        [
+          113.0,
+          79.0
+        ],
+        [
+          113.0,
+          105.0
+        ],
+        [
+          328.0,
+          105.0
+        ],
+        [
+          328.0,
+          79.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "7.1 · Vorbemerkungen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 9,
+      "pp_label": "number",
+      "score": 0.6731032133102417,
+      "bbox": {
+        "x0": 1383.6900634765625,
+        "y0": 36.49481201171875,
+        "x1": 1417.6204833984375,
+        "y1": 83.37579345703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 25,
+      "polygon": [
+        [
+          1383.0,
+          36.0
+        ],
+        [
+          1383.0,
+          82.0
+        ],
+        [
+          1416.0,
+          82.0
+        ],
+        [
+          1416.0,
+          36.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "7",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9692581295967102,
+      "bbox": {
+        "x0": 110.02571868896484,
+        "y0": 183.91009521484375,
+        "x1": 1013.486572265625,
+        "y1": 713.2620239257812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 56,
+      "polygon": [
+        [
+          118.0,
+          183.0
+        ],
+        [
+          118.0,
+          712.0
+        ],
+        [
+          1012.0,
+          712.0
+        ],
+        [
+          1012.0,
+          183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "bestimmten Gruppe (Dovidio & Gaertner, 2010). Im Gegensatz zum Stereotyp ist beim Vorurteil der negative emotionale Aspekt bei der Definition stärker ausschlaggebend. In seiner klassischen Konzeption des Vorurteils betonte schon Allport (1954) diese emotionale Dimension: Charakteristisch für das Vorurteil sei die negative, gar feindselige Haltung gegenüber bestimmten Gruppen und deren Mitgliedern. Die emotionale Abwertung ist zwar eng mit entsprechenden kognitiven Bewertungsprozessen verbunden (vgl. Stereotypisierung), doch diese sind definitorisch nicht gleichermaßen bedeutsam. Von einem Vorurteil würde man beispielsweise dann sprechen, wenn ich andere nur deshalb nicht mag, weil sie Fan einer rivalisierenden Fußballmannschaft sind oder eine mir unliebsame politische Gesinnung haben. Allein die Gruppenzugehörigkeit ist hierbei für die negative Bewertung oder die feindseligen Gefühle entscheidend. Im Gegensatz zum Stereotyp ist das Vorurteil stets negativ (oder zumindest wenig positiv) gefärbt (Dovidio & Gaertner, 2010): So würde eine vorurteilsbehafteste Person beispielsweise nicht nur denken, dass alle Golfspieler reich und oberflächlich seien, sondern diese auch negativ bewerten bzw. eine ablehnende Haltung gegenüber ihnen einnehmen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9499921798706055,
+      "bbox": {
+        "x0": 111.51670837402344,
+        "y0": 716.55029296875,
+        "x1": 1012.730224609375,
+        "y1": 849.024169921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 73,
+      "polygon": [
+        [
+          111.0,
+          716.0
+        ],
+        [
+          111.0,
+          848.0
+        ],
+        [
+          1011.0,
+          848.0
+        ],
+        [
+          1011.0,
+          716.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Dabei richtet sich das Vorurteil – wie auch das Stereotyp – entweder gegen ein einzelnes Individuum aufgrund dessen Gruppenmitgliedschaft oder gegen die gesamte Gruppe. Aufgrund seiner stärkeren negativen Valenz ist das Vorurteil jedoch richtungsweisend, während ein Stereotyp auch neutral sein kann (Dovidio & Gaertner, 2010).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9671562910079956,
+      "bbox": {
+        "x0": 109.60819244384766,
+        "y0": 850.6636352539062,
+        "x1": 1014.1036987304688,
+        "y1": 1485.316162109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 95,
+      "polygon": [
+        [
+          109.0,
+          861.0
+        ],
+        [
+          117.0,
+          1484.0
+        ],
+        [
+          1013.0,
+          1484.0
+        ],
+        [
+          1013.0,
+          850.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Gemäß der ursprünglichen Definition von Allport (1954) können Stereotype sowohl Ursache als auch Folge von Vorurteilen sein (Kawakami, Dion & Dovidio, 1998). Ersteres ist beispielsweise gegeben, wenn das Stereotyp »Alle Südeuropäer wollen nicht sparen!« dazu führt, dass wir diese ablehnen und denken, sie leben auf unsere Kosten. Umgekehrt könnte es bei einem stark vorurteilsbehafteten Menschen, der sich zusätzlich in einem vorurteilsgeprägten Umfeld bewegt, grundsätzlich schneller und häufiger zur Entstehung von Stereotypen kommen. Experimentelle Untersuchungen, die den Zusammenhang zwischen Stereotypen und Vorurteilen näher zu bestimmen versuchen, weisen jedoch uneinheitliche Befunde auf. So herrscht Uneinigkeit darüber, ob die unterschiedliche Ausprägung von Vorurteilen (hoch vs. niedrig vorurteilsbehaftete Menschen) tatsächlich bewirkt, dass Stereotype in unterschiedlichem Maß aktiviert werden (Kawakami, Dion & Dovidio, 1998). So postuliert Devine (1989) in ihrem Modell, dass Stereotype bei Personen mit hohem bzw. niedrigem Level an Vorurteilen gleichermaßen aktiviert werden; Letztere können jedoch die aktivierten Stereotype kontrollieren und hemmen (▶ Abschn. 7.4). Anderen Ansichten zufolge steht jedoch die automatische Aktivierung und nicht die Regulierung von aktivierten Stereotypen in Verbindung mit dem Grad der Vorurteile (Locke, MacLeod & Walker, 1994). Trotz dieser Unklarheiten hinsichtlich der genauen Wirkungsmechanismen bleibt festzuhalten, dass Stereotype und Vorurteile in engem Zusammenhang stehen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 11,
+      "pp_label": "paragraph_title",
+      "score": 0.7254440188407898,
+      "bbox": {
+        "x0": 153.51492309570312,
+        "y0": 1517.477294921875,
+        "x1": 269.48974609375,
+        "y1": 1546.1904296875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 120,
+      "polygon": [
+        [
+          153.0,
+          1517.0
+        ],
+        [
+          153.0,
+          1545.0
+        ],
+        [
+          268.0,
+          1545.0
+        ],
+        [
+          268.0,
+          1517.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- Definition",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.9097179174423218,
+      "bbox": {
+        "x0": 149.80264282226562,
+        "y0": 1550.275146484375,
+        "x1": 984.28369140625,
+        "y1": 1717.177490234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 121,
+      "polygon": [
+        [
+          149.0,
+          1550.0
+        ],
+        [
+          149.0,
+          1716.0
+        ],
+        [
+          983.0,
+          1716.0
+        ],
+        [
+          976.0,
+          1550.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Demotion\nMit Vorurteil (»Wer klassische Musik mag, ist ein Langweiler, den ich ablehne!«) meint man die ablehnende Haltung bzw. die negativen Emotionen (affektiv) gegenüber Personen, die allein deshalb bestehen, weil diese Personen einer bestimmten Gruppe angehören. Vorurteile haben sowohl eine kognitive (negative Bewertungen) als auch affektive Komponente, wobei Letztere im Vordergrund steht.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9474369883537292,
+      "bbox": {
+        "x0": 110.74217224121094,
+        "y0": 1781.66357421875,
+        "x1": 1014.2130126953125,
+        "y1": 1950.333251953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 193,
+      "polygon": [
+        [
+          118.0,
+          1781.0
+        ],
+        [
+          118.0,
+          1949.0
+        ],
+        [
+          1013.0,
+          1949.0
+        ],
+        [
+          1013.0,
+          1781.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Sobald sich ein Vorurteil in abwertendem, aggressivem oder sonstigem schädigenden Verhalten gegenüber Mitgliedern einer bestimmten Personengruppe äußert, spricht man von Diskriminierung (Dovidio, Hewstone, Glick & Essens, 2010). Etwa, wenn ein Chef Frauen für weniger kompetent hält und daher einen männlichen Bewerber einstellt, trotz gleicher Voraussetzungen beider Kandidaten. Neben der kognitiven (Stereo-",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.866085946559906,
+      "bbox": {
+        "x0": 1056.8101806640625,
+        "y0": 186.4482421875,
+        "x1": 1381.4964599609375,
+        "y1": 438.3868408203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 225,
+      "polygon": [
+        [
+          1056.0,
+          186.0
+        ],
+        [
+          1056.0,
+          437.0
+        ],
+        [
+          1380.0,
+          437.0
+        ],
+        [
+          1380.0,
+          267.0
+        ],
+        [
+          1373.0,
+          186.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Als Vorurteil bezeichnet man die negative Bewertung und ablehnende Haltung gegenüber Personen, einzig und alleine aus dem Grund, dass sie einer bestimmten Gruppe angehören. Im Gegensatz zum Stereotyp steht beim Vorurteil die negative emotionale Komponente im Vordergrund.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9221888780593872,
+      "bbox": {
+        "x0": 1057.9801025390625,
+        "y0": 853.2941284179688,
+        "x1": 1378.5596923828125,
+        "y1": 1020.3936157226562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 259,
+      "polygon": [
+        [
+          1057.0,
+          853.0
+        ],
+        [
+          1057.0,
+          1019.0
+        ],
+        [
+          1377.0,
+          1019.0
+        ],
+        [
+          1377.0,
+          853.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Vorurteile besitzen immer eine negative Valenz, während Stereotype auch neutral oder positiv sein können. Stereotype können sowohl Ursache als auch Folge von Vorurteilen sein.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.8226495385169983,
+      "bbox": {
+        "x0": 1060.551025390625,
+        "y0": 1516.1051025390625,
+        "x1": 1213.925048828125,
+        "y1": 1581.0750732421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 269,
+      "polygon": [
+        [
+          1060.0,
+          1516.0
+        ],
+        [
+          1060.0,
+          1559.0
+        ],
+        [
+          1068.0,
+          1580.0
+        ],
+        [
+          1212.0,
+          1580.0
+        ],
+        [
+          1212.0,
+          1516.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Definition Vorurteil",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9304235577583313,
+      "bbox": {
+        "x0": 1056.9268798828125,
+        "y0": 1753.8140869140625,
+        "x1": 1383.60986328125,
+        "y1": 1922.2742919921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 289,
+      "polygon": [
+        [
+          1056.0,
+          1753.0
+        ],
+        [
+          1056.0,
+          1921.0
+        ],
+        [
+          1382.0,
+          1921.0
+        ],
+        [
+          1382.0,
+          1753.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Von Diskriminierung spricht man, wenn ein Vorurteil verhaltenswirk- sam wird. Es kommt zu abwerten- dem bzw. unfairem Verhalten gegenüber einer Person, allein aufgrund deren Gruppenzugehörigkeit.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2321.17626953125
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2067.993896484375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1886.62353515625
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1794.282958984375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1978.27783203125
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 855.8536987304688
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1164.8140869140625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 3819.46484375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 2589.29150390625
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1043.8428955078125
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 2025.3314208984375
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.41026937500282656,
+      "zeitstempel": "2026-09-06T14:31:32.641024Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 14.111733542002185,
+      "zeitstempel": "2026-09-06T14:53:55.905515Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

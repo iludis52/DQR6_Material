@@ -1,0 +1,635 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 53,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 87,
+      "pp_label": "number",
+      "score": 0.5500586628913879,
+      "bbox": {
+        "x0": 1190.232421875,
+        "y0": 54.451873779296875,
+        "x1": 1220.900634765625,
+        "y1": 79.66824340820312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 1,
+      "polygon": [
+        [
+          1190.0,
+          54.0
+        ],
+        [
+          1190.0,
+          78.0
+        ],
+        [
+          1219.0,
+          78.0
+        ],
+        [
+          1219.0,
+          54.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "45",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 20,
+      "pp_label": "number",
+      "score": 0.5845478773117065,
+      "bbox": {
+        "x0": 1380.91162109375,
+        "y0": 32.544586181640625,
+        "x1": 1421.704345703125,
+        "y1": 81.33224487304688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 5,
+      "polygon": [
+        [
+          1380.0,
+          32.0
+        ],
+        [
+          1380.0,
+          80.0
+        ],
+        [
+          1420.0,
+          80.0
+        ],
+        [
+          1420.0,
+          32.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "4",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 1,
+      "pp_label": "doc_title",
+      "score": 0.933216392993927,
+      "bbox": {
+        "x0": 110.2286605834961,
+        "y0": 166.95440673828125,
+        "x1": 1112.052001953125,
+        "y1": 289.85906982421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 18,
+      "polygon": [
+        [
+          110.0,
+          177.0
+        ],
+        [
+          118.0,
+          288.0
+        ],
+        [
+          1111.0,
+          288.0
+        ],
+        [
+          1111.0,
+          166.0
+        ],
+        [
+          118.0,
+          166.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "4 Prosoziales Verhalten, Hilfeverhalten und Zivilcourage",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 3,
+      "pp_label": "content",
+      "score": 0.5338093638420105,
+      "bbox": {
+        "x0": 112.57223510742188,
+        "y0": 348.87957763671875,
+        "x1": 1313.991455078125,
+        "y1": 707.1082153320312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 37,
+      "polygon": [
+        [
+          112.0,
+          348.0
+        ],
+        [
+          112.0,
+          686.0
+        ],
+        [
+          614.0,
+          706.0
+        ],
+        [
+          758.0,
+          706.0
+        ],
+        [
+          766.0,
+          706.0
+        ],
+        [
+          1214.0,
+          706.0
+        ],
+        [
+          1230.0,
+          706.0
+        ],
+        [
+          1282.0,
+          706.0
+        ],
+        [
+          1312.0,
+          655.0
+        ],
+        [
+          1312.0,
+          348.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "4.1 Grundlegende Definitionen – 46\n4.2 Situative Faktoren prosozialen Verhaltens – 47\n4.2.1 Bystander-Effekt – 48\n4.3 Persönlichkeit und prosoziales Verhalten – Altruismus und Empathie – 51\n4.3.1 Empathie-Altruismus-Hypothese – 51\n4.3.2 Kritische Anmerkungen zur Empathie-Altruismus-Hypothese – 53\n4.4 Weitere psychologische Erklärungsansätze für prosoziales Verhalten – 53\n4.4.1 Evolutionspsychologische bzw. biologische Perspektive – 54\n4.4.2 Theorie des sozialen Austausches: Kosten-Nutzen-Analyse – 55\n4.4.3 Verantwortungsattribution – 55\n4.4.4 Zivilcourage, Heldentum und gesellschaftliche Verantwortung – 56\n4.5 Zu viel des Guten?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 14,
+      "pp_label": "text",
+      "score": 0.5052042603492737,
+      "bbox": {
+        "x0": 152.7172393798828,
+        "y0": 1017.4228515625,
+        "x1": 260.85577392578125,
+        "y1": 1045.95166015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 198,
+      "polygon": [
+        [
+          152.0,
+          1017.0
+        ],
+        [
+          152.0,
+          1044.0
+        ],
+        [
+          259.0,
+          1044.0
+        ],
+        [
+          259.0,
+          1017.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Lernziele",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.816290557384491,
+      "bbox": {
+        "x0": 153.05081176757812,
+        "y0": 1050.7352294921875,
+        "x1": 726.3480834960938,
+        "y1": 1147.3211669921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 208,
+      "polygon": [
+        [
+          153.0,
+          1050.0
+        ],
+        [
+          153.0,
+          1146.0
+        ],
+        [
+          725.0,
+          1146.0
+        ],
+        [
+          725.0,
+          1050.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Begriffe »Hilfeverhalten«, »prosoziales Verhalten«, »Zivilcourage« und »Altruismus« erklären und voneinander abgrenzen können.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.8077332973480225,
+      "bbox": {
+        "x0": 152.70980834960938,
+        "y0": 1150.859619140625,
+        "x1": 728.5982666015625,
+        "y1": 1213.859130859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 213,
+      "polygon": [
+        [
+          152.0,
+          1161.0
+        ],
+        [
+          152.0,
+          1212.0
+        ],
+        [
+          727.0,
+          1212.0
+        ],
+        [
+          727.0,
+          1150.0
+        ],
+        [
+          160.0,
+          1150.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Den Bystander-Effekt mit zugehörigem Prozessmodell beschreiben können.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.8217419385910034,
+      "bbox": {
+        "x0": 773.3408813476562,
+        "y0": 1049.3994140625,
+        "x1": 1377.4150390625,
+        "y1": 1113.432373046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 218,
+      "polygon": [
+        [
+          773.0,
+          1059.0
+        ],
+        [
+          773.0,
+          1112.0
+        ],
+        [
+          1300.0,
+          1112.0
+        ],
+        [
+          1316.0,
+          1112.0
+        ],
+        [
+          1376.0,
+          1112.0
+        ],
+        [
+          1376.0,
+          1049.0
+        ],
+        [
+          1064.0,
+          1049.0
+        ],
+        [
+          994.0,
+          1049.0
+        ],
+        [
+          980.0,
+          1049.0
+        ],
+        [
+          956.0,
+          1049.0
+        ],
+        [
+          919.0,
+          1049.0
+        ],
+        [
+          818.0,
+          1049.0
+        ],
+        [
+          781.0,
+          1049.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Empathie-Altruismus-Hypothese sowie die klassische Studie hierzu erläutern können.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.7946417331695557,
+      "bbox": {
+        "x0": 773.215576171875,
+        "y0": 1118.548095703125,
+        "x1": 1330.1815185546875,
+        "y1": 1179.900390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 225,
+      "polygon": [
+        [
+          773.0,
+          1118.0
+        ],
+        [
+          773.0,
+          1178.0
+        ],
+        [
+          1329.0,
+          1178.0
+        ],
+        [
+          1329.0,
+          1118.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Weitere Erklärungsansätze zu prosozialem Verhalten kennen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9377728700637817,
+      "bbox": {
+        "x0": 111.67489624023438,
+        "y0": 1283.90576171875,
+        "x1": 1003.0645751953125,
+        "y1": 1450.895263671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 229,
+      "polygon": [
+        [
+          111.0,
+          1283.0
+        ],
+        [
+          111.0,
+          1449.0
+        ],
+        [
+          1002.0,
+          1449.0
+        ],
+        [
+          1002.0,
+          1283.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Wahrhaft ethisch ist der Mensch nur, wenn er der Nötigung gehorcht, allem Leben, dem er beistehen kann, zu helfen, und sich scheut, irgendetwas Lebendigem Schaden zu tun. Er fragt nicht, inwiefern dieses oder jenes Leben als wertvoll Anteilnahme verdient, und auch nicht, ob und inwieweit es noch empfindungsfähig ist. Das Leben als solches ist ihm heilig.(Albert Schweitzer, 1923, S. 240)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9589073657989502,
+      "bbox": {
+        "x0": 109.85353088378906,
+        "y0": 1483.9473876953125,
+        "x1": 1013.8272094726562,
+        "y1": 1948.9466552734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 233,
+      "polygon": [
+        [
+          109.0,
+          1483.0
+        ],
+        [
+          117.0,
+          1947.0
+        ],
+        [
+          1012.0,
+          1947.0
+        ],
+        [
+          1012.0,
+          1483.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Dieses Zitat verdeutlicht eindrücklich die ethischen Anschauungen Albert Schweitzers. Statt über den Verfall kultureller Werte wie Prosozialität und Hilfsbereitschaft zu klagen, sieht es Schweitzer als wichtig an, diese wieder zu festigen. Dies sei dann möglich, wenn die Menschen eine positive und lebensbejahende Weltanschauung haben, in der die »Ehrfurcht vor dem Leben« – und zwar vor jedem Leben – großgeschrieben ist. Folgt man diesem Gedanken, so ist es nicht verwunderlich, dass Schweitzer neben seiner beruflichen Tätigkeit als evangelischer Pfarrer und Philosoph auch ein Medizinstudium absolvierte, um in Afrika als Missionsarzt tätig sein zu können. Trotz seiner hohen Position als Professor gründete er 1913 im heutigen Gabun ein Krankenhaus, wo er physisch und psychisch Kranke versorgte. Zwar war er während des ersten Weltkriegs inhaftiert, kehrte aber danach wieder nach Afrika zurück. Schweitzers Engagement zeigte sich in vielen seiner Lebensbereiche, etwa in seinem Einsatz gegen atomare Rüstung bzw. Krieg im Allgemeinen, seinem Appell an die Achtung menschlichen und tierischen Lebens und nicht zuletzt durch die Vielzahl an Auszeichnungen, die er",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.9040870070457458,
+      "bbox": {
+        "x0": 1057.371337890625,
+        "y0": 1486.3720703125,
+        "x1": 1384.3421630859375,
+        "y1": 1822.219970703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 261,
+      "polygon": [
+        [
+          1057.0,
+          1486.0
+        ],
+        [
+          1057.0,
+          1821.0
+        ],
+        [
+          1383.0,
+          1821.0
+        ],
+        [
+          1383.0,
+          1486.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "In seinem Buch »Ehrfurcht vor dem Leben« legte Albert Schweitzer seine ethische Weltanschauung dar und appellierte an eine lebensbe- jahende Sichtweise, die Prosozialität und Hilfsbereitschaft fördern sollte. Er selbst setzte diese Ideen um, in- dem er u. a. als Missionsarzt tätig war und zahlreiche humanitäre Aus- zeichnungen erhielt. Insofern ist Schweitzer beispielhaft für prosoziales und altruistisches Verhalten.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 731.5475463867188
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1723.139404296875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 3139.458984375
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 2990.754638671875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1933.8524169921875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1291.069091796875
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 838.152099609375
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 772.6343383789062
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1109.7469482421875
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1264.1480712890625
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 2852.16552734375
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.36691487500138464,
+      "zeitstempel": "2026-09-06T14:31:12.234194Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 11.969019542000751,
+      "zeitstempel": "2026-09-06T14:43:02.253737Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

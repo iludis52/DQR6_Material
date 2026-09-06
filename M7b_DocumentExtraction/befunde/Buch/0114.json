@@ -1,0 +1,362 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 114,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.6818707585334778,
+      "bbox": {
+        "x0": 117.27462005615234,
+        "y0": 79.09439086914062,
+        "x1": 645.3228149414062,
+        "y1": 106.10006713867188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "108 Kapitel 7 · Stereotype, Vorurteile und Rassismus",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.7066987156867981,
+      "bbox": {
+        "x0": 128.1463165283203,
+        "y0": 186.29782104492188,
+        "x1": 444.9177551269531,
+        "y1": 270.3000793457031,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 64,
+      "polygon": [
+        [
+          128.0,
+          186.0
+        ],
+        [
+          128.0,
+          269.0
+        ],
+        [
+          443.0,
+          269.0
+        ],
+        [
+          443.0,
+          186.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Rebound Effekt: Vorurteile treten besonders dann stark zutage, wenn sie zuvor unterdrückt wurden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9622502326965332,
+      "bbox": {
+        "x0": 503.73486328125,
+        "y0": 182.96328735351562,
+        "x1": 1407.273681640625,
+        "y1": 616.9268798828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 78,
+      "polygon": [
+        [
+          503.0,
+          182.0
+        ],
+        [
+          503.0,
+          615.0
+        ],
+        [
+          1406.0,
+          615.0
+        ],
+        [
+          1406.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das System 2 kann nämlich nur kurzfristig agieren und seine Ressourcen erneuern sich nur relativ langsam. Das heißt, Vorurteile werden oft dann stark ausgedrückt, wenn sie unmittelbar vorher aktiv unterdrückt worden waren (sog. Rebound-Effekt; Macrae, Bodenhausen, Milne & Jetten, 1994). In anderen Bereichen kennen Sie dieses Phänomen vielleicht auch bei sich selbst: Sie verbieten sich die Schokotorte und sämtliche andere Süßigkeiten und drängen jeden Gedanken an diese Leckereien sofort beiseite. Was passiert nun? Nachdem es Ihnen eine Zeitlang gelingt, kommt der Gedanke immer wieder und schließlich geben Sie nach. Ehe Sie es sich versehen, ist das Eis auch schon gegessen. Im klinischen Kontext kommt der Rebound-Effekt auch stark bei Gedanken-zwängen zum Tragen – was auf der Hand liegt –, des Weiteren bei Essstörungen oder Suchterkrankungen. Doch wie man sich den Rebound-Effekt speziell vor dem Hintergrund stereotyper Gedanken bzw. Vorurteile vorzustellen hat, sei in der Beispielstudie beschrieben (▶ Studie: Der Rebound-Effekt bei Stereotypen).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.691536009311676,
+      "bbox": {
+        "x0": 153.12152099609375,
+        "y0": 647.5340576171875,
+        "x1": 227.02081298828125,
+        "y1": 674.4033203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 124,
+      "polygon": [
+        [
+          153.0,
+          647.0
+        ],
+        [
+          153.0,
+          673.0
+        ],
+        [
+          226.0,
+          673.0
+        ],
+        [
+          226.0,
+          647.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9526228308677673,
+      "bbox": {
+        "x0": 150.704833984375,
+        "y0": 716.3995971679688,
+        "x1": 1377.70458984375,
+        "y1": 1251.157470703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 147,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Der Neboand-Enkeit bei Stereotypen\nMacrae et al. (1994; Studie 1) zeigten ihren Versuchspersonen ein Bild, auf dem ein männlicher Skinhead abgebildet war. Die Aufgabe der Versuchspersonen bestand nun darin, ausgehend von diesem Foto einen typischen Tag aus dem Leben der abgebildeten Person zu beschreiben. Zuvor wurde die eine Hälfte der Versuchspersonen auf Forschungsergebnisse hingewiesen, die zeigen konnten, dass Menschen häufig Einstellungen haben, die durch voreilige Schluss-folgerungen bzw. Vorurteile verzerrt sind. Insofern sollten Sie explizit darauf achten, potenzielle Stereotype gegenüber der abgebildeten Person zu vermeiden. Die zweite Hälfte der Versuchspersonen erhielt keine derartige Instruk-tion. Nach dieser Beschreibung bekamen die Teilnehmer ein zweites Bild mit einem anderen männlichen Skinhead vorgelegt. Wieder sollten Sie schriftlich festhalten, wie ein typischer Tag dieser Person aussehen könnte. Allerdings erhielt dieses Mal keine der Versuchsgruppen eine Instruktion. Als abhängige Variable wurde das Ausmaß bestimmt, in dem die Beschreibungen stereotype Inhalte aufwiesen. Hierzu analysierten zwei unabhängige Personen alle Textpassagen aufeiner Skala von 0 („überhaupt nicht stereotyp«) bis 10 („sehr stereotyp«). Daraus wurde dann ein Gesamtwert gebildet. Als Ergebnis zeigte sich, dass die zur Stereotypunterdrückung instruierte Gruppe bei der ersten Beschreibung signifikant weniger stereotype Inhalte berichtete. Aktive Unterdrückung hatte also den gewünschten Effekt. Interessant war nun, dass sich dieses Ergebnis bei der zweiten Beschreibung genau umkehrte: Nun enthielten die Texte der ursprünglich instruierten Gruppe mehr Skinhead-spezifische Stereotype als diejenigen der Kontrollgruppe. Folglich führte die vorhergehende Unterdrückung stereotyper Gedankeninhalte dazu, dass diese in verstärkter Form wiederkehrten.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        5,
+        6
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9109658598899841,
+      "bbox": {
+        "x0": 128.43508911132812,
+        "y0": 1319.576416015625,
+        "x1": 441.8255615234375,
+        "y1": 1432.7333984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 229,
+      "polygon": [
+        [
+          128.0,
+          1319.0
+        ],
+        [
+          128.0,
+          1431.0
+        ],
+        [
+          440.0,
+          1431.0
+        ],
+        [
+          440.0,
+          1319.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Mit dem Stroop-Test können kognitive Verarbeitungskonflikte durch eine Verlängerung von Reaktionszeiten nachgewiesen werden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9675359725952148,
+      "bbox": {
+        "x0": 504.7680969238281,
+        "y0": 1315.9912109375,
+        "x1": 1407.040771484375,
+        "y1": 1847.828369140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 242,
+      "polygon": [
+        [
+          504.0,
+          1326.0
+        ],
+        [
+          504.0,
+          1846.0
+        ],
+        [
+          1406.0,
+          1846.0
+        ],
+        [
+          1406.0,
+          1326.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Durch die Regulation von Vorurteilen können auch andere Aktivitäten, die Konzentration erfordern, beeinträchtigt werden. Dies ist beispielsweise am sog. »Stroop-Effekt« erkennbar, der in diesem Fall stärker auftritt. Der Stroop-Effekt zeigt, dass es bei bestimmten Aufgaben zu kognitiven Verarbeitungskonflikten kommt, was eine stärkere Aufmerksamkeitsleistung erfordert und nachfolgend zu längeren Antwortzeiten führt. Dies kann mit dem »Stroop-Test« (Stroop, 1935; siehe auch Cattell, 1986) gezeigt werden. Hierbei geht es darum, die Druckfarbe von präsentieren Farbwörtern zu benennen. Es werden also unterschiedliche Farbwörter (blau, gelb, grün etc.) in unterschiedlicher Druckfarbe dargeboten, wobei gemessen wird, wie lange es dauert, bis die Farbe, in der das Wort steht, genannt wird. Stimmen Farbwört und Schriftfarbe überein (z.B. wird das Wort »blau« in blauer Schriftfarbe präsentiert), so erscheint die Aufgabe sehr einfach, was sich in kurzen Antwortzeiten widerspiegelt. Ist der Wortinhalt jedoch inkongruent zur Druckfarbe, also von dieser verschiedenen (z. B. wenn das Wort »blau« in roter Farbe präsentiert wird), so verlängert sich die Antwortzeit. In diesem Fall kommt es zu Verarbeitungskonflikten, da der Impuls, den Wortnamen laut auszusprechen, zugunsten der Farbnennung unterdrückt werden muss.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9338911771774292,
+      "bbox": {
+        "x0": 503.45208740234375,
+        "y0": 1849.901611328125,
+        "x1": 1408.160888671875,
+        "y1": 1949.38623046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 285,
+      "polygon": [
+        [
+          503.0,
+          1849.0
+        ],
+        [
+          503.0,
+          1948.0
+        ],
+        [
+          1407.0,
+          1948.0
+        ],
+        [
+          1407.0,
+          1849.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Welche Rolle der Stroop-Test nun in Zusammenhang mit der Unterdrückung stereotyper Gedankeninhalte spielt, konnten Richeson und Shelton (2003) zeigen. Unter dem Vorwand, es handle sich um eine Wortkategorisierungsaufgabe, absolvierten die",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2928.133056640625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1693.5836181640625
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1704.4464111328125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1694.1048583984375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1725.7808837890625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1565.4249267578125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1684.4019775390625
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt.",
+    "Blöcke [5, 6] zu #4 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.4188038329994015,
+      "zeitstempel": "2026-09-06T14:31:36.248824Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 14.272254916999373,
+      "zeitstempel": "2026-09-06T14:55:53.927513Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

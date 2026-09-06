@@ -1,0 +1,197 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 2,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 5,
+      "pp_label": "paragraph_title",
+      "score": 0.6077516078948975,
+      "bbox": {
+        "x0": 350.22442626953125,
+        "y0": 191.9449462890625,
+        "x1": 561.6576538085938,
+        "y1": 240.387451171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 29,
+      "polygon": [
+        [
+          350.0,
+          191.0
+        ],
+        [
+          350.0,
+          239.0
+        ],
+        [
+          560.0,
+          239.0
+        ],
+        [
+          560.0,
+          191.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Vorwort",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 4,
+      "pp_label": "abstract",
+      "score": 0.5174415707588196,
+      "bbox": {
+        "x0": 346.8204040527344,
+        "y0": 310.6634826660156,
+        "x1": 1412.0421142578125,
+        "y1": 1219.6766357421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 50,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Getreu dem Motto »So verständlich wie möglich und detailliert wie nötig« haben wir mit diesem Lehrbuch versucht, den Gegenstand der Sozialpsychologie einfach und anschaulich darzustellen. Wir richten uns dabei vorrangig an Bachelor-Studierende der Psychologie, doch genauso ist das Buch auch für all diejenigen ohne psychologische Vorkenntnisse gedacht, die sich für die sozialen Phänomene des Alltags interessieren.\nWas die inhaltliche Struktur betrifft, so sind für alle aufgegriffenen Themenbereiche zwei Aspekte zentral: zum einen die Vermittlung relevanter Theorien und entsprechender empirischer Befunde, zum anderen deren praktische Anwendung in den verschiedensten beruflichen und gesellschaftlichen Disziplinen. Wir haben deshalb versucht, politische Themen wie z. B. den Irakkrieg oder den deutschen Atomausstieg mit einzubeziehen, um die Inhalte für die Leserinnen und Leser spannender in der Lektüre und brauchbarer für ihr praktisches Leben zu machen. Genauso soll der theoretische Hintergrund auch durch persönliche Alltagsbeispiele greifbarer werden. Um zusätzlich für ein humorvolles Lesen zu sorgen, haben wir an vielen Stellen auf »klassische« Abbildungen verzichtet und stattdessen selbst gestaltete Cartoons eingefügt.\nIn diesem Zusammenhang möchten wir der Zeichnerin des Springer-Verlags, Frau Claudia Styrsky, ganz herzlich für die gelungene Umsetzung unserer Ideen danken. Unser besonderer Dank gilt zudem Herrn Joachim Coch, der uns in allen Phasen des Schreibprozesses begleitet und stets sachkundig unterstützt hat. Ebenso danken wir Frau Dr. Christiane Grosser für die Übernahme der Lektoratsarbeiten an diesem Buch.\nEs soll an dieser Stelle auch angemerkt werden, dass alle drei Autoren in gleichem Maße zum Gelingen dieses Lehrbuches beigetragen haben. Hinsichtlich der verwendeten Geschlechterform möchten wir darauf hinweisen, dass wir lediglich aus Gründen der Einfachheit und des besseren Leseflusses überwiegend die männliche Form in unseren Beschreibungen gewählt haben.\nWir wünschen Ihnen nun viel Spaß und vor allem viele Einsichten bei der Lektüre unseres Buches. Vielleicht gelingt es uns, dadurch ihr Interesse an sozialpsychologischen Themen zu wecken und grundsätzlich die Bedeutung der Sozialpsychologie für verschiedenste Anwendungsbereiche aufzuzeigen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.7188522815704346,
+      "bbox": {
+        "x0": 350.1726379394531,
+        "y0": 1249.34765625,
+        "x1": 626.4092407226562,
+        "y1": 1280.789306640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 292,
+      "polygon": [
+        [
+          350.0,
+          1249.0
+        ],
+        [
+          350.0,
+          1279.0
+        ],
+        [
+          625.0,
+          1279.0
+        ],
+        [
+          625.0,
+          1249.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Regensburg, im Juni 2013",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.7501031756401062,
+      "bbox": {
+        "x0": 350.1159973144531,
+        "y0": 1282.62890625,
+        "x1": 844.0850830078125,
+        "y1": 1315.608642578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 297,
+      "polygon": [
+        [
+          350.0,
+          1282.0
+        ],
+        [
+          350.0,
+          1314.0
+        ],
+        [
+          843.0,
+          1314.0
+        ],
+        [
+          843.0,
+          1282.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Peter Fischer, Kathrin Asal, Joachim I. Krueger",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2020.3399658203125
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2976.7900390625
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1483.7066650390625
+    }
+  ],
+  "warnungen": [
+    "Blöcke [1, 2, 3, 4] zu #1 (abstract) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.44152133299940033,
+      "zeitstempel": "2026-09-06T14:30:52.085227Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 5.905597916000261,
+      "zeitstempel": "2026-09-06T14:33:00.576722Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

@@ -1,0 +1,628 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 75,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 7,
+      "pp_label": "number",
+      "score": 0.6741766929626465,
+      "bbox": {
+        "x0": 115.94390106201172,
+        "y0": 80.39337158203125,
+        "x1": 144.53138732910156,
+        "y1": 103.18719482421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 1,
+      "polygon": [
+        [
+          115.0,
+          80.0
+        ],
+        [
+          115.0,
+          102.0
+        ],
+        [
+          143.0,
+          102.0
+        ],
+        [
+          143.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "68",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.8410159945487976,
+      "bbox": {
+        "x0": 192.70718383789062,
+        "y0": 78.97665405273438,
+        "x1": 406.4246520996094,
+        "y1": 106.66677856445312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 10,
+      "polygon": [
+        [
+          192.0,
+          78.0
+        ],
+        [
+          192.0,
+          105.0
+        ],
+        [
+          405.0,
+          105.0
+        ],
+        [
+          405.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 5 · Aggression",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.5432131886482239,
+      "bbox": {
+        "x0": 130.40283203125,
+        "y0": 183.82632446289062,
+        "x1": 451.0928039550781,
+        "y1": 282.0317077636719,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 48,
+      "polygon": [
+        [
+          130.0,
+          183.0
+        ],
+        [
+          130.0,
+          281.0
+        ],
+        [
+          374.0,
+          281.0
+        ],
+        [
+          450.0,
+          272.0
+        ],
+        [
+          450.0,
+          203.0
+        ],
+        [
+          435.0,
+          193.0
+        ],
+        [
+          428.0,
+          183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Definition\nFrustrations-Aggressions-Hypothese",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.8828577399253845,
+      "bbox": {
+        "x0": 127.51799774169922,
+        "y0": 620.5064697265625,
+        "x1": 456.8482971191406,
+        "y1": 759.6239013671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 86,
+      "polygon": [
+        [
+          127.0,
+          620.0
+        ],
+        [
+          127.0,
+          758.0
+        ],
+        [
+          455.0,
+          758.0
+        ],
+        [
+          455.0,
+          620.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der soziokognitive Ansatz von Aggression geht davon aus, dass aggressives Verhalten zu einem großen Teil im Laufe der Sozialisation erlernt wurde.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.8587047457695007,
+      "bbox": {
+        "x0": 127.84485626220703,
+        "y0": 918.8778076171875,
+        "x1": 423.2740173339844,
+        "y1": 1032.0721435546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 107,
+      "polygon": [
+        [
+          127.0,
+          918.0
+        ],
+        [
+          127.0,
+          1031.0
+        ],
+        [
+          422.0,
+          1031.0
+        ],
+        [
+          422.0,
+          918.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Durch die Beobachtung aggres-siver Modelle kann eigenes aggressives Verhalten gelernt werden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 10,
+      "pp_label": "figure_title",
+      "score": 0.7164274454116821,
+      "bbox": {
+        "x0": 128.39842224121094,
+        "y0": 1534.6285400390625,
+        "x1": 452.4293212890625,
+        "y1": 1647.3446044921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 122,
+      "polygon": [
+        [
+          128.0,
+          1534.0
+        ],
+        [
+          128.0,
+          1646.0
+        ],
+        [
+          451.0,
+          1646.0
+        ],
+        [
+          451.0,
+          1534.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Abb. 5.3 Ein Beispiel für aggres-sives Modellernen: Das Kind imitiert das Verhalten der Eltern gegenüber seinem Teddy",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 9,
+      "pp_label": "paragraph_title",
+      "score": 0.6966736316680908,
+      "bbox": {
+        "x0": 546.22216796875,
+        "y0": 184.38107299804688,
+        "x1": 663.9319458007812,
+        "y1": 211.99270629882812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 138,
+      "polygon": [
+        [
+          546.0,
+          184.0
+        ],
+        [
+          546.0,
+          210.0
+        ],
+        [
+          662.0,
+          210.0
+        ],
+        [
+          662.0,
+          184.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- Definition",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9255821704864502,
+      "bbox": {
+        "x0": 543.08740234375,
+        "y0": 216.68402099609375,
+        "x1": 1378.7579345703125,
+        "y1": 451.66839599609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 140,
+      "polygon": [
+        [
+          543.0,
+          227.0
+        ],
+        [
+          543.0,
+          450.0
+        ],
+        [
+          1377.0,
+          450.0
+        ],
+        [
+          1377.0,
+          216.0
+        ],
+        [
+          551.0,
+          216.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die ursprüngliche Auffassung der Frustrations-Aggressions-Hypothese (Dollard et al., 1939) besagt, dass das Erleben von Frustration zu aggressivem Verhalten führt, d. h. Aggression ist stets ein Ergebnis von Frustration. In einer späteren Formulierung von Berkowitz (1989) wird Frustration im Zusammenhang mit negativen Gefühlen (Ärger, Angst, Wut etc.) gesehen, die wiederum Aggression (hier: reaktive Aggression) auslösen können. Nach diesem kognitiv-neoassoziationistischem Modell führt Frustration zu aggressivem Verhalten, wenn damit negative Gefühle verbunden sind.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 6,
+      "pp_label": "paragraph_title",
+      "score": 0.8476174473762512,
+      "bbox": {
+        "x0": 505.919921875,
+        "y0": 540.8603515625,
+        "x1": 910.251953125,
+        "y1": 575.529541015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 177,
+      "polygon": [
+        [
+          513.0,
+          540.0
+        ],
+        [
+          513.0,
+          574.0
+        ],
+        [
+          909.0,
+          574.0
+        ],
+        [
+          909.0,
+          540.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5.2.4 Soziokognitiver Ansatz",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9513283967971802,
+      "bbox": {
+        "x0": 503.3622131347656,
+        "y0": 616.159423828125,
+        "x1": 1406.069091796875,
+        "y1": 849.449462890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 189,
+      "polygon": [
+        [
+          503.0,
+          616.0
+        ],
+        [
+          503.0,
+          848.0
+        ],
+        [
+          1405.0,
+          848.0
+        ],
+        [
+          1405.0,
+          616.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Ähnlich wie auch bei der Frustrations-Aggressions-Hypothese bezieht der sozio-kognitive Ansatz die jeweilige soziale Situation bei der Entstehung von Aggression mit ein. Allerdings wird mit dieser Sichtweise nicht nur reaktives aggressives Verhalten als Folge negativer Emotionen erklärt, sondern es wird vielmehr davon ausgegangen, dass Aggression erlernt werden kann. Insofern beinhaltet dieser Ansatz auch das Auftreten von zukünftigem aggressiven Verhalten, das dann keinen bestimmten Auslöser (Frustration) mehr benötigt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 5,
+      "pp_label": "paragraph_title",
+      "score": 0.8206518292427063,
+      "bbox": {
+        "x0": 506.1173400878906,
+        "y0": 876.4550170898438,
+        "x1": 745.436767578125,
+        "y1": 907.4880981445312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 202,
+      "polygon": [
+        [
+          506.0,
+          876.0
+        ],
+        [
+          506.0,
+          906.0
+        ],
+        [
+          744.0,
+          906.0
+        ],
+        [
+          744.0,
+          876.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Klassische Studien",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9650124311447144,
+      "bbox": {
+        "x0": 504.1744384765625,
+        "y0": 915.6466064453125,
+        "x1": 1408.55126953125,
+        "y1": 1484.5274658203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 212,
+      "polygon": [
+        [
+          504.0,
+          926.0
+        ],
+        [
+          504.0,
+          1483.0
+        ],
+        [
+          1407.0,
+          1483.0
+        ],
+        [
+          1407.0,
+          915.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Im Gegensatz zu biologischen Erklärungsansätzen aggressiven Verhaltens nimmt der soziokognitive Ansatz grundlegend an, dass Aggression erlernt ist. Diese Annahme basiert auf den lerntheoretischen Arbeiten von Skinner (1978), der zeigen konnte, dass die Auftretenswahrscheinlichkeit bestimmter Verhaltensweisen durch Belohnung erhöht und durch Bestrafung gesenkt werden kann. Bandura (1977) griff diesen Ansatz auf und erweiterte ihn um den Aspekt der stellvertretenden Erfahrung. Banduras Theorie besagt, dass soziales (wie auch anderes) Verhalten nicht nur durch direkte Erfahrung gelernt wird (d. h, das Individuum wird für aggressives Verhalten belohnt oder zumindest nicht bestraft; z. B. wenn ein Kind durch aggressives Verhalten gegenüber einem Mitschüler Akzeptanz von seiner Clique erfährt). Auch indirekte und stellvertretende Erfahrung begünstigt das Lernen von bestimmten Verhaltensweisen (d. h., aggressive Verhaltensmodelle werden beobachtet, was wiederum die Auftretenswahrscheinlichkeit eigenen aggressiven Verhaltens erhöht; z. B. sieht ein Kind, dass ein Mitschüler durch aggressives Verhalten besonders viel Anerkennung erfährt und beschließt, dessen Verhalten nachzuhamen). Für den soziokognitiven Ansatz ist vor allem letzterer Punkt wichtig, also das Beobachten und das Nachahmen aggressiver Modelle in ähnlichen oder auch anderen Situationen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 0,
+      "pp_label": "image",
+      "score": 0.9383888840675354,
+      "bbox": {
+        "x0": 491.90869140625,
+        "y0": 1536.055908203125,
+        "x1": 1106.90673828125,
+        "y1": 1949.032470703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 254,
+      "polygon": [
+        [
+          499.0,
+          1536.0
+        ],
+        [
+          491.0,
+          1948.0
+        ],
+        [
+          1105.0,
+          1948.0
+        ],
+        [
+          1090.0,
+          1536.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0075_12_image.png"
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 914.795166015625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 3209.63818359375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 2185.112060546875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1502.823486328125
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1687.83837890625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1488.5128173828125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 352.1030578613281
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2183.282958984375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 837.4183349609375
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1610.9783935546875
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1286.013916015625
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1935.396728515625
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3474759999990056,
+      "zeitstempel": "2026-09-06T14:31:20.935253Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 9.691849958999228,
+      "zeitstempel": "2026-09-06T14:47:38.786190Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

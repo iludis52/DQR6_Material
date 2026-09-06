@@ -1,0 +1,481 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 63,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.8453977108001709,
+      "bbox": {
+        "x0": 111.85504913330078,
+        "y0": 78.19998168945312,
+        "x1": 792.5326538085938,
+        "y1": 106.85995483398438,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 4,
+      "polygon": [
+        [
+          111.0,
+          78.0
+        ],
+        [
+          111.0,
+          105.0
+        ],
+        [
+          791.0,
+          105.0
+        ],
+        [
+          791.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "4.4 · Weitere psychologische Erklärungsansätze für prosoziales Verhalten",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 8,
+      "pp_label": "number",
+      "score": 0.6829890012741089,
+      "bbox": {
+        "x0": 1381.826416015625,
+        "y0": 36.543121337890625,
+        "x1": 1421.970947265625,
+        "y1": 82.77865600585938,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 38,
+      "polygon": [
+        [
+          1381.0,
+          36.0
+        ],
+        [
+          1381.0,
+          81.0
+        ],
+        [
+          1420.0,
+          81.0
+        ],
+        [
+          1420.0,
+          36.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "4",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 3,
+      "pp_label": "paragraph_title",
+      "score": 0.8893400430679321,
+      "bbox": {
+        "x0": 112.3655776977539,
+        "y0": 174.4896240234375,
+        "x1": 662.11865234375,
+        "y1": 241.7589111328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 65,
+      "polygon": [
+        [
+          112.0,
+          174.0
+        ],
+        [
+          112.0,
+          240.0
+        ],
+        [
+          661.0,
+          240.0
+        ],
+        [
+          661.0,
+          174.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "4.4.2 Theorie des sozialen Austausches: Kosten-Nutzen-Analyse",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9684356451034546,
+      "bbox": {
+        "x0": 110.47015380859375,
+        "y0": 282.00836181640625,
+        "x1": 1014.3045043945312,
+        "y1": 786.3204956054688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 76,
+      "polygon": [
+        [
+          110.0,
+          282.0
+        ],
+        [
+          110.0,
+          785.0
+        ],
+        [
+          1013.0,
+          775.0
+        ],
+        [
+          1013.0,
+          282.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Eine weitere prominente Theorie prosozialen Verhaltens ist die Theorie des sozialen Austausches (Thibaut & Kelley, 1978; Trivers, 1971). Dieser theoretische Ansatz geht davon aus, dass Personen nur dann helfen, wenn die Kosten-Nutzen-Bilanz positiv für sie ausfällt, d. h., wenn Hilfeverhalten unter dem Strich mehr Nutzen als Kosten für sie erbringt. Belohnungen können dabei Geld, soziale Anerkennung oder aber auch nur erlebte positive Emotionen im Falle einer Hilfeleistung sein. Relevant in diesem Kontext ist auch die sog. »Negative-State-Relief-Hypothese«, die besagt, dass Menschen in negativer Stimmung häufiger helfen als in positiver oder neutraler Stimmung (Schaller & Cialdini, 1988). Grund hierfür ist, dass Personen in negativer Stimmung durch Hilfeverhalten eine Stimmungsauffhellung antizipieren (Dank und Anerkennung für die Hilfeleistung durch die hilfsbedürftige Person). Auch diese Befunde können durch die Theorie des sozialen Austausches erklärt werden: Personen in negativer Stimmung ist der Nutzen der Stimmungsauffhellung wichtiger als die Kosten der Hilfeleistung, was wiederum zu einer positiven Kosten-Nutzen-Bilanz und folglich zu erhöhter Hilfeleistung führt (☑ Abb. 4.4).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 5,
+      "pp_label": "image",
+      "score": 0.8823845982551575,
+      "bbox": {
+        "x0": 280.9730224609375,
+        "y0": 823.4462280273438,
+        "x1": 1005.858642578125,
+        "y1": 1339.448486328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 144,
+      "polygon": [
+        [
+          1004.0,
+          823.0
+        ],
+        [
+          311.0,
+          844.0
+        ],
+        [
+          280.0,
+          1328.0
+        ],
+        [
+          997.0,
+          1338.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0063_04_image.png"
+    },
+    {
+      "id": 5,
+      "query_id": 6,
+      "pp_label": "paragraph_title",
+      "score": 0.8244925141334534,
+      "bbox": {
+        "x0": 113.39378356933594,
+        "y0": 1408.5924072265625,
+        "x1": 573.1315307617188,
+        "y1": 1442.6810302734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 205,
+      "polygon": [
+        [
+          113.0,
+          1408.0
+        ],
+        [
+          113.0,
+          1441.0
+        ],
+        [
+          572.0,
+          1441.0
+        ],
+        [
+          572.0,
+          1408.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "4.4.3 Verantwortungsattribution",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9626232981681824,
+      "bbox": {
+        "x0": 112.32426452636719,
+        "y0": 1482.5634765625,
+        "x1": 1014.1103515625,
+        "y1": 1817.27783203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 218,
+      "polygon": [
+        [
+          112.0,
+          1482.0
+        ],
+        [
+          112.0,
+          1816.0
+        ],
+        [
+          1013.0,
+          1816.0
+        ],
+        [
+          1013.0,
+          1482.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Weiners Theorie der Verantwortlichkeit (Weiner, 1995) besagt, dass Hilfe vor allem dann geleistet wird, wenn das Opfer nicht für seine Notlage verantwortlich ist. Wenn wir um Hilfe gebeten werden, fragen wir oft zuerst, warum die entsprechende Person unsere Hilfe benötigt. Dies führt unweigerlich zu weiteren Fragen, nämlich 1. ist die Person selbst verantwortlich für ihre Notlage und 2. ist die Notsituation für die betreffende Person kontrollierbar oder nicht? Die subjektive Beantwortung dieser Fragen wiederum wirkt sich auf Emotionen, Einstellungen und Verhaltensweisen gegenüber der hilfesuchenden Person aus. Ein typisches Experiment für diese theoretische Perspektive führten Schmidt und Weiner (1988) durch (▶ Studie: Zuschreibung von Verantwortung).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.5568554997444153,
+      "bbox": {
+        "x0": 1056.967041015625,
+        "y0": 286.4517517089844,
+        "x1": 1382.421142578125,
+        "y1": 511.8869934082031,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 259,
+      "polygon": [
+        [
+          1056.0,
+          286.0
+        ],
+        [
+          1056.0,
+          510.0
+        ],
+        [
+          1381.0,
+          510.0
+        ],
+        [
+          1381.0,
+          358.0
+        ],
+        [
+          1381.0,
+          286.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Gemäß der Theorie des sozialen Austauschs helfen Menschen nur dann, wenn der erwartete Nutzen höher ist als die erwarteten Kosten der Hilfeleistung. So kann schlechte Stimmung durch Hilfeverhalten verbessert werden (Negative-State-Relief-Hypothese).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 4,
+      "pp_label": "figure_title",
+      "score": 0.8933337330818176,
+      "bbox": {
+        "x0": 1058.4300537109375,
+        "y0": 821.6156005859375,
+        "x1": 1357.4635009765625,
+        "y1": 905.8240966796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 270,
+      "polygon": [
+        [
+          1058.0,
+          821.0
+        ],
+        [
+          1058.0,
+          904.0
+        ],
+        [
+          1356.0,
+          904.0
+        ],
+        [
+          1356.0,
+          821.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Abb. 4.4 Prosoziales Verhalten als eigennützige Tat – Die Theorie des sozialen Austauschs",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.7895578742027283,
+      "bbox": {
+        "x0": 1056.7291259765625,
+        "y0": 1487.0445556640625,
+        "x1": 1385.05029296875,
+        "y1": 1627.5548095703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 284,
+      "polygon": [
+        [
+          1056.0,
+          1487.0
+        ],
+        [
+          1056.0,
+          1626.0
+        ],
+        [
+          1384.0,
+          1626.0
+        ],
+        [
+          1384.0,
+          1487.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Innerhalb der Theorie der Verantwortlichkeit ist zentral, ob das Opfer für die eigene Notlage verantwortlich ist und ob diese durch das Opfer kontrolliert werden kann.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2567.112548828125
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1265.3935546875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1815.2174072265625
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 2372.4365234375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1794.267578125
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1272.474853515625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 3424.986328125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2977.544677734375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 878.4853515625
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.370782041001803,
+      "zeitstempel": "2026-09-06T14:31:16.225442Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 8.915185999998357,
+      "zeitstempel": "2026-09-06T14:45:07.175804Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

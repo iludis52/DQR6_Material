@@ -1,0 +1,383 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 28,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8403125405311584,
+      "bbox": {
+        "x0": 112.41844177246094,
+        "y0": 79.02597045898438,
+        "x1": 485.0723876953125,
+        "y1": 106.59866333007812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 7,
+      "polygon": [
+        [
+          112.0,
+          79.0
+        ],
+        [
+          112.0,
+          105.0
+        ],
+        [
+          484.0,
+          105.0
+        ],
+        [
+          484.0,
+          79.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2.2 · Klassische Forschungsparadigmen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 174,
+      "pp_label": "number",
+      "score": 0.5507813692092896,
+      "bbox": {
+        "x0": 1190.4642333984375,
+        "y0": 54.269256591796875,
+        "x1": 1221.235595703125,
+        "y1": 79.54153442382812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 29,
+      "polygon": [
+        [
+          1190.0,
+          54.0
+        ],
+        [
+          1190.0,
+          78.0
+        ],
+        [
+          1220.0,
+          78.0
+        ],
+        [
+          1220.0,
+          54.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "19",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 10,
+      "pp_label": "number",
+      "score": 0.7003300786018372,
+      "bbox": {
+        "x0": 1381.8897705078125,
+        "y0": 34.959686279296875,
+        "x1": 1421.164306640625,
+        "y1": 84.73049926757812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 39,
+      "polygon": [
+        [
+          1381.0,
+          34.0
+        ],
+        [
+          1381.0,
+          83.0
+        ],
+        [
+          1420.0,
+          83.0
+        ],
+        [
+          1420.0,
+          34.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9608416557312012,
+      "bbox": {
+        "x0": 109.59913635253906,
+        "y0": 182.5579833984375,
+        "x1": 1015.4260864257812,
+        "y1": 448.2210693359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 75,
+      "polygon": [
+        [
+          117.0,
+          182.0
+        ],
+        [
+          117.0,
+          447.0
+        ],
+        [
+          1007.0,
+          447.0
+        ],
+        [
+          1014.0,
+          437.0
+        ],
+        [
+          1014.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1995), selbstwertdienlichen Schlussfolgerungen (Holton & Pyszczynski, 1989) und Entscheidungen (Frey, 1986) unterstützen. So wählen wir in der Zeitung vornehmlich Artikel oder Kommentare zum Lesen aus, die unserer eigenen politischen Einstellung entsprechen. Oder wir besuchen eher eine Wahlveranstaltung unserer präfierten Partei statt diejenige der Oppositionspartei. Im Hinblick auf eine selbstwertdienliche Schlussfolgerung könnten wir dazu neigen, einseitig auf unsere Erfolge oder positive Rückmeldungen zu schauen statt auch unsere Fehler, Unzulänglichkeiten und Misserfolge im Blick zu haben.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9707035422325134,
+      "bbox": {
+        "x0": 109.47433471679688,
+        "y0": 450.474609375,
+        "x1": 1016.3460693359375,
+        "y1": 1315.485595703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 91,
+      "polygon": [
+        [
+          117.0,
+          450.0
+        ],
+        [
+          109.0,
+          1314.0
+        ],
+        [
+          1015.0,
+          1314.0
+        ],
+        [
+          1015.0,
+          450.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "I'm klassischen Selective-Exposure-Paradigma wird Dissonanz vorwiegend durch eine schwierige Entscheidung zwischen zwei Alternativen induziert (siehe Frey, 1986; Jonas, Schulz-Hardt, Frey & Thelen, 2001). Dies können z. B. zwei gleichattraktive Konsumgüter, zwei unterschiedliche Investmentstrategien oder politische Entscheidungen sein. Im Anschluss erhalten die Untersuchungsteilnehmer zusätzliche Informationen (zwischen 8 und 16 Stück), die zur Hälfte die eigene Entscheidung bekräftigen (konsistent sind) und ihr zur anderen Hälfte widersprechen (also inkonsistent zu der eigenen Entscheidung sind). Wenn die Entscheidung beispielsweise darauf abzielt, sich entweder für oder gegen eine stärkere Terrorismusbekämpfung bei Beschneidung der Grundrechte auszusprechen und der Proband sich dagegen entscheidet, wäre hierbei eine konsistente Information, dass es bei Beschneidung der Grundrechte möglicherweise zu Missbrauch seitens der Politik kommen kann. Dieses Argument unterstützt somit die Meinung der Versuchsperson. Dagegen wäre die Information, dass die Bevölkerung durch eingeschränkte Grundrechte leichter vor Terroranschlägen geschützt werden kann, inkonsistent zur vorherigen Entscheidung. Die Versuchsteilnehmer können dann entscheiden, zu welchen Informationen sie gerne einen wesentlich ausführlicheren Artikel lesen möchten. Typischer Befund ist, dass Personen systematisch mehr entscheidungskonsistente als inkonsistente Informationen auswählen/anfordern und somit mehr Artikel zu den Informationen lesen, die ihre Entscheidung unterstützen. Dieser Effekt der verzerrten Informationsauswahl wird auch als »selective exposure effect« bezeichnet. Er zeigt sich im sog. Konfirmationsbias (»confirmation bias«; Frey, 1986; Fischer & Greitemeyer, 2010), der die Differenz zwischen den gewählten konsistenten und den gewählten inkonsistenten Informationen angibt. Die Personen fühlen sich darin bestätigt, dass es mehr Belege für die getroffene Entscheidung gibt als dagegen. Daraus resultiert eine verzerrte Wahrnehmung zugunsten der konsistenten Information.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 8,
+      "pp_label": "vision_footnote",
+      "score": 0.6375912427902222,
+      "bbox": {
+        "x0": 1056.341064453125,
+        "y0": 453.6134948730469,
+        "x1": 1388.232177734375,
+        "y1": 705.753173828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 155,
+      "polygon": [
+        [
+          1056.0,
+          453.0
+        ],
+        [
+          1056.0,
+          704.0
+        ],
+        [
+          1387.0,
+          704.0
+        ],
+        [
+          1387.0,
+          514.0
+        ],
+        [
+          1380.0,
+          453.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Im Selective-Exposure-Paradigma wird Dissonanz induziert, indem eine Entscheidung zwischen zwei Alternativen getroffen wird. Bei der anschließenden Informationssuche wird klassischerweise beobachtet, dass mehr entscheidungskonsistente als dissonante Informationen ausge-wählt werden (»confirmation bias«).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 6,
+      "pp_label": "paragraph_title",
+      "score": 0.6985499858856201,
+      "bbox": {
+        "x0": 152.84140014648438,
+        "y0": 1347.56494140625,
+        "x1": 241.53448486328125,
+        "y1": 1374.261474609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 173,
+      "polygon": [
+        [
+          152.0,
+          1347.0
+        ],
+        [
+          152.0,
+          1373.0
+        ],
+        [
+          240.0,
+          1373.0
+        ],
+        [
+          240.0,
+          1347.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Beispiel",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.924846351146698,
+      "bbox": {
+        "x0": 149.39413452148438,
+        "y0": 1417.2532958984375,
+        "x1": 1381.6514892578125,
+        "y1": 1817.533935546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 207,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Die Erforschung von Determinanten und Prozessen, die mit dem Phänomen der selektiven Informationssuche (»selective exposure«) in Verbindung stehen, ist von besonderer Wichtigkeit, weil dieses Phänomen mit schwer- wiegenden Risiken verbunden sein kann: Selektive Informationssuche kann dazu führen, dass Personen bei Entscheidungen potenzielle Risiken und Warsignale übersehen, sodass sie Standpunkte aufrecht erhalten, die aufgrund der objektiven Informationslage nicht angemessen oder falsch sind (vgl. Janis, 1982; Johnston, 1996; Schulz-Hardt, 1997). Als politisches Beispiel hierzu dient die Irak-Politik unter dem US-Präsidenten George W. Bush (vgl. Aronson, Wilson, Akert, 2008). Aufgrund einseitiger CIA-Berichte leitete dieser einen Präventivkrieg gegen den Irak ein, da vermutet wurde, dass deren Staatschef Saddam Hussein über Massenvernichtungswaffen verfügte. Obwohl genügend Anzeichen dieser Annahme widersprachen wurde der Krieg fortgesetzt und damit an der Meinung festgehalten. Obwohl man schließlich zu der Erkenntnis kam, dass dieses Vorgehen fehlgeleitet war, da der Irak über keine derartigen Massenvernichtungswaffen verfügte, war die Zerstörung nicht rückgängig zu machen (vgl. Report on the U.S. Intelligence Community’s Prewar Intelligence Assessments on Iraq, 2004).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        7,
+        8
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1788.8858642578125
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 776.7855834960938
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 2017.778564453125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1881.4134521484375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 2724.51953125
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1341.1097412109375
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1941.178466796875
+    }
+  ],
+  "warnungen": [
+    "Blöcke [7, 8] zu #7 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.4403987080004299,
+      "zeitstempel": "2026-09-06T14:31:02.404903Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 12.1323139169981,
+      "zeitstempel": "2026-09-06T14:37:43.518338Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

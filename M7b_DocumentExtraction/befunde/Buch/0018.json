@@ -1,0 +1,636 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 18,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.8331870436668396,
+      "bbox": {
+        "x0": 114.2523193359375,
+        "y0": 78.60653686523438,
+        "x1": 471.8833923339844,
+        "y1": 107.00747680664062,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 5,
+      "polygon": [
+        [
+          114.0,
+          78.0
+        ],
+        [
+          114.0,
+          106.0
+        ],
+        [
+          470.0,
+          106.0
+        ],
+        [
+          470.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1.3 · Methoden der Sozialpsychologie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 13,
+      "pp_label": "number",
+      "score": 0.6369433403015137,
+      "bbox": {
+        "x0": 1387.35302734375,
+        "y0": 36.796905517578125,
+        "x1": 1413.5462646484375,
+        "y1": 83.04049682617188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 29,
+      "polygon": [
+        [
+          1387.0,
+          36.0
+        ],
+        [
+          1387.0,
+          47.0
+        ],
+        [
+          1394.0,
+          82.0
+        ],
+        [
+          1412.0,
+          82.0
+        ],
+        [
+          1412.0,
+          36.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9685746431350708,
+      "bbox": {
+        "x0": 110.01788330078125,
+        "y0": 181.967529296875,
+        "x1": 1014.0999145507812,
+        "y1": 649.3304443359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 55,
+      "polygon": [
+        [
+          118.0,
+          181.0
+        ],
+        [
+          118.0,
+          648.0
+        ],
+        [
+          1013.0,
+          648.0
+        ],
+        [
+          1013.0,
+          181.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "die es erlauben, menschliche Einstellungen oder auch Persönlichkeitseigenschaften aus den Spuren des Verhaltens der Beobachteten zu erschließen. Man spricht hier deshalb auch von »verdeckten« Methoden, da der Forscher selbst nicht an der Beobachtung teilnimmt und das Ergebnis daher auch selbst nicht beeinflussen kann. Robert Cialdini und sein Forscherteam an der Arizona State University haben zahlreiche Studien zum »Littering« (Umweltverschmutzung durch Wegwerfen von Müll) durchgeführt (z. B. Cialdini & Baumann, 1981). So konnten sie beispielsweise feststellen, dass sie den Wahlausgang durch das Zählen der weggeworfenen Wahlpamphlete, welche sie vorher ausgeteilt hatten, vorhersagen konnten, da die Anhänger des Wahlsiegers eher an den Pamphleten festhielten. Einen ähnlichen Ansatz wählte Sam Gosling (2009) von der University of Texas in Austin, welcher den Einfluss des äußeren Zustands von Büro und Schlafzimmer bzw. die jeweilige Einrichtung auf einen Menschen erforschte. Er fand z. B., dass im Büro ein unordentlicher Schreibtisch auf fehlende Gewissenhaftigkeit der jeweiligen Person hindeutet.\nVorteile der Verhaltung beobachtung (und der „Spurnlose“) sind, dass sie sehr",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9652498960494995,
+      "bbox": {
+        "x0": 109.45254516601562,
+        "y0": 649.7504272460938,
+        "x1": 1014.5237426757812,
+        "y1": 986.2268676757812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 88,
+      "polygon": [
+        [
+          109.0,
+          660.0
+        ],
+        [
+          109.0,
+          985.0
+        ],
+        [
+          1013.0,
+          985.0
+        ],
+        [
+          1013.0,
+          660.0
+        ],
+        [
+          937.0,
+          649.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Jewelingser forsoon medcaut.\nVorteile der Verhaltensbeobachtung (und der »Spurenlese«) sind, dass sie sehr realitätsnah, unmittelbar und verhaltensbasiert ist. Als Nachteile hingegen lassen sich festhalten, dass bestimmte Verhaltensweisen (z. B. Intimität und Liebe) nur schwer beobachtbar sind, dass Schlussfolgerungen sehr leicht Verzerrungen unterliegen können (d. h., es liegt oft im Auge des Betrachters, was ein bestimmtes Verhalten ist oder nicht ist, sodass die Beobachter nicht zwangsläufig übereinstimmen müssen), dass die Verhaltensbeobachtung keine Aussagen über Ursache und Wirkung zulässt und sie auch keinen Aufschluss darüber gibt, was Menschen denken und fühlen, bevor, während und nachdem sie ein bestimmtes Verhalten gezeigt haben (vermittelnde psychologische Mediatoren; Prozessvariablen).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 10,
+      "pp_label": "paragraph_title",
+      "score": 0.8597002029418945,
+      "bbox": {
+        "x0": 113.41253662109375,
+        "y0": 1040.5546875,
+        "x1": 660.2288818359375,
+        "y1": 1077.121826171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 110,
+      "polygon": [
+        [
+          113.0,
+          1040.0
+        ],
+        [
+          113.0,
+          1076.0
+        ],
+        [
+          659.0,
+          1076.0
+        ],
+        [
+          659.0,
+          1040.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1.3.3 Quantitative Befragungsmethode",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9651882648468018,
+      "bbox": {
+        "x0": 110.05557250976562,
+        "y0": 1115.5809326171875,
+        "x1": 1013.4227905273438,
+        "y1": 1448.6226806640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 119,
+      "polygon": [
+        [
+          118.0,
+          1115.0
+        ],
+        [
+          110.0,
+          1447.0
+        ],
+        [
+          1012.0,
+          1447.0
+        ],
+        [
+          1012.0,
+          1115.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das Ziel der quantitativen Untersuchungsmethode ist die numerische Darstellung eines empirischen Sachverhaltes, es geht also um Zahlen. Bei dieser Methode werden den Untersuchungspersonen vorwiegend Fragebögen zu bestimmten Sachverhalten vorgelegt. Zum Beispiel werden Eltern gefragt, wie häufig ihre Kinder pro Woche aggressive Medieninhalte (Filme, Videospiele) konsumieren. Diese Angaben werden meist auf Messskalen (z. B. Likertskala: 1 = nicht häufig; 7 = sehr häufig) erfasst. Mittels statistischer Methoden (z. B. Mittelwertvergleich, Korrelationsanalyse, Varianzanalyse, Faktorenanalyse etc.) können diese Skalenwerte dann den entsprechenden psychologischen Konstrukten (z. B. Aggressionspotenzial, prosoziale Einstellung) zugeordnet und im Anschluss daran analysiert werden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9668784737586975,
+      "bbox": {
+        "x0": 110.02571868896484,
+        "y0": 1450.05224609375,
+        "x1": 1013.0294189453125,
+        "y1": 1748.68603515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 158,
+      "polygon": [
+        [
+          110.0,
+          1450.0
+        ],
+        [
+          118.0,
+          1747.0
+        ],
+        [
+          1012.0,
+          1747.0
+        ],
+        [
+          1012.0,
+          1450.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Vorteile dieser Methode liegen in der Quantifizierbarkeit von Aussagen, im relativ geringen Kosten- und Arbeitsaufwand für die Durchführung der Studie sowie in der Möglichkeit der Introspektion (d. h. Personen können auch nach ihren Gedanken und nach ihren Gefühlszuständen befragt werden). Nachteile dieser Methode sind allerdings die leichte Verfälschbarkeit der Antworten (z. B. tendieren Personen dazu, ihre Angaben zu beschönigen), die fehlende Erkennbarkeit von Ursache-Wirkungs-Zusammenhängen und dass Unklarheit darüber besteht, ob den Versuchspersonen die erfragten zentralen psychologischen Prozesse überhaupt bewusst sind oder nicht und sie deshalb die Fragebögen dazu nicht valide beantworten können (vgl. auch Aronson et al., 2008).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.957112193107605,
+      "bbox": {
+        "x0": 109.77734375,
+        "y0": 1749.8497314453125,
+        "x1": 1014.5209350585938,
+        "y1": 1950.6458740234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 180,
+      "polygon": [
+        [
+          117.0,
+          1749.0
+        ],
+        [
+          109.0,
+          1949.0
+        ],
+        [
+          1013.0,
+          1949.0
+        ],
+        [
+          1013.0,
+          1749.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Als Beispiel für diese Art der Datenerhebung kann eine kürzlich publizierte Studie von Franco, Blau und Zimbardo (2011) dienen, welche in einer Online-Untersuchung Personen zu Heldentum und Altruismus befragten. Aus den Antworten (Selbstbericht der befragten Personen) erhielten die Autoren einen Eindruck davon, wie häufig diese Phänomene überhaupt in der Realität auftreten. Viele dieser Untersuchungen werden mittlerweile ökonomisch und kostengünstig online im Internet durchgeführt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.865705132484436,
+      "bbox": {
+        "x0": 1057.686279296875,
+        "y0": 214.57681274414062,
+        "x1": 1372.5089111328125,
+        "y1": 410.9278259277344,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 207,
+      "polygon": [
+        [
+          1057.0,
+          214.0
+        ],
+        [
+          1057.0,
+          409.0
+        ],
+        [
+          1371.0,
+          409.0
+        ],
+        [
+          1371.0,
+          390.0
+        ],
+        [
+          1371.0,
+          379.0
+        ],
+        [
+          1371.0,
+          369.0
+        ],
+        [
+          1371.0,
+          358.0
+        ],
+        [
+          1371.0,
+          214.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Nichtreaktive bzw. verdeckte Methoden der Verhaltensbeobachtung erfolgen ohne direkte Teil- nahme des Forschers. Sie erlauben es, menschliche Einstellungen oder auch Persönlichkeitseigenschaften aus den Spuren des Verhaltens der Beobachteten zu erschließen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9247758984565735,
+      "bbox": {
+        "x0": 1057.0748291015625,
+        "y0": 651.9278564453125,
+        "x1": 1377.385986328125,
+        "y1": 850.2435302734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 234,
+      "polygon": [
+        [
+          1057.0,
+          651.0
+        ],
+        [
+          1057.0,
+          849.0
+        ],
+        [
+          1376.0,
+          849.0
+        ],
+        [
+          1376.0,
+          651.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Verhaltensbeobachtung ist sehr realitätsnah und aussagekräftig für tatsächliches menschliches Verhalten. Allerdings ist die Verhaltensbeobachtung auch sehr anfällig für viele Arten von Verzerrungen und Fehlschlüsse.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.912720799446106,
+      "bbox": {
+        "x0": 1057.2779541015625,
+        "y0": 1118.175048828125,
+        "x1": 1361.716552734375,
+        "y1": 1233.159912109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 249,
+      "polygon": [
+        [
+          1057.0,
+          1118.0
+        ],
+        [
+          1057.0,
+          1232.0
+        ],
+        [
+          1360.0,
+          1232.0
+        ],
+        [
+          1360.0,
+          1118.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das Ziel der quantitativen Unter- suchungsmethode ist die numerische Darstellung eines empirischen Sachverhaltes.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.9015677571296692,
+      "bbox": {
+        "x0": 1057.176513671875,
+        "y0": 1452.6737060546875,
+        "x1": 1383.5501708984375,
+        "y1": 1648.1036376953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 259,
+      "polygon": [
+        [
+          1057.0,
+          1452.0
+        ],
+        [
+          1057.0,
+          1647.0
+        ],
+        [
+          1382.0,
+          1647.0
+        ],
+        [
+          1382.0,
+          1452.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Vorteile der quantitativen Befragungsmethode sind der geringe Kosten- und Arbeitsaufwand sowie die Möglichkeit der Introspektion, ihre Nachteile die leichte Verfälschberkeit sowie die fehlende Einsicht in Ursache und Wirkung.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.8572154641151428,
+      "bbox": {
+        "x0": 1057.6053466796875,
+        "y0": 1753.725341796875,
+        "x1": 1384.0335693359375,
+        "y1": 1838.01171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 274,
+      "polygon": [
+        [
+          1057.0,
+          1753.0
+        ],
+        [
+          1057.0,
+          1837.0
+        ],
+        [
+          1383.0,
+          1837.0
+        ],
+        [
+          1383.0,
+          1753.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die quantitative Befragungsme-\nthode wird heute häufig und kosten-\ngünstig über das Internet eingesetzt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2158.6826171875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1720.218017578125
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1779.9085693359375
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1754.1439208984375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 2030.861328125
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1584.612548828125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 2699.121826171875
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 3596.440185546875
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 2342.6328125
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1243.1181640625
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1221.4368896484375
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1800.3463134765625
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3706643749974319,
+      "zeitstempel": "2026-09-06T14:30:58.490030Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 16.15123491600025,
+      "zeitstempel": "2026-09-06T14:35:52.082857Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

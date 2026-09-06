@@ -1,0 +1,514 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 78,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 2,
+      "pp_label": "header",
+      "score": 0.8440665006637573,
+      "bbox": {
+        "x0": 112.68321228027344,
+        "y0": 78.95553588867188,
+        "x1": 752.4664916992188,
+        "y1": 106.28115844726562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 4,
+      "polygon": [
+        [
+          112.0,
+          78.0
+        ],
+        [
+          112.0,
+          105.0
+        ],
+        [
+          751.0,
+          105.0
+        ],
+        [
+          751.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5.2 · Verschiedene psychologische Erklärungsansätze für Aggression",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 30,
+      "pp_label": "number",
+      "score": 0.6204679012298584,
+      "bbox": {
+        "x0": 1188.99365234375,
+        "y0": 54.792327880859375,
+        "x1": 1218.8126220703125,
+        "y1": 79.40188598632812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 17,
+      "polygon": [
+        [
+          1188.0,
+          54.0
+        ],
+        [
+          1188.0,
+          78.0
+        ],
+        [
+          1217.0,
+          78.0
+        ],
+        [
+          1217.0,
+          54.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "71",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 16,
+      "pp_label": "number",
+      "score": 0.6325414180755615,
+      "bbox": {
+        "x0": 1383.024169921875,
+        "y0": 35.8311767578125,
+        "x1": 1420.39208984375,
+        "y1": 84.1121826171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 25,
+      "polygon": [
+        [
+          1383.0,
+          35.0
+        ],
+        [
+          1383.0,
+          83.0
+        ],
+        [
+          1419.0,
+          83.0
+        ],
+        [
+          1419.0,
+          35.0
+        ],
+        [
+          1406.0,
+          35.0
+        ],
+        [
+          1397.0,
+          35.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 13,
+      "pp_label": "paragraph_title",
+      "score": 0.5222668051719666,
+      "bbox": {
+        "x0": 153.85614013671875,
+        "y0": 181.45880126953125,
+        "x1": 228.831298828125,
+        "y1": 206.83660888671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 49,
+      "polygon": [
+        [
+          153.0,
+          181.0
+        ],
+        [
+          153.0,
+          205.0
+        ],
+        [
+          227.0,
+          205.0
+        ],
+        [
+          227.0,
+          181.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Exkurs",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 11,
+      "pp_label": "paragraph_title",
+      "score": 0.5358688831329346,
+      "bbox": {
+        "x0": 152.52618408203125,
+        "y0": 217.59573364257812,
+        "x1": 914.2021484375,
+        "y1": 246.65426635742188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 57,
+      "polygon": [
+        [
+          152.0,
+          227.0
+        ],
+        [
+          152.0,
+          245.0
+        ],
+        [
+          913.0,
+          245.0
+        ],
+        [
+          913.0,
+          217.0
+        ],
+        [
+          183.0,
+          217.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Experimentelles Vorgehen in einer typischen »Media-Violence-Studie«",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9091600775718689,
+      "bbox": {
+        "x0": 150.20013427734375,
+        "y0": 248.85281372070312,
+        "x1": 1377.2142333984375,
+        "y1": 917.56005859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 101,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Experimentes vorgenen in einer typischen „media-violence-studie“ Versuchsteilnehmende spielen für ca. 30 Minuten entweder ein gewaltverherrlichendes Spiel (Experimental-gruppe) oder ein nicht gewaltverherrlichendes Spiel (Kontrollgruppe). Im Anschluss daran erfolgt die Messung der abhängigen Variable auf unterschiedlichen Ebenen: Es wird gemessen, wie sehr Versuchspersonen bereit sind, einer anderen Person in aggressiver Weise Schaden zuzufügen bzw. dies auch tatsächlich tun (aggressive Verhaltensabsicht bzw. aggressives Verhalten), inwiefern sie aktuell aggressive Emotionen erleben (aggressiver Affekt) oder aber auch wie zugänglich aggressive Gedanken sind (aggressive Kognitionen). Verhaltensmaße für aggressives Verhalten sind beispielsweise, wie lange Versuchspersonen die Hand einer anderen Person in eiskaltes Wasser halten (Fischer & Greitemeyer, 2006), die Menge an extrem scharfer Chilisauce, die Proban-den auf das Butterbrot einer anderen Person geben (Fischer & Greitemeyer, 2006) oder die Höhe der Lautstärke, mit der Probanden einer anderen Personen einen Ton über Kopf-hörer einspielen lassen (Anderson & Dill, 2000). Aggressiver Affekt wird meist über Fragebögen im Selbstbericht erfasst. Neben der Skala zur Erfassung von positivem und negativem Affekt (PANAS, »Positive and Negative Affect Scale«; Watson, Clark & Tellegen, 1988) wird hierbei auch die 10-stufige Skala nach Fischer, Kubitzki, Guter & Frey (2007) verwendet, bei der die Probanden ihren Erregungszustand im Hinblick auf vier verschiedene Adjektive beschreiben. Aggressive Kognitionen werden dagegen meist implizit (unbewusst) über Wortvervollständigungsaufgaben oder mittels Reaktionszeiten gemessen. Bei Wortvervollständigungsaufgaben werden Personen Lückenwörter vorgegeben, mit der Instruktion, diese zu vervollständigen (z. B. W_ff_”). Die Wörter können dabei entweder mit aggressivem (Waffen) oder neutralem Inhalt (Waffel) vervollständigt werden. Man geht davon aus, dass der vorherige Konsum des aggressiven Spiels die Zugänglichkeit aggressiver Gedanken erhöht, was zu einer höheren Anzahl an aggressionsbezogenen Wortvervollständigungen führt. Diese erhöhte kognitive Zugänglichkeit aggressionsbezogener Begriffe macht wiederum tatsächliches aggressives Verhalten wahrscheinlicher (Bushman, 1998).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        5,
+        6,
+        7
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.968164324760437,
+      "bbox": {
+        "x0": 109.29403686523438,
+        "y0": 982.518310546875,
+        "x1": 1016.217041015625,
+        "y1": 1516.24365234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 243,
+      "polygon": [
+        [
+          109.0,
+          982.0
+        ],
+        [
+          117.0,
+          1515.0
+        ],
+        [
+          1015.0,
+          1515.0
+        ],
+        [
+          1015.0,
+          982.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Effekte aggressiver Medien auf aggressives Verhalten, Kognitionen und Emotionen konnten neben aggressiven Videospielen auch für viele andere aggressive Medieninhalte gezeigt werden. So fanden beispielsweise Anderson, Carnagey und Eubanks (2003) heraus, dass aggressive Musiktexte (Lyrics) ebenfalls die Aggressionsbereitschaft des Hörers anhebt. Fischer und Greitemeyer (2006) zeigten, dass speziell sexuell-aggressive und frauenfeindliche Musiktexte aggressives Verhalten von Männern gegenüber Frauen verstärken (dieser Effekt wurde dagegen nicht für Frauen gefunden, die frauenfeindliche Musik gehört hatten). Es mag überraschend sein, aber selbst das Lesen aggressiver Textstellen des Alten Testaments senkt die Schwelle für aggressive Reaktionen (Bushman, Ridge, Das, Key & Busath, 2007). In den visuellen Medien steht allein die Menge des gezeigten Blutes in einem positiven Zusammenhang mit dem Ausmaß aggressiver Reaktionen (Barlett, Harris & Bruey, 2008). Schließlich zeigten Fischer, Kastenmüller und Greitemeyer (2010), dass Konsumenten von aggressiven Videospielen besonders dann aggressiv auf den Spielinhalt reagieren, wenn sie zuvor ihre eigene Spielfigur entwerfen konnten und ihnen diese physisch ähnlich sah (▶ Studie: Identifikation mit dem Spielcharakter fördert aggressives Verhalten).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 10,
+      "pp_label": "vision_footnote",
+      "score": 0.6137494444847107,
+      "bbox": {
+        "x0": 1056.3951416015625,
+        "y0": 985.4395751953125,
+        "x1": 1354.3973388671875,
+        "y1": 1125.0716552734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 252,
+      "polygon": [
+        [
+          1056.0,
+          985.0
+        ],
+        [
+          1056.0,
+          1124.0
+        ],
+        [
+          1353.0,
+          1124.0
+        ],
+        [
+          1353.0,
+          1035.0
+        ],
+        [
+          1346.0,
+          985.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Neben aggressiven Filmen und Videospielen gibt es eine ganze Reihe anderer Medienformate, die aggressives Verhalten fördern können (z. B. Musik, Text).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.7326116561889648,
+      "bbox": {
+        "x0": 152.48291015625,
+        "y0": 1546.9991455078125,
+        "x1": 227.2639617919922,
+        "y1": 1574.2193603515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 254,
+      "polygon": [
+        [
+          152.0,
+          1546.0
+        ],
+        [
+          152.0,
+          1573.0
+        ],
+        [
+          226.0,
+          1573.0
+        ],
+        [
+          226.0,
+          1546.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 14,
+      "pp_label": "paragraph_title",
+      "score": 0.5762319564819336,
+      "bbox": {
+        "x0": 151.26803588867188,
+        "y0": 1583.6307373046875,
+        "x1": 886.3876953125,
+        "y1": 1612.5394287109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 259,
+      "polygon": [
+        [
+          151.0,
+          1583.0
+        ],
+        [
+          151.0,
+          1611.0
+        ],
+        [
+          885.0,
+          1611.0
+        ],
+        [
+          885.0,
+          1583.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Identifikation mit dem Spielcharakter fördert aggressives Verhalten",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9445080757141113,
+      "bbox": {
+        "x0": 149.06036376953125,
+        "y0": 1618.071533203125,
+        "x1": 1377.35009765625,
+        "y1": 1916.7822265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 269,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "In der Studie von Fischer et al. (2010) sollten Versuchspersonen einen virtuellen Boxkampf ausführen In der Experimentalgruppe 1 wurden die Versuchsteilnehmer angewiesen, ihre Spielfigur nach ihrem eigenen physischen Aussehen zu modellieren (gleiche Frisur und Haarfarbe, ähnliche Nase etc.). In der Experimentalgruppe 2 sollten die Versuchspersonen den Boxkampf mit einer standardisierten (immer gleich ausgehenden) Spielfigur bestreiten. Schließlich spielten die Versuchspersonen in der Kontrollgruppe ein nicht aggressives Spiel mit einer Standardspielfigur. Im Anschluss daran wurden die Versuchspersonen jeweils gebeten, scharfe Chilisauce abzufüllen; die jeweilige Menge sollte später eine andere Person auf ihr Sandwich bekommen. Es zeigte sich, dass diejenigen Personen, die den Boxkampf mit ihrer eigenen modellierten Spielfigur bestritten, deutlich mehr Chilisauce abfüllten als solche, die mit einer Standardfigur geboxt hatten (◼ Abb. 5.4). Es scheint also nicht nur die Liebe, sondern auch der Hass durch den Magen zu gehen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        12,
+        13
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2114.426025390625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 479.0531311035156
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1292.458740234375
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1515.5318603515625
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1598.8729248046875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1878.591552734375
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1281.0059814453125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1911.5177001953125
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1806.558349609375
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 641.9306030273438
+    }
+  ],
+  "warnungen": [
+    "Blöcke [5, 6, 7] zu #5 (text) zusammengeführt.",
+    "Blöcke [12, 13] zu #10 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.39735266600109753,
+      "zeitstempel": "2026-09-06T14:31:22.064180Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 14.713582500000484,
+      "zeitstempel": "2026-09-06T14:48:18.475654Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

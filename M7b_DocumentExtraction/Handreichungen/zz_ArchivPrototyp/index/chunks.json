@@ -1,0 +1,271 @@
+{
+  "einbettungsmodell": "text-embedding-multilingual-e5-large-instruct",
+  "aufgabe": "Given a question about a textbook page, retrieve the passage that answers it",
+  "ziel_zeichen": 1200,
+  "chunks": [
+    {
+      "id": "tietze:0:000",
+      "quelle_datei": "HalbleiterSchaltungstechnik_TietzeSchenk_2002_Extracted.pdf",
+      "seite": 0,
+      "block_ids": [
+        3,
+        4,
+        5
+      ],
+      "strom": "haupt",
+      "text_format": "klartext",
+      "ueberschriften": [],
+      "text": "Abb. 4.158. Rauschquellen eines Bipolartransistors, eines Mosfets und eines ohmschen Widerstands\n\nRauschquellen in integrierten Schaltungen: Das Rauschen integrierter Schaltungen wird durch die Transistoren und die ohmschen Widerstände verursacht; Kapazitäten und Induktivitäten sind rauschfrei. Abbildung 4.158 zeigt die Rauschquellen eines Bipolar-transistors, eines Mosfets und eines ohmschen Widerstands.\n\nOhmscher Widerstand: Bei ohmschen Widerständen verwenden wir bevorzugt die Darstellung mit einer Rauschstromquelle mit der Rauschdichte:",
+      "bbox": [
+        85.84617614746094,
+        528.4686889648438,
+        1057.906005859375,
+        837.774658203125
+      ],
+      "render_dpi": 200
+    },
+    {
+      "id": "tietze:0:001",
+      "quelle_datei": "HalbleiterSchaltungstechnik_TietzeSchenk_2002_Extracted.pdf",
+      "seite": 0,
+      "block_ids": [
+        6
+      ],
+      "strom": "haupt",
+      "text_format": "latex",
+      "ueberschriften": [],
+      "text": "$$\n|\\underline{{i}}_{r,R}|^{2}=\\frac{4k T}{R}\n$$",
+      "bbox": [
+        129.49819946289062,
+        858.7174682617188,
+        309.9735412597656,
+        926.1011962890625
+      ],
+      "render_dpi": 200
+    },
+    {
+      "id": "tietze:0:002",
+      "quelle_datei": "HalbleiterSchaltungstechnik_TietzeSchenk_2002_Extracted.pdf",
+      "seite": 0,
+      "block_ids": [
+        7,
+        8,
+        9
+      ],
+      "strom": "haupt",
+      "text_format": "klartext",
+      "ueberschriften": [],
+      "text": "Damit wird allerdings nur das thermische Rauschen eines idealen Widerstands erfasst; reale Widerstände in integrierten Schaltungen können je nach Ausführung eine geringfügig bis deutlich höhere Rauschdichte aufweisen.\n\nBipolartransistor: Für einen Bipolartransistor gilt nach (2.49) und (2.50) im Bereich des weißen Rauschens, d.h. für \\(f_{g(1/f)} < f < f_T / \\sqrt{\\beta} \\approx f_T / 10\\):\n\n$f_{g(1/f)}<f<f_{T}/\\sqrt{\\beta}\\approx f_{T}/10;$",
+      "bbox": [
+        88.68617248535156,
+        945.247802734375,
+        1057.533447265625,
+        1111.4068603515625
+      ],
+      "render_dpi": 200
+    },
+    {
+      "id": "tietze:0:003",
+      "quelle_datei": "HalbleiterSchaltungstechnik_TietzeSchenk_2002_Extracted.pdf",
+      "seite": 0,
+      "block_ids": [
+        10
+      ],
+      "strom": "haupt",
+      "text_format": "latex",
+      "ueberschriften": [],
+      "text": "$$\n|\\underline{{u}}_{r,T}|^{2}=\\frac{2k T U_{T}}{I_{C,A}}+4k T R_{B}=\\frac{2k T}{S}+4k T R_{B}\n$$",
+      "bbox": [
+        131.09603881835938,
+        1126.9764404296875,
+        687.2965087890625,
+        1199.2601318359375
+      ],
+      "render_dpi": 200
+    },
+    {
+      "id": "tietze:0:004",
+      "quelle_datei": "HalbleiterSchaltungstechnik_TietzeSchenk_2002_Extracted.pdf",
+      "seite": 0,
+      "block_ids": [
+        11
+      ],
+      "strom": "haupt",
+      "text_format": "latex",
+      "ueberschriften": [],
+      "text": "$$\n|\\underline{{i}}_{r,T}|^{2}=\\frac{2q I_{C,A}}{\\beta}=\\frac{2k T S}{\\beta}\n$$",
+      "bbox": [
+        133.96315002441406,
+        1212.98828125,
+        467.7569274902344,
+        1284.633544921875
+      ],
+      "render_dpi": 200
+    },
+    {
+      "id": "tietze:0:005",
+      "quelle_datei": "HalbleiterSchaltungstechnik_TietzeSchenk_2002_Extracted.pdf",
+      "seite": 0,
+      "block_ids": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "strom": "haupt",
+      "text_format": "klartext",
+      "ueberschriften": [],
+      "text": "Dabei wird \\(S = I_{C,A}/U_{T}\\) und \\(U_{T} = kT/q\\) verwendet. Wir beschränken uns hier auf den Bereich kleiner und mittlerer Ströme; dadurch entfällt der dritte Term in (2.49). Man erkennt, dass ein rauscharmer Bipolartransistor einen kleinen Basisbahnwiderstand \\(R_{B}\\) und eine hohe Stromverstärkung \\(\\beta\\) aufweisen muss. Während die Stromverstärkung durch die Technologie vorgegeben ist, kann man den Basisbahnwiderstand über die Skalierung beeinflussen: \\(R_{B}\\) ist im allgemeinen umgekehrt proportional zur Größe des Transistors. Demnach kann man die Rauschspannungsdichte im Bereich mittlerer Ströme durch Vergrößern des Transistors verringern. Das geht allerdings zu Lasten der Bandbreite, da die Kapazitäten des Transistors zunehmen, während die Steilheit gleich bleibt.\n\n$S=I_{C,A}/U_{T}$\n\n$U_{T}=k T/q$\n\n$R_{B}$\n\n$\\beta$\n\n$R_{B}$\n\nAbbildung 4.159 zeigt die Rauschzahl eines Bipolartransistors mit \\(\\beta = 100\\) und \\(R_B = 10\\Omega\\) in der \\(I_{C,A} - R_g\\)–Ebene. Durch Einsetzen der Rauschdichten in (4.192) und (4.193)\n\n$\\beta=100$\n\n$R_{B}=$\n\n$I_{C,A}-R_{g}-\\mathrm{Ebene}.$",
+      "bbox": [
+        90.86952209472656,
+        1299.1895751953125,
+        1057.31982421875,
+        1658.020263671875
+      ],
+      "render_dpi": 200
+    },
+    {
+      "id": "zimbardo:0:000",
+      "quelle_datei": "Zimbardo_Psychologie_18Aufl_Extracted.pdf",
+      "seite": 0,
+      "block_ids": [
+        1
+      ],
+      "strom": "haupt",
+      "text_format": "otsl",
+      "ueberschriften": [],
+      "text": "<fcel>A. Eben merklich längere Striche<fcel>B. Standard-strichlänge<fcel>L_{a} - L_{b} = \\(\\Delta L\\)<nl><fcel>11 mm<fcel>10 mm<fcel>11,0 - 10,0 = 1,0<nl><fcel>16,5 mm<fcel>15 mm<fcel>16,5 - 15,0 = 1,5<nl><fcel>22 mm<fcel>20 mm<fcel>22,0 - 20,0 = 2,0<nl><fcel>27,5 mm<fcel>25 mm<fcel>27,5 - 25,0 = 2,5<nl>",
+      "bbox": [
+        357.2670593261719,
+        199.13636779785156,
+        1284.9688720703125,
+        1114.0621337890625
+      ],
+      "render_dpi": 200
+    },
+    {
+      "id": "zimbardo:0:001",
+      "quelle_datei": "Zimbardo_Psychologie_18Aufl_Extracted.pdf",
+      "seite": 0,
+      "block_ids": [
+        2
+      ],
+      "strom": "haupt",
+      "text_format": "klartext",
+      "ueberschriften": [],
+      "text": "$L_{a}-L_{b}=\\Delta L$",
+      "bbox": [
+        1082.4388427734375,
+        218.79830932617188,
+        1232.0950927734375,
+        257.4336242675781
+      ],
+      "render_dpi": 200
+    },
+    {
+      "id": "zimbardo:0:002",
+      "quelle_datei": "Zimbardo_Psychologie_18Aufl_Extracted.pdf",
+      "seite": 0,
+      "block_ids": [
+        3
+      ],
+      "strom": "haupt",
+      "text_format": "datenreihe",
+      "ueberschriften": [],
+      "text": "Standardstrichlänge (L_b) in Millimetern | Unterschiedsschwelle (ΔL/L_b = 0,1)\n6 | 0.5\n10 | 1.0\n15 | 1.5\n20 | 2.0\n25 | 2.5",
+      "bbox": [
+        547.894775390625,
+        656.9318237304688,
+        1284.2506103515625,
+        1110.498291015625
+      ],
+      "render_dpi": 200
+    },
+    {
+      "id": "zimbardo:0:003",
+      "quelle_datei": "Zimbardo_Psychologie_18Aufl_Extracted.pdf",
+      "seite": 0,
+      "block_ids": [
+        4,
+        5
+      ],
+      "strom": "haupt",
+      "text_format": "klartext",
+      "ueberschriften": [],
+      "text": "Abbildung 4.8: Eben merkliche Unterschiede und Weber‘sches Gesetz. Angenommen, Sie führen ein Experiment durch, dessen Teilnehmer angeben sollen, ob zwei Striche gleich oder verschieden lang sind. Je länger der Referenzstrich, desto größer ist die hinzu-zufügende Länge (ΔL) von Vergleichsstrichen, um einen eben merklichen Unterschied zu erzielen. Die Unterschiedsschwelle ist die jeweils zu addierende Länge, damit in je der Hälfte der Fälle ein Unterschied erkannt wird. Wenn dieser jeweilige Zuwachs gegen die steigende Länge der Referenzstriche abgetragen wird, bleibt der Quotient gleich. Der benötigte Zuwachs ist immer ein Zehntel der Standardlänge. Die Beziehung ist linear, was sich in der Grafik als Gerade ausdrückt. Wir können vorhersagen, dass ∆L bei einem Referenzstrich von 5 Millimetern 0,5 Millimeter betragen wird.\n\nWeber‘sche Konstanten für ausgewählte Reizdimensionen",
+      "bbox": [
+        199.08338928222656,
+        1138.8367919921875,
+        1444.2237548828125,
+        1565.4688720703125
+      ],
+      "render_dpi": 200
+    },
+    {
+      "id": "zimbardo:0:004",
+      "quelle_datei": "Zimbardo_Psychologie_18Aufl_Extracted.pdf",
+      "seite": 0,
+      "block_ids": [
+        6
+      ],
+      "strom": "haupt",
+      "text_format": "otsl",
+      "ueberschriften": [],
+      "text": "<fcel>Reizdimension<fcel>Weber’sche Konstante (k)<nl><fcel>Schallfrequenz<fcel>0,003<nl><fcel>Lichtintensität<fcel>0,01<nl><fcel>Geruchs-konzentration<fcel>0,07<nl><fcel>Druckintensität<fcel>0,14<nl><fcel>Schallintensität<fcel>0,15<nl><fcel>Geschmacks-konzentration<fcel>0,20<nl>",
+      "bbox": [
+        237.9770050048828,
+        1593.2706298828125,
+        763.171630859375,
+        1959.390869140625
+      ],
+      "render_dpi": 200
+    },
+    {
+      "id": "zimbardo:0:005",
+      "quelle_datei": "Zimbardo_Psychologie_18Aufl_Extracted.pdf",
+      "seite": 0,
+      "block_ids": [
+        7
+      ],
+      "strom": "haupt",
+      "text_format": "klartext",
+      "ueberschriften": [],
+      "text": "Töne besser unterscheiden kann als die Intensität zweier Lichtpunkte. Diese wiederum sind durch einen kleineren EMU besser zu entdecken als Geruchs- oder Geschmacksunterschiede. Ihre Getränkefabrik bräuchte eine relativ große Menge zusätzlichen Zuckers, um eine merklich süßere Cola zu produzieren!",
+      "bbox": [
+        833.2445068359375,
+        1409.405517578125,
+        1442.25732421875,
+        1619.77392578125
+      ],
+      "render_dpi": 200
+    },
+    {
+      "id": "zimbardo:0:006",
+      "quelle_datei": "Zimbardo_Psychologie_18Aufl_Extracted.pdf",
+      "seite": 0,
+      "block_ids": [
+        8,
+        9
+      ],
+      "strom": "haupt",
+      "text_format": "klartext",
+      "ueberschriften": [
+        "4.2.2 Von physikalischen zu mentalen Ereignissen"
+      ],
+      "text": "4.2.2 Von physikalischen zu mentalen Ereignissen\n\nUnser Überblick über die Psychophysik hat Sie vielleicht auf das grundlegende Mysterium von Empfindungen aufmerksam gemacht: Wie werden aus physikalischen Energien spezifische psychische Erfahrungen? Wie entsteht beispielsweise aus Licht unterschiedlicher physikalischer Wellenlängen die Er-",
+      "bbox": [
+        834.4879150390625,
+        1683.356689453125,
+        1443.4306640625,
+        2000.908203125
+      ],
+      "render_dpi": 200
+    }
+  ]
+}

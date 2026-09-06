@@ -1,0 +1,518 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 62,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 6,
+      "pp_label": "number",
+      "score": 0.6367208361625671,
+      "bbox": {
+        "x0": 116.04301452636719,
+        "y0": 80.4185791015625,
+        "x1": 144.7554473876953,
+        "y1": 102.6240234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 2,
+      "polygon": [
+        [
+          116.0,
+          80.0
+        ],
+        [
+          116.0,
+          101.0
+        ],
+        [
+          143.0,
+          101.0
+        ],
+        [
+          143.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "54",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8383988738059998,
+      "bbox": {
+        "x0": 192.18528747558594,
+        "y0": 78.52117919921875,
+        "x1": 801.2997436523438,
+        "y1": 106.70867919921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 18,
+      "polygon": [
+        [
+          192.0,
+          78.0
+        ],
+        [
+          192.0,
+          105.0
+        ],
+        [
+          800.0,
+          105.0
+        ],
+        [
+          800.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 4 • Prosoziales Verhalten, Hilfeverhalten und Zivilcourage",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.5643453001976013,
+      "bbox": {
+        "x0": 128.408447265625,
+        "y0": 287.1795959472656,
+        "x1": 439.6651306152344,
+        "y1": 452.6274108886719,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 73,
+      "polygon": [
+        [
+          128.0,
+          287.0
+        ],
+        [
+          128.0,
+          451.0
+        ],
+        [
+          438.0,
+          451.0
+        ],
+        [
+          438.0,
+          287.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Gemäß der Evolutionstheorie helfen Menschen bevorzugt ihren eigenen Verwandten, was mit der Bevorzugung bzw. Weitergabe von eigenen Genen erklärt werden kann.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.8547508120536804,
+      "bbox": {
+        "x0": 506.7415771484375,
+        "y0": 174.86761474609375,
+        "x1": 988.1112060546875,
+        "y1": 243.56585693359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 74,
+      "polygon": [
+        [
+          506.0,
+          174.0
+        ],
+        [
+          506.0,
+          242.0
+        ],
+        [
+          987.0,
+          242.0
+        ],
+        [
+          987.0,
+          174.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "4.4.1 Evolutionspsychologische bzw. biologische Perspektive",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9461511969566345,
+      "bbox": {
+        "x0": 503.2630615234375,
+        "y0": 283.02264404296875,
+        "x1": 1407.166259765625,
+        "y1": 515.7499389648438,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 99,
+      "polygon": [
+        [
+          503.0,
+          283.0
+        ],
+        [
+          503.0,
+          514.0
+        ],
+        [
+          1406.0,
+          514.0
+        ],
+        [
+          1406.0,
+          283.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Evolutionspsychologie geht davon aus, dass die meisten Verhaltensweisen und ihre zugrunde liegenden psychischen Prozesse eine Funktion in der erfolgreichen Weitergabe von Genen haben (Buss, 2005; Darwin, 1959; Dawkins, 1976). Aus evolutionspsychologischer Sicht ist es daher keine Überraschung, dass Personen ihren Verwandten eher helfen als nicht verwandten Personen – unabhängig davon, ob die verwandte Person selbst an der Notlage schuld ist oder nicht (Hamilton, 1964; ▶ Studie: Hilfeverhalten bei Verwandten).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 10,
+      "pp_label": "paragraph_title",
+      "score": 0.6221725344657898,
+      "bbox": {
+        "x0": 153.6115264892578,
+        "y0": 547.3792114257812,
+        "x1": 226.89410400390625,
+        "y1": 573.6415405273438,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 123,
+      "polygon": [
+        [
+          153.0,
+          547.0
+        ],
+        [
+          153.0,
+          572.0
+        ],
+        [
+          225.0,
+          572.0
+        ],
+        [
+          225.0,
+          547.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.8691409826278687,
+      "bbox": {
+        "x0": 151.0531463623047,
+        "y0": 617.3189086914062,
+        "x1": 1382.0650634765625,
+        "y1": 882.7368774414062,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 166,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "In einer klassischen Studie manipulierten Burnstein, Crandall und Kitayama (1994) Folgendes: (a) den Verwandtschaftsgrad (enge vs. entfernte Verwandtschaft), (b) den Gesundheitszustand des Verwandten (gut vs. schlecht) und (c) die Art der Hilfesituation (alltägliche Situation vs. lebensbedrohliche Situation). Als abhängige Variable wurde erfasst, wie sehr die Versuchspersonen gewillt sind, zu helfen. Es fand sich, dass die Versuchspersonen stärker bereit dazu sind, engen Verwandten zu helfen als weiter entfernt verwandten Personen. Darüber hinaus zeigte sich, dass Personen kranken Verwandten eher helfen als gesunden Verwandten, wenn es sich um eine alltägliche Hilfesituation handelt. Geht es allerdings um Leben und Tod, so helfen Personen den gesunden Verwandten eher als den kranken Verwandten.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        6,
+        7
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9370746612548828,
+      "bbox": {
+        "x0": 127.87017822265625,
+        "y0": 950.7042236328125,
+        "x1": 459.4164123535156,
+        "y1": 1400.7755126953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 241,
+      "polygon": [
+        [
+          127.0,
+          950.0
+        ],
+        [
+          127.0,
+          1399.0
+        ],
+        [
+          458.0,
+          1399.0
+        ],
+        [
+          458.0,
+          950.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Burnstein et al. (1994) sehen die erfolgreiche Genweitergabe als entscheidende Ursache für Hilfe-leistung an: Sie konnten nämlich zeigen, dass engen Verwandten (höhere genetische Gemeinsamkeit) eher geholfen wird als weiter entfernten Verwandten. Zusätzlich ist in lebensbedrohlichen Situationen die Hilfeleistung gegenüber gesunden Verwandten höher als gegenüber kranken. Entgegen der rein genetischen Sichtweise fanden Korchmaros und Kenny (2001), dass auch emotionale Nähe zur Erklärung dieses Effekts wichtig ist.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.9009254574775696,
+      "bbox": {
+        "x0": 128.85360717773438,
+        "y0": 1519.626953125,
+        "x1": 460.8586730957031,
+        "y1": 1688.73583984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 254,
+      "polygon": [
+        [
+          128.0,
+          1519.0
+        ],
+        [
+          128.0,
+          1687.0
+        ],
+        [
+          459.0,
+          1687.0
+        ],
+        [
+          459.0,
+          1529.0
+        ],
+        [
+          452.0,
+          1519.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Gegen den evolutionspsychologischen Erklärungsansatz spricht, dass der Befund nur im Nachhinein und nicht kausal erklärt werden kann. Des Weiteren tritt Hilfeleistung nicht nur gegenüber Verwandten auf.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9716318249702454,
+      "bbox": {
+        "x0": 503.2532653808594,
+        "y0": 948.1112060546875,
+        "x1": 1407.3719482421875,
+        "y1": 1515.4801025390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 266,
+      "polygon": [
+        [
+          503.0,
+          948.0
+        ],
+        [
+          503.0,
+          1514.0
+        ],
+        [
+          1406.0,
+          1514.0
+        ],
+        [
+          1406.0,
+          948.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Dieser Befund wurde evolutionär erklärt: Generell wird engen Verwandten eher geholfen als entfernt verwandten Personen, da mit Ersteren höhere genetische Gemeinsamkeit besteht und so die Weiterverbreitung der eigenen Gene wahrscheinlicher ist als beientfernt verwandten Personen. Derselbe Grund erklärt auch, warum in lebensbedrohlichen Situationen gesunden Verwandten eher geholfen wird als kranken Verwandten: Gelingt es Personen nämlich, gesunde Verwandte vor dem Tod zu bewahren, so erhöht sich die Wahrscheinlichkeit dafür, dass das eigene Genom erfolgreich weitergegeben wird. Diese erfolgreiche Weitergabe von eigenen Genen ist bei kranken Verwandten weniger zu erwarten, weshalb diesen in lebensbedrohlichen Situationen auch seltener geholfen wird im Vergleich zu gesunden Verwandten (s. Burnstein et al., 1994). Korcharmos und Kenny (2001) wiederholten die Studie von Burnstein et al. (1994) mit ähnlichen Ergebnissen. Darüber hinaus konnten die Autoren aber auch zeigen, dass der Effekt, engeren Verwandten mehr zu helfen als weiter entfernten Verwandten, durch emotionale Nähe vermittelt wird. Man verspürt gegenüber engen Verwandten mehr emotionale Nähe und hilft diesen deshalb auch mehr. Dieser Befund zeigt, dass es bei der Erklärung dieses Effekts also nicht nur um genetische Überlegungen, sondern auch um emotionale Prozesse geht (Hamilton, 1964).\nNicht zuletzt aufgrund solcher Befunds wird am evolutionären Erklärungssatz",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9586529731750488,
+      "bbox": {
+        "x0": 503.39874267578125,
+        "y0": 1515.9515380859375,
+        "x1": 1408.0263671875,
+        "y1": 1818.0860595703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 288,
+      "polygon": [
+        [
+          503.0,
+          1515.0
+        ],
+        [
+          503.0,
+          1817.0
+        ],
+        [
+          799.0,
+          1817.0
+        ],
+        [
+          1407.0,
+          1817.0
+        ],
+        [
+          1407.0,
+          1515.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Un emotionale l'وزعشغت (Hamilton, 1964).\nNicht zuletzt aufgrund solcher Befunde wird am evolutionären Erklärungsansatz für prosoziales Verhalten auch Kritik geübt. So können beispielsweise Befunde nur im Nachhinein und ohne Kausalität evolutionär erklärt werden, da evolutionäre Prozesse aufgrund ihrer extrem langen Dauer im Labor nicht nachgestellt werden können. Darüber hinaus ist es auch so, dass Hilfeverhalten ja nicht nur gegenüber Verwandten auftritt. Menschen helfen täglich verschiedensten fremden Personen. Dies beginnt bereits damit, einer Mutter dabei zu helfen, ihren Kinderwagen die Treppen hinunter zu tragen oder aber für Opfer von Naturkatastrophen zu spenden – was Menschen glücklicherweise sehr häufig tun.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1058.8035888671875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2235.263671875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 691.7227783203125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1291.63330078125
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1813.433349609375
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1356.6143798828125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 2128.908203125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2000.7886962890625
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 956.2630004882812
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1731.098876953125
+    }
+  ],
+  "warnungen": [
+    "Blöcke [6, 7] zu #6 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.42125462500189315,
+      "zeitstempel": "2026-09-06T14:31:15.853992Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 14.148308499999985,
+      "zeitstempel": "2026-09-06T14:44:58.257592Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

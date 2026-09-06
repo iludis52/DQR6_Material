@@ -1,0 +1,456 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 165,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.7041965126991272,
+      "bbox": {
+        "x0": 116.69383239746094,
+        "y0": 78.52093505859375,
+        "x1": 1205.914794921875,
+        "y1": 107.21685791015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "162 Kapitel 10 · Sozialpsychologie der menschlichen Existenz: Positive Psychologie und Psychologie der Religion",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 6,
+      "pp_label": "vision_footnote",
+      "score": 0.8380476832389832,
+      "bbox": {
+        "x0": 127.27992248535156,
+        "y0": 183.33770751953125,
+        "x1": 460.96221923828125,
+        "y1": 379.58404541015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 88,
+      "polygon": [
+        [
+          127.0,
+          183.0
+        ],
+        [
+          127.0,
+          378.0
+        ],
+        [
+          459.0,
+          378.0
+        ],
+        [
+          459.0,
+          204.0
+        ],
+        [
+          452.0,
+          183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "☐ Abb. 10.4 Die Terrormanagement-Theorie. a Kulturelle Weltsicht bzw. hohes Selbstwertgefühl als Coping-Möglichkeiten bei bestehender Todesangst;☐ b kulturelle Weltsicht bzw. hohes Selbstwertgefühl als Schutz vor zukünftiger Todesangst",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 10,
+      "pp_label": "vision_footnote",
+      "score": 0.7297138571739197,
+      "bbox": {
+        "x0": 128.1235809326172,
+        "y0": 952.2794189453125,
+        "x1": 439.33050537109375,
+        "y1": 1148.7767333984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 118,
+      "polygon": [
+        [
+          128.0,
+          952.0
+        ],
+        [
+          128.0,
+          1147.0
+        ],
+        [
+          438.0,
+          1147.0
+        ],
+        [
+          438.0,
+          952.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Mortalitätssalienz (und damit verbunden auch Terrorsalienz) lösen Investitionen in kulturelle Werte sowie den Selbsterhalt aus, um dadurch indirekt nach Unsterblichkeit zu streben. Dies wird auch als »worldview defense« bezeichnet.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 11,
+      "pp_label": "vision_footnote",
+      "score": 0.6000459790229797,
+      "bbox": {
+        "x0": 128.18511962890625,
+        "y0": 1552.391357421875,
+        "x1": 458.7730407714844,
+        "y1": 1720.182861328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 134,
+      "polygon": [
+        [
+          128.0,
+          1552.0
+        ],
+        [
+          128.0,
+          1719.0
+        ],
+        [
+          457.0,
+          1719.0
+        ],
+        [
+          457.0,
+          1552.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Religion ist grundlegend für viele kulturelle Glaubenssätze (Wertevermittlung, Leben nach dem Tod etc.). Daher kann sie Schutz bieten im Umgang mit Ängsten vor dem eigenen Tod.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 0,
+      "pp_label": "image",
+      "score": 0.9499536156654358,
+      "bbox": {
+        "x0": 508.3098449707031,
+        "y0": 186.73834228515625,
+        "x1": 1404.7574462890625,
+        "y1": 652.9340209960938,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 153,
+      "polygon": [
+        [
+          508.0,
+          186.0
+        ],
+        [
+          508.0,
+          631.0
+        ],
+        [
+          524.0,
+          651.0
+        ],
+        [
+          1396.0,
+          651.0
+        ],
+        [
+          1403.0,
+          217.0
+        ],
+        [
+          1388.0,
+          186.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0165_04_image.png"
+    },
+    {
+      "id": 5,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9582096934318542,
+      "bbox": {
+        "x0": 503.11859130859375,
+        "y0": 717.6856689453125,
+        "x1": 1406.2366943359375,
+        "y1": 947.7679443359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 205,
+      "polygon": [
+        [
+          503.0,
+          717.0
+        ],
+        [
+          503.0,
+          946.0
+        ],
+        [
+          1405.0,
+          946.0
+        ],
+        [
+          1405.0,
+          717.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "verstärkt Anstrengungen unternommen werden, den eigenen Selbstwert zu stärken (z. B. die eigene schlechte Leistung external zu attribuieren, also äußeren Faktoren und nicht sich selbst zuzuschreiben; Mikulincer & Florian, 2002). Insofern kann ein positives Selbstbild bzw. ein hohes Selbstwertgefühl die eigene Angst verringern und auch vor zukünftiger Angst schützen. Neben dem Streben nach kulturellen Normen dient somit auch das Selbstwertgefühl als »Angstpuffer« bzgl. der eigenen Sterblichkeit (☑ Abb. 10.4).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9675381779670715,
+      "bbox": {
+        "x0": 503.3288879394531,
+        "y0": 949.4376220703125,
+        "x1": 1407.8648681640625,
+        "y1": 1483.5638427734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 238,
+      "polygon": [
+        [
+          503.0,
+          949.0
+        ],
+        [
+          503.0,
+          1482.0
+        ],
+        [
+          1406.0,
+          1482.0
+        ],
+        [
+          1406.0,
+          949.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "(Add. 10.4).\nWas hat dies nun mit Mortalitätssalienz bei terroristischen Bedrohungen zu tun? Wie in einer Reihe von Studien gezeigt werden konnte (zum Überblick: Solomon, Greenberg, & Pyszczynski, 2004), verstärkt Mortalitätssalienz das Bemühen, eigene Glaubenssätze aufrechtzuerhalten und die Selbstachtung zu stärken. Menschen investieren sozusagen psychologisch in eine wörtliche (religiöser Glaube an ein ewiges Leben) oder symbolische Unsterblichkeit (kulturelles Erbe wie Kunst, Musik etc.), um die eigenen Ängste abzubauen. Dies bezeichnet man auch als »worldview defense«, also wörtlich übersetzt die »Verteidigung der eigenen Weltsicht«. Ist Mortalitätssalienz hoch (z.B. wenn die Probanden an ihren eigenen Tod denken oder an Terroranschläge wie den 9. September erinnert werden), so betrachtet man beispielsweise andere positiver, die im Einklang mit den (eigenen) kulturellen Normen leben und diejenigen negativer, die diese Normen missachten (Rosenblatt, Greenberg, Solomon, Pyszczynski, & Lyon, 1989). Auch das eigene Verhalten ist stärker an kulturellen Normen orientiert, was sich z.B. in erhöhter Toleranz, Fairness oder Großzügigkeit gegenüber anderen zeigen kann (Schimel, Greenberg & Pyszczynski, 2002).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 5,
+      "pp_label": "paragraph_title",
+      "score": 0.8168001174926758,
+      "bbox": {
+        "x0": 504.9034423828125,
+        "y0": 1510.34814453125,
+        "x1": 955.1315307617188,
+        "y1": 1541.48291015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 279,
+      "polygon": [
+        [
+          504.0,
+          1510.0
+        ],
+        [
+          504.0,
+          1520.0
+        ],
+        [
+          512.0,
+          1540.0
+        ],
+        [
+          954.0,
+          1540.0
+        ],
+        [
+          954.0,
+          1510.0
+        ],
+        [
+          805.0,
+          1510.0
+        ],
+        [
+          571.0,
+          1510.0
+        ],
+        [
+          565.0,
+          1510.0
+        ],
+        [
+          556.0,
+          1510.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Von Terrormanagement zu Religion",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9595499634742737,
+      "bbox": {
+        "x0": 503.1387023925781,
+        "y0": 1549.3592529296875,
+        "x1": 1406.9288330078125,
+        "y1": 1815.6778564453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 284,
+      "polygon": [
+        [
+          503.0,
+          1560.0
+        ],
+        [
+          503.0,
+          1814.0
+        ],
+        [
+          1405.0,
+          1814.0
+        ],
+        [
+          1405.0,
+          1549.0
+        ],
+        [
+          511.0,
+          1549.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Wir wissen nun, dass die kulturelle Weltsicht in der TMT als ein wichtiger Baustein zur Bewältigung von Ängsten, die mit dem Tod verbunden sind, angesehen wird. Religion stellt selbst eine Grundlage für kulturelle Glaubenssätze dar, indem sie Regeln bzw. Werte zur Orientierung vorgibt, wichtig bei der Sinngebung ist und – als wohl wichtigsten Punkt – den Glauben an ein Leben nach dem Tod vermittelt. Insofern übernimmt Religion eine Schutzfunktion im Umgang mit der Angst vor dem Tod (Jonas & Fischer, 2006). Aber wie kann man das messen? Hierzu der ▶ Exkurs: Messung von »Worldview Defense« in der TMT.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2747.694091796875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1906.3494873046875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1790.124755859375
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1096.4429931640625
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 2537.909912109375
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1636.4444580078125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1885.6092529296875
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 946.1058349609375
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.41692041699934634,
+      "zeitstempel": "2026-09-06T14:31:56.397316Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 9.89860150000095,
+      "zeitstempel": "2026-09-06T15:06:20.475043Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

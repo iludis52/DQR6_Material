@@ -1,0 +1,742 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 168,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8463265299797058,
+      "bbox": {
+        "x0": 113.92774963378906,
+        "y0": 77.51034545898438,
+        "x1": 652.7927856445312,
+        "y1": 106.80776977539062,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 10,
+      "polygon": [
+        [
+          113.0,
+          77.0
+        ],
+        [
+          113.0,
+          105.0
+        ],
+        [
+          651.0,
+          105.0
+        ],
+        [
+          651.0,
+          77.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.3 · Religion doch nicht nur als »the bright side of life«?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 21,
+      "pp_label": "number",
+      "score": 0.5614949464797974,
+      "bbox": {
+        "x0": 1183.499267578125,
+        "y0": 53.351043701171875,
+        "x1": 1226.6256103515625,
+        "y1": 80.15286254882812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 36,
+      "polygon": [
+        [
+          1183.0,
+          53.0
+        ],
+        [
+          1183.0,
+          79.0
+        ],
+        [
+          1225.0,
+          79.0
+        ],
+        [
+          1225.0,
+          53.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "165",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 15,
+      "pp_label": "number",
+      "score": 0.7680788636207581,
+      "bbox": {
+        "x0": 1368.7373046875,
+        "y0": 33.20562744140625,
+        "x1": 1438.960205078125,
+        "y1": 84.87054443359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 50,
+      "polygon": [
+        [
+          1368.0,
+          33.0
+        ],
+        [
+          1368.0,
+          83.0
+        ],
+        [
+          1437.0,
+          83.0
+        ],
+        [
+          1437.0,
+          33.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9607524275779724,
+      "bbox": {
+        "x0": 110.07527923583984,
+        "y0": 183.15103149414062,
+        "x1": 1012.8038330078125,
+        "y1": 451.8798522949219,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 84,
+      "polygon": [
+        [
+          110.0,
+          183.0
+        ],
+        [
+          110.0,
+          450.0
+        ],
+        [
+          1011.0,
+          450.0
+        ],
+        [
+          1011.0,
+          183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "sischen Religiosität. Zusammengenommen weist dies darauf hin, dass eine aktive Bezeugung des eigenen Glaubens, z. B. durch entsprechende Handlungen, die Angst vor dem Tod verringern kann und folglich auch weniger Gedanken daran geknüpft sind. Wenn wir also intrinsisch religiös sind und uns dies – beispielsweise durch das Ausfüllen einer entsprechenden Religiositätsskala – bewusst ist, dann empfinden wir in Situationen, die todesbezogene Ängste auslösen können (Terrorismus, experimentelle Induktion von Mortalitätssalienz etc.), weniger Angst; als Folge besteht natürlich nur eine geringere Notwendigkeit, einen Weg zum Umgang mit dieser Angst zu finden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.866027295589447,
+      "bbox": {
+        "x0": 113.81652069091797,
+        "y0": 505.1964111328125,
+        "x1": 999.4091186523438,
+        "y1": 544.1204833984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 99,
+      "polygon": [
+        [
+          113.0,
+          505.0
+        ],
+        [
+          113.0,
+          543.0
+        ],
+        [
+          998.0,
+          543.0
+        ],
+        [
+          998.0,
+          505.0
+        ],
+        [
+          129.0,
+          505.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.3 Religion doch nicht nur als »the bright side of life«?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9586520195007324,
+      "bbox": {
+        "x0": 110.62285614013672,
+        "y0": 582.1932373046875,
+        "x1": 1012.41748046875,
+        "y1": 814.8287353515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 110,
+      "polygon": [
+        [
+          118.0,
+          582.0
+        ],
+        [
+          110.0,
+          813.0
+        ],
+        [
+          1011.0,
+          813.0
+        ],
+        [
+          1011.0,
+          582.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Bisher haben wir uns mit Religion im Kontext von psychischer Gesundheit bzw. bei terroristischer Gefahr auseinandergesetzt. Daneben ist Religion in der Sozialpsychologie aber auch relevant im Zusammenhang mit sozialer Identität und dem Thema »Gruppen« (▶ Kap. 8). So kann natürlich auch eine religiöse Glaubensgemeinschaft als eine Gruppe angesehen werden, deren Mitglieder ähnliche metaphysische Überzeugungen haben und somit derselben sozialen Kategorie angehören (vgl. soziale Kategorisierung; Turner, Oakes, Haslam, & McGarty, 1994).\nWie wir vor der Theorie der Sozialen Identität (Taifel & Turner, 1970), wissen, für",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9611596465110779,
+      "bbox": {
+        "x0": 109.54830932617188,
+        "y0": 815.7911987304688,
+        "x1": 1013.7129516601562,
+        "y1": 1080.428955078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 143,
+      "polygon": [
+        [
+          109.0,
+          815.0
+        ],
+        [
+          109.0,
+          1079.0
+        ],
+        [
+          1012.0,
+          1079.0
+        ],
+        [
+          1012.0,
+          815.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Wie wir von der Theorie der Sozialen Identität (Tajfel & Turner, 1979) wissen, fördert die Identifikation mit einer Gruppe das Selbstbewusstsein und stärkt das Selbstwertgefühl. Gleiches kann daher auch für Gruppen angenommen werden, die sich aufgrund ähnlicher religiöser Überzeugungen gebildet haben. Im Gegensatz zu anderen Gruppen oder sozialen Netzwerken scheint Religiosität hierbei aber eine besondere Rolle zu spielen, da sie besonders auch im Umgang mit schwierigen Belastungssituationen eine wichtige Stütze sein kann (Muldoon, Trew, Todd, Rougier, & McLaughlin, 2007).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9436097145080566,
+      "bbox": {
+        "x0": 109.06912994384766,
+        "y0": 1083.037841796875,
+        "x1": 1013.8522338867188,
+        "y1": 1216.7529296875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 154,
+      "polygon": [
+        [
+          117.0,
+          1083.0
+        ],
+        [
+          117.0,
+          1215.0
+        ],
+        [
+          1012.0,
+          1215.0
+        ],
+        [
+          1012.0,
+          1083.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2007). Bis zu dieser Stelle ist noch der positive Aspekt von Religiosität angesprochen, dem wir uns in diesem Kapitel hauptsächlich zugewandt haben. Doch wo Licht ist, da ist bekanntlich auch Schatten – und genauso kann (intrinsische) Religiosität bzw. religiöse Identität in diesem Kontext auch mit negativen Folgen verbunden sein.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 9,
+      "pp_label": "paragraph_title",
+      "score": 0.8855671286582947,
+      "bbox": {
+        "x0": 114.66448211669922,
+        "y0": 1273.987548828125,
+        "x1": 862.3111572265625,
+        "y1": 1344.352294921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 162,
+      "polygon": [
+        [
+          114.0,
+          1273.0
+        ],
+        [
+          114.0,
+          1343.0
+        ],
+        [
+          861.0,
+          1343.0
+        ],
+        [
+          861.0,
+          1273.0
+        ],
+        [
+          214.0,
+          1273.0
+        ],
+        [
+          182.0,
+          1273.0
+        ],
+        [
+          159.0,
+          1273.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.3.1 Religion im Gruppenkontext – Abwertung der Fremdgruppe",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9715802669525146,
+      "bbox": {
+        "x0": 110.05992126464844,
+        "y0": 1382.0675048828125,
+        "x1": 1013.1602172851562,
+        "y1": 1846.9210205078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 184,
+      "polygon": [
+        [
+          110.0,
+          1382.0
+        ],
+        [
+          118.0,
+          1845.0
+        ],
+        [
+          1012.0,
+          1845.0
+        ],
+        [
+          1012.0,
+          1382.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Eine starke Identifikation mit der eigenen Religionsgemeinschaft kann dazu führen, dass man nur seine Glaubensrichtung als die einzig wahre anerkennt, die eigene Glaubensgemeinschaft daher aufwertet und andere Religionen bzw. religiöse Gruppen abwertet (Hunsburger & Jackson, 2005; Kinnvall, 2004). Dies kann wiederum stark mit Vorurteilen behaftet sein. Beispielsweise untersuchten Fischer, Greitemeyer und Kastenmüller (2007) das Auftreten verschiedener impliziter Annahmen, die Christen gegenüber Muslimen haben: z. B. die Annahme, dass die intrinsische Religiosität bei Muslimen höher ist, dass sich Muslime stärker mit ihrer Religion identifizierten, dass sie generell aggressiver seien und daher auch eher terroristische Handlungen akzeptierten. Es zeigte sich allerdings, dass sich Christen und Muslime lediglich in Bezug auf ihre religiöse Identität unterschieden: Diese war bei Muslimen stärker ausgeprägt. In den übrigen Bereichen gab es keine Unterschiede. In anderen Worten: Viele Christen hatten bestimmte, zum Teil negative Erwartungen an Personen mit muslimischem Glauben, die so aber in einer muslimischen Stichprobe überhaupt nicht anzutreffen waren.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9423043727874756,
+      "bbox": {
+        "x0": 110.07813262939453,
+        "y0": 1849.4736328125,
+        "x1": 1014.4739990234375,
+        "y1": 1949.671142578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 199,
+      "polygon": [
+        [
+          118.0,
+          1849.0
+        ],
+        [
+          118.0,
+          1948.0
+        ],
+        [
+          1013.0,
+          1948.0
+        ],
+        [
+          1013.0,
+          1849.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Dass Religiosität im sozialen Umgang mit anderen (bzw. Andersdenkenden) durchaus auch negative Auswirkungen haben kann, ist auch an religiös-politisch motivierten Konflikten zu sehen (von den Kreuzzügen über den Dreifigjährigen Krieg bis hin zur",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.8228720426559448,
+      "bbox": {
+        "x0": 1057.0150146484375,
+        "y0": 584.3409423828125,
+        "x1": 1387.0152587890625,
+        "y1": 671.5330810546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 234,
+      "polygon": [
+        [
+          1057.0,
+          584.0
+        ],
+        [
+          1057.0,
+          670.0
+        ],
+        [
+          1141.0,
+          670.0
+        ],
+        [
+          1150.0,
+          670.0
+        ],
+        [
+          1187.0,
+          670.0
+        ],
+        [
+          1211.0,
+          670.0
+        ],
+        [
+          1248.0,
+          670.0
+        ],
+        [
+          1272.0,
+          670.0
+        ],
+        [
+          1386.0,
+          670.0
+        ],
+        [
+          1386.0,
+          584.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Eine ähnliche religiöse Überzeugung kann auch als Gruppenmerkmal betrachtet werden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.8855056166648865,
+      "bbox": {
+        "x0": 1057.0968017578125,
+        "y0": 817.8140869140625,
+        "x1": 1374.611572265625,
+        "y1": 1017.158203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 243,
+      "polygon": [
+        [
+          1057.0,
+          817.0
+        ],
+        [
+          1057.0,
+          1016.0
+        ],
+        [
+          1373.0,
+          1016.0
+        ],
+        [
+          1373.0,
+          817.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Religiosität ist auch im Kontext der Theorie der Sozialen Identität von Bedeutung, da sich Mitglieder religiöser Gruppierungen genauso mit ihrer Gruppe identifizieren und Selbstwert daraus beziehen wir Mitglieder anderer Gruppen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.8720173835754395,
+      "bbox": {
+        "x0": 1056.856201171875,
+        "y0": 1385.481201171875,
+        "x1": 1370.45751953125,
+        "y1": 1499.718017578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 263,
+      "polygon": [
+        [
+          1056.0,
+          1385.0
+        ],
+        [
+          1056.0,
+          1498.0
+        ],
+        [
+          1369.0,
+          1498.0
+        ],
+        [
+          1369.0,
+          1385.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Eine starke Identifikation mit der eigenen Glaubensgemeinschaft kann mit Vorurteilen gegenüber Andersgläubigen verbunden sein.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 14,
+      "pp_label": "text",
+      "score": 0.845435619354248,
+      "bbox": {
+        "x0": 1056.5435791015625,
+        "y0": 1801.572021484375,
+        "x1": 1387.253662109375,
+        "y1": 1913.732177734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 287,
+      "polygon": [
+        [
+          1056.0,
+          1801.0
+        ],
+        [
+          1056.0,
+          1912.0
+        ],
+        [
+          1386.0,
+          1912.0
+        ],
+        [
+          1386.0,
+          1801.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Eine unterschiedliche religiöse Orientierung ist oft Grund für schwere zwischenmenschliche Konflikte bzw. die Abwertung Andersgläubiger.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1521.48046875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 691.2975463867188
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1636.4735107421875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1376.1005859375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1356.4930419921875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1751.8770751953125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1341.22705078125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1699.433837890625
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1518.4527587890625
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 2798.368408203125
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 3281.936767578125
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 2083.033447265625
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 2506.08544921875
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 1629.9429931640625
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.4099954580015037,
+      "zeitstempel": "2026-09-06T14:31:57.585070Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 14.136840457998915,
+      "zeitstempel": "2026-09-06T15:07:10.228426Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

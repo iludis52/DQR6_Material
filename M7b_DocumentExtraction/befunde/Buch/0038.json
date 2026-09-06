@@ -1,0 +1,587 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 38,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 5,
+      "pp_label": "number",
+      "score": 0.6566678285598755,
+      "bbox": {
+        "x0": 116.00434875488281,
+        "y0": 80.18316650390625,
+        "x1": 144.66363525390625,
+        "y1": 103.09027099609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 1,
+      "polygon": [
+        [
+          116.0,
+          80.0
+        ],
+        [
+          116.0,
+          102.0
+        ],
+        [
+          143.0,
+          102.0
+        ],
+        [
+          143.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "30",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8351126313209534,
+      "bbox": {
+        "x0": 191.9474334716797,
+        "y0": 78.65023803710938,
+        "x1": 538.029052734375,
+        "y1": 106.16751098632812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 15,
+      "polygon": [
+        [
+          191.0,
+          78.0
+        ],
+        [
+          191.0,
+          105.0
+        ],
+        [
+          537.0,
+          105.0
+        ],
+        [
+          537.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 3 · Urteilen und Entscheiden",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.8115434050559998,
+      "bbox": {
+        "x0": 127.505859375,
+        "y0": 252.32095336914062,
+        "x1": 448.0804748535156,
+        "y1": 365.1481628417969,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 72,
+      "polygon": [
+        [
+          127.0,
+          252.0
+        ],
+        [
+          127.0,
+          364.0
+        ],
+        [
+          447.0,
+          364.0
+        ],
+        [
+          447.0,
+          252.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Heuristiken sind einfache Daumenregeln, die den kognitiven Aufwand bei komplexen Entscheidungsproblemen reduzieren.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 12,
+      "pp_label": "paragraph_title",
+      "score": 0.5537353157997131,
+      "bbox": {
+        "x0": 131.41983032226562,
+        "y0": 583.4127197265625,
+        "x1": 370.0974426269531,
+        "y1": 647.4190673828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 96,
+      "polygon": [
+        [
+          131.0,
+          583.0
+        ],
+        [
+          131.0,
+          646.0
+        ],
+        [
+          369.0,
+          646.0
+        ],
+        [
+          369.0,
+          583.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Definition\nUrteilsheuristiken",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.919847309589386,
+      "bbox": {
+        "x0": 128.43978881835938,
+        "y0": 752.4732666015625,
+        "x1": 444.73370361328125,
+        "y1": 893.8092041015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 125,
+      "polygon": [
+        [
+          128.0,
+          752.0
+        ],
+        [
+          128.0,
+          892.0
+        ],
+        [
+          443.0,
+          892.0
+        ],
+        [
+          443.0,
+          763.0
+        ],
+        [
+          436.0,
+          752.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Mindestanforderung an eine Heuristik ist, dass sie zu Urteilen führt, die besser sind, als wenn man einfach auf das Zufallsprinzip zurückgegriffen hätte.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.8563284873962402,
+      "bbox": {
+        "x0": 128.0527801513672,
+        "y0": 1284.833984375,
+        "x1": 456.2712707519531,
+        "y1": 1399.340087890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 153,
+      "polygon": [
+        [
+          128.0,
+          1294.0
+        ],
+        [
+          128.0,
+          1398.0
+        ],
+        [
+          455.0,
+          1398.0
+        ],
+        [
+          455.0,
+          1294.0
+        ],
+        [
+          448.0,
+          1284.0
+        ],
+        [
+          151.0,
+          1284.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Expertenheuristik ist eine der am häufigsten angewendeten Heuristiken bei Urteils- und Entscheidungsprozessen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.8125101923942566,
+      "bbox": {
+        "x0": 505.79071044921875,
+        "y0": 172.8314208984375,
+        "x1": 862.3462524414062,
+        "y1": 209.2047119140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 154,
+      "polygon": [
+        [
+          505.0,
+          172.0
+        ],
+        [
+          505.0,
+          184.0
+        ],
+        [
+          513.0,
+          208.0
+        ],
+        [
+          861.0,
+          208.0
+        ],
+        [
+          861.0,
+          172.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3.1 Urteilsheuristiken",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9569594264030457,
+      "bbox": {
+        "x0": 504.4898986816406,
+        "y0": 249.4268798828125,
+        "x1": 1406.1590576171875,
+        "y1": 549.385009765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 166,
+      "polygon": [
+        [
+          504.0,
+          249.0
+        ],
+        [
+          512.0,
+          548.0
+        ],
+        [
+          1405.0,
+          548.0
+        ],
+        [
+          1405.0,
+          249.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Menschen treffen nicht nur triviale, sondern auch wichtige Entscheidungen oft spontan oder intuitiv. Sie weisen dabei inneren und äußeren Wahrnehmungen Bedeutungen zu (Fischer, 2011; Musahl, 1997), wobei diese Bedeutungszuweisungen häufig einfachen Daumenregeln oder Heuristiken (Strategien bei der Lösung eines Problems) folgen, um den kognitiven Aufwand für die entscheidungsrelevante Informationsverarbeitung zu reduzieren (Tversky & Kahneman, 1974). Oft sind Urteilsprobleme so komplex, dass der Algorithmus (mehrstufige Handlungsvorschrift zur Problemlösung), der zur korrekten Lösung führt, nicht im Kopf zu berechnen ist. In einem solchen Fall muss sich der Mensch auf Heuristiken verlassen können.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.8395518064498901,
+      "bbox": {
+        "x0": 544.8743286132812,
+        "y0": 615.6926879882812,
+        "x1": 1362.4547119140625,
+        "y1": 683.0614624023438,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 193,
+      "polygon": [
+        [
+          544.0,
+          615.0
+        ],
+        [
+          544.0,
+          682.0
+        ],
+        [
+          1346.0,
+          682.0
+        ],
+        [
+          1361.0,
+          673.0
+        ],
+        [
+          1361.0,
+          615.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Urteilsheuristiken sind Daumenregeln, mit denen man komplexe Entscheidungs-\nprobleme möglichst schnell und einfach zu lösen versucht.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.961190402507782,
+      "bbox": {
+        "x0": 504.2118225097656,
+        "y0": 748.3970336914062,
+        "x1": 1406.3375244140625,
+        "y1": 1149.38330078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 227,
+      "polygon": [
+        [
+          504.0,
+          748.0
+        ],
+        [
+          504.0,
+          1148.0
+        ],
+        [
+          1405.0,
+          1148.0
+        ],
+        [
+          1405.0,
+          748.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Mindestanforderung an eine Heuristik ist, dass sie zu Urteilen führt, die besser sind, als wenn man einfach auf das Zufallsprinzip zurückgegriffen hätte (z. B. wenn man eine Münze geworfen hätte, sei es in Gedanken oder tatsächlich in Realität). Die besten Heuristiken liefern Urteile, die beinahe so gut – oder manchmal sogar noch besser – sind als die Resultate der Algorithmen. Eine Heuristik benötigt nur wenige Informationen, um angewendet werden zu können; oft genügt sogar nur eine einzige Information. Damit führen Heuristiken schnell zu einem Ergebnis. Mit anderen Worten, Heuristiken sind »fast and frugal« (Gigerenzer & Gaissmaier, 2011), d. h. sparsam und schnell. Kahneman und Frederick (2002) beschreiben diese Art des Denkens als einen Austauschvorgang (»attribute substitution«). Wenn ein Urteilsproblem zu kompliert ist, löst das heuristische Denksystem stattdessen ein ähnliches, aber einfacheres Problem.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 6,
+      "pp_label": "paragraph_title",
+      "score": 0.816309928894043,
+      "bbox": {
+        "x0": 506.1172790527344,
+        "y0": 1207.613525390625,
+        "x1": 857.2803955078125,
+        "y1": 1242.776611328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 256,
+      "polygon": [
+        [
+          506.0,
+          1207.0
+        ],
+        [
+          506.0,
+          1241.0
+        ],
+        [
+          856.0,
+          1241.0
+        ],
+        [
+          856.0,
+          1207.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3.1.1 Individuelle Urteile",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9641103744506836,
+      "bbox": {
+        "x0": 504.0032653808594,
+        "y0": 1281.892333984375,
+        "x1": 1407.0555419921875,
+        "y1": 1717.656494140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 270,
+      "polygon": [
+        [
+          504.0,
+          1281.0
+        ],
+        [
+          512.0,
+          1716.0
+        ],
+        [
+          1406.0,
+          1716.0
+        ],
+        [
+          1406.0,
+          1281.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Auch im sozialen Kontext urteilen und entscheiden Menschen oft mit Hilfe von Heuristiken. Wenn wir uns selbst eine Meinung bilden und uns fragen, was wir glauben oder tun sollen, verlassen wir uns oft auf einzelne Experten oder das soziale Einverständnis (das Urteil der Mehrheit). Experten sind sozusagen die Vermittler zwischen uns und dem »gesicherten Wissen« Müssten wir uns dieses Wissen selbst erarbeiten (sofern wir dies überhaupt könnten), so würden wir viel Zeit verlieren. Menschen mit Expertise haben hier quasi die Rolle eines Trichters, durch den uns Informationen in aufbereiteter und verdichteter Form zulaufen. Da wir dadurch zu Wissen gelangen, hat das Vertrauen in Experten also eine rationale Grundlage. Gleichermaßen ist aber auch klar, dass dieses Vertrauen Grenzen haben muss. Es kann immer sein, dass auch Experten inkompetent sind oder dass ihr Urteil durch Selbstinteresse beeinflusst wurde. Eine interessante Studie des Wall Street Journals illustriert dies auf beeindruckende Weise (▶ Studie: Der Wall Street Contest).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 913.5519409179688
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2799.506591796875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1548.098388671875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 2226.494873046875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1543.9193115234375
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 877.3515014648438
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 939.64892578125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2438.89306640625
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1565.373046875
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1627.7513427734375
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1375.8568115234375
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.4205675830016844,
+      "zeitstempel": "2026-09-06T14:31:06.383638Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 11.748777124998014,
+      "zeitstempel": "2026-09-06T14:39:48.096724Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

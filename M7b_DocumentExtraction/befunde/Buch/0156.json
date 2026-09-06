@@ -1,0 +1,1043 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 156,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 16,
+      "pp_label": "number",
+      "score": 0.7415851354598999,
+      "bbox": {
+        "x0": 1368.98046875,
+        "y0": 29.463836669921875,
+        "x1": 1439.041748046875,
+        "y1": 83.20132446289062,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 5,
+      "polygon": [
+        [
+          1368.0,
+          29.0
+        ],
+        [
+          1368.0,
+          82.0
+        ],
+        [
+          1438.0,
+          82.0
+        ],
+        [
+          1438.0,
+          29.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 0,
+      "pp_label": "doc_title",
+      "score": 0.9461297988891602,
+      "bbox": {
+        "x0": 115.86156463623047,
+        "y0": 166.94046020507812,
+        "x1": 1400.6239013671875,
+        "y1": 296.3160095214844,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 28,
+      "polygon": [
+        [
+          115.0,
+          166.0
+        ],
+        [
+          123.0,
+          285.0
+        ],
+        [
+          1399.0,
+          295.0
+        ],
+        [
+          1399.0,
+          176.0
+        ],
+        [
+          1301.0,
+          166.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10 Sozialpsychologie der menschlichen Existenz: Positive Psychologie und Psychologie der Religion",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 14,
+      "pp_label": "text",
+      "score": 0.799538791179657,
+      "bbox": {
+        "x0": 113.96669006347656,
+        "y0": 345.6102294921875,
+        "x1": 552.0209350585938,
+        "y1": 378.2220458984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 35,
+      "polygon": [
+        [
+          113.0,
+          345.0
+        ],
+        [
+          113.0,
+          377.0
+        ],
+        [
+          551.0,
+          377.0
+        ],
+        [
+          551.0,
+          345.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.1 Religion und Gesundheit – 154",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.867260754108429,
+      "bbox": {
+        "x0": 114.76060485839844,
+        "y0": 384.5101318359375,
+        "x1": 612.2277221679688,
+        "y1": 447.698974609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 51,
+      "polygon": [
+        [
+          114.0,
+          384.0
+        ],
+        [
+          114.0,
+          446.0
+        ],
+        [
+          611.0,
+          446.0
+        ],
+        [
+          611.0,
+          384.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.1.1 »Always look on the bright side of life« – Positive Psychologie und Coping – 154",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.7824850082397461,
+      "bbox": {
+        "x0": 115.26261901855469,
+        "y0": 451.312255859375,
+        "x1": 478.53167724609375,
+        "y1": 482.498779296875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 58,
+      "polygon": [
+        [
+          115.0,
+          451.0
+        ],
+        [
+          115.0,
+          481.0
+        ],
+        [
+          477.0,
+          481.0
+        ],
+        [
+          477.0,
+          451.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.1.2 Religion und Coping – 157",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9154999256134033,
+      "bbox": {
+        "x0": 114.36722564697266,
+        "y0": 512.48974609375,
+        "x1": 661.2025756835938,
+        "y1": 644.078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 65,
+      "polygon": [
+        [
+          114.0,
+          512.0
+        ],
+        [
+          114.0,
+          643.0
+        ],
+        [
+          660.0,
+          643.0
+        ],
+        [
+          660.0,
+          512.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.2 Bewältigung kollektiver Bedrohungen und Religion: Terrorismus als Spezialfall belastender Lebensumstände – Dient auch hier Religiosität als Resilienzfaktor? – 159",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 17,
+      "pp_label": "text",
+      "score": 0.8144099712371826,
+      "bbox": {
+        "x0": 115.21937561035156,
+        "y0": 651.4261474609375,
+        "x1": 514.6044921875,
+        "y1": 712.4228515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 72,
+      "polygon": [
+        [
+          115.0,
+          651.0
+        ],
+        [
+          115.0,
+          711.0
+        ],
+        [
+          446.0,
+          711.0
+        ],
+        [
+          513.0,
+          701.0
+        ],
+        [
+          513.0,
+          651.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.2.1 Religion und Coping im Kontext von Terrorismus – 159",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 19,
+      "pp_label": "text",
+      "score": 0.727268397808075,
+      "bbox": {
+        "x0": 115.41101837158203,
+        "y0": 717.7706298828125,
+        "x1": 471.5163269042969,
+        "y1": 748.28955078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 85,
+      "polygon": [
+        [
+          115.0,
+          717.0
+        ],
+        [
+          115.0,
+          747.0
+        ],
+        [
+          470.0,
+          747.0
+        ],
+        [
+          470.0,
+          717.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.2.2 Terrormanagement – 161",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.882681667804718,
+      "bbox": {
+        "x0": 771.2813720703125,
+        "y0": 345.586669921875,
+        "x1": 1317.140869140625,
+        "y1": 409.7947998046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 88,
+      "polygon": [
+        [
+          771.0,
+          345.0
+        ],
+        [
+          771.0,
+          355.0
+        ],
+        [
+          779.0,
+          408.0
+        ],
+        [
+          1316.0,
+          408.0
+        ],
+        [
+          1316.0,
+          345.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.3 Religion doch nicht nur als »the bright side of life«? – 165",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.873514711856842,
+      "bbox": {
+        "x0": 773.1787109375,
+        "y0": 417.6751708984375,
+        "x1": 1270.488525390625,
+        "y1": 479.1484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 109,
+      "polygon": [
+        [
+          773.0,
+          417.0
+        ],
+        [
+          773.0,
+          478.0
+        ],
+        [
+          1269.0,
+          478.0
+        ],
+        [
+          1269.0,
+          417.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.3.1 Religion im Gruppenkontext – Abwertung der Fremdgruppe – 165",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 21,
+      "pp_label": "text",
+      "score": 0.7604193687438965,
+      "bbox": {
+        "x0": 773.0634765625,
+        "y0": 483.1435546875,
+        "x1": 1385.874755859375,
+        "y1": 515.06005859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 112,
+      "polygon": [
+        [
+          773.0,
+          483.0
+        ],
+        [
+          773.0,
+          514.0
+        ],
+        [
+          1384.0,
+          514.0
+        ],
+        [
+          1384.0,
+          483.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.3.2 Religiöser Terrorismus und Fundamentalismus – 166",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 15,
+      "pp_label": "text",
+      "score": 0.8104021549224854,
+      "bbox": {
+        "x0": 774.3653564453125,
+        "y0": 518.4991455078125,
+        "x1": 1325.932861328125,
+        "y1": 578.585205078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 121,
+      "polygon": [
+        [
+          774.0,
+          518.0
+        ],
+        [
+          774.0,
+          577.0
+        ],
+        [
+          1324.0,
+          577.0
+        ],
+        [
+          1324.0,
+          518.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.3.3 Berufung auf religiöse Schriften – Zuschreibung von Autorität auf geistliche Texte – 166",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.7484001517295837,
+      "bbox": {
+        "x0": 773.2761840820312,
+        "y0": 584.2705078125,
+        "x1": 1213.63330078125,
+        "y1": 615.8145751953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 139,
+      "polygon": [
+        [
+          773.0,
+          584.0
+        ],
+        [
+          773.0,
+          614.0
+        ],
+        [
+          1212.0,
+          614.0
+        ],
+        [
+          1212.0,
+          584.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.3.4 Aggression gegenüber Gott – 167",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 22,
+      "pp_label": "text",
+      "score": 0.5834938883781433,
+      "bbox": {
+        "x0": 771.6702270507812,
+        "y0": 645.1958618164062,
+        "x1": 1268.2161865234375,
+        "y1": 745.2426147460938,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 163,
+      "polygon": [
+        [
+          779.0,
+          645.0
+        ],
+        [
+          779.0,
+          744.0
+        ],
+        [
+          1260.0,
+          744.0
+        ],
+        [
+          1267.0,
+          734.0
+        ],
+        [
+          1267.0,
+          685.0
+        ],
+        [
+          1267.0,
+          674.0
+        ],
+        [
+          1267.0,
+          645.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.4 Abschließende Überlegungen – 167 Literatur – 169",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.8055714964866638,
+      "bbox": {
+        "x0": 152.3433380126953,
+        "y0": 1049.7105712890625,
+        "x1": 1349.1510009765625,
+        "y1": 1147.6513671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 184,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Das Konzept Religiosität erklären können (Unterscheidung zwischen intrinsischer und extrinsischer Religiosität, Messung von Religiosität etc.).\nDie Wirkung von Religiosität unter terroristischer Bedrohung bzw. Mortalitätssalienz beschreiben können.\nAufzeigen können, inwiefern Religiosität auch negative",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        14,
+        16
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 15,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.8972495794296265,
+      "bbox": {
+        "x0": 152.61441040039062,
+        "y0": 1150.5343017578125,
+        "x1": 746.4924926757812,
+        "y1": 1249.0267333984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 192,
+      "polygon": [
+        [
+          152.0,
+          1160.0
+        ],
+        [
+          152.0,
+          1248.0
+        ],
+        [
+          745.0,
+          1248.0
+        ],
+        [
+          745.0,
+          1150.0
+        ],
+        [
+          168.0,
+          1150.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Rolle von Religiosität in Zusammenhang mit psychischer und physischer Gesundheit bzw. Copingverhalten darstellen können.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 16,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.8231879472732544,
+      "bbox": {
+        "x0": 773.333740234375,
+        "y0": 1118.5595703125,
+        "x1": 1358.252685546875,
+        "y1": 1181.266845703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 208,
+      "polygon": [
+        [
+          773.0,
+          1118.0
+        ],
+        [
+          773.0,
+          1180.0
+        ],
+        [
+          1357.0,
+          1180.0
+        ],
+        [
+          1357.0,
+          1129.0
+        ],
+        [
+          1350.0,
+          1118.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "■ Aufzeigen können, inwiefern Religiosität auch negative Auswirkungen haben kann.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 17,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.8859791159629822,
+      "bbox": {
+        "x0": 111.82420349121094,
+        "y0": 1316.498291015625,
+        "x1": 1009.8408813476562,
+        "y1": 1415.337646484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 212,
+      "polygon": [
+        [
+          111.0,
+          1316.0
+        ],
+        [
+          111.0,
+          1414.0
+        ],
+        [
+          1008.0,
+          1414.0
+        ],
+        [
+          1008.0,
+          1316.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Wenn euer Vertrauen auch nur so groß wäre wie ein Senfkorn, dann könntet ihr zu dem Maulbeerbaum dort sagen: „Zieh deine Wurzeln aus der Erde und verpflanze dich ins Meer!“, und er würde euch gehorchen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 18,
+      "query_id": 18,
+      "pp_label": "text",
+      "score": 0.7513389587402344,
+      "bbox": {
+        "x0": 114.14777374267578,
+        "y0": 1417.7916259765625,
+        "x1": 261.7542419433594,
+        "y1": 1449.4178466796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 220,
+      "polygon": [
+        [
+          114.0,
+          1417.0
+        ],
+        [
+          114.0,
+          1448.0
+        ],
+        [
+          260.0,
+          1448.0
+        ],
+        [
+          260.0,
+          1417.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "(Lukas, 17,5-6)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 19,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9590409994125366,
+      "bbox": {
+        "x0": 110.38399505615234,
+        "y0": 1482.78466796875,
+        "x1": 1013.9005126953125,
+        "y1": 1950.259765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 227,
+      "polygon": [
+        [
+          110.0,
+          1482.0
+        ],
+        [
+          118.0,
+          1949.0
+        ],
+        [
+          1012.0,
+          1949.0
+        ],
+        [
+          1012.0,
+          1482.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Lukas beschreibt metaphorisch, worum es in diesem Kapitel geht. Aber keine Angst – wir haben weder die Absicht, Nichtgläubige zum Glauben zu bekehren, noch, uns mit religiösen bzw. theologischen Inhalten auseinanderzusetzen. Wie im Einführungskapitel gesagt, beschäftigt sich die Sozialpsychologie mit dem Erleben und Verhalten von Individuen im sozialen Kontext. Was hat Religion damit zu tun? Religion hat im Leben vieler Menschen einen hohen Stellenwert und Religiosität übt einen tiefen Einfluss auf das menschliche Erleben und Verhalten aus. Deshalb ist in den vergangenen Jahren die Anzahl der psychologisch-empirischen Publikationen zum Thema Religion stark angestiegen. Was die religiöse Identität betrifft, so bezeichnen sich laut einer Umfrage im Jahr 2004 89% der befragten Erwachsenen in den USA als religiös (Newport, 2004). Weltweit liegt der Anteil derer, die in irgendeiner Form religiös sind, bei 85%, wohingegen sich 15% der Befragten als Nichtgläubige, Atheisten oder Agnostiker einstufen (Zuckerman, 2005). Speziell für die USA gaben in einer aktuellen Umfrage 54% der Befragten an, dass Religion für sie sehr wichtig sei (Newport, 2010). Auch wenn 70%",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 20,
+      "query_id": 24,
+      "pp_label": "text",
+      "score": 0.5713123679161072,
+      "bbox": {
+        "x0": 111.80218505859375,
+        "y0": 1966.317626953125,
+        "x1": 941.983642578125,
+        "y1": 2028.08984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 254,
+      "polygon": [
+        [
+          111.0,
+          1966.0
+        ],
+        [
+          111.0,
+          2027.0
+        ],
+        [
+          940.0,
+          2027.0
+        ],
+        [
+          940.0,
+          1966.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "P. Fischer et al., Sozialpsychologie für Bachelor, DOI 10.1007/978-3-642-30272-5_10, © Springer-Verlag Berlin Heidelberg 2013",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 21,
+      "query_id": 23,
+      "pp_label": "text",
+      "score": 0.6246109008789062,
+      "bbox": {
+        "x0": 1057.2913818359375,
+        "y0": 1484.8026123046875,
+        "x1": 1390.40673828125,
+        "y1": 1627.8314208984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 268,
+      "polygon": [
+        [
+          1057.0,
+          1484.0
+        ],
+        [
+          1057.0,
+          1626.0
+        ],
+        [
+          1389.0,
+          1626.0
+        ],
+        [
+          1389.0,
+          1484.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Religion bzw. Religiosität übt einen hohen Einfluss auf das menschliche Erleben und Verhalten aus und ist daher auch für die sozialpsychologische Forschung von Bedeutung.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1629.686279296875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2412.73583984375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1424.7867431640625
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 671.4907836914062
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1176.463134765625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1271.8492431640625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1138.1485595703125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1197.47265625
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 927.256103515625
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 669.162841796875
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1024.2919921875
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 649.8885498046875
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 1756.939208984375
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 2782.16748046875
+    },
+    {
+      "von": 14,
+      "nach": 15,
+      "konfidenz": 1.0,
+      "marge": 1174.202880859375
+    },
+    {
+      "von": 15,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 1023.6502075195312
+    },
+    {
+      "von": 14,
+      "nach": 16,
+      "konfidenz": 1.0,
+      "marge": 1034.5975341796875
+    },
+    {
+      "von": 16,
+      "nach": 17,
+      "konfidenz": 1.0,
+      "marge": 1107.2484130859375
+    },
+    {
+      "von": 17,
+      "nach": 18,
+      "konfidenz": 1.0,
+      "marge": 1188.81884765625
+    },
+    {
+      "von": 18,
+      "nach": 19,
+      "konfidenz": 1.0,
+      "marge": 855.9532470703125
+    },
+    {
+      "von": 19,
+      "nach": 20,
+      "konfidenz": 1.0,
+      "marge": 3108.2001953125
+    },
+    {
+      "von": 20,
+      "nach": 21,
+      "konfidenz": 1.0,
+      "marge": 168.671630859375
+    }
+  ],
+  "warnungen": [
+    "Blöcke [14, 16] zu #14 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3755215830024099,
+      "zeitstempel": "2026-09-06T14:31:52.897205Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 12.451393750001444,
+      "zeitstempel": "2026-09-06T15:04:29.646740Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

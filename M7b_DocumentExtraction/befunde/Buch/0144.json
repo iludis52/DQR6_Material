@@ -1,0 +1,804 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 144,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.7102047204971313,
+      "bbox": {
+        "x0": 116.37743377685547,
+        "y0": 78.3277587890625,
+        "x1": 451.1175842285156,
+        "y1": 106.22216796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "140 Kapitel 9 · Sozialer Einfluss",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.7692797780036926,
+      "bbox": {
+        "x0": 127.79830932617188,
+        "y0": 517.5234985351562,
+        "x1": 459.6585998535156,
+        "y1": 688.3729858398438,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 47,
+      "polygon": [
+        [
+          127.0,
+          528.0
+        ],
+        [
+          127.0,
+          687.0
+        ],
+        [
+          458.0,
+          687.0
+        ],
+        [
+          458.0,
+          528.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Forschungen zum sozialen Einfluss befassen sich zum einen mit Effekten, die Majoritäten auf Minoritäten haben, und zum anderen mit dem Einfluss von Minoritäten auf Majoritäten.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 19,
+      "pp_label": "text",
+      "score": 0.6855648159980774,
+      "bbox": {
+        "x0": 130.90966796875,
+        "y0": 782.0226440429688,
+        "x1": 352.43768310546875,
+        "y1": 848.2349243164062,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 54,
+      "polygon": [
+        [
+          130.0,
+          782.0
+        ],
+        [
+          130.0,
+          847.0
+        ],
+        [
+          351.0,
+          847.0
+        ],
+        [
+          351.0,
+          782.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Definition\nSozialer Einfluss",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 16,
+      "pp_label": "text",
+      "score": 0.7063323855400085,
+      "bbox": {
+        "x0": 127.60517120361328,
+        "y0": 1151.7884521484375,
+        "x1": 454.4623718261719,
+        "y1": 1236.5147705078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 73,
+      "polygon": [
+        [
+          127.0,
+          1151.0
+        ],
+        [
+          127.0,
+          1235.0
+        ],
+        [
+          446.0,
+          1235.0
+        ],
+        [
+          453.0,
+          1226.0
+        ],
+        [
+          453.0,
+          1151.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Man unterscheidet zwischen normativem und informativem sozialen Einfluss.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 14,
+      "pp_label": "paragraph_title",
+      "score": 0.5969958901405334,
+      "bbox": {
+        "x0": 128.32412719726562,
+        "y0": 1318.5595703125,
+        "x1": 442.0176696777344,
+        "y1": 1345.978759765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 79,
+      "polygon": [
+        [
+          128.0,
+          1318.0
+        ],
+        [
+          128.0,
+          1344.0
+        ],
+        [
+          441.0,
+          1344.0
+        ],
+        [
+          441.0,
+          1318.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Bei normativem sozialen Einfluss",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.7437180876731873,
+      "bbox": {
+        "x0": 128.86776733398438,
+        "y0": 1344.4913330078125,
+        "x1": 453.7504577636719,
+        "y1": 1433.2142333984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 93,
+      "polygon": [
+        [
+          128.0,
+          1344.0
+        ],
+        [
+          128.0,
+          1432.0
+        ],
+        [
+          452.0,
+          1432.0
+        ],
+        [
+          452.0,
+          1354.0
+        ],
+        [
+          445.0,
+          1344.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der normativen sozialen Einmuss richtet sich das Individuum nach der Majorität, nur um negative Sanktionen durch die Gruppe zu vermeiden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.8522453904151917,
+      "bbox": {
+        "x0": 128.6118621826172,
+        "y0": 1685.1279296875,
+        "x1": 457.4827575683594,
+        "y1": 1826.422607421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 113,
+      "polygon": [
+        [
+          128.0,
+          1685.0
+        ],
+        [
+          128.0,
+          1825.0
+        ],
+        [
+          456.0,
+          1825.0
+        ],
+        [
+          456.0,
+          1685.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Von informativem sozialen Einfluss spricht man, wenn Individuen die Majorität als nützliche Informations-quelle nutzen (s. Publikumsjoker bei »Wer wird Millionär«).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9624807238578796,
+      "bbox": {
+        "x0": 503.99554443359375,
+        "y0": 183.19061279296875,
+        "x1": 1406.4918212890625,
+        "y1": 515.5236206054688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 122,
+      "polygon": [
+        [
+          503.0,
+          183.0
+        ],
+        [
+          503.0,
+          514.0
+        ],
+        [
+          1405.0,
+          514.0
+        ],
+        [
+          1405.0,
+          183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "ausging. Diese Betonung der »dunklen Seite« des Menschen zeigte sich auch in den damaligen Forschungsinteressen: Die Sozialpsychologie versuchte zu erforschen, war-um und unter welchen Umständen Menschen dazu gebracht werden können, Böses zutun. Die wohl berühmteste Studie in diesem Zusammenhang ist das sog. »Milgram-Experiment« zum Einfluss von Autoritäten auf Gehorsam, welches bereits in ▶ Kap. 1 kurz umrissen wurde und im Folgenden (▶ Abschn. 9.3) ausführlich dargestellt wird. Weitere Klassiker finden sich in den Arbeiten von Sherif und Asch, die sich mit der Frage beschäftigen, inwiefern die Urteile anderer Personen die eigenen Urteile beeinflussen können (▶ Abschn. 9.2). Es geht in diesen Studien also um den Einfluss von Mehrheiten auf Minderheiten (wie z. B. der eigenen Person).\nDariiber hinzu werden wir uns auch mit der umgekehrten Seite befasst, also mit",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9484511613845825,
+      "bbox": {
+        "x0": 503.5252990722656,
+        "y0": 516.346435546875,
+        "x1": 1406.421630859375,
+        "y1": 749.568603515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 164,
+      "polygon": [
+        [
+          503.0,
+          527.0
+        ],
+        [
+          503.0,
+          748.0
+        ],
+        [
+          1405.0,
+          748.0
+        ],
+        [
+          1405.0,
+          516.0
+        ],
+        [
+          890.0,
+          516.0
+        ],
+        [
+          882.0,
+          516.0
+        ],
+        [
+          511.0,
+          516.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Darüber hinaus werden wir uns auch mit der umgekehrten Seite befassen, also mit dem Einfluss, den Minderheiten auf Mehrheiten ausüben. Dieser Aspekt ist besonders im Bereich sozialer und gesellschaftlicher Umwälzungen und Revolutionen von Bedeutung. Hier führt nämlich konsistentes und gleichförmiges Verhalten einer Minderheit dazu, dass die Mehrheit überzeugt wird und sich der Minderheit anschließt. Berühmte Beispiele sind hier der Fall der Berliner Mauer oder auch die mittlerweile gesamtgesellschaftlich akzeptierte Idee des Umweltschutzes.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 13,
+      "pp_label": "paragraph_title",
+      "score": 0.5597935914993286,
+      "bbox": {
+        "x0": 545.4242553710938,
+        "y0": 782.6575927734375,
+        "x1": 664.2703247070312,
+        "y1": 812.6370849609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 168,
+      "polygon": [
+        [
+          545.0,
+          782.0
+        ],
+        [
+          545.0,
+          811.0
+        ],
+        [
+          663.0,
+          811.0
+        ],
+        [
+          663.0,
+          782.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- Definition",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 17,
+      "pp_label": "text",
+      "score": 0.8534072637557983,
+      "bbox": {
+        "x0": 542.0620727539062,
+        "y0": 816.12060546875,
+        "x1": 1383.2890625,
+        "y1": 985.5972900390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 186,
+      "polygon": [
+        [
+          542.0,
+          816.0
+        ],
+        [
+          542.0,
+          984.0
+        ],
+        [
+          1382.0,
+          984.0
+        ],
+        [
+          1382.0,
+          816.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Demotion\nUnter sozialem Einfluss versteht man die Wirkung einer Person oder einer Perso- nengruppe auf die Gefühle, Gedanken und das Verhalten einer anderen Person (bzw. Personengruppe). Dabei kann die Wirkungsquelle eine tatsächlich anwesende, eine implizit anwesende oder nur eine vorgestellte Person sein. Je nach Art des zugrunde liegenden Motivs unterteilt man in normativen und informativen sozialen Einfluss.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 6,
+      "pp_label": "paragraph_title",
+      "score": 0.8418479561805725,
+      "bbox": {
+        "x0": 504.41351318359375,
+        "y0": 1072.550537109375,
+        "x1": 1270.6668701171875,
+        "y1": 1109.965576171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 234,
+      "polygon": [
+        [
+          504.0,
+          1072.0
+        ],
+        [
+          504.0,
+          1108.0
+        ],
+        [
+          1269.0,
+          1108.0
+        ],
+        [
+          1269.0,
+          1072.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "9.2 Normativer und informativer sozialer Einfluss",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.7811930775642395,
+      "bbox": {
+        "x0": 506.5720520019531,
+        "y0": 1217.440185546875,
+        "x1": 896.9947509765625,
+        "y1": 1246.760498046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 244,
+      "polygon": [
+        [
+          506.0,
+          1217.0
+        ],
+        [
+          506.0,
+          1245.0
+        ],
+        [
+          895.0,
+          1245.0
+        ],
+        [
+          895.0,
+          1217.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "■ normativer sozialer Einfluss und",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.8735754489898682,
+      "bbox": {
+        "x0": 504.7936706542969,
+        "y0": 1149.103271484375,
+        "x1": 1403.3006591796875,
+        "y1": 1213.343017578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 247,
+      "polygon": [
+        [
+          504.0,
+          1149.0
+        ],
+        [
+          504.0,
+          1212.0
+        ],
+        [
+          1402.0,
+          1212.0
+        ],
+        [
+          1402.0,
+          1149.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Aus theoretischer Sicht sind zwei grundlegende Prozesse von sozialem Einfluss zu unterscheiden (vgl. Hogg & Turner, 1987):",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.7770091891288757,
+      "bbox": {
+        "x0": 506.77978515625,
+        "y0": 1248.98388671875,
+        "x1": 1054.427001953125,
+        "y1": 1282.529541015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 258,
+      "polygon": [
+        [
+          506.0,
+          1248.0
+        ],
+        [
+          506.0,
+          1281.0
+        ],
+        [
+          1053.0,
+          1281.0
+        ],
+        [
+          1053.0,
+          1248.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "■ informativer (informationaler) sozialer Einfluss.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 15,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.965498149394989,
+      "bbox": {
+        "x0": 503.2437438964844,
+        "y0": 1315.217041015625,
+        "x1": 1406.3779296875,
+        "y1": 1682.46484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 278,
+      "polygon": [
+        [
+          503.0,
+          1315.0
+        ],
+        [
+          503.0,
+          1681.0
+        ],
+        [
+          1405.0,
+          1681.0
+        ],
+        [
+          1405.0,
+          1315.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Von normativem sozialen Einfluss spricht man dann, wenn sich eine Person den Meinungen und Verhaltensweisen der Mehrheit anschließt, um dadurch einen guten Eindruck bei der Gruppe zu machen. Wie der Begriff »normativ« bereits nahelegt, ist hierbei die Orientierung an der Gruppennorm zentral bzw. das Vermeiden, von dieser abzuweichen und negativ aufzufallen. Stellen Sie sich vor, Sie sind Teil einer Ihnen nur wenig vertrauten Gruppe, die überlegt, welcher Kinofilm sich am besten für die Abendplanung eignen würde. Wenn sich nun die Mehrheit der Gruppe klar für den anspruchsvollen Dokumentarfilm ausspricht, der in einem kleinen Programmkino läuft, werden Sie sich dieser Meinung vermutlich anschließen, auch wenn Sie insgeheim gerne den neuen Blockbuster gesehen hätten. Ihnen liegt daran, mit der Gruppenmeinung übereinzustimmen und nicht als »Kulturbanause« abgestempelt zu werden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 16,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9587302207946777,
+      "bbox": {
+        "x0": 503.2144470214844,
+        "y0": 1682.3660888671875,
+        "x1": 1406.9149169921875,
+        "y1": 1951.4010009765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 288,
+      "polygon": [
+        [
+          503.0,
+          1692.0
+        ],
+        [
+          511.0,
+          1950.0
+        ],
+        [
+          1405.0,
+          1950.0
+        ],
+        [
+          1405.0,
+          1682.0
+        ],
+        [
+          511.0,
+          1682.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Neben diesem Motiv nach sozialer Anerkennung, Akzeptanz und Sympathie kann die Orientierung an anderen auch darauf beruhen, dass man versucht, korrekte Informationen zu sammeln. In diesem Fall spricht man von informativem sozialen Einfluss. Gerade dann, wenn man sich bezüglich eines Themas, einer Beurteilung etc. unsicher ist, dient oft die Mehrheit der Gruppe als nützliche Informationsquelle; man geht nämlich davon aus, dass die Gruppe richtig liegt. Beispielhaft hierfür wäre die Situation vor einer Sozialpsychologieklausur, bei der Sie nicht mehr genau wissen, welcher Forscher die Empathie-Altruismus-Hypothese aufgestellt hat (▶ Kap. 4). Auch",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2131.98388671875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2314.38525390625
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 2599.736328125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1881.08154296875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 851.5484619140625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1647.9373779296875
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1455.92919921875
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2098.948974609375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1797.936279296875
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1144.432373046875
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1813.35205078125
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1414.11279296875
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 0.0,
+      "marge": -926.8660278320312
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 1237.0875244140625
+    },
+    {
+      "von": 14,
+      "nach": 15,
+      "konfidenz": 1.0,
+      "marge": 1239.8284912109375
+    },
+    {
+      "von": 15,
+      "nach": 16,
+      "konfidenz": 1.0,
+      "marge": 2097.0078125
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3672817499973462,
+      "zeitstempel": "2026-09-06T14:31:48.167489Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 14.323135916001775,
+      "zeitstempel": "2026-09-06T15:02:19.251291Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

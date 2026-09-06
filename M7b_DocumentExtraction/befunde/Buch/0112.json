@@ -1,0 +1,415 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 112,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.7365940809249878,
+      "bbox": {
+        "x0": 116.95996856689453,
+        "y0": 78.95736694335938,
+        "x1": 645.8766479492188,
+        "y1": 106.68606567382812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "106 Kapitel 7 · Stereotype, Vorurteile und Rassismus",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 3,
+      "pp_label": "figure_title",
+      "score": 0.888020396232605,
+      "bbox": {
+        "x0": 126.17323303222656,
+        "y0": 181.59002685546875,
+        "x1": 454.5160827636719,
+        "y1": 435.20513916015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 26,
+      "polygon": [
+        [
+          126.0,
+          181.0
+        ],
+        [
+          126.0,
+          434.0
+        ],
+        [
+          453.0,
+          434.0
+        ],
+        [
+          453.0,
+          181.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Abb. 7.3 Der IAT-Effekt: Ergebnisse der 3. Studie von Greenwald et al. (1998, Copyright © 1998 by the American Psychological Association. Adapted with permission. The use of APA information does not imply endorsement by APA. APA is not responsible for the accuracy of this translation.)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 4,
+      "pp_label": "figure_title",
+      "score": 0.6694582104682922,
+      "bbox": {
+        "x0": 804.2720336914062,
+        "y0": 178.58804321289062,
+        "x1": 1090.950439453125,
+        "y1": 207.09152221679688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 53,
+      "polygon": [
+        [
+          804.0,
+          178.0
+        ],
+        [
+          804.0,
+          206.0
+        ],
+        [
+          1089.0,
+          206.0
+        ],
+        [
+          1089.0,
+          178.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Hellhäutige Versuchspersonen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 6,
+      "pp_label": "figure_title",
+      "score": 0.6196578741073608,
+      "bbox": {
+        "x0": 126.76280975341797,
+        "y0": 1620.6318359375,
+        "x1": 457.2690734863281,
+        "y1": 1927.305908203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 54,
+      "polygon": [
+        [
+          126.0,
+          1620.0
+        ],
+        [
+          126.0,
+          1926.0
+        ],
+        [
+          456.0,
+          1926.0
+        ],
+        [
+          456.0,
+          1620.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Idee des IAT ist folgende: Personen mit Vorurteilen gegenüber einer bestimmten Fremdgruppe reagieren bei einer Verknüpfung von positiven Begriffen mit der entsprechenden Fremdgruppe langsamer als wenn negative Begriffe mit dieser ver- knüpft werden. Dies wird jeweils in Bezug gesetzt zur Verknüpfung positiver und negativer Begriffe mit der eigenen Gruppe.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 0,
+      "pp_label": "chart",
+      "score": 0.6909598708152771,
+      "bbox": {
+        "x0": 505.17437744140625,
+        "y0": 211.72808837890625,
+        "x1": 1283.5855712890625,
+        "y1": 890.1122436523438,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 73,
+      "polygon": [
+        [
+          528.0,
+          211.0
+        ],
+        [
+          505.0,
+          294.0
+        ],
+        [
+          513.0,
+          889.0
+        ],
+        [
+          1282.0,
+          889.0
+        ],
+        [
+          1282.0,
+          211.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Antwortzeit (in ms) | Unterschiedung der Objektkategorien (dunkel- vs. hellhäutig) | Unterschiedung der Eigenschaftsdimension (angenehm vs. unangenehm) | Kombination: hellhäutig + angenehm | Unterschiedung der Objektkategorien (hell- vs. dunkelhäutig) | Kombination: dunkelhäutig + angenehm\n700 | 1250 | 800 |   |   |  \n750 | 1300 | 825 |   |   |  \n900 | 1350 | 850 |   |   |  \n950 | 1400 | 875 |   |   |  \n975 | 1425 | 880 |   |   |  \n1000 | 1450 | 890 |   |   |",
+      "text_format": "datenreihe",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 5,
+      "pp_label": "chart",
+      "score": 0.7107582092285156,
+      "bbox": {
+        "x0": 500.2133483886719,
+        "y0": 225.495849609375,
+        "x1": 1286.3968505859375,
+        "y1": 1610.71484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 77,
+      "polygon": [
+        [
+          508.0,
+          225.0
+        ],
+        [
+          500.0,
+          1609.0
+        ],
+        [
+          1285.0,
+          1609.0
+        ],
+        [
+          1285.0,
+          913.0
+        ],
+        [
+          1285.0,
+          891.0
+        ],
+        [
+          1285.0,
+          225.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Category | Antwortzeit (in ms)\nUnterschiedung der Objektkategorien (dunkel- vs. hellhäutig) |  \nUnterschiedung der Eigenschaftsdimension (angenehm vs. unangenehm) | 705\nKombination: hellhäutig + angenehm | 825\nUnterschiedung der Objektkategorien (hell- vs. dunkelhäutig) | 910\nKombination: dunkelhäutig + angenehm | 825\nUnterschiedung der Objektkategorien (hell- vs. dunkelhäutig) | 710\nUnterschiedung der Eigenschaftsdimension (angenehm vs. unangenehm) | 825\nKombination: dunkelhäutig + angenehm | 930\nUnterschiedung der Objektkategorien (dunkel- vs. hellhäutig) | 710\nKombination: hellhäutig + angenehm | 825",
+      "text_format": "datenreihe",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 2,
+      "pp_label": "chart",
+      "score": 0.6252729892730713,
+      "bbox": {
+        "x0": 505.2362060546875,
+        "y0": 922.3603515625,
+        "x1": 1283.3717041015625,
+        "y1": 1617.398193359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 218,
+      "polygon": [
+        [
+          528.0,
+          933.0
+        ],
+        [
+          513.0,
+          963.0
+        ],
+        [
+          505.0,
+          1168.0
+        ],
+        [
+          513.0,
+          1616.0
+        ],
+        [
+          1275.0,
+          1606.0
+        ],
+        [
+          1282.0,
+          922.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Blocke der 50 Durchgänge | Antwortzeit (in ms)\nUnterscheidung der Objektkategorien (hell- vs. dunkelhäutig) | 710\nUnterscheidung der Eigenschaftsdimension (angenehm vs. unangenehm) | 715\nKombination: dunkelhäutig + angenehm | 890\nKombination: dunkelhäutig + angenehm | 715\nUnterscheidung der Objektkategorien (dunkel- vs. hellhäutig) | 700\nKombination: hellhäutig + angenehm | 825",
+      "text_format": "datenreihe",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.6518203616142273,
+      "bbox": {
+        "x0": 502.75579833984375,
+        "y0": 1680.992431640625,
+        "x1": 1409.1859130859375,
+        "y1": 1951.16552734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 283,
+      "polygon": [
+        [
+          502.0,
+          1680.0
+        ],
+        [
+          510.0,
+          1950.0
+        ],
+        [
+          579.0,
+          1950.0
+        ],
+        [
+          647.0,
+          1950.0
+        ],
+        [
+          663.0,
+          1950.0
+        ],
+        [
+          678.0,
+          1950.0
+        ],
+        [
+          731.0,
+          1950.0
+        ],
+        [
+          1408.0,
+          1950.0
+        ],
+        [
+          1408.0,
+          1680.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Wie oben bereits angedeutet, scheint die Studie von Greenwald et al. (1998) zunächst kaum mit Stereotypen und Vorurteilen in Verbindung zu stehen. Jedoch wandten die Autoren dieses Prinzip in ihren Folgestudien auch auf andere, stärker einstellungsbezogene Objektkategorien an. So sollten die Versuchspersonen in Studie 2 nach japanischen und koreanischen Namen separieren; die positiven und negativen Eigenschaftsbegriffe waren jeweils dieselben wie in Studie 1. Getestet wurden in diesem Fall japanische und koreanische Studierende. Als Ergebnis konnten bei der japanischen Stichprobe kürzere Antwortzeiten beobachtet werden, wenn japanische Namen und",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2855.09375
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1588.2542724609375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 0.0,
+      "marge": -995.098876953125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 729.8721313476562
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 575.4400024414062
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1423.2271728515625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 2561.853271484375
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3869599579993519,
+      "zeitstempel": "2026-09-06T14:31:35.360974Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 13.629129124998144,
+      "zeitstempel": "2026-09-06T14:55:29.133771Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

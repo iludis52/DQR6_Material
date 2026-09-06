@@ -1,0 +1,967 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 25,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 279,
+      "pp_label": "number",
+      "score": 0.5023759603500366,
+      "bbox": {
+        "x0": 115.27928924560547,
+        "y0": 81.079833984375,
+        "x1": 142.67218017578125,
+        "y1": 103.908447265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": [
+        [
+          115.0,
+          81.0
+        ],
+        [
+          115.0,
+          102.0
+        ],
+        [
+          141.0,
+          102.0
+        ],
+        [
+          141.0,
+          81.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "16",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8507082462310791,
+      "bbox": {
+        "x0": 190.78952026367188,
+        "y0": 78.61495971679688,
+        "x1": 1116.3135986328125,
+        "y1": 107.63137817382812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 11,
+      "polygon": [
+        [
+          190.0,
+          78.0
+        ],
+        [
+          190.0,
+          106.0
+        ],
+        [
+          1115.0,
+          106.0
+        ],
+        [
+          1115.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 2 · Der Mensch als rationalisierendes Wesen: Kognitive Dissonanz und Selbstrechtfertigung",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 4,
+      "pp_label": "figure_title",
+      "score": 0.8439698815345764,
+      "bbox": {
+        "x0": 127.47245025634766,
+        "y0": 182.79510498046875,
+        "x1": 411.6220703125,
+        "y1": 296.46380615234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 58,
+      "polygon": [
+        [
+          127.0,
+          182.0
+        ],
+        [
+          127.0,
+          295.0
+        ],
+        [
+          410.0,
+          295.0
+        ],
+        [
+          410.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Abb. 2.1 Möglichkeiten der Dissonanzreduktion. (Nach Frey & Gaska, 2009, mit freundlicher Genehmigung)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 20,
+      "pp_label": "text",
+      "score": 0.635919451713562,
+      "bbox": {
+        "x0": 128.06976318359375,
+        "y0": 1051.309814453125,
+        "x1": 460.0682678222656,
+        "y1": 1138.855712890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 83,
+      "polygon": [
+        [
+          128.0,
+          1051.0
+        ],
+        [
+          128.0,
+          1137.0
+        ],
+        [
+          459.0,
+          1137.0
+        ],
+        [
+          459.0,
+          1051.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kognitive Dissonanz entsteht, wenn mindestens zwei unserer Kogni-tionen nicht zusammenpassen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 16,
+      "pp_label": "paragraph_title",
+      "score": 0.7977451086044312,
+      "bbox": {
+        "x0": 129.2959747314453,
+        "y0": 1383.5921630859375,
+        "x1": 397.7951965332031,
+        "y1": 1447.5789794921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 95,
+      "polygon": [
+        [
+          129.0,
+          1383.0
+        ],
+        [
+          129.0,
+          1446.0
+        ],
+        [
+          396.0,
+          1446.0
+        ],
+        [
+          396.0,
+          1383.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Definition\nKognitive Dissonanz",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.8685632348060608,
+      "bbox": {
+        "x0": 128.65032958984375,
+        "y0": 1484.120361328125,
+        "x1": 430.5513000488281,
+        "y1": 1599.848876953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 119,
+      "polygon": [
+        [
+          128.0,
+          1484.0
+        ],
+        [
+          128.0,
+          1598.0
+        ],
+        [
+          429.0,
+          1598.0
+        ],
+        [
+          429.0,
+          1484.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die persönliche Wichtigkeit und Bedeutung der widerstreitenden Kognitionen bestimmen das Aus- maß der erlebten Dissonanz.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.7984559535980225,
+      "bbox": {
+        "x0": 128.1277313232422,
+        "y0": 1618.88525390625,
+        "x1": 447.531005859375,
+        "y1": 1674.9248046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 126,
+      "polygon": [
+        [
+          128.0,
+          1618.0
+        ],
+        [
+          128.0,
+          1673.0
+        ],
+        [
+          446.0,
+          1673.0
+        ],
+        [
+          446.0,
+          1618.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Es gibt 5 Möglichkeiten zur Dissonanzreduktion:",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 14,
+      "pp_label": "text",
+      "score": 0.7445338368415833,
+      "bbox": {
+        "x0": 129.71774291992188,
+        "y0": 1676.380859375,
+        "x1": 462.6986389160156,
+        "y1": 1701.59130859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 134,
+      "polygon": [
+        [
+          129.0,
+          1676.0
+        ],
+        [
+          129.0,
+          1700.0
+        ],
+        [
+          461.0,
+          1700.0
+        ],
+        [
+          461.0,
+          1676.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1. Addition konsonanter Kognitionen,",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.8212364912033081,
+      "bbox": {
+        "x0": 130.1959228515625,
+        "y0": 1705.26708984375,
+        "x1": 428.23846435546875,
+        "y1": 1756.37841796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 138,
+      "polygon": [
+        [
+          130.0,
+          1705.0
+        ],
+        [
+          130.0,
+          1755.0
+        ],
+        [
+          427.0,
+          1755.0
+        ],
+        [
+          427.0,
+          1705.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2. Subtraktion dissonanter Kognitionen,",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.8690647482872009,
+      "bbox": {
+        "x0": 129.90744018554688,
+        "y0": 1759.6129150390625,
+        "x1": 429.0435485839844,
+        "y1": 1812.9554443359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 147,
+      "polygon": [
+        [
+          129.0,
+          1759.0
+        ],
+        [
+          129.0,
+          1811.0
+        ],
+        [
+          428.0,
+          1811.0
+        ],
+        [
+          428.0,
+          1759.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3. Substitution dissonanter durch konsonante Kognitionen,",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.8751875162124634,
+      "bbox": {
+        "x0": 128.4159393310547,
+        "y0": 1815.8701171875,
+        "x1": 442.6636657714844,
+        "y1": 1867.803955078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 166,
+      "polygon": [
+        [
+          128.0,
+          1815.0
+        ],
+        [
+          128.0,
+          1866.0
+        ],
+        [
+          441.0,
+          1866.0
+        ],
+        [
+          441.0,
+          1815.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "4. Erhöhung der Wichtigkeit konsonanter Kognitionen,",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.8798271417617798,
+      "bbox": {
+        "x0": 128.60362243652344,
+        "y0": 1870.3740234375,
+        "x1": 438.468017578125,
+        "y1": 1924.629638671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 167,
+      "polygon": [
+        [
+          128.0,
+          1870.0
+        ],
+        [
+          128.0,
+          1923.0
+        ],
+        [
+          437.0,
+          1923.0
+        ],
+        [
+          437.0,
+          1870.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5. Reduktion der Wichtigkeit disso-\nnanter Kognitionen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 17,
+      "pp_label": "image",
+      "score": 0.9586046934127808,
+      "bbox": {
+        "x0": 503.7333984375,
+        "y0": 183.96112060546875,
+        "x1": 1406.73583984375,
+        "y1": 900.9812622070312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 187,
+      "polygon": [
+        [
+          503.0,
+          183.0
+        ],
+        [
+          503.0,
+          899.0
+        ],
+        [
+          1405.0,
+          899.0
+        ],
+        [
+          1405.0,
+          183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0025_12_image.png"
+    },
+    {
+      "id": 13,
+      "query_id": 15,
+      "pp_label": "paragraph_title",
+      "score": 0.848212480545044,
+      "bbox": {
+        "x0": 503.4938049316406,
+        "y0": 972.3275146484375,
+        "x1": 1283.5770263671875,
+        "y1": 1010.5850830078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 208,
+      "polygon": [
+        [
+          503.0,
+          972.0
+        ],
+        [
+          503.0,
+          1009.0
+        ],
+        [
+          1282.0,
+          1009.0
+        ],
+        [
+          1282.0,
+          972.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2.1 Klassische Formulierung der Dissonanztheorie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.9516382813453674,
+      "bbox": {
+        "x0": 502.8629150390625,
+        "y0": 1048.1046142578125,
+        "x1": 1405.512451171875,
+        "y1": 1350.9058837890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 228,
+      "polygon": [
+        [
+          502.0,
+          1048.0
+        ],
+        [
+          502.0,
+          1349.0
+        ],
+        [
+          1404.0,
+          1349.0
+        ],
+        [
+          1397.0,
+          1048.0
+        ],
+        [
+          1276.0,
+          1048.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kognitive Dissonanz entsteht immer dann, wenn mindestens zwei verschiedene kognitive Inhalte, die wir erleben (z. B. Gedanken, Überzeugungen, Einstellungen, Wahrnehmung eigener Verhaltensweisen) nicht oder nur schwer miteinander vereinbar sind. In anderen Worten: Dissonanz entsteht immer dann, wenn eine bestimmte Kognition das genaue Gegenteil einer anderen Kognition impliziert. Ein mögliches Beispiel hierfür wäre folgendes Szenario: Kognition 1: »Ich liege häufig ungeschützt in der prallen Sonne«; Kognition 2: »UV-Strahlung erhöht das Risiko für Hautkrebs«. Indiesem Fall stehen sich beide Kognitionen gegenüber und sollten entsprechend der Theorie hohe Dissonanz auslösen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 15,
+      "query_id": 18,
+      "pp_label": "text",
+      "score": 0.7137636542320251,
+      "bbox": {
+        "x0": 542.2738037109375,
+        "y0": 1410.416748046875,
+        "x1": 1384.3243408203125,
+        "y1": 1517.730712890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 263,
+      "polygon": [
+        [
+          542.0,
+          1516.0
+        ],
+        [
+          1361.0,
+          1516.0
+        ],
+        [
+          1376.0,
+          1410.0
+        ],
+        [
+          542.0,
+          1410.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Demotion\nKognitive Dissonanz lässt sich als ein aversiver motivationaler Zustand beschreiben, der das Individuum dazu motiviert, diesen unangenehmen Zustand abzubauen (Festinger, 1957).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 16,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9375564455986023,
+      "bbox": {
+        "x0": 504.46014404296875,
+        "y0": 1581.50390625,
+        "x1": 1404.0491943359375,
+        "y1": 1681.118408203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 279,
+      "polygon": [
+        [
+          504.0,
+          1591.0
+        ],
+        [
+          504.0,
+          1680.0
+        ],
+        [
+          1403.0,
+          1680.0
+        ],
+        [
+          1403.0,
+          1581.0
+        ],
+        [
+          822.0,
+          1581.0
+        ],
+        [
+          798.0,
+          1581.0
+        ],
+        [
+          686.0,
+          1581.0
+        ],
+        [
+          670.0,
+          1581.0
+        ],
+        [
+          633.0,
+          1581.0
+        ],
+        [
+          625.0,
+          1581.0
+        ],
+        [
+          603.0,
+          1581.0
+        ],
+        [
+          512.0,
+          1581.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Dabei ist die entstehende Dissonanz umso höher, je wichtiger die widerstreitenden Kognitionen für die Person sind, die sie erlebt und je stärker sie einem persönlichen Standard entsprechen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 17,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9154537916183472,
+      "bbox": {
+        "x0": 504.7550048828125,
+        "y0": 1682.78369140625,
+        "x1": 1404.76513671875,
+        "y1": 1747.350341796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 283,
+      "polygon": [
+        [
+          504.0,
+          1692.0
+        ],
+        [
+          512.0,
+          1746.0
+        ],
+        [
+          1403.0,
+          1746.0
+        ],
+        [
+          1403.0,
+          1682.0
+        ],
+        [
+          512.0,
+          1682.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Dissonanz kann auf fünf verschiedene Weisen reduziert werden (vgl. Frey & Gaska, 2009; ☐ Abb. 2.1):",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 18,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.938312828540802,
+      "bbox": {
+        "x0": 504.6419372558594,
+        "y0": 1750.3560791015625,
+        "x1": 1404.9095458984375,
+        "y1": 1846.4632568359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 288,
+      "polygon": [
+        [
+          504.0,
+          1750.0
+        ],
+        [
+          504.0,
+          1845.0
+        ],
+        [
+          1403.0,
+          1845.0
+        ],
+        [
+          1403.0,
+          1750.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1. Addition konsonanter Kognitionen –Hinzufügen von Argumenten, die meinen ursprünglichen Gedanken stützen bzw. meiner Empfindung entsprechen, z. B. »Ich möchte braun werden!«",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 19,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9364627599716187,
+      "bbox": {
+        "x0": 502.5566101074219,
+        "y0": 1849.13232421875,
+        "x1": 1406.58447265625,
+        "y1": 1949.279296875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 296,
+      "polygon": [
+        [
+          502.0,
+          1849.0
+        ],
+        [
+          502.0,
+          1948.0
+        ],
+        [
+          1405.0,
+          1948.0
+        ],
+        [
+          1405.0,
+          1849.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2. Subtraktion dissonanter Kognitionen – Vermeidung von Informationen, die z. B. zeigen, dass UV-Strahlung tatsächlich krebsfördernd ist; etwa durch Ignorieren der neuesten Statistiken zu den Langzeitschäden von UV-Strahlenexposition.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1423.9722900390625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 3332.05712890625
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1377.09130859375
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 2607.84912109375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1223.2392578125
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1718.8262939453125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1934.2314453125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 0.0,
+      "marge": -39.05381774902344
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 0.0,
+      "marge": -87.82481384277344
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1663.3587646484375
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 540.1278686523438
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 3293.576171875
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 1882.5240478515625
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 1688.867919921875
+    },
+    {
+      "von": 14,
+      "nach": 15,
+      "konfidenz": 1.0,
+      "marge": 1963.8382568359375
+    },
+    {
+      "von": 15,
+      "nach": 16,
+      "konfidenz": 1.0,
+      "marge": 1597.75048828125
+    },
+    {
+      "von": 16,
+      "nach": 17,
+      "konfidenz": 1.0,
+      "marge": 1170.974609375
+    },
+    {
+      "von": 17,
+      "nach": 18,
+      "konfidenz": 1.0,
+      "marge": 915.399169921875
+    },
+    {
+      "von": 18,
+      "nach": 19,
+      "konfidenz": 1.0,
+      "marge": 1436.9537353515625
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3945487920027517,
+      "zeitstempel": "2026-09-06T14:31:01.252160Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 9.199451666998357,
+      "zeitstempel": "2026-09-06T14:37:07.486030Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

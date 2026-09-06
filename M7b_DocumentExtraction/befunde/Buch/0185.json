@@ -1,0 +1,836 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 185,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.6959265470504761,
+      "bbox": {
+        "x0": 116.558837890625,
+        "y0": 78.99545288085938,
+        "x1": 486.774658203125,
+        "y1": 105.94778442382812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "182 Kapitel 11 · Soziale Dilemmata",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 20,
+      "pp_label": "number",
+      "score": 0.5373119115829468,
+      "bbox": {
+        "x0": 14.326021194458008,
+        "y0": 981.9161987304688,
+        "x1": 62.7860107421875,
+        "y1": 1022.4592895507812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 60,
+      "polygon": [
+        [
+          14.0,
+          981.0
+        ],
+        [
+          14.0,
+          1021.0
+        ],
+        [
+          61.0,
+          1021.0
+        ],
+        [
+          61.0,
+          981.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "11",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.8524876236915588,
+      "bbox": {
+        "x0": 128.16041564941406,
+        "y0": 252.61489868164062,
+        "x1": 430.0421142578125,
+        "y1": 366.3937683105469,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 86,
+      "polygon": [
+        [
+          128.0,
+          252.0
+        ],
+        [
+          128.0,
+          365.0
+        ],
+        [
+          429.0,
+          365.0
+        ],
+        [
+          429.0,
+          252.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Unser Gewissen – und damit verbunden soziale Normen – können Kooperation fördern. Hierbei sind folgende Faktoren relevant:",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 16,
+      "pp_label": "text",
+      "score": 0.8751353025436401,
+      "bbox": {
+        "x0": 132.59844970703125,
+        "y0": 486.3997497558594,
+        "x1": 425.92431640625,
+        "y1": 570.4486083984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 103,
+      "polygon": [
+        [
+          132.0,
+          496.0
+        ],
+        [
+          132.0,
+          569.0
+        ],
+        [
+          424.0,
+          569.0
+        ],
+        [
+          424.0,
+          496.0
+        ],
+        [
+          417.0,
+          486.0
+        ],
+        [
+          335.0,
+          486.0
+        ],
+        [
+          319.0,
+          486.0
+        ],
+        [
+          313.0,
+          486.0
+        ],
+        [
+          304.0,
+          486.0
+        ],
+        [
+          140.0,
+          486.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1. Kooperation durch Gewissenhaftigkeit bzw. moralische Verpflichtung;",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.7932417392730713,
+      "bbox": {
+        "x0": 128.9632568359375,
+        "y0": 585.40966796875,
+        "x1": 435.9705505371094,
+        "y1": 615.09228515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 109,
+      "polygon": [
+        [
+          128.0,
+          585.0
+        ],
+        [
+          128.0,
+          614.0
+        ],
+        [
+          434.0,
+          614.0
+        ],
+        [
+          434.0,
+          585.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2. Kooperation durch Reziprozität;",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.8574442863464355,
+      "bbox": {
+        "x0": 130.2967071533203,
+        "y0": 752.6007080078125,
+        "x1": 429.9274597167969,
+        "y1": 810.7684326171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 116,
+      "polygon": [
+        [
+          130.0,
+          762.0
+        ],
+        [
+          130.0,
+          809.0
+        ],
+        [
+          428.0,
+          809.0
+        ],
+        [
+          428.0,
+          762.0
+        ],
+        [
+          398.0,
+          752.0
+        ],
+        [
+          291.0,
+          752.0
+        ],
+        [
+          275.0,
+          752.0
+        ],
+        [
+          238.0,
+          752.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3. Kooperation durch Wohlwollen gegenüber anderen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.7965563535690308,
+      "bbox": {
+        "x0": 508.13958740234375,
+        "y0": 175.05389404296875,
+        "x1": 763.4450073242188,
+        "y1": 208.41375732421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 125,
+      "polygon": [
+        [
+          508.0,
+          175.0
+        ],
+        [
+          508.0,
+          207.0
+        ],
+        [
+          762.0,
+          207.0
+        ],
+        [
+          762.0,
+          175.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "11.3.1 Gewissen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 17,
+      "pp_label": "aside_text",
+      "score": 0.6541010141372681,
+      "bbox": {
+        "x0": 130.3824920654297,
+        "y0": 1414.5081787109375,
+        "x1": 234.0899200439453,
+        "y1": 1441.3341064453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 127,
+      "polygon": [
+        [
+          130.0,
+          1414.0
+        ],
+        [
+          130.0,
+          1440.0
+        ],
+        [
+          233.0,
+          1440.0
+        ],
+        [
+          233.0,
+          1414.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1. Priming,",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.8859854340553284,
+      "bbox": {
+        "x0": 128.1109619140625,
+        "y0": 1185.169921875,
+        "x1": 446.79315185546875,
+        "y1": 1326.014892578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 134,
+      "polygon": [
+        [
+          128.0,
+          1185.0
+        ],
+        [
+          128.0,
+          1325.0
+        ],
+        [
+          445.0,
+          1325.0
+        ],
+        [
+          445.0,
+          1185.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kooperatives Verhalten setzt die Aktivierung dieser sozialen Normen im Bewusstsein voraus. Hierbei sind verschiedene Kontextfaktoren entscheidend:",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9546385407447815,
+      "bbox": {
+        "x0": 504.5936279296875,
+        "y0": 249.9647216796875,
+        "x1": 1405.73828125,
+        "y1": 480.7579345703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 161,
+      "polygon": [
+        [
+          504.0,
+          260.0
+        ],
+        [
+          504.0,
+          479.0
+        ],
+        [
+          1404.0,
+          479.0
+        ],
+        [
+          1404.0,
+          249.0
+        ],
+        [
+          512.0,
+          249.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Hardin (1968) scheint an derartige Eingriffe in die Belohnungsstruktur der Dilemmata gedacht zu haben, während er psychologische Lösungsvorschläge als lächerlich abtat. Aus psychologischer Sicht spielt das Gewissen eine zentrale Rolle. Gewissenhafte Menschen stellen das Interesse der Gruppe (oder des Planeten) den unmittelbaren persönlichen Interessen voran oder ignorieren es zumindest nicht vollständig. Täten sie es nicht, so würden sie moralische Schuld empfinden. Aus dieser Annahme lassen sich mehrere konkrete Ideen ableiten:\n1. Maschen können keinerer, wenn sie dies als ihre moralische Pflicht ampfِen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9124633073806763,
+      "bbox": {
+        "x0": 504.42547607421875,
+        "y0": 483.1159362792969,
+        "x1": 1404.185546875,
+        "y1": 547.60302734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 176,
+      "polygon": [
+        [
+          504.0,
+          537.0
+        ],
+        [
+          504.0,
+          546.0
+        ],
+        [
+          1403.0,
+          546.0
+        ],
+        [
+          1403.0,
+          483.0
+        ],
+        [
+          512.0,
+          483.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1. Menschen können kooperieren, wenn sie dies als ihre moralische Pflicht empfinden (Kant, 1785/2004; Krueger, Massey & DiDionato, 2008).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9501932859420776,
+      "bbox": {
+        "x0": 505.1134033203125,
+        "y0": 550.472900390625,
+        "x1": 1407.0885009765625,
+        "y1": 746.08642578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 192,
+      "polygon": [
+        [
+          513.0,
+          550.0
+        ],
+        [
+          513.0,
+          745.0
+        ],
+        [
+          1406.0,
+          745.0
+        ],
+        [
+          1406.0,
+          550.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2. Menschen haben die Norm der Reziprozität verinnerlicht (Trivers, 1971). Dies ist besonders dann der Fall, wenn der Eindruck besteht, dass andere aus freien Stücken heraus kooperieren (Falk & Fischbacher, 2006). Wenn nicht nachgewiesen werden kann, dass sich der andere bereits kooperativ verhalten hat, so reicht die Erwartung der Kooperation aus, um selbst kooperatives Verhalten zu zeigen (Pruitt & Kimmel, 1977).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9494829773902893,
+      "bbox": {
+        "x0": 503.61651611328125,
+        "y0": 749.3271484375,
+        "x1": 1407.3807373046875,
+        "y1": 1050.965576171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 209,
+      "polygon": [
+        [
+          511.0,
+          749.0
+        ],
+        [
+          511.0,
+          1049.0
+        ],
+        [
+          1406.0,
+          1049.0
+        ],
+        [
+          1406.0,
+          749.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3. Schon Adam Smith (1759/1976) schrieb, dass viele Menschen dem Wohlergehen anderer nicht gleichgültig gegenüberstehen. Im Gegensatz zu reinen Individualisten bewerten prosozial eingestellte Menschen nicht nur den eigenen Nutzen einer Transaktion, sondern auch den Nutzen für andere und integrieren dies in ihre eige- ne Gesamtbewertung (Kelley & Thibaut, 1978; van Lange, 1999). Als Resultat kann sich ein Gefangenendilemma subjektiv in ein Spiel der Hirschjagd verwandeln. Das heißt, auch wenn objektiv gesehen zwei Kooperateure zusammen weniger erwirtschaften als ein Kooperateur und ein Deserteur, so mag es subjektiv mehr erscheinen (Krueger, DiDonato & Freestone, 2012).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.7994741797447205,
+      "bbox": {
+        "x0": 507.91485595703125,
+        "y0": 1108.613525390625,
+        "x1": 743.0853881835938,
+        "y1": 1141.88330078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 224,
+      "polygon": [
+        [
+          507.0,
+          1108.0
+        ],
+        [
+          507.0,
+          1140.0
+        ],
+        [
+          742.0,
+          1140.0
+        ],
+        [
+          742.0,
+          1108.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "11.3.2 Kontext",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9414037466049194,
+      "bbox": {
+        "x0": 503.9276428222656,
+        "y0": 1183.37841796875,
+        "x1": 1406.2086181640625,
+        "y1": 1348.005859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 245,
+      "polygon": [
+        [
+          503.0,
+          1183.0
+        ],
+        [
+          503.0,
+          1347.0
+        ],
+        [
+          806.0,
+          1347.0
+        ],
+        [
+          815.0,
+          1347.0
+        ],
+        [
+          1405.0,
+          1347.0
+        ],
+        [
+          1405.0,
+          1183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Solange verinnerlichte soziale Normen nur im Menschen schlummern, haben sie keinerlei Auswirkungen. Um tatsächlich kooperatives Verhalten in Gang setzen zu können, müssen sie aktiviert werden und ins Bewusstsein gelangen. Hierbei spielen ganz unterschiedliche Kontextfaktoren eine entscheidende Rolle. Einige seien im Folgenden erwähnt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 15,
+      "query_id": 9,
+      "pp_label": "paragraph_title",
+      "score": 0.7770333886146545,
+      "bbox": {
+        "x0": 506.38995361328125,
+        "y0": 1376.941162109375,
+        "x1": 614.0758056640625,
+        "y1": 1409.725830078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 257,
+      "polygon": [
+        [
+          506.0,
+          1376.0
+        ],
+        [
+          506.0,
+          1408.0
+        ],
+        [
+          613.0,
+          1408.0
+        ],
+        [
+          613.0,
+          1376.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Priming",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 16,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9643318057060242,
+      "bbox": {
+        "x0": 503.6476135253906,
+        "y0": 1416.128662109375,
+        "x1": 1406.8837890625,
+        "y1": 1884.041748046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 280,
+      "polygon": [
+        [
+          503.0,
+          1416.0
+        ],
+        [
+          503.0,
+          1883.0
+        ],
+        [
+          1405.0,
+          1883.0
+        ],
+        [
+          1405.0,
+          1416.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der deontologische (d.h. sich auf Rechte und Pflichten berufende) Aspekt des Gewissens kann beispielsweise über religiöse Symbole wachgerufen werden. So ließen Shariff und Noranzayan (2007) ihre Versuchsteilnehmer Wortvervollständigungsaufgaben bearbeiten, die sowohl einen neutralen als auch einen religiösen Inhalt hatten. In letzterem Fall – wenn beispielsweise Wörter wie Geist, Gott oder heilig vorkamen, verhielten sich die Teilnehmerinnen und Teilnehmer im anschließenden »Diktatorspiel« (Hoffman, McCabe, Shachat & Smith, 1994) prosozialer. In diesem Spiel wird eine Person zum »Diktator« ernannt und ihre Aufgabe ist es, einen vorgegebenen Geldbetrag zwischen sich und einer anderen Person aufzuteilen. Wie diese Aufteilung aussieht, also ob der Diktator den Betrag gleichmäßig aufteilt oder das ganze Geld selbst behält, bleibt ihm überlassen. Damit ist das Diktatorspiel kein Dilemma. Doch bezüglich des sozialen Kontextes zeigte sich in der Studie, dass Personen, deren Primes religiöse Begriffe waren, dem zweiten Spieler eine größere Summe überließen als Personen mit neutralen Primes.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 830.3043823242188
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1008.0308227539062
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1475.91796875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1241.1124267578125
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1822.9248046875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 523.1361083984375
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 0.0,
+      "marge": -991.3339233398438
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 0.0,
+      "marge": -1784.165283203125
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 687.3717651367188
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1526.2281494140625
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 924.1610717773438
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1690.9295654296875
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 1823.4097900390625
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 1231.45068359375
+    },
+    {
+      "von": 14,
+      "nach": 15,
+      "konfidenz": 1.0,
+      "marge": 1551.55029296875
+    },
+    {
+      "von": 15,
+      "nach": 16,
+      "konfidenz": 1.0,
+      "marge": 1106.4844970703125
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3947997499999474,
+      "zeitstempel": "2026-09-06T14:32:04.159201Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 13.576151040997502,
+      "zeitstempel": "2026-09-06T15:10:26.494660Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

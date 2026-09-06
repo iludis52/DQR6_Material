@@ -1,0 +1,530 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 47,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 2,
+      "pp_label": "header",
+      "score": 0.831722617149353,
+      "bbox": {
+        "x0": 113.17897033691406,
+        "y0": 79.19625854492188,
+        "x1": 533.7953491210938,
+        "y1": 106.26174926757812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 8,
+      "polygon": [
+        [
+          113.0,
+          79.0
+        ],
+        [
+          113.0,
+          105.0
+        ],
+        [
+          532.0,
+          105.0
+        ],
+        [
+          532.0,
+          79.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3.2 · Verzerrungen im Entscheidungsprozess",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 14,
+      "pp_label": "number",
+      "score": 0.6369885802268982,
+      "bbox": {
+        "x0": 1383.0162353515625,
+        "y0": 35.420501708984375,
+        "x1": 1419.68359375,
+        "y1": 84.97647094726562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 32,
+      "polygon": [
+        [
+          1383.0,
+          35.0
+        ],
+        [
+          1383.0,
+          83.0
+        ],
+        [
+          1418.0,
+          83.0
+        ],
+        [
+          1418.0,
+          35.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 4,
+      "pp_label": "paragraph_title",
+      "score": 0.8407803773880005,
+      "bbox": {
+        "x0": 112.46382904052734,
+        "y0": 175.03570556640625,
+        "x1": 917.5135498046875,
+        "y1": 209.61822509765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 60,
+      "polygon": [
+        [
+          112.0,
+          175.0
+        ],
+        [
+          112.0,
+          208.0
+        ],
+        [
+          916.0,
+          208.0
+        ],
+        [
+          916.0,
+          175.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3.2.5 Informationale Diagnostizität (Verwässerungseffekt)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9660553932189941,
+      "bbox": {
+        "x0": 110.2694320678711,
+        "y0": 250.59893798828125,
+        "x1": 1014.9116821289062,
+        "y1": 684.6478881835938,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 67,
+      "polygon": [
+        [
+          118.0,
+          250.0
+        ],
+        [
+          118.0,
+          683.0
+        ],
+        [
+          1013.0,
+          683.0
+        ],
+        [
+          1013.0,
+          250.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Eng verwandt mit der zuvor beschriebenen Pseudodiagnostizität sind Urteilsverzerungen, die im Rahmen der informationalen Diagnostizität auftreten. Urteile und Entscheidungen werden durch Informationen beeinflusst, die wichtig für den Urteils-prozess sind (diagnostische Informationen). Urteile werden aber auch durch Informationen beeinflusst, die in diesem Zusammenhang vollkommen irrelevant sind (nicht diagnostische Informationen). Nicht diagnostische Informationen sind solche, die auftreten und zutreffen, und zwar sowohl unter Gültigkeit der aktuellen Hypothese als auch unter Gültigkeit einer potenziellen Alternativhypothese (also unabhängig vom vorliegenden Entscheidungsfall). Die Güte eines Urteils steigt mit der Anzahl verfügbarer diagnostischer Informationen. Dagegen sinkt die Güte eines Urteils, je höher die Anzahl der nicht diagnostischen Informationen ist, die einer Person während des Urteilsprozesses zur Verfügung stehen (Nisbett, Zukier & Lemley, 1981). Dieses Phänomen wird auch als »Verwässerungseffekt« bezeichnet (Dawes, 1998).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.6526802778244019,
+      "bbox": {
+        "x0": 1057.2705078125,
+        "y0": 252.3507080078125,
+        "x1": 1375.55126953125,
+        "y1": 392.033447265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 104,
+      "polygon": [
+        [
+          1057.0,
+          252.0
+        ],
+        [
+          1057.0,
+          391.0
+        ],
+        [
+          1374.0,
+          391.0
+        ],
+        [
+          1374.0,
+          252.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der Verwässerungseffekt bezeichnet den ungerechtfertigten Einfluss nicht diagnostischer Informationen auf Urteils- und Entscheidungsprozesse.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.7326805591583252,
+      "bbox": {
+        "x0": 153.67333984375,
+        "y0": 713.708984375,
+        "x1": 241.1699676513672,
+        "y1": 742.6512451171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 121,
+      "polygon": [
+        [
+          153.0,
+          713.0
+        ],
+        [
+          153.0,
+          741.0
+        ],
+        [
+          240.0,
+          741.0
+        ],
+        [
+          240.0,
+          713.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Beispiel",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.8880892992019653,
+      "bbox": {
+        "x0": 150.60018920898438,
+        "y0": 749.7239990234375,
+        "x1": 1376.9652099609375,
+        "y1": 1052.2293701171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 139,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Verwässerungseffekt im Arbeitsleben: Die Flut nicht diagnostischer elektronischer Information\nBeispielsweise ist diese informationale Ursache für Urteils-verzerrungen besonders relevant im E-Mail-Verkehr in Organisationen. Es ist relativ einfach, E-Mails zu schreiben und zu verschicken; der Umfang übermittelter elektro-nischer Informationen ist in den letzten Jahren daher stark angestiegen. Vor allem für Organisationen und deren Entscheidungsträger/-innen kann dies jedoch zum gravie-renden Problem werden, da der Einfluss diagnostischer Informationen durch eine Vielzahl nicht diagnostischer Informationen »verwässert« wird. Es besteht also die Gefahr, dass Führungskräfte durch eine typischerweise große Zahl »beigemischter«, nicht diagnostischer Informationen leichter von schlechten Ideen überzeugt werden, oder aber dadurch direkt zu Fehlentscheidungen verleitet werden, was letzt-endlich zu erheblichen ökonomischen Schäden führen kann.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        6,
+        7
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9706244468688965,
+      "bbox": {
+        "x0": 110.0784912109375,
+        "y0": 1116.3251953125,
+        "x1": 1013.8131713867188,
+        "y1": 1716.53125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 192,
+      "polygon": [
+        [
+          118.0,
+          1116.0
+        ],
+        [
+          118.0,
+          1705.0
+        ],
+        [
+          1012.0,
+          1705.0
+        ],
+        [
+          1012.0,
+          1116.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Doch nicht nur ein »Zuviel« an nicht diagnostischen Informationen kann zu Fehlurteilen führen. Ebenso problematisch ist es, wenn wichtige diagnostische Informationen fehlen. Beispielsweise kommt es in der Wirtschaftswelt häufig vor, dass man Entscheidungen treffen muss, ohne über alle wichtigen diagnostischen Informationen zu verfügen. So benötigen Kunden bei einer potenziellen Kaufentscheidung zwei entscheidende Informationen: Preis und Produktqualität. Nun ist es allerdings so, dass gerade bei neuen Produkten (z. B. Elektroautos) meist Informationen zur Produktqualität fehlen (da man noch nicht auf Langzeiterfahrungen mit dem Produkt zurückgreifen kann). In solch einer Situation greifen potenzielle Käufer häufig zu Heuristiken. Beispielsweise kann es sein, dass sie in dieser Situation den Wert der fehlenden Information durch einen Wert ersetzen, der aus vorhandenem situationsrelevanten Erfahrungswissen zusammengesetzt ist (Levin, Johnson & Faraone, 1984). Hierzu werden Heuristiken angewandt wie z. B. die Daumenregeln »Hoher Preis impliziert gute Qualität« oder »Expertenurteilen kann man vertrauen«. Ebenso kann es sein, dass Personen die fehlenden entscheidungsrelevanten Informationen über verschiedene Situationen hinweg durch einen konstanten situationsunspezifischen Durchschnittswert ersetzen (Slovic & MacPhillamy, 1974) oder bestimmte Beurteilungsdimensionen generell abwerten (Levin, Kim & Corry, 1976; vgl. auch Dawes, 1998).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9602376818656921,
+      "bbox": {
+        "x0": 109.81575775146484,
+        "y0": 1715.330810546875,
+        "x1": 1014.7547607421875,
+        "y1": 1951.091064453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 243,
+      "polygon": [
+        [
+          109.0,
+          1725.0
+        ],
+        [
+          117.0,
+          1950.0
+        ],
+        [
+          1013.0,
+          1941.0
+        ],
+        [
+          1013.0,
+          1725.0
+        ],
+        [
+          968.0,
+          1715.0
+        ],
+        [
+          824.0,
+          1715.0
+        ],
+        [
+          808.0,
+          1715.0
+        ],
+        [
+          117.0,
+          1715.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Werten (Levin, Klin & Corly, 1976, vgl. auch Dawes, 1998).\nEntscheidend bei der informationalen Diagnostizität ist also die Art der Information – nämlich die Unterscheidung zwischen Informationen, die im Hinblick auf die Entscheidung hilfreich sind, und solchen, die diesbezüglich völlig irrelevant sind. Das Ungleichgewicht zwischen beiden Arten sorgt hier für Urteilsverzerrungen. Im Gegen-satz dazu kommt es bei der Pseudodiagnostizität deshalb zu Fehlentscheidungen, weil Alternativerklärungen nicht berücksichtigt werden. Nicht das Hinzuziehen unwichtiger Informationen verursacht also den Effekt, sondern das Nichtbeachten weiterer",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 12,
+      "pp_label": "vision_footnote",
+      "score": 0.5699847340583801,
+      "bbox": {
+        "x0": 1057.20458984375,
+        "y0": 1119.877197265625,
+        "x1": 1379.8863525390625,
+        "y1": 1261.46728515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 270,
+      "polygon": [
+        [
+          1057.0,
+          1119.0
+        ],
+        [
+          1057.0,
+          1260.0
+        ],
+        [
+          1378.0,
+          1260.0
+        ],
+        [
+          1378.0,
+          1130.0
+        ],
+        [
+          1371.0,
+          1119.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das Fehlen wichtiger diagnostischer Informationen wirkt sich negativ auf die Qualität von Entscheidungen aus, da Personen dann auf Heuristiken zurückgreifen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.7474014163017273,
+      "bbox": {
+        "x0": 1056.0416259765625,
+        "y0": 1718.556884765625,
+        "x1": 1374.31005859375,
+        "y1": 1916.71923828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 281,
+      "polygon": [
+        [
+          1056.0,
+          1718.0
+        ],
+        [
+          1056.0,
+          1915.0
+        ],
+        [
+          1373.0,
+          1915.0
+        ],
+        [
+          1373.0,
+          1718.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Informationale Diagnostizität betrifft das Ungleichgewicht zwischen diagnostischen und nicht diagnostischen Informationen, während Pseudodiagnostizität meint, dass Personen Alternativerklärungen nicht adäquat berücksichtigen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2623.46337890625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1350.5413818359375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1717.6534423828125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1661.9351806640625
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 913.7764282226562
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1692.10595703125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1862.2760009765625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1949.6474609375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 2677.96826171875
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1814.255126953125
+    }
+  ],
+  "warnungen": [
+    "Blöcke [6, 7] zu #6 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.38875125000049593,
+      "zeitstempel": "2026-09-06T14:31:09.796829Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 14.916189415998815,
+      "zeitstempel": "2026-09-06T14:41:53.024271Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

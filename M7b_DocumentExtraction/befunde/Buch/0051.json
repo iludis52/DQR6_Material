@@ -1,0 +1,236 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 51,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 29,
+      "pp_label": "header",
+      "score": 0.8305060267448425,
+      "bbox": {
+        "x0": 114.64869689941406,
+        "y0": 80.0595703125,
+        "x1": 201.1262664794922,
+        "y1": 105.28515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 1,
+      "polygon": [
+        [
+          114.0,
+          80.0
+        ],
+        [
+          114.0,
+          104.0
+        ],
+        [
+          200.0,
+          104.0
+        ],
+        [
+          200.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Literatur",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 294,
+      "pp_label": "number",
+      "score": 0.6055447459220886,
+      "bbox": {
+        "x0": 1189.475341796875,
+        "y0": 53.94488525390625,
+        "x1": 1220.217529296875,
+        "y1": 80.02899169921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 10,
+      "polygon": [
+        [
+          1196.0,
+          53.0
+        ],
+        [
+          1189.0,
+          62.0
+        ],
+        [
+          1189.0,
+          79.0
+        ],
+        [
+          1219.0,
+          79.0
+        ],
+        [
+          1219.0,
+          53.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "43",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 37,
+      "pp_label": "number",
+      "score": 0.6851484179496765,
+      "bbox": {
+        "x0": 1381.932861328125,
+        "y0": 33.958526611328125,
+        "x1": 1420.7197265625,
+        "y1": 84.81906127929688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 12,
+      "polygon": [
+        [
+          1381.0,
+          33.0
+        ],
+        [
+          1381.0,
+          83.0
+        ],
+        [
+          1419.0,
+          83.0
+        ],
+        [
+          1419.0,
+          33.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 0,
+      "pp_label": "reference",
+      "score": 0.525532066822052,
+      "bbox": {
+        "x0": 111.19508361816406,
+        "y0": 184.18743896484375,
+        "x1": 1011.970458984375,
+        "y1": 1942.401123046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 21,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Eagly, A. H. & Chaiken, S. (1993). The psychology of attitudes. Orlando: Harcourt Brace Jovanovich College Publishers.\nEpley, N. & Gilovich, T. (2001). Putting adjustment back in the anchoring and adjustment heuristic: Differential processing of self-generated and experimenter-provided anchors. Psychological Science, 12, 391–396.\nFiedler, K. & Krueger, J. I. (2012). More than an artifact: Regression as a theoretical construct. In J. I. Krueger (Ed.), Social judgment and decision making (pp. 171–181). New York: Psychology Press.\nFischer, P. (2011). Selective exposure, decision uncertainty, and cognitive economy: A new theoretical perspective on confirmatory information search. Social and Personality Psychology Compass, 5, 751–762.\nFischer, P. & Greitemeyer, T. (2010). A new look at selective-exposure effects: An integrative model. Current Directions in Psychological Science, 19, 384–389.\nGalton, F. (1907). Vox populi. Nature, 75, 509–510.\nGigerenzer, G. & Gaissmaier, W. (2011). Heuristic decision making. Annual Reviews of Psychology, 62, 451–482.\nGilovich, T., Vallone, R. & Tversky, A. (1985). The hot hand in basketball: On the misperception of random sequences. Cognitive Psychology, 17, 295–314.\nGino, F., Sharek, Z. & Moore, D. A. (2011). Keeping the illusion of control under control: Ceilings, floors, and imperfect calibration. Organizational Behavior and Human Decision Processes, 114, 104–114.\nGold, E. & Hester, G. (2008). The gambler's fallacy and the coin's memory. In J. I. Krueger (Ed.), Rationality and social responsibility: Essays in honor of Robyn Mason Dawes (pp. 21–46). New York: Psychology Press.\nGreitemeyer, T., Fischer, P., Frey, D. & Schulz-Hardt, S. (2009). Biased assimilation: The role of source position. European Journal of Social Psychology, 39, 22–39.\nHastie, R. & Dawes, R. M. (2010). Rational choice in an uncertain world: The psychology of judgment and decision making (2nd ed.). Los Angeles: Sage.\nHastie, R. & Kameda, T. (2005). The robust beauty of majority rules in group decisions. Psychological Review, 112, 494–508.\nHoffrage, U. & Hertwig, R. (2012). Simple heuristics in a complex social world. In J. I. Krueger (Ed.), Social judgment and decision making (pp. 135–150). New York, NY: Psychology Press.\nKahneman, D. & Frederick, S. (2002). Representativeness revisited: Attribute substitution in intuitive judgement. In T. Gilovich, D. Griffin, & D. Kahneman (Eds.), Heuristics and biases: The psychology of intuitive judgement (pp. 49–81). New York: Cambridge University Press.\nKahneman, D. & Tversky, A. (1979). Prospect theory: An analysis of decision under risk. Econometrica, 47, 263–292.\nKlein, S. B., Loftus, J. & Kihlstrom, J. F. (1996). Self-knowledge of an amnesic patient: Toward a neuropsychology of personality and social psychology. Journal of Experimental Psychology: General, 125, 250–260.\nKrantz, D. H., Luce, R. D., Suppes, P. & Tversky, A. (1971). Foundations of measurement (Vol. I): Additive and polynomial representations. New York: Academic Press.\nKrueger, J. I. (2000). Distributive judgments under uncertainty: Paccioli's game revisited. Journal of Experimental Psychology: General, 129, 546–558.\nKrueger, J. I. (2001). Null hypothesis significance testing: On the survival of a flawed method. American Psychologist, 56, 16–26.\nKrueger, J. I. (2012). The (ir)rationality project in social psychology: A review and assessment. In J. I. Krueger (Ed.), Social judgment and decision making (pp. 59–75). New York: Psychology Press.\nKrueger, J. I. & Massey, A. L. (2009). A rational reconstruction of misbehavior. Social Cognition, 27, 786–812.\nKrueger, J. I. & Wright, J. C. (2011). Measurement of self-enhancement (and self-protection). In M. D. Alicke & C. Sedikides (Eds.), Handbook of self-enhancement and self-protection (pp. 472–494). New York: Guilford.\nKruglanski, A. W. & Ajzen, I. (1983). Bias and error in human judgment. European Journal of Social Psychology, 13, 1–44.\nLaland, K. (2001). Imitation, social learning, and preparedness as mechanisms of bounded rationality. In G. Gigerenzer & R. Selten (Eds.), Bounded rationality: The adaptive toolbox (pp. 233–248). Cambridge: MIT Press.\nLanger, E. J. (1975). The illusion of control. Journal of Personality and Social Psychology, 32, 311–328.\nLarrick, R. P., Mannes, A. E. & Soll, J. B. (2012). The social psychology of the wisdom of crowds. In J. I. Krueger (Ed.), Social judgment and decision making (pp. 227–242). New York: Psychology Press.\nLevin, I. P., Johnson, R. D. & Faraone, S. V. (1984). Information integration in price-quality tradeoffs: The effect of missing information. Memory & Cognition, 12, 96–102.\nLevin, I. P., Kim, K. J. & Corry, F. A. (1976). Invariance of the weight parameter in information integration. Memory & Cognition, 4, 43–47.\nLuce, R. D., Krantz, D. H., Suppes, P. & Tversky, A. (1990). Foundations of measurement (Vol. II): Representation, axiomatization, and invariance. New York: Academic Press.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1819.87744140625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 499.8417053222656
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1839.2503662109375
+    }
+  ],
+  "warnungen": [
+    "Blöcke [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33] zu #3 (reference) zusammengeführt.",
+    "Blöcke [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33] zu #3 (reference) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.4638170420003007,
+      "zeitstempel": "2026-09-06T14:31:11.526142Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 10.796756584000832,
+      "zeitstempel": "2026-09-06T14:42:42.258076Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 10.84678545800125,
+      "zeitstempel": "2026-09-06T15:19:34.319685Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

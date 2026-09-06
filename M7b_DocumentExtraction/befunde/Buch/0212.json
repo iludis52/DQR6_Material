@@ -1,0 +1,891 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 212,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8488044142723083,
+      "bbox": {
+        "x0": 114.56233215332031,
+        "y0": 78.78863525390625,
+        "x1": 453.63909912109375,
+        "y1": 106.76727294921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 3,
+      "polygon": [
+        [
+          114.0,
+          78.0
+        ],
+        [
+          114.0,
+          105.0
+        ],
+        [
+          452.0,
+          105.0
+        ],
+        [
+          452.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "12.3 · Abschließende Bemerkungen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 12,
+      "pp_label": "header",
+      "score": 0.6659156084060669,
+      "bbox": {
+        "x0": 1183.071533203125,
+        "y0": 53.415771484375,
+        "x1": 1225.84619140625,
+        "y1": 79.5704345703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 17,
+      "polygon": [
+        [
+          1183.0,
+          53.0
+        ],
+        [
+          1183.0,
+          78.0
+        ],
+        [
+          1224.0,
+          78.0
+        ],
+        [
+          1224.0,
+          53.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "209",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 19,
+      "pp_label": "number",
+      "score": 0.7992516756057739,
+      "bbox": {
+        "x0": 1369.7423095703125,
+        "y0": 34.753814697265625,
+        "x1": 1438.042236328125,
+        "y1": 84.65499877929688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 27,
+      "polygon": [
+        [
+          1369.0,
+          34.0
+        ],
+        [
+          1369.0,
+          83.0
+        ],
+        [
+          1437.0,
+          83.0
+        ],
+        [
+          1437.0,
+          34.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "12",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9699568152427673,
+      "bbox": {
+        "x0": 109.54898834228516,
+        "y0": 183.64285278320312,
+        "x1": 1013.64404296875,
+        "y1": 684.6474609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 62,
+      "polygon": [
+        [
+          109.0,
+          183.0
+        ],
+        [
+          109.0,
+          683.0
+        ],
+        [
+          1012.0,
+          683.0
+        ],
+        [
+          1012.0,
+          183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "So etwa die Studie von Masten, Morelli und Eisenberger (2011), die versuchten, Empathie bei sozialem Schmerz bzw. sozialem Ausschluss (nicht wie meist: sensorischem Schmerz) auf neuronaler Ebene zu messen und mit nachfolgendem prosozialen Verhalten in Verbindung zu bringen. Dies ermöglichten sie, indem die Versuchspersonen zunächst den sozialen Ausschluss eines Opfers bei einem Ballspiel beobachteten und anschließend die Möglichkeit hatten, diesem per Schreiben eines Briefes zu »helfen«. Das Ergebnis war zum einen, dass die klassischen Gehirnareale für Empathie zwar aktiviert waren, aber zusätzlich um kognitive Regionen erweitert wurden, die mit Mentalisieren (▶ Abschn. 12.2.2 »Erkennen mentaler bzw. kognitiver Zustände anderer«) in Verbindung stehen (Bereiche des mPFC und der pCC). Das bedeutet, dass mit sozialem Schmerz möglicherweise eher die kognitive Komponente von Empathie erfasst wird, was wiederum verdeutlicht, wie vielschichtig dieses Konstrukt ist. Zum anderen konnte gezeigt werden, dass die Aktivität der anterioren Insula (vgl. auch Hein et al., 2010) und des mPFC in direktem Zusammenhang mit nachfolgendem Hilfeverhalten gegenüber dem Opfer stand.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 9,
+      "pp_label": "paragraph_title",
+      "score": 0.8799998760223389,
+      "bbox": {
+        "x0": 113.34304809570312,
+        "y0": 739.2340087890625,
+        "x1": 640.0166015625,
+        "y1": 776.8258056640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 86,
+      "polygon": [
+        [
+          113.0,
+          739.0
+        ],
+        [
+          113.0,
+          775.0
+        ],
+        [
+          639.0,
+          775.0
+        ],
+        [
+          639.0,
+          739.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "12.3 Abschließende Bemerkungen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9566123485565186,
+      "bbox": {
+        "x0": 110.77565002441406,
+        "y0": 817.005859375,
+        "x1": 1013.7322998046875,
+        "y1": 981.451171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 96,
+      "polygon": [
+        [
+          118.0,
+          817.0
+        ],
+        [
+          118.0,
+          980.0
+        ],
+        [
+          1012.0,
+          980.0
+        ],
+        [
+          1012.0,
+          817.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Befunde im Bereich prosozialen Verhaltens verdeutlichen sehr anschaulich, worin wesentliche Aufgaben der sozialen Neurowissenschaften liegen: einerseits nämlich in der Operationalisierung bestimmter Konstrukte, verbunden mit Fragen nach Reliabilität und Validität; andererseits in der Klärung von aktuellen Forschungsfragen aus der klassischen Sozialpsychologie.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9689918756484985,
+      "bbox": {
+        "x0": 109.33924865722656,
+        "y0": 982.794189453125,
+        "x1": 1014.473388671875,
+        "y1": 1584.610107421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 107,
+      "polygon": [
+        [
+          109.0,
+          993.0
+        ],
+        [
+          117.0,
+          1583.0
+        ],
+        [
+          1013.0,
+          1573.0
+        ],
+        [
+          1013.0,
+          982.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Klassischen Sozialpsychologie.\nZukünftige neurowissenschaftliche Forschung sollte also versuchen, neuronale Aktivität mit möglichst verhaltensnahen Daten zu verbinden. Darüber hinaus gilt es, diejenigen Bereiche der klassischen Sozialpsychologie verstärkt herauszugreifen, bei denen man mit der üblichen Methodik »nicht mehr weiterkommt«. Wie eingangs beschrieben, sollte das Ziel der sozialen Neurowissenschaften nicht ausschließlich im sog. »Mapping« bestehen, d.h. in einer Auflustung, welche Gehirnareale bei welchen Aufgaben aktiv sind; vielmehr sollte es auch darum gehen, durch die spezifische Methodik der sozialen Neurowissenschaften eine weitere Herangehensweise zur Klärung von Forschungsfragen zu haben. Nur so können Effekte auf unterschiedlichsten Untersuchungsebenen (verhaltensbezogen, gefühlsmäßig, neuronal, etc.) gezeigt und repliziert werden; Testergebnisse aus verschiedenen Disziplinen können einander ergänzen und vielleicht sogar in eine Theorie integriert werden. Insofern dienen die Methoden der sozialen Neurowissenschaften dazu, ein umfassendes Bild innerhalb der sozialpsychologischen Forschungsthemen zu bekommen. Und getreu dem Motto einer umfassen- den Betrachtungsweise haben daher auch wir versucht, Ihnen mit diesem Kapitel einen kleinen Einblick in das sehr große Gebiet »Social Neuroscience« zu geben, um damit auch gleichzeitig darauf hinzuweisen, wie vielschichtig Sozialpsychologie und damit auch die sozialpsychologische Forschung ist.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.8672578930854797,
+      "bbox": {
+        "x0": 153.573974609375,
+        "y0": 1718.31787109375,
+        "x1": 693.6048583984375,
+        "y1": 1780.17138671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 134,
+      "polygon": [
+        [
+          153.0,
+          1718.0
+        ],
+        [
+          153.0,
+          1779.0
+        ],
+        [
+          677.0,
+          1779.0
+        ],
+        [
+          692.0,
+          1769.0
+        ],
+        [
+          692.0,
+          1718.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2. Wie funktioniert die funktionelle Magnetresonanz-tomografie und was ist das Besondere daran?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 10,
+      "pp_label": "paragraph_title",
+      "score": 0.8404650688171387,
+      "bbox": {
+        "x0": 153.11427307128906,
+        "y0": 1612.251220703125,
+        "x1": 359.3798828125,
+        "y1": 1645.500244140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 135,
+      "polygon": [
+        [
+          153.0,
+          1612.0
+        ],
+        [
+          153.0,
+          1644.0
+        ],
+        [
+          358.0,
+          1644.0
+        ],
+        [
+          358.0,
+          1621.0
+        ],
+        [
+          282.0,
+          1612.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "? Kontrollfragen-",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 23,
+      "pp_label": "reference",
+      "score": 0.530709445476532,
+      "bbox": {
+        "x0": 155.56455993652344,
+        "y0": 1647.509765625,
+        "x1": 722.11962890625,
+        "y1": 1848.36669921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 140,
+      "polygon": [
+        [
+          155.0,
+          1647.0
+        ],
+        [
+          155.0,
+          1847.0
+        ],
+        [
+          721.0,
+          1847.0
+        ],
+        [
+          721.0,
+          1700.0
+        ],
+        [
+          699.0,
+          1647.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1. Was versteht man unter »Social Neuroscience« und welches Ziel verfolgt diese Disziplin?\n2. Wie funktioniert die funktionelle Magnetresonanz-tomografie und was ist das Besondere daran?\n3. Was versteht man unter »Theory of Mind« und welche Gehirnareale sind hierbei von Bedeutung?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 17,
+      "pp_label": "text",
+      "score": 0.8212447762489319,
+      "bbox": {
+        "x0": 154.020263671875,
+        "y0": 1651.3466796875,
+        "x1": 698.9327392578125,
+        "y1": 1713.12158203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 148,
+      "polygon": [
+        [
+          154.0,
+          1651.0
+        ],
+        [
+          154.0,
+          1712.0
+        ],
+        [
+          697.0,
+          1712.0
+        ],
+        [
+          697.0,
+          1651.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1. Was versteht man unter »Social Neuroscience« und welches Ziel verfolgt diese Disziplin?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 21,
+      "pp_label": "text",
+      "score": 0.8653640151023865,
+      "bbox": {
+        "x0": 154.1851043701172,
+        "y0": 1784.5078125,
+        "x1": 723.5664672851562,
+        "y1": 1848.521728515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 149,
+      "polygon": [
+        [
+          154.0,
+          1784.0
+        ],
+        [
+          154.0,
+          1847.0
+        ],
+        [
+          722.0,
+          1847.0
+        ],
+        [
+          722.0,
+          1784.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3. Was versteht man unter »Theory of Mind« und welche Gehirnareale sind hierbei von Bedeutung?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.9515110850334167,
+      "bbox": {
+        "x0": 1056.7181396484375,
+        "y0": 187.07562255859375,
+        "x1": 1381.0347900390625,
+        "y1": 520.5768432617188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 154,
+      "polygon": [
+        [
+          1056.0,
+          187.0
+        ],
+        [
+          1056.0,
+          519.0
+        ],
+        [
+          1373.0,
+          519.0
+        ],
+        [
+          1380.0,
+          187.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Masten et al. (2011) konnten zeigen, dass bei sozialem Schmerz neben den typischen Empathie-bezogenen Arealen auch kognitive Areale aktiviert sind, die mit Mentalisieren in Verbindung stehen (mPFC, posteriores Cingulum). Möglicherweise wird damit die kognitive Komponente von Empathie erfasst. Zudem geht Aktivierung der Al sowie des mPFC nachfolgendem Hilfeverhalten voraus.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.8941648602485657,
+      "bbox": {
+        "x0": 1056.8184814453125,
+        "y0": 819.5950927734375,
+        "x1": 1369.6197509765625,
+        "y1": 874.2593994140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 163,
+      "polygon": [
+        [
+          1056.0,
+          819.0
+        ],
+        [
+          1056.0,
+          873.0
+        ],
+        [
+          1368.0,
+          873.0
+        ],
+        [
+          1368.0,
+          819.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Wesentliche Aufgaben der sozialen Neurowissenschaften sind:",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.8964971303939819,
+      "bbox": {
+        "x0": 1059.104248046875,
+        "y0": 960.281005859375,
+        "x1": 1386.6097412109375,
+        "y1": 1016.17333984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 169,
+      "polygon": [
+        [
+          1059.0,
+          960.0
+        ],
+        [
+          1059.0,
+          1015.0
+        ],
+        [
+          1385.0,
+          1015.0
+        ],
+        [
+          1385.0,
+          960.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– verbesserte Operationalisierung psychologischer Konstrukte.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 15,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9444732069969177,
+      "bbox": {
+        "x0": 1056.794189453125,
+        "y0": 1053.355712890625,
+        "x1": 1381.9898681640625,
+        "y1": 1249.7900390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 189,
+      "polygon": [
+        [
+          1056.0,
+          1053.0
+        ],
+        [
+          1056.0,
+          1248.0
+        ],
+        [
+          1380.0,
+          1248.0
+        ],
+        [
+          1380.0,
+          1105.0
+        ],
+        [
+          1380.0,
+          1063.0
+        ],
+        [
+          1380.0,
+          1053.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Durch die speziellen Methoden der sozialen Neurowissenschaften können Forschungsfragen zusätzlich auch auf neuronaler Ebene geklärt werden. Dies ermöglicht eine ergänzende und integrative Forschung aller Teildisziplinen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 16,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9188165664672852,
+      "bbox": {
+        "x0": 1058.86767578125,
+        "y0": 877.0845947265625,
+        "x1": 1368.5638427734375,
+        "y1": 957.5137939453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 201,
+      "polygon": [
+        [
+          1058.0,
+          877.0
+        ],
+        [
+          1058.0,
+          956.0
+        ],
+        [
+          1367.0,
+          956.0
+        ],
+        [
+          1367.0,
+          877.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- Klärung aktueller Forschungsfragen der klassischen Sozialpsychologie,",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 17,
+      "query_id": 15,
+      "pp_label": "reference_content",
+      "score": 0.5665818452835083,
+      "bbox": {
+        "x0": 772.649169921875,
+        "y0": 1647.7939453125,
+        "x1": 1351.82763671875,
+        "y1": 1850.274169921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 240,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "4. Was ist mit »kortikalen Mittellinienarealen« (CMS) ge- meint und welche funktionale Spezialisierung kommt einzelnen Teilbereichen des CMS zu?\n5. Inwiefern decken sich klassisch-sozialpsychologische Befunde zum Hilfeverhalten gegenüber Eigen-und Fremdgruppe mit neurowissenschaftlichen Befunden?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        17,
+        18,
+        20
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 18,
+      "query_id": 15,
+      "pp_label": "text",
+      "score": 0.6231624484062195,
+      "bbox": {
+        "x0": 772.649169921875,
+        "y0": 1752.8385009765625,
+        "x1": 1350.813720703125,
+        "y1": 1848.2259521484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 294,
+      "polygon": [
+        [
+          772.0,
+          1752.0
+        ],
+        [
+          772.0,
+          1847.0
+        ],
+        [
+          1349.0,
+          1847.0
+        ],
+        [
+          1342.0,
+          1752.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5. Inwiefern decken sich klassisch-sozialpsychologische Befunde zum Hilfeverhalten gegenüber Eigen-und Fremdgruppe mit neurowissenschaftlichen Befunden?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1700.59326171875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2234.221923828125
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1770.0888671875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1769.2042236328125
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1527.473876953125
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1321.1396484375
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 4339.6474609375
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 0.0,
+      "marge": -3268.034912109375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 2617.193115234375
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 0.0,
+      "marge": -34.17653274536133
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 2590.277099609375
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 685.2672729492188
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 2229.81494140625
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 998.4825439453125
+    },
+    {
+      "von": 14,
+      "nach": 15,
+      "konfidenz": 1.0,
+      "marge": 1168.82666015625
+    },
+    {
+      "von": 15,
+      "nach": 16,
+      "konfidenz": 0.0,
+      "marge": -1721.1729736328125
+    },
+    {
+      "von": 16,
+      "nach": 17,
+      "konfidenz": 1.0,
+      "marge": 550.5173950195312
+    },
+    {
+      "von": 17,
+      "nach": 18,
+      "konfidenz": 1.0,
+      "marge": 707.1565551757812
+    }
+  ],
+  "warnungen": [
+    "Blöcke [17, 18, 20] zu #17 (reference_content) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.32580658400183893,
+      "zeitstempel": "2026-09-06T14:32:14.557718Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 15.732066333999683,
+      "zeitstempel": "2026-09-06T15:16:17.110777Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

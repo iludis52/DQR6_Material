@@ -1,0 +1,114 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 3,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 3,
+      "pp_label": "paragraph_title",
+      "score": 0.8827770948410034,
+      "bbox": {
+        "x0": 114.37152862548828,
+        "y0": 187.20062255859375,
+        "x1": 570.306396484375,
+        "y1": 244.12445068359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 22,
+      "polygon": [
+        [
+          114.0,
+          187.0
+        ],
+        [
+          114.0,
+          243.0
+        ],
+        [
+          569.0,
+          243.0
+        ],
+        [
+          569.0,
+          187.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Inhaltsverzeichnis",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 110,
+      "pp_label": "content",
+      "score": 0.5094999670982361,
+      "bbox": {
+        "x0": 112.11724090576172,
+        "y0": 308.0458984375,
+        "x1": 1410.752197265625,
+        "y1": 1949.963623046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 50,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "1 Definitorische, wissenschaftstheoretische und methodische Grundlagen\n13.1 Qualitative Methode ..... 7\n13.2 Verhaltensbeobachtung ..... 8\n13.3 Quantitative Befragungsmethode ..... 9\n13.4 Korrelationsmethode bzw. Quasi-Experiment ..... 10\n13.5 Echtes Experiment ..... 11\n14 Forschungsetik in der Sozialpsychologie ..... 12\nLiteratur ..... 13\n2 Der Mensch als rationalisierendes Wesen: Kognitive Dissonanz und Selbstrechtfertigung ..... 15\n2.1 Klassische Formulierung der Dissonanztheorie ..... 16\n2.2 Klassische Forschungsparadigmen ..... 17\n2.3 Free-Choice-Paradigma ..... 18\n2.4 Selective Informationssuche ..... 18\n2.5 Dissonanz und Gesellschaft ..... 20\n2.6 Theoretische Weiterentwicklungen der Dissonanztheorie ..... 23\n2.7 Wie wird Dissonanzreduktion psychologisch vermittelt? ..... 23\n2.8 Dissonanz und selbstbezogene Inkonsistenz ..... 24\n2.9 Positives Selbstbild und kognitive Dissonanz ..... 25\n3 Hehr Schein als Sein? ..... 26\n4 Urteilen und Entscheiden ..... 29\n5 Urteilsheuristiken ..... 30\n6 Verzerrungen im Entscheidungsprozess ..... 32\n7 Ankerheuristik (♣anchoring and adjustment♡) ..... 32\n8 Verfügbarkeitsheuristik (♣availability♡) ..... 34\n9 Repräsentativitätsheuristik ..... 35\n10 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n11 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n12 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n13 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n14 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n15 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n16 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n17 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n18 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n19 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n20 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n21 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n22 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n23 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n24 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n25 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n26 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n27 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n28 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n29 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n30 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n31 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n32 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n33 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n34 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n35 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n36 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n37 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n38 Prozessmanhang zwischen Einstellung und Verhalten ..... 81\n39 (Verwässerungsseffekt) ..... 39\n40 Einfluss von Gewinn- und Verlustszenarien auf Urteils- und Entscheidungsprozesse ..... 40\n41 Motivationale Einflüsse auf Urteilsverzerrungen ..... 41\n42 Literatur ..... 42\n43 Prozossiales Verhalten, Hilfeverhalten und Zivilcourage ..... 45\n44 Grundlegende Definitionen ..... 46\n45 Situative Faktoren prosozialen Verhaltens ..... 47\n46 Bystander-Effekt ..... 48\n47 Persönlichkeit und prosoziales Verhalten – Altruismus und Empathie ..... 51\n48 Empathie-Altruismus-Hypothese ..... 51\n49 Kritische Anmerkungen zur Empathie-Altruismus-Hypothese ..... 53\n50 Weitere psychologische Erklärungsansätze für prosoziales Verhalten ..... 53\n51 Evolutionspsychologische bzw. biologische Perspektive ..... 54\n52 Theorie des sozialen Austausches: Kosten-Nutzen-Analyse ..... 55\n53 Verantwortungsatrtribution ..... 55\n54 Zivilcourage, Heldentum und gesellschaftliche Verantwortung ..... 56\n55 Zu viel des Guten? Pathologischer Altruismus ..... 57\n56 Literatur ..... 58\n57 Aggression ..... 61\n58 Grundlagen von Aggression ..... 61\n59 Definition ..... 62\n60 Arten von Aggression ..... 62\n61 Verschiedene psychologische Erklärungsansätze für Aggression ..... 63\n62 Triebtheoretischer Ansatz ..... 63\n63 Biologischer Ansatz ..... 64\n64 Frustrations-Aggressions-Hypothese ..... 65\n65 Soziokognitiver Ansatz ..... 68\n66 Fazit: Wie kann Aggression in der Gesellschaft reduziert werden? ..... 74\n67 Literatur ..... 76\n68 Einstellungen und Verhalten ..... 79\n69 Definitionen und Grundlagen ..... 79\n70 Was versteht man unter Einstellungen? ..... 79\n71 Zusammenhang zwischen Einstellung und Verhalten ..... 81",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        1,
+        2,
+        3
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2295.052490234375
+    }
+  ],
+  "warnungen": [
+    "Blöcke [1, 2, 3] zu #1 (content) zusammengeführt.",
+    "Blöcke [1, 2, 3] zu #1 (content) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.39403875000061817,
+      "zeitstempel": "2026-09-06T14:30:52.480119Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 10.02232416699917,
+      "zeitstempel": "2026-09-06T14:33:10.602964Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 10.27587449999919,
+      "zeitstempel": "2026-09-06T15:18:35.821899Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

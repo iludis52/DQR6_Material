@@ -1,0 +1,628 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 138,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8373078107833862,
+      "bbox": {
+        "x0": 113.18771362304688,
+        "y0": 78.35226440429688,
+        "x1": 581.5864868164062,
+        "y1": 107.10769653320312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 9,
+      "polygon": [
+        [
+          113.0,
+          78.0
+        ],
+        [
+          113.0,
+          106.0
+        ],
+        [
+          580.0,
+          106.0
+        ],
+        [
+          580.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "8.5 • Verbesserung der Intergruppenbeziehungen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 22,
+      "pp_label": "number",
+      "score": 0.6138671040534973,
+      "bbox": {
+        "x0": 1183.9287109375,
+        "y0": 53.285919189453125,
+        "x1": 1226.4527587890625,
+        "y1": 80.39144897460938,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 22,
+      "polygon": [
+        [
+          1183.0,
+          53.0
+        ],
+        [
+          1183.0,
+          79.0
+        ],
+        [
+          1225.0,
+          79.0
+        ],
+        [
+          1225.0,
+          53.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "133",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 15,
+      "pp_label": "number",
+      "score": 0.5971982479095459,
+      "bbox": {
+        "x0": 1381.903076171875,
+        "y0": 34.80322265625,
+        "x1": 1421.358642578125,
+        "y1": 83.9539794921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 40,
+      "polygon": [
+        [
+          1381.0,
+          34.0
+        ],
+        [
+          1381.0,
+          82.0
+        ],
+        [
+          1420.0,
+          82.0
+        ],
+        [
+          1420.0,
+          34.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "8",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9479928612709045,
+      "bbox": {
+        "x0": 109.15220642089844,
+        "y0": 181.96206665039062,
+        "x1": 1014.011962890625,
+        "y1": 350.6598815917969,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 79,
+      "polygon": [
+        [
+          109.0,
+          181.0
+        ],
+        [
+          109.0,
+          349.0
+        ],
+        [
+          1013.0,
+          349.0
+        ],
+        [
+          1013.0,
+          181.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "vernichtungswaffen. Auch hier traten Aspekte von Groupthink auf, vor allem im Hin- blick auf eine einseitige Medienberichterstattung sowie der »Null-Toleranz« gegenüber widersprechender Meinungen. Die weitreichenden und tragischen Folgen dieser Beispiele machen deutlich, dass das Phänomen »Gruppendenken« weit über den reinen Leistungsbereich hinausgehen kann.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 10,
+      "pp_label": "paragraph_title",
+      "score": 0.6883242130279541,
+      "bbox": {
+        "x0": 111.48725891113281,
+        "y0": 376.0841064453125,
+        "x1": 635.085693359375,
+        "y1": 408.9566650390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 102,
+      "polygon": [
+        [
+          111.0,
+          376.0
+        ],
+        [
+          111.0,
+          407.0
+        ],
+        [
+          634.0,
+          407.0
+        ],
+        [
+          634.0,
+          398.0
+        ],
+        [
+          634.0,
+          376.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Nicht leistungsbezogene negative Folgen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9674935936927795,
+      "bbox": {
+        "x0": 110.10417938232422,
+        "y0": 449.6601867675781,
+        "x1": 1013.4720458984375,
+        "y1": 985.2822265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 136,
+      "polygon": [
+        [
+          110.0,
+          449.0
+        ],
+        [
+          110.0,
+          984.0
+        ],
+        [
+          1012.0,
+          984.0
+        ],
+        [
+          1012.0,
+          449.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Dieherrwäterung\nWie auch von Le Bon (1895) beschrieben, ist der Mensch in der Masse zu Verhaltensweisen fähig, die für ihn als Individuum undenkbar gewesen wären – etwa Diskriminierung und Gewalt gegenüber Fremdgruppen. Ein klassisches Phänomen, das an dieser Stelle von Bedeutung ist, wird mit dem Begriff »Deindividuierung« (z. B. Festinger, Pepitone & Newcomb, 1952; Zimbardo, 1969) beschrieben. Hiermit ist gemeint, dass in Gruppen norm- und wertorientiertes Verhalten relativ leicht abgelegt werden kann und sich Individuen stattdessen zu impulsivem, gewalttätigem Verhalten verleiten lassen. Dies ist vor allem darauf zurückzuführen, dass der Einzelne in der Masse enthemmt ist, darin untertauchen und nicht zur Verantwortung gezogen werden kann (Postmes & Spears, 1998). Für diese Annahme des »Nicht-entdeckt-Werdens« spricht auch, dass Deindividuation in verstärktem Maße auftritt, wenn die betreffenden Personen verkleidet oder maskiert sind (Watson, 1973). Doch die Tatsache, in einer Masse zu sein, führt nicht zwangsläufig zu gewalttätigem bzw. normabweichendem Verhalten. In ihrer Metaanalyse konnten die Postmes & Spears (1998) zeigen, dass die jeweiligen Gruppennormen ebenfalls entscheidend sind: Lässt die jeweilige Norm gewalttätige Verhaltensweisen zu, dann ist auch deindividuertes Verhalten möglich; andernfalls nicht.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.8542839288711548,
+      "bbox": {
+        "x0": 112.19397735595703,
+        "y0": 1038.6993408203125,
+        "x1": 865.204833984375,
+        "y1": 1078.4503173828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 174,
+      "polygon": [
+        [
+          112.0,
+          1038.0
+        ],
+        [
+          112.0,
+          1077.0
+        ],
+        [
+          864.0,
+          1077.0
+        ],
+        [
+          864.0,
+          1038.0
+        ],
+        [
+          151.0,
+          1038.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "8.5 Verbesserung der Intergruppenbeziehungen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.966585099697113,
+      "bbox": {
+        "x0": 109.34060668945312,
+        "y0": 1115.85400390625,
+        "x1": 1013.865478515625,
+        "y1": 1517.19970703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 182,
+      "polygon": [
+        [
+          109.0,
+          1115.0
+        ],
+        [
+          109.0,
+          1516.0
+        ],
+        [
+          1012.0,
+          1516.0
+        ],
+        [
+          1012.0,
+          1115.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Wir haben nun gehört, dass Gruppenprozesse häufig auch mit negativen Aspekten verbunden sind, was besonders im sozialen Bereich (sozialer Ausschluss, In- und Outgroup-Bias etc.) dramatisch sein kann. Um jedoch nicht mit dieser negativen Seite abzuschließen, sei an dieser Stelle erwähnt, dass es sich dabei nicht um ein unveränderliches Phänomen handelt (»das ist halt so!«), sondern negative Effekte von Gruppen durchaus reduziert werden können. Im Kontext von Intergruppenbeziehungen bedeutet dies also weniger Stereotype, Vorurteile und Feindseligkeiten zwischen den Gruppen, stattdessen mehr Toleranz, Offenheit und Gleichbehandlung. Doch wie lässt sich dies erreichen? Wie ist es z. B. möglich, die Kluft zwischen Jung und Alt zu verkleinern? Zwischen Personen unterschiedlicher ethnischer Herkunft oder unterschiedlichem sozialen Status? Oder zwischen verschiedenen Cliquen, Schulklassen, Mannschaften, deren soziale Identität salient ist?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 6,
+      "pp_label": "paragraph_title",
+      "score": 0.8390557765960693,
+      "bbox": {
+        "x0": 112.62620544433594,
+        "y0": 1574.758544921875,
+        "x1": 453.5257568359375,
+        "y1": 1610.71923828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 205,
+      "polygon": [
+        [
+          112.0,
+          1574.0
+        ],
+        [
+          112.0,
+          1609.0
+        ],
+        [
+          452.0,
+          1609.0
+        ],
+        [
+          452.0,
+          1574.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "8.5.1 Kontakthypothese",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9617113471031189,
+      "bbox": {
+        "x0": 109.9403305053711,
+        "y0": 1649.3543701171875,
+        "x1": 1013.600830078125,
+        "y1": 1950.7650146484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 209,
+      "polygon": [
+        [
+          109.0,
+          1649.0
+        ],
+        [
+          109.0,
+          1949.0
+        ],
+        [
+          1012.0,
+          1949.0
+        ],
+        [
+          1012.0,
+          1649.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Vielleicht haben Sie selbst schon einmal die Erfahrung gemacht, sich mit einer Person aus der eigenen »Fremdgruppe« unterhalten zu haben – etwa, wenn sie beide ausgelost wurden, zusammen ein Referat vorzubereiten oder sie über einen gemeinsamen Freund in ein Gespräch verwickelt wurden. Möglicherweise haben Sie danach festgestellt, dass die andere Person gar nicht so »schlimm« war, wie befürchtet, und Ihr Eindruck an- schließend weniger negativ ausfiel. Oft sind Vorurteile gegenüber einer Fremdgruppe auch einfach in mangelnder Vertrautheit und fehlendem Wissen über die andere Person als Teil der Fremdgruppe begründet. Teilweise lässt sich diese Kluft durch Kontakt miteinander beheben. Allport (1954) formulierte daher die sog. Kontakthypothese, die",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.8314938545227051,
+      "bbox": {
+        "x0": 1056.1552734375,
+        "y0": 452.86798095703125,
+        "x1": 1385.9697265625,
+        "y1": 788.3859252929688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 249,
+      "polygon": [
+        [
+          1056.0,
+          452.0
+        ],
+        [
+          1056.0,
+          787.0
+        ],
+        [
+          1384.0,
+          787.0
+        ],
+        [
+          1384.0,
+          503.0
+        ],
+        [
+          1384.0,
+          492.0
+        ],
+        [
+          1384.0,
+          452.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Deindividuierung kann auftreten, wenn in Gruppen normorientiertes Verhalten zugunsten von gewalttätigem Verhalten aufgegeben wird. Neuere Ansätze zur Deindividuierungstheorie gehen davon aus, dass die jeweiligen salienten Gruppen-normen dafür entscheidend sind, ob sich die Masse insgesamt positiv oder negativ verhält. Demnach ist Deindividuation nur möglich, wenn die Gruppennormen destruktiv sind.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.8960887789726257,
+      "bbox": {
+        "x0": 1056.7088623046875,
+        "y0": 1117.3712158203125,
+        "x1": 1386.015380859375,
+        "y1": 1232.4237060546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 280,
+      "polygon": [
+        [
+          1056.0,
+          1117.0
+        ],
+        [
+          1056.0,
+          1231.0
+        ],
+        [
+          1385.0,
+          1231.0
+        ],
+        [
+          1385.0,
+          1117.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Ein wichtiges Ziel der sozialpsychologischen Gruppenforschung ist die Verbesserung von Intergruppen- beziehungen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.8972734808921814,
+      "bbox": {
+        "x0": 1079.2427978515625,
+        "y0": 1650.001220703125,
+        "x1": 1378.7669677734375,
+        "y1": 1849.810302734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 286,
+      "polygon": [
+        [
+          1079.0,
+          1650.0
+        ],
+        [
+          1079.0,
+          1848.0
+        ],
+        [
+          1377.0,
+          1848.0
+        ],
+        [
+          1377.0,
+          1650.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Kontakthypothese besagt, dass der unmittelbare Kontakt zwischen zwei Gruppen zu einem Abbau von Vorurteilen und Feindseligkeiten führen kann.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1599.3587646484375
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 696.4228515625
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1744.519775390625
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1098.4110107421875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1501.4356689453125
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1802.8677978515625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1941.2412109375
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1927.0833740234375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 922.1699829101562
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 3161.791015625
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 2646.242431640625
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 905.88232421875
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.38035770900023635,
+      "zeitstempel": "2026-09-06T14:31:45.795990Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 13.875013166998542,
+      "zeitstempel": "2026-09-06T15:01:12.874937Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

@@ -1,0 +1,424 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 127,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.7005090117454529,
+      "bbox": {
+        "x0": 116.39797973632812,
+        "y0": 78.30352783203125,
+        "x1": 661.609619140625,
+        "y1": 106.81195068359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "122 Kapitel 8 · Gruppenprozesse und soziale Identität",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.747180700302124,
+      "bbox": {
+        "x0": 127.48456573486328,
+        "y0": 519.0745849609375,
+        "x1": 437.3720397949219,
+        "y1": 658.8253173828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 69,
+      "polygon": [
+        [
+          127.0,
+          519.0
+        ],
+        [
+          127.0,
+          657.0
+        ],
+        [
+          436.0,
+          657.0
+        ],
+        [
+          436.0,
+          519.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Personale Identität bildet das Wissen um die eigene Person ab. Ein potenzieller sozialer Vergleich läuft auf der Ebene »Ich« vs. »Du« ab.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.8522860407829285,
+      "bbox": {
+        "x0": 127.3989486694336,
+        "y0": 885.2236328125,
+        "x1": 452.3717956542969,
+        "y1": 998.5478515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 119,
+      "polygon": [
+        [
+          127.0,
+          885.0
+        ],
+        [
+          127.0,
+          997.0
+        ],
+        [
+          451.0,
+          997.0
+        ],
+        [
+          451.0,
+          885.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Im Modus der sozialen Identität finden soziale Vergleiche nicht auf individueller, sondern auf Gruppen-ebene statt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.691436231136322,
+      "bbox": {
+        "x0": 128.13751220703125,
+        "y0": 1419.2587890625,
+        "x1": 457.10205078125,
+        "y1": 1672.06982421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 142,
+      "polygon": [
+        [
+          128.0,
+          1419.0
+        ],
+        [
+          128.0,
+          1671.0
+        ],
+        [
+          456.0,
+          1671.0
+        ],
+        [
+          456.0,
+          1419.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Im Wir-Modus kommt es zu einer gewissen Depersonalisierung gegenüber Eigen- und Fremdgruppenmitgliedern (Homogenität). Dagegen stehen im Ich-Modus die individuellen Persönlichkeitsmerkmale im Vordergrund (Heterogenität). Beide Modi können kaum gleichzeitig wirken, einer ist stets dominierend.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9431608319282532,
+      "bbox": {
+        "x0": 502.9346008300781,
+        "y0": 182.00711059570312,
+        "x1": 1406.938720703125,
+        "y1": 349.0601501464844,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 147,
+      "polygon": [
+        [
+          502.0,
+          182.0
+        ],
+        [
+          502.0,
+          348.0
+        ],
+        [
+          1405.0,
+          348.0
+        ],
+        [
+          1405.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "zwischen beiden Gruppen, also das »Sich-positiv-Abheben« von der anderen Gruppe bzw. die positive Distinktheit gegenüber dieser. Die psychologisch interessante Frage ist, warum sich die Versuchspersonen überhaupt als eine Einheit bzw. Gruppe wahrgenommen haben, handelte es sich doch lediglich um eine »minimale« Gruppe? Warum haben sie eine »soziale Identität« entwickelt?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 5,
+      "pp_label": "paragraph_title",
+      "score": 0.8856993913650513,
+      "bbox": {
+        "x0": 504.2596435546875,
+        "y0": 406.6669616699219,
+        "x1": 1281.652587890625,
+        "y1": 476.1784973144531,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 155,
+      "polygon": [
+        [
+          504.0,
+          406.0
+        ],
+        [
+          512.0,
+          475.0
+        ],
+        [
+          1280.0,
+          475.0
+        ],
+        [
+          1280.0,
+          406.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "8.1.1 Grundlegende Annahmen der Theorie der sozialen Identität (social identity theory; SIT)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9609405994415283,
+      "bbox": {
+        "x0": 503.4088439941406,
+        "y0": 516.2391357421875,
+        "x1": 1405.94921875,
+        "y1": 881.6932373046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 180,
+      "polygon": [
+        [
+          503.0,
+          516.0
+        ],
+        [
+          503.0,
+          880.0
+        ],
+        [
+          1404.0,
+          880.0
+        ],
+        [
+          1397.0,
+          516.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Tajfel und Turners (1979) Grundannahme ist, dass sich die Identität eines Menschen auf einem Kontinuum bewegt, das von dem einen Extrem einer rein persönlichen Identität bis zu einem anderen Extrem einer rein sozialen Identität reicht. Mit personaler Identität ist das Wissen über die eigene Person gemeint, also bestimmte Vorlieben und Fähigkeiten, Charakterzüge, Intelligenz, etc. Dieses Wissen bzw. diese Selbst-sicht erhält der Mensch größtenteils durch den Vergleich mit anderen Personen (Stets & Burke, 2000; s. auch Suls & Wheeler, 2000), was ihm ermöglicht, sich selbst einordnen bzw. einschätzen zu können. Dieser Vergleich läuft dabei auf der Ebene des »Ich« vs. »Du« ab (Haslam, 2004). Bei diesen sozialen Vergleichsprozessen stehen einzelne Individuen im Vordergrund, die sich miteinander vergleichen oder miteinander interagieren.\nDie andere Seite des Kontinuum betrifft dagegen die soziale Identität. Hier geht",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9676706194877625,
+      "bbox": {
+        "x0": 503.7070007324219,
+        "y0": 882.5880737304688,
+        "x1": 1407.7386474609375,
+        "y1": 1414.45849609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 209,
+      "polygon": [
+        [
+          503.0,
+          882.0
+        ],
+        [
+          503.0,
+          1413.0
+        ],
+        [
+          1406.0,
+          1413.0
+        ],
+        [
+          1406.0,
+          882.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die andere Seite des Kontinuums betrifft dagegen die soziale Identität. Hier geht es nicht um das einzelne Individuum, sondern um dessen Wahrnehmung, ein Teil einer Gruppe zu sein. Das Individuum befindet sich nun im Modus der sozialen Identität (d.h. die Salienz der sozialen Identität ist hoch). Also finden die Vergleiche hier auf Gruppenebene statt, d.h., die Eigenschaften der eigenen Gruppe (z. B. Status, Macht) werden mit denen anderer Gruppen verglichen. Dabei werden die Eigenschaften der eigenen Gruppe im Vergleich zu Eigenschaften der anderen Gruppe aufgewertet, um besser als diese zu sein bzw. über dieser zu stehen – was wiederum den eigenen Selbstwert steigert (Tajfel & Turner, 1979). Wenn sich Menschen im „Wir-Modus« (hohe soziale Identität) befinden, sehen sie sowohl die Eigengruppe als auch die Fremdgruppe als relativ homogen an. In Bezug zur Eigengruppe bedeutet dies eine gewisse „Depersonalisierung«. Die Person sieht sich in erster Linie als quasi aus-tauschbares Exemplar der Gruppe. In diesem Sinne schließt die soziale Identität die personale Identität aus. In Bezug auf die Fremdgruppe ist der Eindruck der Homogenität ein Baustein der Stereotypenbildung und Diskriminierung (Park & Rothbart, 1982).\nIm Gegenstatt deren stehen im „John Medus die individuelle Parzönlichkeits",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9631592631340027,
+      "bbox": {
+        "x0": 503.3485412597656,
+        "y0": 1415.582275390625,
+        "x1": 1407.4857177734375,
+        "y1": 1850.777587890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 247,
+      "polygon": [
+        [
+          503.0,
+          1426.0
+        ],
+        [
+          511.0,
+          1849.0
+        ],
+        [
+          1406.0,
+          1849.0
+        ],
+        [
+          1406.0,
+          1415.0
+        ],
+        [
+          511.0,
+          1415.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1982).\nIm Gegensatz dazu stehen im »Ich«-Modus die individuellen Persönlichkeitsmerkmale (sowohl eigene als auch die der anderen) im Vordergrund. Folglich nehmen Menschen die Mitglieder vor allem der eignen Gruppe als heterogen, d. h. unterschiedlich wahr (»Jeder Mensch ist anders«) und verhalten sich gegenüber diesen auch auf interpersonaler Ebene bzw. im Modus personaler Identität (Tajfel, 1978). Während es, wie bereits gesagt, nicht möglich ist, im Hinblick auf eine Gruppe gleichzeitig im Ich- und Wir-Modus zu sein, ist es jedoch klar, dass jeder Mensch vielen Gruppen angehört. Typischerweise ist zu jedem gegebenen Zeitpunkt aber nur eine Gruppenzugehörigkeit psychologisch salient (Krueger & DiDonato, 2008; Lickel et al., 2000), so dass auch persönliche Beziehungen zu einzelnen Mitgliedern anderer Fremdgruppen gepflegt werden können. Ob die soziale oder die personale Identität dominiert, hängt von jeweiligen Merkmalen der Situation ab (Hogg & Reid, 2006; vgl. auch\n▶ Abschn. 7.2.1).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1817.8687744140625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1936.546875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1531.485595703125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1835.670166015625
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 2136.862060546875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1314.7481689453125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1656.53076171875
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1814.564697265625
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.38437079200230073,
+      "zeitstempel": "2026-09-06T14:31:41.416719Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 13.92071570799817,
+      "zeitstempel": "2026-09-06T14:58:46.378520Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

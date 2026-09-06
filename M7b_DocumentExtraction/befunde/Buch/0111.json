@@ -1,0 +1,536 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 111,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.8521038889884949,
+      "bbox": {
+        "x0": 113.1444091796875,
+        "y0": 79.23477172851562,
+        "x1": 559.2747192382812,
+        "y1": 106.15719604492188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 10,
+      "polygon": [
+        [
+          113.0,
+          79.0
+        ],
+        [
+          113.0,
+          105.0
+        ],
+        [
+          558.0,
+          105.0
+        ],
+        [
+          558.0,
+          79.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "7.3 · Messung von Stereotypen und Vorurteilen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 21,
+      "pp_label": "number",
+      "score": 0.6469883918762207,
+      "bbox": {
+        "x0": 1183.9466552734375,
+        "y0": 54.005706787109375,
+        "x1": 1226.41015625,
+        "y1": 79.76553344726562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 25,
+      "polygon": [
+        [
+          1183.0,
+          54.0
+        ],
+        [
+          1183.0,
+          78.0
+        ],
+        [
+          1225.0,
+          78.0
+        ],
+        [
+          1225.0,
+          54.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "105",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 19,
+      "pp_label": "number",
+      "score": 0.6552684903144836,
+      "bbox": {
+        "x0": 1382.648681640625,
+        "y0": 36.31475830078125,
+        "x1": 1418.3448486328125,
+        "y1": 83.81072998046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 46,
+      "polygon": [
+        [
+          1382.0,
+          36.0
+        ],
+        [
+          1382.0,
+          82.0
+        ],
+        [
+          1417.0,
+          82.0
+        ],
+        [
+          1417.0,
+          36.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "7",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 14,
+      "pp_label": "paragraph_title",
+      "score": 0.5812840461730957,
+      "bbox": {
+        "x0": 153.2476806640625,
+        "y0": 179.92739868164062,
+        "x1": 227.01832580566406,
+        "y1": 206.70407104492188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 86,
+      "polygon": [
+        [
+          153.0,
+          188.0
+        ],
+        [
+          153.0,
+          205.0
+        ],
+        [
+          226.0,
+          205.0
+        ],
+        [
+          226.0,
+          188.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 12,
+      "pp_label": "paragraph_title",
+      "score": 0.8400526642799377,
+      "bbox": {
+        "x0": 151.8604278564453,
+        "y0": 220.42922973632812,
+        "x1": 533.7188110351562,
+        "y1": 248.56845092773438,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 97,
+      "polygon": [
+        [
+          151.0,
+          230.0
+        ],
+        [
+          151.0,
+          247.0
+        ],
+        [
+          532.0,
+          247.0
+        ],
+        [
+          532.0,
+          220.0
+        ],
+        [
+          472.0,
+          220.0
+        ],
+        [
+          464.0,
+          220.0
+        ],
+        [
+          449.0,
+          220.0
+        ],
+        [
+          418.0,
+          220.0
+        ],
+        [
+          404.0,
+          220.0
+        ],
+        [
+          395.0,
+          220.0
+        ],
+        [
+          281.0,
+          220.0
+        ],
+        [
+          273.0,
+          220.0
+        ],
+        [
+          220.0,
+          220.0
+        ],
+        [
+          212.0,
+          220.0
+        ],
+        [
+          159.0,
+          220.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der Implizite Assoziationstest (IAT)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.9533644914627075,
+      "bbox": {
+        "x0": 150.0816650390625,
+        "y0": 251.81265258789062,
+        "x1": 1377.532958984375,
+        "y1": 515.6488037109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 104,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Greenwald et al. (1998) führt eine Serie von drei Experimen-ten durch, mit der sie die Funktionsweise des IAT veranschau-lichten. Das Grundprinzip wird bereits in der ersten dieser Studien deutlich, die auf den ersten Blick noch wenig mit Vor-urteilen und Stereotypen zu tun hat. Um die Assoziation zwischen einer bestimmten Objektkategorie (»target concept«) und einer Eigenschaftsdimension (»attribute dimension«) zu messen, werden 5 Schritte durchlaufen (▪Tab. 7.1):\n1. Zunächst werden die Objektkategorien in diesem Fall 5. Abschließend wird wieder ein kombinierter Durchgang eingeführt, der sowohl die Begriffe der Objektkategorie als auch der verschiedenen Attributdimensionen enthält. Im Gegensatz zum ersten kombinierten Durchgang erfolgt dies jedoch unter der inversen Tastenzuordnung für die Objektkategorie (vgl. Phase 4).\nIn allen fünf Durchgängen werden jeweils die Antwortzeiten der Vorsuchungskonvention erfasst, d. h. es wird gemossen wie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        5,
+        10
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9493584036827087,
+      "bbox": {
+        "x0": 150.7646942138672,
+        "y0": 483.812255859375,
+        "x1": 1377.433349609375,
+        "y1": 1016.2666015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 115,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "messen, werden 5 Schritte durchlaufen (Tab. 7.1):\n1. Zunächst werden die Objektkategorien, in diesem Fall Blumen- vs. Insektennamen vorgestellt. Dazu werden der Versuchsperson am Bildschirm Begriffe beider Kategorien präsentiert, die sie der entsprechenden Kategorie zuordnen soll. Diese Zuordnung erfolgt mittels Tastendruck; beispielsweise soll sie auf alle Blumennamen mit einem linken Tastendruck reagieren und bei Insektennamen die rechte Taste drücken (oder umgekehrt).\n2. Im zweiten Schritt wird die Dimension der Eigenschaftsbeschreibungen eingeführt. Es werden angenehme (Familie, glücklich etc.) und unangenehme (Unfall, hässlich etc.) Begriffe präsentiert, auf die entsprechend ihrer Valenz entweder mit einem linken oder rechten Tastendruck reagiert werden soll.\n3. Anschließend werden nun beide gelernten Kategorien (stärigt koncentrations- und attribute dimensionen) vermischt. In allen fünf Durchgängen werden jeweils die Antwortzeiten der Versuchspersonen erfasst, d. h., es wird gemessen, wie schnell sie nach Erscheinen des jeweiligen Begriffes mit dem entsprechenden Tastendruck reagieren. Interessant sind dabei die kombinierten Durchgänge (Phase 3 und 5). Sind nämlich die Objektkategorien bei den Versuchspersonen unterschiedlich mit der Eigenschaftsdimension assoziiert (stehen beispielsweise Blumennamen stärker mit positiven Begriffen in Verbindung und die Kategorie »Insekten« ist eher negativ besetzt), so sollten die Versuchspersonen auch denjenigen kombinierten Durchgang als einfacher empfinden, bei dem kongruente Begriffe mit derselben Taste belegt sind (z. B. Blumennamen und positive Begriffe jeweils mit linker Taste). Als IAT-Effekt wird nun die Differenz der Antwortzeiten zwischen der nicht kongruenten und der kongruenten Bedingung gemessen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        6,
+        7,
+        11
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9456197023391724,
+      "bbox": {
+        "x0": 149.91299438476562,
+        "y0": 984.7267456054688,
+        "x1": 1377.3387451171875,
+        "y1": 1382.92822265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 133,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "3. Anschließend werden nun beide gelernten Kategorien (»target concept« und »attribute dimension«) vermischt. Folglich werden Blumen- und Insektennamen sowie positive bzw. negative Begriffe randomisiert präsentiert, wobei jeweils die entsprechende Taste gedrückt werden soll.\n4. In Phase 4 wird nun die Tastenbelegung für die Objekt-kategorie (Blumen- bzw. Insektennamen) vertauscht. Waren beispielsweise Blumennamen ursprünglich mit einem rechten Tastendruck versehen, so sollen sie nun der linken Taste zugeordnet werden; umgekehrt soll auf Insektennamen mit der rechten Taste reagiert werden.\ngung gemessen. Was fanden die Forscher nun heraus? Es zeigte sich, dass Personen schnellere Antwortzeiten aufwiesen, wenn Blumennamen und positive Begriffe mit derselben Taste belegt waren. Umgekehrt dazu waren die Antwortzeiten langsamer, wenn Blumennamen und negative Eigenschaftswörter bzw. Insek-tennamen und positive Eigenschaftswörter dieselbe Tastenkombination hatten. Daraus ist zu schließen, dass Blumen positiver bewertet werden als Insekten. Der Effekt war auch dann zu beobachten, wenn den Versuchspersonen zuerst inkongruente (subjektiv unstimmige) Kombinationen präsentiert wurden (Phase 3).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        8,
+        9,
+        12
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 10,
+      "pp_label": "figure_title",
+      "score": 0.8383415341377258,
+      "bbox": {
+        "x0": 128.8759002685547,
+        "y0": 1474.86376953125,
+        "x1": 905.8099365234375,
+        "y1": 1501.33056640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 205,
+      "polygon": [
+        [
+          128.0,
+          1474.0
+        ],
+        [
+          128.0,
+          1500.0
+        ],
+        [
+          904.0,
+          1500.0
+        ],
+        [
+          904.0,
+          1474.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Tab. 7.1 Schematische Darstellung der 5 Phasen des IAT. (Nach Greenwald et al., 1998)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 0,
+      "pp_label": "table",
+      "score": 0.9238688945770264,
+      "bbox": {
+        "x0": 118.0188217163086,
+        "y0": 1511.25341796875,
+        "x1": 1397.95947265625,
+        "y1": 1893.293701171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 220,
+      "polygon": [
+        [
+          118.0,
+          1511.0
+        ],
+        [
+          118.0,
+          1892.0
+        ],
+        [
+          1396.0,
+          1892.0
+        ],
+        [
+          1396.0,
+          1511.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "<fcel>Phase<fcel>1<fcel>2<fcel>3<fcel>4<fcel>5<nl><fcel>Aufgaben-beschreibung<fcel>Unterscheidung der Objektkategorien<fcel>Unterscheidung der Eigenschaftsdimension<fcel>Kombination<fcel>Reverse Unterscheidung der Objektkategorien<fcel>Reverse Kombination<nl><fcel>Aufgaben-instruktion<fcel>o BLUMEN INSEKTEN o<fcel>o angenehm unangenehm o<fcel>o BLUMEN o angenehm INSEKTEN o unangenehm o<fcel>BLUMEN o o INSEKTEN<fcel>BLUMEN o angenehm o o INSEKTEN o unangenehm<nl><fcel>Beispielitems<fcel>o ROSE BIENE o WESPE o O TULPE<fcel>Unfall o o glücklich hässlich o o Frieden<fcel>o TULPE hässlich o WESPE o o glücklich<fcel>ROSE o o BIENE o WESPE TULPE o<fcel>o glücklich TULPE o o WESPE Unfall o<nl>",
+      "text_format": "otsl",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 15,
+      "pp_label": "vision_footnote",
+      "score": 0.525795042514801,
+      "bbox": {
+        "x0": 128.88043212890625,
+        "y0": 1905.01513671875,
+        "x1": 1153.357177734375,
+        "y1": 1931.78466796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 286,
+      "polygon": [
+        [
+          128.0,
+          1905.0
+        ],
+        [
+          128.0,
+          1930.0
+        ],
+        [
+          1152.0,
+          1930.0
+        ],
+        [
+          1152.0,
+          1905.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Kreise symbolisieren die Tastenzuordnung (links vs. rechts) für die jeweilige Kategorie und Eigenschaftsdimension.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2037.4130859375
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 381.1392517089844
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 956.7567138671875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1652.9609375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1467.2435302734375
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1390.858154296875
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1257.382568359375
+    },
+    {
+      "von": 7,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1563.4779052734375
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1887.9732666015625
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1753.1453857421875
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 2676.07763671875
+    }
+  ],
+  "warnungen": [
+    "Blöcke [5, 10] zu #5 (text) zusammengeführt.",
+    "Blöcke [6, 7, 11] zu #6 (text) zusammengeführt.",
+    "Blöcke [8, 9, 12] zu #7 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.4004337910009781,
+      "zeitstempel": "2026-09-06T14:31:34.973296Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 16.52877133400034,
+      "zeitstempel": "2026-09-06T14:55:15.501694Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

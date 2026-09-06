@@ -1,0 +1,220 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 36,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 19,
+      "pp_label": "header",
+      "score": 0.8118287920951843,
+      "bbox": {
+        "x0": 114.55020904541016,
+        "y0": 80.4688720703125,
+        "x1": 201.10452270507812,
+        "y1": 105.08349609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": [
+        [
+          114.0,
+          80.0
+        ],
+        [
+          114.0,
+          104.0
+        ],
+        [
+          200.0,
+          104.0
+        ],
+        [
+          200.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Literatur",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 215,
+      "pp_label": "number",
+      "score": 0.5433468818664551,
+      "bbox": {
+        "x0": 1189.126953125,
+        "y0": 54.517242431640625,
+        "x1": 1220.0653076171875,
+        "y1": 79.75656127929688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 9,
+      "polygon": [
+        [
+          1189.0,
+          54.0
+        ],
+        [
+          1189.0,
+          78.0
+        ],
+        [
+          1219.0,
+          78.0
+        ],
+        [
+          1219.0,
+          54.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "27",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 22,
+      "pp_label": "number",
+      "score": 0.699668824672699,
+      "bbox": {
+        "x0": 1381.3896484375,
+        "y0": 34.68994140625,
+        "x1": 1421.4273681640625,
+        "y1": 84.5831298828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 18,
+      "polygon": [
+        [
+          1381.0,
+          34.0
+        ],
+        [
+          1381.0,
+          83.0
+        ],
+        [
+          1420.0,
+          83.0
+        ],
+        [
+          1420.0,
+          34.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 6,
+      "pp_label": "reference",
+      "score": 0.9205172061920166,
+      "bbox": {
+        "x0": 109.588623046875,
+        "y0": 176.495849609375,
+        "x1": 1014.0955810546875,
+        "y1": 1384.1973876953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 36,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Jonas, E., Graupmann, V., Fischer, P., Greitemeyer, T. & Frey, D. (2003). Dissonanz als Wahlkampfhelfer – Konfirmatorische Informationssuche im Kontext der Parteispendenaffäre der CDU [Dissonance as a supporter at an election campaign – Selective exposure in the context of the party donation affair of the CDU]. Zeitschrift für Sozialpsychologie, 34, 47–61.\n\nJonas, E., Schulz-Hardt, S., Frey, D. & Thelen, N. (2001). Confirmation bias in sequential information search after preliminary decisions: An expansion of dissonance theoretical research on selective exposure to information. Journal of Personality and Social Psychology, 80, 557–571.\n\nKiesler, C. A. & Pallak, M. S. (1976). Arousal properties of dissonance manipulations. Psychological Bulletin, 83, 1014–1025.\n\nKray, L. J. & Galinsky, A. D. (2003). The debiasing effect of counterfactual mindsets: Increasing the search for disconfirmatory information in group decisions. Organizational Behavior and Human Decision Processes, 91, 69–81.\n\nLundgren, S. R. & Prislin, R. (1998). Motivated cognitive processing and attitude change. Personality and Social Psychology Bulletin, 24, 715–726.\n\nMatz, D. & Wood, W. (2005). Cognitive dissonance in groups: The consequences of disagreement. Journal of Personality and Social Psychology, 88, 22–37.\n\nMcGregor, I., Zanna, M. P., Holmes, J. G. & Spencer, S. J. (2001). Compensatory conviction in the face of personal uncertainty: Going to extremes and being oneself. Journal of Personality and Social Psychology, 80, 472–488.\n\nNorton, M. I., Monin, B., Cooper, J. & Hogg, M. A. (2003). Vicarious dissonance: Attitude change from the inconsistency of others. Journal of Personality and Social Psychology, 85, 47–62.\n\nPayne, J. W., Bettman, J. R. & Johnson, E. J. (1993). The adaptive decision maker. Cambridge: Cambridge University Press.\n\nPinkley, R. L., Griffith, T. L. & Northcraft, G. B. (1995). »Fixed Pie« à la Mode: Information availability, information processing, and the negotiation of suboptimal agreements. Organizational Behavior and Human Decision Processes, 62, 101–112.\n\nReport on the U.S. Intelligence Community's Prewar Intelligence Assessments on Iraq. (July 9, 2004). Washington, D.C. United States select senate committee on intelligence. Retrieved from http://www.intelligence.senate.gov/108301.pdf\n\nSchulz-Hardt, S. (1997). Realitätsflucht in Entscheidungsprozessen: Vom Groupthink zum Entscheidungs-autismus. Bern: Huber.\n\nSchwarz, N., Frey, D. & Kumpf, M. (1980). Interactive effects of writing and reading a persuasive essay on attitude change and selective exposure. Journal of Experimental Social Psychology, 16, 1–17.\n\nSteele, C. M. (1988). The psychology of self-affirmation: Sustaining the integrity of the self. In L. Berkowitz (Ed.), Advances in experimental social psychology (vol. 21, pp. 261–302). San Diego: Academic Press.\n\nSteele, C. M. & Liu, T. J. (1983). Dissonance processes as self-affirmation. Journal of Personality and Social Psychology, 45, 5–19.\n\nStone, J., Aronson, E., Crain, A. L., Winslow, M. P. & Fried, C. B. (1994). Inducing hypocrisy as a means of encouraging young adults to use condoms. Personality and Social Psychology Bulletin, 20, 116–128.\n\nSweeney, P. D. & Gruber, K. L. (1984). Selective exposure: Voter information preferences and the Watergate affair. Journal of Personality and Social Psychology, 46, 1208–1221.\n\nTesser, A. & Cornell, D. P. (1991). On the confluence of self processes. Journal of Experimental Social Psychology, 27, 501–526.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2037.3406982421875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 600.6383666992188
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1610.04931640625
+    }
+  ],
+  "warnungen": [
+    "Blöcke [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21] zu #3 (reference) zusammengeführt.",
+    "Blöcke [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21] zu #3 (reference) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3941412919994036,
+      "zeitstempel": "2026-09-06T14:31:05.584338Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 8.273895582999103,
+      "zeitstempel": "2026-09-06T14:39:29.195417Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 8.312619625001389,
+      "zeitstempel": "2026-09-06T15:19:23.471481Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

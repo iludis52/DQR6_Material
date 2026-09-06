@@ -1,0 +1,665 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 136,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8138121962547302,
+      "bbox": {
+        "x0": 113.36016845703125,
+        "y0": 79.50811767578125,
+        "x1": 404.2464904785156,
+        "y1": 106.80047607421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 4,
+      "polygon": [
+        [
+          113.0,
+          79.0
+        ],
+        [
+          113.0,
+          105.0
+        ],
+        [
+          403.0,
+          105.0
+        ],
+        [
+          403.0,
+          79.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "8.4 · Ambivalenz von Gruppen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 27,
+      "pp_label": "number",
+      "score": 0.5764371752738953,
+      "bbox": {
+        "x0": 1183.5484619140625,
+        "y0": 53.33990478515625,
+        "x1": 1225.928466796875,
+        "y1": 80.77020263671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 16,
+      "polygon": [
+        [
+          1183.0,
+          53.0
+        ],
+        [
+          1183.0,
+          79.0
+        ],
+        [
+          1224.0,
+          79.0
+        ],
+        [
+          1224.0,
+          53.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "131",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9592955112457275,
+      "bbox": {
+        "x0": 109.30577087402344,
+        "y0": 183.1214599609375,
+        "x1": 1014.658447265625,
+        "y1": 517.4566650390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 59,
+      "polygon": [
+        [
+          117.0,
+          183.0
+        ],
+        [
+          117.0,
+          516.0
+        ],
+        [
+          1013.0,
+          516.0
+        ],
+        [
+          1013.0,
+          183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "weniger ängstlich oder aufgeregt zu sein, wenn es um die Bewertung der Gruppenleistung geht? Etwa, wenn Sie im Mannschaftssport als Team auftreten oder in einem Chorsingen? Vielleicht fühlen Sie sich sicherer, da Sie nicht als Einzelperson bewertet und identifiziert werden. Dies birgt jedoch die Gefahr, zu entspannt an die Sache heranzugehen, was wiederum zu einem Leistungsabfall führen kann: In diesem Fall werden Sie schlechter als bei einem Solo singen. Im Gegensatz zum Effekt der sozialen Erleichterung tritt dieser Effekt jedoch nur dann auf, wenn es sich um leichte Aufgaben handelt, bei denen die Einzelleistung nicht bestimmbar ist; bei komplexen Aufgaben bewirkt die physiologische/psychologische Anspannung dagegen eine Leistungssteigerung (Karau & Williams, 1993).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 14,
+      "pp_label": "paragraph_title",
+      "score": 0.7018871307373047,
+      "bbox": {
+        "x0": 151.54156494140625,
+        "y0": 551.252197265625,
+        "x1": 270.0877990722656,
+        "y1": 579.02880859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 78,
+      "polygon": [
+        [
+          151.0,
+          551.0
+        ],
+        [
+          151.0,
+          578.0
+        ],
+        [
+          158.0,
+          578.0
+        ],
+        [
+          166.0,
+          578.0
+        ],
+        [
+          269.0,
+          578.0
+        ],
+        [
+          269.0,
+          551.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- Definition",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 15,
+      "pp_label": "text",
+      "score": 0.7226173281669617,
+      "bbox": {
+        "x0": 149.75735473632812,
+        "y0": 583.5460205078125,
+        "x1": 976.8980712890625,
+        "y1": 717.01708984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 84,
+      "polygon": [
+        [
+          149.0,
+          583.0
+        ],
+        [
+          149.0,
+          716.0
+        ],
+        [
+          953.0,
+          716.0
+        ],
+        [
+          975.0,
+          706.0
+        ],
+        [
+          975.0,
+          594.0
+        ],
+        [
+          960.0,
+          583.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Ist die Einzelleistung nicht messbar, so führt die Gegenwart anderer zu einer Leistungsverschlechterung bei einfachen Aufgaben und zu einer verbesserten Leistung bei schwierigen Aufgaben. Dieser Effekt wird als soziales Faulzenzen (»social loafing«) bezeichnet",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9520893096923828,
+      "bbox": {
+        "x0": 108.87080383300781,
+        "y0": 782.1199340820312,
+        "x1": 1015.4026489257812,
+        "y1": 1018.3939819335938,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 184,
+      "polygon": [
+        [
+          116.0,
+          782.0
+        ],
+        [
+          108.0,
+          1017.0
+        ],
+        [
+          1014.0,
+          1017.0
+        ],
+        [
+          1007.0,
+          782.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das »soziale Faulenzen« zeigt, dass in der Gruppe Prozesse auftreten können, die dazu führen, dass die Gesamtleistung der Gruppe unterhalb ihres eigentlichen Leistungs- potenzials liegt. Unter diese sog. Prozessverluste fallen sämtliche Aspekte innerhalb einer Gruppe, die eine effektive Problemlösung beeinträchtigen, mit der Folge, dass die Gesamtleistung der Gruppe absinkt. Beispielsweise, wenn sehr dominante und von sich selbst überzeugte Gruppenmitglieder anderen ihre Ideen aufdrücken möchten und keiner sich traut – trotz fehlender Qualität dieser Ideen – Kontra zu geben.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.8437645435333252,
+      "bbox": {
+        "x0": 110.76171875,
+        "y0": 1046.791748046875,
+        "x1": 553.671875,
+        "y1": 1077.395263671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 187,
+      "polygon": [
+        [
+          118.0,
+          1046.0
+        ],
+        [
+          118.0,
+          1076.0
+        ],
+        [
+          552.0,
+          1076.0
+        ],
+        [
+          552.0,
+          1046.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Hidden Profiles (geteilte Informationen)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9578810334205627,
+      "bbox": {
+        "x0": 109.95074462890625,
+        "y0": 1081.9825439453125,
+        "x1": 1015.25,
+        "y1": 1349.8851318359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 192,
+      "polygon": [
+        [
+          109.0,
+          1081.0
+        ],
+        [
+          117.0,
+          1348.0
+        ],
+        [
+          1007.0,
+          1348.0
+        ],
+        [
+          1014.0,
+          1338.0
+        ],
+        [
+          1014.0,
+          1081.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Ein weiteres häufig beobachtetes Beispiel für einen Prozessverlust ist die Tatsache, dass Gruppenmitglieder dazu neigen, nicht alle Informationen mit den anderen zu teilen (Stasser & Titus, 1985). Dies kann bei Gruppenentscheidungen dazu führen, dass wichtige Informationen nicht geäußert bzw. nicht berücksichtigt werden, was wiederum zu Lasten der Entscheidungsqualität geht. Aufgaben, bei denen die Gruppenmitglieder nicht über dieselben Informationen verfügen, sondern auf gegenseitigen Austausch angewiesen sind, nennt man auch »Hidden-Profile-Aufgaben« (Stasser & Titus, 2003;\n▶ Studie: Hidden Profile).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.7839730381965637,
+      "bbox": {
+        "x0": 1057.794921875,
+        "y0": 786.3818359375,
+        "x1": 1319.2637939453125,
+        "y1": 812.515380859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 215,
+      "polygon": [
+        [
+          1057.0,
+          786.0
+        ],
+        [
+          1057.0,
+          811.0
+        ],
+        [
+          1318.0,
+          811.0
+        ],
+        [
+          1318.0,
+          786.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Soziales Faulenzen führt zu",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.8752531409263611,
+      "bbox": {
+        "x0": 1057.360107421875,
+        "y0": 815.5166015625,
+        "x1": 1378.887451171875,
+        "y1": 925.470947265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 220,
+      "polygon": [
+        [
+          1057.0,
+          815.0
+        ],
+        [
+          1057.0,
+          924.0
+        ],
+        [
+          1377.0,
+          924.0
+        ],
+        [
+          1377.0,
+          815.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Prozessverlusten, d. h., die Gesamtleistung einer Gruppe liegt unterhalb ihres eigentlichen Leistungs-potenzials.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9241827726364136,
+      "bbox": {
+        "x0": 1057.4156494140625,
+        "y0": 1086.086669921875,
+        "x1": 1371.622802734375,
+        "y1": 1224.647216796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 228,
+      "polygon": [
+        [
+          1057.0,
+          1086.0
+        ],
+        [
+          1057.0,
+          1223.0
+        ],
+        [
+          1370.0,
+          1223.0
+        ],
+        [
+          1370.0,
+          1086.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Hidden-Profile-Aufgaben, bei denen die einzelnen Gruppenmitglie- der nicht auf demselben Informationsstand sind, können ebenfalls zu Prozessverlusten führen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 11,
+      "pp_label": "paragraph_title",
+      "score": 0.7640091776847839,
+      "bbox": {
+        "x0": 152.1692352294922,
+        "y0": 1379.569091796875,
+        "x1": 226.75137329101562,
+        "y1": 1407.047607421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 229,
+      "polygon": [
+        [
+          152.0,
+          1379.0
+        ],
+        [
+          152.0,
+          1406.0
+        ],
+        [
+          225.0,
+          1406.0
+        ],
+        [
+          225.0,
+          1379.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 12,
+      "pp_label": "paragraph_title",
+      "score": 0.8154815435409546,
+      "bbox": {
+        "x0": 152.14117431640625,
+        "y0": 1417.28955078125,
+        "x1": 316.2031555175781,
+        "y1": 1446.47900390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 233,
+      "polygon": [
+        [
+          152.0,
+          1417.0
+        ],
+        [
+          152.0,
+          1445.0
+        ],
+        [
+          315.0,
+          1445.0
+        ],
+        [
+          315.0,
+          1417.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Hidden Profile",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.8992210030555725,
+      "bbox": {
+        "x0": 148.9197540283203,
+        "y0": 1450.95947265625,
+        "x1": 1377.6619873046875,
+        "y1": 1851.2021484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 239,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "In der Studie von Stasser und Titus (1985) sollten die Pro-banden gemeinsam einen Kandidaten für ein Gremium bestimmen. In einem Vorexperiment wurde anhand der Kandidatenprofile bestimmt, dass Kandidat A hierfür am besten geeignet ist. Insgesamt gab es 3 Bedingungen: In der einen Bedingung hatten alle Gruppenmitglieder dieselben Informationen zu den 3 Kandidaten A, B und C, nämlich positive und negative (die Informationen waren also »geteilt«). In den beiden anderen Bedingungen waren den Probanden die vollständigen Profile jedoch nicht zugänglich, die Informationen waren daher »ungeteilt«. Dies wurde einmal so gestaltet, dass die positiven Informationen von Kandidat A sowie die negativen von Kandidat B ungeteilt waren (direkte Ablehnung von Person A bei Befürwortung von B) und in einer weiteren Bedingung die negativen Informationen der Kandidaten B und C ungeteilt blieben (keine Präferenz von A, aber auch keine direkte Befürwortung von B und C). Es stellte sich heraus, dass 83% der Gruppen in der »geteilten Bedingung« für Kandidat A stimmten, während dies bei un-geteilten Informationen nur 18% der Gruppen taten. Die Qualität der Entscheidung war also besser (die Entscheidung für Kandidat A war ja objektiv richtig), wenn alle Gruppen-mitglieder auch alle Informationen kannten.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        13,
+        14
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1698.709228515625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1683.4111328125
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1743.2822265625
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1492.658203125
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 2323.63525390625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1112.6951904296875
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1320.53076171875
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1779.9197998046875
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1055.9761962890625
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1878.0093994140625
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1306.2177734375
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 2052.233642578125
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 1086.7620849609375
+    }
+  ],
+  "warnungen": [
+    "Blöcke [13, 14] zu #13 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.41000541699759196,
+      "zeitstempel": "2026-09-06T14:31:45.028560Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 13.33402662500157,
+      "zeitstempel": "2026-09-06T15:00:43.542773Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

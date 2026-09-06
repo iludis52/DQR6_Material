@@ -1,0 +1,178 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 52,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 23,
+      "pp_label": "number",
+      "score": 0.7285371422767639,
+      "bbox": {
+        "x0": 115.16905212402344,
+        "y0": 80.708740234375,
+        "x1": 145.42230224609375,
+        "y1": 102.6759033203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 2,
+      "polygon": [
+        [
+          115.0,
+          80.0
+        ],
+        [
+          115.0,
+          101.0
+        ],
+        [
+          144.0,
+          101.0
+        ],
+        [
+          144.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "44",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 20,
+      "pp_label": "header",
+      "score": 0.8670827746391296,
+      "bbox": {
+        "x0": 191.6033477783203,
+        "y0": 78.8046875,
+        "x1": 537.9794921875,
+        "y1": 106.07275390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 7,
+      "polygon": [
+        [
+          191.0,
+          78.0
+        ],
+        [
+          191.0,
+          105.0
+        ],
+        [
+          536.0,
+          105.0
+        ],
+        [
+          536.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 3 · Urteilen und Entscheiden",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 12,
+      "pp_label": "reference",
+      "score": 0.8758914470672607,
+      "bbox": {
+        "x0": 505.808349609375,
+        "y0": 184.66043090820312,
+        "x1": 1406.3753662109375,
+        "y1": 1413.8494873046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 22,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Metcalf, G. E. & Malkiel, B. G. (1994). The Wall Street Journal contests: The experts, the darts, and the efficient market hypothesis. Applied Financial Economics, 4, 371–374.\nMusahl, H. P. (1997). Gefahrenkognition. Theoretische Annäherungen, empirische Befunde und Anwendungsbezüge zur subjektiven Gefahrenkenntnis. Heidelberg: Asanger.\nMussweiler, T. (2003). Comparison processes in social judgment: Mechanisms and consequences. Psychological Review, 110, 472–489.\nMussweiler, T., Rüter, K. & Epstude, K. (2004). The ups and downs of social comparison: Mechanisms of assimilation and contrast. Journal of Personality and Social Psychology, 87, 832–844.\nNisbett, R. E., Zukier, H. & Lemley, R. E. (1981). The dilution effect: Nondiagnostic information weakens the implications of diagnostic information. Cognitive Psychology, 13, 248–277.\nRusso, J. E. & Schoemaker, P. J. H. (1990). Decision traps: Ten barriers to brilliant decision making and how to overcome them. New York: Simon & Schuster.\nSchwarz, N., Bless, H., Strack, F., Klumpp, G., Rittenauer-Schatka, H. & Simons, A. (1991). Ease of retrieval as information: Another look at the availability heuristic. Journal of Personality and Social Psychology, 61, 195–202.\nSlovic, P. & MacPhillamy, D. J. (1974). Dimensional commensurability and cue utilization in comparative judgment. Organizational Behavior and Human Performance, 11, 172–194.\nSrull, T. K. & Wyer, R. S. Jr. (1979). The role of category accessibility in the interpretation of information about persons: Some determinants and implications. Journal of Personality and Social Psychology, 37, 1660–1672.\nStephan, E. & Kiell, G. (2000). Decision processes in professional investors: Does expertise moderate judgmental biases? In E. Hölzl (Ed.), Fairness and cooperation (pp. 416–420). Proceedings of the IAREP/SABE 2000 Conference.\nStevens, S. S. (1946). On the theory of scales of measurement. Science, 103, 677–680.\nStrack, F. & Deutsch, R. (2002). Urteilsheuristiken. In D. Frey & M. Irle (Eds.), Theorien der Sozialpsychologie, Band III: Motivations- und Informationsverarbeitungstheorien (2. vollst. überarb. u. erw. Aufl., S. 352–384). Bern: Huber.\nStrack, F. & Mussweiler, T. (2003). Heuristic strategies for estimation under uncertainty: The enigmatic case of anchoring. In G. V. Bodenhausen & A. J. Lambert (Eds.), Foundations of social cognition: A festschrift in honor of Robert S. Wyer, Jr. (pp. 79-95). Mahwah: Lawrence Erlbaum.\nSurowiecki, J. (2004). The wisdom of crowds: Why the many are smarter than the few and how collective wisdom shapes business, economies, societies and nations. London: Little, Brown.\nSwets, J. A., Dawes, R. M. & Monahan, J. (2000). Psychological science can improve diagnostic decisions. Psychological Science in the Public Interest, 1, 1–26.\nTversky, A. & Kahneman, D. (1973). Availability: A heuristic for judging frequency and probability. Cognitive Psychology, 5, 207–232.\nTversky, A. & Kahneman, D. (1974). Judgment and uncertainty: Heuristics and biases. Science, 185, 1124–1131.\nTversky, A. & Kahneman, D. (1981). The framing of decisions and the psychology of choice. Science, 211, 453–458.\nWeiner, B. (1986). An attributional theory of motivation and emotion. New York: Springer.\nWeinstein, N. D. (1980). Unrealistic optimism about future life events. Journal of Personality and Social Psychology, 39, 806–820.\nWiswede, G. (2000). Einführung in die Wirtschaftspsychologie. München: Reinhardt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 880.7561645507812
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2126.43359375
+    }
+  ],
+  "warnungen": [
+    "Blöcke [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23] zu #2 (reference) zusammengeführt.",
+    "Blöcke [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23] zu #2 (reference) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.33953037500032224,
+      "zeitstempel": "2026-09-06T14:31:11.866401Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 8.020712000001367,
+      "zeitstempel": "2026-09-06T14:42:50.282003Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 8.070592000000033,
+      "zeitstempel": "2026-09-06T15:19:42.392883Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

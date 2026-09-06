@@ -1,0 +1,530 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 135,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.721346378326416,
+      "bbox": {
+        "x0": 116.58350372314453,
+        "y0": 78.716796875,
+        "x1": 661.4641723632812,
+        "y1": 106.3526611328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 1,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "130 Kapitel 8 · Gruppenprozesse und soziale Identität",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 6,
+      "pp_label": "vision_footnote",
+      "score": 0.793779730796814,
+      "bbox": {
+        "x0": 127.70084381103516,
+        "y0": 182.37957763671875,
+        "x1": 440.7472229003906,
+        "y1": 268.82940673828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 46,
+      "polygon": [
+        [
+          127.0,
+          182.0
+        ],
+        [
+          127.0,
+          267.0
+        ],
+        [
+          439.0,
+          267.0
+        ],
+        [
+          439.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Abb. 8.5 Soziale Erleichterung – Manchmal sind andere Leute doch ganz praktisch, oder?!",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.7157547473907471,
+      "bbox": {
+        "x0": 128.84963989257812,
+        "y0": 1352.11767578125,
+        "x1": 448.48065185546875,
+        "y1": 1465.03173828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 92,
+      "polygon": [
+        [
+          128.0,
+          1352.0
+        ],
+        [
+          128.0,
+          1464.0
+        ],
+        [
+          447.0,
+          1464.0
+        ],
+        [
+          447.0,
+          1352.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Ein weiterer positiver Aspekt von Gruppen kann der »informationale Einfluss« sein, der im Gruppenkontext meist höher ist.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 3,
+      "pp_label": "image",
+      "score": 0.9035244584083557,
+      "bbox": {
+        "x0": 513.4352416992188,
+        "y0": 181.93218994140625,
+        "x1": 1282.958251953125,
+        "y1": 607.0357055664062,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 121,
+      "polygon": [
+        [
+          513.0,
+          181.0
+        ],
+        [
+          513.0,
+          606.0
+        ],
+        [
+          1281.0,
+          606.0
+        ],
+        [
+          1274.0,
+          181.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0135_03_image.png"
+    },
+    {
+      "id": 4,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9099776744842529,
+      "bbox": {
+        "x0": 503.5615234375,
+        "y0": 681.598388671875,
+        "x1": 1406.109130859375,
+        "y1": 1083.77587890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 182,
+      "polygon": [
+        [
+          503.0,
+          681.0
+        ],
+        [
+          511.0,
+          1082.0
+        ],
+        [
+          1405.0,
+          1072.0
+        ],
+        [
+          1405.0,
+          681.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "dass die eigene Leistung bei einfachen Aufgaben verbessert wird. Er stellte fest, dass Radrennfahrer schneller sind, wenn sie gegen Konkurrenten antreten, als wenn sie einfach nur gegen die Uhr fahren. Zajonc (1965) begründete dies später damit, dass Menschen in Gegenwart anderer erregter sind (sie ein höheres Arousal haben), was zu einer Leistungssteigerung führen kann. Diese kommt dann zum Tragen, wenn die Einzelleistung feststellbar ist, d.h., wenn die anderen die eigene Leistung sehen können (z. B. bei einer benoteten Klausur). Die Verbesserung der Leistung ist jedoch auf einfache Aufgaben beschränkt; müssen wir nämlich schwere Aufgaben vor anderen absolvieren (etwa ein anspruchsvolles Klavierstück vorführen, bei dem wir noch unsicher sind), so schneiden wir schlechter ab, als wenn wir alleine sind (für uns selbst üben). Dieses Phänomen wird auch als soziale Erleichterung bezeichnet (»social facilitation«; ▪ Abb. 8.5).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.8879889249801636,
+      "bbox": {
+        "x0": 543.9609985351562,
+        "y0": 1149.0418701171875,
+        "x1": 1352.2138671875,
+        "y1": 1284.4810791015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 242,
+      "polygon": [
+        [
+          551.0,
+          1149.0
+        ],
+        [
+          551.0,
+          1283.0
+        ],
+        [
+          1351.0,
+          1283.0
+        ],
+        [
+          1351.0,
+          1149.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Soziale Erleichterung (»social facilitation«) beschreibt die Tatsache, dass sich die individuelle Leitungsfähigkeit in Gegenwart anderer verbessert, sofern es sich um einfache Aufgaben handelt und die Einzelleistung messbar ist. Im Gegenzug sinkt die Leistung bei schwierigen Aufgaben ohne individuelle Leistungsmessung.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.958379328250885,
+      "bbox": {
+        "x0": 504.0431213378906,
+        "y0": 1348.7469482421875,
+        "x1": 1406.2418212890625,
+        "y1": 1650.9981689453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 265,
+      "polygon": [
+        [
+          504.0,
+          1348.0
+        ],
+        [
+          504.0,
+          1649.0
+        ],
+        [
+          1405.0,
+          1649.0
+        ],
+        [
+          1405.0,
+          1348.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Was Ihnen allen aus eigener Erfahrung bekannt sein dürfte, ist die Tatsache, dass mit vielen Menschen auch die verfügbare Menge leistungsrelevanter Informationen ansteigt und somit auch die Wahrscheinlichkeit für das Erzielen guter Ergebnisse erhöht wird. Vielleicht sind Sie selbst Teil einer Lerngruppe, die sich regelmäßig trifft und sich gegenseitig austauscht? Hier bekommt der »informationale Einfluss« einer Gruppe Bedeutung und man profitiert von unterschiedlichen Aspekten, auf die man alleine nicht (oder nur erschwert) gekommen wäre. Dies ist vor allem bei »additiven Aufgaben« zu beobachten, d.h., bei Aufgaben, bei denen die Gruppenleistung von der jeweiligen Leistung des Individuums abhängt (Steiner, 1972).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.8477350473403931,
+      "bbox": {
+        "x0": 506.498046875,
+        "y0": 1708.251708984375,
+        "x1": 1047.0316162109375,
+        "y1": 1743.403564453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 276,
+      "polygon": [
+        [
+          506.0,
+          1708.0
+        ],
+        [
+          506.0,
+          1742.0
+        ],
+        [
+          1046.0,
+          1742.0
+        ],
+        [
+          1046.0,
+          1708.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "8.4.2 Negative Merkmale von Gruppen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.8118191957473755,
+      "bbox": {
+        "x0": 506.2829895019531,
+        "y0": 1776.8890380859375,
+        "x1": 956.759033203125,
+        "y1": 1808.5411376953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 279,
+      "polygon": [
+        [
+          506.0,
+          1776.0
+        ],
+        [
+          506.0,
+          1807.0
+        ],
+        [
+          955.0,
+          1807.0
+        ],
+        [
+          955.0,
+          1776.0
+        ],
+        [
+          575.0,
+          1776.0
+        ],
+        [
+          567.0,
+          1776.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Leistungsbezogene Prozessverluste",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 11,
+      "pp_label": "paragraph_title",
+      "score": 0.5647366642951965,
+      "bbox": {
+        "x0": 506.56072998046875,
+        "y0": 1814.928466796875,
+        "x1": 721.552490234375,
+        "y1": 1844.293212890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 284,
+      "polygon": [
+        [
+          506.0,
+          1814.0
+        ],
+        [
+          506.0,
+          1843.0
+        ],
+        [
+          720.0,
+          1843.0
+        ],
+        [
+          720.0,
+          1814.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Soziales Faulenzen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9246635437011719,
+      "bbox": {
+        "x0": 503.4802551269531,
+        "y0": 1848.797119140625,
+        "x1": 1406.3687744140625,
+        "y1": 1949.739501953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 295,
+      "polygon": [
+        [
+          503.0,
+          1859.0
+        ],
+        [
+          503.0,
+          1948.0
+        ],
+        [
+          1405.0,
+          1948.0
+        ],
+        [
+          1405.0,
+          1859.0
+        ],
+        [
+          715.0,
+          1848.0
+        ],
+        [
+          693.0,
+          1848.0
+        ],
+        [
+          669.0,
+          1848.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "An das Phänomen der sozialen Erleichterung lässt sich jedoch direkt mit einem negativen Aspekt von Gruppen anknüpfen: dem sozialen Faulzenen (»social loafing«; Latané, Williams & Harkins, 1979). Vielleicht kennen Sie das Gefühl, in einer Gruppe",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2759.041748046875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1329.2972412109375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1077.94970703125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 3022.068359375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 3155.57421875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1649.4588623046875
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 2135.486083984375
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 676.9369506835938
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1506.848388671875
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1294.8763427734375
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.4490363749973767,
+      "zeitstempel": "2026-09-06T14:31:44.617724Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 8.883946083002229,
+      "zeitstempel": "2026-09-06T15:00:30.204867Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

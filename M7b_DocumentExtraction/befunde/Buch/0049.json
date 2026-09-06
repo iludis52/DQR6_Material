@@ -1,0 +1,640 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 49,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8428604602813721,
+      "bbox": {
+        "x0": 112.94078826904297,
+        "y0": 78.66329956054688,
+        "x1": 605.8099975585938,
+        "y1": 106.71182250976562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 9,
+      "polygon": [
+        [
+          112.0,
+          78.0
+        ],
+        [
+          112.0,
+          105.0
+        ],
+        [
+          604.0,
+          105.0
+        ],
+        [
+          604.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3.3 • Motivationale Einflüsse auf Urteilsverzerrungen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 15,
+      "pp_label": "number",
+      "score": 0.6727737188339233,
+      "bbox": {
+        "x0": 1383.073486328125,
+        "y0": 35.2860107421875,
+        "x1": 1418.8658447265625,
+        "y1": 84.5189208984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 40,
+      "polygon": [
+        [
+          1383.0,
+          35.0
+        ],
+        [
+          1383.0,
+          83.0
+        ],
+        [
+          1417.0,
+          83.0
+        ],
+        [
+          1417.0,
+          35.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 3,
+      "pp_label": "image",
+      "score": 0.9138477444648743,
+      "bbox": {
+        "x0": 476.71527099609375,
+        "y0": 176.45700073242188,
+        "x1": 1013.2698364257812,
+        "y1": 594.4820556640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 81,
+      "polygon": [
+        [
+          476.0,
+          176.0
+        ],
+        [
+          476.0,
+          593.0
+        ],
+        [
+          1012.0,
+          593.0
+        ],
+        [
+          1012.0,
+          176.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0049_02_image.png"
+    },
+    {
+      "id": 3,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9586808681488037,
+      "bbox": {
+        "x0": 109.92546844482422,
+        "y0": 649.8391723632812,
+        "x1": 1011.4618530273438,
+        "y1": 881.9382934570312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 99,
+      "polygon": [
+        [
+          109.0,
+          660.0
+        ],
+        [
+          117.0,
+          880.0
+        ],
+        [
+          1010.0,
+          880.0
+        ],
+        [
+          1010.0,
+          660.0
+        ],
+        [
+          730.0,
+          649.0
+        ],
+        [
+          549.0,
+          649.0
+        ],
+        [
+          533.0,
+          649.0
+        ],
+        [
+          504.0,
+          649.0
+        ],
+        [
+          117.0,
+          649.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "im Gewinnbereich. Personen verhalten sich im Verlustbereich riskanter als im Gewinnbereich, da sie sich über Verluste stärker ärgern, als sie sich über Gewinne in gleicher Höhe freuen würden. In anderen Worten: Personen freuen sich über eine konstante Zunahme im Gewinnbereich weniger als sie sich über die gleiche Zunahme im Verlustbereich ärgern. Im Verlustbereich wird deshalb die riskante Alternative gewählt, weil diese es erlaubt, die angehäuften Verluste »mit einem Schlag« wieder auszugleichen. Dabei wird leicht übersehen, dass dabei auch ein Totalverlust möglich ist.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9548526406288147,
+      "bbox": {
+        "x0": 109.78766632080078,
+        "y0": 883.2988891601562,
+        "x1": 1012.5056762695312,
+        "y1": 1083.13671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 106,
+      "polygon": [
+        [
+          117.0,
+          883.0
+        ],
+        [
+          117.0,
+          1082.0
+        ],
+        [
+          1011.0,
+          1082.0
+        ],
+        [
+          1011.0,
+          883.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "I'm wirtschaftlichen Handeln kann diese unterschiedliche Wirkung von Gewinnen und Verlusten bzw. entsprechende Risikobereitschaft häufig am Aktienmarkt beobachtet werden: Wenn Personen durch riskante Investitionen finanzielle Verluste erlitten haben, werden sie häufig risikofreudiger (d. h. sie investieren noch mehr Geld in riskante Geldanalagen), um diesen Verlust wieder auszugleichen. Nicht selten endet dies mit einem kompletten Verlust der Geldanlagen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 9,
+      "pp_label": "paragraph_title",
+      "score": 0.8592820763587952,
+      "bbox": {
+        "x0": 113.166015625,
+        "y0": 1139.8134765625,
+        "x1": 911.5158081054688,
+        "y1": 1176.8193359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 120,
+      "polygon": [
+        [
+          113.0,
+          1139.0
+        ],
+        [
+          113.0,
+          1175.0
+        ],
+        [
+          910.0,
+          1175.0
+        ],
+        [
+          910.0,
+          1139.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3.3 Motivationale Einflüsse auf Urteilsverzerrungen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9697719216346741,
+      "bbox": {
+        "x0": 110.22444915771484,
+        "y0": 1216.302001953125,
+        "x1": 1013.569580078125,
+        "y1": 1681.072021484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 134,
+      "polygon": [
+        [
+          118.0,
+          1216.0
+        ],
+        [
+          118.0,
+          1680.0
+        ],
+        [
+          1012.0,
+          1680.0
+        ],
+        [
+          1012.0,
+          1216.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Während im letzten Abschnitt vorwiegend kognitive Ursachen für Urteilsverzerrungen erläutert wurden, soll jetzt auf motivationale Ursachen eingegangen werden. Kognitive Determinanten von Urteilsverzerrungen wirken häufig, ohne dass dies die Person beabsichtigt; derartige Urteilsverzerrungen sind daher als Nebenprodukt funktionaler kognitiver Aktivität zu sehen (vgl. Fischer & Greitemeyer, 2010). Motivationale Determinanten beeinflussen das Urteilsverhalten zwar ebenfalls häufig, ohne dass dies vom Individuum selbst bemerkt wird. Trotzdem sind diese Verzerrungen aber als beabsichtigt zu betrachten. Wenn Personen beispielsweise eine starke Präferenz für eine bestimmte politische Partei haben, dann werden sie mehr oder weniger bewusst Informationen, die gegen diese Partei sprechen, abwerten und im Gegenzug Informationen aufwerten, die diese Partei unterstützen (Greitemeyer, Fischer, Frey & Schulz-Hardt, 2009). Aus motivationaler Perspektive lässt sich also festhalten, dass Menschen dazu neigen, Ereignisse, Objekte oder Personen entsprechend ihrer Wunschvorstellungen zu beurteilen (Kruglanski & Ajzen, 1983).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.945882260799408,
+      "bbox": {
+        "x0": 112.36494445800781,
+        "y0": 1683.2689208984375,
+        "x1": 1011.4674682617188,
+        "y1": 1779.9219970703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 147,
+      "polygon": [
+        [
+          112.0,
+          1683.0
+        ],
+        [
+          112.0,
+          1778.0
+        ],
+        [
+          1010.0,
+          1778.0
+        ],
+        [
+          1010.0,
+          1683.0
+        ],
+        [
+          135.0,
+          1683.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Wünsche und Bedürfnisse entstehen vorwiegend auf Basis dispositionaler (stabler Persönlichkeits-) oder situationaler Faktoren und können grundlegend eingeteilt werden in",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.9242638945579529,
+      "bbox": {
+        "x0": 113.5713119506836,
+        "y0": 1784.1456298828125,
+        "x1": 1009.45361328125,
+        "y1": 1845.9510498046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 165,
+      "polygon": [
+        [
+          113.0,
+          1784.0
+        ],
+        [
+          113.0,
+          1844.0
+        ],
+        [
+          1008.0,
+          1844.0
+        ],
+        [
+          1008.0,
+          1784.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "■ Verteidigungsmotive (»defense motivation«; wie z. B. Selbstwertschutz; Dissonanz-reduktion) und",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9336890578269958,
+      "bbox": {
+        "x0": 114.0959243774414,
+        "y0": 1850.7054443359375,
+        "x1": 1012.5178833007812,
+        "y1": 1947.0440673828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 172,
+      "polygon": [
+        [
+          114.0,
+          1850.0
+        ],
+        [
+          114.0,
+          1946.0
+        ],
+        [
+          1011.0,
+          1946.0
+        ],
+        [
+          1011.0,
+          1850.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "■ Wahrheitsmotive (»accuracy motivation«; wie z. B. Bedürfnis nach effektiver Umwelt- und Handlungskontrolle; Erlangung einer realistischen Weltsicht; vgl. Eagly & Chaiken, 1993).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 8,
+      "pp_label": "figure_title",
+      "score": 0.8990976214408875,
+      "bbox": {
+        "x0": 1056.45947265625,
+        "y0": 183.6363525390625,
+        "x1": 1375.482177734375,
+        "y1": 323.261962890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 211,
+      "polygon": [
+        [
+          1056.0,
+          183.0
+        ],
+        [
+          1056.0,
+          322.0
+        ],
+        [
+          1329.0,
+          322.0
+        ],
+        [
+          1374.0,
+          312.0
+        ],
+        [
+          1374.0,
+          183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Abb. 3.3 Hypothetische Werte-funktion der Gewinne und Verluste. (Nach Kahneman & Tversky, 1979, Copyright © 1979 by the Econometric Society)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.8109763264656067,
+      "bbox": {
+        "x0": 1057.041015625,
+        "y0": 1219.5723876953125,
+        "x1": 1387.2666015625,
+        "y1": 1360.0701904296875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 267,
+      "polygon": [
+        [
+          1057.0,
+          1219.0
+        ],
+        [
+          1057.0,
+          1359.0
+        ],
+        [
+          1386.0,
+          1359.0
+        ],
+        [
+          1386.0,
+          1219.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Motivationale Einflüsse auf Urteilsverzerrungen gelten als beabsichtigt, da sie der Person eher bewusst sind als rein kognitiv-informationale Einflüsse.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.7476021647453308,
+      "bbox": {
+        "x0": 1057.63427734375,
+        "y0": 1685.5264892578125,
+        "x1": 1376.527587890625,
+        "y1": 1770.4681396484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 287,
+      "polygon": [
+        [
+          1057.0,
+          1685.0
+        ],
+        [
+          1057.0,
+          1769.0
+        ],
+        [
+          1375.0,
+          1769.0
+        ],
+        [
+          1375.0,
+          1685.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Wünsche und Bedürfnisse lassen\nsich grundsätzlich einteilen in Ver-\nteidigungs- und Wahrheitsmotive.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2547.878662109375
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2771.30810546875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1786.5987548828125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1693.583984375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1675.2152099609375
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1825.200927734375
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 2147.62939453125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2478.641357421875
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 768.9151611328125
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 3016.12451171875
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 2324.409912109375
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1082.5142822265625
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.36732649999976275,
+      "zeitstempel": "2026-09-06T14:31:10.603696Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 10.38598062500023,
+      "zeitstempel": "2026-09-06T14:42:15.889829Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

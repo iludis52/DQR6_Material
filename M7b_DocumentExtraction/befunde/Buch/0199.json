@@ -1,0 +1,534 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 199,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 2,
+      "pp_label": "header",
+      "score": 0.7130066752433777,
+      "bbox": {
+        "x0": 116.81013488769531,
+        "y0": 78.41262817382812,
+        "x1": 946.744384765625,
+        "y1": 106.64572143554688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 1,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "196 Kapitel 12 · Soziale Neurowissenschaften: Einführung und ausgewählte Befunde",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.7788828015327454,
+      "bbox": {
+        "x0": 128.2683563232422,
+        "y0": 285.2164001464844,
+        "x1": 453.4588928222656,
+        "y1": 454.3253479003906,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 77,
+      "polygon": [
+        [
+          128.0,
+          285.0
+        ],
+        [
+          128.0,
+          453.0
+        ],
+        [
+          452.0,
+          453.0
+        ],
+        [
+          452.0,
+          285.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Dieser Abschnitt beschäftigt sich thematisch mit fMRT-Befunden zur Wahrnehmung der eigenen Person, zur Wahrnehmung anderer Personen und zur Interkation mit anderen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.8413638472557068,
+      "bbox": {
+        "x0": 128.7786865234375,
+        "y0": 885.2059936523438,
+        "x1": 450.89739990234375,
+        "y1": 1053.91015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 106,
+      "polygon": [
+        [
+          128.0,
+          895.0
+        ],
+        [
+          128.0,
+          1052.0
+        ],
+        [
+          449.0,
+          1052.0
+        ],
+        [
+          449.0,
+          885.0
+        ],
+        [
+          182.0,
+          885.0
+        ],
+        [
+          173.0,
+          885.0
+        ],
+        [
+          167.0,
+          885.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Aus neurowissenschaftlicher Perspektive wird zur Bestimmung des Selbst entweder nach verschiedenen Prozessen oder nach verschiedenen inhaltlichen Bereichen unterschieden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.8873134851455688,
+      "bbox": {
+        "x0": 128.48016357421875,
+        "y0": 1351.1368408203125,
+        "x1": 446.7515869140625,
+        "y1": 1547.9857177734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 124,
+      "polygon": [
+        [
+          128.0,
+          1351.0
+        ],
+        [
+          128.0,
+          1546.0
+        ],
+        [
+          445.0,
+          1546.0
+        ],
+        [
+          445.0,
+          1351.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Northoff & Bermpohl (2004) unterscheiden u. a. folgende inhaltliche Domänen: Repräsentation selbstbezogener Stimuli, Monitoring, Evaluation und Bewertung, Selbstaufmerksamkeit, Agency, Ownership, räumliches Selbst.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.7922361493110657,
+      "bbox": {
+        "x0": 128.46400451660156,
+        "y0": 1718.22119140625,
+        "x1": 433.2062072753906,
+        "y1": 1916.220947265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 148,
+      "polygon": [
+        [
+          128.0,
+          1718.0
+        ],
+        [
+          128.0,
+          1915.0
+        ],
+        [
+          432.0,
+          1915.0
+        ],
+        [
+          432.0,
+          1718.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "In neurowissenschaftlichen Untersuchungen zum Selbst wird die Verarbeitung selbstbezogener Informationen mit einer Kontrollbedingung (z. B. der Verarbeitung fremdbezogener Informationen) verglichen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 6,
+      "pp_label": "paragraph_title",
+      "score": 0.865273118019104,
+      "bbox": {
+        "x0": 507.86676025390625,
+        "y0": 172.03677368164062,
+        "x1": 1210.836669921875,
+        "y1": 241.25729370117188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 162,
+      "polygon": [
+        [
+          507.0,
+          172.0
+        ],
+        [
+          507.0,
+          240.0
+        ],
+        [
+          1209.0,
+          240.0
+        ],
+        [
+          1209.0,
+          172.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "12.2 Ausgewählte Befunde aus dem Bereich der sozialen Neurowissenschaften",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9693025946617126,
+      "bbox": {
+        "x0": 503.7030944824219,
+        "y0": 282.0650634765625,
+        "x1": 1406.8017578125,
+        "y1": 750.883544921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 198,
+      "polygon": [
+        [
+          503.0,
+          282.0
+        ],
+        [
+          503.0,
+          749.0
+        ],
+        [
+          1405.0,
+          749.0
+        ],
+        [
+          1405.0,
+          282.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Wie eingangs erwähnt, befasst sich das Gebiet der »Social Neuroscience« mit den Themen der klassischen Sozialpsychologie. Die Tatsache, dass das gesamte Buch sozialpsychologische Aspekte behandelt, wir aber nur dieses eine Kapitel im neurowissenschaftlichen Bereich haben, macht deutlich, dass es unmöglich ist, in dieses Kapitel alle entsprechenden Befunde einzuarbeiten. Daher widmen wir uns nur ausgewählten Aspekten und bleiben dabei ganz eng an der Definition von klassischer Sozialpsychologie: nämlich dem Einfluss, den tatsächlich oder imagiiniert anwesende Personen auf das Erleben und Verhalten von Individuen haben (► Kap. 1). Da wirkliches Verhalten mit fMRT schwer zu untersuchen ist, beschränken wir uns hauptsächlich auf das Erleben. Hierbei unterteilen wir in »selbst« und »andere« bzw. »Interaktion mit anderen«. Es geht also um die Wahrnehmung unserer eigenen Person, die Wahrnehmung von anderen Personen sowie die Interaktion mit diesen. Eine strikte Trennung dieser Bereiche ist jedoch kaum möglich, schließlich erleben wir uns selbst innerhalb eines sozialen Kontexts, vergleichen uns mit anderen bzw. erhalten dadurch ein Bild von uns selbst.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 5,
+      "pp_label": "paragraph_title",
+      "score": 0.8420933485031128,
+      "bbox": {
+        "x0": 508.1338806152344,
+        "y0": 807.9275512695312,
+        "x1": 776.3748779296875,
+        "y1": 841.8871459960938,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 214,
+      "polygon": [
+        [
+          508.0,
+          807.0
+        ],
+        [
+          508.0,
+          840.0
+        ],
+        [
+          775.0,
+          840.0
+        ],
+        [
+          775.0,
+          807.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "12.2.1 Das Selbst",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9662690162658691,
+      "bbox": {
+        "x0": 503.6536865234375,
+        "y0": 881.4844970703125,
+        "x1": 1406.3909912109375,
+        "y1": 1348.5277099609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 227,
+      "polygon": [
+        [
+          503.0,
+          881.0
+        ],
+        [
+          511.0,
+          1347.0
+        ],
+        [
+          1405.0,
+          1337.0
+        ],
+        [
+          1405.0,
+          881.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kaum ein anderes Konstrukt ist vielschichtiger und wird häufiger beforscht als das Konstrukt des Selbst. Das Interesse an diesem Forschungsfeld liegt laut Leary (2007) u. a. darin begründet, dass die Repräsentation des eigenen Selbst eine Brücke zwischen der Umgebung eines Individuums und seinen individuellen Gedanken, Verhaltensweisen und Emotionen bildet. Es ist daher auch nicht verwunderlich, dass, insbesondere in den letzten Jahren, die Neurowissenschaften Interesse an diesem spannenden Themengebiet fanden. Wenn wir vom Konzept des Selbst aus neurowissenschaftlicher Perspektive sprechen, ist darunter kein einheitliches Konzept zu verstehen; vielmehr werden innerhalb des Selbst verschiedene Prozesse unterschieden (z. B. Northoff et al., 2006) oder es wird nach inhaltlichen Bereichen differenziert, beispielsweise anhand der zugrunde liegenden Stimulusmodalität (z. B. verbale Aufgaben oder emotionale Bilder). Insgesamt haben die Neurowissenschaften dazu beigetragen, das Konzept des Selbst mit seinen unterschiedlichen selbstbezogenen Prozessen näher zu differenzieren (z. B. Lieberman, 2007; Northoff et al., 2006).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9680892825126648,
+      "bbox": {
+        "x0": 504.07550048828125,
+        "y0": 1349.8677978515625,
+        "x1": 1406.8529052734375,
+        "y1": 1715.7423095703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 263,
+      "polygon": [
+        [
+          504.0,
+          1349.0
+        ],
+        [
+          504.0,
+          1714.0
+        ],
+        [
+          1405.0,
+          1714.0
+        ],
+        [
+          1405.0,
+          1349.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "(2.B. Lieberman, 2007, Northon et al., 2006).\nNorthoff und Bermpohl (2004) unterscheiden beispielsweise diverse Domänen, die sich auf unterschiedliche Teilaspekte des Selbst beziehen. Darunter fallen die Repräsentation von Stimuli als auf die eigene Person bezogen, das Monitoring bestimmter selbstbezogener Information, die Evaluation und Bewertung selbstbezogener Stimuli oder auch der Prozess der Selbstaufmerksamkeit, d.h. die Aufmerksamkeit und das Erkennen des eigenen Gesichts bzw. Körpers sowie innerer Vorgänge. Aber auch Aspekte wie Agency, also das Gefühl, kausal in eine Handlung involviert zu sein (z. B. Ich selbst bin kausal für die Bewegung eines Objektes von A nach B verantwortlich), Ownership, die Wahrnehmung des eigenen Körpers und der Umwelt als selbstbezogen oder das räumliche Selbst, die Wahrnehmung des eigenen Körpers im Raum, werden unterschieden, um nur einige davon zu nennen.\nSe vielseitig wie das menschliche Selbst sind auch die Ergebnisse, die nauwisch",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9618022441864014,
+      "bbox": {
+        "x0": 503.0892333984375,
+        "y0": 1715.1805419921875,
+        "x1": 1408.30517578125,
+        "y1": 1951.1651611328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 280,
+      "polygon": [
+        [
+          503.0,
+          1725.0
+        ],
+        [
+          511.0,
+          1950.0
+        ],
+        [
+          1407.0,
+          1950.0
+        ],
+        [
+          1407.0,
+          1725.0
+        ],
+        [
+          1347.0,
+          1715.0
+        ],
+        [
+          937.0,
+          1715.0
+        ],
+        [
+          511.0,
+          1715.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Unterschieden, um nur einige davon zu nehmen.\nSo vielschichtig wie das menschliche Selbst sind auch die Ergebnisse, die neurowissenschaftliche Untersuchungen dazu in den letzten Jahren hervorgebracht haben. Unabhängig davon, welcher Gliederung des Selbst (z.B. Lieberman, 2007; Northoff & Bermpohl, 2004) man nun folgt und an welchem spezifischen Prozess des Selbst man interessiert ist – allen gemeinsam ist, dass Stimuli zur Untersuchung herangezogen werden, die als stark auf die eigene Person bezogen wahrgenommen werden (z.B. Fotos der eigenen Person im Vergleich zu Fotos bekannter oder fremder Personen). Man",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2481.23046875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2375.122802734375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1747.6827392578125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 2719.2724609375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1931.7880859375
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1042.3985595703125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 2123.402099609375
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1324.3350830078125
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1959.0675048828125
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1905.726806640625
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.38395595800102456,
+      "zeitstempel": "2026-09-06T14:32:09.663584Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 15.12309408299916,
+      "zeitstempel": "2026-09-06T15:13:20.038623Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

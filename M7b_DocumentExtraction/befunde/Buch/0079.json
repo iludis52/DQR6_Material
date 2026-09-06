@@ -1,0 +1,640 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 79,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 6,
+      "pp_label": "number",
+      "score": 0.6667082905769348,
+      "bbox": {
+        "x0": 115.01768493652344,
+        "y0": 80.55703735351562,
+        "x1": 144.94110107421875,
+        "y1": 103.52963256835938,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": [
+        [
+          115.0,
+          80.0
+        ],
+        [
+          115.0,
+          102.0
+        ],
+        [
+          143.0,
+          102.0
+        ],
+        [
+          143.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "72",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.8269227743148804,
+      "bbox": {
+        "x0": 192.76361083984375,
+        "y0": 79.44711303710938,
+        "x1": 406.7181091308594,
+        "y1": 106.40359497070312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 7,
+      "polygon": [
+        [
+          192.0,
+          79.0
+        ],
+        [
+          192.0,
+          105.0
+        ],
+        [
+          405.0,
+          105.0
+        ],
+        [
+          405.0,
+          79.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 5 · Aggression",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 7,
+      "pp_label": "figure_title",
+      "score": 0.7992767691612244,
+      "bbox": {
+        "x0": 127.34710693359375,
+        "y0": 202.30191040039062,
+        "x1": 455.77459716796875,
+        "y1": 340.9624938964844,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 41,
+      "polygon": [
+        [
+          127.0,
+          202.0
+        ],
+        [
+          127.0,
+          339.0
+        ],
+        [
+          454.0,
+          339.0
+        ],
+        [
+          454.0,
+          202.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Abb. 5.4 Aggressives Verhalten (Verabreichung von Chilisauce) als Funktion der Art des Computerspiels und des Spielcharakters. (Mod. nach Fischer et al., 2010)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.6655831336975098,
+      "bbox": {
+        "x0": 128.79029846191406,
+        "y0": 784.5921630859375,
+        "x1": 458.9850769042969,
+        "y1": 927.5216064453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 64,
+      "polygon": [
+        [
+          128.0,
+          784.0
+        ],
+        [
+          128.0,
+          926.0
+        ],
+        [
+          158.0,
+          926.0
+        ],
+        [
+          457.0,
+          916.0
+        ],
+        [
+          457.0,
+          784.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Nach einer Analyse von Gerbner et al. (1979) kommen schockierender-weise mehr gewalttätige Inhalte in Fernsehformaten für Kinder bzw. Jugendliche als für Erwachsene vor.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.5980395078659058,
+      "bbox": {
+        "x0": 129.04251098632812,
+        "y0": 1184.873046875,
+        "x1": 453.1921691894531,
+        "y1": 1299.814208984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 85,
+      "polygon": [
+        [
+          129.0,
+          1184.0
+        ],
+        [
+          129.0,
+          1298.0
+        ],
+        [
+          452.0,
+          1298.0
+        ],
+        [
+          452.0,
+          1184.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Im Fernsehen übertragene Box-kämpfe stehen im Verdacht, das Aggressionsniveau der Zuschauenden signifikant zu erhöhen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.8106231689453125,
+      "bbox": {
+        "x0": 129.36553955078125,
+        "y0": 1553.0457763671875,
+        "x1": 448.7451477050781,
+        "y1": 1746.8326416015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 95,
+      "polygon": [
+        [
+          129.0,
+          1553.0
+        ],
+        [
+          129.0,
+          1745.0
+        ],
+        [
+          447.0,
+          1745.0
+        ],
+        [
+          447.0,
+          1553.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Trotz widersprechender empirischer Befunde geht eine Mehrheit der Menschen davon aus, dass der Konsum von Gewalt in den Medien aggressives Verhalten in der Gesellschaft verringert (Katharsishypo- these).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.756497323513031,
+      "bbox": {
+        "x0": 127.50939178466797,
+        "y0": 1785.4620361328125,
+        "x1": 456.0639953613281,
+        "y1": 1926.7972412109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 102,
+      "polygon": [
+        [
+          127.0,
+          1785.0
+        ],
+        [
+          127.0,
+          1925.0
+        ],
+        [
+          455.0,
+          1925.0
+        ],
+        [
+          455.0,
+          1785.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das General Aggression Model ist eines der prominentesten und einflussreichsten theoretischen Modelle zur Erklärung des Media-Violence-Effekts.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 0,
+      "pp_label": "chart",
+      "score": 0.9566839933395386,
+      "bbox": {
+        "x0": 506.0708923339844,
+        "y0": 182.05059814453125,
+        "x1": 1179.5787353515625,
+        "y1": 712.9876098632812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 127,
+      "polygon": [
+        [
+          506.0,
+          182.0
+        ],
+        [
+          506.0,
+          711.0
+        ],
+        [
+          1178.0,
+          711.0
+        ],
+        [
+          1178.0,
+          213.0
+        ],
+        [
+          1064.0,
+          193.0
+        ],
+        [
+          941.0,
+          193.0
+        ],
+        [
+          842.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Characteristic | scharfe Chilisauce (in Gramm)\nnicht aggressives Spiel | 5.9\naggressives Spiel | 8.8",
+      "text_format": "datenreihe",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.963494062423706,
+      "bbox": {
+        "x0": 503.6773986816406,
+        "y0": 782.17333984375,
+        "x1": 1407.7708740234375,
+        "y1": 1182.88720703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 195,
+      "polygon": [
+        [
+          503.0,
+          782.0
+        ],
+        [
+          503.0,
+          1181.0
+        ],
+        [
+          1406.0,
+          1181.0
+        ],
+        [
+          1406.0,
+          782.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Diese Befunde sind besorgniserregend, da gewaltverherrlichende Medien besonders von Kindern und Jugendlichen in hohem Maße genutzt werden. Gerbner, Gross, Signorielli, Morgan und Jackson-Beeck (1979) von der University of Pennsylvania untersuchten die Häufigkeit und die Art von Gewalt, die in Sendungen für Kinder und Jugendliche bzw. für Erwachsene vorkommt. Es ist schockierend, dass in Programmen für Kinder und Jugendliche wesentlich häufiger gewalttätige Charaktere, Opfer von Gewalt und Gewalttäter dargestellt waren als in Sendungen für Erwachsene (nach 20.00 Uhr). Hier wurden lediglich Mordopfer etwas häufiger gezeigt als in Kinder- und Jugendprogrammen. Ähnlich schockierend sind neuere Ergebnisse der TV-Analysen von Herr (2007), die ergaben, dass Kinder am Ende der Grundschule im Schnitt mehr als 8.000 Morde im Fernsehen gesehen haben. Im Alter von 18 Jahren liegt die Anzahl der Gewalttaten, die im Fernsehen gesehen wurden, bei über 200.000.\nDoch auch Erwachsene werden durch aggressive Medien beeinflusst. So konnten",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9593113660812378,
+      "bbox": {
+        "x0": 503.9422302246094,
+        "y0": 1183.1591796875,
+        "x1": 1408.583251953125,
+        "y1": 1517.48291015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 242,
+      "polygon": [
+        [
+          503.0,
+          1183.0
+        ],
+        [
+          503.0,
+          1516.0
+        ],
+        [
+          1407.0,
+          1516.0
+        ],
+        [
+          1407.0,
+          1183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der Gewattsteil, die im Forschungsschule werden durch aggressive Medien beeinflusst. So konnten Doch auch Erwachsene werden durch aggressive Medien beeinflusst. So konnten z. B. Paik und Comstock (1994) einen signifikanten Zusammenhang zwischen im Fernsehen übertragenen Boxkämpfen und den Mordraten in der darauffolgenden Woche aufzeigen: In der Woche nach einem großen Boxkampf stieg die Mordrate signifikanten. Dabei sagte die Hautfarbe des Verlierers die Hautfarbe der meisten darauffolgenden Mordopfer vorher. Verlor nämlich eine Person mit dunkler Hautfarbe, so wurden in der darauffolgenden Woche mehr Personen mit dunkler als mit weißer Hautfarbe ermordet. Der umgekehrte Effekt war zu beobachten, wenn eine Person mit weißer Hautfarbe den Kampf verlor. Es ist kaum zu leugnen, dass Banduras frühe Laborbefunde dramatische Gegenstücke in der alltäglichen Realität haben (vgl. auch Aronson et al., 2008).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.7757134437561035,
+      "bbox": {
+        "x0": 505.240966796875,
+        "y0": 1542.10888671875,
+        "x1": 1400.6258544921875,
+        "y1": 1576.70703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 257,
+      "polygon": [
+        [
+          505.0,
+          1575.0
+        ],
+        [
+          1399.0,
+          1575.0
+        ],
+        [
+          1399.0,
+          1542.0
+        ],
+        [
+          513.0,
+          1542.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Zugrunde liegende psychologische Prozesse im soziokognitiven Ansatz",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9348586201667786,
+      "bbox": {
+        "x0": 503.7922058105469,
+        "y0": 1582.767333984375,
+        "x1": 1405.71630859375,
+        "y1": 1781.590576171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 263,
+      "polygon": [
+        [
+          503.0,
+          1592.0
+        ],
+        [
+          503.0,
+          1780.0
+        ],
+        [
+          1404.0,
+          1780.0
+        ],
+        [
+          1404.0,
+          1592.0
+        ],
+        [
+          1345.0,
+          1582.0
+        ],
+        [
+          1336.0,
+          1582.0
+        ],
+        [
+          511.0,
+          1582.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Auch wenn landläufig oft die Meinung besteht, dass gezeigte Gewalt im Fernsehen zukünftige Gewalt sogar verhindern kann (dies glauben 79% der Amerikaner; Herr, 2007), sprechen die oben dargestellten Befunde klar für einen Einfluss von gewaltverherrlichendem Medienkonsum auf aggressionsförderndes Verhalten mit entsprechenden Gedanken und Gefühlen. Spätestens hier stellt sich die Frage, wie dies zu begründen ist? Wie wird dieser Effekt vermittelt?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9483641982078552,
+      "bbox": {
+        "x0": 503.7377014160156,
+        "y0": 1782.1929931640625,
+        "x1": 1407.6434326171875,
+        "y1": 1950.2171630859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 278,
+      "polygon": [
+        [
+          503.0,
+          1782.0
+        ],
+        [
+          503.0,
+          1949.0
+        ],
+        [
+          1406.0,
+          1949.0
+        ],
+        [
+          1406.0,
+          1782.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Eine Erklärung hierfür kann anhand des allgemeinen Aggressionsmodells (»general aggression model«, GAM) gefunden werden (☐ Abb. 5.5). Dieses nimmt an, dass es zwei Arten von Einflussvariablen (Inputvariablen) gibt, nämlich dispositionale (feste Persönlichkeitseigenschaften wie z. B. Narzissmus oder antisoziale Persönlichkeit) und situative Faktoren (z. B. aggressive Medien, Frustrationen). Speziell im",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1055.9771728515625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 3086.110107421875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1804.3251953125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1341.05517578125
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 2002.3526611328125
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 2654.982666015625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1223.367431640625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2765.37890625
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1902.4251708984375
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1942.9498291015625
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 824.4318237304688
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1114.489013671875
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3869820410000102,
+      "zeitstempel": "2026-09-06T14:31:22.451937Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 13.897935875000258,
+      "zeitstempel": "2026-09-06T14:48:32.382164Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

@@ -1,0 +1,548 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 124,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 59,
+      "pp_label": "number",
+      "score": 0.5646167993545532,
+      "bbox": {
+        "x0": 1184.2491455078125,
+        "y0": 54.028717041015625,
+        "x1": 1225.672119140625,
+        "y1": 79.87728881835938,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 1,
+      "polygon": [
+        [
+          1184.0,
+          54.0
+        ],
+        [
+          1184.0,
+          78.0
+        ],
+        [
+          1224.0,
+          78.0
+        ],
+        [
+          1224.0,
+          54.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "119",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 9,
+      "pp_label": "paragraph_title",
+      "score": 0.8618320822715759,
+      "bbox": {
+        "x0": 112.19452667236328,
+        "y0": 169.14996337890625,
+        "x1": 1161.1868896484375,
+        "y1": 227.52142333984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 18,
+      "polygon": [
+        [
+          112.0,
+          169.0
+        ],
+        [
+          112.0,
+          226.0
+        ],
+        [
+          1160.0,
+          226.0
+        ],
+        [
+          1160.0,
+          169.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "8 Gruppenprozesse und soziale Identität",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 18,
+      "pp_label": "text",
+      "score": 0.5594688057899475,
+      "bbox": {
+        "x0": 114.42339324951172,
+        "y0": 784.255126953125,
+        "x1": 612.74951171875,
+        "y1": 847.763671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 159,
+      "polygon": [
+        [
+          114.0,
+          784.0
+        ],
+        [
+          114.0,
+          846.0
+        ],
+        [
+          574.0,
+          846.0
+        ],
+        [
+          604.0,
+          836.0
+        ],
+        [
+          611.0,
+          825.0
+        ],
+        [
+          611.0,
+          784.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "8.3.2 Freud und weitere massenpsychologische Konzeptionen – 128",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 10,
+      "pp_label": "paragraph_title",
+      "score": 0.6295256614685059,
+      "bbox": {
+        "x0": 153.85360717773438,
+        "y0": 1050.6834716796875,
+        "x1": 259.884033203125,
+        "y1": 1079.0335693359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 212,
+      "polygon": [
+        [
+          153.0,
+          1050.0
+        ],
+        [
+          153.0,
+          1078.0
+        ],
+        [
+          258.0,
+          1078.0
+        ],
+        [
+          258.0,
+          1050.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Lernziele",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.7923755049705505,
+      "bbox": {
+        "x0": 153.25999450683594,
+        "y0": 1082.8955078125,
+        "x1": 1323.4044189453125,
+        "y1": 1179.890380859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 218,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Die Grundannahmen der Theorie der sozialen Identität sowie der Selbstkategorisierungstheorie darlegen können.\nDie Ambivalenz von Gruppen anhand positiver und negativer Gruppenmerkmale aufzeigen können. Typische Befunde zum Eigen- und Fremdgruppenver",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        4,
+        6
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.8047919869422913,
+      "bbox": {
+        "x0": 152.58322143554688,
+        "y0": 1183.785888671875,
+        "x1": 714.7935180664062,
+        "y1": 1280.961181640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 229,
+      "polygon": [
+        [
+          152.0,
+          1183.0
+        ],
+        [
+          152.0,
+          1279.0
+        ],
+        [
+          713.0,
+          1279.0
+        ],
+        [
+          713.0,
+          1183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "■ Moderne Theorien zur Psychologie der Masse den Vorstellungen Le Bons und Freuds gegenüberstellen können.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.8359048366546631,
+      "bbox": {
+        "x0": 771.8768920898438,
+        "y0": 1150.808349609375,
+        "x1": 1361.3199462890625,
+        "y1": 1251.1240234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 254,
+      "polygon": [
+        [
+          779.0,
+          1150.0
+        ],
+        [
+          779.0,
+          1250.0
+        ],
+        [
+          1360.0,
+          1250.0
+        ],
+        [
+          1360.0,
+          1181.0
+        ],
+        [
+          1345.0,
+          1150.0
+        ],
+        [
+          1324.0,
+          1150.0
+        ],
+        [
+          1270.0,
+          1150.0
+        ],
+        [
+          1255.0,
+          1150.0
+        ],
+        [
+          862.0,
+          1150.0
+        ],
+        [
+          846.0,
+          1150.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Typische Befunde zum Eigen- und Fremdgruppenverhalten sowie Möglichkeiten zur Verbesserung der Intergruppenbeziehungen nennen können.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9626590609550476,
+      "bbox": {
+        "x0": 110.50145721435547,
+        "y0": 1348.792724609375,
+        "x1": 1013.98828125,
+        "y1": 1747.5859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 256,
+      "polygon": [
+        [
+          118.0,
+          1348.0
+        ],
+        [
+          118.0,
+          1746.0
+        ],
+        [
+          1012.0,
+          1736.0
+        ],
+        [
+          1012.0,
+          1348.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "»Wir sind die Besten!« – diese Redewendung aus einem Lied-Text der Gruppe »Die Ärzte« dürfte uns allen bekannt vorkommen (ganz zu schweigen von Queens »We are the champions,« ein Lied, an das sich die älteren Semester gerne erinnern), beispielsweise aus dem Sport, wenn sich eine Mannschaft für das nächste Spiel motivieren möchte; aus der Schule, wenn Kinder eine Gruppenarbeit zu erledigen haben, oder aus dem Werbe- und Wirtschaftskontext, bei dem Firmen sich bzw. ihre Produkte besonders empfehlen möchten, um den Konkurrenten auszuschalten. Meist geht diese positive Sichtweise gegenüber der eigenen Gruppe direkt mit einer negativen Beurteilung von anderen einher, die nicht Teil der Gruppe sind. Beides sind typische Verhaltensmuster, die in Gruppenprozessen auftreten. Doch warum ist dies so? Warum werten wir als Gruppe andere Gruppen oft ab, benachteiligen diese und verhalten uns unfair gegenüber ihnen?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.942131757736206,
+      "bbox": {
+        "x0": 110.73624420166016,
+        "y0": 1749.0540771484375,
+        "x1": 1014.5243530273438,
+        "y1": 1949.2581787109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 259,
+      "polygon": [
+        [
+          118.0,
+          1749.0
+        ],
+        [
+          118.0,
+          1948.0
+        ],
+        [
+          1013.0,
+          1948.0
+        ],
+        [
+          1013.0,
+          1749.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "gegenüber ihnen:\nWenn es um die Erklärung von Intergruppendiskriminierung geht, bezieht sich die Literatur häufig auf die »Theorie des realistischen Gruppenkonflikts« (Sherif, 1966). Diese Theorie besagt, dass die Knappheit an Ressourcen zu Streit, Vorurteilen und Diskriminierung führen kann. Denken Sie z. B.an ein Geschwisterpaar oder eine Gruppe von Kindern, die Süßigkeiten geschenkt bekommen. Wenn es nun mehr Kinder als Bonbons gibt, dann führt dies schnell zu Konflikt und Tränen. In größeren Dimensio-",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.5124413371086121,
+      "bbox": {
+        "x0": 1056.6312255859375,
+        "y0": 1352.006591796875,
+        "x1": 1373.7139892578125,
+        "y1": 1437.6015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 267,
+      "polygon": [
+        [
+          1056.0,
+          1352.0
+        ],
+        [
+          1056.0,
+          1436.0
+        ],
+        [
+          1372.0,
+          1436.0
+        ],
+        [
+          1372.0,
+          1352.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Gruppen tendieren dazu, mit anderen Gruppen zu rivalisieren bzw. diese systematisch abzuwerten.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.8068999648094177,
+      "bbox": {
+        "x0": 1056.2835693359375,
+        "y0": 1752.543701171875,
+        "x1": 1370.919189453125,
+        "y1": 1894.975830078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 271,
+      "polygon": [
+        [
+          1056.0,
+          1752.0
+        ],
+        [
+          1056.0,
+          1893.0
+        ],
+        [
+          1369.0,
+          1893.0
+        ],
+        [
+          1369.0,
+          1752.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Theorie der sozialen Identität befasst sich mit dem Erleben und Verhalten von Menschen in Grup- penkontexten sowie dem Inter- gruppenverhalten.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1438.0989990234375
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1726.3001708984375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 2681.2890625
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1976.8292236328125
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 858.4957275390625
+    },
+    {
+      "von": 5,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 944.9100952148438
+    },
+    {
+      "von": 4,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 911.1170043945312
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 751.8995361328125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2048.917236328125
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 2549.583251953125
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1767.7926025390625
+    }
+  ],
+  "warnungen": [
+    "Blöcke [4, 6] zu #4 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3939976250003383,
+      "zeitstempel": "2026-09-06T14:31:40.226364Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 7.888172375001886,
+      "zeitstempel": "2026-09-06T14:58:01.834245Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

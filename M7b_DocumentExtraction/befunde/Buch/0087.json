@@ -1,0 +1,677 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 87,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 202,
+      "pp_label": "number",
+      "score": 0.6326789855957031,
+      "bbox": {
+        "x0": 116.57677459716797,
+        "y0": 80.56161499023438,
+        "x1": 143.905029296875,
+        "y1": 102.95108032226562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": [
+        [
+          116.0,
+          80.0
+        ],
+        [
+          116.0,
+          101.0
+        ],
+        [
+          142.0,
+          101.0
+        ],
+        [
+          142.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "80",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.8441042900085449,
+      "bbox": {
+        "x0": 192.0047607421875,
+        "y0": 78.5767822265625,
+        "x1": 564.9888916015625,
+        "y1": 106.3389892578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 6,
+      "polygon": [
+        [
+          192.0,
+          78.0
+        ],
+        [
+          192.0,
+          105.0
+        ],
+        [
+          563.0,
+          105.0
+        ],
+        [
+          563.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 6 · Einstellungen und Verhalten",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.9341111779212952,
+      "bbox": {
+        "x0": 127.67271423339844,
+        "y0": 485.6837463378906,
+        "x1": 453.151123046875,
+        "y1": 792.49609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 58,
+      "polygon": [
+        [
+          127.0,
+          496.0
+        ],
+        [
+          127.0,
+          791.0
+        ],
+        [
+          445.0,
+          791.0
+        ],
+        [
+          452.0,
+          771.0
+        ],
+        [
+          452.0,
+          762.0
+        ],
+        [
+          452.0,
+          689.0
+        ],
+        [
+          452.0,
+          496.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Einstellungen beinhalten stets eine Bewertung, die von sehr negativ bis sehr positiv reichen kann. Bewertet wird dabei das jeweilige Einstellungsobjekt. Dieses ist umfassend zu verstehen und beinhaltet neben tatsächlichen Objekten z. B. auch Verhaltensweisen, Situationen, abstrakte Größen oder – psycho-logisch besonders relevant – andere Personen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.7768879532814026,
+      "bbox": {
+        "x0": 132.31875610351562,
+        "y0": 944.6243286132812,
+        "x1": 446.9935607910156,
+        "y1": 995.0275268554688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 103,
+      "polygon": [
+        [
+          132.0,
+          944.0
+        ],
+        [
+          132.0,
+          994.0
+        ],
+        [
+          445.0,
+          994.0
+        ],
+        [
+          445.0,
+          944.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1. kognitiv (bewusste Bewertungen des Einstellungsobjekts),",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.8597168922424316,
+      "bbox": {
+        "x0": 130.05657958984375,
+        "y0": 998.3374633789062,
+        "x1": 447.2611083984375,
+        "y1": 1051.210205078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 109,
+      "polygon": [
+        [
+          130.0,
+          998.0
+        ],
+        [
+          130.0,
+          1050.0
+        ],
+        [
+          439.0,
+          1050.0
+        ],
+        [
+          446.0,
+          1042.0
+        ],
+        [
+          446.0,
+          998.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2. affektiv (Gefühle gegenüber dem Einstellungsobjekt),",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.8771920204162598,
+      "bbox": {
+        "x0": 130.9107666015625,
+        "y0": 1055.0679931640625,
+        "x1": 427.1224670410156,
+        "y1": 1136.2056884765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 112,
+      "polygon": [
+        [
+          130.0,
+          1055.0
+        ],
+        [
+          130.0,
+          1135.0
+        ],
+        [
+          426.0,
+          1135.0
+        ],
+        [
+          426.0,
+          1055.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3. verhaltensmäßig (konkretes Verhalten gegenüber dem Ein- stellungsobjekt).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9678440690040588,
+      "bbox": {
+        "x0": 503.186279296875,
+        "y0": 182.7203369140625,
+        "x1": 1407.378662109375,
+        "y1": 481.4046630859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 117,
+      "polygon": [
+        [
+          503.0,
+          182.0
+        ],
+        [
+          503.0,
+          480.0
+        ],
+        [
+          1406.0,
+          480.0
+        ],
+        [
+          1406.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2. den Bewertungsprozess und 3. das Einstellungsobjekt. Mit psychologischer Tendenz ist ein innerer Zustand der Person gemeint, der variieren und von unterschiedlicher Dauer sein kann. Das bedeutet, dass Einstellungen nicht im Sinne einer überdauernden Charaktereigenschaft (Disposition) zu sehen sind (vgl. Schwarz, 2007), sondern vielmehr verändert werden können (vielleicht erinnern sie sich mit Schrecken zurück, wie sie im Jugendalter bestimmte Musikgruppen toll fanden, die sie jetzt partout nicht mehr hören können). Einstellungen beschreiben daher aktuelle Tendenzen, die in ihrer Stärke variieren und, damit verbunden, entweder langandauernd oder fluktuierend sein können (Eaton, Majka & Visser, 2008).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9660831093788147,
+      "bbox": {
+        "x0": 502.8148193359375,
+        "y0": 483.6831359863281,
+        "x1": 1407.2271728515625,
+        "y1": 881.1954345703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 127,
+      "polygon": [
+        [
+          502.0,
+          494.0
+        ],
+        [
+          502.0,
+          880.0
+        ],
+        [
+          1406.0,
+          880.0
+        ],
+        [
+          1406.0,
+          483.0
+        ],
+        [
+          510.0,
+          483.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Ein zweites wesentliches Merkmal von Einstellungen ist ihr evaluativer bzw. bewertender Charakter. Das heißt, unsere Einstellung ist in unterschiedlichem Ausmaß entweder positiv oder negativ gefärbt (Chen & Bargh, 1999). Man kann sich hierzu auch ein Kontinuum vorstellen, das von sehr negativ bis sehr positiv reicht. Doch auf was bezieht sich dieses Kontinuum? Hier kommt nun der dritte Faktor ins Spiel, nämlich das Einstellungsobjekt, gegenüber dem wir eine Haltung entwickeln. Darunter fallen nicht nur konkrete Objekte bzw. Sachen, sondern auch Situationen, Verhaltensweisen oder Ideen (Eaton et al., 2008). Am psychologisch bedeutsamsten sind Einstellungen gegenüber Personen. Hierbei ist die grundlegendste Einstellung das Selbstwertgefühl bzw. die Einstellung gegenüber der eigenen Person (Rosenberg, 1989). Manche Einstellungsobjekte sind abstrakter Natur, wie beispielsweise der religiöse Glaube oder bestimmte politische Konzepte (z. B. Freiheit).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9586026072502136,
+      "bbox": {
+        "x0": 503.279541015625,
+        "y0": 882.2999877929688,
+        "x1": 1406.8450927734375,
+        "y1": 1182.495361328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 140,
+      "polygon": [
+        [
+          503.0,
+          882.0
+        ],
+        [
+          503.0,
+          1181.0
+        ],
+        [
+          1405.0,
+          1181.0
+        ],
+        [
+          1405.0,
+          882.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Bestimmte pontische Konzepte (2. B. Fienel).\nDie Bewertungen und damit auch die jeweiligen Einstellungen können sich auf drei verschiedenen Ebenen manifestieren (Petty & Wegener, 1998; Tesser & Martin, 1996): auf kognitiver, affektiver und verhaltensmäßiger Ebene. Kognitive Einstellungen sind reflektierbare, bewusste Bewertungen von Personen, Sachen, Situationen, etc. Affektive Einstellungen sind mehr oder weniger positive oder negative Gefühle, die Personen erleben, wenn sie mit dem jeweiligen Einstellungsobjekt konfrontiert werden. Verhaltensmäßige (behaviorale) Einstellungen beschreiben schließlich das konkrete und nach außen hin sichtbare Verhalten gegenüber einer bestimmten Person oder Sache oder auch in einer bestimmten Situation.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 13,
+      "pp_label": "paragraph_title",
+      "score": 0.7805066108703613,
+      "bbox": {
+        "x0": 153.57754516601562,
+        "y0": 1214.2857666015625,
+        "x1": 240.27777099609375,
+        "y1": 1239.7972412109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 159,
+      "polygon": [
+        [
+          153.0,
+          1214.0
+        ],
+        [
+          153.0,
+          1238.0
+        ],
+        [
+          239.0,
+          1238.0
+        ],
+        [
+          239.0,
+          1214.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Beispiel",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9469056129455566,
+      "bbox": {
+        "x0": 148.78384399414062,
+        "y0": 1250.6878662109375,
+        "x1": 1375.41650390625,
+        "y1": 1615.2022705078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 185,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Stellen Sie sich z. B. vor, Sie möchten ein Auto kaufen. Alles was Sie durch Informationen über dieses Auto wissen (z. B. seine Beschleunigung von 0 auf 100, die Pannen-häufigkeit und Versicherungskosten) ist Teil Ihrer kognitiven Einstellung gegenüber diesem Auto. Ist die Beschleunigung gut, die Pannenhäufigkeit niedrig und sind die Unterhaltskosten überschaubar, dann wird Ihre kognitive Einstellung gegenüber diesem Auto wohl positiv sein. Was die affektive Einstellung gegenüber diesem Auto betrifft, so lässt sich diese weniger gut anhand objektiver Fakten bzw. Informationen beschreiben. Sie ist eher subjektiver Art und manifestiert sich in positiven oder negativen Emotionen, die Sie erleben, wenn Sie das jeweilige Auto sehen oder daran denken. So können Sie beispielsweise die Farbe des Autos besonders ansprechend finden oder angenehme Erinnerungen damit verbinden, was sich dann in einer positiven affektiven Einstellung gegenüber dem Auto äußert. Schreiten Sie schließlich zur Tat und tätigen den Autokauf bei Ihrem Autohändler, so ist dies Ausdruck Ihrer behaviora- len (verhaltensbezogenen) Einstellung gegenüber dem Auto.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        10,
+        11
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 14,
+      "pp_label": "text",
+      "score": 0.7086212635040283,
+      "bbox": {
+        "x0": 130.60595703125,
+        "y0": 1683.2247314453125,
+        "x1": 298.6003112792969,
+        "y1": 1746.7777099609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 230,
+      "polygon": [
+        [
+          130.0,
+          1683.0
+        ],
+        [
+          130.0,
+          1736.0
+        ],
+        [
+          138.0,
+          1745.0
+        ],
+        [
+          191.0,
+          1745.0
+        ],
+        [
+          199.0,
+          1745.0
+        ],
+        [
+          297.0,
+          1745.0
+        ],
+        [
+          297.0,
+          1683.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Definition  \nEinstellung",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 12,
+      "pp_label": "paragraph_title",
+      "score": 0.728854775428772,
+      "bbox": {
+        "x0": 547.07275390625,
+        "y0": 1683.99658203125,
+        "x1": 663.4472045898438,
+        "y1": 1711.6787109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 245,
+      "polygon": [
+        [
+          547.0,
+          1683.0
+        ],
+        [
+          547.0,
+          1710.0
+        ],
+        [
+          662.0,
+          1710.0
+        ],
+        [
+          662.0,
+          1683.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- Definition",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.9033734202384949,
+      "bbox": {
+        "x0": 543.7702026367188,
+        "y0": 1716.10986328125,
+        "x1": 1348.00537109375,
+        "y1": 1848.265869140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 271,
+      "polygon": [
+        [
+          551.0,
+          1716.0
+        ],
+        [
+          551.0,
+          1847.0
+        ],
+        [
+          1347.0,
+          1847.0
+        ],
+        [
+          1347.0,
+          1716.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Ats Einstellung wird ein innerer Zustand (↘psychologische Tendenz↙) bezeichnet, der sich in einer positiven, negativen oder neutralen Bewertung gegenüber einem bestimmten Objekt (Person, Gegenstand, Idee, Verhalten, etc.) ausdrückt (▪ Abb. 6.1).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1106.1634521484375
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2374.952880859375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1777.132080078125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1090.2802734375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1020.6101684570312
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1573.3927001953125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1271.8778076171875
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1954.2086181640625
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 2373.60595703125
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1504.53466796875
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1380.51318359375
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1281.4874267578125
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 926.6258544921875
+    }
+  ],
+  "warnungen": [
+    "Blöcke [10, 11] zu #10 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3973565409978619,
+      "zeitstempel": "2026-09-06T14:31:25.598340Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 16.129441165998287,
+      "zeitstempel": "2026-09-06T14:50:13.715200Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

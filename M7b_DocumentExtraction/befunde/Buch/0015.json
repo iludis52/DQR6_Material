@@ -1,0 +1,497 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 15,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 167,
+      "pp_label": "number",
+      "score": 0.5182924866676331,
+      "bbox": {
+        "x0": 115.37108612060547,
+        "y0": 80.17208862304688,
+        "x1": 132.83238220214844,
+        "y1": 103.19766235351562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 1,
+      "polygon": [
+        [
+          115.0,
+          80.0
+        ],
+        [
+          115.0,
+          102.0
+        ],
+        [
+          131.0,
+          102.0
+        ],
+        [
+          131.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "6",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.8446118831634521,
+      "bbox": {
+        "x0": 190.5818328857422,
+        "y0": 77.89990234375,
+        "x1": 1177.9512939453125,
+        "y1": 107.657958984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 14,
+      "polygon": [
+        [
+          190.0,
+          77.0
+        ],
+        [
+          190.0,
+          106.0
+        ],
+        [
+          1176.0,
+          106.0
+        ],
+        [
+          1176.0,
+          77.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 1 · Definitorische, wissenschaftstheoretische und methodische Grundlagen der Sozialpsychologie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.7110530138015747,
+      "bbox": {
+        "x0": 128.7055206298828,
+        "y0": 253.24386596679688,
+        "x1": 443.1121520996094,
+        "y1": 367.0675354003906,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 94,
+      "polygon": [
+        [
+          128.0,
+          253.0
+        ],
+        [
+          128.0,
+          366.0
+        ],
+        [
+          442.0,
+          366.0
+        ],
+        [
+          442.0,
+          253.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Trotz logischer Probleme ist das Verifikationsprinzip wegen seiner Eingängigkeit in der Wissenschaft nach wie vor populär.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.7067667841911316,
+      "bbox": {
+        "x0": 128.23785400390625,
+        "y0": 675.663330078125,
+        "x1": 442.8695373535156,
+        "y1": 764.705078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 105,
+      "polygon": [
+        [
+          128.0,
+          675.0
+        ],
+        [
+          128.0,
+          763.0
+        ],
+        [
+          441.0,
+          763.0
+        ],
+        [
+          441.0,
+          675.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der Kritische Nationalismus verfolgt den Ansatz, Hypothesen durch unstimmige Beobachtungen zu verwerfen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9137973785400391,
+      "bbox": {
+        "x0": 503.2317199707031,
+        "y0": 182.18597412109375,
+        "x1": 1405.00048828125,
+        "y1": 247.60980224609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 108,
+      "polygon": [
+        [
+          503.0,
+          182.0
+        ],
+        [
+          503.0,
+          246.0
+        ],
+        [
+          1404.0,
+          246.0
+        ],
+        [
+          1404.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "ist die Frage dann nur, ob oder wann ein Schwan erscheint, der nicht weiß ist. An diesem Punkt wäre die Hypothese widerlegt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9696138501167297,
+      "bbox": {
+        "x0": 503.0443115234375,
+        "y0": 249.85421752929688,
+        "x1": 1407.37841796875,
+        "y1": 649.3414306640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 111,
+      "polygon": [
+        [
+          503.0,
+          260.0
+        ],
+        [
+          503.0,
+          648.0
+        ],
+        [
+          1406.0,
+          648.0
+        ],
+        [
+          1406.0,
+          260.0
+        ],
+        [
+          1376.0,
+          249.0
+        ],
+        [
+          716.0,
+          249.0
+        ],
+        [
+          708.0,
+          249.0
+        ],
+        [
+          511.0,
+          249.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der schottische Philosoph David Hume (1748) wies darauf hin, dass keine Hypo-\nthese durch Auszählung bewiesen werden kann. Dies sei logisch unmöglich, da immer\ndie Möglichkeit bestünde, dass zukünftige Beobachtungen den bisherigen widersprä-\nchen. Man könne daher nicht einfach aus vergangenen Ereignissen auf zukünftige Er-\neignisse schließen. Demnach wäre es beispielsweise nicht zulässig, aus der Tatsache,\ndass ich bisher Glück hatte und mir bei meinen waghalsigen Bergtouren kein Schaden\nzustief, den Schluss zu ziehen, dass Bergtouren stets ungefährlich sind und ich daher\nauch zukünftig unversehrt bleiben werde. Trotz dieses Hume’schen Problems, das auch\nals »Induktionsproblem« bezeichnet wird, blieb das Verifikationsprinzip in der Wis-\nsenschaft populär. So gilt eine Hypothese als verifiziert, wenn die Beobachtungen mit\nden Vorhersagen – zumindest innerhalb eines statistischen Toleranzbereichs – überein-\nstimmen (Carnap, 1950; Reichenbach, 1935).\nAls Alternative zum »positivistischen« (also auf Bestätigung ausgerichteten) Empi",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9657201170921326,
+      "bbox": {
+        "x0": 504.025390625,
+        "y0": 649.626953125,
+        "x1": 1408.0587158203125,
+        "y1": 1150.31689453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 149,
+      "polygon": [
+        [
+          504.0,
+          660.0
+        ],
+        [
+          504.0,
+          1149.0
+        ],
+        [
+          1407.0,
+          1149.0
+        ],
+        [
+          1407.0,
+          660.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Stimmen (Carlap, 1956; Krichbach, 1955).\nAls Alternative zum »positivistischen« (also auf Bestätigung ausgerichteten) Empirismus entwickelte Karl Popper 1934 den kritischen Rationalismus. Er argumentierte, dass der wissenschaftliche Fortschritt zügiger vonstatten gehe, wenn Hypothesen durch unstimmige Beobachtungen verworfen bzw. widerlegt würden. Wie bei der biologischen Evolution gibt es hierfür allerdings kein endgültiges Kriterium der Güte, sondern nur die Aussortierung des Mangelhaften. Poppers Theorie ist somit stärker an Humes Kritik der herkömmlichen Induktion (d. h. ausgehend von Einzelbeobachtungen auf allgemeingültige Gesetze schließen) orientiert. Auch Popper war der Ansicht, dass ein Beweis durch Induktion nicht zulässig sei. In der Sozialpsychologie werden typischerweise experimentell gewonnene Daten statistisch ausgewertet – mit dem Ziel, eine Nullhypothese (d. h. die Annahme, dass es keine statistisch relevanten Unterschiede zwischen zwei Versuchsgruppen gibt) zu verwerfen (Krueger, 2001). Somit findet sich auch in der statistischen Auswertung das Prinzip des Falsifizierens wieder. Die meisten Hypothesen sind dabei so formuliert, dass sie nur die Richtung, nicht aber die exakte Stärke einer Kausalbeziehung bestimmen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.7736459970474243,
+      "bbox": {
+        "x0": 153.42515563964844,
+        "y0": 1180.016357421875,
+        "x1": 240.49974060058594,
+        "y1": 1207.564697265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 170,
+      "polygon": [
+        [
+          153.0,
+          1180.0
+        ],
+        [
+          153.0,
+          1206.0
+        ],
+        [
+          239.0,
+          1206.0
+        ],
+        [
+          239.0,
+          1180.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Beispiel",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9373250603675842,
+      "bbox": {
+        "x0": 149.9601593017578,
+        "y0": 1217.953369140625,
+        "x1": 1384.45947265625,
+        "y1": 1417.026611328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 177,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Zum Beispiel führt die Theorie der sozialen Erleichterung zu der Hypothese, dass Menschen (wie auch Tiere) mehr und schneller essen, wenn sie unter Artgenossen sind als wenn sie allein sind. In diesem Fall besagt die Nullhypothese, dass im Durchschnitt kein Unterschied zwischen diesen Ver- suchsbedingungen (Essen allein vs. in Gesellschaft) besteht. Wenn die Daten daher einen Unterschied aufweisen, der unter der Annahme der Nullhypothese unwahrscheinlich wäre, dann wird konventionell die Nullhypothese als falsifiziert (widerlegt) bzw. die Hypothese, dass Menschen in Gegenwart anderer mehr und schneller essen, als bestätigt angesehen (▪ Abb. 1.1).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        8,
+        9
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 3,
+      "pp_label": "image",
+      "score": 0.8924427628517151,
+      "bbox": {
+        "x0": 509.49224853515625,
+        "y0": 1594.9130859375,
+        "x1": 1396.542724609375,
+        "y1": 1940.810546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 253,
+      "polygon": [
+        [
+          509.0,
+          1594.0
+        ],
+        [
+          509.0,
+          1939.0
+        ],
+        [
+          1395.0,
+          1939.0
+        ],
+        [
+          1395.0,
+          1594.0
+        ],
+        [
+          1215.0,
+          1594.0
+        ],
+        [
+          987.0,
+          1615.0
+        ],
+        [
+          781.0,
+          1615.0
+        ],
+        [
+          645.0,
+          1594.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0015_09_image.png"
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1331.0643310546875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 3028.581298828125
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1982.037353515625
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 933.029541015625
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 714.4600219726562
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1825.14013671875
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1999.84619140625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1374.273193359375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 2442.799072265625
+    }
+  ],
+  "warnungen": [
+    "Blöcke [8, 9] zu #8 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.39130499999737367,
+      "zeitstempel": "2026-09-06T14:30:57.294876Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 11.12247054099862,
+      "zeitstempel": "2026-09-06T14:35:08.005223Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

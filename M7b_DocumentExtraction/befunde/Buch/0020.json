@@ -1,0 +1,603 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 20,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 2,
+      "pp_label": "header",
+      "score": 0.8458839058876038,
+      "bbox": {
+        "x0": 113.86097717285156,
+        "y0": 78.47457885742188,
+        "x1": 471.74920654296875,
+        "y1": 106.73135375976562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 9,
+      "polygon": [
+        [
+          113.0,
+          78.0
+        ],
+        [
+          113.0,
+          105.0
+        ],
+        [
+          470.0,
+          105.0
+        ],
+        [
+          470.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1.3 · Methoden der Sozialpsychologie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 24,
+      "pp_label": "number",
+      "score": 0.5746529698371887,
+      "bbox": {
+        "x0": 1190.64208984375,
+        "y0": 54.4049072265625,
+        "x1": 1219.0106201171875,
+        "y1": 80.0906982421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 21,
+      "polygon": [
+        [
+          1190.0,
+          54.0
+        ],
+        [
+          1190.0,
+          79.0
+        ],
+        [
+          1218.0,
+          79.0
+        ],
+        [
+          1218.0,
+          54.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "11",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.8478298187255859,
+      "bbox": {
+        "x0": 113.04361724853516,
+        "y0": 174.59750366210938,
+        "x1": 455.10797119140625,
+        "y1": 209.56118774414062,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 74,
+      "polygon": [
+        [
+          113.0,
+          174.0
+        ],
+        [
+          113.0,
+          208.0
+        ],
+        [
+          454.0,
+          208.0
+        ],
+        [
+          454.0,
+          174.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1.3.5 Echtes Experiment",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9678584933280945,
+      "bbox": {
+        "x0": 109.30567932128906,
+        "y0": 249.5057373046875,
+        "x1": 1013.7686157226562,
+        "y1": 715.910888671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 87,
+      "polygon": [
+        [
+          117.0,
+          249.0
+        ],
+        [
+          117.0,
+          714.0
+        ],
+        [
+          1012.0,
+          714.0
+        ],
+        [
+          1012.0,
+          249.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das echte Experiment gilt in der Sozialpsychologie und auch darüber hinaus als der Königsweg, um Informationen über Ursache und Wirkung zu erlangen. Wilhelm Wundt (1874), der Gründervater der wissenschaftlichen Psychologie, legte dar, wie experimentelle Methoden für die Erforschung des menschlichen Erlebens und Verhaltens genutzt werden können (s. Wilson, Aronson & Carlsmith, 2010, für eine zeitgemäße Darstellung). Bei der experimentellen Methode variiert man eine unabhängige Variable und misst deren Auswirkung auf die abhängige Variable. Will man z. B. herausfinden, ob aggressive Videospiele die Aggressivität der Spieler auch jenseits des Spielzusammenhanges erhöhen (also einen länger andauernden Effekt haben), würde man eine Experimentalgruppe ein aggressives Videospiel und eine Kontrollgruppe ein nicht aggressives Videospiel spielen lassen. Als abhängige Variable könnte man messen, ob Spieler in der Aggressionsbedingung eine andere Person stärker bestrafen, also aggressiveres Verhalten zeigen, als Spieler in der Nicht-Aggressionsbedingung.\nDer besondere Verzug des Experimentes ist es, dass sich die Refunde herausliert",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9686288237571716,
+      "bbox": {
+        "x0": 109.16127014160156,
+        "y0": 716.6207275390625,
+        "x1": 1014.02392578125,
+        "y1": 1215.0880126953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 119,
+      "polygon": [
+        [
+          109.0,
+          727.0
+        ],
+        [
+          117.0,
+          1214.0
+        ],
+        [
+          1013.0,
+          1204.0
+        ],
+        [
+          1013.0,
+          716.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "ocumgung.\nDer besondere Vorzug des Experimentes ist es, dass sich die Befunde kausal interpretieren lassen. Wie ist dies möglich? Eine der wichtigsten Eigenschaften des Experimentes ist es, dass Versuchspersonen nach dem Zufallsprinzip den verschiedenen Versuchsbedingungen zugeordnet werden (Randomisierung). Dieses Vorgehen besitzt den Vorteil, dass sich a priori Unterschiede der Untersuchungsteilnehmer »herausmitteln«. So sind Personen, die Aggressivität als stark ausgeprägtes Persönlichkeitsmerkmal aufweisen, mit gleicher Wahrscheinlichkeit in der Experimental- und in der Kontrollgruppe zu finden. Mögliche Verzerrungen, die durch diese Extremwerte entstehen, gleichen sich bei steigender Anzahl der Versuchspersonen statistisch aus. Gefundene Unterschiede in der abhängigen Variable (gezeigtes aggres-sives Verhalten, z.B. Bestrafen anderer Personen) können demnach nicht von Drittvariablen, wie z. B. nicht näher untersuchten Persönlichkeitseigenschaften der getesteten Personen, stammen, sondern sind eindeutig auf den Einfluss der unabhängigen Variable (aggressives Videospiel vs. nicht-aggressives Videospiel) zurückzuführen (Abb. 1.2).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.963207483291626,
+      "bbox": {
+        "x0": 109.4400863647461,
+        "y0": 1216.228271484375,
+        "x1": 1014.9191284179688,
+        "y1": 1517.921142578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 166,
+      "polygon": [
+        [
+          109.0,
+          1227.0
+        ],
+        [
+          109.0,
+          1516.0
+        ],
+        [
+          1013.0,
+          1516.0
+        ],
+        [
+          1013.0,
+          1216.0
+        ],
+        [
+          117.0,
+          1216.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "(☐ Abb. 1.2).\nEine wichtige Unterscheidung zu den anderen präsentierten Erhebungsmethoden ist zudem die interne versus externe Validität von Experimenten (Cook & Campbell, 1979). Unter innerer Validität versteht man die Frage, ob die Variation der unabhängigen Variablen sich auch tatsächlich auf die beobachtete Variation in der abhängigen Variable auswirkt oder ob dieser Zusammenhang durch eine Drittvariable (Störvariable) versehentlich verursacht wurde. Typischerweise besitzt ein echtes Experiment die höchste interne Validität, wie eben beschrieben, da alle erdenklichen Störvariablen durch die Randomisierung (eine zumindest theoretisch zufällige Zuteilung zu den Gruppen) ausgefiltert werden. Bei allen anderen Methoden, wie etwa der qualitativen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 10,
+      "pp_label": "paragraph_title",
+      "score": 0.723310112953186,
+      "bbox": {
+        "x0": 289.0510559082031,
+        "y0": 1550.0269775390625,
+        "x1": 837.2935180664062,
+        "y1": 1599.1966552734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 173,
+      "polygon": [
+        [
+          289.0,
+          1550.0
+        ],
+        [
+          289.0,
+          1598.0
+        ],
+        [
+          836.0,
+          1598.0
+        ],
+        [
+          836.0,
+          1560.0
+        ],
+        [
+          798.0,
+          1550.0
+        ],
+        [
+          777.0,
+          1550.0
+        ],
+        [
+          760.0,
+          1550.0
+        ],
+        [
+          746.0,
+          1550.0
+        ],
+        [
+          730.0,
+          1550.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "OK, SIE GEHEN BITE IN GRUPPE A",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 0,
+      "pp_label": "image",
+      "score": 0.9380708932876587,
+      "bbox": {
+        "x0": 187.3975830078125,
+        "y0": 1616.601318359375,
+        "x1": 1007.1529541015625,
+        "y1": 1937.119384765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 189,
+      "polygon": [
+        [
+          187.0,
+          1616.0
+        ],
+        [
+          187.0,
+          1905.0
+        ],
+        [
+          540.0,
+          1916.0
+        ],
+        [
+          724.0,
+          1926.0
+        ],
+        [
+          785.0,
+          1936.0
+        ],
+        [
+          1006.0,
+          1936.0
+        ],
+        [
+          1006.0,
+          1616.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0020_07_image.png"
+    },
+    {
+      "id": 8,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.7706729173660278,
+      "bbox": {
+        "x0": 1056.473876953125,
+        "y0": 253.18121337890625,
+        "x1": 1380.6822509765625,
+        "y1": 422.89520263671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 245,
+      "polygon": [
+        [
+          1056.0,
+          253.0
+        ],
+        [
+          1056.0,
+          421.0
+        ],
+        [
+          1379.0,
+          421.0
+        ],
+        [
+          1379.0,
+          253.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das Experiment ist die einzige Möglichkeit Ursache und Wirkung definitiv zu bestimmen. Hierbei wird eine unabhängige Variable variiert und deren Auswirkungen auf eine abhängige Variable gemessen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.91111159324646,
+      "bbox": {
+        "x0": 1057.3736572265625,
+        "y0": 718.822021484375,
+        "x1": 1371.8636474609375,
+        "y1": 832.855712890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 270,
+      "polygon": [
+        [
+          1057.0,
+          718.0
+        ],
+        [
+          1057.0,
+          831.0
+        ],
+        [
+          1370.0,
+          831.0
+        ],
+        [
+          1370.0,
+          718.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Unter Randomisierung versteht man die Einteilung von Personen in unterschiedliche Versuchsgruppen nach dem Zufallsprinzip.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.9334037899971008,
+      "bbox": {
+        "x0": 1057.1676025390625,
+        "y0": 1218.986572265625,
+        "x1": 1385.76318359375,
+        "y1": 1442.448974609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 281,
+      "polygon": [
+        [
+          1057.0,
+          1218.0
+        ],
+        [
+          1057.0,
+          1441.0
+        ],
+        [
+          1384.0,
+          1441.0
+        ],
+        [
+          1384.0,
+          1218.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Interne Validität: Ist die Variation in der abhängigen Variablen tatsächlich auf eine Variation in der unabhängigen Variablen zurückzuführen? Externe Validität: Kann ein experimenteller Laborbefund auch tatsächlich in der wirklichen Welt beobachtet werden?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.8634042739868164,
+      "bbox": {
+        "x0": 1058.5660400390625,
+        "y0": 1553.3775634765625,
+        "x1": 1300.9542236328125,
+        "y1": 1612.3424072265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 296,
+      "polygon": [
+        [
+          1058.0,
+          1553.0
+        ],
+        [
+          1058.0,
+          1611.0
+        ],
+        [
+          1299.0,
+          1611.0
+        ],
+        [
+          1299.0,
+          1553.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Abb. 1.2 Randomisierte Gruppenzuweisung",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1690.2000732421875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1649.400634765625
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1773.6065673828125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 2133.2919921875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1635.5899658203125
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 2266.453369140625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 760.6702880859375
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 3617.391357421875
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 2660.339599609375
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 830.2150268554688
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1981.5986328125
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.42068141699928674,
+      "zeitstempel": "2026-09-06T14:30:59.281190Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 12.36527854200176,
+      "zeitstempel": "2026-09-06T14:36:16.514318Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

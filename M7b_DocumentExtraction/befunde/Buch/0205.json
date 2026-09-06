@@ -1,0 +1,767 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 205,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.6835334897041321,
+      "bbox": {
+        "x0": 115.75157928466797,
+        "y0": 78.14251708984375,
+        "x1": 946.4002075195312,
+        "y1": 106.94097900390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "202 Kapitel 12 · Soziale Neurowissenschaften: Einführung und ausgewählte Befunde",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 19,
+      "pp_label": "number",
+      "score": 0.7093690633773804,
+      "bbox": {
+        "x0": 6.427708625793457,
+        "y0": 1060.373779296875,
+        "x1": 62.16619873046875,
+        "y1": 1103.232666015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 38,
+      "polygon": [
+        [
+          6.0,
+          1060.0
+        ],
+        [
+          6.0,
+          1102.0
+        ],
+        [
+          61.0,
+          1102.0
+        ],
+        [
+          61.0,
+          1060.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "12",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9575584530830383,
+      "bbox": {
+        "x0": 504.028076171875,
+        "y0": 182.83880615234375,
+        "x1": 1406.3980712890625,
+        "y1": 417.04083251953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 63,
+      "polygon": [
+        [
+          504.0,
+          182.0
+        ],
+        [
+          504.0,
+          416.0
+        ],
+        [
+          1405.0,
+          416.0
+        ],
+        [
+          1405.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "mögliche Handlung des anderen vorherzusagen. Wenn ich z. B. weiß, dass mein Freund sehr sensibel ist, so könnte ich aus einer sozialen Interaktion, in der er von anderen verbal angegriffen wurde, schließen, dass er mit großer Wahrscheinlichkeit nun verletzt ist. Da er zudem eher introvertiert ist, könnte ich vermuten, dass er sich nicht offen wehren, sondern eher zurückziehen und mit Schweigen reagieren wird. Diese Zuschreibung bzw. »Attribution« internaler (nach außen nicht immer sichtbarer) Zustände wird auch als »Mentalisieren« bezeichnet (Heberlein & Adolphs, 2005).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.8995280861854553,
+      "bbox": {
+        "x0": 129.01487731933594,
+        "y0": 651.5048217773438,
+        "x1": 447.6593017578125,
+        "y1": 737.5762329101562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 97,
+      "polygon": [
+        [
+          129.0,
+          651.0
+        ],
+        [
+          129.0,
+          736.0
+        ],
+        [
+          446.0,
+          736.0
+        ],
+        [
+          446.0,
+          651.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Theory of Mind wird klassischer-weise mit dem »False-Belief-Paradigma« untersucht.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 14,
+      "pp_label": "paragraph_title",
+      "score": 0.7270312905311584,
+      "bbox": {
+        "x0": 546.45166015625,
+        "y0": 451.0938720703125,
+        "x1": 664.3792114257812,
+        "y1": 479.32275390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 123,
+      "polygon": [
+        [
+          546.0,
+          451.0
+        ],
+        [
+          546.0,
+          478.0
+        ],
+        [
+          663.0,
+          478.0
+        ],
+        [
+          663.0,
+          451.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- Definition",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.8937114477157593,
+      "bbox": {
+        "x0": 544.02490234375,
+        "y0": 481.38909912109375,
+        "x1": 1375.026611328125,
+        "y1": 583.5242309570312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 132,
+      "polygon": [
+        [
+          544.0,
+          481.0
+        ],
+        [
+          544.0,
+          582.0
+        ],
+        [
+          1374.0,
+          582.0
+        ],
+        [
+          1374.0,
+          481.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Theory of Mind (ToM) beschreibt die Fähigkeit, die inneren Zustände einer anderen Person zu kennen bzw. nachvollziehen zu können. Den Prozess der Zuschreibung bestimmter Zustände nennt man auch Mentalisieren.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.9302871227264404,
+      "bbox": {
+        "x0": 505.1846923828125,
+        "y0": 648.75439453125,
+        "x1": 1405.48828125,
+        "y1": 748.821044921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 148,
+      "polygon": [
+        [
+          513.0,
+          648.0
+        ],
+        [
+          513.0,
+          747.0
+        ],
+        [
+          1404.0,
+          747.0
+        ],
+        [
+          1404.0,
+          648.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Überprüft wird die Theory of Mind klassischerweise mit dem »False-Belief-Paradigma« (Wimmer & Perner, 1983). Eine bekannte Form hierbei ist beschrieben im ▶ Exkurs: Sally-Anne-Aufgabe.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 13,
+      "pp_label": "paragraph_title",
+      "score": 0.7644250392913818,
+      "bbox": {
+        "x0": 154.36044311523438,
+        "y0": 778.2078247070312,
+        "x1": 228.11473083496094,
+        "y1": 804.9004516601562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 156,
+      "polygon": [
+        [
+          154.0,
+          778.0
+        ],
+        [
+          154.0,
+          803.0
+        ],
+        [
+          227.0,
+          803.0
+        ],
+        [
+          227.0,
+          778.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Exkurs",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 15,
+      "pp_label": "paragraph_title",
+      "score": 0.698009729385376,
+      "bbox": {
+        "x0": 152.4989471435547,
+        "y0": 816.373046875,
+        "x1": 419.98388671875,
+        "y1": 846.5185546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 165,
+      "polygon": [
+        [
+          152.0,
+          816.0
+        ],
+        [
+          152.0,
+          845.0
+        ],
+        [
+          418.0,
+          845.0
+        ],
+        [
+          418.0,
+          816.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Sally-Anne-Aufgabe",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.947572648525238,
+      "bbox": {
+        "x0": 151.2744903564453,
+        "y0": 850.8566284179688,
+        "x1": 1373.92919921875,
+        "y1": 1117.58984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 169,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Eine Versuchsperson sieht, wie zwei Kinder (Sally und Anne) in einem Raum sind und ein Spielzeug bei sich haben. Sally platziert dieses an einer bestimmten Stelle A und verlässt den Raum. Die Versuchsperson sieht nun, dass Anne das Spielzeug an einen anderen Ort legt. Als Sally wieder zu- rückkommt, wird die Versuchsperson gefragt, wo Sally nun wahrscheinlich nach ihrem Spielzeug suchen wird? Da Sally nichts von dem Ortswechsel weiß, wird sie glauben, das Spielzeug befinde sich noch an Stelle A, auch wenn dies natürlich nicht stimmt. Die Versuchsperson hat dagegen ein Informationsprivileg und weiß mehr als Sally. Die Frage ist, ob sie ihr eigenes Wissen auch Sally zuschreibt, also von sich auf andere schließt, oder ob sie fähig ist zu erkennen, dass andere Menschen auch andere Überzeugungen haben können, selbst wenn diese falsch sind (☻ Abb. 12.6).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        10,
+        11
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.8656703233718872,
+      "bbox": {
+        "x0": 130.6508026123047,
+        "y0": 1775.7879638671875,
+        "x1": 441.6595458984375,
+        "y1": 1828.7921142578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 189,
+      "polygon": [
+        [
+          130.0,
+          1775.0
+        ],
+        [
+          130.0,
+          1827.0
+        ],
+        [
+          440.0,
+          1827.0
+        ],
+        [
+          440.0,
+          1775.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1. der TPJ (v. a. beim Erkennen von Handlungsabsichten),",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 18,
+      "pp_label": "text",
+      "score": 0.770637035369873,
+      "bbox": {
+        "x0": 129.2899169921875,
+        "y0": 1217.1536865234375,
+        "x1": 431.7994689941406,
+        "y1": 1275.7723388671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 190,
+      "polygon": [
+        [
+          129.0,
+          1217.0
+        ],
+        [
+          129.0,
+          1274.0
+        ],
+        [
+          430.0,
+          1274.0
+        ],
+        [
+          430.0,
+          1217.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Abb. 12.6 Theory of Mind: Ichweiß etwas, was Du nicht weißt ...",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 16,
+      "pp_label": "text",
+      "score": 0.8498926758766174,
+      "bbox": {
+        "x0": 128.42599487304688,
+        "y0": 1720.1307373046875,
+        "x1": 459.9732360839844,
+        "y1": 1773.1114501953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 191,
+      "polygon": [
+        [
+          128.0,
+          1720.0
+        ],
+        [
+          128.0,
+          1772.0
+        ],
+        [
+          458.0,
+          1772.0
+        ],
+        [
+          458.0,
+          1720.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Im Bereich der ToM sind zwei Gehirn-\nareale zentral:",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.8777241110801697,
+      "bbox": {
+        "x0": 129.01260375976562,
+        "y0": 1831.5347900390625,
+        "x1": 461.4532775878906,
+        "y1": 1914.7650146484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 193,
+      "polygon": [
+        [
+          129.0,
+          1831.0
+        ],
+        [
+          129.0,
+          1913.0
+        ],
+        [
+          460.0,
+          1913.0
+        ],
+        [
+          460.0,
+          1831.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2. der mPFC (v. a. bei High-Level-Aufgaben bzw. überdauernder Zuschreibung mentaler Zustände).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 0,
+      "pp_label": "image",
+      "score": 0.9396554231643677,
+      "bbox": {
+        "x0": 507.6694641113281,
+        "y0": 1215.3538818359375,
+        "x1": 905.6314697265625,
+        "y1": 1755.7198486328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 230,
+      "polygon": [
+        [
+          507.0,
+          1215.0
+        ],
+        [
+          515.0,
+          1754.0
+        ],
+        [
+          904.0,
+          1754.0
+        ],
+        [
+          904.0,
+          1215.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0205_14_image.png"
+    },
+    {
+      "id": 15,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9639360308647156,
+      "bbox": {
+        "x0": 933.2594604492188,
+        "y0": 1215.436279296875,
+        "x1": 1406.23046875,
+        "y1": 1780.3408203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 262,
+      "polygon": [
+        [
+          933.0,
+          1215.0
+        ],
+        [
+          933.0,
+          1779.0
+        ],
+        [
+          1405.0,
+          1779.0
+        ],
+        [
+          1405.0,
+          1215.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Im Bereich der ToM sind zwei Gehirnareale zentral: der temporoparietale Übergang, TPJ und der mediale präfrontale Kortex, mPFC (☑ Abb. 12.7). Hier fällt auf, dass mit dem mPFC wieder ein Bereich der kortikalen »midline structures« (CMS) aktiviert ist, die auch mit dem Selbst in Zusammenhang stehen (▶ Abschn. 12.2.1 »Kortiklale Mittellinienareale«). Dies könnte daran liegen, dass Mentalisieren eine sehr anspruchsvolle bzw. eine sog. »High-Level-Aufgabe« ist, die besondere Anforderungen an die Aufmerksamkeit von Personen stellt. Typischerweise ist der mPFC an derartigen Aufgaben beteiligt. (Amodio & Frith, 2006). Es wird außerdem angenommen, dass der mPFC besonders bei überdauernden Zuschreibungen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 16,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9515948295593262,
+      "bbox": {
+        "x0": 503.4014587402344,
+        "y0": 1783.201171875,
+        "x1": 1407.4862060546875,
+        "y1": 1949.50830078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 291,
+      "polygon": [
+        [
+          503.0,
+          1783.0
+        ],
+        [
+          503.0,
+          1948.0
+        ],
+        [
+          1406.0,
+          1948.0
+        ],
+        [
+          1406.0,
+          1783.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "mentaler Zustände eine Rolle spielt (van Overwalle, 2009), was in unserem Eingangs-beispiel bezüglich der Persönlichkeitseigenschaften (der introvertierte Freund) der Fall wäre. Bei klassischen ToM-Aufgaben – und damit beim Erkennen von Handlungsabsichten anderer – ist vor allem der TPJ aktiviert. Personen, die hier Schädigungen aufweisen, sind auch in ihrer Fähigkeit zur kognitiven Perspektivenübernahme beein-",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1000.9563598632812
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2056.841796875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 346.1645812988281
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 831.7063598632812
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1074.4368896484375
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1431.3175048828125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1444.9677734375
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1209.888671875
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1569.9896240234375
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 464.3126220703125
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 0.0,
+      "marge": -1397.6461181640625
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1178.244873046875
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 910.7600708007812
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 823.0657348632812
+    },
+    {
+      "von": 14,
+      "nach": 15,
+      "konfidenz": 1.0,
+      "marge": 1981.165283203125
+    },
+    {
+      "von": 15,
+      "nach": 16,
+      "konfidenz": 1.0,
+      "marge": 921.0618286132812
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt.",
+    "Blöcke [10, 11] zu #9 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.36070670900153345,
+      "zeitstempel": "2026-09-06T14:32:11.958463Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 12.41111433399783,
+      "zeitstempel": "2026-09-06T15:14:38.898676Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

@@ -1,0 +1,517 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 201,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.6920577883720398,
+      "bbox": {
+        "x0": 117.07958221435547,
+        "y0": 78.3328857421875,
+        "x1": 947.1220092773438,
+        "y1": 106.7607421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "198 Kapitel 12 · Soziale Neurowissenschaften: Einführung und ausgewählte Befunde",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.8285790085792542,
+      "bbox": {
+        "x0": 129.0676727294922,
+        "y0": 319.9812927246094,
+        "x1": 459.9141845703125,
+        "y1": 488.3522033691406,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 87,
+      "polygon": [
+        [
+          129.0,
+          319.0
+        ],
+        [
+          129.0,
+          487.0
+        ],
+        [
+          420.0,
+          487.0
+        ],
+        [
+          444.0,
+          487.0
+        ],
+        [
+          451.0,
+          487.0
+        ],
+        [
+          458.0,
+          478.0
+        ],
+        [
+          458.0,
+          319.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Verarbeitung selbstbezogener Informationen unterscheidet sich von der Verarbeitung anderer Informationsarten. Dies zeigt sich an spezifischen Aktivitätsmustern der kortikalen Mittellinienareale.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.7936046123504639,
+      "bbox": {
+        "x0": 128.44532775878906,
+        "y0": 718.5458984375,
+        "x1": 461.3075256347656,
+        "y1": 944.710693359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 121,
+      "polygon": [
+        [
+          128.0,
+          718.0
+        ],
+        [
+          128.0,
+          943.0
+        ],
+        [
+          460.0,
+          943.0
+        ],
+        [
+          460.0,
+          729.0
+        ],
+        [
+          453.0,
+          718.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Erkennung des eigenen Gesichts – im Vergleich zum Gesicht anderer – geht mit Aktivität in anterioren medialen Arealen einher. Je ähnlicher uns aber andere Personen sind (z. B. eigene Verwandte), desto stärker gleicht sich auch die neurona-le Aktivität an.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.8807528614997864,
+      "bbox": {
+        "x0": 128.43798828125,
+        "y0": 1285.950927734375,
+        "x1": 447.47332763671875,
+        "y1": 1482.084228515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 148,
+      "polygon": [
+        [
+          128.0,
+          1295.0
+        ],
+        [
+          128.0,
+          1481.0
+        ],
+        [
+          446.0,
+          1481.0
+        ],
+        [
+          446.0,
+          1295.0
+        ],
+        [
+          439.0,
+          1285.0
+        ],
+        [
+          410.0,
+          1285.0
+        ],
+        [
+          371.0,
+          1285.0
+        ],
+        [
+          356.0,
+          1285.0
+        ],
+        [
+          249.0,
+          1285.0
+        ],
+        [
+          220.0,
+          1285.0
+        ],
+        [
+          211.0,
+          1285.0
+        ],
+        [
+          204.0,
+          1285.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Im Bereich des Selbstwissens konnte gezeigt werden, dass selbstbezogene Eigenschaftswörter mit einer Aktivierung des mPFC einhergehen und zudem besser erinnert werden als Eigenschaftswörter ohne Eigenbezug.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.8175651431083679,
+      "bbox": {
+        "x0": 128.51268005371094,
+        "y0": 1619.912109375,
+        "x1": 452.9730224609375,
+        "y1": 1786.4853515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 165,
+      "polygon": [
+        [
+          128.0,
+          1619.0
+        ],
+        [
+          128.0,
+          1785.0
+        ],
+        [
+          451.0,
+          1785.0
+        ],
+        [
+          451.0,
+          1619.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Unabhängig davon, welcher Aspekt des Selbst erfasst wird: Die Verarbeitung selbstbezogener Information geht relativ konsistent mit Aktivität in kortikalen Mittellinienarealen einher.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9444364309310913,
+      "bbox": {
+        "x0": 502.7764587402344,
+        "y0": 182.19393920898438,
+        "x1": 1406.3172607421875,
+        "y1": 315.1564025878906,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 174,
+      "polygon": [
+        [
+          502.0,
+          182.0
+        ],
+        [
+          502.0,
+          314.0
+        ],
+        [
+          1405.0,
+          314.0
+        ],
+        [
+          1405.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "tische Aspekte der Eigenschaftswörter, beispielsweise in Bezug auf den Schrifttyp (Fallreferenz). Später verglichen die Autoren die Bedingungen »Selbstreferenz« vs. »Fremdreferenz« sowie »Selbstreferenz« vs. »Fallreferenz«. In beiden Vergleichen zeigte sich eine spezifische Aktivierung im mPFC.\nIn einer üblich aufgehalten Studien von Johnson et al (2002) wurden die Vorzugs",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.963085949420929,
+      "bbox": {
+        "x0": 504.0513000488281,
+        "y0": 317.3804931640625,
+        "x1": 1406.8145751953125,
+        "y1": 714.5469970703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 188,
+      "polygon": [
+        [
+          504.0,
+          317.0
+        ],
+        [
+          504.0,
+          713.0
+        ],
+        [
+          1405.0,
+          713.0
+        ],
+        [
+          1405.0,
+          317.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "In einer ähnlich aufgebauten Studie von Johnson et al. (2002) wurden die Versuchspersonen mit Statements zu ihren (möglichen) Fähigkeiten, Eigenschaften und Einstellungen konfrontiert (z.B. »Ich vergesse wichtige Dinge« oder »Ich bin ein guter Freund«). In der Kontrollbedingung wurden Statements präsentiert, die allgemeines semantisches Wissen erforderten (z.B. »Zehn Sekunden sind mehr als eine Minute«). In beiden Fällen mussten die Versuchspersonen ihre Zustimmung oder Ablehnung angeben. Ein Vergleich beider Bedingungen ergab ebenfalls eine verstärkte Aktivierung im anterioren mPFC sowie im pCC in der selbstrelevanten Bedingung. Die Autoren konnten damit zeigen, dass sich die Verarbeitung selbstbezogener Informationen deutlich von der Verarbeitung anderer semantischer Informationen abgrenzen lässt, und lieferten damit einen Hinweis darauf, dass das Selbst tatsächlich eine abgrenzbare kognitive Struktur darstellt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9655957221984863,
+      "bbox": {
+        "x0": 504.3043212890625,
+        "y0": 715.010986328125,
+        "x1": 1407.805908203125,
+        "y1": 1284.262939453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 233,
+      "polygon": [
+        [
+          504.0,
+          715.0
+        ],
+        [
+          504.0,
+          1283.0
+        ],
+        [
+          1406.0,
+          1283.0
+        ],
+        [
+          1406.0,
+          715.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Platek und Kemp (2009) untersuchten einen bereits oben erwähnten wichtigen Aspekt des Selbst – die Erkennung des eigenen Gesichts. Zu diesem Zweck wurden den Versuchspersonen Bilder von Familienmitgliedern, Freunden, Fremden und sich selbst präsentiert, wobei die Aufgabe darin bestand, die Bilder durch Tastendruck einer dieser Personen zuzuordnen (z. B. einem Familienmitglied oder einem Fremden). Die Autoren konnten je nach Relevanz des Gesichts für die jeweilige Person unterschiedliche Aktivierungsmuster zeigen. Die Erkennung des eigenen Gesichts ging mit einer erhöhten Aktivierung in anterioren medialen Substraten (ACC, mPFC) einher, wobei das Erkennen von Familienmitgliedern und das Erkennen des eigenen Gesichts starke Parallelen in der Aktivierung hervorriefen. Je höher die Ähnlichkeit anderer Gesichter zu unseren eigenen (was bei Familienmitgliedern wahrscheinlicher ist), desto größer auch die Schwierigkeit, das Gesicht genau zu identifizieren. So wundert es nicht, dass der ACC hier besonders aktiv war, dessen Aktivität häufig mit inneren Konflikten, Unsicherheit oder auch mit sozialen Dilemmata (Critchley, Tang, Glaser, Butterworth & Dolan, 2005; Sanfey, Rilling, Aronson, Nystrom & Cohen, 2003) in Verbindung gebracht wird. Darüber hinaus spielt der ACC eine Rolle bei der Verarbeitung relevanter Stimuli (Platek, Krill & Kemp, 2008).\nMacrae et al. (2004) untersuchten die neuronalen Grundlagen eines weiteren wich-",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9591758251190186,
+      "bbox": {
+        "x0": 504.921875,
+        "y0": 1283.4400634765625,
+        "x1": 1406.111328125,
+        "y1": 1616.0115966796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 269,
+      "polygon": [
+        [
+          504.0,
+          1294.0
+        ],
+        [
+          504.0,
+          1615.0
+        ],
+        [
+          1405.0,
+          1615.0
+        ],
+        [
+          1405.0,
+          1283.0
+        ],
+        [
+          512.0,
+          1283.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Macrae et al. (2004) untersuchten die neuronalen Grundlagen eines weiteren wichtigen Selbstaspektes – jenen des Selbstwissens. Die Versuchspersonen mussten verschiedene Persönlichkeitseigenschaften dahingehend bewerten, in welchem Ausmaß die jeweilige Eigenschaft sie selbst beschrieb. Im Anschluss daran absolvierten die Versuchspersonen einen für sie überraschenden Gedächtnistest: Alle zuvor präsentierten Wörter wurden zusammen mit unbekannten Wörtern vorgegeben, wobei die Aufgabe darin bestand, anzugeben, ob das Wort bereits bekannt oder neu war. Wörter, die zuvor als selbstbezogen deklariert wurden, wurden besser erinnert als nicht selbstbezogene Wörter, wobei sich darüber hinaus für richtig erinnerte selbstbezogene Eigenschaften differenzielle Aktivierungsmuster im mPFC (neben anderen Regionen) zeigten.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.943067193031311,
+      "bbox": {
+        "x0": 504.2110290527344,
+        "y0": 1616.9344482421875,
+        "x1": 1406.937744140625,
+        "y1": 1784.6605224609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 283,
+      "polygon": [
+        [
+          504.0,
+          1616.0
+        ],
+        [
+          504.0,
+          1783.0
+        ],
+        [
+          1405.0,
+          1783.0
+        ],
+        [
+          1405.0,
+          1616.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Wir sehen also, dass sich in Untersuchungen zur Verarbeitung selbstbezogener Informationen eine bemerkenswerte Konsistenz in den Ergebnissen zeigt (Lieberman, 2007). Aber was bedeutet die Aktivierung in kortikalen Mittellinienarealen (CMS) nunkonkret? Dieser Frage gingen Northoff et al. (2006) in einer Metanalyse nach (▶ Studie: Funktionale Spezialisierung der Aktivierung in kortikalen Mittellinienarealen).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2537.744140625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2127.848388671875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 2297.163330078125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 2484.563720703125
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 2081.78759765625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 901.5308227539062
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1793.8240966796875
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1763.16552734375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 2033.383056640625
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.38349120800194214,
+      "zeitstempel": "2026-09-06T14:32:10.448653Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 14.87878233399897,
+      "zeitstempel": "2026-09-06T15:13:45.777194Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

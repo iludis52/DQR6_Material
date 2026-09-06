@@ -1,0 +1,500 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 125,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.7081483006477356,
+      "bbox": {
+        "x0": 116.62928009033203,
+        "y0": 78.408203125,
+        "x1": 661.6110229492188,
+        "y1": 106.7764892578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "120 Kapitel 8 · Gruppenprozesse und soziale Identität",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 16,
+      "pp_label": "text",
+      "score": 0.7128423452377319,
+      "bbox": {
+        "x0": 128.3129119873047,
+        "y0": 619.6270141601562,
+        "x1": 453.4869689941406,
+        "y1": 786.3102416992188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 71,
+      "polygon": [
+        [
+          445.0,
+          619.0
+        ],
+        [
+          416.0,
+          619.0
+        ],
+        [
+          407.0,
+          619.0
+        ],
+        [
+          385.0,
+          619.0
+        ],
+        [
+          347.0,
+          619.0
+        ],
+        [
+          340.0,
+          619.0
+        ],
+        [
+          128.0,
+          629.0
+        ],
+        [
+          128.0,
+          785.0
+        ],
+        [
+          452.0,
+          785.0
+        ],
+        [
+          452.0,
+          659.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Theorie der sozialen Identität entstand, um die Diskriminierung zwischen verschiedenen Gruppen und die damit verbundenen psycho-logischen Prozesse besser zu verstehen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9651745557785034,
+      "bbox": {
+        "x0": 503.71954345703125,
+        "y0": 182.45184326171875,
+        "x1": 1406.9971923828125,
+        "y1": 485.69525146484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 76,
+      "polygon": [
+        [
+          503.0,
+          182.0
+        ],
+        [
+          503.0,
+          484.0
+        ],
+        [
+          1405.0,
+          484.0
+        ],
+        [
+          1405.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "nen ist dies natürlich auch im politischen bzw. wirtschaftlichen Bereich erkennbar, wenn sich zwei Mächte um ein Territorium oder natürliche Rohstoffe streiten. Hier mag es nachvollziehbar erscheinen, dass es zu Rivalität kommen kann (selbst wenn es nicht immer logisch zu rechtfertigen ist). Wir möchten den Schwerpunkt in diesem Kapitel aber bewusst auf eine andere Theorie legen, die Intergruppendiskriminierung selbst dann erklären kann, wenn keine offensichtlichen Merkmale zugegen sind, die Interes- senskonflikte erkennbar machen könnten. Zusätzlich setzt sich diese Theorie mit der Entstehung und Bildung von Gruppen auseinander – einem wichtigen Prozess, der uns tagtäglich begleitet.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 11,
+      "pp_label": "paragraph_title",
+      "score": 0.8636487722396851,
+      "bbox": {
+        "x0": 505.4518737792969,
+        "y0": 538.8404541015625,
+        "x1": 1033.0531005859375,
+        "y1": 575.1556396484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 88,
+      "polygon": [
+        [
+          505.0,
+          538.0
+        ],
+        [
+          505.0,
+          550.0
+        ],
+        [
+          513.0,
+          574.0
+        ],
+        [
+          1032.0,
+          574.0
+        ],
+        [
+          1032.0,
+          538.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "8.1 Theorie der sozialen Identität",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9642190933227539,
+      "bbox": {
+        "x0": 503.7187805175781,
+        "y0": 616.9674072265625,
+        "x1": 1405.72265625,
+        "y1": 914.5814208984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 94,
+      "polygon": [
+        [
+          503.0,
+          616.0
+        ],
+        [
+          503.0,
+          913.0
+        ],
+        [
+          1404.0,
+          913.0
+        ],
+        [
+          1404.0,
+          616.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Tajfel und Turner (1979/1986) haben sich gezielt mit diesen Fragen auseinandergesetzt und in ihrem Werk »The social identity theory of intergroup behavior« die Theorie der sozialen Identität beschrieben. Die Theorie entstand, um die Diskriminierung zwischen verschiedenen Gruppen und die damit verbundenen psychologischen Prozesse besser zu verstehen. Hierunter fällt auch das oben dargestellte Phänomen, dass Personen Eigengruppen (also Gruppen, denen sie angehören, wie z.B. die Gruppe der Frauen, der Studierenden, der Deutschen, etc.) aufwerten und demgegenüber Fremdgruppen (also Gruppen, denen sie nicht angehören) abwerten (Haslam, 2004; Tajfel, Billig, Bundy & Flament, 1971).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9462870955467224,
+      "bbox": {
+        "x0": 504.1811828613281,
+        "y0": 916.3017578125,
+        "x1": 1406.0191650390625,
+        "y1": 1050.0810546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 114,
+      "polygon": [
+        [
+          512.0,
+          916.0
+        ],
+        [
+          504.0,
+          1040.0
+        ],
+        [
+          588.0,
+          1049.0
+        ],
+        [
+          1398.0,
+          1049.0
+        ],
+        [
+          1405.0,
+          1040.0
+        ],
+        [
+          1405.0,
+          926.0
+        ],
+        [
+          1352.0,
+          916.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "In einer klassischen Studie untersuchten Tajfel et al. (1971), wie es zur Diskriminierung anderer Gruppen kommen kann, ohne dass zuvor feindselige Einstellungen zwischen den Gruppen bestanden oder sich die Gruppen durch unterschiedliche Interessen voneinander abgegrenzt hatten (▶ Studie: Minimalgruppen-Paradigma).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 12,
+      "pp_label": "paragraph_title",
+      "score": 0.7699094414710999,
+      "bbox": {
+        "x0": 153.45680236816406,
+        "y0": 1080.578857421875,
+        "x1": 226.62428283691406,
+        "y1": 1106.205810546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 127,
+      "polygon": [
+        [
+          153.0,
+          1080.0
+        ],
+        [
+          153.0,
+          1105.0
+        ],
+        [
+          225.0,
+          1105.0
+        ],
+        [
+          225.0,
+          1089.0
+        ],
+        [
+          196.0,
+          1080.0
+        ],
+        [
+          190.0,
+          1080.0
+        ],
+        [
+          160.0,
+          1080.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 13,
+      "pp_label": "paragraph_title",
+      "score": 0.8007649779319763,
+      "bbox": {
+        "x0": 152.20376586914062,
+        "y0": 1117.8148193359375,
+        "x1": 467.967529296875,
+        "y1": 1146.5240478515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 131,
+      "polygon": [
+        [
+          152.0,
+          1117.0
+        ],
+        [
+          152.0,
+          1145.0
+        ],
+        [
+          466.0,
+          1145.0
+        ],
+        [
+          466.0,
+          1117.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Minimalgruppen-Paradigma",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9215744733810425,
+      "bbox": {
+        "x0": 150.81626892089844,
+        "y0": 1151.4287109375,
+        "x1": 1369.382568359375,
+        "y1": 1716.174072265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 150,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Im zweiten Experiment der Versuchsreihe von Tajfel et al. (1971) wurden die Versuchsteilnehmer (Schulkinder) anhand bedeutungsloser Kriterien (persönliche Präferenz für den Maler Klee oder Kandinsky) jeweils einer Gruppe zugeteilt. Ihnen wurde gesagt, dass ihre Aufgabe darin bestehe, Belohnungspunkte an Mitglieder der eigenen sowie der der fremden Gruppe zu verteilen. Diese Punkte symbolisierten echte Geldbeträge, die später ausgezahlt würden. Jedes Kind bekam hierzu eine kleine Broschüre vorgelegt, in der 44 Matrizen abgebildet waren. Diese bestanden aus diversen Punktepaaren, z. B. 7/8, 10/5, 15/15. Aus jeder der 44 Matrizen sollte das Kind nun ein Punktepaar auswählen, deren Werte jeweils auf eine Person der eigenen bzw. eine Person der anderen Gruppe aufgeteilt wurden. Die Zuteilung der Zahlenwerte war festgelegt, d. h. aus der Matrize war ersichtlich, welcher Person welche Punkteanzahl zukommen würde (☑ Abb. 8.1).\nIn ☐ Abb. 8.1 ist zu sehen, dass die Matrize aus zwei Zahlen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        9,
+        11,
+        12,
+        13,
+        14
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.9139036536216736,
+      "bbox": {
+        "x0": 151.12686157226562,
+        "y0": 1719.5,
+        "x1": 1373.8997802734375,
+        "y1": 1883.72119140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 180,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "In ☻ Abb. 8.1 ist zu sehen, dass die Matrize aus zwei Zahlenreihen gebildet wurde und sich die einzelnen Punktepaare aus den beiden Zahlenwerten zusammensetzten, die direkt untereinander standen. Dabei variierte, ob die obere Zahlenreihe Punktewerte für ein Fremdgruppenmitglied oder ▿\nDie Auswertung des Experiments war sehr vielschichtig. Das Hauptziel war jedoch, zu bestimmen, inwiefern die schluss- endliche Verteilung der Punktepaare für beide Gruppen davon beeinflusst wurde, ob die Schulkinder den Profit für bei-",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        10,
+        15
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1732.9835205078125
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 437.4787902832031
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1748.480712890625
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1001.4469604492188
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1647.4390869140625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 2383.18310546875
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 881.9835205078125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1971.427978515625
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1612.7391357421875
+    },
+    {
+      "von": 9,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2068.794921875
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt.",
+    "Blöcke [9, 11, 12, 13, 14] zu #8 (text) zusammengeführt.",
+    "Blöcke [10, 15] zu #9 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.41415662500003236,
+      "zeitstempel": "2026-09-06T14:31:40.641911Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 12.175158166999609,
+      "zeitstempel": "2026-09-06T14:58:14.013930Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

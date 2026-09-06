@@ -1,0 +1,737 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 158,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.838994562625885,
+      "bbox": {
+        "x0": 114.68283081054688,
+        "y0": 78.05633544921875,
+        "x1": 410.56884765625,
+        "y1": 106.56756591796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 6,
+      "polygon": [
+        [
+          114.0,
+          78.0
+        ],
+        [
+          114.0,
+          105.0
+        ],
+        [
+          409.0,
+          105.0
+        ],
+        [
+          409.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.1 · Religion und Gesundheit",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 12,
+      "pp_label": "number",
+      "score": 0.7195061445236206,
+      "bbox": {
+        "x0": 1369.1280517578125,
+        "y0": 33.58587646484375,
+        "x1": 1438.8916015625,
+        "y1": 84.67803955078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 33,
+      "polygon": [
+        [
+          1369.0,
+          33.0
+        ],
+        [
+          1369.0,
+          83.0
+        ],
+        [
+          1437.0,
+          83.0
+        ],
+        [
+          1437.0,
+          33.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9271157383918762,
+      "bbox": {
+        "x0": 110.07477569580078,
+        "y0": 181.04965209960938,
+        "x1": 1013.2997436523438,
+        "y1": 282.8927307128906,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 68,
+      "polygon": [
+        [
+          110.0,
+          181.0
+        ],
+        [
+          118.0,
+          281.0
+        ],
+        [
+          489.0,
+          281.0
+        ],
+        [
+          1012.0,
+          281.0
+        ],
+        [
+          1012.0,
+          181.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "bilität erhöhen und den Umgang mit belastenden Situationen erleichtern. Diese haben mitunter den Charakter einer stabilen Persönlichkeitseigenschaft (Block, 1971; Block & Kremen, 1996).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 15,
+      "pp_label": "paragraph_title",
+      "score": 0.6678563356399536,
+      "bbox": {
+        "x0": 150.53643798828125,
+        "y0": 317.91064453125,
+        "x1": 270.2413024902344,
+        "y1": 346.7088623046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 81,
+      "polygon": [
+        [
+          150.0,
+          317.0
+        ],
+        [
+          150.0,
+          345.0
+        ],
+        [
+          269.0,
+          345.0
+        ],
+        [
+          269.0,
+          317.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- Definition",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.8216943144798279,
+      "bbox": {
+        "x0": 149.16433715820312,
+        "y0": 348.9793395996094,
+        "x1": 980.3001098632812,
+        "y1": 450.2872619628906,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 122,
+      "polygon": [
+        [
+          149.0,
+          348.0
+        ],
+        [
+          149.0,
+          449.0
+        ],
+        [
+          979.0,
+          449.0
+        ],
+        [
+          979.0,
+          348.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Unter Resilienz versteht man die psychische Widerstandsfähigkeit, die es ermöglicht, die eigene körperliche und seelische Gesundheit auch in belastenden Situationen zu erhalten (Rieckmann, 2002).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.959194540977478,
+      "bbox": {
+        "x0": 110.02780151367188,
+        "y0": 516.28759765625,
+        "x1": 1014.391845703125,
+        "y1": 852.8238525390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 140,
+      "polygon": [
+        [
+          118.0,
+          516.0
+        ],
+        [
+          118.0,
+          851.0
+        ],
+        [
+          1013.0,
+          851.0
+        ],
+        [
+          1006.0,
+          516.0
+        ],
+        [
+          422.0,
+          516.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Dieser ressourcenorientierte Ansatz wird auch als »positive Psychologie« bezeichnet (Seligman, 2005; Seligman & Csikszentmihalyi, 2000). Diese betont die Wichtigkeit von positiven Emotionen und Einstellungen für das Wohlbefinden bzw. die psychische Gesundheit (Ai & Park, 2005). Sie kennen vielleicht das Gefühl, frisch verliebt zu sein? Dann werden Sie bestimmt festgestellt haben, dass sie in diesem Zustand bisherige Probleme auf einmal nicht mehr so schwer nehmen? Oder Sie haben bemerkt, dass mit einer optimistischen Einstellung Vieles leichter von der Hand geht. Bei der positiven Psychologie geht es also um die »bright side of life«, um positive Gefühle wie Glück, Optimismus, Zufriedenheit, Geborgenheit, Vertrauen etc., die dabei helfen, auch schwierige und belastende Situationen gut bewältigen zu können (☐ Abb. 10.1).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 0,
+      "pp_label": "image",
+      "score": 0.9520406723022461,
+      "bbox": {
+        "x0": 429.5857849121094,
+        "y0": 888.232421875,
+        "x1": 1007.6414794921875,
+        "y1": 1341.69091796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 158,
+      "polygon": [
+        [
+          445.0,
+          888.0
+        ],
+        [
+          429.0,
+          1187.0
+        ],
+        [
+          437.0,
+          1340.0
+        ],
+        [
+          1006.0,
+          1340.0
+        ],
+        [
+          1006.0,
+          888.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0158_06_image.png"
+    },
+    {
+      "id": 7,
+      "query_id": 10,
+      "pp_label": "paragraph_title",
+      "score": 0.7407004237174988,
+      "bbox": {
+        "x0": 153.68572998046875,
+        "y0": 1382.9830322265625,
+        "x1": 270.1429443359375,
+        "y1": 1412.0396728515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 178,
+      "polygon": [
+        [
+          153.0,
+          1382.0
+        ],
+        [
+          153.0,
+          1411.0
+        ],
+        [
+          269.0,
+          1411.0
+        ],
+        [
+          269.0,
+          1382.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- Definition",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9313854575157166,
+      "bbox": {
+        "x0": 150.09605407714844,
+        "y0": 1416.234130859375,
+        "x1": 981.2615966796875,
+        "y1": 1617.6015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 185,
+      "polygon": [
+        [
+          150.0,
+          1416.0
+        ],
+        [
+          150.0,
+          1616.0
+        ],
+        [
+          980.0,
+          1616.0
+        ],
+        [
+          980.0,
+          1416.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Dehmtion\nDie Positive Psychologie ist ein relativ neuer Zweig innerhalb der Psychologie und wurde von Martin Seligman begründet. Sie verfolgt einen ressourcenorientierten Ansatz, daher liegt der Fokus auf allen Aspekten, die das Leben schöner und lebenswerter machen. Darunter sind drei Forschungsschwerpunkte zentral: 1. positive Emotionen, 2. positive Charaktereigenschaften und 3. positive gesellschaftliche und institutionelle Strukturen (Seligman & Csikszentmihalyi, 2000).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.951310396194458,
+      "bbox": {
+        "x0": 111.07417297363281,
+        "y0": 1682.041259765625,
+        "x1": 1014.22265625,
+        "y1": 1951.022705078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 193,
+      "polygon": [
+        [
+          111.0,
+          1682.0
+        ],
+        [
+          111.0,
+          1950.0
+        ],
+        [
+          1013.0,
+          1950.0
+        ],
+        [
+          1013.0,
+          1682.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Empirisch ist der Zusammenhang zwischen positiven Gefühlen und positiven gesundheitlichen Entwicklungen (physisch wie psychisch) bereits in vielen Studien nachgewiesen worden (Davidson, Mostofsky & Whang, 2010; Fredrickson & Joiner, 2002). So besteht etwa ein Zusammenhang zwischen einer hohen Selbstwirksamkeits- erwartung und einer höheren Lebenserwartung bei Brustkrebs, der Anzahl der Freunde und einer verminderten Kortisolausschüttung unter Stress (Heinrichs, Baumgartner, Kirschbaum & Ehlert, 2003), der Anzahl der Freunde und Wohlbefinden im Alter (Street, Burge, Quadagno & Barrett, 2007).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.6175126433372498,
+      "bbox": {
+        "x0": 1060.764404296875,
+        "y0": 315.8531188964844,
+        "x1": 1214.3182373046875,
+        "y1": 381.6936340332031,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 227,
+      "polygon": [
+        [
+          1060.0,
+          315.0
+        ],
+        [
+          1060.0,
+          358.0
+        ],
+        [
+          1068.0,
+          380.0
+        ],
+        [
+          1213.0,
+          380.0
+        ],
+        [
+          1213.0,
+          315.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Definition Resilienz",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.8817524313926697,
+      "bbox": {
+        "x0": 1056.9912109375,
+        "y0": 518.265869140625,
+        "x1": 1363.9866943359375,
+        "y1": 688.57080078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 251,
+      "polygon": [
+        [
+          1056.0,
+          518.0
+        ],
+        [
+          1056.0,
+          687.0
+        ],
+        [
+          1362.0,
+          687.0
+        ],
+        [
+          1362.0,
+          518.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Eine zentrale Annahme der positiven Psychologie ist, dass positive Emotionen und optimistische Einstellungen die eigene psychische und physische Gesundheit positiv beeinflussen können.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 14,
+      "pp_label": "text",
+      "score": 0.7363762855529785,
+      "bbox": {
+        "x0": 1060.68017578125,
+        "y0": 1382.037841796875,
+        "x1": 1326.16259765625,
+        "y1": 1449.442138671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 274,
+      "polygon": [
+        [
+          1060.0,
+          1382.0
+        ],
+        [
+          1060.0,
+          1391.0
+        ],
+        [
+          1068.0,
+          1448.0
+        ],
+        [
+          1105.0,
+          1448.0
+        ],
+        [
+          1174.0,
+          1448.0
+        ],
+        [
+          1181.0,
+          1448.0
+        ],
+        [
+          1190.0,
+          1448.0
+        ],
+        [
+          1196.0,
+          1448.0
+        ],
+        [
+          1205.0,
+          1448.0
+        ],
+        [
+          1227.0,
+          1448.0
+        ],
+        [
+          1250.0,
+          1448.0
+        ],
+        [
+          1325.0,
+          1448.0
+        ],
+        [
+          1325.0,
+          1382.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Definition\nPositive Psychologie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.8326547145843506,
+      "bbox": {
+        "x0": 1057.326416015625,
+        "y0": 1684.6495361328125,
+        "x1": 1370.25244140625,
+        "y1": 1799.6365966796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 290,
+      "polygon": [
+        [
+          1057.0,
+          1694.0
+        ],
+        [
+          1057.0,
+          1798.0
+        ],
+        [
+          1369.0,
+          1798.0
+        ],
+        [
+          1369.0,
+          1684.0
+        ],
+        [
+          1332.0,
+          1684.0
+        ],
+        [
+          1316.0,
+          1684.0
+        ],
+        [
+          1309.0,
+          1684.0
+        ],
+        [
+          1301.0,
+          1684.0
+        ],
+        [
+          1294.0,
+          1684.0
+        ],
+        [
+          1240.0,
+          1684.0
+        ],
+        [
+          1088.0,
+          1684.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Empirische Studien belegen den Zusammenhang zwischen positiven Gefühlen und einer positiven gesundheitlichen Entwicklung.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2612.746826171875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1245.674072265625
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1515.9102783203125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1479.2442626953125
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1898.593505859375
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 2616.801513671875
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1535.759765625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 932.080322265625
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1225.064697265625
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 3691.84521484375
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 2873.23095703125
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1340.9114990234375
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 2198.119873046875
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.39182766700105276,
+      "zeitstempel": "2026-09-06T14:31:53.693880Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 9.53385200000048,
+      "zeitstempel": "2026-09-06T15:04:53.296824Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

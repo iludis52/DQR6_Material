@@ -1,0 +1,640 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 71,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 6,
+      "pp_label": "number",
+      "score": 0.6731629371643066,
+      "bbox": {
+        "x0": 116.19821166992188,
+        "y0": 80.58306884765625,
+        "x1": 144.85745239257812,
+        "y1": 103.06939697265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": [
+        [
+          116.0,
+          80.0
+        ],
+        [
+          116.0,
+          102.0
+        ],
+        [
+          143.0,
+          102.0
+        ],
+        [
+          143.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "64",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.8392960429191589,
+      "bbox": {
+        "x0": 193.1551055908203,
+        "y0": 79.437744140625,
+        "x1": 406.43853759765625,
+        "y1": 106.3753662109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 14,
+      "polygon": [
+        [
+          193.0,
+          79.0
+        ],
+        [
+          193.0,
+          105.0
+        ],
+        [
+          405.0,
+          105.0
+        ],
+        [
+          405.0,
+          79.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 5 · Aggression",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 9,
+      "pp_label": "vision_footnote",
+      "score": 0.680081844329834,
+      "bbox": {
+        "x0": 128.1921844482422,
+        "y0": 182.20489501953125,
+        "x1": 443.16290283203125,
+        "y1": 241.06878662109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 39,
+      "polygon": [
+        [
+          128.0,
+          182.0
+        ],
+        [
+          128.0,
+          240.0
+        ],
+        [
+          312.0,
+          240.0
+        ],
+        [
+          442.0,
+          231.0
+        ],
+        [
+          442.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Abb. 5.1 Katharsis – Ersatzhandlungen zum Aggressionsabbau",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.7825008630752563,
+      "bbox": {
+        "x0": 128.73190307617188,
+        "y0": 818.5269775390625,
+        "x1": 456.9405212402344,
+        "y1": 1016.6903076171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 78,
+      "polygon": [
+        [
+          128.0,
+          818.0
+        ],
+        [
+          128.0,
+          1015.0
+        ],
+        [
+          455.0,
+          1015.0
+        ],
+        [
+          455.0,
+          818.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die empirische Unterstützung für die Katharsishypothese ist nur sehr schwach ausgeprägt. Meist zeigt sich das genaue Gegenteil: Personen, die aggressive Ersatzhandlungen ausführen, werden als Folge noch aggressiver.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.7838782072067261,
+      "bbox": {
+        "x0": 132.08612060546875,
+        "y0": 1282.3338623046875,
+        "x1": 390.5199890136719,
+        "y1": 1348.1807861328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 90,
+      "polygon": [
+        [
+          132.0,
+          1282.0
+        ],
+        [
+          132.0,
+          1338.0
+        ],
+        [
+          140.0,
+          1347.0
+        ],
+        [
+          389.0,
+          1347.0
+        ],
+        [
+          389.0,
+          1282.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Definition\nKatharsishypothese",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9054633378982544,
+      "bbox": {
+        "x0": 128.7115020751953,
+        "y0": 1586.0548095703125,
+        "x1": 457.9914245605469,
+        "y1": 1698.4407958984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 95,
+      "polygon": [
+        [
+          128.0,
+          1586.0
+        ],
+        [
+          128.0,
+          1697.0
+        ],
+        [
+          456.0,
+          1697.0
+        ],
+        [
+          456.0,
+          1586.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der biologische Ansatz geht davon aus, dass aggressives Verhalten einen »Fitness-Vorteil« in der evolutionären Selektion erbracht hat.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.8692766427993774,
+      "bbox": {
+        "x0": 128.6080322265625,
+        "y0": 1719.13134765625,
+        "x1": 430.5245056152344,
+        "y1": 1940.90576171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 124,
+      "polygon": [
+        [
+          128.0,
+          1719.0
+        ],
+        [
+          128.0,
+          1939.0
+        ],
+        [
+          429.0,
+          1939.0
+        ],
+        [
+          429.0,
+          1772.0
+        ],
+        [
+          429.0,
+          1761.0
+        ],
+        [
+          429.0,
+          1730.0
+        ],
+        [
+          422.0,
+          1719.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Biologische Erklärungsansätze betrachten auch neurochemische und hirnphysiologische Korrelate von Aggression. Hier spielen die Amygdala, der Neuro-transmitter Serotonin sowie das Hormon Testosteron eine besondere Rolle.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 0,
+      "pp_label": "image",
+      "score": 0.9475443959236145,
+      "bbox": {
+        "x0": 502.8080139160156,
+        "y0": 185.86553955078125,
+        "x1": 1255.7742919921875,
+        "y1": 734.3955688476562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 163,
+      "polygon": [
+        [
+          510.0,
+          185.0
+        ],
+        [
+          502.0,
+          733.0
+        ],
+        [
+          1247.0,
+          723.0
+        ],
+        [
+          1254.0,
+          196.0
+        ],
+        [
+          1239.0,
+          185.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0071_07_image.png"
+    },
+    {
+      "id": 8,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.9186914563179016,
+      "bbox": {
+        "x0": 503.00494384765625,
+        "y0": 815.1950073242188,
+        "x1": 1406.07421875,
+        "y1": 1252.794189453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 186,
+      "polygon": [
+        [
+          503.0,
+          815.0
+        ],
+        [
+          511.0,
+          1251.0
+        ],
+        [
+          1405.0,
+          1251.0
+        ],
+        [
+          1405.0,
+          815.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Abgesehen davon, dass psychoanalytische Ansätze innerhalb der wissenschaftlichen Psychologie nur wenig Zulauf haben, hat sich speziell für die Katharsishypothese wenig empirische Unterstützung gefunden. In der empirischen Literatur findet man kaum Studien, die von einem verminderten Aggressionsniveau als Folge aggressiven Verhaltens berichten. Allenfalls deuten die Ergebnisse auf eine Reduktion anderer negativer Gefühle (z. B. reduziertem Ärger; Kutner & Olson, 2008) oder einem Erleben anderer positiver Gefühle in Zusammenhang mit aggressivem Verhaltensweisen hin (Bushman, Baumeister & Phillips, 2001). Stattdessen zeigt die große Mehrheit der Aggressionsstudien, dass Aggression nach dem Ausüben von aggressivem Verhalten oder dem Darüber-Nachdenken sogar ansteigt (Anderson et al., 2010; Anderson & Bushman, 2001). Dies widerlegt sowohl Freuds Überlegungen als auch populäre Vorstellungen, die in den Medien und der Selbsthilfebranche gepflegt werden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.858649730682373,
+      "bbox": {
+        "x0": 543.8715209960938,
+        "y0": 1316.0743408203125,
+        "x1": 1344.3814697265625,
+        "y1": 1413.9847412109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 218,
+      "polygon": [
+        [
+          543.0,
+          1403.0
+        ],
+        [
+          543.0,
+          1412.0
+        ],
+        [
+          1343.0,
+          1412.0
+        ],
+        [
+          1343.0,
+          1316.0
+        ],
+        [
+          551.0,
+          1316.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Gemäß der Katharsishypothese (griech. »katharsis« = Reinigung) führt das Ausleben bzw. die Entladung bestimmter Gefühlszustände (z. B. Aggression) zu einer Reduktion derselben.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 4,
+      "pp_label": "paragraph_title",
+      "score": 0.818536102771759,
+      "bbox": {
+        "x0": 507.8582763671875,
+        "y0": 1508.6099853515625,
+        "x1": 863.7578735351562,
+        "y1": 1541.6815185546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 281,
+      "polygon": [
+        [
+          507.0,
+          1508.0
+        ],
+        [
+          507.0,
+          1540.0
+        ],
+        [
+          862.0,
+          1540.0
+        ],
+        [
+          862.0,
+          1508.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5.2.2 Biologischer Ansatz",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9651134014129639,
+      "bbox": {
+        "x0": 503.84588623046875,
+        "y0": 1583.204833984375,
+        "x1": 1406.3150634765625,
+        "y1": 1881.64111328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 288,
+      "polygon": [
+        [
+          503.0,
+          1583.0
+        ],
+        [
+          503.0,
+          1880.0
+        ],
+        [
+          1405.0,
+          1880.0
+        ],
+        [
+          1405.0,
+          1583.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Ein anderer Ansatz zur Erklärung von Aggression stammt aus der Beobachtung von aggressivem Verhalten von Tieren und deren Übertragung auf die menschliche Existenz. So nimmt Konrad Lorenz (1966) an, dass Menschen, genauso wie andere Tiere auch, einen sog. Kampfinstinkt besitzen, der ihnen im evolutionären Kampf ums Überleben die erfolgreiche Weitergabe ihrer Gene sichert (»survival of the fittest«; Darwin, 1859). Gemäß diesem Ansatz dient Aggression dem Verjagen von Feinden, der Erbeitung von Nahrung, der Gewinnung von Sexualpartnern und dem Schutz der eigenen Familie und der Nachkommen. Individuen die zur Aggression fähig sind, haben somit bessere Chancen im biologischen Wettstreit.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9144999384880066,
+      "bbox": {
+        "x0": 502.9159240722656,
+        "y0": 1882.831787109375,
+        "x1": 1407.1864013671875,
+        "y1": 1949.847412109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 294,
+      "polygon": [
+        [
+          502.0,
+          1882.0
+        ],
+        [
+          502.0,
+          1948.0
+        ],
+        [
+          1406.0,
+          1948.0
+        ],
+        [
+          1406.0,
+          1882.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Biologische Erklärungsansätze betrachten auch neurochemische und hirnphysiologische Korrelate von aggressivem Verhalten (Aronson, Wilson & Akert, 2008). So",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1005.0369873046875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 3172.442626953125
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1431.5859375
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 2068.64892578125
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1647.8792724609375
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 2382.983154296875
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1474.7296142578125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2873.705810546875
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 2321.43994140625
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1593.3353271484375
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1288.702392578125
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1881.386962890625
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.39902195800095797,
+      "zeitstempel": "2026-09-06T14:31:19.381412Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 9.59431662499992,
+      "zeitstempel": "2026-09-06T14:46:50.486249Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

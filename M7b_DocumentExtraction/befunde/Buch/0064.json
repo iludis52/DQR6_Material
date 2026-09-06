@@ -1,0 +1,571 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 64,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 7,
+      "pp_label": "number",
+      "score": 0.6687747240066528,
+      "bbox": {
+        "x0": 115.8436508178711,
+        "y0": 80.42617797851562,
+        "x1": 144.6059112548828,
+        "y1": 102.75106811523438,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 2,
+      "polygon": [
+        [
+          115.0,
+          80.0
+        ],
+        [
+          115.0,
+          101.0
+        ],
+        [
+          143.0,
+          101.0
+        ],
+        [
+          143.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "56",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8470405340194702,
+      "bbox": {
+        "x0": 191.04061889648438,
+        "y0": 78.40756225585938,
+        "x1": 801.6945190429688,
+        "y1": 106.85415649414062,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 11,
+      "polygon": [
+        [
+          191.0,
+          78.0
+        ],
+        [
+          191.0,
+          105.0
+        ],
+        [
+          800.0,
+          105.0
+        ],
+        [
+          800.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 4 • Prosoziales Verhalten, Hilfeverhalten und Zivilcourage",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 12,
+      "pp_label": "paragraph_title",
+      "score": 0.5837711095809937,
+      "bbox": {
+        "x0": 153.75892639160156,
+        "y0": 180.31826782226562,
+        "x1": 226.75169372558594,
+        "y1": 206.65988159179688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 54,
+      "polygon": [
+        [
+          153.0,
+          180.0
+        ],
+        [
+          153.0,
+          205.0
+        ],
+        [
+          225.0,
+          205.0
+        ],
+        [
+          225.0,
+          180.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 9,
+      "pp_label": "paragraph_title",
+      "score": 0.7602545619010925,
+      "bbox": {
+        "x0": 152.1318817138672,
+        "y0": 217.81402587890625,
+        "x1": 526.2962036132812,
+        "y1": 247.32928466796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 66,
+      "polygon": [
+        [
+          152.0,
+          217.0
+        ],
+        [
+          152.0,
+          246.0
+        ],
+        [
+          525.0,
+          246.0
+        ],
+        [
+          525.0,
+          217.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Zuschreibung von Verantwortung",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9471407532691956,
+      "bbox": {
+        "x0": 149.71522521972656,
+        "y0": 250.28533935546875,
+        "x1": 1373.598388671875,
+        "y1": 651.5138549804688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 78,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Zuschriften von Verantwortung\nIn der Studie von Schmidt und Weiner (1988) sollten sich die Versuchspersonen mit der hypothetischen Situation auseinandersetzen, dass sie von einem Kommilitonen um die Mitschriften aus der letzten Vorlesung gebeten werden. Dieser verfügte über keine eigenen Mitschriften, weil er (a) Probleme mit den Augen hatte und deshalb nicht so gut sehen konnte (unkontrollierbare Situation) oder weil er (b) während der Vorlesung lieber zum Strand gegangen ist (kontrollierbare Situation). Im Anschluss daran sollten die Versuchspersonen anhand verschiedener Items angeben, wie hoch sie die Kontrollierbarkeit der Situation beurteilten, wie viel Ärger bzw. Sympathie sie gegenüber dem Hilfe- suchenden empfanden und mit welcher Wahrscheinlichkeit sie helfen würden. Schmidt und Weiner stellten die Zusam- menhänge zwischen gedanklicher Situationseinschätzung (wahrgenommene Kontrollierbarkeit), empfundenen Emotionen (Ärger, Sympathie) und aktivem Handeln (Wahrscheinlichkeit für Hilfeleistung) dar. Zum einen zeigte sich eine positive Korrelation zwischen wahrgenommener Kontrollierbarkeit und Ärger; Ärger wiederum stand in negativem Zusam- menhang zu Hilfeleistung. Zusätzlich bestand eine negative Korrelation zwischen Kontrollierbarkeit und Sympathie bzw. eine positive Verbindung zwischen Sympathie und der Wahrscheinlichkeit zur Hilfeleistung.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        4,
+        5
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9325937628746033,
+      "bbox": {
+        "x0": 128.30636596679688,
+        "y0": 718.9949340820312,
+        "x1": 457.9893798828125,
+        "y1": 887.9459838867188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 136,
+      "polygon": [
+        [
+          128.0,
+          718.0
+        ],
+        [
+          128.0,
+          886.0
+        ],
+        [
+          456.0,
+          886.0
+        ],
+        [
+          456.0,
+          718.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Ist eine Person nicht selbst schuld an ihrer Notlage und kann sich aus dieser nicht alleine befreien, so werden beim Beobachter prosoziale Emotionen ausgelöst, was zu ver- stärkter Hilfeleistung führt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.9134014248847961,
+      "bbox": {
+        "x0": 128.08468627929688,
+        "y0": 1151.4488525390625,
+        "x1": 436.67706298828125,
+        "y1": 1295.1678466796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 172,
+      "polygon": [
+        [
+          128.0,
+          1151.0
+        ],
+        [
+          128.0,
+          1294.0
+        ],
+        [
+          435.0,
+          1294.0
+        ],
+        [
+          435.0,
+          1151.0
+        ],
+        [
+          390.0,
+          1151.0
+        ],
+        [
+          135.0,
+          1151.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Forschung zu Heldentum und Zivilcourage beschäftigt sich u. a. mit der Frage, warum Menschen helfen, selbst wenn sie damit ihr eigenes Leben aufs Spiel setzen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.9274809956550598,
+      "bbox": {
+        "x0": 128.5638885498047,
+        "y0": 1552.98095703125,
+        "x1": 458.2745056152344,
+        "y1": 1887.03466796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 198,
+      "polygon": [
+        [
+          128.0,
+          1552.0
+        ],
+        [
+          128.0,
+          1886.0
+        ],
+        [
+          457.0,
+          1886.0
+        ],
+        [
+          457.0,
+          1552.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Entscheidend für zivilcouragiertes Verhalten (= Hilfeleistung trotz erheblicher negativer Konsequen- zen) sind prosoziale Werte und die Gefährlichkeit der Situation. Hohe Gefahr ist gegeben, wenn eine Notfallsituation vorliegt, ein Täter anwesend ist und wenn das Ein- schreiten mit hohen Kosten verbunden ist. In derartigen Situationen tritt der Bystander-Effekt nur in abgeschwächter Form auf.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9587637186050415,
+      "bbox": {
+        "x0": 502.945556640625,
+        "y0": 716.6349487304688,
+        "x1": 1407.302978515625,
+        "y1": 983.5742797851562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 221,
+      "polygon": [
+        [
+          502.0,
+          716.0
+        ],
+        [
+          502.0,
+          982.0
+        ],
+        [
+          1406.0,
+          982.0
+        ],
+        [
+          1406.0,
+          716.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Schmidt und Weiner fassten die Studienergebnisse folgendermaßen zusammen: Wenn uns klar wird, dass sich eine Person in einer Notsituation befindet, an der sie selbst nicht schuld ist (keine Kontrollierbarkeit) und die sie auch nicht alleine lösen kann, dann erleben wir prosoziale Emotionen (Empathie, Sympathie) gegenüber dieser Person, was letztendlich zu verstärkter Hilfeleistung führt. Gewinnen wir allerdings den Eindruck, dass eine hilfesuchende Person für ihre Notlage, die zudem kontrollierbar gewesen wäre, selbst verantwortlich ist, so erleben wir die Emotion Ärger und zögern deshalb, der betreffenden Person zu helfen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.8709045648574829,
+      "bbox": {
+        "x0": 506.1519775390625,
+        "y0": 1041.4090576171875,
+        "x1": 1096.1353759765625,
+        "y1": 1111.0587158203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 248,
+      "polygon": [
+        [
+          506.0,
+          1041.0
+        ],
+        [
+          506.0,
+          1110.0
+        ],
+        [
+          1095.0,
+          1110.0
+        ],
+        [
+          1095.0,
+          1041.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "4.4.4 Zivilcourage, Heldentum und gesellschaftliche Verantwortung",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9661211371421814,
+      "bbox": {
+        "x0": 502.6326599121094,
+        "y0": 1149.974853515625,
+        "x1": 1408.196044921875,
+        "y1": 1547.746826171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 272,
+      "polygon": [
+        [
+          502.0,
+          1149.0
+        ],
+        [
+          502.0,
+          1546.0
+        ],
+        [
+          1407.0,
+          1546.0
+        ],
+        [
+          1407.0,
+          1149.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Interessant ist, dass sich das Ausmaß an Hilfeleistung selbst in Situationen unterscheidet, in denen das persönliche Opfer des Helfers nichts besonders groß ist. Man könnte meinen, dass einem das Verleihen seiner Vorlesungsunterlagen nicht viel ausmachen dürfte. Wenn allerdings die Hilfeleistung bereits in solch einfachen Situationen reduziert ist – wie kann es dann sein, dass Personen manchmal auch dann helfen, wenn sie sich durch ihr heldenhaftes Verhalten selbst in Gefahr bringen? Weshalb sind die Feuerwehrleute nach den Anschlägen vom 11. September in New York todesmutig in die brennenden Trümmer des World Trade Centers gestiegen, um dort nach Überlebenden zu suchen? Warum opferten sich hunderte von Tepco-Mitarbeitern und Tokioter Feuerwehrmännern in Fukushima, um einen atomaren Supergau zu verhindern? Diese extremen Verhaltensweisen sind in der Forschung zu Heldentum und Zivilcourage untersucht worden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9666617512702942,
+      "bbox": {
+        "x0": 503.22015380859375,
+        "y0": 1549.5010986328125,
+        "x1": 1409.19189453125,
+        "y1": 1951.6029052734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 283,
+      "polygon": [
+        [
+          503.0,
+          1560.0
+        ],
+        [
+          511.0,
+          1950.0
+        ],
+        [
+          1408.0,
+          1950.0
+        ],
+        [
+          1408.0,
+          1549.0
+        ],
+        [
+          648.0,
+          1549.0
+        ],
+        [
+          511.0,
+          1549.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Zivicourage untersucht worden.\nWie eingangs erwähnt, bedeutet Zivilcourage, Hilfeverhalten zu zeigen, obwohl in der unmittelbaren Situation mit massiven negativen physischen, psychischen und sozialen Konsequenzen gerechnet werden muss. Zivilcouragiertes Verhalten ist stark gesteuert durch prosoziale Werte (Osswald, Greitemeyer, Fischer & Frey, 2010) und tritt vor allem dann auf, wenn Personen eine ernste Notlage für ein potentielles Opfer wahrnehmen (Fischer et al., 2011). Fischer, Greitemeyer, Pollozek und Frey (2006) konnten beispielsweise zeigen, dass die Wahrscheinlichkeit der Hilfeleistung größer war, wenn ein weibliches Opfer von einem muskulösen Täter (Bodybuilder) attackiert wurde, als wenn dieser nur geringe physische Stärke (schmächtigere Statur) aufwies. Diesen Befund konnten Fischer et al. (2011) in ihrer Metaanalyse bestätigen: Sie fanden einen abgeschwächten Bystander-Effekt (in Richtung höhere Hilfeleistung), wenn die Situation als gefährlich (Notfall) eingeschätzt wurde, wenn ein Täter anwesend war und",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1051.32666015625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 3093.449462890625
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1200.281982421875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1364.4197998046875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1973.4764404296875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1473.247314453125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 2257.832275390625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 931.3353271484375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1635.801025390625
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1643.1298828125
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1786.90966796875
+    }
+  ],
+  "warnungen": [
+    "Blöcke [4, 5] zu #4 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3938989579983172,
+      "zeitstempel": "2026-09-06T14:31:16.619993Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 15.566092875000322,
+      "zeitstempel": "2026-09-06T14:45:22.743401Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

@@ -1,0 +1,415 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 72,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 2,
+      "pp_label": "header",
+      "score": 0.8193051218986511,
+      "bbox": {
+        "x0": 112.66427612304688,
+        "y0": 78.2239990234375,
+        "x1": 752.9428100585938,
+        "y1": 106.8438720703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 11,
+      "polygon": [
+        [
+          112.0,
+          78.0
+        ],
+        [
+          112.0,
+          105.0
+        ],
+        [
+          751.0,
+          105.0
+        ],
+        [
+          751.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5.2 · Verschiedene psychologische Erklärungsansätze für Aggression",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 36,
+      "pp_label": "number",
+      "score": 0.5855199098587036,
+      "bbox": {
+        "x0": 1189.399658203125,
+        "y0": 54.2220458984375,
+        "x1": 1220.77880859375,
+        "y1": 79.9434814453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 35,
+      "polygon": [
+        [
+          1189.0,
+          54.0
+        ],
+        [
+          1189.0,
+          78.0
+        ],
+        [
+          1219.0,
+          78.0
+        ],
+        [
+          1219.0,
+          54.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "65",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 8,
+      "pp_label": "number",
+      "score": 0.6070371866226196,
+      "bbox": {
+        "x0": 1382.4193115234375,
+        "y0": 34.864898681640625,
+        "x1": 1420.617919921875,
+        "y1": 85.31954956054688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 49,
+      "polygon": [
+        [
+          1382.0,
+          34.0
+        ],
+        [
+          1382.0,
+          84.0
+        ],
+        [
+          1419.0,
+          84.0
+        ],
+        [
+          1419.0,
+          34.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9719142317771912,
+      "bbox": {
+        "x0": 109.11166381835938,
+        "y0": 183.68722534179688,
+        "x1": 1013.9165649414062,
+        "y1": 1083.378662109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 103,
+      "polygon": [
+        [
+          109.0,
+          183.0
+        ],
+        [
+          117.0,
+          1082.0
+        ],
+        [
+          1012.0,
+          1082.0
+        ],
+        [
+          1012.0,
+          183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "konnte beispielsweise gezeigt werden, dass die Amygdala bei der Kontrolle von Aggression beteiligt ist (Davidson, Jackson & Kalin, 2000, zit. nach Aronson et al., 2008). Die Amygdala besteht aus kleinen mandelförmigen Strukturen, die dem älteren, subkortikalen Teil des Gehirns angehören. Die Amygdala wird vor allem in Gefahrensituationen aktiviert, etwa wenn wir schnell entscheiden müssen, ob eine bestimmte Person oder Situation für uns gefährlich ist oder nicht (Amaral, 2003; Le Doux, 2002). Hirnlässionsstudien zeigen, dass die Aktivierung der Amygdala zu verstärktem Auftreten von Aggression führt (vgl. Coccaro, McCloskey, Fitzgerald & Phan, 2007). Andere Studien zeigen, dass auch der Neurotransmitter Serotonin eine wichtige Rolle bei der Entstehung von Aggression spielt (Miczek, Fish, de Bold & Almeida, 2002). Ist beispielsweise die natürliche Produktion von Serotonin gestört, so kann es zu vermehrter Aggression kommen. Entgegen früherer Befunde (Giacalone, Tansella, Valzelli & Garattini, 1968) scheint Serotonin also der Hemmung aggressiver Impulse zu dienen, d. h., je geringer der Serotoninspiegel, desto wahrscheinlicher ist aggressives Verhalten (Placidi et al., 2001). Schließlich zeigte sich auch, dass das Auftreten von aggressivem Verhalten in Zusammenhang mit dem menschlichen Testosteronspiegel steht. Allerdings sind hier die Befunde uneinheitlich: Mal ist von einem negativen Zusammenhang zwischen Testosteronspiegel und aggressivem Verhalten die Rede, mal wird dieser Zusammenhang als positiv beschrieben. (Archer, 1991). Einer neueren Metaanalyse zufolge scheint es sich jedoch um einen schwach positiven Zusammenhang zu handeln (Book, Starzyk & Quinsey, 2001). Das bedeutet, dass das Vorhandensein des Sexualhormons Testosteron im menschlichen Körper mit aggressivem Verhalten einhergeht. Die Wirkungsrichtung bleibt dabei allerdings fraglich; in einigen Studien ist beschrieben, dass der Testosteronspiegel nach der Ausübung aggressiven Verhaltens erhöht ist, wohingegen andere Studien einen hohen Testosteronspiegel als ursächlich für Aggression betrachten (Überblick bei Archer, 2006).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 4,
+      "pp_label": "paragraph_title",
+      "score": 0.8574657440185547,
+      "bbox": {
+        "x0": 112.86749267578125,
+        "y0": 1141.640380859375,
+        "x1": 700.2802734375,
+        "y1": 1177.166748046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 189,
+      "polygon": [
+        [
+          112.0,
+          1141.0
+        ],
+        [
+          112.0,
+          1176.0
+        ],
+        [
+          699.0,
+          1176.0
+        ],
+        [
+          699.0,
+          1141.0
+        ],
+        [
+          212.0,
+          1141.0
+        ],
+        [
+          192.22056360225838,
+          1150.8436970345226
+        ],
+        [
+          165.0,
+          1141.0
+        ],
+        [
+          158.0,
+          1141.0
+        ],
+        [
+          119.0,
+          1141.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5.2.3 Frustrations-Aggressions-Hypothese",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9707749485969543,
+      "bbox": {
+        "x0": 109.9725341796875,
+        "y0": 1216.3204345703125,
+        "x1": 1013.2114868164062,
+        "y1": 1681.1273193359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 196,
+      "polygon": [
+        [
+          109.0,
+          1216.0
+        ],
+        [
+          117.0,
+          1680.0
+        ],
+        [
+          1012.0,
+          1680.0
+        ],
+        [
+          1012.0,
+          1216.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Neben den triebtheoretischen und biologischen Überlegungen wird auch die sog. Frustrations-Aggressions-Hypothese zur Erklärung von Aggression herangezogen (Dollard, Miller, Doob, Mowrer & Sears, 1939). In der klassischen Formulierung dieser Hypothese nahmen Dollard et al. (1939) an, dass Frustration immer zu Aggression führt und dass umgekehrt Aggression immer Frustrationserleben voraussetzt. In einer späteren Fassung formulierten sie den ersten Teil jedoch nochmals um und präzisierten, dass Frustration nicht immer aggressives Verhalten zur Folge hat (Miller, 1941). Stattdessen kann Frustration auch zu anderen Reaktionen führen oder lediglich eine aggressive Tendenz auslösen, die sich aber nicht in aggressivem Verhalten zeigt. Entscheidend dafür, ob es tatsächlich zu aggressivem Verhalten kommt, ist daher, welche der potenziellen Antworten bzw. Reaktionen auf Frustration die dominante ist. Sie formulierten dies wie folgt um: »Frustration produces instignations to a number of different types of response, one of which is an instigation to some form of aggression« (Miller, 1941, S. 338).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9632810354232788,
+      "bbox": {
+        "x0": 110.02386474609375,
+        "y0": 1683.42041015625,
+        "x1": 1014.7420654296875,
+        "y1": 1949.689453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 229,
+      "polygon": [
+        [
+          118.0,
+          1683.0
+        ],
+        [
+          110.0,
+          1948.0
+        ],
+        [
+          1013.0,
+          1948.0
+        ],
+        [
+          1013.0,
+          1683.0
+        ],
+        [
+          209.0,
+          1683.0
+        ],
+        [
+          201.0,
+          1683.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "(Mühl, 1941, p. 556).\nEs ist nicht notwendig, dass die Frustration in objektiv-physischer Form auftritt (z. B. es wird einem die Vorfahrt genommen). Entscheidend ist vielmehr die subjektive Wahrnehmung eines Ereignisses oder die Interpretation einer Begebenheit als frustrierend. Gibt beispielsweise ein Vater seinem Sohn mehr Taschengeld als seiner Tochter, so ist es wahrscheinlich, dass sich diese gegenüber ihrem Bruder benachteiligt fühlen und möglicherweise an der Zuneigung ihres Vaters zweifeln wird. Zwar mag hier objektiv kein Grund zur Frustration vorliegen, da es grundsätzlich ja positiv ist, Geld zu bekommen, oder die Tochter aus anderen Situationen weiß, dass ihr Vater sie schätzt;",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.5391443371772766,
+      "bbox": {
+        "x0": 1055.3995361328125,
+        "y0": 1686.713623046875,
+        "x1": 1389.099609375,
+        "y1": 1826.333251953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 269,
+      "polygon": [
+        [
+          1055.0,
+          1686.0
+        ],
+        [
+          1055.0,
+          1825.0
+        ],
+        [
+          1388.0,
+          1825.0
+        ],
+        [
+          1388.0,
+          1686.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Frustrations-Aggressions-Hypothese geht davon aus, dass sich jegliche Frustration im Verhalten bemerkbar macht; eine Ausdrucks-form ist dabei Aggression.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1242.961181640625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 707.20947265625
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 2050.53515625
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1784.6727294921875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1983.4388427734375
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 2170.87744140625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 3019.900390625
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.37983325000095647,
+      "zeitstempel": "2026-09-06T14:31:19.761871Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 12.336746957997093,
+      "zeitstempel": "2026-09-06T14:47:02.825770Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

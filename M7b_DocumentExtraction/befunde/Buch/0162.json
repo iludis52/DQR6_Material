@@ -1,0 +1,567 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 162,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.8512729406356812,
+      "bbox": {
+        "x0": 114.13562774658203,
+        "y0": 77.7510986328125,
+        "x1": 653.984619140625,
+        "y1": 107.306640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 8,
+      "polygon": [
+        [
+          114.0,
+          77.0
+        ],
+        [
+          114.0,
+          106.0
+        ],
+        [
+          652.0,
+          106.0
+        ],
+        [
+          652.0,
+          77.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.2 · Bewältigung kollektiver Bedrohungen und Religion",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 13,
+      "pp_label": "number",
+      "score": 0.7791929244995117,
+      "bbox": {
+        "x0": 1369.6007080078125,
+        "y0": 33.470977783203125,
+        "x1": 1437.9305419921875,
+        "y1": 84.35617065429688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 45,
+      "polygon": [
+        [
+          1369.0,
+          33.0
+        ],
+        [
+          1369.0,
+          83.0
+        ],
+        [
+          1436.0,
+          83.0
+        ],
+        [
+          1436.0,
+          33.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9595044851303101,
+      "bbox": {
+        "x0": 109.66449737548828,
+        "y0": 182.3258056640625,
+        "x1": 1012.4146118164062,
+        "y1": 381.354248046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 81,
+      "polygon": [
+        [
+          109.0,
+          182.0
+        ],
+        [
+          109.0,
+          380.0
+        ],
+        [
+          1011.0,
+          380.0
+        ],
+        [
+          1011.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "tenden Situation zurecht. Beispiele derartiger Ereignisse sind der Tod eines Familienmitgliedes (McIntosh et al., 1993), medizinische Transplantationseingriffe (Tix & Frazier, 1998), Krebsdiagnosen (Carver et al., 1993) oder Naturkatastrophen (Smith, Pargament, Brant, & Oliver, 2000). Negative Emotionen bzw. Gedanken wie Angst oder Sorgen über den Tod sind bei hoher intrinsischer Religiosität reduziert (Hill & Pargament, 2003; Spilka, Hood, & Gorsuch, 1985).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9684883952140808,
+      "bbox": {
+        "x0": 109.7537841796875,
+        "y0": 382.954833984375,
+        "x1": 1012.754638671875,
+        "y1": 816.801513671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 102,
+      "polygon": [
+        [
+          109.0,
+          393.0
+        ],
+        [
+          117.0,
+          815.0
+        ],
+        [
+          1011.0,
+          815.0
+        ],
+        [
+          1011.0,
+          393.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "(Herrn, 2005, Spika, Hood, & Görstich, 1985).\nAllerdings sind die meisten entsprechenden Studien korrelativer Natur, was natürlich auch daran liegt, dass realitätsnahe Belastungssituationen aus ethischen Gründen nicht induziert und somit nicht experimentell manipuliert werden können (▶ Kap. 1). Genauso wenig kann intrinsische Religiosität experimentell manipuliert werden, da diese ja personenabhängig ist. Hinzu kommt, dass es sich in den Studien häufig um persönliche und individuell sehr verschiedene Belastungssituationen handelt, die eben nur einzelne Menschen betreffen. Dennoch gibt es auch gewisse belastende Umstände und Gegebenheiten, unter denen eine Vielzahl an Menschen zu leiden hat: beispielsweise die Hungerkatastrophe in Somalia, die diktatorische Herrschaft in Weißrussland, den ständigen Konflikt am Gazastreifen zwischen Palästinensern und Israelis, terroristische Angriffe jeder Art usw. Wir greifen uns nun den Bereich Terrorismus heraus und betrachten ihn gesondert dahingehend, inwieweit Religiosität hier als Resilienzfaktor dienen kann.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.919512927532196,
+      "bbox": {
+        "x0": 114.56767272949219,
+        "y0": 872.3805541992188,
+        "x1": 949.1734619140625,
+        "y1": 1008.7393188476562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 139,
+      "polygon": [
+        [
+          114.0,
+          872.0
+        ],
+        [
+          114.0,
+          1007.0
+        ],
+        [
+          948.0,
+          1007.0
+        ],
+        [
+          948.0,
+          872.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.2 Bewältigung kollektiver Bedrohungen und Religion: Terrorismus als Spezialfall belastender Lebensumstände – Dient auch hier Religiosität als Resilienzfaktor?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9681059718132019,
+      "bbox": {
+        "x0": 110.00456237792969,
+        "y0": 1049.1373291015625,
+        "x1": 1013.1409912109375,
+        "y1": 1513.3719482421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 171,
+      "polygon": [
+        [
+          110.0,
+          1060.0
+        ],
+        [
+          118.0,
+          1512.0
+        ],
+        [
+          1012.0,
+          1512.0
+        ],
+        [
+          1005.0,
+          1049.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Neben dem Terroranschlag auf das World Trade Center 2001 und weiteren Anschlägen 2008 in Mumbai sowie bei der Fußball-Weltmeisterschaft 2010 in Kampala ist zunehmend auch der europäische Raum der internationalen Terrorismusgefahr ausgesetzt. Dies ist beispielsweise an den Anschlägen auf die größte Synagoge Istanbuls im Jahr 2003 zu sehen, ebenso wie an den Zuganschlägen in Madrid 2004 oder denjenigen auf drei U-Bahnen bzw. einen Bus in London 2005. Laut amerikanischen Meinungsumfragen geht diese erhöhte Terrorismusgefahr zu Lasten der mentalen Gesundheit der Bevölkerung: Als US-Amerikaner nach dem 11. September 2001 ihre Gefühle beschreiben sollten, wurden am häufigsten negative Emotionen wie Angst, Trauer, Ärger genannt (Saad, 2001). Symptome eines posttraumatischen Stresssyndroms konnten in der Bevölkerung sogar noch nach 6 Monaten festgestellt werden (Silver, Holman, McIntosh, Poulin, & Gil-Rivas, 2002) und allgemein stieg die Angst vor weiteren terroristischen Anschlägen gegenüber dem Vorjahr extrem an – von 24% auf 54% (Fredrickson et al., 2003).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9519652724266052,
+      "bbox": {
+        "x0": 112.0553207397461,
+        "y0": 1515.111083984375,
+        "x1": 1012.2089233398438,
+        "y1": 1650.5595703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 207,
+      "polygon": [
+        [
+          112.0,
+          1515.0
+        ],
+        [
+          112.0,
+          1649.0
+        ],
+        [
+          1011.0,
+          1649.0
+        ],
+        [
+          1011.0,
+          1515.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2005). Die mögliche Bedrohung durch terroristische Anschläge wirkt sich deutlich negativ auf den emotionalen Zustand der Bevölkerung aus. Da terroristische Anschläge der Al-Qaida mittlerweile auch in Europa auftreten, ist ebenso hier mit negativen emotionalen Folgen zu rechnen. Wie gelingt es also, hiermit einen guten Umgang zu finden?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 9,
+      "pp_label": "paragraph_title",
+      "score": 0.8500471711158752,
+      "bbox": {
+        "x0": 113.81298828125,
+        "y0": 1708.111083984375,
+        "x1": 899.2073364257812,
+        "y1": 1742.456787109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 218,
+      "polygon": [
+        [
+          113.0,
+          1708.0
+        ],
+        [
+          113.0,
+          1741.0
+        ],
+        [
+          898.0,
+          1741.0
+        ],
+        [
+          898.0,
+          1708.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.2.1 Religion und Coping im Kontext von Terrorismus",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9498360753059387,
+      "bbox": {
+        "x0": 110.35880279541016,
+        "y0": 1782.6556396484375,
+        "x1": 1013.2512817382812,
+        "y1": 1949.2979736328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 224,
+      "polygon": [
+        [
+          118.0,
+          1782.0
+        ],
+        [
+          118.0,
+          1948.0
+        ],
+        [
+          1012.0,
+          1948.0
+        ],
+        [
+          1012.0,
+          1782.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Es stellt sich die Frage, ob intrinsische Religiosität auch im Kontext von Terrorismus-gefahr – und somit unter massiven äußeren Belastungen, die mit Todesgefahr verbunden sind – einen schützenden Faktor darstellt. Die meisten Studien hierzu sind aus dem amerikanischen Raum, korrelativer Art und Terrorismus wird häufig nur als eine von vielen Variablen erfasst. Ai und Peterson (2004) fanden bei Flüchtlingen aus",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.9156331419944763,
+      "bbox": {
+        "x0": 1056.5435791015625,
+        "y0": 384.8719482421875,
+        "x1": 1381.85693359375,
+        "y1": 611.5303955078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 265,
+      "polygon": [
+        [
+          1056.0,
+          384.0
+        ],
+        [
+          1056.0,
+          610.0
+        ],
+        [
+          1380.0,
+          610.0
+        ],
+        [
+          1380.0,
+          384.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die meisten Studien zu Religiosität und Coping sind korrelativer Art und beziehen sich oft nur auf Einzelpersonen. Belastende äußere Situationen, die dagegen eine Vielzahl an Menschen betreffen, können politische Umstände, wie etwa Krieg oder Terrorismus sein.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.8997538089752197,
+      "bbox": {
+        "x0": 1056.9708251953125,
+        "y0": 1051.32470703125,
+        "x1": 1382.1051025390625,
+        "y1": 1166.065673828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 287,
+      "polygon": [
+        [
+          1056.0,
+          1051.0
+        ],
+        [
+          1056.0,
+          1165.0
+        ],
+        [
+          1381.0,
+          1165.0
+        ],
+        [
+          1381.0,
+          1051.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Erhöhte Terrorismusgefahr wirkt sich negativ auf die psychische und physische Gesundheit der Betroffenen aus.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.9136369228363037,
+      "bbox": {
+        "x0": 1056.185791015625,
+        "y0": 1753.20654296875,
+        "x1": 1387.8751220703125,
+        "y1": 1892.723876953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 299,
+      "polygon": [
+        [
+          1056.0,
+          1753.0
+        ],
+        [
+          1056.0,
+          1891.0
+        ],
+        [
+          1386.0,
+          1891.0
+        ],
+        [
+          1386.0,
+          1753.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Korrelationsstudien zeigen, dass unter Terrorismusgefahr ein negativer Zusammenhang zwischen intrinsischer Religiosität und persönlichem Distress besteht.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2480.362548828125
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1859.17919921875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1371.2548828125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 2259.31787109375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 2273.320556640625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1764.9888916015625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 2578.098876953125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 915.9300537109375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 3148.570068359375
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 2450.5224609375
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 592.6278686523438
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.4052047090008273,
+      "zeitstempel": "2026-09-06T14:31:55.214666Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 13.999639499998011,
+      "zeitstempel": "2026-09-06T15:05:41.305338Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

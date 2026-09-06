@@ -1,0 +1,102 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 215,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 11,
+      "pp_label": "header",
+      "score": 0.7423263192176819,
+      "bbox": {
+        "x0": 114.95233917236328,
+        "y0": 79.43710327148438,
+        "x1": 946.59619140625,
+        "y1": 105.94143676757812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "212 Kapitel 12 · Soziale Neurowissenschaften: Einführung und ausgewählte Befunde",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 0,
+      "pp_label": "reference",
+      "score": 0.8891115784645081,
+      "bbox": {
+        "x0": 504.7798767089844,
+        "y0": 186.82525634765625,
+        "x1": 1404.5728759765625,
+        "y1": 800.2620849609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 58,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Premack, D. G. & Woodruff, G. (1978). Does the chimpanzee have a theory of mind? Behavioral and Brain Sciences, 1, 515–526.\nQuadflieg, S., Turk, D. J., Waiter, G. D., Mitchell, J. P., Jenkins, A. C. & Macrae, C. N. (2009). Exploring the neural correlates of social stereotyping. Journal of Cognitive Neuroscience, 21, 1560–1570.\nSanfey, A. G., Rilling, J. K., Aronson, J. A., Nystrom, L. E. & Cohen, J. D. (2003). The neural basis of economic decision-making in the ultimatum game. Science, 300, 1755–1758.\nSinger, T., Seymour, B., O'Doherty, J., Kaube, H., Dolan, R. J. & Frith, C. D. (2004). Empathy for pain involves the affective but not sensory components of pain. Science, 303, 1157–1162.\nSinger, T., Seymour, B., O'Doherty, J., Stephan, K. E., Dolan, R. J. & Frith, C. D. (2006). Empathic neural responses are modulated by the perceived fairness of others. Nature, 439, 466–469.\nThibaut, J. W. & Kelley, H. H. (1959). The social psychology of groups. Oxford: John Wiley.\nTooby, J. & Cosmides, L. (1990). The past explains the present: Emotional adaptations and the structure of ancestral environments. Ethology and Sociobiology, 11, 375–424.\nvan Overwalle, F. (2009). Social cognition and the brain: A meta-analysis. Human Brain Mapping, 30, 829–858.\nVogeley, K., Bussfeld, P., Newen, A., Herrmann, S., Happe, F., Falkai, P., Maier, W., Shah, N. J., Fink, G. R. & Zilles, K. (2001). Mind reading: Neural mechanisms of theory of mind and self-perspective. NeuroImage, 14, 170–181.\nVuilleumier, P., Armony, J. L., Driver, J. & Dolan, R. J. (2001). Effects of attention and emotion on face processing in the human brain: An event-related fMRI study. Neuron, 30, 829–841.\nWimmer, H. & Perner, J. (1983). Beliefs about beliefs: Representation and constraining function of wrong beliefs in young children's understanding of deception. Cognition, 13, 103–128.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2139.739013671875
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt.",
+    "Blöcke [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] zu #1 (reference) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3990633749999688,
+      "zeitstempel": "2026-09-06T14:32:15.728285Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 5.76444254099988,
+      "zeitstempel": "2026-09-06T15:16:46.937041Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

@@ -1,0 +1,2458 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 218,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8272377252578735,
+      "bbox": {
+        "x0": 113.85676574707031,
+        "y0": 77.09420776367188,
+        "x1": 315.1894836425781,
+        "y1": 107.04763793945312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": [
+        [
+          113.0,
+          77.0
+        ],
+        [
+          113.0,
+          106.0
+        ],
+        [
+          314.0,
+          106.0
+        ],
+        [
+          314.0,
+          77.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Stichwortverzeichnis",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 92,
+      "pp_label": "text",
+      "score": 0.5381160378456116,
+      "bbox": {
+        "x0": 111.80329132080078,
+        "y0": 181.75717163085938,
+        "x1": 503.76409912109375,
+        "y1": 246.72097778320312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 7,
+      "polygon": [
+        [
+          111.0,
+          181.0
+        ],
+        [
+          111.0,
+          245.0
+        ],
+        [
+          464.0,
+          245.0
+        ],
+        [
+          502.0,
+          224.0
+        ],
+        [
+          502.0,
+          181.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Empathie-Altruismus-Hypothese 51, 52",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.530670702457428,
+      "bbox": {
+        "x0": 111.8954086303711,
+        "y0": 283.1263427734375,
+        "x1": 319.3551330566406,
+        "y1": 315.733154296875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 8,
+      "polygon": [
+        [
+          111.0,
+          283.0
+        ],
+        [
+          111.0,
+          314.0
+        ],
+        [
+          318.0,
+          314.0
+        ],
+        [
+          318.0,
+          283.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Kritikpunkte 53",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 5,
+      "pp_label": "paragraph_title",
+      "score": 0.6935768127441406,
+      "bbox": {
+        "x0": 152.37387084960938,
+        "y0": 685.4005126953125,
+        "x1": 185.9398651123047,
+        "y1": 729.15234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 23,
+      "polygon": [
+        [
+          152.0,
+          685.0
+        ],
+        [
+          152.0,
+          728.0
+        ],
+        [
+          184.0,
+          728.0
+        ],
+        [
+          184.0,
+          685.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "F",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 64,
+      "pp_label": "text",
+      "score": 0.5138086676597595,
+      "bbox": {
+        "x0": 113.28556060791016,
+        "y0": 883.1236572265625,
+        "x1": 430.8652648925781,
+        "y1": 914.5501708984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 38,
+      "polygon": [
+        [
+          113.0,
+          883.0
+        ],
+        [
+          113.0,
+          913.0
+        ],
+        [
+          429.0,
+          913.0
+        ],
+        [
+          429.0,
+          883.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Forced-Choice-Paradigma 22",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 39,
+      "pp_label": "text",
+      "score": 0.538674533367157,
+      "bbox": {
+        "x0": 113.84526062011719,
+        "y0": 950.522216796875,
+        "x1": 492.03424072265625,
+        "y1": 1013.74169921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 41,
+      "polygon": [
+        [
+          113.0,
+          950.0
+        ],
+        [
+          113.0,
+          1012.0
+        ],
+        [
+          484.0,
+          1012.0
+        ],
+        [
+          491.0,
+          1002.0
+        ],
+        [
+          491.0,
+          950.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Forschungsmethoden, sozialpsycho-logische",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.605124831199646,
+      "bbox": {
+        "x0": 111.96485900878906,
+        "y0": 1016.4100952148438,
+        "x1": 309.58514404296875,
+        "y1": 1048.97265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 44,
+      "polygon": [
+        [
+          111.0,
+          1016.0
+        ],
+        [
+          111.0,
+          1047.0
+        ],
+        [
+          308.0,
+          1047.0
+        ],
+        [
+          308.0,
+          1016.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Experiment 11",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 18,
+      "pp_label": "text",
+      "score": 0.5728170275688171,
+      "bbox": {
+        "x0": 110.78350830078125,
+        "y0": 1050.875732421875,
+        "x1": 407.78753662109375,
+        "y1": 1080.458984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 46,
+      "polygon": [
+        [
+          118.0,
+          1050.0
+        ],
+        [
+          118.0,
+          1079.0
+        ],
+        [
+          406.0,
+          1079.0
+        ],
+        [
+          406.0,
+          1050.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Korrelationsmethode 10",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.5703222155570984,
+      "bbox": {
+        "x0": 112.60697937011719,
+        "y0": 1083.13330078125,
+        "x1": 387.3172912597656,
+        "y1": 1115.69482421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 48,
+      "polygon": [
+        [
+          112.0,
+          1083.0
+        ],
+        [
+          112.0,
+          1114.0
+        ],
+        [
+          386.0,
+          1114.0
+        ],
+        [
+          386.0,
+          1083.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- qualitative Methode 7",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.5786387324333191,
+      "bbox": {
+        "x0": 112.14064025878906,
+        "y0": 1117.9407958984375,
+        "x1": 401.02777099609375,
+        "y1": 1148.7357177734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 53,
+      "polygon": [
+        [
+          112.0,
+          1117.0
+        ],
+        [
+          112.0,
+          1147.0
+        ],
+        [
+          400.0,
+          1147.0
+        ],
+        [
+          400.0,
+          1117.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– quantitative Methode 9",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.580683708190918,
+      "bbox": {
+        "x0": 111.63054656982422,
+        "y0": 1151.244140625,
+        "x1": 423.75,
+        "y1": 1182.0068359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 55,
+      "polygon": [
+        [
+          111.0,
+          1151.0
+        ],
+        [
+          111.0,
+          1181.0
+        ],
+        [
+          422.0,
+          1181.0
+        ],
+        [
+          422.0,
+          1151.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Verhaltensbeobachtung 8",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 41,
+      "pp_label": "text",
+      "score": 0.5664905309677124,
+      "bbox": {
+        "x0": 112.83322143554688,
+        "y0": 1216.634521484375,
+        "x1": 407.8341979980469,
+        "y1": 1248.375244140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 56,
+      "polygon": [
+        [
+          112.0,
+          1216.0
+        ],
+        [
+          112.0,
+          1247.0
+        ],
+        [
+          406.0,
+          1247.0
+        ],
+        [
+          406.0,
+          1216.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Free-Choice-Paradigma 18",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 16,
+      "pp_label": "paragraph_title",
+      "score": 0.5036212801933289,
+      "bbox": {
+        "x0": 113.2267837524414,
+        "y0": 1183.670654296875,
+        "x1": 252.6929473876953,
+        "y1": 1214.2666015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 57,
+      "polygon": [
+        [
+          113.0,
+          1183.0
+        ],
+        [
+          113.0,
+          1213.0
+        ],
+        [
+          251.0,
+          1213.0
+        ],
+        [
+          251.0,
+          1183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Framing 40",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 48,
+      "pp_label": "text",
+      "score": 0.5189140439033508,
+      "bbox": {
+        "x0": 113.1058578491211,
+        "y0": 1282.7880859375,
+        "x1": 467.458984375,
+        "y1": 1315.390380859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 60,
+      "polygon": [
+        [
+          113.0,
+          1282.0
+        ],
+        [
+          113.0,
+          1314.0
+        ],
+        [
+          466.0,
+          1314.0
+        ],
+        [
+          466.0,
+          1282.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Fremdgruppe 100, 120, 166, 208",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 52,
+      "pp_label": "text",
+      "score": 0.5233408808708191,
+      "bbox": {
+        "x0": 113.22832489013672,
+        "y0": 1350.4248046875,
+        "x1": 468.638671875,
+        "y1": 1382.339599609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 64,
+      "polygon": [
+        [
+          113.0,
+          1350.0
+        ],
+        [
+          113.0,
+          1381.0
+        ],
+        [
+          467.0,
+          1381.0
+        ],
+        [
+          467.0,
+          1372.0
+        ],
+        [
+          467.0,
+          1360.0
+        ],
+        [
+          467.0,
+          1350.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Fremdgruppenhomogenität 123",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 15,
+      "query_id": 58,
+      "pp_label": "text",
+      "score": 0.5409160852432251,
+      "bbox": {
+        "x0": 112.88294219970703,
+        "y0": 1316.869384765625,
+        "x1": 473.148193359375,
+        "y1": 1348.433349609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 65,
+      "polygon": [
+        [
+          112.0,
+          1316.0
+        ],
+        [
+          112.0,
+          1347.0
+        ],
+        [
+          472.0,
+          1347.0
+        ],
+        [
+          472.0,
+          1316.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Fremdgruppenheterogenität 123",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 16,
+      "query_id": 19,
+      "pp_label": "text",
+      "score": 0.5587831735610962,
+      "bbox": {
+        "x0": 112.59318542480469,
+        "y0": 1383.39892578125,
+        "x1": 489.92901611328125,
+        "y1": 1447.40087890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 67,
+      "polygon": [
+        [
+          112.0,
+          1383.0
+        ],
+        [
+          112.0,
+          1446.0
+        ],
+        [
+          481.0,
+          1446.0
+        ],
+        [
+          488.0,
+          1436.0
+        ],
+        [
+          488.0,
+          1383.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Frustrations-Aggressions-Hypothese 65, 68",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 17,
+      "query_id": 22,
+      "pp_label": "text",
+      "score": 0.6353034377098083,
+      "bbox": {
+        "x0": 112.54600524902344,
+        "y0": 1449.0380859375,
+        "x1": 478.2246398925781,
+        "y1": 1483.56787109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 68,
+      "polygon": [
+        [
+          112.0,
+          1449.0
+        ],
+        [
+          112.0,
+          1482.0
+        ],
+        [
+          477.0,
+          1482.0
+        ],
+        [
+          477.0,
+          1449.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Fundamentalismus, religiöser 166",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 18,
+      "query_id": 4,
+      "pp_label": "paragraph_title",
+      "score": 0.7278178930282593,
+      "bbox": {
+        "x0": 153.20872497558594,
+        "y0": 1586.1068115234375,
+        "x1": 191.5871124267578,
+        "y1": 1628.5443115234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 69,
+      "polygon": [
+        [
+          153.0,
+          1586.0
+        ],
+        [
+          153.0,
+          1627.0
+        ],
+        [
+          190.0,
+          1627.0
+        ],
+        [
+          190.0,
+          1586.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "G",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 19,
+      "query_id": 70,
+      "pp_label": "text",
+      "score": 0.5654717087745667,
+      "bbox": {
+        "x0": 112.66244506835938,
+        "y0": 1681.54150390625,
+        "x1": 458.9634094238281,
+        "y1": 1715.775390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 72,
+      "polygon": [
+        [
+          112.0,
+          1681.0
+        ],
+        [
+          112.0,
+          1714.0
+        ],
+        [
+          457.0,
+          1714.0
+        ],
+        [
+          457.0,
+          1681.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Gambler's Fallacy ▶ Spielerirrtum",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 20,
+      "query_id": 61,
+      "pp_label": "text",
+      "score": 0.5175660252571106,
+      "bbox": {
+        "x0": 113.10787200927734,
+        "y0": 1751.1058349609375,
+        "x1": 458.0625,
+        "y1": 1811.7711181640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 74,
+      "polygon": [
+        [
+          113.0,
+          1751.0
+        ],
+        [
+          113.0,
+          1810.0
+        ],
+        [
+          457.0,
+          1810.0
+        ],
+        [
+          457.0,
+          1751.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "General Aggression Model (GAM)\n72",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 21,
+      "query_id": 40,
+      "pp_label": "text",
+      "score": 0.5431406497955322,
+      "bbox": {
+        "x0": 112.51300048828125,
+        "y0": 1815.407958984375,
+        "x1": 485.8316650390625,
+        "y1": 1848.887939453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 83,
+      "polygon": [
+        [
+          112.0,
+          1815.0
+        ],
+        [
+          112.0,
+          1847.0
+        ],
+        [
+          484.0,
+          1847.0
+        ],
+        [
+          484.0,
+          1815.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Gesichtsareal, fusiformes (FFA) 203",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 22,
+      "query_id": 50,
+      "pp_label": "text",
+      "score": 0.5332688093185425,
+      "bbox": {
+        "x0": 113.19353485107422,
+        "y0": 1917.507568359375,
+        "x1": 336.96185302734375,
+        "y1": 1950.721923828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 92,
+      "polygon": [
+        [
+          113.0,
+          1917.0
+        ],
+        [
+          113.0,
+          1949.0
+        ],
+        [
+          335.0,
+          1949.0
+        ],
+        [
+          335.0,
+          1917.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Groupthink 21, 132",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 23,
+      "query_id": 126,
+      "pp_label": "text",
+      "score": 0.5018478631973267,
+      "bbox": {
+        "x0": 549.873779296875,
+        "y0": 749.347412109375,
+        "x1": 844.9020385742188,
+        "y1": 781.8721923828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 122,
+      "polygon": [
+        [
+          549.0,
+          749.0
+        ],
+        [
+          549.0,
+          780.0
+        ],
+        [
+          843.0,
+          780.0
+        ],
+        [
+          843.0,
+          749.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Gruppenmerkmale, positive",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 24,
+      "query_id": 79,
+      "pp_label": "text",
+      "score": 0.500754714012146,
+      "bbox": {
+        "x0": 550.0584106445312,
+        "y0": 849.418701171875,
+        "x1": 852.6530151367188,
+        "y1": 883.48583984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 125,
+      "polygon": [
+        [
+          550.0,
+          849.0
+        ],
+        [
+          550.0,
+          882.0
+        ],
+        [
+          851.0,
+          882.0
+        ],
+        [
+          851.0,
+          849.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Leistungssteigerung 129",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 25,
+      "query_id": 120,
+      "pp_label": "text",
+      "score": 0.5008000135421753,
+      "bbox": {
+        "x0": 552.3216552734375,
+        "y0": 916.6873779296875,
+        "x1": 791.8457641601562,
+        "y1": 948.8883056640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 132,
+      "polygon": [
+        [
+          552.0,
+          916.0
+        ],
+        [
+          552.0,
+          947.0
+        ],
+        [
+          790.0,
+          947.0
+        ],
+        [
+          790.0,
+          924.0
+        ],
+        [
+          575.0,
+          916.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Gruppennormen 127",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 26,
+      "query_id": 103,
+      "pp_label": "text",
+      "score": 0.533539891242981,
+      "bbox": {
+        "x0": 551.1953125,
+        "y0": 950.2295532226562,
+        "x1": 773.615966796875,
+        "y1": 984.6193237304688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 134,
+      "polygon": [
+        [
+          551.0,
+          950.0
+        ],
+        [
+          551.0,
+          961.0
+        ],
+        [
+          551.0,
+          973.0
+        ],
+        [
+          551.0,
+          983.0
+        ],
+        [
+          772.0,
+          983.0
+        ],
+        [
+          772.0,
+          950.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Gruppenstatus 123",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 27,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.7095301151275635,
+      "bbox": {
+        "x0": 590.0674438476562,
+        "y0": 1082.94287109375,
+        "x1": 631.0668334960938,
+        "y1": 1131.34423828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 135,
+      "polygon": [
+        [
+          590.0,
+          1082.0
+        ],
+        [
+          590.0,
+          1130.0
+        ],
+        [
+          630.0,
+          1130.0
+        ],
+        [
+          630.0,
+          1082.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "H",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 28,
+      "query_id": 17,
+      "pp_label": "text",
+      "score": 0.500282883644104,
+      "bbox": {
+        "x0": 548.1488037109375,
+        "y0": 1316.884521484375,
+        "x1": 811.2486572265625,
+        "y1": 1347.822021484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 146,
+      "polygon": [
+        [
+          548.0,
+          1316.0
+        ],
+        [
+          548.0,
+          1346.0
+        ],
+        [
+          810.0,
+          1346.0
+        ],
+        [
+          810.0,
+          1316.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Expertenheuristik 30",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 29,
+      "query_id": 53,
+      "pp_label": "text",
+      "score": 0.5353273749351501,
+      "bbox": {
+        "x0": 547.8707885742188,
+        "y0": 1383.330322265625,
+        "x1": 900.41748046875,
+        "y1": 1414.723388671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 156,
+      "polygon": [
+        [
+          547.0,
+          1383.0
+        ],
+        [
+          547.0,
+          1413.0
+        ],
+        [
+          899.0,
+          1413.0
+        ],
+        [
+          899.0,
+          1383.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Repräsentativitätsheuristik 35",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 30,
+      "query_id": 59,
+      "pp_label": "text",
+      "score": 0.509181797504425,
+      "bbox": {
+        "x0": 550.280029296875,
+        "y0": 1450.4755859375,
+        "x1": 867.830078125,
+        "y1": 1482.212646484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 157,
+      "polygon": [
+        [
+          550.0,
+          1450.0
+        ],
+        [
+          550.0,
+          1460.0
+        ],
+        [
+          550.0,
+          1472.0
+        ],
+        [
+          550.0,
+          1481.0
+        ],
+        [
+          866.0,
+          1481.0
+        ],
+        [
+          866.0,
+          1450.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– Verfügbarkeitsheuristik 34",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 31,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.5692500472068787,
+      "bbox": {
+        "x0": 551.5391845703125,
+        "y0": 1549.7852783203125,
+        "x1": 765.6773681640625,
+        "y1": 1581.9000244140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 161,
+      "polygon": [
+        [
+          551.0,
+          1549.0
+        ],
+        [
+          551.0,
+          1559.0
+        ],
+        [
+          559.0,
+          1580.0
+        ],
+        [
+          764.0,
+          1580.0
+        ],
+        [
+          764.0,
+          1549.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Hidden Profile 131",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 32,
+      "query_id": 51,
+      "pp_label": "text",
+      "score": 0.5767350792884827,
+      "bbox": {
+        "x0": 552.5347900390625,
+        "y0": 1483.7841796875,
+        "x1": 965.5056762695312,
+        "y1": 1545.968994140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 162,
+      "polygon": [
+        [
+          552.0,
+          1483.0
+        ],
+        [
+          552.0,
+          1544.0
+        ],
+        [
+          964.0,
+          1544.0
+        ],
+        [
+          964.0,
+          1483.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Heuristisch-systematisches Modell (HSM) 92",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 33,
+      "query_id": 14,
+      "pp_label": "text",
+      "score": 0.5262086987495422,
+      "bbox": {
+        "x0": 551.7266235351562,
+        "y0": 1583.6488037109375,
+        "x1": 753.989501953125,
+        "y1": 1613.9427490234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 163,
+      "polygon": [
+        [
+          559.0,
+          1583.0
+        ],
+        [
+          559.0,
+          1612.0
+        ],
+        [
+          752.0,
+          1612.0
+        ],
+        [
+          752.0,
+          1583.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Hilfeverhalten 46",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 34,
+      "query_id": 62,
+      "pp_label": "text",
+      "score": 0.5135120749473572,
+      "bbox": {
+        "x0": 552.4119262695312,
+        "y0": 1650.193603515625,
+        "x1": 759.2501831054688,
+        "y1": 1682.109619140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 167,
+      "polygon": [
+        [
+          552.0,
+          1650.0
+        ],
+        [
+          552.0,
+          1681.0
+        ],
+        [
+          758.0,
+          1681.0
+        ],
+        [
+          758.0,
+          1650.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Homogenität 122",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 35,
+      "query_id": 37,
+      "pp_label": "text",
+      "score": 0.5137430429458618,
+      "bbox": {
+        "x0": 552.3156127929688,
+        "y0": 1716.837158203125,
+        "x1": 784.6871337890625,
+        "y1": 1748.736083984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 168,
+      "polygon": [
+        [
+          552.0,
+          1716.0
+        ],
+        [
+          552.0,
+          1747.0
+        ],
+        [
+          783.0,
+          1747.0
+        ],
+        [
+          783.0,
+          1716.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Hot Hand Illusion 38",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 36,
+      "query_id": 106,
+      "pp_label": "text",
+      "score": 0.5204228758811951,
+      "bbox": {
+        "x0": 552.4663696289062,
+        "y0": 1616.9014892578125,
+        "x1": 779.3869018554688,
+        "y1": 1649.0794677734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 169,
+      "polygon": [
+        [
+          552.0,
+          1616.0
+        ],
+        [
+          552.0,
+          1648.0
+        ],
+        [
+          778.0,
+          1648.0
+        ],
+        [
+          778.0,
+          1616.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Hirschjagd 178, 179",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 37,
+      "query_id": 82,
+      "pp_label": "text",
+      "score": 0.5196659564971924,
+      "bbox": {
+        "x0": 551.20068359375,
+        "y0": 1782.3155517578125,
+        "x1": 862.3894653320312,
+        "y1": 1815.1849365234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 170,
+      "polygon": [
+        [
+          551.0,
+          1782.0
+        ],
+        [
+          551.0,
+          1792.0
+        ],
+        [
+          559.0,
+          1814.0
+        ],
+        [
+          861.0,
+          1814.0
+        ],
+        [
+          861.0,
+          1782.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Hyperämie, funktionelle 195",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 38,
+      "query_id": 86,
+      "pp_label": "text",
+      "score": 0.5292560458183289,
+      "bbox": {
+        "x0": 552.68310546875,
+        "y0": 1817.03125,
+        "x1": 932.6063232421875,
+        "y1": 1850.703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 176,
+      "polygon": [
+        [
+          552.0,
+          1817.0
+        ],
+        [
+          552.0,
+          1849.0
+        ],
+        [
+          931.0,
+          1849.0
+        ],
+        [
+          931.0,
+          1817.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Hypocrisy-Experimente ▶ Heuchelei-",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 39,
+      "query_id": 38,
+      "pp_label": "text",
+      "score": 0.504879891872406,
+      "bbox": {
+        "x0": 551.6679077148438,
+        "y0": 1750.6212158203125,
+        "x1": 746.3433837890625,
+        "y1": 1781.5115966796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 177,
+      "polygon": [
+        [
+          551.0,
+          1750.0
+        ],
+        [
+          551.0,
+          1760.0
+        ],
+        [
+          559.0,
+          1780.0
+        ],
+        [
+          745.0,
+          1780.0
+        ],
+        [
+          745.0,
+          1750.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Hühnerspiel 179",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 40,
+      "query_id": 25,
+      "pp_label": "paragraph_title",
+      "score": 0.6174556612968445,
+      "bbox": {
+        "x0": 1026.7789306640625,
+        "y0": 182.615478515625,
+        "x1": 1053.3695068359375,
+        "y1": 231.2486572265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 187,
+      "polygon": [
+        [
+          1026.0,
+          182.0
+        ],
+        [
+          1026.0,
+          230.0
+        ],
+        [
+          1046.0,
+          230.0
+        ],
+        [
+          1052.0,
+          221.0
+        ],
+        [
+          1052.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "-",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 41,
+      "query_id": 57,
+      "pp_label": "text",
+      "score": 0.5342615842819214,
+      "bbox": {
+        "x0": 989.039306640625,
+        "y0": 279.65478515625,
+        "x1": 1155.5924072265625,
+        "y1": 314.880615234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 189,
+      "polygon": [
+        [
+          989.0,
+          279.0
+        ],
+        [
+          989.0,
+          313.0
+        ],
+        [
+          1154.0,
+          313.0
+        ],
+        [
+          1154.0,
+          279.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "IAT-Effekt 105",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 42,
+      "query_id": 173,
+      "pp_label": "text",
+      "score": 0.5514167547225952,
+      "bbox": {
+        "x0": 989.0167846679688,
+        "y0": 383.1695861816406,
+        "x1": 1183.4185791015625,
+        "y1": 415.6141052246094,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 199,
+      "polygon": [
+        [
+          989.0,
+          383.0
+        ],
+        [
+          989.0,
+          414.0
+        ],
+        [
+          1175.0,
+          414.0
+        ],
+        [
+          1182.0,
+          406.0
+        ],
+        [
+          1182.0,
+          383.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- personale 122",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 43,
+      "query_id": 68,
+      "pp_label": "text",
+      "score": 0.5016998052597046,
+      "bbox": {
+        "x0": 989.9105224609375,
+        "y0": 516.8740234375,
+        "x1": 1372.635009765625,
+        "y1": 548.723388671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 206,
+      "polygon": [
+        [
+          989.0,
+          516.0
+        ],
+        [
+          989.0,
+          547.0
+        ],
+        [
+          1364.0,
+          547.0
+        ],
+        [
+          1371.0,
+          539.0
+        ],
+        [
+          1371.0,
+          516.0
+        ],
+        [
+          1080.0,
+          516.0
+        ],
+        [
+          1071.0,
+          516.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Impliziter Assoziationstest (IAT) 104",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 44,
+      "query_id": 69,
+      "pp_label": "text",
+      "score": 0.5114837884902954,
+      "bbox": {
+        "x0": 990.237060546875,
+        "y0": 816.9849853515625,
+        "x1": 1364.6722412109375,
+        "y1": 848.51708984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 232,
+      "polygon": [
+        [
+          990.0,
+          816.0
+        ],
+        [
+          990.0,
+          847.0
+        ],
+        [
+          1363.0,
+          847.0
+        ],
+        [
+          1363.0,
+          816.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Insula, anteriore 206, 207, 208, 209",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 45,
+      "query_id": 109,
+      "pp_label": "text",
+      "score": 0.5080134868621826,
+      "bbox": {
+        "x0": 991.40869140625,
+        "y0": 850.0703125,
+        "x1": 1301.314697265625,
+        "y1": 882.035888671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 233,
+      "polygon": [
+        [
+          991.0,
+          850.0
+        ],
+        [
+          991.0,
+          881.0
+        ],
+        [
+          1300.0,
+          881.0
+        ],
+        [
+          1300.0,
+          850.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Intergruppenbeziehung 133",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 46,
+      "query_id": 108,
+      "pp_label": "text",
+      "score": 0.5416048765182495,
+      "bbox": {
+        "x0": 990.0206909179688,
+        "y0": 884.3021240234375,
+        "x1": 1353.3671875,
+        "y1": 918.0865478515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 235,
+      "polygon": [
+        [
+          990.0,
+          884.0
+        ],
+        [
+          990.0,
+          909.0
+        ],
+        [
+          998.0,
+          917.0
+        ],
+        [
+          1088.0,
+          917.0
+        ],
+        [
+          1142.0,
+          917.0
+        ],
+        [
+          1148.0,
+          917.0
+        ],
+        [
+          1157.0,
+          917.0
+        ],
+        [
+          1163.0,
+          917.0
+        ],
+        [
+          1195.0,
+          917.0
+        ],
+        [
+          1247.0,
+          917.0
+        ],
+        [
+          1255.0,
+          917.0
+        ],
+        [
+          1292.0,
+          917.0
+        ],
+        [
+          1301.0,
+          917.0
+        ],
+        [
+          1315.0,
+          917.0
+        ],
+        [
+          1352.0,
+          909.0
+        ],
+        [
+          1352.0,
+          884.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Intergruppendiskriminierung 119",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 47,
+      "query_id": 1,
+      "pp_label": "paragraph_title",
+      "score": 0.6980611681938171,
+      "bbox": {
+        "x0": 1030.009033203125,
+        "y0": 1017.2259521484375,
+        "x1": 1066.43310546875,
+        "y1": 1062.8712158203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 244,
+      "polygon": [
+        [
+          1030.0,
+          1017.0
+        ],
+        [
+          1030.0,
+          1061.0
+        ],
+        [
+          1065.0,
+          1061.0
+        ],
+        [
+          1065.0,
+          1017.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "K",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 48,
+      "query_id": 32,
+      "pp_label": "text",
+      "score": 0.5078034996986389,
+      "bbox": {
+        "x0": 990.4544677734375,
+        "y0": 1683.471435546875,
+        "x1": 1292.7421875,
+        "y1": 1715.054931640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 285,
+      "polygon": [
+        [
+          990.0,
+          1683.0
+        ],
+        [
+          990.0,
+          1714.0
+        ],
+        [
+          1291.0,
+          1714.0
+        ],
+        [
+          1291.0,
+          1683.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kontakthypothese 110, 133",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 49,
+      "query_id": 72,
+      "pp_label": "text",
+      "score": 0.5631407499313354,
+      "bbox": {
+        "x0": 989.9227294921875,
+        "y0": 1850.762451171875,
+        "x1": 1373.976318359375,
+        "y1": 1914.027099609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 297,
+      "polygon": [
+        [
+          989.0,
+          1850.0
+        ],
+        [
+          989.0,
+          1913.0
+        ],
+        [
+          1365.0,
+          1913.0
+        ],
+        [
+          1372.0,
+          1903.0
+        ],
+        [
+          1372.0,
+          1850.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– anterior (ACC) 198, 200, 201, 204,\n206, 207",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 50,
+      "query_id": 31,
+      "pp_label": "text",
+      "score": 0.5439819097518921,
+      "bbox": {
+        "x0": 989.4474487304688,
+        "y0": 1917.2777099609375,
+        "x1": 1282.877197265625,
+        "y1": 1951.5089111328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 298,
+      "polygon": [
+        [
+          989.0,
+          1917.0
+        ],
+        [
+          989.0,
+          1950.0
+        ],
+        [
+          1214.0,
+          1950.0
+        ],
+        [
+          1230.0,
+          1950.0
+        ],
+        [
+          1244.0,
+          1950.0
+        ],
+        [
+          1281.0,
+          1942.0
+        ],
+        [
+          1281.0,
+          1917.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "– posterior (PCC) 198, 209",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 3289.4033203125
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1561.9793701171875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 2428.2587890625
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1552.5994873046875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1690.9840087890625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1302.615966796875
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 72.21843719482422
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1457.5208740234375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 123.68585205078125
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 2.5774187471794274e-12,
+      "marge": -26.684232711791992
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 547.2185668945312
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 0.0,
+      "marge": -266.96185302734375
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 571.7959594726562
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 781.8743896484375
+    },
+    {
+      "von": 14,
+      "nach": 15,
+      "konfidenz": 0.0,
+      "marge": -922.318115234375
+    },
+    {
+      "von": 15,
+      "nach": 16,
+      "konfidenz": 1.0,
+      "marge": 1425.7237548828125
+    },
+    {
+      "von": 16,
+      "nach": 17,
+      "konfidenz": 1.0,
+      "marge": 833.0115356445312
+    },
+    {
+      "von": 17,
+      "nach": 18,
+      "konfidenz": 1.0,
+      "marge": 451.918701171875
+    },
+    {
+      "von": 18,
+      "nach": 19,
+      "konfidenz": 1.0,
+      "marge": 1980.6444091796875
+    },
+    {
+      "von": 19,
+      "nach": 20,
+      "konfidenz": 1.0,
+      "marge": 21.732532501220703
+    },
+    {
+      "von": 20,
+      "nach": 21,
+      "konfidenz": 1.0,
+      "marge": 67.56562042236328
+    },
+    {
+      "von": 21,
+      "nach": 22,
+      "konfidenz": 1.0,
+      "marge": 2286.298828125
+    },
+    {
+      "von": 22,
+      "nach": 23,
+      "konfidenz": 1.0,
+      "marge": 3200.32373046875
+    },
+    {
+      "von": 23,
+      "nach": 24,
+      "konfidenz": 1.0,
+      "marge": 570.17333984375
+    },
+    {
+      "von": 24,
+      "nach": 25,
+      "konfidenz": 1.0,
+      "marge": 1166.68310546875
+    },
+    {
+      "von": 25,
+      "nach": 26,
+      "konfidenz": 1.0,
+      "marge": 109.77165985107422
+    },
+    {
+      "von": 26,
+      "nach": 27,
+      "konfidenz": 1.0,
+      "marge": 427.23260498046875
+    },
+    {
+      "von": 27,
+      "nach": 28,
+      "konfidenz": 1.0,
+      "marge": 2285.252197265625
+    },
+    {
+      "von": 28,
+      "nach": 29,
+      "konfidenz": 1.0,
+      "marge": 1512.6685791015625
+    },
+    {
+      "von": 29,
+      "nach": 30,
+      "konfidenz": 1.0,
+      "marge": 1547.0443115234375
+    },
+    {
+      "von": 30,
+      "nach": 31,
+      "konfidenz": 1.0,
+      "marge": 131.20484924316406
+    },
+    {
+      "von": 31,
+      "nach": 32,
+      "konfidenz": 1.0,
+      "marge": 465.4085998535156
+    },
+    {
+      "von": 32,
+      "nach": 33,
+      "konfidenz": 0.0,
+      "marge": -117.0551986694336
+    },
+    {
+      "von": 33,
+      "nach": 34,
+      "konfidenz": 1.0,
+      "marge": 2165.906494140625
+    },
+    {
+      "von": 34,
+      "nach": 35,
+      "konfidenz": 0.0,
+      "marge": -95.02013397216797
+    },
+    {
+      "von": 35,
+      "nach": 36,
+      "konfidenz": 1.0,
+      "marge": 94.3665542602539
+    },
+    {
+      "von": 36,
+      "nach": 37,
+      "konfidenz": 1.0,
+      "marge": 1362.765869140625
+    },
+    {
+      "von": 37,
+      "nach": 38,
+      "konfidenz": 1.0,
+      "marge": 1415.548095703125
+    },
+    {
+      "von": 38,
+      "nach": 39,
+      "konfidenz": 0.0,
+      "marge": -1894.839111328125
+    },
+    {
+      "von": 39,
+      "nach": 40,
+      "konfidenz": 1.0,
+      "marge": 1578.6138916015625
+    },
+    {
+      "von": 40,
+      "nach": 41,
+      "konfidenz": 1.0,
+      "marge": 2158.883544921875
+    },
+    {
+      "von": 41,
+      "nach": 42,
+      "konfidenz": 1.0,
+      "marge": 1766.2518310546875
+    },
+    {
+      "von": 42,
+      "nach": 43,
+      "konfidenz": 1.0,
+      "marge": 2072.01416015625
+    },
+    {
+      "von": 43,
+      "nach": 44,
+      "konfidenz": 1.0,
+      "marge": 1949.3155517578125
+    },
+    {
+      "von": 44,
+      "nach": 45,
+      "konfidenz": 1.0,
+      "marge": 226.79812622070312
+    },
+    {
+      "von": 45,
+      "nach": 46,
+      "konfidenz": 1.0,
+      "marge": 671.9623413085938
+    },
+    {
+      "von": 46,
+      "nach": 47,
+      "konfidenz": 1.0,
+      "marge": 640.883544921875
+    },
+    {
+      "von": 47,
+      "nach": 48,
+      "konfidenz": 1.0,
+      "marge": 2498.323486328125
+    },
+    {
+      "von": 48,
+      "nach": 49,
+      "konfidenz": 1.0,
+      "marge": 2513.66259765625
+    },
+    {
+      "von": 49,
+      "nach": 50,
+      "konfidenz": 1.0,
+      "marge": 1384.21728515625
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.40170491699973354,
+      "zeitstempel": "2026-09-06T14:32:16.904603Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 13.223995584001386,
+      "zeitstempel": "2026-09-06T15:17:15.989318Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

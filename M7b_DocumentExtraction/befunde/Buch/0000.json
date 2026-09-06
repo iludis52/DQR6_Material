@@ -1,0 +1,284 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 0,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.5185465216636658,
+      "bbox": {
+        "x0": 350.2387390136719,
+        "y0": 168.25247192382812,
+        "x1": 705.9746704101562,
+        "y1": 343.2579040527344,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 10,
+      "polygon": [
+        [
+          350.0,
+          168.0
+        ],
+        [
+          350.0,
+          342.0
+        ],
+        [
+          704.0,
+          342.0
+        ],
+        [
+          704.0,
+          179.0
+        ],
+        [
+          591.0,
+          168.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Peter Fischer\nKathrin Asal\nJoachim I. Krueger",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 0,
+      "pp_label": "doc_title",
+      "score": 0.9243985414505005,
+      "bbox": {
+        "x0": 345.78790283203125,
+        "y0": 487.9754638671875,
+        "x1": 1094.7391357421875,
+        "y1": 689.0999755859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 90,
+      "polygon": [
+        [
+          353.0,
+          487.0
+        ],
+        [
+          353.0,
+          688.0
+        ],
+        [
+          1093.0,
+          688.0
+        ],
+        [
+          1093.0,
+          487.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Sozialpsychologie\nfür Bachelor",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.5634214878082275,
+      "bbox": {
+        "x0": 349.4205017089844,
+        "y0": 769.3956298828125,
+        "x1": 1104.25146484375,
+        "y1": 836.9915771484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 144,
+      "polygon": [
+        [
+          349.0,
+          769.0
+        ],
+        [
+          349.0,
+          835.0
+        ],
+        [
+          364.0,
+          835.0
+        ],
+        [
+          464.0,
+          835.0
+        ],
+        [
+          486.0,
+          835.0
+        ],
+        [
+          510.0,
+          835.0
+        ],
+        [
+          1103.0,
+          835.0
+        ],
+        [
+          1103.0,
+          769.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Lesen, Hören, Lernen im Web.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.8143472671508789,
+      "bbox": {
+        "x0": 348.3349914550781,
+        "y0": 959.2885131835938,
+        "x1": 682.5255737304688,
+        "y1": 1006.5947875976562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 167,
+      "polygon": [
+        [
+          348.0,
+          959.0
+        ],
+        [
+          348.0,
+          1005.0
+        ],
+        [
+          681.0,
+          1005.0
+        ],
+        [
+          681.0,
+          959.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Mit 55 Abbildungen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 2,
+      "pp_label": "footer_image",
+      "score": 0.7675676345825195,
+      "bbox": {
+        "x0": 357.203857421875,
+        "y0": 1872.662353515625,
+        "x1": 670.708984375,
+        "y1": 1961.834716796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 265,
+      "polygon": [
+        [
+          357.0,
+          1872.0
+        ],
+        [
+          357.0,
+          1951.0
+        ],
+        [
+          403.0,
+          1960.0
+        ],
+        [
+          669.0,
+          1960.0
+        ],
+        [
+          669.0,
+          1872.0
+        ],
+        [
+          617.0,
+          1872.0
+        ],
+        [
+          593.0,
+          1872.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0000_04_footer_image.png"
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 3293.890625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2881.3203125
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 2225.629638671875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 3279.87646484375
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.5700614579982357,
+      "zeitstempel": "2026-09-06T14:30:51.190585Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 2.047132750001765,
+      "zeitstempel": "2026-09-06T14:32:45.819135Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

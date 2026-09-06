@@ -1,0 +1,887 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 98,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8377264738082886,
+      "bbox": {
+        "x0": 113.77774047851562,
+        "y0": 78.6905517578125,
+        "x1": 459.8214111328125,
+        "y1": 107.0689697265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 7,
+      "polygon": [
+        [
+          113.0,
+          78.0
+        ],
+        [
+          113.0,
+          106.0
+        ],
+        [
+          458.0,
+          106.0
+        ],
+        [
+          458.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "6.4 · Veränderung von Einstellungen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 51,
+      "pp_label": "number",
+      "score": 0.5201441645622253,
+      "bbox": {
+        "x0": 1189.6365966796875,
+        "y0": 53.77447509765625,
+        "x1": 1218.2838134765625,
+        "y1": 79.77874755859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 25,
+      "polygon": [
+        [
+          1189.0,
+          53.0
+        ],
+        [
+          1189.0,
+          61.0
+        ],
+        [
+          1189.0,
+          71.0
+        ],
+        [
+          1189.0,
+          78.0
+        ],
+        [
+          1217.0,
+          78.0
+        ],
+        [
+          1217.0,
+          53.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "91",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 14,
+      "pp_label": "text",
+      "score": 0.8104914426803589,
+      "bbox": {
+        "x0": 113.1482162475586,
+        "y0": 181.53607177734375,
+        "x1": 758.3322143554688,
+        "y1": 215.88812255859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 55,
+      "polygon": [
+        [
+          113.0,
+          181.0
+        ],
+        [
+          113.0,
+          214.0
+        ],
+        [
+          757.0,
+          214.0
+        ],
+        [
+          757.0,
+          181.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Ein einfaches Beispiel kann diesen Sachverhalt verdeutlichen:",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 15,
+      "pp_label": "paragraph_title",
+      "score": 0.6805087327957153,
+      "bbox": {
+        "x0": 154.04798889160156,
+        "y0": 246.5535888671875,
+        "x1": 241.0037841796875,
+        "y1": 275.9996337890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 59,
+      "polygon": [
+        [
+          154.0,
+          246.0
+        ],
+        [
+          154.0,
+          274.0
+        ],
+        [
+          240.0,
+          274.0
+        ],
+        [
+          240.0,
+          246.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Beispiel",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.8528686165809631,
+      "bbox": {
+        "x0": 149.91758728027344,
+        "y0": 317.5637512207031,
+        "x1": 1353.9423828125,
+        "y1": 551.7071533203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 83,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Ainpassung von Einstellungen\nBringt man einen Atomgegner dazu, eine öffentliche Rede über die Vorteile von Kernenergie zu halten, so führt das bei der Person dazu, dass deren ursprüngliche Einstellung zur Kernenergie nun weniger negativ ausfällt. Die Person muss ihr einstellungsdiskrepantes Verhalten (Halten einer Rede pro Kernenergie) rechtfertigen, was am einfachsten gelingt, indem die Atomenergie teilweise aufgewertet wird. Der gleiche Prozess kann natürlich auch in die andere Richtung laufen: Ist eine Person davon überzeugt, sie sei besonders intelligent, schneidet in einem Intelligenztest aber sehr schlecht ab, so ist es wahrscheinlich, dass diese Person das psychologische Konstrukt der Intelligenz und die damit zusammenhängenden Intelligenztests verstärkt abwerten wird (Frey, 1981).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        4,
+        5
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9462663531303406,
+      "bbox": {
+        "x0": 111.25967407226562,
+        "y0": 615.8787841796875,
+        "x1": 1014.3209838867188,
+        "y1": 783.188232421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 99,
+      "polygon": [
+        [
+          111.0,
+          615.0
+        ],
+        [
+          111.0,
+          782.0
+        ],
+        [
+          1013.0,
+          782.0
+        ],
+        [
+          1013.0,
+          615.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Neuere Ergebnisse sprechen dafür, dass Einstellungsänderungen durch Dissonanzreduktion dauerhaft sein können und damit nicht lediglich auf eine konkrete Situation bezogen bleiben. So stellten Sénémeaud und Somat (2009) noch einen Monat nach dem Schreiben eines einstellungsdiskrepanten Aufsatzes eine veränderte Einstellung bei den Versuchspersonen fest.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 11,
+      "pp_label": "paragraph_title",
+      "score": 0.8638575673103333,
+      "bbox": {
+        "x0": 112.56967163085938,
+        "y0": 840.907470703125,
+        "x1": 498.1185302734375,
+        "y1": 875.987548828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 102,
+      "polygon": [
+        [
+          112.0,
+          840.0
+        ],
+        [
+          112.0,
+          874.0
+        ],
+        [
+          497.0,
+          874.0
+        ],
+        [
+          497.0,
+          840.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "6.4.2 Zwei-Prozess-Modelle",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 10,
+      "pp_label": "paragraph_title",
+      "score": 0.8331769108772278,
+      "bbox": {
+        "x0": 112.80978393554688,
+        "y0": 909.0687255859375,
+        "x1": 502.2795715332031,
+        "y1": 941.3287353515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 109,
+      "polygon": [
+        [
+          112.0,
+          909.0
+        ],
+        [
+          112.0,
+          940.0
+        ],
+        [
+          501.0,
+          940.0
+        ],
+        [
+          501.0,
+          909.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Elaboration-Likelihood-Modell",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.945631206035614,
+      "bbox": {
+        "x0": 110.7140884399414,
+        "y0": 949.1138305664062,
+        "x1": 1012.9730224609375,
+        "y1": 1115.225830078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 124,
+      "polygon": [
+        [
+          118.0,
+          949.0
+        ],
+        [
+          118.0,
+          1114.0
+        ],
+        [
+          1011.0,
+          1114.0
+        ],
+        [
+          1011.0,
+          949.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das Elaboration-Likelihood-Modell (ELM; Petty & Cacioppo, 1986) ist ein klassisches Zwei-Prozess-Modell (s. auch »Heuristic Systematic Model«; Chaiken, Liberman & Eagly, 1989) und leistet einen besonders wichtigen Beitrag zum Verständnis und zur Vorhersage von Einstellungsänderungen – vor allem in Hinblick darauf, unter welchen Umständen sich Menschen in ihren Einstellungen beeinflussen lassen (Persuasion).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9658424258232117,
+      "bbox": {
+        "x0": 109.59949493408203,
+        "y0": 1116.511474609375,
+        "x1": 1014.4459838867188,
+        "y1": 1650.099853515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 137,
+      "polygon": [
+        [
+          109.0,
+          1127.0
+        ],
+        [
+          117.0,
+          1649.0
+        ],
+        [
+          1013.0,
+          1649.0
+        ],
+        [
+          1013.0,
+          1116.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das ELM unterscheidet zwei verschiedene Wege der Überzeugung, den zentralen und den peripheren Weg (Petty & Cacioppo, 1986). Dabei bestimmen die Motivation und die Fähigkeit, die zur Überredung oder Überzeugung dargebotene Information zu verarbeiten, ob der zentrale oder der periphere Weg eines Einstellungsveränderungsversuchs erfolgreich sein wird. Wenn Personen sowohl willens als auch dazu in der Lage sind, Informationen sorgfältig zu verarbeiten (z. B. wenn sie genügend Zeit haben und nicht durch eine andere Aufgabe abgelenkt sind), dann ist es zielführend, wenn Informationen ausführlich und qualitativ hochwertig sind (→ zentraler Weg). Sind Personen dagegen entweder nicht motiviert oder unfähig (oder beides), Informationen tief zu verarbeiten (z.B. aufgrund von Zeitdruck oder Ablenkung durch andere Aufgabe), dann wird der Einstellungsänderungsversuch eher erfolgreich sein, wenn die Information mit situativen oder emotionalen Hinweisreizen versehen ist (→ peripherer Weg). Personen verarbeiten hier Informationen also eher oberflächlich und verlassen sich auf Heuristiken (Daumenregeln, z. B. »Experten haben immer Recht«; ▶ Kap. 3). Situative Hinweisreize, die nichts mit der Güte der Information selbst zu tun haben, gewinnen hier an Einfluss (▪ Abb. 6.6).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 19,
+      "pp_label": "text",
+      "score": 0.8436527848243713,
+      "bbox": {
+        "x0": 1056.7589111328125,
+        "y0": 618.87890625,
+        "x1": 1383.41845703125,
+        "y1": 760.1005859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 175,
+      "polygon": [
+        [
+          1056.0,
+          618.0
+        ],
+        [
+          1056.0,
+          759.0
+        ],
+        [
+          1382.0,
+          759.0
+        ],
+        [
+          1382.0,
+          629.0
+        ],
+        [
+          1367.0,
+          618.0
+        ],
+        [
+          1216.0,
+          618.0
+        ],
+        [
+          1200.0,
+          618.0
+        ],
+        [
+          1193.0,
+          618.0
+        ],
+        [
+          1185.0,
+          618.0
+        ],
+        [
+          1140.0,
+          618.0
+        ],
+        [
+          1116.0,
+          618.0
+        ],
+        [
+          1079.0,
+          618.0
+        ],
+        [
+          1071.0,
+          618.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Einstellungsänderung durch Dissonanzreduktion ist oft dauerhaft. Die veränderte Einstellung kann auch auf andere Bereiche übertragen werden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 18,
+      "pp_label": "text",
+      "score": 0.8449385762214661,
+      "bbox": {
+        "x0": 1057.0799560546875,
+        "y0": 953.3783569335938,
+        "x1": 1384.2398681640625,
+        "y1": 1065.736083984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 207,
+      "polygon": [
+        [
+          1057.0,
+          953.0
+        ],
+        [
+          1057.0,
+          1064.0
+        ],
+        [
+          1383.0,
+          1064.0
+        ],
+        [
+          1383.0,
+          953.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das Elaboration-Likelihood-Modell ist ein klassisches Zwei-Prozess-Modell zur Vorhersage von Einstel-lungsänderungen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9289389252662659,
+      "bbox": {
+        "x0": 1060.34326171875,
+        "y0": 1203.7647705078125,
+        "x1": 1375.565185546875,
+        "y1": 1367.9642333984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 243,
+      "polygon": [
+        [
+          1060.0,
+          1214.0
+        ],
+        [
+          1060.0,
+          1223.0
+        ],
+        [
+          1060.0,
+          1255.0
+        ],
+        [
+          1060.0,
+          1325.0
+        ],
+        [
+          1068.0,
+          1366.0
+        ],
+        [
+          1374.0,
+          1366.0
+        ],
+        [
+          1374.0,
+          1203.0
+        ],
+        [
+          1360.0,
+          1203.0
+        ],
+        [
+          1292.0,
+          1203.0
+        ],
+        [
+          1263.0,
+          1203.0
+        ],
+        [
+          1254.0,
+          1203.0
+        ],
+        [
+          1248.0,
+          1203.0
+        ],
+        [
+          1232.0,
+          1203.0
+        ],
+        [
+          1225.0,
+          1203.0
+        ],
+        [
+          1202.0,
+          1203.0
+        ],
+        [
+          1195.0,
+          1203.0
+        ],
+        [
+          1187.0,
+          1203.0
+        ],
+        [
+          1158.0,
+          1203.0
+        ],
+        [
+          1112.0,
+          1203.0
+        ],
+        [
+          1068.0,
+          1203.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1. Zentrale Route (bei hoher Motivation und hoher Verarbeitungsfähigkeit): Ausführlichkeit und hohe Qualität der Argumente begünstigen eine Einstellungsänderung.\n2. Beinhaltung der Rückzahlung (bei hoher Motivation und hoher Verarbeitungsfähigkeit): Ausführlichkeit und hohe Qualität der Argumente begünstigen eine Einstellungsfahigkeit.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.8899856805801392,
+      "bbox": {
+        "x0": 1057.831787109375,
+        "y0": 1117.953857421875,
+        "x1": 1367.4093017578125,
+        "y1": 1202.333251953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 244,
+      "polygon": [
+        [
+          1057.0,
+          1117.0
+        ],
+        [
+          1057.0,
+          1201.0
+        ],
+        [
+          1366.0,
+          1201.0
+        ],
+        [
+          1366.0,
+          1117.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das ELM unterscheidet zwei Wege der Einstellungsänderung durch Überzeugung:",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9172943830490112,
+      "bbox": {
+        "x0": 1058.6168212890625,
+        "y0": 1369.906494140625,
+        "x1": 1375.9957275390625,
+        "y1": 1510.659912109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 253,
+      "polygon": [
+        [
+          1058.0,
+          1369.0
+        ],
+        [
+          1058.0,
+          1509.0
+        ],
+        [
+          1374.0,
+          1509.0
+        ],
+        [
+          1374.0,
+          1369.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "andering.\n2. Periphere Route (bei geringer Motivation und geringer Verarbeitungsfähigkeit): Situative und periphere Hinweisreize begünstigen eine Einstellungsänderung.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 15,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.8153049349784851,
+      "bbox": {
+        "x0": 162.20603942871094,
+        "y0": 1674.800537109375,
+        "x1": 336.3775329589844,
+        "y1": 1706.966064453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 256,
+      "polygon": [
+        [
+          162.0,
+          1682.0
+        ],
+        [
+          162.0,
+          1705.0
+        ],
+        [
+          335.0,
+          1705.0
+        ],
+        [
+          335.0,
+          1674.0
+        ],
+        [
+          291.0,
+          1674.0
+        ],
+        [
+          283.0,
+          1674.0
+        ],
+        [
+          185.0,
+          1674.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Für die Praxis",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 16,
+      "query_id": 16,
+      "pp_label": "text",
+      "score": 0.8627833127975464,
+      "bbox": {
+        "x0": 150.37078857421875,
+        "y0": 1716.992431640625,
+        "x1": 1376.470458984375,
+        "y1": 1884.484130859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 262,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Möglichkeiten der Einstellungsänderung durch Werbung\nDie periphere Route zur Einstellungsänderung wird aus guten Gründen von der Markt- und Werbepsychologie bevorzugt. Wo Menschen in Eile sind, wie z. B. an Bahnhöfen oder Flughäfen, ist es wenig sinnvoll, Werbung zu plat-\nzieren, die über den zentralen Weg versucht, die potzenziellen Kunden zum Kauf eines Produktes zu bewegen. An Bahnhöfen haben Menschen normalerweise wenig Zeit und hetzen nur von einem Zug zum nächsten; in dieser Situation sind sie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        17,
+        18
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2168.623291015625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1579.6185302734375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 892.494873046875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 2093.2216796875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1410.141357421875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1772.052490234375
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1515.6173095703125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1602.9073486328125
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1593.4981689453125
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 2009.8326416015625
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 2172.333740234375
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 2651.5087890625
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 0.0,
+      "marge": -1379.9818115234375
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 1575.8858642578125
+    },
+    {
+      "von": 14,
+      "nach": 15,
+      "konfidenz": 1.0,
+      "marge": 1782.0374755859375
+    },
+    {
+      "von": 15,
+      "nach": 16,
+      "konfidenz": 1.0,
+      "marge": 2410.093994140625
+    }
+  ],
+  "warnungen": [
+    "Blöcke [4, 5] zu #4 (text) zusammengeführt.",
+    "Blöcke [17, 18] zu #16 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.39819449999777135,
+      "zeitstempel": "2026-09-06T14:31:29.926250Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 14.15595541699804,
+      "zeitstempel": "2026-09-06T14:52:37.877306Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

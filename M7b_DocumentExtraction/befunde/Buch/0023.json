@@ -1,0 +1,134 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 23,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 18,
+      "pp_label": "header",
+      "score": 0.8695546984672546,
+      "bbox": {
+        "x0": 190.11669921875,
+        "y0": 79.0089111328125,
+        "x1": 1177.6507568359375,
+        "y1": 106.8331298828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 7,
+      "polygon": [
+        [
+          190.0,
+          79.0
+        ],
+        [
+          190.0,
+          105.0
+        ],
+        [
+          1176.0,
+          105.0
+        ],
+        [
+          1176.0,
+          79.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 1 · Definitorische, wissenschaftstheoretische und methodische Grundlagen der Sozialpsychologie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 0,
+      "pp_label": "reference",
+      "score": 0.8672189712524414,
+      "bbox": {
+        "x0": 505.780029296875,
+        "y0": 180.72283935546875,
+        "x1": 1404.594482421875,
+        "y1": 1298.5765380859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 19,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Judd, C. M. & Kenny, D. A. (2010). Data analysis in social psychology: Recent and recurring issues. In S. T. Fiske, D. T. Gilbert & G. Lindzey (Hrsg.), Handbook of social psychology (5th ed., vol. 1, pp. 115–139). Hoboken: Wiley & Sons.\nKrueger, J. (1998). On the perception of social consensus. Advances in Experimental Social Psychology, 30, 163–240.\nKrueger, J. (2001). Null hypothesis significance testing: On the survival of a flawed method. American Psychologist, 56, 16–26.\nKrueger, J. I. (2009). A componential model of situation effects, person effects and situation-by-person interaction effects on social behavior. Journal of Research in Personality, 43, 127–136.\nKrueger, J. I. & Funder, D. C. (2004). Towards a balanced social psychology: Causes, consequences and cures for the problem-seeking approach to social behavior and cognition. Behavioral and Brain Sciences, 27, 313–327.\nLeBon, G. (1895). Psychologie des foules. Paris: Félix Alcan.\nLilienfeld, S. O. (2011). Public skepticism of psychology: Why many people perceive the study of human behavior as unscientific. American Psychologist, 67, 111–129.\nMcDougall, W. (1908). An introduction to social psychology. London: Methuen.\nMeehl, P. E. (1978). Theoretical risks and tabular asterisks: Sir Karl, Sir Ronald and the slow progress of soft psychology. Journal of Consulting and Clinical Psychology, 46, 806–834.\nMilgram, S. (1974). Obedience to authority. An experimental view. New York: Harper.\nOffice of Fair Trading (2008). Mail and phone scams catch out 3m. Retrieved from http://www.guardian.co.uk/money/2008/sep/08/scamsandfraud\nPopper, K. R. (1934). Logik der Forschung. Wien: Springer.\nPrentice, D. A. & Miller, D. T. (1996). Pluralistic ignorance and the perpetuation of social norms by unwitting actors. Advances in Experimental Social Psychology, 28, 161–209.\nReichenbach, H. (1935). Wahrscheinlichkeitslehre: Eine Untersuchung über die logischen und mathematischen Grundlagen der Wahrscheinlichkeitsrechnung. Leiden: Sijthoff.\nRoss, E. A. (1908). Social psychology: An outline and source book. New York: Macmillan.\nTajfel, H. & Turner, J. C. (1979). An integrative theory of intergroup conflict. In W. G. Austin & S. Worchel (Eds.), The social psychology of intergroup relations (pp. 33–47). Monterey: Brooks/Cole.\nTriplett, N. (1898). The dynamogenic factors in pacemaking and competition. American Journal of Psychology, 9, 507–533.\nWertheimer, M. (1925). Drei Abhandlungen zur Gestalttheorie. Erlangen: Verlag der Philosophischen Akademie.\n[43] Wundt, W. M. (1874). Grundzüge der physiologischen Psychologie. Leipzig: Engelmann.\nWilson, T. D., Aronson, E. & Carlsmith, K. (2010). The art of laboratory experimentation. In S. T. Fiske, D. T. Gilbert & G. Lindzey (Hrsg.), Handbook of social psychology (vol. 1, 51–81). Hoboken: Wiley.\nZimbardo, P. G. (1972). Stanford prison experiment: A simulation study of psychology of imprisonment. Retrieved from http://www.prisonexp.org/\nZimbardo, P. G. (2007). The Lucifer Effect. Understanding how good people turn evil. New York: Random House.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2131.263427734375
+    }
+  ],
+  "warnungen": [
+    "Blöcke [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23] zu #1 (reference) zusammengeführt.",
+    "Blöcke [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23] zu #1 (reference) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.38992325000072015,
+      "zeitstempel": "2026-09-06T14:31:00.467360Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 7.298034874998848,
+      "zeitstempel": "2026-09-06T14:36:48.280406Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 7.329572500002541,
+      "zeitstempel": "2026-09-06T15:19:04.995173Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

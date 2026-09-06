@@ -1,0 +1,897 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 58,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 13,
+      "pp_label": "number",
+      "score": 0.6558880805969238,
+      "bbox": {
+        "x0": 116.0044174194336,
+        "y0": 80.30551147460938,
+        "x1": 144.4191436767578,
+        "y1": 102.57327270507812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 5,
+      "polygon": [
+        [
+          116.0,
+          80.0
+        ],
+        [
+          116.0,
+          101.0
+        ],
+        [
+          143.0,
+          101.0
+        ],
+        [
+          143.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "50",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8481960296630859,
+      "bbox": {
+        "x0": 191.53515625,
+        "y0": 78.53457641601562,
+        "x1": 801.6760864257812,
+        "y1": 106.93722534179688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 16,
+      "polygon": [
+        [
+          191.0,
+          78.0
+        ],
+        [
+          191.0,
+          105.0
+        ],
+        [
+          800.0,
+          105.0
+        ],
+        [
+          800.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 4 • Prosoziales Verhalten, Hilfeverhalten und Zivilcourage",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.927216112613678,
+      "bbox": {
+        "x0": 126.763671875,
+        "y0": 185.35971069335938,
+        "x1": 457.7083435058594,
+        "y1": 408.9745178222656,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 80,
+      "polygon": [
+        [
+          126.0,
+          185.0
+        ],
+        [
+          126.0,
+          407.0
+        ],
+        [
+          456.0,
+          407.0
+        ],
+        [
+          456.0,
+          185.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Pluralistische Ignoranz bezieht sich darauf, dass man dazu neigt, sich bei der Einschätzung einer Situation an anderen zu orientieren. Helfen diese nicht, so wird man vermutlich schlussfolgern, dass kein Notfall vorliegt und daher auch keine Hilfe-leistung erforderlich ist.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9579920172691345,
+      "bbox": {
+        "x0": 503.1588134765625,
+        "y0": 182.35693359375,
+        "x1": 1407.5057373046875,
+        "y1": 417.7913818359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 87,
+      "polygon": [
+        [
+          503.0,
+          182.0
+        ],
+        [
+          503.0,
+          416.0
+        ],
+        [
+          1406.0,
+          416.0
+        ],
+        [
+          1406.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "unternehmen. Dies kommt besonders dann zum Tragen, wenn man sich selbst unsicher ist, wie die Situation einzuschätzen ist bzw. ob es sich tatsächlich um einen Notfall handelt (Stufe 2). Etwa, wenn eine Person am Boden liegt, Sie selbst aber nicht unterscheiden können, ob diese bewusstlos ist oder nur schläft. Wenn Sie nun viele Menschen sehen, die an der Person einfach vorüber gehen, werden Sie vermutlich daraus schließen, dass die Situation harmlos sein muss. Andernfalls, so denken Sie, hätten die anderen ja geholfen (▶ Studie: Pluralistische Ignoranz).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 15,
+      "pp_label": "paragraph_title",
+      "score": 0.7336002588272095,
+      "bbox": {
+        "x0": 153.10572814941406,
+        "y0": 447.67724609375,
+        "x1": 228.15504455566406,
+        "y1": 474.1697998046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 110,
+      "polygon": [
+        [
+          153.0,
+          447.0
+        ],
+        [
+          153.0,
+          473.0
+        ],
+        [
+          227.0,
+          473.0
+        ],
+        [
+          227.0,
+          447.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 17,
+      "pp_label": "paragraph_title",
+      "score": 0.7460242509841919,
+      "bbox": {
+        "x0": 152.89988708496094,
+        "y0": 484.1323547363281,
+        "x1": 407.5958251953125,
+        "y1": 513.5208740234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 120,
+      "polygon": [
+        [
+          152.0,
+          484.0
+        ],
+        [
+          152.0,
+          512.0
+        ],
+        [
+          406.0,
+          512.0
+        ],
+        [
+          406.0,
+          484.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Pluralistische Ignoranz",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.9224241375923157,
+      "bbox": {
+        "x0": 149.96817016601562,
+        "y0": 517.4544067382812,
+        "x1": 727.1637573242188,
+        "y1": 751.5299682617188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 133,
+      "polygon": [
+        [
+          726.0,
+          528.0
+        ],
+        [
+          719.0,
+          517.0
+        ],
+        [
+          659.0,
+          517.0
+        ],
+        [
+          650.0,
+          517.0
+        ],
+        [
+          636.0,
+          517.0
+        ],
+        [
+          620.0,
+          517.0
+        ],
+        [
+          598.0,
+          517.0
+        ],
+        [
+          590.0,
+          517.0
+        ],
+        [
+          567.0,
+          517.0
+        ],
+        [
+          498.0,
+          517.0
+        ],
+        [
+          149.0,
+          528.0
+        ],
+        [
+          149.0,
+          750.0
+        ],
+        [
+          726.0,
+          750.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "In dem Experiment von Latané und Darley (1968) ließ die Versuchsleitung Rauch in einen Raum einstromen, in dem die Versuchsperson einen Fragebogen ausfüllte. Es sollte das Verhalten der Versuchsperson beobachtet werden. Dabei wurde variiert, ob die Person alleine, mit fremden Personen oder mit Konföderierten der Versuchsleitung im Raum war, die die Anweisung hatten, den Rauch zu igno-",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9325947761535645,
+      "bbox": {
+        "x0": 767.5115966796875,
+        "y0": 518.1358032226562,
+        "x1": 1357.1104736328125,
+        "y1": 751.4386596679688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 164,
+      "polygon": [
+        [
+          767.0,
+          518.0
+        ],
+        [
+          767.0,
+          750.0
+        ],
+        [
+          1356.0,
+          750.0
+        ],
+        [
+          1349.0,
+          518.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "rieren. Waren die Versuchspersonen alleine im Raum, someldeten 75% von ihnen die Rauchentwicklung an den Versuchsleiter. Wenn weitere fremde Personen anwesend waren, so reduzierte sich dieser Anteil auf 38%. Im Falle der absolut passiven Konföderierten meldeten schließlich nur noch 10% der Versuchspersonen die Rauchentwicklung andie Versuchsleitung.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 14,
+      "pp_label": "text",
+      "score": 0.9115711450576782,
+      "bbox": {
+        "x0": 128.2418975830078,
+        "y0": 824.8687744140625,
+        "x1": 457.8909912109375,
+        "y1": 1044.5338134765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 180,
+      "polygon": [
+        [
+          128.0,
+          824.0
+        ],
+        [
+          128.0,
+          1043.0
+        ],
+        [
+          456.0,
+          1043.0
+        ],
+        [
+          456.0,
+          824.0
+        ],
+        [
+          144.0,
+          824.0
+        ],
+        [
+          144.0,
+          833.0
+        ],
+        [
+          135.0,
+          824.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Verantwortungsdiffusion beschreibt die Tendenz, die allgemeine Verantwortung auf alle Anwesenden aufzuteilen. Erhöht sich deren An- zahl, verringert sich die subjektiv wahrgenommene Verantwortlichkeit des Einzelnen und die Wahrschein- lichkeit zur Hilfeleistung sinkt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.9416158199310303,
+      "bbox": {
+        "x0": 128.5350799560547,
+        "y0": 1153.384765625,
+        "x1": 448.1840515136719,
+        "y1": 1349.201171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 198,
+      "polygon": [
+        [
+          128.0,
+          1153.0
+        ],
+        [
+          128.0,
+          1348.0
+        ],
+        [
+          447.0,
+          1348.0
+        ],
+        [
+          447.0,
+          1153.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Angst vor Blamage oder negativer Beurteilung durch andere, die sog. »Bewertungsangst«, reduziert die Wahrscheinlichkeit zur Hilfe-leistung. Mangelndes Wissen um adäquate Hilfeleistung kann Bewertungsangst verstärken.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.946715772151947,
+      "bbox": {
+        "x0": 128.58787536621094,
+        "y0": 1485.2740478515625,
+        "x1": 457.1748962402344,
+        "y1": 1765.8004150390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 207,
+      "polygon": [
+        [
+          128.0,
+          1485.0
+        ],
+        [
+          128.0,
+          1764.0
+        ],
+        [
+          449.0,
+          1764.0
+        ],
+        [
+          456.0,
+          1754.0
+        ],
+        [
+          456.0,
+          1485.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "In typischen Studien zum Bystander-Effekt bearbeiten Personen entweder allein oder zusammen mit anderen (Bystander-Bedingung) eine irrelevante Aufgabe, wenn sich ein Notfall ereignet. Abhängige Variable ist, ob, wann und wie die Person eingreift. Klassischerweise wird in der Bystander-Bedingung seltener und später geholfen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.8850337266921997,
+      "bbox": {
+        "x0": 128.77468872070312,
+        "y0": 1786.166748046875,
+        "x1": 408.47076416015625,
+        "y1": 1869.291259765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 211,
+      "polygon": [
+        [
+          128.0,
+          1786.0
+        ],
+        [
+          128.0,
+          1868.0
+        ],
+        [
+          407.0,
+          1868.0
+        ],
+        [
+          407.0,
+          1786.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der Bystander-Effekt ist auch in einfachen Hilfesituationen zu beobachten.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9626518487930298,
+      "bbox": {
+        "x0": 502.7125244140625,
+        "y0": 814.812744140625,
+        "x1": 1407.2744140625,
+        "y1": 1117.52978515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 224,
+      "polygon": [
+        [
+          502.0,
+          825.0
+        ],
+        [
+          502.0,
+          1116.0
+        ],
+        [
+          1406.0,
+          1116.0
+        ],
+        [
+          1406.0,
+          825.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Verantwortungsdiffusion Der zweite, sicherlich wichtigste Prozess wird als »Verteilung (Diffusion) von Verantwortung« bezeichnet. Diese betrifft die Neigung von Menschen, die allgemeine Verantwortung, zu helfen, auf alle anwesenden Personen zu verteilen. Je mehr Menschen also anwesend sind, desto kleiner ist die jeweilige Verantwortung einer einzelnen Person, da die Gesamtverantwortung auf alle aufgeteilt wird. In der Studie zur Rauchentwicklung wäre die Versuchsperson, sofern sie alleine im Raum war, ganz allein dafür verantwortlich, wenn durch ihr Nichtmelden ein größerer Schaden entstanden wäre. Bei neun weiteren anwesenden Personen wäre sie dagegen nur zu 10% an einem potenziellen Schaden schuld.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9577919244766235,
+      "bbox": {
+        "x0": 502.581787109375,
+        "y0": 1148.50341796875,
+        "x1": 1407.7943115234375,
+        "y1": 1417.4287109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 249,
+      "polygon": [
+        [
+          502.0,
+          1148.0
+        ],
+        [
+          502.0,
+          1416.0
+        ],
+        [
+          1406.0,
+          1416.0
+        ],
+        [
+          1406.0,
+          1148.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Bewertungsangst Die Angst, von anderen Personen negativ beurteilt zu werden oder sich in einer exponierten Situation zu blamieren, wird als Bewertungsangst bezeichnet. Diese könnte z. B. in einer Notsituation entstehen, in der man vor mehreren Personen (also in aller Öffentlichkeit) eine Herzmassage oder gar eine Mund-zu-Mund Beatmung vornehmen muss, um effektive Hilfe zu leisten (vgl. Latané & Nida, 1981). Bewertungsangst ist besonders dann ausgeprägt, wenn man über wenig Wissen und Können verfügt, sich in der jeweiligen Situation adäquat zu verhalten (z. B. wenn der letzte Erste-Hilfe-Kurs schon lange zurück liegt).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 11,
+      "pp_label": "paragraph_title",
+      "score": 0.8102027773857117,
+      "bbox": {
+        "x0": 504.5673522949219,
+        "y0": 1442.289306640625,
+        "x1": 921.5234375,
+        "y1": 1474.178955078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 261,
+      "polygon": [
+        [
+          504.0,
+          1442.0
+        ],
+        [
+          504.0,
+          1473.0
+        ],
+        [
+          920.0,
+          1473.0
+        ],
+        [
+          920.0,
+          1442.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Forschung zum Bystander-Effekt",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 15,
+      "query_id": 16,
+      "pp_label": "text",
+      "score": 0.9580637216567993,
+      "bbox": {
+        "x0": 503.1065979003906,
+        "y0": 1482.458984375,
+        "x1": 1406.879638671875,
+        "y1": 1681.919677734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 265,
+      "polygon": [
+        [
+          503.0,
+          1482.0
+        ],
+        [
+          503.0,
+          1680.0
+        ],
+        [
+          1405.0,
+          1680.0
+        ],
+        [
+          1405.0,
+          1482.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studien zum Bystander-Effekt sind meist so aufgebaut, dass Versuchspersonen entweder allein oder zusammen mit anderen eine irrelevante Aufgabe bearbeiten. Plötzlicher eignet sich ein unvorhergeschener Notfall (ein potenzielles Opfer wird angegriffen, etc.). Die Versuchsleitung beobachtet dabei, ob, wie und wann die wirkliche Versuchsperson eingreift. Typischerweise findet man, dass Personen seltener und langsamere eingreifen, wenn Bystander anwesend sind.\nDer Bustender Effekt tritt jedoch nicht nur in Notfallsituationen auf in denen das",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 16,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9618504047393799,
+      "bbox": {
+        "x0": 503.7044677734375,
+        "y0": 1682.427001953125,
+        "x1": 1407.03271484375,
+        "y1": 1879.945556640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 275,
+      "polygon": [
+        [
+          503.0,
+          1693.0
+        ],
+        [
+          503.0,
+          1878.0
+        ],
+        [
+          1406.0,
+          1878.0
+        ],
+        [
+          1406.0,
+          1682.0
+        ],
+        [
+          557.0,
+          1682.0
+        ],
+        [
+          511.0,
+          1682.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der Bystander-Effekt tritt jedoch nicht nur in Notfallsituationen auf, in denen das Opfer oder auch die Bystander selbst in Gefahr sind; er zeigt sich auch in einfachen Hilfesituationen, etwa wenn es darum geht, einer anderen Person die Tür aufzumachen (Levy et al., 1972). Ebenso konnte er in Situationen mit juristischem Inhalt beobachtet werden, in denen ein Täter eine Straftat begeht (z. B. Diebstahl von Geld; Latané & Elman, 1970).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 17,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9188733696937561,
+      "bbox": {
+        "x0": 502.0069580078125,
+        "y0": 1882.13427734375,
+        "x1": 1406.89697265625,
+        "y1": 1949.93798828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 295,
+      "polygon": [
+        [
+          502.0,
+          1882.0
+        ],
+        [
+          502.0,
+          1948.0
+        ],
+        [
+          1405.0,
+          1948.0
+        ],
+        [
+          1405.0,
+          1882.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Forschung zum Bystander-Effekt betrachtet jedoch nicht nur die unterschiedlichen Situationen, in denen der Effekt auftritt, sondern versucht auch, die jeweiligen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1007.7114868164062
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2720.813720703125
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1038.7586669921875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 700.084716796875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1135.406494140625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1130.1142578125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1065.0615234375
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1553.2752685546875
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 2183.41796875
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1759.64208984375
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 2421.831298828125
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1249.6187744140625
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 1256.2373046875
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 1364.0804443359375
+    },
+    {
+      "von": 14,
+      "nach": 15,
+      "konfidenz": 1.0,
+      "marge": 1219.3798828125
+    },
+    {
+      "von": 15,
+      "nach": 16,
+      "konfidenz": 1.0,
+      "marge": 941.0153198242188
+    },
+    {
+      "von": 16,
+      "nach": 17,
+      "konfidenz": 1.0,
+      "marge": 1631.357666015625
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.41378133300167974,
+      "zeitstempel": "2026-09-06T14:31:14.240617Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 15.568288875001599,
+      "zeitstempel": "2026-09-06T14:44:02.318156Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

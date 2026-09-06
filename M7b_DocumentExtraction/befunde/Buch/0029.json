@@ -1,0 +1,542 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 29,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 3,
+      "pp_label": "number",
+      "score": 0.6389725804328918,
+      "bbox": {
+        "x0": 115.72120666503906,
+        "y0": 80.53515625,
+        "x1": 144.2853240966797,
+        "y1": 103.22900390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 3,
+      "polygon": [
+        [
+          115.0,
+          80.0
+        ],
+        [
+          115.0,
+          102.0
+        ],
+        [
+          143.0,
+          102.0
+        ],
+        [
+          143.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "20",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8438510298728943,
+      "bbox": {
+        "x0": 190.8270721435547,
+        "y0": 78.87783813476562,
+        "x1": 1116.12158203125,
+        "y1": 106.93600463867188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 12,
+      "polygon": [
+        [
+          190.0,
+          78.0
+        ],
+        [
+          190.0,
+          105.0
+        ],
+        [
+          1115.0,
+          105.0
+        ],
+        [
+          1115.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 2 · Der Mensch als rationalisierendes Wesen: Kognitive Dissonanz und Selbstrechtfertigung",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.8938701152801514,
+      "bbox": {
+        "x0": 127.99445343017578,
+        "y0": 185.82070922851562,
+        "x1": 458.044921875,
+        "y1": 438.3290710449219,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 78,
+      "polygon": [
+        [
+          127.0,
+          185.0
+        ],
+        [
+          127.0,
+          437.0
+        ],
+        [
+          457.0,
+          437.0
+        ],
+        [
+          457.0,
+          185.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Auch wenn selektive Informations-suche vorteilhaft sein kann, birgt sie das Risiko für Fehlentscheidungen, was mit schwerwiegenden Konsequenzen verbunden sein kann. Ausgeglichene Informationssuche reduziert dagegen die Wahrscheinlichkeit für fehlerhafte Entscheidungsprozesse.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.8714320659637451,
+      "bbox": {
+        "x0": 129.09451293945312,
+        "y0": 652.169189453125,
+        "x1": 458.20501708984375,
+        "y1": 877.447265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 99,
+      "polygon": [
+        [
+          129.0,
+          652.0
+        ],
+        [
+          129.0,
+          876.0
+        ],
+        [
+          457.0,
+          876.0
+        ],
+        [
+          457.0,
+          652.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Selektive Informationssuche ist teilweise mithilfe der Dissonanz-theorie zu erklären: Personen erleben nach getroffenen Entscheidungen Dissonanz, die sie durch systematische Suche nach entscheidungs-konsistenten Informationen reduzieren können.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9730424284934998,
+      "bbox": {
+        "x0": 503.96417236328125,
+        "y0": 183.39987182617188,
+        "x1": 1408.2735595703125,
+        "y1": 647.9730224609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 106,
+      "polygon": [
+        [
+          503.0,
+          183.0
+        ],
+        [
+          503.0,
+          646.0
+        ],
+        [
+          1407.0,
+          646.0
+        ],
+        [
+          1407.0,
+          183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Derartige Fehlentscheidungen sind weniger wahrscheinlich, wenn Personen ausgewogen nach unterstützenden und widersprechenden Informationen suchen (Kray & Galinsky, 2003). Dies trifft vor allem dann zu, wenn neue Informationen nach einer vorläufigen Entscheidung verfügbar sind, und durch die Integration widersprechender Information eine frühzeitige Korrektur von Fehlentscheidungen noch möglich wäre (Brockner & Rubin, 1985). Obwohl eine selektive Informationssuche bei komplexen Entscheidungsproblemen in der Realität durchaus Vorteile haben kann – sie kann z. B. Zeit oder Kosten ersparen, da es natürlich sehr aufwändig ist, immer zu allen Entscheidungsalternativen Informationen zu sammeln und zu vergleichen (Beckmann & Kuhl, 1984; Payne, Bettman & Johnson, 1993) –, muss zusammenfassend festgestellt werden, dass in Situationen mit hohen Risiken und mit relativer Transparenz von Vor- und Nachteilen bestimmter Entscheidungsalternativen die Wahrscheinlichkeit negativer Entscheidungsergebnisse erhöht ist, wenn Informationen selektiv ausgesucht werden (Schulz-Hardt, 1997).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.9712233543395996,
+      "bbox": {
+        "x0": 503.9884948730469,
+        "y0": 648.6649169921875,
+        "x1": 1408.4541015625,
+        "y1": 1317.6256103515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 148,
+      "polygon": [
+        [
+          503.0,
+          659.0
+        ],
+        [
+          511.0,
+          1316.0
+        ],
+        [
+          1407.0,
+          1316.0
+        ],
+        [
+          1407.0,
+          659.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "(Schutz-Hald, 1997).\nEin Großteil der bisherigen Forschungen zu selektiver Informationssuche wurde im theoretischen Kontext der Dissonanztheorie (Festinger, 1957, 1964) durchgeführt, die davon ausgeht, dass Personen nach Entscheidungen Dissonanz erleben und deshalb systematisch nach entscheidungsunterstützenden Informationen suchen, um diesen aversiven bzw. unangenehmen motivationalen Zustand abzubauen (Frey, 1981a, 1986). Klassische Forschungen wiesen beispielsweise nach, dass Personen immer dann unterstützende Informationen bevorzugen, wenn sie sich frei für eine bestimmte Handlungsalternative entscheiden können (Frey & Wicklund, 1978), wenn sie sich ihrem Standpunkt verpflichtet fühlen (Brock & Balloun, 1967; Schwarz, Frey & Kumpf, 1980), wenn eine Entscheidung oder ein bestimmter Standpunkt nicht rückgängig zu machen sind (Frey, 1981b) oder der Grad der Dissonanz ansteigt (Frey, 1982). Neuere Erklärungsansätze sind jedoch eher kognitiver Art. Hier steht nicht der Abbau des aversiven motivationalen Zustands im Vordergrund (vgl. kognitive Dissonanz), sondern vielmehr wird der Confirmation Bias durch die unterschiedliche Bewertung konsistenter und inkonsistenter Informationen erklärt. Demnach betrachtet man konsistente Informationen bereits a priori als qualitativ hochwertiger und testet im Gegensatz dazu in-konsistente Informationen wesentlich kritischer (Ditto & Lopez, 1992; Fischer, Jonas, Frey & Schultz-Hardt, 2005). Die Folge der Überbewertung konsistenter im Vergleich zu inkonsistenten Informationen ist, dass hinsichtlich der Auswahl von Informationen erstere bevorzugt werden (→selective exposure effect«).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 6,
+      "pp_label": "paragraph_title",
+      "score": 0.8412507176399231,
+      "bbox": {
+        "x0": 506.1867370605469,
+        "y0": 1375.037109375,
+        "x1": 968.8082885742188,
+        "y1": 1408.2216796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 180,
+      "polygon": [
+        [
+          506.0,
+          1375.0
+        ],
+        [
+          506.0,
+          1407.0
+        ],
+        [
+          636.0,
+          1407.0
+        ],
+        [
+          645.0,
+          1407.0
+        ],
+        [
+          652.0,
+          1407.0
+        ],
+        [
+          684.0,
+          1407.0
+        ],
+        [
+          967.0,
+          1407.0
+        ],
+        [
+          967.0,
+          1375.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2.2.4 Dissonanz und Gesellschaft",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 5,
+      "pp_label": "paragraph_title",
+      "score": 0.8130469918251038,
+      "bbox": {
+        "x0": 508.19775390625,
+        "y0": 1443.6236572265625,
+        "x1": 789.2042236328125,
+        "y1": 1474.8988037109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 189,
+      "polygon": [
+        [
+          508.0,
+          1443.0
+        ],
+        [
+          508.0,
+          1473.0
+        ],
+        [
+          788.0,
+          1473.0
+        ],
+        [
+          788.0,
+          1443.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Dissonanz in Gruppen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.7100731134414673,
+      "bbox": {
+        "x0": 154.25491333007812,
+        "y0": 1515.26513671875,
+        "x1": 226.09063720703125,
+        "y1": 1540.89892578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 197,
+      "polygon": [
+        [
+          154.0,
+          1515.0
+        ],
+        [
+          154.0,
+          1539.0
+        ],
+        [
+          225.0,
+          1539.0
+        ],
+        [
+          225.0,
+          1515.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 13,
+      "pp_label": "paragraph_title",
+      "score": 0.627293586730957,
+      "bbox": {
+        "x0": 154.0713348388672,
+        "y0": 1551.302490234375,
+        "x1": 505.4276123046875,
+        "y1": 1579.467529296875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 206,
+      "polygon": [
+        [
+          154.0,
+          1561.0
+        ],
+        [
+          154.0,
+          1578.0
+        ],
+        [
+          504.0,
+          1578.0
+        ],
+        [
+          504.0,
+          1561.0
+        ],
+        [
+          497.0,
+          1551.0
+        ],
+        [
+          422.0,
+          1551.0
+        ],
+        [
+          413.0,
+          1551.0
+        ],
+        [
+          299.0,
+          1551.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Dissonanzreduktion in Gruppen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9237112998962402,
+      "bbox": {
+        "x0": 151.30967712402344,
+        "y0": 1584.082275390625,
+        "x1": 1368.06884765625,
+        "y1": 1917.936279296875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 221,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Festinger, Riecken und Schachter (1956) führten eine besonders aufschlussreiche Untersuchung zu Mechanismen der Dissonanzminderung durch. Diese Forscher unter- suchten im Rahmen einer Verhaltensbeobachtung, bei der Festinger sich übrigens selbst als Sektenmitglied aus- gab, eine sog. »Weltuntergangssekte«. Mitglieder dieser Sekte waren davon überzeugt, dass zu einem bestimmten Zeitpunkt in naher Zukunft die Welt untergehen würde. Festinger und Kollegen wollten wissen, wie die Sektenmit- glieder reagieren würden, wenn die Welt nun doch nicht unterginge. Als der vermeintliche Tag des vorhergesagten Weltuntergangs vorüber war – und die Welt, welch Überraschung (!), nicht unterging – bemerkte Festinger, dass die Sektenmitglieder die dadurch entstandene Dissonanz reduzierten, indem sie annahmen, dass ihre Gebete die Welt gerettet haben. Ganz von dieser Annahme und deren Rich- tigkeit überzeugt, begannen sie sogar damit, durch Mission neue Mitglieder für ihre Sekte anzuwerben. Diese Strategie der Dissonanzreduktion entspricht damit der Substitution dissonanter durch konsonante Information.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        10,
+        11
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1170.10693359375
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2862.472900390625
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1752.4921875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1290.905029296875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1876.85400390625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 2215.780517578125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1159.4630126953125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1261.2623291015625
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1478.6087646484375
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 905.3809204101562
+    }
+  ],
+  "warnungen": [
+    "Blöcke [10, 11] zu #10 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.4164010410022456,
+      "zeitstempel": "2026-09-06T14:31:02.821962Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 14.526967875000992,
+      "zeitstempel": "2026-09-06T14:37:58.048909Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

@@ -1,0 +1,464 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 191,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.6434280872344971,
+      "bbox": {
+        "x0": 117.05443572998047,
+        "y0": 78.95074462890625,
+        "x1": 486.39935302734375,
+        "y1": 105.95916748046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "188 Kapitel 11 · Soziale Dilemmata",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 14,
+      "pp_label": "number",
+      "score": 0.694164514541626,
+      "bbox": {
+        "x0": 15.550445556640625,
+        "y0": 982.8980712890625,
+        "x1": 62.23672866821289,
+        "y1": 1021.8419189453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 22,
+      "polygon": [
+        [
+          15.0,
+          982.0
+        ],
+        [
+          15.0,
+          1020.0
+        ],
+        [
+          61.0,
+          1020.0
+        ],
+        [
+          61.0,
+          982.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "11",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9308333396911621,
+      "bbox": {
+        "x0": 504.423095703125,
+        "y0": 182.2783203125,
+        "x1": 1407.0325927734375,
+        "y1": 316.7728271484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 62,
+      "polygon": [
+        [
+          504.0,
+          182.0
+        ],
+        [
+          512.0,
+          315.0
+        ],
+        [
+          1406.0,
+          315.0
+        ],
+        [
+          1406.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "an der projektionsgeleiteten Kooperation ist, dass sie aus rein egoistischen Gründen geschehen kann. Der Kooperateur braucht nur am eigenen Nutzen interessiert zu sein. Wohlwollen gegenüber anderen mag zwar erfreulich sein, aber es ist nicht notwendig für kooperatives Verhalten.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.7242360711097717,
+      "bbox": {
+        "x0": 153.8424072265625,
+        "y0": 344.935302734375,
+        "x1": 240.093994140625,
+        "y1": 371.5142822265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 87,
+      "polygon": [
+        [
+          153.0,
+          344.0
+        ],
+        [
+          153.0,
+          370.0
+        ],
+        [
+          239.0,
+          370.0
+        ],
+        [
+          239.0,
+          344.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Beispiel",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 12,
+      "pp_label": "paragraph_title",
+      "score": 0.577635645866394,
+      "bbox": {
+        "x0": 152.32388305664062,
+        "y0": 383.4089660644531,
+        "x1": 903.602783203125,
+        "y1": 413.6038513183594,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 89,
+      "polygon": [
+        [
+          152.0,
+          393.0
+        ],
+        [
+          152.0,
+          412.0
+        ],
+        [
+          902.0,
+          412.0
+        ],
+        [
+          902.0,
+          393.0
+        ],
+        [
+          887.0,
+          383.0
+        ],
+        [
+          312.0,
+          383.0
+        ],
+        [
+          254.24088852117887,
+          393.958888801611
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kooperation durch Projektion: Noch einmal das Gefangenendilemma",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9324856996536255,
+      "bbox": {
+        "x0": 150.85617065429688,
+        "y0": 414.06927490234375,
+        "x1": 1382.56396484375,
+        "y1": 983.6196899414062,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 122,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Die Logik der projektionsgeleiteten Kooperation lässt sich am Beispiel des Gefangenendilemmas verdeutlichen. Betrachten wir die Nutzenwerte des Gib-was-Spiels in ☎ Abb. 11.1 (beidseitige Kooperation: 20€; eigene Kooperation bei Desertieren des anderen: 0€; beidseitiges Deser- tieren: 10€; eigenes Desertieren bei Kooperation des anderen: 30€). Bezeichnen wir darüber hinaus die subjektive Wahrscheinlichkeit der Reziprozität mit p (d. h., die subjektive Wahrscheinlichkeit dafür, dass die andere Person ko- operiert, wenn auch ich kooperiere bzw. sie desertiert, wenn auch ich desertiere), so sieht man Folgendes: Der Er- wartungswert der Kooperation setzt sich aus der Wahrscheinlichkeit der reziproken Kooperation von 20p und der Gegenwahrscheinlichkeit (ich kooperiere während die andere Person desertiert) von 0 (1–p) zusammen. Analog dazu ist der Erwartungswert des Desertieren 10p + 30 (1–p). Wir können sehen, dass der erwartete Wert der Kooperation mit dem erwarteten Wert des Desertierens identisch ist, wenn p=.75. Die Kooperation bringt 20 Werteinheiten mit einer Wahrscheinlichkeit von .75 während das Desertieren 10 Einheiten mit einer Wahrscheinlichkeit von .75 bringt und 30 Einheiten mit einer Wahrscheinlichkeit von .25. Das Resultat sind 15 Einheiten in beiden Fällen. Um die Kooperation attraktiv zu machen, muss die geschätzte Wahrscheinlichkeit der Reziprozität also über .75 liegen. Sprich, je eher ich denke, dass sich die andere Person genauso verhält wie ich, desto wahrscheinlicher ist es, dass ich die kooperative Alternative wähle. Damit die Projektion einen positiven Einfluss auf die Kooperation haben kann, darf die handelnde Person aber nur so wenig wie möglich über die anderen wissen. Je mehr konkrete Information ihr über andere Personen zur Verfügung steht, desto weniger lassen sich die eigenen Absichten übertragen, und desto stärker wird der Eindruck, dass das Desertieren dominant ist.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        6,
+        7
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.8407829999923706,
+      "bbox": {
+        "x0": 128.8080596923828,
+        "y0": 1520.4326171875,
+        "x1": 448.4876403808594,
+        "y1": 1686.95703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 254,
+      "polygon": [
+        [
+          128.0,
+          1520.0
+        ],
+        [
+          128.0,
+          1685.0
+        ],
+        [
+          447.0,
+          1685.0
+        ],
+        [
+          447.0,
+          1520.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Soziale Dilemmata bringen es mit sich, dass wir auf jeden Fall eine Ent- scheidung treffen müssen: Bei der Wahl zur Kooperation bleibt nur die Hoffnung, dass sich die andere Person genauso entscheidet.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 6,
+      "pp_label": "paragraph_title",
+      "score": 0.8308728933334351,
+      "bbox": {
+        "x0": 508.14068603515625,
+        "y0": 1073.5279541015625,
+        "x1": 722.453857421875,
+        "y1": 1108.0855712890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 262,
+      "polygon": [
+        [
+          508.0,
+          1073.0
+        ],
+        [
+          508.0,
+          1107.0
+        ],
+        [
+          721.0,
+          1107.0
+        ],
+        [
+          721.0,
+          1073.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "11.8 Ausblick",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9649624824523926,
+      "bbox": {
+        "x0": 503.3382873535156,
+        "y0": 1149.552490234375,
+        "x1": 1406.53125,
+        "y1": 1514.353759765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 269,
+      "polygon": [
+        [
+          503.0,
+          1149.0
+        ],
+        [
+          503.0,
+          1513.0
+        ],
+        [
+          1405.0,
+          1513.0
+        ],
+        [
+          1405.0,
+          1149.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Es die Natur des Dilemmas, dass es keine offensichtliche Lösung hat. Heißt dies, dass alle Bemühungen, Ressourcen zu schaffen (»gib was«) oder zu erhalten (»nimm was«) zu einem tragischen Ende verurteilt sind? In Diamonds (2005) Übersicht untergegangener Kulturen (die Maya, Grönlands Nordmänner, die Osterinsulaner) spielt die Vernichtung öffentlicher Güter (Commons), und im Besonderen die Zerstörung des Waldes, eine zentrale Rolle. Durch das gesamte Werk Diamonds zieht sich die Frage, welche Lehren diese Episoden für die heutige globalisierte Menschheit bereithält. Erst am Ende des Buches stellt sich Diamond offen dieser Frage und beantwortet sie mit vorsichtigem Optimismus. Wenn alles auf dem Spiel steht, liegt es doch in der Kraft der Menschheit, ihren eigenen tragischen Untergang abzuwenden. Wir können aus der Vergangenheit lernen und unseren Weg selbst bestimmen, oder?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9573680758476257,
+      "bbox": {
+        "x0": 503.7709045410156,
+        "y0": 1515.8931884765625,
+        "x1": 1406.565185546875,
+        "y1": 1748.6585693359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 288,
+      "polygon": [
+        [
+          503.0,
+          1515.0
+        ],
+        [
+          503.0,
+          1747.0
+        ],
+        [
+          1405.0,
+          1747.0
+        ],
+        [
+          1405.0,
+          1515.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Bei Äschylos lesen wir, dass Prometheus den Menschen die Fähigkeit gab, in die Zukunft zu sehen. Die eifersüchtigen Götter ließen dies aber nicht zu. Was gab uns Prometheus als Ersatz? Die blinde Hoffnung! In sozialen Dilemmata müssen wir zwischen dem individuellen und dem kollektiven Interesse wählen. Wir haben nicht die Option »nicht zu spielen« (die gibt es nur im Experiment; Orbell & Dawes, 1993). Wenn wir uns also entscheiden, zu kooperieren, können wir nur hoffen, dass andere das Gleiche tun. Jetzt müssen Sie entscheiden!",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 538.4430541992188
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1144.3516845703125
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 897.4086303710938
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1625.498046875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1256.6015625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 950.457275390625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 55.455596923828125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1654.496826171875
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1822.78857421875
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt.",
+    "Blöcke [6, 7] zu #5 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.4381327089977276,
+      "zeitstempel": "2026-09-06T14:32:06.471422Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 11.862192250002408,
+      "zeitstempel": "2026-09-06T15:11:46.509245Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

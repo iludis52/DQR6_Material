@@ -1,0 +1,167 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 193,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 33,
+      "pp_label": "number",
+      "score": 0.5858619213104248,
+      "bbox": {
+        "x0": 16.53439712524414,
+        "y0": 984.3406982421875,
+        "x1": 61.907264709472656,
+        "y1": 1020.9151611328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": [
+        [
+          16.0,
+          984.0
+        ],
+        [
+          16.0,
+          1019.0
+        ],
+        [
+          60.0,
+          1019.0
+        ],
+        [
+          60.0,
+          984.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "11",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 14,
+      "pp_label": "header",
+      "score": 0.8660611510276794,
+      "bbox": {
+        "x0": 192.21981811523438,
+        "y0": 79.36605834960938,
+        "x1": 486.4222412109375,
+        "y1": 105.81301879882812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 1,
+      "polygon": [
+        [
+          192.0,
+          79.0
+        ],
+        [
+          192.0,
+          104.0
+        ],
+        [
+          485.0,
+          104.0
+        ],
+        [
+          485.0,
+          79.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 11 · Soziale Dilemmata",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 0,
+      "pp_label": "reference",
+      "score": 0.8597846031188965,
+      "bbox": {
+        "x0": 505.55828857421875,
+        "y0": 183.57064819335938,
+        "x1": 1406.1549072265625,
+        "y1": 1050.7510986328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 17,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Orbell, J. M. & Dawes, R. M. (1993). Social welfare, cooperators' advantage, and the option of not playing the game. American Sociological Review, 58, 787–800.\nOrgan, D. W. (1988). Organizational citizenship behavior: The good soldier syndrome. Lexington: Lexington Books.\nPilkey, O. J. & Pilkey-Jarvis, L. (2007). Useless arithmetic: Why environmental scientists can't predict the future. New York: Columbia University Press.\nPillutla, M. & Chen, X. P. (1999). Social norms and cooperation in social dilemmas. Organizational Behavior and Human Decision Processes, 78, 81–103.\nPruitt, D. G. & Kimmel, M. J. (1977). Twenty years of experimental gaming: Critique, synthesis, and suggestions for the future. Annual Review of Psychology, 28, 363–392.\nRousseau, J.-J. (1755/1992). Discourse on the origins of inequality. Indianapolis: Hackett.\nRussell, B. A. W. (1959). Common sense and nuclear warfare. George Allen and Unwin: London.\nSally, D. (1995). Conversation and cooperation in social dilemmas. Rationality and Society, 7, 58–92.\nShariff, A. F. & Noranzayan, A. (2007). God is watching you: Priming god concepts increases prosocial behavior in an anonymous economic game. Psychological Science, 18, 803–809.\nSmith, A. (1759/1976). The theory of moral sentiments (hrsg. D. D. Raphael & A. L. Macfie). Oxford: Clarendon Press.\nSmith, M. J. (1982). Evolution and the theory of games. New York: Cambridge University Press.\nTrivers, R. L. (1971). The evolution of reciprocal altruism. The Quarterly Review of Biology, 46, 35–57.\nUtz, S. (2004). Self-activation is a two-edged sword: The effects of I primes on cooperation. Journal of Experimental Social Psychology, 40, 769–776.\nVan Lange, P. A. M. (1999). The pursuit of joint outcomes and equality in outcomes: An integrative model of social value orientation. Journal of Personality and Social Psychology, 77, 337–349.\nVon Neumann, J. & Morgenstern, O. (1947). Theory of games and economic behavior. Princeton: Princeton University Press.\nVohs, K. D. & Schooler, J. W. (2008). The value of believing in free will: Encouraging a belief in determinism increases cheating. Psychological Science, 19, 49–54.\nWu, J. & Axelrod, R. (1995). How to cope with noise in the iterated prisoner's dilemma. The Journal of Conflict Resolution, 39, 183–189.\nZhong, C.-B., Loewenstein, J. & Murnighan, J. (2007). Speaking the same language: The cooperative effects of labeling in the prisoner's dilemma. Journal of Conflict Resolution, 51, 431–456.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 129.32626342773438
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2119.099853515625
+    }
+  ],
+  "warnungen": [
+    "Blöcke [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] zu #2 (reference) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.38578579199747765,
+      "zeitstempel": "2026-09-06T14:32:07.264089Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 6.501701374996628,
+      "zeitstempel": "2026-09-06T15:12:05.032613Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

@@ -1,0 +1,693 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 60,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 9,
+      "pp_label": "number",
+      "score": 0.6339736580848694,
+      "bbox": {
+        "x0": 115.70238494873047,
+        "y0": 80.3416748046875,
+        "x1": 144.7090301513672,
+        "y1": 102.925537109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 3,
+      "polygon": [
+        [
+          115.0,
+          80.0
+        ],
+        [
+          115.0,
+          101.0
+        ],
+        [
+          143.0,
+          101.0
+        ],
+        [
+          143.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "52",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8500197529792786,
+      "bbox": {
+        "x0": 191.7373504638672,
+        "y0": 78.61676025390625,
+        "x1": 801.50634765625,
+        "y1": 106.63665771484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 19,
+      "polygon": [
+        [
+          191.0,
+          78.0
+        ],
+        [
+          191.0,
+          105.0
+        ],
+        [
+          800.0,
+          105.0
+        ],
+        [
+          800.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 4 · Prosoziales Verhalten, Hilfeverhalten und Zivilcourage",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.9213880300521851,
+      "bbox": {
+        "x0": 504.5039367675781,
+        "y0": 182.32257080078125,
+        "x1": 1408.201904296875,
+        "y1": 315.94195556640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 58,
+      "polygon": [
+        [
+          504.0,
+          182.0
+        ],
+        [
+          504.0,
+          314.0
+        ],
+        [
+          1407.0,
+          314.0
+        ],
+        [
+          1407.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "tionen in bestimmten Situationen nachvollziehen bzw. nachempfinden zu können (▶ Kap. 12). In einer klassischen Studie haben Batson, Duncan, Ackerman, Buckley und Birch (1981) den Einfluss von Altruismus (und Empathie) untersucht (▶ Studie: Empathie-Altruismus-Hypothese)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 15,
+      "pp_label": "paragraph_title",
+      "score": 0.7021085619926453,
+      "bbox": {
+        "x0": 153.20957946777344,
+        "y0": 348.2258605957031,
+        "x1": 226.6634063720703,
+        "y1": 373.9333190917969,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 70,
+      "polygon": [
+        [
+          153.0,
+          348.0
+        ],
+        [
+          153.0,
+          372.0
+        ],
+        [
+          225.0,
+          372.0
+        ],
+        [
+          225.0,
+          348.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 14,
+      "pp_label": "paragraph_title",
+      "score": 0.7341467142105103,
+      "bbox": {
+        "x0": 152.34033203125,
+        "y0": 384.2855529785156,
+        "x1": 516.7556762695312,
+        "y1": 412.6762390136719,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 73,
+      "polygon": [
+        [
+          152.0,
+          384.0
+        ],
+        [
+          152.0,
+          411.0
+        ],
+        [
+          515.0,
+          411.0
+        ],
+        [
+          515.0,
+          384.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Empathie-Altruismus-Hypothese",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.940654456615448,
+      "bbox": {
+        "x0": 150.2378387451172,
+        "y0": 418.0440368652344,
+        "x1": 1375.4229736328125,
+        "y1": 879.2821044921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 83,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "In der Studie von Batson et al. (1981) wurde den Versuchs-teilnehmerinnen glaubhaft gemacht, das Ziel der Studie bestünde in der Analyse von Arbeitsleistungen unter stressreichen und aversiven Bedingungen. Hierzu sollte eine weitere Versuchsperson (Elaine), die in Wirklichkeit eine Konföderierte des Versuchsleiters war, eine Aufgabe bearbeiten, die aus mehreren Durchgängen bestand. Um eine aversive Bedingung zu schaffen, wurden Elaine in zufälligen Abständen Elektroschocks verabreicht. Die Aufgabe der wirklichen Versuchsperson bestand darin, Elaine bei der Aufgabenbearbeitung zu beobachten, um später mitzuteilen, wie sie Elaine unter aversiven Bedingungen wahrgenommen hatte. Dabei wurden zwei zentrale Faktoren manipuliert:\nschocks erhielt. In der Bedingung „niedrige Kosten« wurde den Versuchsteilnehmerinnen gesagt, dass sie von diesen zehn Durchgängen lediglich zwei zu beobachten hatten. Folglich mussten sie weder mit ansehen, wie Elaine weitere Elektroschocks bekam, noch sich dazu verpflichtet fühlen, einem Rollentausch zuzustimmen. Sie konnten sich sozusa- gen unbemerkt aus der Affäre stehlen (Fluchtmöglichkeit). In der Bedingung „hohe Kosten« gingen die Teilnehmerinnen jedoch davon aus, alle zehn Durchgänge beobachten zu müssen. Sie waren daher länger der Situation ausgesetzt, mit ansehen zu müssen, wie Elaine weitere Schocks verabreicht wurden (geringe Fluchtmöglichkeit).\nDie Ergebnisse bestätigten die Erwartungen der Forscher. Zunächst zeigte sich, dass Versuchspersonen in der",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        5,
+        9
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.7817826271057129,
+      "bbox": {
+        "x0": 152.26583862304688,
+        "y0": 884.0462036132812,
+        "x1": 471.21258544921875,
+        "y1": 913.4838256835938,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 102,
+      "polygon": [
+        [
+          152.0,
+          884.0
+        ],
+        [
+          152.0,
+          912.0
+        ],
+        [
+          470.0,
+          912.0
+        ],
+        [
+          470.0,
+          884.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Ähnlichkeit (Empathie) und",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.7802475094795227,
+      "bbox": {
+        "x0": 152.68441772460938,
+        "y0": 918.5947265625,
+        "x1": 539.5706787109375,
+        "y1": 947.78759765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 110,
+      "polygon": [
+        [
+          152.0,
+          918.0
+        ],
+        [
+          152.0,
+          946.0
+        ],
+        [
+          538.0,
+          946.0
+        ],
+        [
+          538.0,
+          918.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "soziale Kosten (Fluchtmöglichkeit).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.891352117061615,
+      "bbox": {
+        "x0": 150.09410095214844,
+        "y0": 820.1807861328125,
+        "x1": 1376.2958984375,
+        "y1": 1415.481689453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 117,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "genommen hatte. Dabei wurden zwei zentrale Faktoren manipuliert:\n■ Ähnlichkeit (Empathie) und\n■ soziale Kosten (Fluchtmöglichkeit).\n\nIn Hinblick auf den ersten Faktor wurde Elaine entweder als der Versuchsperson sehr ähnlich oder aber sehr unähnlich beschrieben. Da man annimmt, dass wir ähnliche Personen grundsätzlich sympathischer finden als Personen, die sich stark von uns unterscheiden (Ullrich & Krüger, 2010), sollten wir auch gegenüber uns ähnlichen Personen mehr Empathie empfinden als gegenüber uns unähnlichen Personen. Der zweite Faktor betrifft die sozialen Kosten, die mit einer Nichthilfeleistung verbunden waren. Den Versuchsteilnehmerinnen wurde gesagt, dass Elaine zehn Durchgänge absolvieren würde. Dabei bestünde jedoch die Möglichkeit, nach dem zweiten Durchgang die Rollen zu tauschen, sodass die Versuchsperson anstelle Elaines die Elektro-Die Ergebnisse bestätigten die Erwartungen der Forscher. Zunächst zeigte sich, dass Versuchspersonen in der Bedingung hoher Empathie (hohe Ähnlichkeit zu Elaine) signifikant häufiger halfen als in der Bedingung mit niedriger Empathie. Innerhalb der Bedingung niedriger Empathie gab es aber einen Unterschied dahingehend, dass Personen signifikant häufiger halfen, wenn es für sie schwer war, Elaine im weiteren Verlauf der Testung aus dem Weg zu gehen (wenn sie zehn Durchgänge beobachten sollten), verglichen dazu, wenn sie nach zwei Durchgängen unbemerkt verschwinden konnten (und sich somit auch nicht vor Elaine für die „unterlassene« Hilfeleistung rechtfertigen mussten). In der Bedingung mit hoher Empathie halfen die Leute annähernd gleich häufig, unabhängig davon, ob die Kosten hoch oder niedrig waren (vgl. Toi & Batson, 1982; s. auch Batson et al., 1991). Die Manipulation der Kosten hatte im Fall hoher Empathie also keinen Einfluss auf das Hilfeverhalten.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        8,
+        10
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9468575716018677,
+      "bbox": {
+        "x0": 127.6964340209961,
+        "y0": 1485.935302734375,
+        "x1": 451.3326721191406,
+        "y1": 1806.467041015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 225,
+      "polygon": [
+        [
+          127.0,
+          1485.0
+        ],
+        [
+          127.0,
+          1805.0
+        ],
+        [
+          450.0,
+          1805.0
+        ],
+        [
+          450.0,
+          1485.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Batson et al. (1981) manipulierten in ihrer klassischen Studie die beiden Faktoren »Empathie« und »Höhe der Kosten«. Es zeigte sich, dass Menschen in der Bedingung hoher Empathie häufiger halfen als unter niedriger Empathie und zwar unabhängig von potenziellen negativen Folgen. Dagegen halfen Personen innerhalb der Bedingung niedriger Empathie häufiger, wenn sie negative soziale Folgen befürchteten.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 13,
+      "pp_label": "paragraph_title",
+      "score": 0.7263911366462708,
+      "bbox": {
+        "x0": 131.41110229492188,
+        "y0": 1819.5537109375,
+        "x1": 284.4843444824219,
+        "y1": 1845.92041015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 229,
+      "polygon": [
+        [
+          131.0,
+          1819.0
+        ],
+        [
+          131.0,
+          1844.0
+        ],
+        [
+          283.0,
+          1844.0
+        ],
+        [
+          283.0,
+          1819.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Definition",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 17,
+      "pp_label": "text",
+      "score": 0.6342707276344299,
+      "bbox": {
+        "x0": 168.03274536132812,
+        "y0": 1851.69873046875,
+        "x1": 414.475830078125,
+        "y1": 1914.8984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 239,
+      "polygon": [
+        [
+          168.0,
+          1851.0
+        ],
+        [
+          168.0,
+          1913.0
+        ],
+        [
+          413.0,
+          1913.0
+        ],
+        [
+          413.0,
+          1851.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Empathie-Altruismus-Hypothese",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9407079815864563,
+      "bbox": {
+        "x0": 502.7952575683594,
+        "y0": 1481.4471435546875,
+        "x1": 1406.603271484375,
+        "y1": 1617.1932373046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 249,
+      "polygon": [
+        [
+          502.0,
+          1481.0
+        ],
+        [
+          502.0,
+          1616.0
+        ],
+        [
+          1405.0,
+          1616.0
+        ],
+        [
+          1405.0,
+          1481.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Im Fall hoher Empathie halfen die Menschen also selbst dann, wenn sie nicht mit negativen Folgen zu rechnen hatten. Situative Merkmale (Manipulation der Kosten) hatten also nur im Fall geringer Empathie einen Einfluss. Ausgehend davon formulierte Batson (vgl. Batson et al., 1991) die sog. »Empathie-Altruismus-Hypothese«.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 11,
+      "pp_label": "paragraph_title",
+      "score": 0.7543721795082092,
+      "bbox": {
+        "x0": 547.3250122070312,
+        "y0": 1650.8516845703125,
+        "x1": 663.3759765625,
+        "y1": 1679.0047607421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 253,
+      "polygon": [
+        [
+          547.0,
+          1650.0
+        ],
+        [
+          547.0,
+          1678.0
+        ],
+        [
+          662.0,
+          1678.0
+        ],
+        [
+          662.0,
+          1650.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- Definition",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9369248151779175,
+      "bbox": {
+        "x0": 542.86474609375,
+        "y0": 1682.8826904296875,
+        "x1": 1369.2451171875,
+        "y1": 1882.9173583984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 264,
+      "polygon": [
+        [
+          542.0,
+          1692.0
+        ],
+        [
+          542.0,
+          1881.0
+        ],
+        [
+          1368.0,
+          1881.0
+        ],
+        [
+          1368.0,
+          1682.0
+        ],
+        [
+          550.0,
+          1682.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Demotion\nDie Empathie-Altruismus-Hypothese (Batson et al., 1991) besagt, dass Menschen nur dann uneigennützig bzw. altruistisch handeln, wenn sie in einer bestimmten Situation Empathie empfinden (vgl. hohe Empathie, geringe Kosten). Helfen Menschen, ohne Empathie zu empfinden, so sind andere Faktoren entscheidend, etwa die Erwartung negativer Konsequenzen (vgl. geringe Empathie, hohe Kosten). Hier handelt es sich jedoch nicht um Altruismus.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1020.7711791992188
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 3133.66796875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1132.9305419921875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1231.406005859375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1137.3873291015625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1421.468505859375
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 742.9122314453125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1688.939697265625
+    },
+    {
+      "von": 8,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1253.2841796875
+    },
+    {
+      "von": 5,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1830.68603515625
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 2625.46240234375
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 2124.032470703125
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1901.252685546875
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 823.8198852539062
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 1395.5301513671875
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 717.0344848632812
+    }
+  ],
+  "warnungen": [
+    "Blöcke [5, 9] zu #5 (text) zusammengeführt.",
+    "Blöcke [8, 10] zu #8 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.37243662499895436,
+      "zeitstempel": "2026-09-06T14:31:15.034943Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 15.434348040998884,
+      "zeitstempel": "2026-09-06T14:44:31.820566Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

@@ -1,0 +1,669 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 21,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 9,
+      "pp_label": "number",
+      "score": 0.6540398597717285,
+      "bbox": {
+        "x0": 116.61073303222656,
+        "y0": 80.44390869140625,
+        "x1": 145.02503967285156,
+        "y1": 103.62322998046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 6,
+      "polygon": [
+        [
+          116.0,
+          80.0
+        ],
+        [
+          116.0,
+          102.0
+        ],
+        [
+          144.0,
+          102.0
+        ],
+        [
+          144.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "12",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8428938984870911,
+      "bbox": {
+        "x0": 190.02862548828125,
+        "y0": 78.20068359375,
+        "x1": 1177.98583984375,
+        "y1": 107.23583984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 21,
+      "polygon": [
+        [
+          190.0,
+          78.0
+        ],
+        [
+          190.0,
+          106.0
+        ],
+        [
+          1176.0,
+          106.0
+        ],
+        [
+          1176.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 1 · Definitorische, wissenschaftstheoretische und methodische Grundlagen der Sozialpsychologie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9224712252616882,
+      "bbox": {
+        "x0": 128.62391662597656,
+        "y0": 452.3279113769531,
+        "x1": 450.29327392578125,
+        "y1": 621.392578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 116,
+      "polygon": [
+        [
+          128.0,
+          452.0
+        ],
+        [
+          128.0,
+          620.0
+        ],
+        [
+          449.0,
+          620.0
+        ],
+        [
+          449.0,
+          452.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Es kann keine hohe externe Validität ohne eine zugleich hohe interne Validität geben. Im Gegensatz dazu ist aber eine hohe interne Validität ohne eine zugleich hohe externe Validität möglich.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9237303137779236,
+      "bbox": {
+        "x0": 128.09178161621094,
+        "y0": 1052.426025390625,
+        "x1": 456.4968566894531,
+        "y1": 1222.069580078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 133,
+      "polygon": [
+        [
+          128.0,
+          1052.0
+        ],
+        [
+          128.0,
+          1221.0
+        ],
+        [
+          455.0,
+          1221.0
+        ],
+        [
+          455.0,
+          1052.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die wichtigste ethische Maxime eines jeden empirischen Forschers ist, dass durch die Teilnahme an einer Studie Versuchspersonen weder zu psychischem noch physischem Schaden kommen dürfen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9649312496185303,
+      "bbox": {
+        "x0": 503.2376403808594,
+        "y0": 183.3553466796875,
+        "x1": 1406.4884033203125,
+        "y1": 446.124755859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 137,
+      "polygon": [
+        [
+          503.0,
+          183.0
+        ],
+        [
+          503.0,
+          445.0
+        ],
+        [
+          707.0,
+          445.0
+        ],
+        [
+          716.0,
+          445.0
+        ],
+        [
+          1405.0,
+          445.0
+        ],
+        [
+          1405.0,
+          183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "oder korrelativen Methode, ist die interne Validität dagegen geringer als beim Experiment, da hier keinerlei Kausalschlüsse gezogen werden können. Hingegen stellt die externe Validität bei Experimenten häufiger ein Problem dar. Sie bezieht sich auf die Frage, ob ein bestimmter Laborbefund auch tatsächlich auf die wirkliche Welt übertragen werden kann. Bezogen auf unser Medienbeispiel wäre hier also die Frage zu stellen, ob die beobachtete erhöhte Aggression nach dem Konsum eines aggressiven Videospiels im Labor auch tatsächlich in der wirklichen Welt außerhalb des Labors auftreten würde.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9679147005081177,
+      "bbox": {
+        "x0": 503.374267578125,
+        "y0": 450.2910461425781,
+        "x1": 1406.9261474609375,
+        "y1": 916.6654052734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 144,
+      "polygon": [
+        [
+          503.0,
+          450.0
+        ],
+        [
+          503.0,
+          915.0
+        ],
+        [
+          1405.0,
+          915.0
+        ],
+        [
+          1405.0,
+          450.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Jutzt liegt natürlich der Schluss nahe, dass qualitative Interviews, Feld- und Korrelationsstudien im Gegensatz zu Laborstudien eine besonders hohe externe Validität besitzen sollten. Dies ist jedoch nicht unter allen Umständen so. Zwar ist es richtig, dass Feldstudien näher an die psychische und verhaltensmäßige Wirklichkeit von Menschen herankommen; de facto ist es aber so, dass diese Studien normalerweise nichts über die Kausalität eines bestimmten Effektes aussagen können. Außerdem kann es hohe externe Validität nur unter der Bedingung hoher interner Validität geben. Ist ein bestimmter Effekt im Laborexperiment daher nicht kausal auf bestimmte Einflussfaktoren zurückzuführen, kann es diesen Zusammenhang in der wirklichen Welt auch nicht geben (d. h. er wäre dann in der Realität vielleicht beobachtbar, aber tatsächlich durch eine andere unbekannte Drittvariable bedingt). Im Gegensatz dazu ist es durchaus möglich, dass ein Laborexperiment zu einem bestimmten Effekt sehr hohe interne Validität aufweist (d. h. Ursache und Wirkung sind eindeutig geklärt), dieser Effekt aber in Wirklichkeit nicht oder zumindest noch nicht auftritt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.870460033416748,
+      "bbox": {
+        "x0": 507.5094299316406,
+        "y0": 973.16357421875,
+        "x1": 1212.42041015625,
+        "y1": 1011.593017578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 165,
+      "polygon": [
+        [
+          507.0,
+          973.0
+        ],
+        [
+          507.0,
+          1010.0
+        ],
+        [
+          1211.0,
+          1010.0
+        ],
+        [
+          1211.0,
+          973.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1.4 Forschungsethik in der Sozialpsychologie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9675585031509399,
+      "bbox": {
+        "x0": 503.7809753417969,
+        "y0": 1048.8944091796875,
+        "x1": 1406.4788818359375,
+        "y1": 1582.7510986328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 192,
+      "polygon": [
+        [
+          503.0,
+          1059.0
+        ],
+        [
+          503.0,
+          1581.0
+        ],
+        [
+          1405.0,
+          1581.0
+        ],
+        [
+          1405.0,
+          1048.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Prinzipiell sind die ethischen Grundlagen der Psychologie im Allgemeinen für alle wissenschaftlich arbeitenden Psychologinnen und Psychologen von den Ethical Principles of Psychologists and Code of Conduct der APA (2010) geregelt. Dabei ist die wichtigste ethische Maxime eines jeden empirischen Forschers, dass durch die Teilnahme an einer Studie Versuchspersonen weder zu psychischen noch physischen Schaden kommen dürfen. Gerade die klassischen High-Impact-Studien wie z. B. die Milgram-Studien (Milgram, 1974; ▶ Kap. 9) oder die Stanford-Prison-Studie (Zimbardo, 1972; s. oben) haben besonders zu diesem Einstellungswandel beigetragen (s. auch Aronson et al., 2008). Eine zentrale Aufgabe des Versuchsleiters stellt zudem die detaillierte Aufklärung der Untersuchungsteilnehmer nach dem Experiment über die Inhalte und Hypothesen der Untersuchung dar. Dies ist in der Sozialpsychologie besonders wichtig, da hier häufig mit sog. »Täuschungsszenarien« gearbeitet wird. Hierbei werden Versuchspersonen Instruktionen vorgelegt, die vom wahren Ziel der Untersuchung ablenken (da man sonst erwarten würde, dass Versuchspersonen sich entsprechend oder genau gegenteilig der Hypothesen verhalten und so die Ergebnisse der Studie verfälschen).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.8029477596282959,
+      "bbox": {
+        "x0": 152.27879333496094,
+        "y0": 1612.766357421875,
+        "x1": 359.6749267578125,
+        "y1": 1644.851806640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 230,
+      "polygon": [
+        [
+          152.0,
+          1612.0
+        ],
+        [
+          152.0,
+          1643.0
+        ],
+        [
+          358.0,
+          1643.0
+        ],
+        [
+          358.0,
+          1620.0
+        ],
+        [
+          266.0,
+          1612.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "? Kontrollfragen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.889936089515686,
+      "bbox": {
+        "x0": 153.0205841064453,
+        "y0": 1651.111572265625,
+        "x1": 595.7900390625,
+        "y1": 1713.240478515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 238,
+      "polygon": [
+        [
+          153.0,
+          1651.0
+        ],
+        [
+          153.0,
+          1712.0
+        ],
+        [
+          594.0,
+          1712.0
+        ],
+        [
+          594.0,
+          1651.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1. Worin besteht der Unterschied zwischen Sozialpsychologie und Soziologie?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9044394493103027,
+      "bbox": {
+        "x0": 151.6533203125,
+        "y0": 1717.7896728515625,
+        "x1": 664.8508911132812,
+        "y1": 1781.1727294921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 242,
+      "polygon": [
+        [
+          151.0,
+          1717.0
+        ],
+        [
+          151.0,
+          1780.0
+        ],
+        [
+          663.0,
+          1780.0
+        ],
+        [
+          663.0,
+          1717.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2. Worin besteht der Unterschied zwischen Sozial-psychologie und Persönlichkeitspsychologie?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.8886074423789978,
+      "bbox": {
+        "x0": 153.28182983398438,
+        "y0": 1784.673828125,
+        "x1": 636.0287475585938,
+        "y1": 1847.278076171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 254,
+      "polygon": [
+        [
+          153.0,
+          1784.0
+        ],
+        [
+          153.0,
+          1846.0
+        ],
+        [
+          635.0,
+          1846.0
+        ],
+        [
+          635.0,
+          1784.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3. Welches ist die Hauptposition des kritischen Rationalismus?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.8587614297866821,
+      "bbox": {
+        "x0": 769.1436157226562,
+        "y0": 1650.034423828125,
+        "x1": 1374.0142822265625,
+        "y1": 1712.303466796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 285,
+      "polygon": [
+        [
+          769.0,
+          1650.0
+        ],
+        [
+          769.0,
+          1711.0
+        ],
+        [
+          1373.0,
+          1711.0
+        ],
+        [
+          1373.0,
+          1650.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "4. Warum kann man die Befunde von echten Experimenten kausal interpretieren?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.8492873907089233,
+      "bbox": {
+        "x0": 770.284423828125,
+        "y0": 1718.4866943359375,
+        "x1": 1319.9219970703125,
+        "y1": 1780.1324462890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 294,
+      "polygon": [
+        [
+          770.0,
+          1718.0
+        ],
+        [
+          770.0,
+          1779.0
+        ],
+        [
+          1318.0,
+          1779.0
+        ],
+        [
+          1318.0,
+          1718.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5. Was müssen psychologisch Forschende unter allen Umständen vermeiden?",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1229.0118408203125
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2419.354736328125
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1812.6383056640625
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1393.96044921875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1594.15185546875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1930.617431640625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1574.072509765625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2027.345458984375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1781.1480712890625
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 679.4234619140625
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1864.40234375
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1708.759765625
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 1263.71533203125
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.38359741599924746,
+      "zeitstempel": "2026-09-06T14:30:59.665470Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 12.785920875001466,
+      "zeitstempel": "2026-09-06T14:36:29.303850Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

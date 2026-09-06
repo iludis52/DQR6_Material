@@ -1,0 +1,635 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 183,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.6606935858726501,
+      "bbox": {
+        "x0": 116.74182891845703,
+        "y0": 78.9698486328125,
+        "x1": 486.6639099121094,
+        "y1": 105.9871826171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "180 Kapitel 11 · Soziale Dilemmata",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 17,
+      "pp_label": "number",
+      "score": 0.7001761794090271,
+      "bbox": {
+        "x0": 15.105558395385742,
+        "y0": 981.6741943359375,
+        "x1": 62.58041763305664,
+        "y1": 1022.9652099609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 34,
+      "polygon": [
+        [
+          15.0,
+          981.0
+        ],
+        [
+          15.0,
+          1021.0
+        ],
+        [
+          61.0,
+          1021.0
+        ],
+        [
+          61.0,
+          981.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "11",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.9422290325164795,
+      "bbox": {
+        "x0": 503.12921142578125,
+        "y0": 182.686279296875,
+        "x1": 1406.94091796875,
+        "y1": 315.50244140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 68,
+      "polygon": [
+        [
+          503.0,
+          182.0
+        ],
+        [
+          503.0,
+          314.0
+        ],
+        [
+          1405.0,
+          314.0
+        ],
+        [
+          1405.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Natürlich gibt es noch eine große Zahl weiterer Spiele, die von eher esoterischem Interesse sind. Guyer und Rapoport (1966) kamen insgesamt auf 78 Spiele, die sich durch verschiedene Anordnungen der Konsequenzen in der 2×2-Matrix definieren lassen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.8662502765655518,
+      "bbox": {
+        "x0": 128.4571533203125,
+        "y0": 452.086669921875,
+        "x1": 459.32275390625,
+        "y1": 566.114501953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 85,
+      "polygon": [
+        [
+          128.0,
+          452.0
+        ],
+        [
+          128.0,
+          565.0
+        ],
+        [
+          458.0,
+          565.0
+        ],
+        [
+          458.0,
+          452.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das »Nimm-was-Dilemma« beschäftigt sich mit dem Verbrauch gemeinnütziger Ressourcen. Dabei steht deren Erhaltung auf dem Spiel.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 9,
+      "pp_label": "paragraph_title",
+      "score": 0.8680742383003235,
+      "bbox": {
+        "x0": 507.02154541015625,
+        "y0": 374.92340087890625,
+        "x1": 1187.4039306640625,
+        "y1": 410.48944091796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 107,
+      "polygon": [
+        [
+          507.0,
+          374.0
+        ],
+        [
+          507.0,
+          409.0
+        ],
+        [
+          1186.0,
+          409.0
+        ],
+        [
+          1186.0,
+          374.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "11.2.3 Nimm-was-Dilemma (Nutzungsdilemma)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9577410221099854,
+      "bbox": {
+        "x0": 503.8739318847656,
+        "y0": 450.59765625,
+        "x1": 1406.3958740234375,
+        "y1": 717.7998046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 118,
+      "polygon": [
+        [
+          503.0,
+          450.0
+        ],
+        [
+          503.0,
+          716.0
+        ],
+        [
+          1405.0,
+          716.0
+        ],
+        [
+          1405.0,
+          450.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Bisher haben wir uns mit den »Gib-was-Spielen« beschäftigt; also mit Situationen, in denen es darum geht, durch viele individuelle Beiträge ein gemeinnütziges Gut zuschaffen oder zu unterhalten. Bei derartigen Konstellationen besteht die Versuchung der Beteiligten darin, als Nutznießer bzw. Trittbrettfahrer quasi »umsonst zu fahren«, d.h., von den Früchten der anderen zu ernten, ohne selbst etwas beizusteuern. Doch wie sieht es aus, wenn es nicht um den Aufbau oder die Instandhaltung einer Ressource geht (eigenes Geben), sondern um deren Verbrauch (eigenes Nehmen)? Ein Paradebeispiel hierfür stellt der Fischfang dar:",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 10,
+      "pp_label": "paragraph_title",
+      "score": 0.7703259587287903,
+      "bbox": {
+        "x0": 153.31076049804688,
+        "y0": 743.24609375,
+        "x1": 240.1315155029297,
+        "y1": 769.5579833984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 141,
+      "polygon": [
+        [
+          153.0,
+          743.0
+        ],
+        [
+          153.0,
+          768.0
+        ],
+        [
+          239.0,
+          768.0
+        ],
+        [
+          239.0,
+          743.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Beispiel",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9107697010040283,
+      "bbox": {
+        "x0": 151.0185546875,
+        "y0": 814.6166381835938,
+        "x1": 1377.4359130859375,
+        "y1": 1117.305419921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 154,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Der Fischfang als ein Nimm-was-spiel\nIm Fischfang besteht die allgemeine Ressource in der Größe der Fischpopulation. Fahren nur wenige Boote zum Fang hi-naus, so hat dies kaum Auswirkungen auf den Fischbestand und die durch Fang verlorenen Fische reproduzieren sich schnell wieder. Steigt jedoch die Anzahl der Fangboote, so ist davon die Reproduktionskapazität der Fischpopulation betroffen. Bei weiterhin steigender Fangquote beginnt die Population zu schrumpfen. Wird dabei schließlich die Mini-maldichte unterschritten, die für die Populationsregenerie-rung nötig ist, stürzt die verbleibende Population katastrophal auf null ab (Pilkey & Pilkey-Jarvis, 2007). Das Dilemma des einzelnen Fischers (des einzelnen Betriebes oder der einzelnen fischenden Nation) besteht in dem Widerspruch zwi-schen eigener Nutzenmaximierung und der Verhinderung von negativen Konsequenzen. Der individuelle Anreiz, mehr Boote zu Wasser zu lassen und dadurch einen möglichst ho-hen Fang zu erzielen, führt– da alle denselben Anreiz haben – zum kollektiven Kollaps (Diamond, 2005).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        8,
+        9
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9123013615608215,
+      "bbox": {
+        "x0": 128.18946838378906,
+        "y0": 1185.0677490234375,
+        "x1": 452.2525329589844,
+        "y1": 1298.6378173828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 196,
+      "polygon": [
+        [
+          128.0,
+          1185.0
+        ],
+        [
+          128.0,
+          1297.0
+        ],
+        [
+          451.0,
+          1297.0
+        ],
+        [
+          451.0,
+          1185.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Verhalten sich alle Individuen beim Verbrauch gemeinschaftlicher Güter egoistisch, so kommt es zu einem Zusammenbruch der Ressource.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 15,
+      "pp_label": "text",
+      "score": 0.8161224722862244,
+      "bbox": {
+        "x0": 127.64322662353516,
+        "y0": 1685.015869140625,
+        "x1": 453.4585266113281,
+        "y1": 1855.984619140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 201,
+      "polygon": [
+        [
+          127.0,
+          1685.0
+        ],
+        [
+          127.0,
+          1854.0
+        ],
+        [
+          445.0,
+          1854.0
+        ],
+        [
+          452.0,
+          1823.0
+        ],
+        [
+          452.0,
+          1685.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Auf gesamtgesellschaftlicher Ebene kann die Überbevölkerung als Nutzungsdilemma aufgefasst werden. Kinderreichtum ist dabei kooperativ oder desertierend, je nach gesellschaftlichem Zusammenhang.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9554435014724731,
+      "bbox": {
+        "x0": 503.416748046875,
+        "y0": 1181.913330078125,
+        "x1": 1407.0706787109375,
+        "y1": 1381.146240234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 212,
+      "polygon": [
+        [
+          503.0,
+          1191.0
+        ],
+        [
+          503.0,
+          1380.0
+        ],
+        [
+          1406.0,
+          1380.0
+        ],
+        [
+          1406.0,
+          1181.0
+        ],
+        [
+          1294.0,
+          1181.0
+        ],
+        [
+          1247.0,
+          1181.0
+        ],
+        [
+          1217.0,
+          1181.0
+        ],
+        [
+          549.0,
+          1181.0
+        ],
+        [
+          540.0,
+          1181.0
+        ],
+        [
+          511.0,
+          1181.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Bei Nimm-was-Spielen besteht die Versuchung des Einzelnen darin, sich beim Verbrauch gesamtgesellschaftlicher Güter bzw. beim Ernten von Früchten (oder Fangen von Fischen!) nicht zurückzunehmen. Trifft dies auf alle zu, d.h., verhalten sich alle Individuen egoistisch, kommt es zu einem Zusammenbruch der Ressource. In diesem Fall gehen alle leer aus. Insofern ist das typische Nimm-was-Spiel eher eine Variante des Hühnerspiels als eine Variante des Gefangenendilemmas.\nIn einem bestimmten Artikel in „Science Magazine“ und schrieb Corrett Hardie (1968)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9619032144546509,
+      "bbox": {
+        "x0": 504.00274658203125,
+        "y0": 1383.621826171875,
+        "x1": 1406.154541015625,
+        "y1": 1681.794677734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 238,
+      "polygon": [
+        [
+          504.0,
+          1394.0
+        ],
+        [
+          504.0,
+          1680.0
+        ],
+        [
+          1405.0,
+          1680.0
+        ],
+        [
+          1405.0,
+          1383.0
+        ],
+        [
+          512.0,
+          1383.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "In einem berühmten Artikel in »Science Magazin« beschrieb Garrett Hardin (1968) diese Situation als tragisch und führte den Begriff des »Commons Dilemma« ein. Im Neuengland der Kolonialzeit war ein Commons eine Weidefläche, die von allen An-wohnern genutzt werden konnte. Jeder Bauer hatte den Anreiz, weitere Stück Vieh dort weiden zu lassen. Dies kommt dem Desertieren im Gefangenendilemma gleich. Es ist somit die dominante Strategie. Wenn sich jedoch alle rationalen Bauern gleich verhalten, kommt es zur Überweidung und damit zu einer Zerstörung der gemeinsamen Ressource. Im Sinne von Äschylos ist dies tragisch, weil es unvermeidlich ist und niemand persönliche Schuld trägt (📚 Abb. 11.4).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9605929255485535,
+      "bbox": {
+        "x0": 502.6291809082031,
+        "y0": 1682.386962890625,
+        "x1": 1408.6663818359375,
+        "y1": 1950.568115234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 285,
+      "polygon": [
+        [
+          502.0,
+          1693.0
+        ],
+        [
+          502.0,
+          1949.0
+        ],
+        [
+          1407.0,
+          1949.0
+        ],
+        [
+          1407.0,
+          1682.0
+        ],
+        [
+          594.0,
+          1682.0
+        ],
+        [
+          585.0,
+          1682.0
+        ],
+        [
+          570.0,
+          1682.0
+        ],
+        [
+          510.0,
+          1682.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Mand personische Schuld tragt (📚 Abb. 11.4).\nFür Hardin ist das Weidedilemma eine Metapher für ein größeres und generelleres Problem: Die Überbevölkerung. Aus planetarischer Sicht ist die Überbevölkerung das Urdilemma. Umweltverschmutzung, Entwaldung, Überfischung sind Sonderprobleme, die sich vom Urgrund der Überbevölkerung ableiten lassen. Der individuelle Mensch hat den Anreiz, mehr Kinder in die Welt zu setzen. Dies hat sowohl eine biologische als auch eine soziologische Logik. Kraft Definition sind diejenigen individuellen Organismen die Sieger im Spiel der Evolution, die ihre Gene am schnellsten replizieren (Dawkins, 1976). In vielen Gesellschaften besteht ein zusätzlicher soziologischer Anreiz",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1190.3985595703125
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1861.77001953125
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 0.0,
+      "marge": -300.82586669921875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1203.278564453125
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 970.0233764648438
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 2350.585693359375
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1792.191650390625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2025.2462158203125
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1939.638671875
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 516.828125
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1270.7877197265625
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1594.92822265625
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt.",
+    "Blöcke [8, 9] zu #7 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.39992891699876054,
+      "zeitstempel": "2026-09-06T14:32:03.356358Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 14.48974429199734,
+      "zeitstempel": "2026-09-06T15:10:02.879302Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

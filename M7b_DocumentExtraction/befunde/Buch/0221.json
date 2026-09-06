@@ -1,0 +1,276 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 221,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.6422331929206848,
+      "bbox": {
+        "x0": 115.89164733886719,
+        "y0": 79.60580444335938,
+        "x1": 391.83551025390625,
+        "y1": 104.91641235351562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 1,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "218 Stichwortverzeichnis",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.8436827659606934,
+      "bbox": {
+        "x0": 110.27110290527344,
+        "y0": 186.29794311523438,
+        "x1": 522.38330078125,
+        "y1": 616.596435546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 53,
+      "polygon": [
+        [
+          118.0,
+          186.0
+        ],
+        [
+          110.0,
+          330.0
+        ],
+        [
+          110.0,
+          360.0
+        ],
+        [
+          110.0,
+          371.0
+        ],
+        [
+          110.0,
+          401.0
+        ],
+        [
+          110.0,
+          421.0
+        ],
+        [
+          110.0,
+          432.0
+        ],
+        [
+          110.0,
+          482.0
+        ],
+        [
+          110.0,
+          585.0
+        ],
+        [
+          110.0,
+          615.0
+        ],
+        [
+          521.0,
+          615.0
+        ],
+        [
+          514.0,
+          207.0
+        ],
+        [
+          499.0,
+          186.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Wahrnehmung, soziale (neurowissen- schaftlich)\n– Erkennung emotionaler Zustände 203\n– Erkennung kognitiver Zustände 201\n– Stereotype, Vorurteile 203\n– Überblick 200\nWertefunktion, S-förmige 40 Wettbewerb, sozialer 124\nWir-Modus 122\nWorldview Defense\n– Definition 162\n– Messung 162, 163",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.6435496211051941,
+      "bbox": {
+        "x0": 115.82616424560547,
+        "y0": 818.2298583984375,
+        "x1": 292.6400451660156,
+        "y1": 847.1068115234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 205,
+      "polygon": [
+        [
+          115.0,
+          818.0
+        ],
+        [
+          115.0,
+          846.0
+        ],
+        [
+          291.0,
+          846.0
+        ],
+        [
+          291.0,
+          818.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Yale-Studien 86",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 2,
+      "pp_label": "paragraph_title",
+      "score": 0.6502987742424011,
+      "bbox": {
+        "x0": 153.68853759765625,
+        "y0": 954.7197265625,
+        "x1": 188.10992431640625,
+        "y1": 994.58544921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 217,
+      "polygon": [
+        [
+          153.0,
+          954.0
+        ],
+        [
+          153.0,
+          993.0
+        ],
+        [
+          187.0,
+          993.0
+        ],
+        [
+          187.0,
+          954.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Z",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.6489384174346924,
+      "bbox": {
+        "x0": 113.59013366699219,
+        "y0": 1050.06640625,
+        "x1": 363.1060485839844,
+        "y1": 1149.73046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 241,
+      "polygon": [
+        [
+          113.0,
+          1050.0
+        ],
+        [
+          113.0,
+          1148.0
+        ],
+        [
+          362.0,
+          1148.0
+        ],
+        [
+          362.0,
+          1050.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Zivilcourage 47,56\nZufallsereignisse 36\nZusicherungsspiel 179",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2668.075439453125
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 3032.41943359375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 2270.41796875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 2230.339599609375
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.47477791599885677,
+      "zeitstempel": "2026-09-06T14:32:18.129866Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 2.42001750000054,
+      "zeitstempel": "2026-09-06T15:17:46.845509Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

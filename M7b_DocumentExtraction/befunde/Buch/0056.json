@@ -1,0 +1,570 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 56,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 6,
+      "pp_label": "number",
+      "score": 0.6523752212524414,
+      "bbox": {
+        "x0": 115.3236312866211,
+        "y0": 80.383544921875,
+        "x1": 144.91445922851562,
+        "y1": 103.0247802734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 1,
+      "polygon": [
+        [
+          115.0,
+          80.0
+        ],
+        [
+          115.0,
+          102.0
+        ],
+        [
+          143.0,
+          102.0
+        ],
+        [
+          143.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "48",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 2,
+      "pp_label": "header",
+      "score": 0.8567520976066589,
+      "bbox": {
+        "x0": 191.4431915283203,
+        "y0": 78.38201904296875,
+        "x1": 801.462646484375,
+        "y1": 106.83428955078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 12,
+      "polygon": [
+        [
+          191.0,
+          78.0
+        ],
+        [
+          191.0,
+          105.0
+        ],
+        [
+          800.0,
+          105.0
+        ],
+        [
+          800.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 4 • Prosoziales Verhalten, Hilfeverhalten und Zivilcourage",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.9015198945999146,
+      "bbox": {
+        "x0": 127.95320892333984,
+        "y0": 484.9873046875,
+        "x1": 457.5746154785156,
+        "y1": 821.6480712890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 80,
+      "polygon": [
+        [
+          135.0,
+          484.0
+        ],
+        [
+          127.0,
+          495.0
+        ],
+        [
+          127.0,
+          820.0
+        ],
+        [
+          449.0,
+          820.0
+        ],
+        [
+          456.0,
+          810.0
+        ],
+        [
+          456.0,
+          484.0
+        ],
+        [
+          427.0,
+          484.0
+        ],
+        [
+          395.0,
+          484.0
+        ],
+        [
+          312.0,
+          484.0
+        ],
+        [
+          219.0,
+          484.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der Fall »Kitty Genovese« war Ausgangspunkt für ein umfangreiches Forschungsprogramm zum sog. Bystander-Effekt. Latané und Darley sahen die Ursache für die ausblei- bende Hilfeleistung gegenüber der jungen Frau in der hohen Anzahl anwesender Personen. Sie postulierten daher, dass die Wahrscheinlichkeit für eine Hilfeleistung abnimmt, je mehr Personen der konkreten Situation beiwohnen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.8131064772605896,
+      "bbox": {
+        "x0": 131.58140563964844,
+        "y0": 1182.5604248046875,
+        "x1": 358.5960998535156,
+        "y1": 1247.7083740234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 109,
+      "polygon": [
+        [
+          131.0,
+          1182.0
+        ],
+        [
+          131.0,
+          1246.0
+        ],
+        [
+          357.0,
+          1246.0
+        ],
+        [
+          357.0,
+          1182.0
+        ],
+        [
+          321.0,
+          1182.0
+        ],
+        [
+          206.0,
+          1182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Definition\nBystander-Effekt",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.7478060126304626,
+      "bbox": {
+        "x0": 131.72186279296875,
+        "y0": 1434.9420166015625,
+        "x1": 424.4045104980469,
+        "y1": 1461.9383544921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 125,
+      "polygon": [
+        [
+          131.0,
+          1434.0
+        ],
+        [
+          131.0,
+          1460.0
+        ],
+        [
+          423.0,
+          1460.0
+        ],
+        [
+          423.0,
+          1434.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Abb. 4.2 Der Bystander-Effekt",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9494683742523193,
+      "bbox": {
+        "x0": 503.763427734375,
+        "y0": 181.63839721679688,
+        "x1": 1407.0770263671875,
+        "y1": 350.8150939941406,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 140,
+      "polygon": [
+        [
+          503.0,
+          181.0
+        ],
+        [
+          503.0,
+          349.0
+        ],
+        [
+          1406.0,
+          349.0
+        ],
+        [
+          1406.0,
+          181.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "sich in ihrer Schuld, da sonst immer Sie beschenkt werden? Tat Sie Ihnen leid? Oder sind Sie einfach nur nett? Wie Sie sehen, gibt es die verschiedensten Gründe für prosoziales Verhalten bzw. diverse Faktoren, die hierbei eine Rolle spielen. Im Wesentlichen lassen sich diese in Merkmale der Situation und Merkmale der Person einteilen; darüber hinaus gibt es weitere Erklärungsansätze, auf die wir nacheinander eingehen werden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 5,
+      "pp_label": "paragraph_title",
+      "score": 0.8639174103736877,
+      "bbox": {
+        "x0": 506.9927062988281,
+        "y0": 407.6163024902344,
+        "x1": 824.1582641601562,
+        "y1": 442.6908264160156,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 148,
+      "polygon": [
+        [
+          506.0,
+          407.0
+        ],
+        [
+          506.0,
+          441.0
+        ],
+        [
+          823.0,
+          441.0
+        ],
+        [
+          823.0,
+          407.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "4.2.1 Bystander-Effekt",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9693660736083984,
+      "bbox": {
+        "x0": 504.034912109375,
+        "y0": 481.6968688964844,
+        "x1": 1406.857421875,
+        "y1": 1151.845458984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 158,
+      "polygon": [
+        [
+          504.0,
+          481.0
+        ],
+        [
+          504.0,
+          1150.0
+        ],
+        [
+          1405.0,
+          1150.0
+        ],
+        [
+          1405.0,
+          481.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Um die Faktoren prosozialen Verhaltens ausmachen zu können, setzt die Forschung häufig auch an der Kehrseite an und betrachtet diejenigen Fälle, in denen trotz offensichtlichen Notfalls nicht geholfen wurde. Wann und warum helfen Menschen also nicht? Ausgangspunkt für diesen Ansatz zu prosozialem Verhalten, der prägend von Darley und Latané (1968) verfolgt wurde, war eine erschreckende Begebenheit aus dem Jahr 1964. In der Stadt New York wurde eine junge Frau namens Kitty Genovese von einem Täter mehr als eine halbe Stunde lang vergewaltigt und am Ende ermordet (Rosenthal, 1964). Von den 38 Personen, die dieses Verbrechen als Zeugen miterlebt hatten, griff niemand ein. Die Polizei wurde erst nach mehr als 30 Minuten gerufen, nachdem die Frau bereits tot war (für eine kritische Bewertung dieses Ereignisses s. auch Manning, Levine & Collins, 2008). Intuitiv fragt man sich hier, warum keine Hilfe geleistet wurde, obwohl doch so viele Personen von der Tat mitbekommen hatten. Darley und Latané (1968) verfolgten jedoch einen anderen Ansatz, indem sie die These aufstellten, dass Hilfeleistung nicht stattfand, gerade weil so viele Personen anwesend waren. In ihrem umfangreichen Forschungsprogramm identifizierten sie also einen zentralen situativen Faktor, der prosoziales Verhalten erheblich beeinflusst: die Anzahl anwesender Personen. Dabei konnten sie zeigen, dass individuelles Hilfeverhalten abnimmt, je mehr Menschen der jeweiligen Situation beiwohnen. Dieses Phänomen bezeichneten sie als Bystander-Effekt (Zuschauereffekt; Latané & Darley, 1970; Latané & Nida, 1981; für einen neueren metaanalytischen Überblick vgl. Fischer et al., 2011; ☎ Abb. 4.2).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.7619681358337402,
+      "bbox": {
+        "x0": 546.9267578125,
+        "y0": 1183.4227294921875,
+        "x1": 663.0523071289062,
+        "y1": 1211.1690673828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 214,
+      "polygon": [
+        [
+          546.0,
+          1183.0
+        ],
+        [
+          546.0,
+          1210.0
+        ],
+        [
+          662.0,
+          1210.0
+        ],
+        [
+          662.0,
+          1183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- Definition",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9258896112442017,
+      "bbox": {
+        "x0": 542.6687622070312,
+        "y0": 1217.263427734375,
+        "x1": 1378.7916259765625,
+        "y1": 1349.624755859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 222,
+      "polygon": [
+        [
+          542.0,
+          1217.0
+        ],
+        [
+          542.0,
+          1348.0
+        ],
+        [
+          1370.0,
+          1348.0
+        ],
+        [
+          1377.0,
+          1338.0
+        ],
+        [
+          1377.0,
+          1217.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Unter dem Bystander-Effekt versteht man die Tatsache, dass die Wahrscheinlichkeit dafür, dass eine Person in einer Notsituation eingreift und einem potenziellen Opfer hilft, mit zunehmender Anzahl von anderen Personen, die in dieser Situation ebenfalls anwesend sind, sinkt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 0,
+      "pp_label": "image",
+      "score": 0.9479860067367554,
+      "bbox": {
+        "x0": 503.7671813964844,
+        "y0": 1434.2579345703125,
+        "x1": 1239.6385498046875,
+        "y1": 1939.4774169921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 241,
+      "polygon": [
+        [
+          503.0,
+          1434.0
+        ],
+        [
+          503.0,
+          1774.0
+        ],
+        [
+          519.0,
+          1938.0
+        ],
+        [
+          1102.0,
+          1938.0
+        ],
+        [
+          1238.0,
+          1887.0
+        ],
+        [
+          1238.0,
+          1445.0
+        ],
+        [
+          1223.0,
+          1434.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": null,
+      "text_format": null,
+      "text_quelle": null,
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": "ausschnitte/Buch/Buch_0056_10_image.png"
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1111.2978515625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2089.18994140625
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1498.74560546875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1909.13134765625
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1709.8779296875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 2041.39013671875
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1041.1754150390625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1995.62646484375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1033.212158203125
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1819.420166015625
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3946598750007979,
+      "zeitstempel": "2026-09-06T14:31:13.424281Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 9.236814583000523,
+      "zeitstempel": "2026-09-06T14:43:33.762840Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

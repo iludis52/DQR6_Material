@@ -1,0 +1,424 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 76,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 2,
+      "pp_label": "header",
+      "score": 0.8592015504837036,
+      "bbox": {
+        "x0": 112.9478988647461,
+        "y0": 78.66464233398438,
+        "x1": 752.6346435546875,
+        "y1": 106.89041137695312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 6,
+      "polygon": [
+        [
+          112.0,
+          78.0
+        ],
+        [
+          112.0,
+          105.0
+        ],
+        [
+          751.0,
+          105.0
+        ],
+        [
+          751.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5.2 · Verschiedene psychologische Erklärungsansätze für Aggression",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 26,
+      "pp_label": "number",
+      "score": 0.6006786823272705,
+      "bbox": {
+        "x0": 1189.9617919921875,
+        "y0": 54.287322998046875,
+        "x1": 1220.630859375,
+        "y1": 79.08352661132812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 28,
+      "polygon": [
+        [
+          1196.0,
+          54.0
+        ],
+        [
+          1189.0,
+          71.0
+        ],
+        [
+          1189.0,
+          78.0
+        ],
+        [
+          1219.0,
+          78.0
+        ],
+        [
+          1219.0,
+          54.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "69",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 15,
+      "pp_label": "number",
+      "score": 0.7289478778839111,
+      "bbox": {
+        "x0": 1382.99609375,
+        "y0": 34.999755859375,
+        "x1": 1420.4798583984375,
+        "y1": 85.0628662109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 38,
+      "polygon": [
+        [
+          1382.0,
+          34.0
+        ],
+        [
+          1382.0,
+          84.0
+        ],
+        [
+          1419.0,
+          84.0
+        ],
+        [
+          1419.0,
+          34.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9353746771812439,
+      "bbox": {
+        "x0": 110.91268157958984,
+        "y0": 182.89920043945312,
+        "x1": 1013.1766967773438,
+        "y1": 283.0133972167969,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 71,
+      "polygon": [
+        [
+          110.0,
+          182.0
+        ],
+        [
+          118.0,
+          282.0
+        ],
+        [
+          1012.0,
+          282.0
+        ],
+        [
+          1012.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Bandura, Ross und Ross (1963) überprüften diesen soziokognitiven Ansatz der Aggression in einer mittlerweile klassischen Studie, die sozusagen das erste Experiment zur »media violence« darstellt (▶ Studie: Beobachtungslernen mit der »Bobo Doll«).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 9,
+      "pp_label": "paragraph_title",
+      "score": 0.728511393070221,
+      "bbox": {
+        "x0": 152.4756317138672,
+        "y0": 314.5832824707031,
+        "x1": 227.6105194091797,
+        "y1": 340.6080017089844,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 92,
+      "polygon": [
+        [
+          152.0,
+          314.0
+        ],
+        [
+          152.0,
+          339.0
+        ],
+        [
+          226.0,
+          339.0
+        ],
+        [
+          226.0,
+          314.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.6697473526000977,
+      "bbox": {
+        "x0": 151.5858154296875,
+        "y0": 350.5582275390625,
+        "x1": 605.3490600585938,
+        "y1": 379.8690185546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 95,
+      "polygon": [
+        [
+          151.0,
+          350.0
+        ],
+        [
+          151.0,
+          378.0
+        ],
+        [
+          604.0,
+          378.0
+        ],
+        [
+          604.0,
+          350.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Beobachtungsernen mit der »Bobo Doll«",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.8879024982452393,
+      "bbox": {
+        "x0": 148.5262451171875,
+        "y0": 381.6922607421875,
+        "x1": 1380.52099609375,
+        "y1": 883.621826171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 122,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Beobachtungstehen mit der „Bopo Dok“\nBandura et al. (1963) ließen Kinder eine von vier verschiede- nen Szenen beobachten. In Szene 1 sahen die Kinder eine Frau, die aggressiv mit einer großen Plastikpuppe (eine sog. „Bobo Doll«) in einem Spielzimmer spielte. Beispielsweise schlug die Frau mit einem Hammer auf die Puppe ein, trat sie oder schleuderte sie durch das Zimmer. Für die zweite Szene wurde dieses aggressive Spielverhalten der Frau auf Video aufgezeichnet und den Kindern über einen Bild- schirm vorgespielt. In einer dritten Szene wurde von der Frau ein Comic gezeichnet, in dem sie aggressiv mit der Puppe spielte. In der vierten Bedingung – der Kontrollgruppe – spielte die Frau nicht aggressiv mit der Puppe. Im Anschluss an eine dieser experimentellen Manipulationen hatten die Kinder die Möglichkeit, in demselben Zimmer für 20 Minuten mit der Puppe zu spielen. Dies wurde auf Video aufge- zeichnet und im Anschluss ausgewertet (☻ Abb. 5.3). Die zentrale Messvariable (abhängige Variable) war, wie häufig die Kinder selbst aggressives Verhalten gegenüber der Puppe zeigten. Bandura erhielt für die damalige Zeit ganz erstaunliche Befunde (☻ Tab. 5.1). Kinder, die den aggressiven Umgang der Frau mit der Puppe »live« beobachteten, zeigten insgesamt 21-mal ebenfalls aggressives Verhalten gegenüber der Puppe. Bei Kindern, die das aggressive Verhalten der Frau per Video sahen, wurden im Schnitt 16 aggressive Verhaltensweisen gegenüber der Puppe beobachtet. Kinder, die den aggressiven Cartoon der Frau sahen, zeigten noch mehr als 10-mal aggressives Verhalten gegenüber der Puppe, während sich die Kinder der nicht aggressiven Kontrollbedingung im Durchschnitt lediglich 3-mal aggressiv gegenüber der Puppe verhielten.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        6,
+        7
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 4,
+      "pp_label": "figure_title",
+      "score": 0.9013871550559998,
+      "bbox": {
+        "x0": 124.38928985595703,
+        "y0": 985.4378662109375,
+        "x1": 919.2028198242188,
+        "y1": 1042.6954345703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 165,
+      "polygon": [
+        [
+          124.0,
+          985.0
+        ],
+        [
+          132.0,
+          1041.0
+        ],
+        [
+          918.0,
+          1041.0
+        ],
+        [
+          918.0,
+          985.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Tab. 5.1 Mittlere Anzahl an beobachteten aggressiven Verhaltensweisen, getrennt nach Bedingung und Art der Aggression (vereinfachte Darstellung nach Bandura et al., 1963).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 0,
+      "pp_label": "table",
+      "score": 0.9594003558158875,
+      "bbox": {
+        "x0": 118.9305191040039,
+        "y0": 1048.9609375,
+        "x1": 1008.4512329101562,
+        "y1": 1885.54931640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 208,
+      "polygon": [
+        [
+          118.0,
+          1048.0
+        ],
+        [
+          118.0,
+          1884.0
+        ],
+        [
+          1000.0,
+          1884.0
+        ],
+        [
+          1000.0,
+          1048.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "<fcel>Art der Aggression<fcel>Reales Modell<fcel>Film<fcel>Comic<fcel>Kontrollgruppe<nl><fcel>Imitierende Aggression gegen Puppe<lcel><lcel><lcel><lcel><nl><fcel>w<fcel>14,2<fcel>9,0<fcel>7,8<fcel>1,8<nl><fcel>m<fcel>28,4<fcel>23,8<fcel>16,2<fcel>3,9<nl><fcel>gesamt<fcel>21,3<fcel>16,4<fcel>12,0<fcel>2,9<nl><fcel>Schlagen anderer Objekte<lcel><lcel><lcel><lcel><nl><fcel>w<fcel>18,0<fcel>34,4<fcel>36,8<fcel>13,1<nl><fcel>m<fcel>22,2<fcel>18,4<fcel>12,5<fcel>13,5<nl><fcel>gesamt<fcel>20,1<fcel>26,4<fcel>24,7<fcel>13,3<nl><fcel>Aggressives Waffenspiel<lcel><lcel><lcel><lcel><nl><fcel>w<fcel>3,2<fcel>10,7<fcel>8,8<fcel>3,7<nl><fcel>m<fcel>11,6<fcel>18,3<fcel>16,6<fcel>14,3<nl><fcel>gesamt<fcel>7,4<fcel>14,5<fcel>12,7<fcel>9,0<nl><fcel>Keine imitierende Aggression<lcel><lcel><lcel><lcel><nl><fcel>w<fcel>26,3<fcel>29,2<fcel>27,5<fcel>17,8<nl><fcel>m<fcel>42,1<fcel>39,3<fcel>71,8<fcel>40,4<nl><fcel>gesamt<fcel>34,2<fcel>34,2<fcel>49,7<fcel>29,1<nl><fcel>Aggression gesamt<lcel><lcel><lcel><lcel><nl><fcel>w<fcel>61,6<fcel>83,3<fcel>80,9<fcel>36,4<nl><fcel>m<fcel>104,3<fcel>99,8<fcel>117,2<fcel>72,2<nl><fcel>gesamt<fcel>82,9<fcel>91,5<fcel>99,1<fcel>54,3<nl><fcel>w weibliche Probanden; m männliche Probanden<lcel><lcel><lcel><lcel><nl>",
+      "text_format": "otsl",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1991.8167724609375
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 370.1987609863281
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1233.2410888671875
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 988.6343383789062
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1474.9100341796875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1363.7601318359375
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 2160.616943359375
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2429.7255859375
+    }
+  ],
+  "warnungen": [
+    "Blöcke [6, 7] zu #6 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.39617520899992087,
+      "zeitstempel": "2026-09-06T14:31:21.332170Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 11.057387584001845,
+      "zeitstempel": "2026-09-06T14:47:49.845007Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

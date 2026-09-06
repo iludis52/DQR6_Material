@@ -1,0 +1,234 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 101,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 30,
+      "pp_label": "number",
+      "score": 0.7377904653549194,
+      "bbox": {
+        "x0": 115.49987030029297,
+        "y0": 80.51080322265625,
+        "x1": 144.96725463867188,
+        "y1": 102.62469482421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 1,
+      "polygon": [
+        [
+          115.0,
+          80.0
+        ],
+        [
+          115.0,
+          101.0
+        ],
+        [
+          143.0,
+          101.0
+        ],
+        [
+          143.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "94",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 27,
+      "pp_label": "header",
+      "score": 0.8638477325439453,
+      "bbox": {
+        "x0": 191.11495971679688,
+        "y0": 78.75430297851562,
+        "x1": 567.1904907226562,
+        "y1": 107.14608764648438,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 5,
+      "polygon": [
+        [
+          191.0,
+          78.0
+        ],
+        [
+          191.0,
+          106.0
+        ],
+        [
+          559.0,
+          106.0
+        ],
+        [
+          566.0,
+          92.0
+        ],
+        [
+          566.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 6 · Einstellungen und Verhalten",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 31,
+      "pp_label": "paragraph_title",
+      "score": 0.803708016872406,
+      "bbox": {
+        "x0": 507.89202880859375,
+        "y0": 176.53488159179688,
+        "x1": 624.5877075195312,
+        "y1": 207.32608032226562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 15,
+      "polygon": [
+        [
+          507.0,
+          176.0
+        ],
+        [
+          507.0,
+          206.0
+        ],
+        [
+          623.0,
+          206.0
+        ],
+        [
+          623.0,
+          176.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Literatur",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 1,
+      "pp_label": "reference",
+      "score": 0.8766762614250183,
+      "bbox": {
+        "x0": 504.2438049316406,
+        "y0": 248.11679077148438,
+        "x1": 1407.018310546875,
+        "y1": 1922.2103271484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 24,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Ajzen, I. (1985). From intentions to actions: A theory of planned behavior. In J. Kuhl & J. Beckmann (Eds.), Action-control: From cognition to behavior (pp. 11–39). Heidelberg: Springer.\n\nAjzen, I. (1987). Attitudes, traits, and actions: Dispositional prediction of behavior in personality and social psychology. In L. Berkowitz (Ed.), Advances in experimental social psychology (vol. 20, pp. 1–63). New York: Academic Press.\n\nAjzen, I. (1991). The theory of planned behavior. Organizational Behavior and Human Decision Processes, 50, 179–211.\n\nAjzen, I. (1996). The directive influence of attitudes on behavior. In P. Gollwitzer & J. A. Bargh (Eds.), The psychology of action: Linking cognition and motivation to behavior (pp. 385–403). New York: Guilford.\n\nAjzen, I. & Fishbein, M. (1977). Attitude-behavior relations: A theoretical analysis and review of empirical research. Psychological Bulletin, 84, 888–918.\n\nAjzen, I. & Fishbein, M. (2000). Attitudes and the attitude-behavior relation: Reasoned and automatic processes. European Review of Social Psychology, 11, 1–33.\n\nAjzen, I. & Madden, T. J. (1986). Prediction of goal-directed behavior: Attitudes, intentions, and perceived behavioral control. Journal of Experimental Social Psychology, 22, 453–474.\n\nAlbarracin, D. & Kumkale, G. T. (2003). Affect as information in persuasion: A model of affect identification and discounting. Journal of Personality and Social Psychology, 84, 453–469.\n\nAllen, M. (1991). Meta-analysis comparing the persuasiveness of one-sided and two-sided messages. Western Journal of Speech Communication, 55, 390–404.\n\nArmitage, C. J. & Conner, M. (2001). Efficacy of the theory of planned behavior: A meta-analytic review. British Journal of Social Psychology, 40, 471–499.\n\nAronson, E., Wilson, T. D. & Akert, R. M. (2008). Sozialpsychologie (6. Aufl). München: Pearson Studium.\n\nBaron, R. M. & Kenny, D. A. (1986). The moderator-mediator variable distincton in social psychological research: Conceptual, strategic, and statistical considerations. Journal of Personality and Social Psychology, 51, 1171–1182.\n\nBem, D. J. (1967). Self-perception: An alternative interpretation of cognitive dissonance phenomena. Psychological Review, 74, 183–200.\n\nBem, D. J. (1972). Self-perception theory. In L. Berkowitz (Ed.), Advances in experimental social psychology (vol. 6, pp. 1–62). New York: Academic Press.\n\nBurger, J. M. (1999). The foot-in-the-door compliance procedure: A multiple-process analysis and review. Personality and Social Psychology Review, 3, 303–325.\n\nChaiken, S., Liberman, A. & Eagly, A. H. (1989). Heuristic and systematic information processing within and beyond the persuasion context. In J. S. Uleman & J. A. Bargh (Eds.), Unintended thought (pp. 212–252). New York: Guilford.\n\nChen, M. & Bargh, J. A. (1999). Consequences of automatic evaluation: Immediate behavioral predispositions to approach or avoid the stimulus. Personality and Social Psychology Bulletin, 25, 215–224.\n\nClore, G. L., Gasper, K. & Garvin, E. (2001). Affect as information. In J. P. Forgas (Eds.), Handbook of affect and social cognition (pp. 121–144). Mahwah: Erlbaum.\n\nClore, G. L., Schwarz, N. & Conway, M. (1994). Affective causes and consequences of social information processing. In R. S. Wyer & T. K. Srull (Eds.), Handbook of social cognition (pp. 323–417). Hillsdale: Erlbaum.\n\nCooke, R. & Sheeran, P. (2004). Moderation of cognition-intention and cognition behaviour relations: A meta-analysis of propert. British Journal of Social Psychology, 43, 159–186.\n\nCooper, J. & Fazio, R. H. (1984). A new look at dissonance theory. In L. Berkowitz (Ed.), Advances in experimental social psychology (vol. 17, S. 229–264). Orlando: Academic Press.\n\nCrites, S. L., Fabrigar, L. R. & Petty, R. E. (1994). Measuring the affective and cognitive properties of attitudes: Conceptual and methodological issues. Personality and Social Psychology Bulletin, 20, 619–634.\n\nDawes, R. M. & Smith, T. L. (1985). Attitude and opinion measurement. In G. Lindzey & E. Aronson (Eds.), Handbook of social psychology (3rd ed., vol. 1, pp. 509–566). New York: Random House.\n\nDoll, J. & Ajzen, I. (1992). Accessibility and stability of predictors in the theory of planned behavior. Journal of Personality and Social Psychology, 63, 754–765.\n\nEagly, A. H. & Chaiken, S. (1993). The psychology of attitudes. Orlando: Harcourt Brace Jovanovich.\n\nEaton, A. A., Majka, E. A. & Visser, P. S. (2008). Emerging perspectives on the structure and function of attitude strength. European Review of Social Psychology, 19, 165–201.\n\nFAO (2009). The state of food and agriculture 2009: Livestock in the balance. Retrieved from http://www.fao.org/publications/sofa-2009/en/\n\nFazio, R. H. & Williams, C. J. (1986). Attitude accessibility as a moderator of the attitude-perception and attitude-behavior relations: An investigation of the 1984 presidential election. Journal of Personality and Social Psychology, 51, 505–514.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 826.8085327148438
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2642.594970703125
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 700.8374633789062
+    }
+  ],
+  "warnungen": [
+    "Blöcke [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31] zu #3 (reference) zusammengeführt.",
+    "Blöcke [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31] zu #3 (reference) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.4139620419991843,
+      "zeitstempel": "2026-09-06T14:31:31.116692Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 10.683433167003386,
+      "zeitstempel": "2026-09-06T14:53:10.118089Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 10.75610145900282,
+      "zeitstempel": "2026-09-06T15:20:39.391832Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

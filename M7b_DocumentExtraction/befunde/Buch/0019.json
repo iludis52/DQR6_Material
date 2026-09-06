@@ -1,0 +1,456 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 19,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 4,
+      "pp_label": "number",
+      "score": 0.6539915800094604,
+      "bbox": {
+        "x0": 116.66246032714844,
+        "y0": 80.34649658203125,
+        "x1": 144.79519653320312,
+        "y1": 103.61859130859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 5,
+      "polygon": [
+        [
+          116.0,
+          80.0
+        ],
+        [
+          116.0,
+          102.0
+        ],
+        [
+          143.0,
+          102.0
+        ],
+        [
+          143.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.8469704985618591,
+      "bbox": {
+        "x0": 189.83914184570312,
+        "y0": 78.20449829101562,
+        "x1": 1177.8739013671875,
+        "y1": 107.20553588867188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 12,
+      "polygon": [
+        [
+          189.0,
+          78.0
+        ],
+        [
+          189.0,
+          106.0
+        ],
+        [
+          1176.0,
+          106.0
+        ],
+        [
+          1176.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 1 · Definitorische, wissenschaftstheoretische und methodische Grundlagen der Sozialpsychologie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 5,
+      "pp_label": "vision_footnote",
+      "score": 0.7511970400810242,
+      "bbox": {
+        "x0": 128.19366455078125,
+        "y0": 252.44961547851562,
+        "x1": 428.903564453125,
+        "y1": 394.9646911621094,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 94,
+      "polygon": [
+        [
+          128.0,
+          252.0
+        ],
+        [
+          128.0,
+          393.0
+        ],
+        [
+          427.0,
+          393.0
+        ],
+        [
+          427.0,
+          252.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der Korrelationskoeffizient gibt Aufschluss über die Richtung und Stärke eines statistischen Zusammenhangs zwischen zwei (psychologischen) Variablen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.6634381413459778,
+      "bbox": {
+        "x0": 127.17965698242188,
+        "y0": 951.701171875,
+        "x1": 454.3796081542969,
+        "y1": 1121.74169921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 124,
+      "polygon": [
+        [
+          127.0,
+          951.0
+        ],
+        [
+          127.0,
+          1120.0
+        ],
+        [
+          453.0,
+          1120.0
+        ],
+        [
+          453.0,
+          951.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Korrelationsstudien sind einfach und kostengünstig durchzuführen. Zudem lassen sich auch Hypothesen untersuchen, die aus ethischen Gründen experimentell nicht unter- suchbar sind.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.7332674860954285,
+      "bbox": {
+        "x0": 127.84011840820312,
+        "y0": 1151.677734375,
+        "x1": 438.18121337890625,
+        "y1": 1266.200927734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 159,
+      "polygon": [
+        [
+          127.0,
+          1151.0
+        ],
+        [
+          127.0,
+          1265.0
+        ],
+        [
+          430.0,
+          1265.0
+        ],
+        [
+          437.0,
+          1256.0
+        ],
+        [
+          437.0,
+          1151.0
+        ],
+        [
+          287.0,
+          1151.0
+        ],
+        [
+          218.0,
+          1151.0
+        ],
+        [
+          203.0,
+          1151.0
+        ],
+        [
+          142.0,
+          1151.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der zentrale Nachteil der Korrelationsmethode besteht darin, dass mit ihr keine Kausalzusammenhänge überprüft werden können.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 6,
+      "pp_label": "paragraph_title",
+      "score": 0.8248217701911926,
+      "bbox": {
+        "x0": 506.944580078125,
+        "y0": 174.77236938476562,
+        "x1": 1208.4852294921875,
+        "y1": 209.51144409179688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 174,
+      "polygon": [
+        [
+          506.0,
+          174.0
+        ],
+        [
+          506.0,
+          208.0
+        ],
+        [
+          1207.0,
+          208.0
+        ],
+        [
+          1207.0,
+          174.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1.3.4 Korrelationsmethode bzw. Quasi-Experiment",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9765515327453613,
+      "bbox": {
+        "x0": 503.5535583496094,
+        "y0": 249.42547607421875,
+        "x1": 1406.7532958984375,
+        "y1": 949.7549438476562,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 177,
+      "polygon": [
+        [
+          511.0,
+          249.0
+        ],
+        [
+          511.0,
+          948.0
+        ],
+        [
+          1405.0,
+          938.0
+        ],
+        [
+          1405.0,
+          249.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Bei der Korrelationsmethode werden statistische Zusammenhänge zwischen Variablen hergestellt. Zum Beispiel könnte gefragt werden, ob Jugendliche, die sich häufig mit aggressiven Videospielen, wie z. B. Ego-Shooter, die Zeit vertreiben, auch häufiger durch aggressives Verhalten in der Schule oder Gesellschaft auffallen (für einen Überblick s. Anderson et al., 2010). Man würde dazu zum einen erfassen, wie häufig ein Jugendlicher aggressive Videospiele spielt (z. B. Häufigkeit pro Woche oder Monat) und zum anderen, wie häufig er bereits durch aggressives Verhalten aufgefallen ist (z. B. Einschätzung der Lehrkraft, Anzahl der Verweise wegen Raufens, Anzeigen und Vorstrafen wegen aggressivem Verhalten). Sobald man diese beiden Indikatoren gemessen hat, ist es möglich, ein statistisches Zusammenhangsmaß – die Korrelation r − zu berechnen. Dieser Zusammenhang r kann dabei zwischen −1 und + 1 liegen. Der maximale Wert von \\(r = +1\\) reflektiert einen perfekten positiven Zusammenhang zwischen den beiden Messvariablen. Beispielsweise könnte sich herausstellen, dass die Menge des Konsums aggressiver Medien perfekt mit der Häufigkeit oder Intensität aggressiven Verhaltens einhergeht. Im Gegensatz dazu würde eine Korrelation von r = −1 einen perfekten negativen Zusammenhang beschreiben; je höher der Konsum aggressiver Medienprodukte wäre, desto geringer wäre die Aggressivität. Schließlich besagt ein Korrelationskoeffizient vom Wert 0, dass kein systematischer Zusammenhang zwischen den Messvariablen besteht. In diesem Fall hätte die Tatsache, dass ein Jugendlicher sehr häufig aggressive Videospiele konsumiert, nichts mit dessen möglicherweise aggressivem Verhalten zu tun.\nZu den Vorteilen von Korrelationsstudien gehört, dass sie relativ leicht im Feld",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9557844996452332,
+      "bbox": {
+        "x0": 503.8909606933594,
+        "y0": 949.6939086914062,
+        "x1": 1405.1573486328125,
+        "y1": 1115.310546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 248,
+      "polygon": [
+        [
+          503.0,
+          949.0
+        ],
+        [
+          503.0,
+          1114.0
+        ],
+        [
+          1397.0,
+          1114.0
+        ],
+        [
+          1404.0,
+          1104.0
+        ],
+        [
+          1404.0,
+          949.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Zu den Vorteilen von Korrelationsstudien gehört, dass sie relativ leicht im Feld (d. h. nicht im Labor) durchgeführt werden können und relativ kostengünstig sind. Hinzu kommt, dass einige Phänomene aufgrund ethischer Überlegungen lediglich als Korrelationsstudie untersucht werden können, wie etwa der Zusammenhang zwischen Rauchen und Lungenkrebs.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9731987714767456,
+      "bbox": {
+        "x0": 502.8600158691406,
+        "y0": 1117.2640380859375,
+        "x1": 1408.4183349609375,
+        "y1": 1850.6798095703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 264,
+      "polygon": [
+        [
+          502.0,
+          1117.0
+        ],
+        [
+          510.0,
+          1849.0
+        ],
+        [
+          1407.0,
+          1849.0
+        ],
+        [
+          1407.0,
+          1117.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Der größte Nachteil der Korrelationsstudie ist allerdings, dass sie keine Kausalschlüsse zulässt. Macht der Konsum aggressiver Videospiele den Menschen aggressiver (ist also der Konsum ursächlich für eine gesteigerte Aggressivität) oder fühlen sich aggressive Menschen grundsätzlich stärker zu solchen Spielen hingezogen? Darüber hinaus bleibt die Frage offen, ob möglicherweise nicht gemessene Drittvariablen für den statistischen Zusammenhang zweier Variablen verantwortlich sind. Beispiele für solche typische Drittvariablen wären Alter, Geschlecht oder soziale Schichtzugehörigkeit der Versuchspersonen oder des Versuchsleiters, deren Persönlichkeitsunterschiede oder auch die Tageszeit der Erhebung. So könnte der tatsächlich gefundene positive Zusammenhang zwischen aggressivem Videospielkonsum und aggressivem Verhalten (vgl., Anderson et al., 2010; Anderson & Bushman, 2002; Bushman, 1998) in oben genannten Beispiel auch alternativ dadurch erklärt werden, dass Personen, die a priori das Persönlichkeitsmerkmal der Aggressivität aufweisen, mit höherer Wahrscheinlichkeit ihre Umwelt so gestalten, dass darin aggressive Inhalte vorkommen. Insbesondere wäre zu erwarten, dass solche Personen aggressive Videospiele den nicht aggressiven Spielen vorziehen. Grundsätzlich gilt, dass die Zahl der möglichen Drittvariablen zahlenmäßig nicht beschränkt ist. Auch Quasi-Experimente, bei welchen Stichproben aus a priori bereits vorhandenen Gruppen bestehen, die dann verglichen werden (z. B. Vergleich des Sozialverhaltens von Rauchern vs. Nichtrauchern; diese beiden Gruppen bestehen ja bereits vor der Untersuchung und werden nicht durch den Experimentator selbst bestimmt) können dies nicht leisten. Die einzige Möglichkeit, Drittvariablen definitiv auszuschließen, ist die Durchführung eines echten Experiments.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1085.7633056640625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2659.98046875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1563.3724365234375
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1388.8262939453125
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1440.7603759765625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 941.0266723632812
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 2107.491455078125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1734.546875
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3691617080003198,
+      "zeitstempel": "2026-09-06T14:30:58.859850Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 12.05926124999678,
+      "zeitstempel": "2026-09-06T14:36:04.145685Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

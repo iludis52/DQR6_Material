@@ -1,0 +1,648 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 169,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.7151779532432556,
+      "bbox": {
+        "x0": 116.5300064086914,
+        "y0": 78.07244873046875,
+        "x1": 1205.8077392578125,
+        "y1": 107.32635498046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "166 Kapitel 10 · Sozialpsychologie der menschlichen Existenz: Positive Psychologie und Psychologie der Religion",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.7461857795715332,
+      "bbox": {
+        "x0": 128.5902557373047,
+        "y0": 352.26531982421875,
+        "x1": 452.914306640625,
+        "y1": 495.25408935546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 93,
+      "polygon": [
+        [
+          128.0,
+          352.0
+        ],
+        [
+          128.0,
+          494.0
+        ],
+        [
+          451.0,
+          494.0
+        ],
+        [
+          451.0,
+          352.0
+        ],
+        [
+          152.0,
+          352.0
+        ],
+        [
+          135.0,
+          352.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Religiosität hat zwei Gesichter: Innerhalb der religiösen Eigengruppe fördert sie z. B. prosoziales Verhalten, gegenüber religiösen Fremd-gruppen dagegen Vorurteile.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 17,
+      "pp_label": "text",
+      "score": 0.7341825366020203,
+      "bbox": {
+        "x0": 127.74378967285156,
+        "y0": 818.32275390625,
+        "x1": 448.78424072265625,
+        "y1": 903.49462890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 118,
+      "polygon": [
+        [
+          127.0,
+          818.0
+        ],
+        [
+          127.0,
+          902.0
+        ],
+        [
+          447.0,
+          902.0
+        ],
+        [
+          447.0,
+          818.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Religiös bedingte Vorurteile weiten sich oft auch auf die ethnische Herkunft aus.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.7831700444221497,
+      "bbox": {
+        "x0": 128.0846710205078,
+        "y0": 1051.9365234375,
+        "x1": 456.45220947265625,
+        "y1": 1222.691162109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 150,
+      "polygon": [
+        [
+          128.0,
+          1051.0
+        ],
+        [
+          128.0,
+          1221.0
+        ],
+        [
+          455.0,
+          1221.0
+        ],
+        [
+          455.0,
+          1051.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Vor allem der religiöse Fundamentismus steht in Zusammenhang mit Rassismus. Dies ist u. a. darin begründet, dass verlorene Sicherheit durch Abwertung der Fremdgruppe wiedergewonnen werden kann.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 15,
+      "pp_label": "text",
+      "score": 0.5069628953933716,
+      "bbox": {
+        "x0": 127.50565338134766,
+        "y0": 1834.5361328125,
+        "x1": 457.8765869140625,
+        "y1": 1919.92578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 165,
+      "polygon": [
+        [
+          127.0,
+          1834.0
+        ],
+        [
+          127.0,
+          1918.0
+        ],
+        [
+          456.0,
+          1918.0
+        ],
+        [
+          456.0,
+          1834.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Zuschreibung von Autorität auf geistliche Texte kann negative Folgen haben.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9570600390434265,
+      "bbox": {
+        "x0": 503.1070861816406,
+        "y0": 181.73321533203125,
+        "x1": 1406.19921875,
+        "y1": 348.18951416015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 168,
+      "polygon": [
+        [
+          503.0,
+          181.0
+        ],
+        [
+          503.0,
+          347.0
+        ],
+        [
+          1405.0,
+          347.0
+        ],
+        [
+          1405.0,
+          181.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "konfessionellen Spaltung von Nordirland) oder auch an eingeschränkter Hilfeleistung intrinsich religiöser Menschen gegenüber Personen, die andere Werte verfolgen (Batson, Floyd, Meyer & Winner, 1999; Batson, Schoenrade, & Ventis, 1993) bzw. kulturell bedingt einer Fremdgruppe angehören (höhere Hilfeleistung gegenüber Obdachlosen als gegenüber Immigranten; Pichon & Saroglou, 2009).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9623770117759705,
+      "bbox": {
+        "x0": 503.8108215332031,
+        "y0": 350.1402587890625,
+        "x1": 1406.2493896484375,
+        "y1": 683.1929931640625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 197,
+      "polygon": [
+        [
+          503.0,
+          361.0
+        ],
+        [
+          503.0,
+          682.0
+        ],
+        [
+          1405.0,
+          682.0
+        ],
+        [
+          1405.0,
+          350.0
+        ],
+        [
+          511.0,
+          350.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "As gegenüber Innsbrucken, Fischl & Saragiot, 2009).\nInsofern kann Religiosität also mit enormen Vorurteilen gegenüber der Fremdgruppe verbunden sein, was bereits Allport (1954, S. 444) wie folgt ausdrückte: »The role of religion is paradoxical. It makes prejudice and it unmakes prejudice.« Er spielt damit auf die zweischneidige Rolle von Religiosität an, die innerhalb der eigenen Gruppe positiv (prosozial und altruistisch), gegenüber der Fremdgruppe jedoch mit negativen Aspekten und eben Vorurteilen behaftet sein kann (Norenzayan & Shariff, 2008). Viele neuere Arbeiten bestätigen diesen Befund, indem sie zeigen, dass religiöses Priming (z. B. religiöse vs. neutrale Worte) neben prosozialen Verhaltensweisen auch Vorurteile gegenüber einer religiösen Fremdgruppe fördern können (Ginges, Hansen, & Norenzayan, 2009; Preston & Ritter, 2009).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.8396015763282776,
+      "bbox": {
+        "x0": 507.43505859375,
+        "y0": 740.5723876953125,
+        "x1": 1265.4835205078125,
+        "y1": 777.0174560546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 216,
+      "polygon": [
+        [
+          507.0,
+          740.0
+        ],
+        [
+          507.0,
+          776.0
+        ],
+        [
+          1264.0,
+          776.0
+        ],
+        [
+          1264.0,
+          740.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.3.2 Religiöser Terrorismus und Fundamentalismus",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9523741006851196,
+      "bbox": {
+        "x0": 504.2871398925781,
+        "y0": 816.5252685546875,
+        "x1": 1405.5406494140625,
+        "y1": 1048.0887451171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 231,
+      "polygon": [
+        [
+          504.0,
+          816.0
+        ],
+        [
+          504.0,
+          1047.0
+        ],
+        [
+          1404.0,
+          1047.0
+        ],
+        [
+          1404.0,
+          816.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Da religiöse Unterschiede zwischen Gruppen teilweise mit einer unterschiedlichen ethnischen Herkunft einhergehen, bleiben Vorurteile oft nicht auf den Bereich Religion beschränkt, sondern weiten sich auf die ethnische Herkunft aus (Hall, Matz & Wood, 2010). In ihrer Metaanalyse fanden Hall et al. (2010) jeweils einen positiven Zusammenhang zwischen religiöser Identität, extrinsischer Religiosität, religiösem Fundamentalismus und Rassismus. (Dagegen konnte keine positive Korrelation zwischen intrinsischer Religiosität und Rassismus nachgewiesen werden.)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9677954912185669,
+      "bbox": {
+        "x0": 503.6795959472656,
+        "y0": 1049.2830810546875,
+        "x1": 1406.114013671875,
+        "y1": 1482.3238525390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 233,
+      "polygon": [
+        [
+          503.0,
+          1060.0
+        ],
+        [
+          511.0,
+          1481.0
+        ],
+        [
+          1405.0,
+          1471.0
+        ],
+        [
+          1405.0,
+          1060.0
+        ],
+        [
+          1383.0,
+          1049.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "In this chapter, Regiositat und Rassismus nachgewiesen werden. Speziell der religiöse Fundamentalismus ist hierbei zentral und spielt besonders auch in Verbindung mit Terrorismus eine wichtige Rolle. Grundsätzlich steht er in Zusammenhang mit Gewalt (Ginges, Hansen & Norenzayan, 2009) und nicht selten auch mit Selbstaufoperung bzw. Selbstmordattentaten (Routledge & Arndt, 2008). Bedeutende Beispiele sind vor diesem Hintergrund der Anschlag auf das World Trade Center in New York am 11. September 2001 oder auch die Zuganschläge in Madrid am 11. März 2004. Insofern kann Religiosität in extremer Form auch zu Märtyrertum und Aufoperung für die eigene religiöse Glaubensgemeinschaft führen. Eine mögliche Ursache hierfür sehen Brandt und Reyna (2010) darin, dass Fundamentalismus gewisse Ideologien, Glaubenssätze, Regeln und dadurch bedingt Sicherheit und Kontrolle beitstellt. Werden diese Strukturen bedroht, so kann die ursprüngliche Sicherheit durch Abwertung bzw. Diskriminierung der Fremdgruppe wiederhergestellt werden (s. auch Altemeyer & Hunsberger, 2005).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9552299976348877,
+      "bbox": {
+        "x0": 503.787841796875,
+        "y0": 1482.41259765625,
+        "x1": 1406.7681884765625,
+        "y1": 1684.68798828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 258,
+      "polygon": [
+        [
+          503.0,
+          1482.0
+        ],
+        [
+          503.0,
+          1683.0
+        ],
+        [
+          1405.0,
+          1683.0
+        ],
+        [
+          1405.0,
+          1482.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Bei den Stichworten »Bedrohung persönlich wichtiger Werte und Normen« sowie »Schutzmechanismen zur Verteidigung dieser« fällt vermutlich die Ähnlichkeit zur Terrormanagementtheorie auf. Interessanterweise konnten Pyszczynski et al. (2006) zeigen, dass Mortalitätssalienz die Absicht zur Selbstaufoperung im religiösen Kontext erhöht. Insofern könnten Märtyrertum bzw. Selbstmordattentate im Sinne der TMT eine Verteidigung der eigenen kulturellen bzw. religiösen Weltsicht bedeuten.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.888425886631012,
+      "bbox": {
+        "x0": 507.7494812011719,
+        "y0": 1740.0733642578125,
+        "x1": 1342.6873779296875,
+        "y1": 1809.7930908203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 278,
+      "polygon": [
+        [
+          507.0,
+          1740.0
+        ],
+        [
+          507.0,
+          1808.0
+        ],
+        [
+          1341.0,
+          1808.0
+        ],
+        [
+          1341.0,
+          1740.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.3.3 Berufung auf religiöse Schriften – Zuschreibung von Autorität auf geistliche Texte",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9371421933174133,
+      "bbox": {
+        "x0": 503.1632995605469,
+        "y0": 1848.7313232421875,
+        "x1": 1406.90869140625,
+        "y1": 1948.5753173828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 290,
+      "polygon": [
+        [
+          503.0,
+          1858.0
+        ],
+        [
+          503.0,
+          1947.0
+        ],
+        [
+          1405.0,
+          1947.0
+        ],
+        [
+          1405.0,
+          1848.0
+        ],
+        [
+          1361.0,
+          1848.0
+        ],
+        [
+          1201.0,
+          1848.0
+        ],
+        [
+          1171.0,
+          1848.0
+        ],
+        [
+          1155.0,
+          1848.0
+        ],
+        [
+          1065.0,
+          1848.0
+        ],
+        [
+          1056.0,
+          1848.0
+        ],
+        [
+          997.0,
+          1848.0
+        ],
+        [
+          511.0,
+          1848.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Schattenseite der Religion ist aber nicht begrenzt auf den Fundamentalismus und die Intergruppenbeziehungen. Es ist ein generelles Merkmal der intrinsischen Religiosität, dass den sakralen Texten hohe Autorität zugeschrieben wird. So kann »Und die",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2479.30322265625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2288.5361328125
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 2022.3802490234375
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 2588.2685546875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1369.289306640625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 808.4827880859375
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 2143.380126953125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1270.2640380859375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1776.9144287109375
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1906.56103515625
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 2382.911376953125
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1557.1739501953125
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3837438749978901,
+      "zeitstempel": "2026-09-06T14:31:57.969451Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 14.295440958001564,
+      "zeitstempel": "2026-09-06T15:07:24.526563Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

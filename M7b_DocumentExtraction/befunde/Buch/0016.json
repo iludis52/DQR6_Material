@@ -1,0 +1,714 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 16,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.8373256325721741,
+      "bbox": {
+        "x0": 114.07060241699219,
+        "y0": 78.52471923828125,
+        "x1": 471.666259765625,
+        "y1": 106.64837646484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 8,
+      "polygon": [
+        [
+          114.0,
+          78.0
+        ],
+        [
+          114.0,
+          105.0
+        ],
+        [
+          470.0,
+          105.0
+        ],
+        [
+          470.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1.3 · Methoden der Sozialpsychologie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9580203294754028,
+      "bbox": {
+        "x0": 109.28602600097656,
+        "y0": 182.60595703125,
+        "x1": 1013.989013671875,
+        "y1": 416.746826171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 66,
+      "polygon": [
+        [
+          109.0,
+          182.0
+        ],
+        [
+          117.0,
+          415.0
+        ],
+        [
+          1012.0,
+          415.0
+        ],
+        [
+          1012.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Mit dieser Herangehensweise geht man also nicht von einer Nullhypothese aus, die besagt, dass ein Unterschied besteht. Insofern wird diese Annahme auch nicht falsifiziert. Als weitere Folge kann der statistische Unterschied zwischen den beiden Gruppen auch nicht als Beweis dafür angesehen werden kann, dass es diesen Unterschied tatsächlich auch gibt. In der Wissenschaft wie auch in anderen Lebensbereichen kann nichts bewiesen, sondern lediglich falsifiziert werden (Frey, Schmalzried, Jonas, Fischer & Dirmeier, 2011; Meehl, 1978).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.8683785796165466,
+      "bbox": {
+        "x0": 113.21503448486328,
+        "y0": 473.2021789550781,
+        "x1": 687.8056030273438,
+        "y1": 510.9162292480469,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 92,
+      "polygon": [
+        [
+          113.0,
+          473.0
+        ],
+        [
+          113.0,
+          509.0
+        ],
+        [
+          686.0,
+          509.0
+        ],
+        [
+          686.0,
+          473.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1.3 Methoden der Sozialpsychologie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9664349555969238,
+      "bbox": {
+        "x0": 110.30490112304688,
+        "y0": 549.2335205078125,
+        "x1": 1013.0721435546875,
+        "y1": 914.9547119140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 100,
+      "polygon": [
+        [
+          110.0,
+          549.0
+        ],
+        [
+          118.0,
+          913.0
+        ],
+        [
+          1012.0,
+          913.0
+        ],
+        [
+          1012.0,
+          549.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Leider besteht oft die fälschliche Annahme, dass Sozialpsychologie, bzw. die Psychologie im Allgemeinen, keine richtige Wissenschaft sei und eher den Charakter einer Alltagspsychologie habe. Kritiker behaupten, es handle sich dabei lediglich um subjektive Annahmen, die man mit der eigenen Forschung zu bestätigen versuche – und das auf nichtwissenschaftlichem Wege (z. B. Lilienfeld, 2011). Woher diese Vorurteile kommen, soll hier nicht weiter erläutert werden; ein wichtiger Punkt könnte sein, dass der Gegenstand der Sozialpsychologie jeden Menschen von uns betrifft, der sich – ob nun als Mechaniker oder Musiker – seine Gedanken dazu macht und gewisse Annahmen bildet. Wie wir in einem späteren Kapitel noch erfahren werden, neigen wir Menschen dazu, für bestimmte Ereignisse Erklärungen zu suchen und Schemata zu schaffen, die uns Klarheit geben sollen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9539239406585693,
+      "bbox": {
+        "x0": 110.33850860595703,
+        "y0": 916.22265625,
+        "x1": 1012.4766845703125,
+        "y1": 1181.12353515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 145,
+      "polygon": [
+        [
+          110.0,
+          927.0
+        ],
+        [
+          118.0,
+          1180.0
+        ],
+        [
+          1011.0,
+          1180.0
+        ],
+        [
+          1011.0,
+          916.0
+        ],
+        [
+          277.0,
+          916.0
+        ],
+        [
+          118.0,
+          916.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Dabei gehen wir jedoch nicht immer akkurat vor, sondern tendieren zu Verzerrungen, sammeln möglicherweise nur Informationen, die uns gefallen, vergessen widersprüchliche Befunde am liebsten ganz schnell oder beurteilen Situationen aufgrund unserer Vorerfahrung nicht objektiv. Dies sind Dinge, die wir bestimmt ganz gut an uns selbst kennen. Doch in der sozialpsychologischen Forschung haben sie keinen Platz, da die Sozialpsychologie eine Wissenschaft ist und folglich die jeweiligen methodischen Standards erfüllt. Sie bedient sich dabei fünf verschiedener wissenschaftlicher Methoden:",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.8125351071357727,
+      "bbox": {
+        "x0": 113.95418548583984,
+        "y0": 1183.8624267578125,
+        "x1": 545.5601196289062,
+        "y1": 1213.8131103515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 158,
+      "polygon": [
+        [
+          113.0,
+          1183.0
+        ],
+        [
+          113.0,
+          1212.0
+        ],
+        [
+          544.0,
+          1212.0
+        ],
+        [
+          544.0,
+          1183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1. qualitative Befragung bzw. Interview,",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 17,
+      "pp_label": "text",
+      "score": 0.8005291223526001,
+      "bbox": {
+        "x0": 113.469482421875,
+        "y0": 1251.9700927734375,
+        "x1": 412.0120544433594,
+        "y1": 1281.1959228515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 159,
+      "polygon": [
+        [
+          113.0,
+          1251.0
+        ],
+        [
+          113.0,
+          1280.0
+        ],
+        [
+          411.0,
+          1280.0
+        ],
+        [
+          411.0,
+          1251.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "3. Verhaltensbeobachtung,",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.7783213257789612,
+      "bbox": {
+        "x0": 112.58258056640625,
+        "y0": 1283.0322265625,
+        "x1": 769.9581298828125,
+        "y1": 1313.95654296875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 170,
+      "polygon": [
+        [
+          112.0,
+          1283.0
+        ],
+        [
+          112.0,
+          1312.0
+        ],
+        [
+          768.0,
+          1312.0
+        ],
+        [
+          768.0,
+          1283.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "4. Korrelationsstudie, Feldstudie bzw. Quasi-Experiment und",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.8003184199333191,
+      "bbox": {
+        "x0": 113.21969604492188,
+        "y0": 1217.7391357421875,
+        "x1": 406.1155090332031,
+        "y1": 1247.5682373046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 173,
+      "polygon": [
+        [
+          113.0,
+          1217.0
+        ],
+        [
+          113.0,
+          1246.0
+        ],
+        [
+          405.0,
+          1246.0
+        ],
+        [
+          405.0,
+          1217.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2. quantitative Befragung,",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.7680349349975586,
+      "bbox": {
+        "x0": 113.14405059814453,
+        "y0": 1317.5745849609375,
+        "x1": 361.3716125488281,
+        "y1": 1347.2530517578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 195,
+      "polygon": [
+        [
+          113.0,
+          1317.0
+        ],
+        [
+          113.0,
+          1346.0
+        ],
+        [
+          360.0,
+          1346.0
+        ],
+        [
+          360.0,
+          1317.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "5. echtes Experiment.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 6,
+      "pp_label": "paragraph_title",
+      "score": 0.8534876108169556,
+      "bbox": {
+        "x0": 114.0527114868164,
+        "y0": 1408.397216796875,
+        "x1": 481.7852478027344,
+        "y1": 1441.805908203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 214,
+      "polygon": [
+        [
+          114.0,
+          1408.0
+        ],
+        [
+          114.0,
+          1440.0
+        ],
+        [
+          480.0,
+          1440.0
+        ],
+        [
+          480.0,
+          1408.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1.3.1 Qualitative Methode",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9660172462463379,
+      "bbox": {
+        "x0": 110.06798553466797,
+        "y0": 1482.6414794921875,
+        "x1": 1014.2848510742188,
+        "y1": 1949.7467041015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 219,
+      "polygon": [
+        [
+          110.0,
+          1482.0
+        ],
+        [
+          110.0,
+          1948.0
+        ],
+        [
+          1013.0,
+          1948.0
+        ],
+        [
+          1013.0,
+          1482.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die grundlegende Methode ist die qualitative Befragung (also eine Befragung ohne quantitative statistische Analysen). Sie wird für explorative (lat. »explorare« = erforschen) Zwecke eingesetzt oder wenn Experimente oder andere Formen quantitativer Forschung aus methodischen oder ethischen Gründen nicht durchgeführt werden können. Dies ist beispielsweise der Fall, wenn man herausfinden will, weshalb so viele Menschen auf Betrug-E-Mails im Internet reagieren und dabei Geld verlieren (z. B. wird allein in Großbritannien der wirtschaftliche Schaden durch Betrug-E-Mails auf über 3 Mrd. Pfund jährlich geschätzt; Fischer, Lea & Evans, in press; Office for Fair Trading, 2008). Es wäre unethisch, hier ein Experiment durchzuführen und Personen ohne Vorwarnung selbstkonstruierte Betrug-E-Mails zu schicken und sie anschließend um wirkliches Geld zu bitten. Korrelationsstudien (Zusammenhangsstudien) sind aufgrund der geringen Stichprobe ebenfalls problematisch. Und zudem ist es natürlich nicht möglich, Personen im realen Umfeld dabei zu beobachten, wie sie Betrug-E-Mails an ihrem Rechner öffnen. Deshalb bleibt einem Forscher in so einem Fall lediglich das",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.8565201163291931,
+      "bbox": {
+        "x0": 1056.1978759765625,
+        "y0": 552.6710205078125,
+        "x1": 1385.4793701171875,
+        "y1": 691.8011474609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 278,
+      "polygon": [
+        [
+          1056.0,
+          552.0
+        ],
+        [
+          1056.0,
+          690.0
+        ],
+        [
+          1384.0,
+          690.0
+        ],
+        [
+          1384.0,
+          552.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Obwohl sich die Sozialpsychologie mit vielen alltäglichen Phänomenen wissenschaftlich befasst, ist sie keine schlichte Alltagspsychologie des Menschen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.889149010181427,
+      "bbox": {
+        "x0": 1057.090576171875,
+        "y0": 918.5386962890625,
+        "x1": 1384.6243896484375,
+        "y1": 1032.5025634765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 284,
+      "polygon": [
+        [
+          1057.0,
+          918.0
+        ],
+        [
+          1057.0,
+          1031.0
+        ],
+        [
+          1383.0,
+          1031.0
+        ],
+        [
+          1383.0,
+          918.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Sozialpsychologie ist eine etablierte grundlagenwissenschaftliche Disziplin, die sich verschiedener wissenschaftlicher Methoden bedient.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 13,
+      "pp_label": "text",
+      "score": 0.8405369520187378,
+      "bbox": {
+        "x0": 1056.9127197265625,
+        "y0": 1490.107177734375,
+        "x1": 1378.667236328125,
+        "y1": 1710.721435546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 291,
+      "polygon": [
+        [
+          1056.0,
+          1490.0
+        ],
+        [
+          1056.0,
+          1709.0
+        ],
+        [
+          1377.0,
+          1709.0
+        ],
+        [
+          1377.0,
+          1501.0
+        ],
+        [
+          1370.0,
+          1490.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Bei der qualitativen Methode werden die Versuchspersonen mittels spezifischer Fragen interviewt. Diese Methodik wird häufig dann verwendet, wenn experimentelle oder andere quantitative Methodenaus praktischen und/oder ethischen Gründen nicht anwendbar sind.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2838.228759765625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1304.1015625
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1266.406494140625
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1855.487060546875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1401.107421875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1151.607421875
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1390.152099609375
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 0.0,
+      "marge": -1324.899169921875
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1400.4898681640625
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1136.8175048828125
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1205.8416748046875
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 3771.557861328125
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 2201.673828125
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 858.1947631835938
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.4289773749987944,
+      "zeitstempel": "2026-09-06T14:30:57.724619Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 13.213843749999796,
+      "zeitstempel": "2026-09-06T14:35:21.220651Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

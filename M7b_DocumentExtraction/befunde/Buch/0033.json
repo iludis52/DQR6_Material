@@ -1,0 +1,565 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 33,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 169,
+      "pp_label": "number",
+      "score": 0.5976337790489197,
+      "bbox": {
+        "x0": 115.45758819580078,
+        "y0": 80.01190185546875,
+        "x1": 144.7694549560547,
+        "y1": 103.58599853515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 2,
+      "polygon": [
+        [
+          115.0,
+          80.0
+        ],
+        [
+          115.0,
+          102.0
+        ],
+        [
+          143.0,
+          102.0
+        ],
+        [
+          143.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "24",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8419967889785767,
+      "bbox": {
+        "x0": 191.0000762939453,
+        "y0": 79.07351684570312,
+        "x1": 1115.9208984375,
+        "y1": 106.66635131835938,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 11,
+      "polygon": [
+        [
+          191.0,
+          79.0
+        ],
+        [
+          191.0,
+          105.0
+        ],
+        [
+          1114.0,
+          105.0
+        ],
+        [
+          1114.0,
+          79.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 2 · Der Mensch als rationalisierendes Wesen: Kognitive Dissonanz und Selbstrechtfertigung",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.9362446069717407,
+      "bbox": {
+        "x0": 127.38003540039062,
+        "y0": 254.02362060546875,
+        "x1": 457.00982666015625,
+        "y1": 587.5462036132812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 102,
+      "polygon": [
+        [
+          127.0,
+          254.0
+        ],
+        [
+          127.0,
+          586.0
+        ],
+        [
+          456.0,
+          586.0
+        ],
+        [
+          456.0,
+          254.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Laut Aronson (1968) kommt es nur dann zu Dissonanz und nachfolgender Dissonanzreduktion, wenn mindestens zwei Kognitionen eine selbstbezogene Inkonsistenz hervorrufen. Ausschlaggebend ist also nicht, dass sich Verhalten und Einstellung widersprechen; vielmehr ist entscheidend, dass das einstel-lungsdiskrepante Verhalten zentrale Werte (z. B. Ehrlichkeit) einer Person betrifft.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 10,
+      "pp_label": "paragraph_title",
+      "score": 0.8144739866256714,
+      "bbox": {
+        "x0": 504.8917541503906,
+        "y0": 175.32296752929688,
+        "x1": 1198.5599365234375,
+        "y1": 208.54666137695312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 109,
+      "polygon": [
+        [
+          504.0,
+          175.0
+        ],
+        [
+          512.0,
+          207.0
+        ],
+        [
+          1197.0,
+          207.0
+        ],
+        [
+          1197.0,
+          175.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2.3.2 Dissonanz und selbstbezogene Inkonsistenz",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9656395316123962,
+      "bbox": {
+        "x0": 503.3113098144531,
+        "y0": 250.26437377929688,
+        "x1": 1406.823486328125,
+        "y1": 715.54296875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 128,
+      "polygon": [
+        [
+          503.0,
+          261.0
+        ],
+        [
+          511.0,
+          714.0
+        ],
+        [
+          1405.0,
+          714.0
+        ],
+        [
+          1405.0,
+          250.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Eine weitere einflussreiche Revision der Dissonanztheorie wurde von Aronson (1968, 1999) vorgelegt, welche sich vor allem mit dem Zusammenhang von Dissonanzregung und dem individuellen Selbst einer Person befasst (s. auch Harmon-Jones, 2000). Aronson nimmt an, dass Dissonanzregung und nachfolgende Dissonanzreduktion nur dann einsetzen, wenn ein Verhalten eigenen grundlegenden Kernüberzeugungen und Einstellungen widerspricht. Demnach entsteht Dissonanz nicht, weil lediglich zwei Kognitionen inkonsistent zueinander sind, sondern weil diese Kognitionen eine selbstbezogene Inkonsistenz hervorrufen, also im Widerstreit mit ganz grundsätzlichen Merkmalen der eigenen Person stehen. Das heißt, beim klassischen 20-Dollar-Experiment entsteht Dissonanz nicht wegen der Kognitionen »Das Experiment ist langweilig« und »Ich sagte, das Experiment sei spannend«, sondern beispielsweise wegen der Kognitionen »Ich bin eine ehrliche Person« und »Ich habe einen Mitstudenten belogen«. Beide dieser Kognitionen betreffen auf tieferer Ebene den Kern der Person (deren Werte, moralischen Vorstellungen etc.) und nicht nur ihr sichtbares Verhalten (Aronson, 1999; Harmon-Jones, 2000).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9368411898612976,
+      "bbox": {
+        "x0": 504.0019226074219,
+        "y0": 717.258056640625,
+        "x1": 1405.8878173828125,
+        "y1": 849.004150390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 145,
+      "polygon": [
+        [
+          504.0,
+          738.0
+        ],
+        [
+          512.0,
+          848.0
+        ],
+        [
+          1404.0,
+          848.0
+        ],
+        [
+          1404.0,
+          717.0
+        ],
+        [
+          512.0,
+          717.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "In einem mittlerweile klassischen Experiment konnten Stone, Aronson, Crain, Winslow und Fried (1994) in ihren sog. »Hypocrisy«-(Heuchelei-)Experimenten diese erste selbstbasierte Revision der Dissonanztheorie bestätigen (▶ Studie: Die Heuchelei-Experimente).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 11,
+      "pp_label": "paragraph_title",
+      "score": 0.7092617750167847,
+      "bbox": {
+        "x0": 153.5682830810547,
+        "y0": 881.720458984375,
+        "x1": 225.81863403320312,
+        "y1": 906.505859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 159,
+      "polygon": [
+        [
+          153.0,
+          881.0
+        ],
+        [
+          153.0,
+          905.0
+        ],
+        [
+          224.0,
+          905.0
+        ],
+        [
+          224.0,
+          881.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 13,
+      "pp_label": "paragraph_title",
+      "score": 0.6112566590309143,
+      "bbox": {
+        "x0": 152.6685028076172,
+        "y0": 918.5816650390625,
+        "x1": 455.9083251953125,
+        "y1": 945.3707275390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 168,
+      "polygon": [
+        [
+          152.0,
+          918.0
+        ],
+        [
+          152.0,
+          944.0
+        ],
+        [
+          454.0,
+          944.0
+        ],
+        [
+          454.0,
+          918.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Heuchelei-Experimente",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.7878131866455078,
+      "bbox": {
+        "x0": 150.83810424804688,
+        "y0": 952.05078125,
+        "x1": 1382.3482666015625,
+        "y1": 1314.5078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 183,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Stone et al. (1994) ließen in den sog. »Hypocrisy«-Experimente ihre Versuchsteilnehmer zunächst eine unterstützende Rede für »Safer Sex« halten. Das heißt, sie mussten begründen, warum es wichtig sei, keinen ungeschützten Geschlechtsverkehr zu haben. Nachfolgend kreuzten die Autoren zwei experimentelle Faktoren miteinander, d. h., sie untersuchten in demselben Experiment gleichzeitig zwei verschiedene Einflüsse auf die abhängige Variable (das jeweilige Verhalten) und erzeugten dadurch für verschiedene Personen unterschiedliche Bedingungen:\nDadurch erzeugte die Versuchsleitung bei einigen Versuchs-personen gezielt eine kognitive Dissonanz: nämlich bei denjigen, die zunächst öffentlich für Safer Sex argumentieren sollten (Faktor 1, Subgruppe »öffentlich«) und zugleich aber im Faktor 2 zu der Subgruppe gehörten, die sich eingestehen musste, sich selbst nicht immer an Safer Sex gehalten zu haben.\nAls abhängige Variable wurde gemessen, wie viel von ihrem Versuchspersonenentgelt die Untersuchungsteilnehmer in Kondome umtauschten, die ihnen der Versuchsleiter beim Verlassen des Labors anbot – inwiefern investierten die Probanden also in zukünftigen Safer Sex? Es fand sich, dass die Personen in der regenster Hauchelei Rückzuwun- (also",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        8,
+        11
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9411629438400269,
+      "bbox": {
+        "x0": 153.4777069091797,
+        "y0": 1319.2197265625,
+        "x1": 710.2279663085938,
+        "y1": 1545.853759765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 199,
+      "polygon": [
+        [
+          153.0,
+          1319.0
+        ],
+        [
+          153.0,
+          1544.0
+        ],
+        [
+          709.0,
+          1544.0
+        ],
+        [
+          709.0,
+          1319.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Faktor 1: Einfluss von Öffentlichkeit. Die Personen in dieser Gruppe hielten diese Rede entweder öffentlich (d. h. vor einer Videokamera und in dem Bewusstsein, dass andere Personen diese Rede später sehen und hören können) oder privat (keine Videokamera; niemand wird diese Rede je sehen oder hören).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9160894751548767,
+      "bbox": {
+        "x0": 149.5551300048828,
+        "y0": 1555.2764892578125,
+        "x1": 727.4981079101562,
+        "y1": 1917.5306396484375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 209,
+      "polygon": [
+        [
+          149.0,
+          1555.0
+        ],
+        [
+          149.0,
+          1916.0
+        ],
+        [
+          726.0,
+          1916.0
+        ],
+        [
+          719.0,
+          1555.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Faktor 2: Erinnerung an eigenes inkongruentes Verhalten. Im Rahmen des zweiten experimentellen Faktors wurden die Versuchspersonen entweder an eine Situation erinnert in der sie gegen die Safer-Sex-Norm verstoßen hatten oder nicht. Dies wurde erreicht, indem die eine Hälfte der Versuchspersonen einen kurzen Aufsatz über eine Situation schreiben musste, in der sie ungerechtfertigter Weise kein Kondom verwendete, während die zweite Hälfte dagegen über eine irrelevante (nicht themenbezogene) Situation schrieb.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.921602189540863,
+      "bbox": {
+        "x0": 769.4996948242188,
+        "y0": 1150.754638671875,
+        "x1": 1379.4715576171875,
+        "y1": 1919.949951171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 266,
+      "polygon": [
+        [
+          777.0,
+          1150.0
+        ],
+        [
+          769.0,
+          1918.0
+        ],
+        [
+          1378.0,
+          1918.0
+        ],
+        [
+          1378.0,
+          1150.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Süßt nicht immer am Salz Sex gehalten zu haben.\nAls abhängige Variable wurde gemessen, wie viel von ihrem Versuchspersonenentgelt die Untersuchungsteilnehmer in Kondome umtauschten, die ihnen der Versuchsleiter beim Verlassen des Labors anbot – inwiefern investierten die Probanden also in zukünftigen Safer Sex? Es fand sich, dass die Personen in der genannten Heuchelei-Bedingung (also jene, die eine öffentliche Rede für Safer Sex hielten, nach- folgend aber daran erinnert wurden, sich selbst nicht immer entsprechend verhalten zu haben) besonders viel Versuchspersonenhonorar in Kondome umtauschten. Dieses Ergebnis widerspricht der ursprünglichen Annahme der Dissonanz-theorie; denn dieser zufolge hätten gerade die »Heuchler« aufgrund ihrer erlebten Dissonanz (Nichteinhalten des eigenen Grundsatzes) dazu tendieren sollen, diese durch Einstellungsänderung (»Ich bin gegen Safer Sex und kaufe daher auch keine Kondome.«) oder Trivialisierung (»Diese Ausnahmen sind nicht der Rede wert und im Grunde halte ich mich an Safer Sex.«) abzubauen. Stattdessen kaufte ausgerechnet diese Personengruppe die meisten Kondome bzw. Zeitschriften zu Safer Sex. Dies kann man so interpretieren, dass das inkonsistente Verhalten dieser Probanden deren persönlichen Werten und grundlegenden Einstellungen widersprach. Es waren also wichtige selbstbezogene Aspekte betroffen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1227.2845458984375
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2474.216064453125
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 683.8599853515625
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1289.68017578125
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1978.1129150390625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 2638.591796875
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 906.0789794921875
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2191.583740234375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1550.5203857421875
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 2454.62109375
+    },
+    {
+      "von": 10,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2338.31396484375
+    },
+    {
+      "von": 8,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 989.6537475585938
+    }
+  ],
+  "warnungen": [
+    "Blöcke [8, 11] zu #8 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.38756116699732956,
+      "zeitstempel": "2026-09-06T14:31:04.401703Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 17.26137133299926,
+      "zeitstempel": "2026-09-06T14:38:57.485062Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

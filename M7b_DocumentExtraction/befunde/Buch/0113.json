@@ -1,0 +1,517 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 113,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8342897891998291,
+      "bbox": {
+        "x0": 112.64210510253906,
+        "y0": 78.67996215820312,
+        "x1": 595.75927734375,
+        "y1": 106.98458862304688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 10,
+      "polygon": [
+        [
+          112.0,
+          78.0
+        ],
+        [
+          112.0,
+          105.0
+        ],
+        [
+          594.0,
+          105.0
+        ],
+        [
+          594.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "7.4 · Aktivierung und Anwendung von Stereotypen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 18,
+      "pp_label": "number",
+      "score": 0.6613766551017761,
+      "bbox": {
+        "x0": 1184.001953125,
+        "y0": 53.2174072265625,
+        "x1": 1225.534423828125,
+        "y1": 79.8568115234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 31,
+      "polygon": [
+        [
+          1184.0,
+          53.0
+        ],
+        [
+          1184.0,
+          78.0
+        ],
+        [
+          1224.0,
+          78.0
+        ],
+        [
+          1224.0,
+          53.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "107",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 10,
+      "pp_label": "number",
+      "score": 0.537513792514801,
+      "bbox": {
+        "x0": 1381.6383056640625,
+        "y0": 35.404083251953125,
+        "x1": 1419.051513671875,
+        "y1": 84.50277709960938,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 49,
+      "polygon": [
+        [
+          1381.0,
+          35.0
+        ],
+        [
+          1381.0,
+          83.0
+        ],
+        [
+          1418.0,
+          83.0
+        ],
+        [
+          1418.0,
+          35.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "7",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9605035185813904,
+      "bbox": {
+        "x0": 110.70398712158203,
+        "y0": 182.86993408203125,
+        "x1": 1013.519287109375,
+        "y1": 451.72869873046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 103,
+      "polygon": [
+        [
+          110.0,
+          182.0
+        ],
+        [
+          110.0,
+          450.0
+        ],
+        [
+          1012.0,
+          450.0
+        ],
+        [
+          1012.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "positive Begriffe dieselbe Tastenbelegung hatten. Umgekehrt reagierten koreanische Versuchspersonen schneller bei gleicher Tastenbelegung für koreanische Namen und Begriffe positiver Valenz. Schließlich wurde in einer dritten Studie die Wirkungsweise des IAT anhand der Unterscheidung zwischen weißen und dunkelhäutigen Personen demonstriert. In der Stichprobe mit Personen weißer Hautfarbe zeigte sich hypothesen-konform eine stärkere Assoziation (im Sinne einer schnelleren Antwortzeit) zwischen typischen Namen für weiße Personen und positiven Begriffen im Gegensatz zu negativen Begriffen. ☎ Abb. 7.3 fasst die Ergebnisse der dritten Studie zusammen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 5,
+      "pp_label": "paragraph_title",
+      "score": 0.8563628196716309,
+      "bbox": {
+        "x0": 112.06288146972656,
+        "y0": 506.1396789550781,
+        "x1": 886.0226440429688,
+        "y1": 544.6259765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 130,
+      "polygon": [
+        [
+          112.0,
+          506.0
+        ],
+        [
+          112.0,
+          543.0
+        ],
+        [
+          885.0,
+          543.0
+        ],
+        [
+          878.0,
+          506.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "7.4 Aktivierung und Anwendung von Stereotypen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.8815622329711914,
+      "bbox": {
+        "x0": 112.47148132324219,
+        "y0": 573.9517822265625,
+        "x1": 910.3782348632812,
+        "y1": 642.9461669921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 132,
+      "polygon": [
+        [
+          112.0,
+          573.0
+        ],
+        [
+          112.0,
+          641.0
+        ],
+        [
+          909.0,
+          641.0
+        ],
+        [
+          909.0,
+          573.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "7.4.1 Automatische Aktivierung vs. bewusste Regulierung von Stereotypen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9715203642845154,
+      "bbox": {
+        "x0": 109.31718444824219,
+        "y0": 679.7988891601562,
+        "x1": 1015.1055908203125,
+        "y1": 1686.271728515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 149,
+      "polygon": [
+        [
+          109.0,
+          690.0
+        ],
+        [
+          117.0,
+          1685.0
+        ],
+        [
+          1014.0,
+          1675.0
+        ],
+        [
+          1007.0,
+          690.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Messmethode des IAT geht von der Grundannahme der meisten sozialpsychologischen Theorien aus: nämlich, dass viele Reiz-Reaktions-Verbindungen so automatisch ablaufen, dass sich ein Verhalten einstellen kann, ohne dass der auslösende Reiz bewusst verarbeitet und bewertet wird. Automatische Reaktionen werden einem besonderen psychologischen System zugeschrieben, welches oft einfach als »System 1« bezeichnet wird (vgl. Kahneman, 2011). Dieses System ermöglicht schnelles Handeln, was von Vorteil ist, wenn die Situation vertraut ist und wenn die automatischen Reaktionen in der Vergangenheit adaptiv gewesen sind. Im Falle von Stereotypen und Vorurteilen ist das gewohnte Verhalten allerdings oft unfair, sozial nicht geduldet und möglicherweise gefährlich, da es zu Konflikten zwischen Personen und zwischen Gruppen beitragen kann. Dank des hoch entwickelten Neokortex verfügt der Mensch allerdings über ein zweites System (»System 2«), dessen Aufgabe es ist, die Funktionen von System 1 zu überwachen und, falls notwendig, zu korrigieren. Damit ist es an allen anstrengenden und komplexen mentalen Aktivitäten beteiligt, was mit einer Beanspruchung kognitiver Ressourcen einhergeht. Im Kontext von Vorurteilen ermöglicht das System 2 die Kontrolle der ursprünglichen und vorschnellen Impulse, die dadurch abgeschwächt oder gar ausgeschaltet werden können (Devine, 1989; Kahneman, 2011). Stellen Sie sich beispielsweise vor, Sie werden in einem Seminar zur Gruppenarbeit mit einer Person eingeteilt, die bisher häufig gefehlt hatte und auf Sie einen eher desinteressierten Eindruck macht. Möglicherweise ist Ihr erster Gedanke hierzu »Na toll, ausgerechnet diese Person! Da bleibt bestimmt die ganze Arbeit an mir hängen, so selten wie sie bisher anwesend war!« Ihr System 1 nimmt in diesem Fall eine automatische, negativ getönte Bewertung vor. Dennoch lassen Sie sich auf die Gruppenarbeit ein und setzen sich mit Ihrer Kommilitonin zusammen. Möglicherweise regt sich nämlich ein weiterer Gedanke in Ihnen, der Ihre ursprünglichen Vorbehalte in Frage stellt: »Du kennt Sie ja gar nicht! Es ist nicht fair, gleich so zu urteilen!« Hier kommt also das zweite System zum Tragen, das nun bewusst Ihre ursprünglichen Impulse steuert. Als Folge könnten Sie Ihr Gegenüber aufmerksam beobachten und vielleicht sogar dessen Engagement und Teamfähigkeit sehen. In diesem Beispiel konnte durch das System 2 die Fehleinschätzung korrigiert und Vorbehalte abgebaut werden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 4,
+      "pp_label": "paragraph_title",
+      "score": 0.897933304309845,
+      "bbox": {
+        "x0": 113.46343231201172,
+        "y0": 1740.44921875,
+        "x1": 780.2820434570312,
+        "y1": 1808.91552734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 234,
+      "polygon": [
+        [
+          113.0,
+          1740.0
+        ],
+        [
+          113.0,
+          1807.0
+        ],
+        [
+          779.0,
+          1807.0
+        ],
+        [
+          779.0,
+          1740.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "7.4.2 Die Folgen der Unterdrückung stereotyper Gedankeninhalte",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9298615455627441,
+      "bbox": {
+        "x0": 111.61224365234375,
+        "y0": 1848.918701171875,
+        "x1": 1013.7860717773438,
+        "y1": 1949.271728515625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 245,
+      "polygon": [
+        [
+          111.0,
+          1848.0
+        ],
+        [
+          111.0,
+          1948.0
+        ],
+        [
+          1012.0,
+          1948.0
+        ],
+        [
+          1012.0,
+          1859.0
+        ],
+        [
+          776.0,
+          1848.0
+        ],
+        [
+          761.0,
+          1848.0
+        ],
+        [
+          722.0,
+          1848.0
+        ],
+        [
+          639.0,
+          1848.0
+        ],
+        [
+          607.0,
+          1848.0
+        ],
+        [
+          500.0,
+          1848.0
+        ],
+        [
+          455.0,
+          1848.0
+        ],
+        [
+          126.0,
+          1848.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das System 2 kann also dabei helfen, die Anwendung von Vorurteilen zu verhindern, was natürlich positiv ist. Doch bekanntlich hat ja Vieles einen Haken – so auch der Einsatz von begrenzten kognitiven Ressourcen zur Unterdrückung von Vorurteilen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.8255082964897156,
+      "bbox": {
+        "x0": 1057.3555908203125,
+        "y0": 686.33544921875,
+        "x1": 1381.59375,
+        "y1": 939.299072265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 293,
+      "polygon": [
+        [
+          1057.0,
+          686.0
+        ],
+        [
+          1057.0,
+          938.0
+        ],
+        [
+          1373.0,
+          938.0
+        ],
+        [
+          1380.0,
+          928.0
+        ],
+        [
+          1380.0,
+          757.0
+        ],
+        [
+          1380.0,
+          686.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "System 1 ermöglicht schnelles Bewerten und Entscheiden ohne großen kognitiven Aufwand. System 2 kann dagegen als bewusste Kontroll- und Steuerungsinstanz von System 1 betrachtet werden. System 2 erfordert einen höheren kognitiven Auf- wand und bildet das komplexe Denken des Menschen ab.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1543.9864501953125
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 813.7764892578125
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1809.5970458984375
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1716.095458984375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1576.504638671875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1701.165283203125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1788.275634765625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1227.473876953125
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 3067.05419921875
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.4675622499999008,
+      "zeitstempel": "2026-09-06T14:31:35.829225Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 10.515398292001919,
+      "zeitstempel": "2026-09-06T14:55:39.652210Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

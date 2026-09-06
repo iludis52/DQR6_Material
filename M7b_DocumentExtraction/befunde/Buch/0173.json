@@ -1,0 +1,175 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 173,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 44,
+      "pp_label": "aside_text",
+      "score": 0.589973509311676,
+      "bbox": {
+        "x0": 15.231762886047363,
+        "y0": 905.2073364257812,
+        "x1": 63.801422119140625,
+        "y1": 941.2772827148438,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": [
+        [
+          15.0,
+          905.0
+        ],
+        [
+          15.0,
+          940.0
+        ],
+        [
+          62.0,
+          940.0
+        ],
+        [
+          62.0,
+          905.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 23,
+      "pp_label": "header",
+      "score": 0.7749329805374146,
+      "bbox": {
+        "x0": 116.17406463623047,
+        "y0": 78.58657836914062,
+        "x1": 1205.928466796875,
+        "y1": 107.21957397460938,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 1,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "170 Kapitel 10 · Sozialpsychologie der menschlichen Existenz: Positive Psychologie und Psychologie der Religion",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        1,
+        2
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 31,
+      "pp_label": "reference",
+      "score": 0.8679661154747009,
+      "bbox": {
+        "x0": 505.4997253417969,
+        "y0": 185.2132568359375,
+        "x1": 1405.755615234375,
+        "y1": 1944.774169921875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 29,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Durkheim, E. (1915/1965). The elementary forms of religious life (J. W. Swain, Transl.). New York: Free Press.\nEbaugh, H. R. F., Richman, K. & Chafetz, J. S. (1984). Life crisis among the religiously committed: do sectarian differences matter? Journal for the Scientific Study of Religion, 23, 19–31.\nEllison, C. G. (1991). Religious involvement and subjective well-being. Journal of Health and Social Behavior, 32, 80–99.\nExline, J. J., Park, C. L., Smyth, J. M. & Carey, M. P. (2011). Anger toward God: Social-cognitive predictors, prevalence, and links with adjustment to bereavement and cancer. Journal of Personality and Social Psychology, 100, 129–148.\nFeifel, H. & Nagy, V. T. (1981). Another look at fear of death. Journal of Consulting and Clinical Psychology, 49, 278–286.\nFischer, P., Greitemeyer, T. & Kastenmüller, A. (2007). What do we think about Muslims? The validity of Westerners' implicit theories about the associations between Muslims' religiosity, religious identity, aggression potential, and attitude to terrorism. Group Processes and Intergroup Relations, 10, 373–382.\nFischer, P., Greitemeyer, T., Kastenmüller, A., Jonas, E. & Frey, D. (2006). Coping with terrorism: The impact of increased salience of terrorism on mood and self-efficacy of intrinsically religious and nonreligious people. Personality and Social Psychology Bulletin, 32, 365–377.\nFredrickson, B. L. (2000). Cultivating positive emotions to optimize health and well-being. Prevention & Treatment, 3, Article 0001a. Retrieved from http://www.rickhanson.net/wp-content/files/papers/CultPosEmot.pdf\nFredrickson, B. L. & Joiner, T. (2002). Positive emotions trigger upward spirals toward emotional well-being. Psychological Science, 13, 172–175.\nFredrickson, B. L. & Levenson, R. W. (1998). Positive emotions speed recovery from cardiovascular sequelae of negative emotions. Cognition and Emotion, 12, 191–220.\nFredrickson, B. L., Mancuso, R. A., Branigan, C. & Tugade, M. (2000). The undoing effect of positive emotions. Motivation and Emotion, 24, 237–258.\nFredrickson, B. L., Tugade, M., Waugh, C. & Larkin, G. (2003). What good are positive emotions in crises? A prospective study of resilience and emotions following the terrorist attacks on the United States on September 11th, 2001. Journal of Personality and Social Psychology, 84, 365–376.\nGabriel, H. & Kindermann, W. (1998). Immunsystem und körperliche Belastung: Was ist gesichert? Deutsche Zeitschrift für Sportmedizin, 49, 93–99.\nGinges, J., Hansen, I. & Norenzayan, A. (2009). Religion and support for suicide attacks. Psychological Science, 20, 224–230.\nGraham, J. & Haidt, J. (2010). Beyond beliefs: Religions bind individuals into moral communities. Personality and Social Psychology Review, 14, 140–150.\nGreenberg, J., Solomon, S. & Pyszczynski, T. (1997). Terror management theory of self-esteem and cultural worldviews: Empirical assessments and conceptual refinements. In M. P. Zanna (Ed.), Advances in experimental social psychology (vol. 29, pp. 61–139). San Diego: Academic Press.\nGrom, B. (1992). Religionspsychologie. München/Göttingen: Kösel.\nHall, D. L., Matz, D. C. & Wood, W. (2010). Why don't we practice what we preach? A meta-analytic review of religious racism. Personality and Social Psychology Review, 14, 126–139.\nHeine, S. (2005). Grundlagen der Religionspsychologie. Göttingen: Vandenhoeck & Ruprecht.\nHeinrichs, M., Baumgartner, T., Kirschbaum, C. & Ehlert, U. (2003). Social support and oxytocin interact to suppress cortisol and subjective responses to psychosocial stress. Biological Psychiatry, 54, 1389–1398.\nHill, P. C. & Pargament, K. I. (2003). Advances in the conceptualization and measurement of religion and spirituality: Implications for physical and mental health research. American Psychologist, 58, 64–74.\nHunsberger, B. & Jackson, L. M. (2005). Religion, meaning, and prejudice. Journal of Social Issues, 61, 807–826.\nJonas, E. & Fischer, P. (2006). Terror management and religion – evidence that intrinsic religiousness mitigates worldview defense following mortality salience. Journal of Personality and Social Psychology, 91, 553–567.\nKahoe, R. D. & Dunn, R. F. (1975). The fear of death and religious attitudes and behavior. Journal for the Scientific Study of Religion, 14, 379–382.\nKay, A. C., Gaucher, D., McGregor, I. & Nash, K. (2010). Religious beliefs as compensatory control. Personality and Social Psychology Review, 14, 37–48.\nKeltner, D. & Bonanno, G. A. (1997). A study of laughter and dissociation: Distinct correlates of laughter and smiling during bereavement. Journal of Personality and Social Psychology, 73, 687–702.\nKinnvall, C. (2004). Globalization and religious nationalism: Self, identity, and the search for ontological security. Political Psychology, 25, 741–767.\nKoenig, H. G., George, L. K. & Siegler, I. C. (1988). The use of religion and other emotion-regulating coping strategies among older adults. The Gerontologist, 28, 303–310.\nLazarus, R. L. & Folkman, S. (1984). Stress, appraisal, and coping. New York: Springer.\nLoewenthal, E. (2004). Platon. Sämtliche Werke in drei Bänden. Band I. Darmstadt: Wissenschaftliche Buchgesellschaft.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 172.7080841064453
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2860.940185546875
+    }
+  ],
+  "warnungen": [
+    "Blöcke [1, 2] zu #1 (header) zusammengeführt.",
+    "Blöcke [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33] zu #2 (reference) zusammengeführt.",
+    "Blöcke [1, 2] zu #1 (header) zusammengeführt.",
+    "Blöcke [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33] zu #2 (reference) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.37489650000134134,
+      "zeitstempel": "2026-09-06T14:31:59.533698Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 10.817489208999177,
+      "zeitstempel": "2026-09-06T15:08:12.116489Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 10.887375250000332,
+      "zeitstempel": "2026-09-06T15:22:57.051753Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

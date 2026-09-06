@@ -1,0 +1,661 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 11,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 9,
+      "pp_label": "number",
+      "score": 0.5883073210716248,
+      "bbox": {
+        "x0": 114.77918243408203,
+        "y0": 80.04867553710938,
+        "x1": 132.47715759277344,
+        "y1": 103.26052856445312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 2,
+      "polygon": [
+        [
+          114.0,
+          80.0
+        ],
+        [
+          114.0,
+          102.0
+        ],
+        [
+          131.0,
+          102.0
+        ],
+        [
+          131.0,
+          80.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "2",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8368034362792969,
+      "bbox": {
+        "x0": 190.5422821044922,
+        "y0": 78.111572265625,
+        "x1": 1177.5208740234375,
+        "y1": 107.195068359375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 11,
+      "polygon": [
+        [
+          190.0,
+          78.0
+        ],
+        [
+          190.0,
+          106.0
+        ],
+        [
+          1176.0,
+          106.0
+        ],
+        [
+          1176.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Kapitel 1 · Definitorische, wissenschaftstheoretische und methodische Grundlagen der Sozialpsychologie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 14,
+      "pp_label": "text",
+      "score": 0.6247735619544983,
+      "bbox": {
+        "x0": 129.86231994628906,
+        "y0": 183.7218017578125,
+        "x1": 372.1131896972656,
+        "y1": 248.2451171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 83,
+      "polygon": [
+        [
+          129.0,
+          183.0
+        ],
+        [
+          129.0,
+          247.0
+        ],
+        [
+          371.0,
+          247.0
+        ],
+        [
+          371.0,
+          183.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Definition\nSozialpsychologie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.794070303440094,
+      "bbox": {
+        "x0": 128.1598663330078,
+        "y0": 488.4994812011719,
+        "x1": 451.48065185546875,
+        "y1": 654.66796875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 113,
+      "polygon": [
+        [
+          128.0,
+          488.0
+        ],
+        [
+          128.0,
+          653.0
+        ],
+        [
+          450.0,
+          653.0
+        ],
+        [
+          450.0,
+          488.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Im methodologischen Individualismus ging man davon aus, dass das Verhalten von Gruppen durch das Verständnis der Psychologie des Individuums ausreichend erklärt werden kann.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.8208324313163757,
+      "bbox": {
+        "x0": 128.28504943847656,
+        "y0": 1117.55126953125,
+        "x1": 445.68426513671875,
+        "y1": 1315.534423828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 150,
+      "polygon": [
+        [
+          128.0,
+          1117.0
+        ],
+        [
+          128.0,
+          1314.0
+        ],
+        [
+          444.0,
+          1314.0
+        ],
+        [
+          444.0,
+          1117.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die moderne Sozialpsychologie schreibt dem durchschnittlichen Erleben und Verhalten einer Stich-probe von Personen den höchsten Erklärungs- und Vorhersagewert von allgemeinem menschlichem Erleben und Verhalten zu.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9091946482658386,
+      "bbox": {
+        "x0": 129.03489685058594,
+        "y0": 1352.8077392578125,
+        "x1": 451.5286865234375,
+        "y1": 1493.0994873046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 164,
+      "polygon": [
+        [
+          129.0,
+          1352.0
+        ],
+        [
+          129.0,
+          1492.0
+        ],
+        [
+          450.0,
+          1492.0
+        ],
+        [
+          450.0,
+          1352.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Allport war der Wegbereiter der Sozialpsychologie als einer Disziplin, die das Verhalten von Menschen mit naturwissenschaftlichen Metho- den untersucht.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.875623881816864,
+      "bbox": {
+        "x0": 128.49087524414062,
+        "y0": 1586.41552734375,
+        "x1": 457.90667724609375,
+        "y1": 1725.20849609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 175,
+      "polygon": [
+        [
+          128.0,
+          1586.0
+        ],
+        [
+          128.0,
+          1724.0
+        ],
+        [
+          456.0,
+          1724.0
+        ],
+        [
+          456.0,
+          1586.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Als soziale Projektion bezeichnet man die Wahrnehmung, dass sich die meisten anderen Menschen genauso verhalten oder genauso denken wie man selbst.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 11,
+      "pp_label": "paragraph_title",
+      "score": 0.5073874592781067,
+      "bbox": {
+        "x0": 547.365478515625,
+        "y0": 184.71804809570312,
+        "x1": 663.07275390625,
+        "y1": 211.76351928710938,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 196,
+      "polygon": [
+        [
+          547.0,
+          184.0
+        ],
+        [
+          547.0,
+          210.0
+        ],
+        [
+          662.0,
+          210.0
+        ],
+        [
+          662.0,
+          184.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- Definition",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.8269721865653992,
+      "bbox": {
+        "x0": 544.1953735351562,
+        "y0": 215.53787231445312,
+        "x1": 1361.3876953125,
+        "y1": 317.8527526855469,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 203,
+      "polygon": [
+        [
+          544.0,
+          215.0
+        ],
+        [
+          544.0,
+          316.0
+        ],
+        [
+          1360.0,
+          316.0
+        ],
+        [
+          1360.0,
+          215.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Sozialpsychologie beschäftigt sich mit dem Erleben und Verhalten von Menschen in Interaktion mit ihrer sozialen Umwelt. Gegenstand ist also zum einen das Individuum alleine, zum anderen der Einzelne im Kontext der Gruppe.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.8622896075248718,
+      "bbox": {
+        "x0": 507.18450927734375,
+        "y0": 407.9395446777344,
+        "x1": 922.6583862304688,
+        "y1": 443.5483703613281,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 238,
+      "polygon": [
+        [
+          507.0,
+          407.0
+        ],
+        [
+          507.0,
+          442.0
+        ],
+        [
+          921.0,
+          442.0
+        ],
+        [
+          921.0,
+          407.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "1.1.1 Historische Entwicklung",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9695493578910828,
+      "bbox": {
+        "x0": 503.49462890625,
+        "y0": 482.1580810546875,
+        "x1": 1406.4912109375,
+        "y1": 1115.0911865234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 247,
+      "polygon": [
+        [
+          503.0,
+          482.0
+        ],
+        [
+          511.0,
+          1114.0
+        ],
+        [
+          1405.0,
+          1114.0
+        ],
+        [
+          1405.0,
+          482.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Ursprünge der Sozialpsychologie liegen in der französischen Massenpsychologie, insbesondere der Arbeit von Gustave Le Bon (1895). Im frühen 20. Jahrhundert erschienen die ersten Abhandlungen in Buchform (McDougall, 1908; Ross, 1908). Floyd Allports Werk »Social Psychology« (Allport, 1924) gilt als der Beginn der experimentellen Sozialpsychologie im modernen Sinne. Allport konnte zu jener Zeit allerdings nur auf wenige experimentelle Befunde hinweisen, wie zum Beispiel Tripletts Studien zur sozialen Erleichterung (Triplett, 1898). Triplett hatte gezeigt, dass Menschen zusätzliche Energie freisetzen und beispielsweise schneller reagieren, wenn sie sich in einer Gruppe befinden, als wenn sie alleine handeln. So fährt ein Radfahrer im Rennen mit anderen schneller als in einer Übung, in der es nur um die eigene Bestzeit geht. Allport nahm Befunde wie diese als Argument für den »methodologischen Individualismus«. Dieser wissenschaftstheoretischen Orientierung zufolge ist lediglich das Individuum das geeignete Objekt von Theorie und Experiment. Für Allport hieß das, dass massenpsychologische Phänomene durch das Verhalten von Individuen erklärt werden können. Ausgangspunkt stellt somit das Verhalten der beteiligten Individuen dar, von dem man auf übergreifende soziale Phänomene schließen kann. Grundlegend dafür, so Allport, sei die Tatsache, dass sich der Mensch innerhalb einer Gruppe ebenso verhält wie als Individuum, nur eben mit höherer Intensität.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9586070775985718,
+      "bbox": {
+        "x0": 504.0633239746094,
+        "y0": 1116.2164306640625,
+        "x1": 1406.0076904296875,
+        "y1": 1349.5457763671875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 271,
+      "polygon": [
+        [
+          504.0,
+          1116.0
+        ],
+        [
+          512.0,
+          1348.0
+        ],
+        [
+          1398.0,
+          1348.0
+        ],
+        [
+          1405.0,
+          1338.0
+        ],
+        [
+          1405.0,
+          1116.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Allports Sozialpsychologie war somit ein Bruch mit der bisherigen psychologischen Auffassung von der Masse bzw. Gruppe als einem eigenständigen Gebilde oder gar einem eigenständigen Organismus. Diese Umorientierung war es, die das Individuum zu einem Forschungsobjekt machte, das sich experimentell untersuchen ließ. Bis heute gehört es zum populärsten Vorgehen in der Sozialpsychologie, eine Stichprobe von Probanden zu untersuchen, wobei dem durchschnittlichen Verhalten dieser Einzelpersonen der höchste Aussagewert zugeschrieben wird (Danziger, 1990).\nZentral ist das, dass das Verhalten von Menschen mit naturwissenschaftlichen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9622634649276733,
+      "bbox": {
+        "x0": 504.2657165527344,
+        "y0": 1350.2021484375,
+        "x1": 1406.2373046875,
+        "y1": 1582.48583984375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 282,
+      "polygon": [
+        [
+          504.0,
+          1350.0
+        ],
+        [
+          504.0,
+          1581.0
+        ],
+        [
+          1405.0,
+          1581.0
+        ],
+        [
+          1405.0,
+          1350.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Zentral ist also, dass das Verhalten von Menschen mit naturwissenschaftlichen Methoden systematisch untersucht wurde. Insofern ging Allport als Behaviorist (engl. »behavior« = Verhalten) in die Geschichte der Sozialpsychologie ein, obwohl seine Theorien – über den verhaltensbezogenen Aspekt – auch zahlreiche kognitive Merkmale aufweisen. So gilt Allport mit seinen Konzepten der sozialen Projektion (cf. Krueger, 1998) und der pluralistischen Ignoranz (Prentice & Miller, 1996), welche auch heute wieder aktuell sind, als Pionier der sozialen Wahrnehmung.\nAls soziale Projektion bezeichnet man dabei die Wehrnehmung, dass die meisten",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9659484624862671,
+      "bbox": {
+        "x0": 503.3543395996094,
+        "y0": 1583.1171875,
+        "x1": 1406.3660888671875,
+        "y1": 1949.87255859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 289,
+      "polygon": [
+        [
+          503.0,
+          1583.0
+        ],
+        [
+          503.0,
+          1948.0
+        ],
+        [
+          1405.0,
+          1948.0
+        ],
+        [
+          1405.0,
+          1583.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Wieder aktuelt sind, als Föner der Soziachwähnung.\nAls soziale Projektion bezeichnet man dabei die Wahrnehmung, dass die meisten anderen Menschen sich so verhalten oder genauso denken wie man selbst. Eine Großmutter könnte so beispielsweise ihrem Enkelkind einen Wollpullover stricken, ganz nach ihrem eigenen Geschmack, da sie davon ausgeht, dass dieser dem Enkelkind bestimmt genauso gefallen wird wie ihr selbst. Doch jeder kann erahnen, und hat es bestimmt auch schon selbst erfahren, dass dem nicht immer so sein muss! Soziale Projektion bedeutet also, dass man eigene Einstellungen, Merkmale, Verhaltensweisen, etc. auf das Gegenüber überträgt (projiziert). Das Adjektiv »sozial« bezieht sich dabei darauf, dass der Kontext der Projektion natürlich sozialer Art ist. Diese Übertragung ist jedoch nur eine sehr einfache Strategie, um Wissen über den anderen zu bekommen und muss daher nicht mit der Realität übereinstimmen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 1136.5345458984375
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 3332.186279296875
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1818.925048828125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1499.170654296875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1702.97314453125
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 2292.32666015625
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 3516.59521484375
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 262.0222473144531
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1388.2149658203125
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1100.2208251953125
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1755.2508544921875
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 1656.05712890625
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 1317.1126708984375
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.38872941700174124,
+      "zeitstempel": "2026-09-06T14:30:55.729535Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 14.164711000001262,
+      "zeitstempel": "2026-09-06T14:34:15.588614Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

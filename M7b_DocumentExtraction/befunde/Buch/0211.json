@@ -1,0 +1,420 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 211,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.6523429751396179,
+      "bbox": {
+        "x0": 115.43951416015625,
+        "y0": 78.12109375,
+        "x1": 947.3994140625,
+        "y1": 107.06005859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "208 Kapitel 12 · Soziale Neurowissenschaften: Einführung und ausgewählte Befunde",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.7690252661705017,
+      "bbox": {
+        "x0": 128.49874877929688,
+        "y0": 319.9328918457031,
+        "x1": 460.04852294921875,
+        "y1": 517.4515380859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 105,
+      "polygon": [
+        [
+          128.0,
+          319.0
+        ],
+        [
+          128.0,
+          516.0
+        ],
+        [
+          459.0,
+          516.0
+        ],
+        [
+          459.0,
+          319.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Hein et al. (2010) fanden heraus, dass gezeigtem Hilfeverhalten eine Aktivierung der anterioren Insula vorausging. Dagegen war dem Nicht-helfen eines Mitgliedes der Fremdgruppe die Aktivität des Nucleus accumbens vorangestellt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.8032829165458679,
+      "bbox": {
+        "x0": 127.8681869506836,
+        "y0": 817.5278930664062,
+        "x1": 449.51800537109375,
+        "y1": 961.6981811523438,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 139,
+      "polygon": [
+        [
+          127.0,
+          817.0
+        ],
+        [
+          127.0,
+          960.0
+        ],
+        [
+          448.0,
+          960.0
+        ],
+        [
+          448.0,
+          817.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Weitere Befunde zeigen ebenfalls, dass sich personenabhängige Wahrnehmung (bzw. die Art der Beziehung) auf neuronaler Ebene wider- spiegelt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.8039094805717468,
+      "bbox": {
+        "x0": 127.714599609375,
+        "y0": 1317.210693359375,
+        "x1": 461.56951904296875,
+        "y1": 1489.087158203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 162,
+      "polygon": [
+        [
+          127.0,
+          1317.0
+        ],
+        [
+          127.0,
+          1488.0
+        ],
+        [
+          460.0,
+          1488.0
+        ],
+        [
+          460.0,
+          1317.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Schwierigkeit bei fMRT-Studien im Bereich Prosozialität besteht darin, wirkliches Verhalten im Scanner zu erfassen. Die Entwicklung entsprechender Studien steht daher noch am Anfang.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.948472261428833,
+      "bbox": {
+        "x0": 502.6795654296875,
+        "y0": 182.58401489257812,
+        "x1": 1407.0609130859375,
+        "y1": 314.9490661621094,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 178,
+      "polygon": [
+        [
+          502.0,
+          182.0
+        ],
+        [
+          502.0,
+          313.0
+        ],
+        [
+          1406.0,
+          313.0
+        ],
+        [
+          1406.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Nucleus accumbens nun in der dargestellten Studie? Die Autoren vermuten, dass wir (zumindest die männlichen Personen!) uns möglicherweise freuen bzw. es als eine Genugtuung oder Belohnung erleben, wenn eine Person, die sich zuvor unfair verhalten hat, in irgendeiner Weise einen Nachteil erfährt.\nWie sich die Empfindung von Empathie auf nachfolgen des Vorhalten auswirken",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9692960977554321,
+      "bbox": {
+        "x0": 503.0129089355469,
+        "y0": 316.1526794433594,
+        "x1": 1406.75927734375,
+        "y1": 816.38232421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 191,
+      "polygon": [
+        [
+          503.0,
+          316.0
+        ],
+        [
+          511.0,
+          815.0
+        ],
+        [
+          1405.0,
+          805.0
+        ],
+        [
+          1405.0,
+          316.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Wie sich die Empfindung von Empathie auf nachfolgendes Verhalten auswirken kann, zeigt eine aktuelle Studie von Hein, Silani, Preuschoff, Batson & Singer (2010). Die Autoren untersuchten die neuronalen Korrelate potenziellen Hilfeverhaltens gegenüber der Eigen- und Fremdgruppe. Dabei sahen Fußballfans, wie entweder einem Fan der eigenen oder einem Fan einer anderen Mannschaft Schmerz zugefügt wurde. Sie hatten die Möglichkeit, diesem zu helfen, indem sie den Schmerz an dessen Stelle auf sich nahmen (nun wurde ihnen der Schmerzreiz zugefügt). Nicht überraschend war, dass Mitgliedern der Eigengruppe (Fans der Lieblingsmannschaft) häufiger geholfen wurde. Interessant war allerdings, dass dieses Helfen mit einer signifikant stärkeren Aktivierung der anterioren Insula (Empathieregion) einherging. Dagegen ging dem Nichthelfen eines Mitglieds der Fremdgruppe eine Aktivierung im Nucleus accumbens voraus (Teil des Belohnungsnetzwerks). Die Befunde bezüglich der Nucleus-accumbens-Aktivierung beider Studien decken sich also und unterstützen die Hypothese, dass wir so etwas wie »Schadenfreude« empfinden, wenn wir Mitglieder der Fremdgruppe leiden sehen (Cikara, Bruneau & Saxe, 2011).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9591102004051208,
+      "bbox": {
+        "x0": 503.57421875,
+        "y0": 815.0391845703125,
+        "x1": 1407.484130859375,
+        "y1": 1250.8673095703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 220,
+      "polygon": [
+        [
+          503.0,
+          815.0
+        ],
+        [
+          503.0,
+          1249.0
+        ],
+        [
+          1406.0,
+          1249.0
+        ],
+        [
+          1406.0,
+          815.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "gruppe leiden seien (Cikara, Brüneau & Saxe, 2011).\nAllerdings muss eine Aktivierung des Nucleus accumbens nicht zwangsläufig mit Belohnung im »negativen Sinne« (Schadenfreude, Nichthelfen) verbunden sein. Belohnungszentren können umgekehrt auch aktiviert sein, wenn wir z.B. ein Foto von unserem Partner sehen oder einer Mutter Fotos von ihrem Kind gezeigt werden – also bei partnerschaftlicher und mütterlicher Liebe (Bartels & Zeki, 2004). Gleiches gilt für den Bereich Freundschaft (Güroğlu, van Lieshout, Haselager & Scholte, 2007). Bartels und Zeki (2004) postulieren sogar, dass in diesem Fall Aktivität in Gehirnregionen unterdrückt wird, die mit negativen Emotionen und sozialen Urteilen über die Person in Verbindung stehen. Folglich spiegelt sich die Enge einer Beziehung in einem ganz bestimmten neuronalen Aktivitätsmuster wider. Wir sehen also, dass sich Verhaltensdaten, wie etwa gruppenabhängige Personenwahrnehmung und damit verbundene eingeschränkte Hilfeleistung, auch in den hirnphysiologischen Korrelaten ausdrücken.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 6,
+      "pp_label": "paragraph_title",
+      "score": 0.7947880625724792,
+      "bbox": {
+        "x0": 503.76129150390625,
+        "y0": 1279.074462890625,
+        "x1": 1068.6248779296875,
+        "y1": 1310.619140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 248,
+      "polygon": [
+        [
+          503.0,
+          1279.0
+        ],
+        [
+          503.0,
+          1309.0
+        ],
+        [
+          1067.0,
+          1309.0
+        ],
+        [
+          1067.0,
+          1279.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Validität von fMRT-Studien im Bereich Prosozialität",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.965991735458374,
+      "bbox": {
+        "x0": 503.93865966796875,
+        "y0": 1314.38671875,
+        "x1": 1408.6224365234375,
+        "y1": 1950.72900390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 264,
+      "polygon": [
+        [
+          503.0,
+          1325.0
+        ],
+        [
+          503.0,
+          1949.0
+        ],
+        [
+          1407.0,
+          1949.0
+        ],
+        [
+          1407.0,
+          1314.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Vandrat von MRT Studien im Bereich 193021.\nWie bereits angedeutet, besteht die Schwierigkeit darin, wirkliches Verhalten mittels fMRT zu erfassen. Wir wissen beispielsweise nicht sicher, ob eine Aktivierung in Empathie-bezogenen Arealen tatsächlich auch zu einem Einschreiten in einer konkreten Situation führen würde. Reicht das Empfinden von Empathie bzw. eine Aktivierung in entsprechenden Arealen also aus, um nachfolgendes Hilfeverhalten vorhersagen zu können? Wie Sie bereits aus ▶ Kap. 4 wissen, wird diese Frage auch innerhalb der klassischen Sozialpsychologie nach wie vor stark diskutiert. Laut Batson (1991) ist ein hohes Ausmaß an Empathie hinreichend für späteres Hilfeverhalten (Batson et al., 1991), was zunächst dafür spricht, dass auch eine Aktivierung in Empathie-bezogenen Arealen zu prosozialem Verhalten führen könnte. Aber Hilfeleistung kann beispielsweise auch aufgrund von egoistischen Kosten-Nutzen-Überlegungen (Thibaut & Kelley, 1959) oder evolutionspsychologischen Motiven (Burnstein, Crandall & Kitayama, 1994) erfolgen. In diesem Fall wäre eine Empathie-bezogene Aktivierung der anterioren Insula oder des ACC eher unwahrscheinlich, auch wenn eine Hilfeleistung grundsätzlich möglich wäre. Um diesem Problem wirksam begegnen zu können, sollten Studien daher so konzipiert sein, dass sie auch tatsächliches Hilfeverhalten erfassen. Sie müssen valide sein. Die Entwicklung derartiger Studien steckt allerdings noch in den Kinderschuhen (vgl. obiges Beispiel). Dennoch findet man vereinzelt Beispiele, die mitunter sehr kreativ sind.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2477.061767578125
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 2183.027587890625
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1902.514892578125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1366.116943359375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 852.3626098632812
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1668.7880859375
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1552.0836181640625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1129.63232421875
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3793256669996481,
+      "zeitstempel": "2026-09-06T14:32:14.231223Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 15.113785665998876,
+      "zeitstempel": "2026-09-06T15:16:01.374962Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

@@ -1,0 +1,228 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 110,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.717653214931488,
+      "bbox": {
+        "x0": 117.0252456665039,
+        "y0": 78.85540771484375,
+        "x1": 645.4398193359375,
+        "y1": 106.76202392578125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 0,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "104 Kapitel 7 · Stereotype, Vorurteile und Rassismus",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        0,
+        1
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9456073045730591,
+      "bbox": {
+        "x0": 150.76634216308594,
+        "y0": 217.74191284179688,
+        "x1": 1381.76171875,
+        "y1": 1016.658447265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 75,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "wurde bei den Versuchspersonen ein EMG (Elektromyogramm) abgeleitet. Bei diesem Messverfahren werden an der Hautoberfläche Elektroden angebracht, um damit die elektrische Aktivität einzelner Muskelgruppen zu bestimmen. Die Forscher interessierten sich vor allem für Muskelgruppen, die beim Stirnrunzeln beteiligt sind. Diese liegen in der Region des »Musculus corrugator supercilii« (Augenbrauen) sowie des »Musculus zygomaticus major« (Wangenbereich). EMG-Aktivität in der Augenbrauenregion ist größer, wenn unangenehme Reize bzw. unangenehme Szenarien präsentiert werden; im Wangenbereich ist bei derartigen Reizen die EMG-Aktivität dagegen abgeschwächt (Tassinary & Cacioppo, 2000). Die Muskelaktivität hier selbst dann messbar, wenn das Stirnrunzeln nicht zu sehen ist. Die Forscher interessierte nun, inwiefern Unterschiede in der Muskelaktivität auftreten, wenn die Fotos von dunkel- versus hellhäutigen Personen gezeigt werden. Hierzu bestimmten sie die mittlere Muskelaktivität bei allen Fotos, auf denen eine hellhäutige bzw. dunkelhäutige Person abgebildet war (getrennt nach Aktivität im Wangenbzw. Augenbrauenbereich). Um ein Maß für die Muskelaktivität in Abhängigkeit von der Hautfarbe zu finden, bildeten sie daraus für jeden Muskelbereich die Differenz, den »EMG-Bias« (mittlere Muskelaktivität bei weißer Hautfarbe minus mittlere Muskelaktivität bei dunkler Hautfarbe). Je höher dieser Differenzwert bzw. je höher der Bias, desto stärker war die Muskelaktivität, wenn Fotos von hellhäutigen Personen gezeigt wurden.\nDie Auswertung ergab nun interessante Befunde: Versuchspersonen, die im Wangenbereich einen besonders hohen Bias aufwiesen (hier: geringe Aktivität bei negativer Emotion), hatten im ersten Teil der Studie auch mit höherer Wahrscheinlichkeit einen weißen Bewerber für das Stipendium ausgewählt. Insofern stand das Ausmaß, mit dem Versuchspersonen verstärkte Muskelaktivität bei Bildern von hellhäutigen im Vergleich zu dunkelhäutigen Personen zeigten, in Zusammenhang mit der Auswahl eines weißen Bewerbers. Dagegen wählten Versuchspersonen, die keinen Bias aufwiesen, verstärkt den dunkelhäutigen Bewerber aus. Die Forscher berücksichtigten dabei natürlich, dass die Grundwahrscheinlichkeit, einen weißen Bewerber auszuwählen per se schon höher ist, da ja zwei weiße, aber nur ein dunkelhäutiger Bewerber zur Auswahl standen. Die Studie zeigt damit, dass die Messung von Muskelaktivität in bestimmten Gesichtsregionen als implizite Messung für bestehende Vorurteile, die in Zusammenhang mit Diskriminierung stehen, genutzt werden kann.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        2,
+        3,
+        4
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9129285216331482,
+      "bbox": {
+        "x0": 129.08914184570312,
+        "y0": 1184.906005859375,
+        "x1": 433.7998962402344,
+        "y1": 1326.261474609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 191,
+      "polygon": [
+        [
+          129.0,
+          1184.0
+        ],
+        [
+          129.0,
+          1325.0
+        ],
+        [
+          432.0,
+          1325.0
+        ],
+        [
+          432.0,
+          1184.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Leichtigkeit der Zugänglichkeit kognitiver Konstrukte wird vom IAT als Indikator zur Messung von Stereotypen und Vorurteilen verwendet.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 5,
+      "pp_label": "paragraph_title",
+      "score": 0.8343461155891418,
+      "bbox": {
+        "x0": 506.255126953125,
+        "y0": 1108.603271484375,
+        "x1": 1052.0338134765625,
+        "y1": 1143.396240234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 196,
+      "polygon": [
+        [
+          506.0,
+          1108.0
+        ],
+        [
+          506.0,
+          1142.0
+        ],
+        [
+          1051.0,
+          1142.0
+        ],
+        [
+          1051.0,
+          1108.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "7.3.4 Messung impliziter Assoziationen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9687916040420532,
+      "bbox": {
+        "x0": 504.3263244628906,
+        "y0": 1182.3931884765625,
+        "x1": 1406.1766357421875,
+        "y1": 1919.1488037109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 222,
+      "polygon": [
+        [
+          512.0,
+          1182.0
+        ],
+        [
+          504.0,
+          1918.0
+        ],
+        [
+          1405.0,
+          1918.0
+        ],
+        [
+          1398.0,
+          1182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Eine weitere verbreitete Methode in der Vorurteilsforschung ist die Messung der Stärke automatischer Assoziationen (gedanklicher Verknüpfungen) mit potenziell stereotypisierten Stimuli. Was heißt das? Hierbei wird gemessen, inwiefern gedankliche Verbindungen zwischen bestimmten Konzepten bzw. Kategorien und beliebigen (meist positiven oder negativen) Attributen bestehen (Gaertner & McLaughlin, 1983; Lalonde & Gardner, 1989). Als Beispiel für ein Konzept dient etwa die ethnische Herkunft (weiße oder dunkelhäutige Personen), die Religion (Christen oder Muslime), die Nationalität (deutsch oder italienisch), etc. Gegenüber diesen Kategorien können potenzielle Stereotype bestehen, was sich daran zeigt, dass die Assoziationen gegenüber negativen Eigenschaftswörtern (z.B. »unordentlich«) stärker sind als gegenüber positiven Attributen (z.B. »freundlich«). Die populärste Methode innerhalb dieses Forschungsbereichs ist der Implizite Assoziationstest (IAT; Greenwald, McGhee & Schwartz, 1998). Der IAT beruht auf der Annahme, dass implizite Einstellungen auf automatischen Bewertungsprozessen basieren, die der jeweiligen Person nicht bewusst zugänglich sind (Greenwald & Banaji, 1995). Beim IAT werden implizite Einstellungen daher gemessen, indem diese automatischen Bewertungsprozesse erfasst werden. Es wird also, wie oben angedeutet, die Assoziation zwischen einer bestimmten Objektkategorie (z. B. ethnische Herkunft) und deren affektiver Bewertung (positiv oder negativ) bestimmt; daraus wird abgeleitet, in welchem Ausmaß ein bestimmtes Stereotyp bzw. Vorurteil von der getesteten Versuchsperson geteilt wird. Wie dies funktioniert, wird anhand der Originalstudie (▶ Studie: Der Implizite Assoziationstest) von Greenwald et al. (1998) beschrieben.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2328.181640625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1113.6859130859375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1039.499267578125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1631.4359130859375
+    }
+  ],
+  "warnungen": [
+    "Blöcke [0, 1] zu #0 (header) zusammengeführt.",
+    "Blöcke [2, 3, 4] zu #1 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3710758750021341,
+      "zeitstempel": "2026-09-06T14:31:34.572192Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 11.419251291001274,
+      "zeitstempel": "2026-09-06T14:54:58.970254Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

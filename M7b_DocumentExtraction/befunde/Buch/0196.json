@@ -1,0 +1,734 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 196,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.828664243221283,
+      "bbox": {
+        "x0": 115.42584991455078,
+        "y0": 78.826904296875,
+        "x1": 289.6397399902344,
+        "y1": 106.5982666015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 3,
+      "polygon": [
+        [
+          115.0,
+          78.0
+        ],
+        [
+          115.0,
+          105.0
+        ],
+        [
+          288.0,
+          105.0
+        ],
+        [
+          288.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "12.1 · Grundlagen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 14,
+      "pp_label": "number",
+      "score": 0.7671312689781189,
+      "bbox": {
+        "x0": 1369.2088623046875,
+        "y0": 33.578765869140625,
+        "x1": 1439.2735595703125,
+        "y1": 85.08151245117188,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 32,
+      "polygon": [
+        [
+          1369.0,
+          33.0
+        ],
+        [
+          1369.0,
+          84.0
+        ],
+        [
+          1438.0,
+          84.0
+        ],
+        [
+          1438.0,
+          33.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "12",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9549768567085266,
+      "bbox": {
+        "x0": 110.08329772949219,
+        "y0": 182.392822265625,
+        "x1": 1014.1305541992188,
+        "y1": 417.752197265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 74,
+      "polygon": [
+        [
+          118.0,
+          182.0
+        ],
+        [
+          118.0,
+          416.0
+        ],
+        [
+          1013.0,
+          416.0
+        ],
+        [
+          1013.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "stiegene Anzahl neurowissenschaftlicher Publikationen (Easton & Emery, 2005). Als eine der grundlegendsten Veröffentlichungen in der Geschichte der sozialen Neurowissenschaften gilt diejenige von Leslie Brothers (1990). Darin schlägt er vor, soziale Phänomene in verschiedensten Formen zu untersuchen; sei es durch Verhaltensbeobachtung, durch Ergebnisse aus dem Tierbereich oder auch anhand von Läsionsstudien am Menschen. Zudem setzt er bestimmte neuronale Schaltkreise im Gehirn mit bestimmtem Sozialverhalten in Verbindung und spricht sogar von einem »sozialen Gehirn«.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 10,
+      "pp_label": "paragraph_title",
+      "score": 0.7094074487686157,
+      "bbox": {
+        "x0": 153.56907653808594,
+        "y0": 450.68182373046875,
+        "x1": 269.7200622558594,
+        "y1": 478.88922119140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 95,
+      "polygon": [
+        [
+          153.0,
+          450.0
+        ],
+        [
+          153.0,
+          477.0
+        ],
+        [
+          268.0,
+          477.0
+        ],
+        [
+          268.0,
+          450.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "- Definition",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 8,
+      "pp_label": "text",
+      "score": 0.9187567234039307,
+      "bbox": {
+        "x0": 148.4481964111328,
+        "y0": 481.85540771484375,
+        "x1": 990.3436889648438,
+        "y1": 685.7053833007812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 108,
+      "polygon": [
+        [
+          156.0,
+          481.0
+        ],
+        [
+          156.0,
+          684.0
+        ],
+        [
+          989.0,
+          684.0
+        ],
+        [
+          989.0,
+          481.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Demotion\nDas Feld der sozialen Neurowissenschaften (»Social Neuroscience«) beschäftigt sich mit den neuronalen Grundlagen sozialpsychologischer Phänomene. Durch eine mehr- dimensionale Herangehensweise werden die biologische, kognitive und soziale Pers- pektive miteinander verknüpft bzw. sozialpsychologische Fragestellungen, Hypothesen und Theorien mithilfe neurowissenschaftlicher Methodik überprüft. Das Ziel besteht darin, ein umfassenderes Bild menschlichen Erlebens und Verhaltens zu bekommen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 6,
+      "pp_label": "paragraph_title",
+      "score": 0.8663175106048584,
+      "bbox": {
+        "x0": 113.8195571899414,
+        "y0": 774.730224609375,
+        "x1": 681.349853515625,
+        "y1": 810.857177734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 122,
+      "polygon": [
+        [
+          113.0,
+          774.0
+        ],
+        [
+          113.0,
+          809.0
+        ],
+        [
+          680.0,
+          809.0
+        ],
+        [
+          680.0,
+          774.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "12.1.2 Methodische Herangehensweise",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9589046835899353,
+      "bbox": {
+        "x0": 110.08891296386719,
+        "y0": 849.4921875,
+        "x1": 1013.4343872070312,
+        "y1": 1082.184814453125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 137,
+      "polygon": [
+        [
+          118.0,
+          849.0
+        ],
+        [
+          118.0,
+          1081.0
+        ],
+        [
+          1012.0,
+          1081.0
+        ],
+        [
+          1012.0,
+          849.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Methoden der Neurowissenschaften sind sehr vielfältig. Typischerweise sind sie jedoch »nichtinvasiv« (Harmon-Jones & Beer, 2009), was bedeutet, dass sie dem menschlichen Körper keinen Schaden zufügen oder in irgendeiner anderen Art und Weise in den menschlichen Körper eindringen. Zwar werden teilweise Personen mit Hirnschäden oder Anomalien bzw. Auffälligkeiten im Gehirn untersucht (etwa bei Schlaganfall, Psychopathie, Autismus), es erfolgt aber natürlich keine künstliche Verletzung bzw. Schädigung.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9699532985687256,
+      "bbox": {
+        "x0": 109.54676818847656,
+        "y0": 1083.0184326171875,
+        "x1": 1014.0810546875,
+        "y1": 1649.6324462890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 160,
+      "polygon": [
+        [
+          109.0,
+          1083.0
+        ],
+        [
+          109.0,
+          1648.0
+        ],
+        [
+          1013.0,
+          1648.0
+        ],
+        [
+          1013.0,
+          1083.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Jezung Bzw. Schadigung.\nJe nachdem, welche Zielsetzung man verfolgt, unterscheiden sich die methodischen Verfahren: Steht beispielsweise der Erkenntnisgewinn über die zugrunde liegende anatomische Struktur im Vordergrund, so sind Verfahren wie die Computertomografie (CT) oder die Magnetresonanztomografie (Kernspintomografie; MRT) geeignet. Soll dagegen die Aktivität bestimmter Nervenzellen gemessen werden, so greift man z. B. auf das Elektroenzephalogramm (EEG) oder das Magnetenzephalogramm (MEG) zurück; sehr interessant sind auch bildgebende Verfahren, die die Funktion bestimmter Hirnareale bzw. deren Aktivierung sichtbar machen. Hierzu zählen die Positronenemissionstomografie (PET) oder auch die funktionelle Magnetresonanztomografie (fMRT). Im Gegensatz zum EEG, das eine hohe zeitliche Auflösung besitzt (d.h. die neuronale Aktivität lässt sich sehr genau in ihrer zeitlichen Abfolge feststellen), ist die räumliche Auflösung bei der fMRT sehr gut. Insofern können aktivierte Hirnregionen millimetergenau erkannt werden. In Anbetracht der Methodenvielfalt möchten wir uns in diesem Kapitel auf die funktionelle Magnetresonanztomografie (fMRT/fMRI) beschränken. Diese ist im Bereich Social Neuroscience neben dem EEG das wohl am häufigsten eingesetzte Verfahren; alle in diesem Kapitel vorgestellten Befunde beziehen sich daher ausschließlich auf fMRT-Untersuchungen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.9199439883232117,
+      "bbox": {
+        "x0": 112.12847900390625,
+        "y0": 1676.64990234375,
+        "x1": 988.0472412109375,
+        "y1": 1741.5908203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 189,
+      "polygon": [
+        [
+          112.0,
+          1676.0
+        ],
+        [
+          112.0,
+          1740.0
+        ],
+        [
+          987.0,
+          1740.0
+        ],
+        [
+          987.0,
+          1676.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Technische Grundlagen der funktionellen Magnetresonanztomografie (fMRT)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.9549195170402527,
+      "bbox": {
+        "x0": 111.49899291992188,
+        "y0": 1749.1749267578125,
+        "x1": 1014.5181274414062,
+        "y1": 1951.0572509765625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 200,
+      "polygon": [
+        [
+          111.0,
+          1749.0
+        ],
+        [
+          111.0,
+          1950.0
+        ],
+        [
+          1013.0,
+          1940.0
+        ],
+        [
+          1013.0,
+          1749.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Vielleicht kennen Sie die bunten Bilder, die bestimmte Hirnareale in unterschiedlichen Farben abbilden? Diese stammen häufig von fMRT-Untersuchungen. Die Bilder zeigen dabei neben der Lage bzw. Anatomie bestimmter Hirnregionen auch deren Aktivierung anhand unterschiedlicher Farben und Farbabstufungen. Die Farben Gelb und Rot stehen beispielsweise für positive Aktivierung, Blau dagegen für negative bzw. verringerte Aktivierung (Deaktivierung). Aber wie gelangt man zu diesen Aufnahmen? Und",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 16,
+      "pp_label": "text",
+      "score": 0.583905816078186,
+      "bbox": {
+        "x0": 1060.9578857421875,
+        "y0": 449.69830322265625,
+        "x1": 1334.7650146484375,
+        "y1": 548.8020629882812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 234,
+      "polygon": [
+        [
+          1060.0,
+          449.0
+        ],
+        [
+          1060.0,
+          478.0
+        ],
+        [
+          1060.0,
+          499.0
+        ],
+        [
+          1060.0,
+          518.0
+        ],
+        [
+          1060.0,
+          529.0
+        ],
+        [
+          1060.0,
+          538.0
+        ],
+        [
+          1068.0,
+          547.0
+        ],
+        [
+          1333.0,
+          547.0
+        ],
+        [
+          1333.0,
+          449.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Definition\nSoziale Neurowissen-schaften",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9127710461616516,
+      "bbox": {
+        "x0": 1057.4063720703125,
+        "y0": 852.0864868164062,
+        "x1": 1379.5728759765625,
+        "y1": 964.7986450195312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 242,
+      "polygon": [
+        [
+          1057.0,
+          852.0
+        ],
+        [
+          1057.0,
+          963.0
+        ],
+        [
+          1378.0,
+          963.0
+        ],
+        [
+          1378.0,
+          852.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die neurowissenschaftlichen Methoden sind meist »nichtinvasiv«, d. h., sie führen im menschlichen Körper zu keinerlei Schaden.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 12,
+      "query_id": 15,
+      "pp_label": "text",
+      "score": 0.6522009372711182,
+      "bbox": {
+        "x0": 1056.8740234375,
+        "y0": 1085.4195556640625,
+        "x1": 1374.8638916015625,
+        "y1": 1168.6793212890625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 271,
+      "polygon": [
+        [
+          1056.0,
+          1085.0
+        ],
+        [
+          1056.0,
+          1167.0
+        ],
+        [
+          1373.0,
+          1167.0
+        ],
+        [
+          1373.0,
+          1085.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Innerhalb der Neurowissenschaften stehen unterschiedliche methodische Verfahren zur Verfügung.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 13,
+      "query_id": 12,
+      "pp_label": "text",
+      "score": 0.7668924331665039,
+      "bbox": {
+        "x0": 1056.72265625,
+        "y0": 1168.7772216796875,
+        "x1": 1378.7391357421875,
+        "y1": 1337.4749755859375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 272,
+      "polygon": [
+        [
+          1056.0,
+          1168.0
+        ],
+        [
+          1056.0,
+          1336.0
+        ],
+        [
+          1308.0,
+          1336.0
+        ],
+        [
+          1355.0,
+          1336.0
+        ],
+        [
+          1370.0,
+          1336.0
+        ],
+        [
+          1377.0,
+          1327.0
+        ],
+        [
+          1377.0,
+          1168.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "sche verranren zur verfugung. Speziell im Bereich der sozialen Neu- rowissenschaften werden am häufigsten die funktionelle Magnetreso- nanztomografie (fMRT) sowie das Elektroenzephalogramm (EEG) ein- gesetzt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 14,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.8989514708518982,
+      "bbox": {
+        "x0": 1056.4078369140625,
+        "y0": 1750.880126953125,
+        "x1": 1382.550048828125,
+        "y1": 1893.161865234375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 292,
+      "polygon": [
+        [
+          1056.0,
+          1750.0
+        ],
+        [
+          1056.0,
+          1892.0
+        ],
+        [
+          1381.0,
+          1892.0
+        ],
+        [
+          1381.0,
+          1750.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Typisch für fMRT-Studien sind die »bunten Bilder« von bestimmten Hirnarealen. Diese stellen sowohl die Anatomie als auch Aktivierung der jeweiligen Hirnregionen dar.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2654.495849609375
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1419.1142578125
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1422.1741943359375
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1175.924072265625
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1789.8209228515625
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1633.1004638671875
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1858.399658203125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2195.869384765625
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 728.845947265625
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 4086.86669921875
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 2342.2666015625
+    },
+    {
+      "von": 11,
+      "nach": 12,
+      "konfidenz": 1.0,
+      "marge": 501.4064025878906
+    },
+    {
+      "von": 12,
+      "nach": 13,
+      "konfidenz": 1.0,
+      "marge": 1818.81884765625
+    },
+    {
+      "von": 13,
+      "nach": 14,
+      "konfidenz": 1.0,
+      "marge": 1777.731201171875
+    }
+  ],
+  "warnungen": [],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.42699570799959474,
+      "zeitstempel": "2026-09-06T14:32:08.494309Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 13.594446082999639,
+      "zeitstempel": "2026-09-06T15:12:40.276329Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

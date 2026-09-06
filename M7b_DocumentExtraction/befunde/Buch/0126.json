@@ -1,0 +1,520 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 126,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8443284034729004,
+      "bbox": {
+        "x0": 113.64566802978516,
+        "y0": 78.5516357421875,
+        "x1": 438.505615234375,
+        "y1": 105.9549560546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 4,
+      "polygon": [
+        [
+          113.0,
+          78.0
+        ],
+        [
+          113.0,
+          104.0
+        ],
+        [
+          437.0,
+          104.0
+        ],
+        [
+          437.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "8.1 · Theorie der sozialen Identität",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 25,
+      "pp_label": "number",
+      "score": 0.6101361513137817,
+      "bbox": {
+        "x0": 1184.681640625,
+        "y0": 53.6336669921875,
+        "x1": 1224.985595703125,
+        "y1": 80.42626953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 13,
+      "polygon": [
+        [
+          1184.0,
+          53.0
+        ],
+        [
+          1184.0,
+          79.0
+        ],
+        [
+          1223.0,
+          79.0
+        ],
+        [
+          1223.0,
+          53.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "121",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 14,
+      "pp_label": "number",
+      "score": 0.5399442315101624,
+      "bbox": {
+        "x0": 1382.566650390625,
+        "y0": 34.83917236328125,
+        "x1": 1420.918701171875,
+        "y1": 83.83062744140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 19,
+      "polygon": [
+        [
+          1382.0,
+          34.0
+        ],
+        [
+          1382.0,
+          82.0
+        ],
+        [
+          1419.0,
+          82.0
+        ],
+        [
+          1419.0,
+          34.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "8",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.8252127766609192,
+      "bbox": {
+        "x0": 149.404052734375,
+        "y0": 218.2647705078125,
+        "x1": 1380.810791015625,
+        "y1": 717.0948486328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 53,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "de Gruppen, für ihre eigene Gruppe oder ob sie den Abstand zwischen beiden Gruppen maximieren wollten.\nAus ökonomischer Sicht ist es rational, den Profit der eigenen Gruppe zu maximieren ohne Berücksichtigung des Profits der anderen Gruppe (Akerlof & Kranton, 2000). Dies zeigte sich empirisch allerdings nicht: Die Kinder wählten nämlich überwiegend diejenigen Punktepaare aus, bei der sie die Differenz zwischen dem Profit der eigenen Gruppe sowie dem Profit der anderen Gruppe maximierten. Den Gruppen ging es also nicht so sehr darum, für sich selbst den höchsten Profit herauszuschlagen; sie nahmen sogar ein »Weniger« an ihrem eigenen Profit in Kauf, nur um den Abstand zwischen der eigenen und der anderen Gruppe möglichst groß zu halten (vgl. Haslam, 2004). Sprich, lieber wiesen die Kinder einem Mitglied der eigenen Gruppe bei- spielsweise nur 5 Punkte zu und demjenigen der Fremdgruppe 1 Punkt (Differenz: 4 Punkte), als dem Mitglied der eigenen Gruppe 9 und demjenigen der Fremdgruppe 7 Punkte zuzuteilen (Differenz: 2 Punkte). Insofern wurde die Punkteverteilung am besten vom Ziel der maximalen Differenz bestimmt; das Ziel, die Eigengruppe maximal zu belohnen, hatte zwar einen Einfluss auf die Punkteverteilung, jedoch weniger stark; das Ziel des maximalen gemeinsamen Nutzens hatte keinerlei Einfluss.\nÄhnliche Befunde konnten auch in Feldexperimenten mit erwachsenen Versuchspersonen repliziert werden (Brewer & Silver, 1978; Brown, 1978), wobei eine Vielzahl möglicher Alternativerklärungen (z. B. wie gut sich die Personen vorher kannten oder wie ähnlich sie einander einschätzten) ausge- räumt werden konnten (Billig & Tajfel, 1973).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 1,
+      "pp_label": "text",
+      "score": 0.9662309885025024,
+      "bbox": {
+        "x0": 109.78422546386719,
+        "y0": 780.4319458007812,
+        "x1": 1015.051513671875,
+        "y1": 1252.560791015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 118,
+      "polygon": [
+        [
+          109.0,
+          791.0
+        ],
+        [
+          109.0,
+          1251.0
+        ],
+        [
+          1014.0,
+          1251.0
+        ],
+        [
+          1007.0,
+          780.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Wieso tritt dieser Effekt der Intergruppendiskriminierung auf? Tajfel (1972) geht davon aus, dass Gruppen bestrebt sind, sich von anderen Gruppen positiv abzuheben bzw. eine »positive soziale Distinktheit« gegenüber anderen Gruppen herzustellen. Dieses Streben kommt selbst in Situationen bzw. Gruppenkonstellationen zum Tragen, in denen die Gruppeneinteilung anhand von unbedeutenden und beliebigen (»minimalen«) Kriterien vorgenommen wurde, die nicht auf bestimmte Einstellungen, Vorlieben etc. schließen lassen (z.B. Losverfahren, gleicher Geburtsmonat). Positive Distinktheit kann sowohl durch Aufwertung der Eigengruppe als auch durch Abwertung der Fremdgruppe erreicht werden. Der psychologische Grund dafür ist, dass Menschen ihren Selbstwert beibehalten oder nach Möglichkeit steigern möchten (Frey & Gaska, 1993) und zugleich aber aus ihren Gruppenzugehörigkeiten Selbstwert ableiten. Je besser die eigene Gruppe im Vergleich zu einer anderen Gruppe »dasteht«, desto positiver ist dies für den eigenen Selbstwert. In diesem Zusammenhang ist auch das Ergebnis der Studie von Tajfel et al. (1971) zu sehen: Zentral war die Vergrößerung des Unterschieds",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 16,
+      "pp_label": "table",
+      "score": 0.5106071829795837,
+      "bbox": {
+        "x0": 117.03251647949219,
+        "y0": 1313.38671875,
+        "x1": 1007.34130859375,
+        "y1": 1606.578369140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 151,
+      "polygon": [
+        [
+          117.0,
+          1313.0
+        ],
+        [
+          117.0,
+          1605.0
+        ],
+        [
+          1006.0,
+          1605.0
+        ],
+        [
+          1006.0,
+          1313.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "<fcel>Broschüre der Klee-Gruppe<lcel><lcel><lcel><lcel><lcel><lcel><lcel><lcel><lcel><nl><fcel>Diese Nummern sind Gewinne für:<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Mitglied Nr. 74 der Klee-Gruppe<fcel>25<fcel>23<fcel>21<fcel>19<fcel>17<fcel>15<fcel>13<fcel>11<fcel>9<nl><fcel>Mitglied Nr. 44 der Kandinsky-Gruppe<fcel>19<fcel>18<fcel>17<fcel>16<fcel>15<fcel>14<fcel>13<fcel>12<fcel>11<nl><fcel>Bitte trage untenstehend die Punktewerte des ausgewählten Zahlenpaares ein:<lcel><lcel><lcel><lcel><lcel><lcel><lcel><lcel><lcel><nl><fcel>Belohnung für Mitglied Nr. 74 der Klee-Gruppe<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Belohnung für Mitglied Nr. 44 der Kandinsky-Gruppe<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl>",
+      "text_format": "otsl",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 9,
+      "pp_label": "table",
+      "score": 0.5119202136993408,
+      "bbox": {
+        "x0": 117.4345932006836,
+        "y0": 1307.4796142578125,
+        "x1": 1008.3047485351562,
+        "y1": 1937.7669677734375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 155,
+      "polygon": [
+        [
+          117.0,
+          1307.0
+        ],
+        [
+          117.0,
+          1936.0
+        ],
+        [
+          1007.0,
+          1936.0
+        ],
+        [
+          1007.0,
+          1307.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "<fcel>Broschüre der Klee-Gruppe<lcel><lcel><lcel><lcel><lcel><lcel><lcel><lcel><lcel><lcel><lcel><nl><fcel>Diese Nummern sind Gewinne für:<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Mitglied Nr. 74 der Klee-Gruppe<fcel>25<fcel>23<fcel>21<fcel>19<fcel>17<fcel>15<fcel>13<fcel>11<fcel>9<fcel>7<fcel>5<nl><fcel>Mitglied Nr. 44 der Kandinsky-Gruppe<fcel>19<fcel>18<fcel>17<fcel>16<fcel>15<fcel>14<fcel>13<fcel>12<fcel>11<fcel>10<fcel>9<nl><fcel>Bitte trage untenstehend die Punktewerte des ausgewählten Zahlenpaares ein:<lcel><lcel><lcel><lcel><lcel><lcel><lcel><lcel><lcel><lcel><lcel><nl><fcel>Belohnung für Mitglied Nr. 74 der Klee-Gruppe<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Belohnung für Mitglied Nr. 44 der Kandinsky-Gruppe<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><ecel><lcel><lcel><lcel><lcel><lcel><lcel><lcel><lcel><lcel><lcel><lcel><nl><fcel>Mitglied der Eigengruppe<fcel>19<fcel>18<fcel>17<fcel>16<fcel>15<fcel>14<fcel>13<fcel>12<fcel>11<fcel>10<fcel>9<nl><fcel>Mitglied der Fremdgruppe<ecel><fcel>1<fcel>3<fcel>5<fcel>7<fcel>9<fcel>11<fcel>13<fcel>15<fcel>17<fcel>19<nl><fcel>MJP (maximaler gemeinsamer Nutzen)<fcel>13<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><ucel><fcel>13<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>MIP (maximaler Eigengruppen-Nutzen)<fcel>19<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><ucel><fcel>1<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>MD (maximaler Unterschied)<fcel>19<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><ucel><fcel>1<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl>",
+      "text_format": "otsl",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 7,
+      "pp_label": "table",
+      "score": 0.6949065327644348,
+      "bbox": {
+        "x0": 116.91278839111328,
+        "y0": 1681.5947265625,
+        "x1": 1007.3693237304688,
+        "y1": 1935.198974609375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 235,
+      "polygon": [
+        [
+          116.0,
+          1681.0
+        ],
+        [
+          116.0,
+          1934.0
+        ],
+        [
+          1006.0,
+          1934.0
+        ],
+        [
+          1006.0,
+          1681.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "<fcel>Mitglied der Eigengruppe<fcel>19<fcel>18<fcel>17<fcel>16<fcel>15<fcel>14<fcel>13<fcel>12<fcel>11<fcel>10<fcel>9<fcel>8<fcel>7<nl><fcel>Mitglied der Fremdgruppe<fcel>1<fcel>3<fcel>5<fcel>7<fcel>9<fcel>11<fcel>13<fcel>15<fcel>17<fcel>19<fcel>21<fcel>23<fcel>25<nl><fcel>MJP (maximaler gemeinsamer Nutzen)<fcel>13<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><ucel><fcel>13<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>MIP (maximaler Eigengruppen-Nutzen)<fcel>19<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><ucel><fcel>1<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>MD (maximaler Unterschied)<fcel>19<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><ucel><fcel>1<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl>",
+      "text_format": "otsl",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 12,
+      "pp_label": "figure_title",
+      "score": 0.5502076148986816,
+      "bbox": {
+        "x0": 1057.0142822265625,
+        "y0": 785.2083740234375,
+        "x1": 1378.6898193359375,
+        "y1": 896.8814697265625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 279,
+      "polygon": [
+        [
+          1057.0,
+          785.0
+        ],
+        [
+          1057.0,
+          895.0
+        ],
+        [
+          1064.0,
+          895.0
+        ],
+        [
+          1073.0,
+          895.0
+        ],
+        [
+          1377.0,
+          895.0
+        ],
+        [
+          1377.0,
+          785.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Intergruppendiskriminierung tritt auf, weil Gruppen bestrebt sind, sich von anderen Gruppen positiv abzuheben.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.6136054992675781,
+      "bbox": {
+        "x0": 1058.0411376953125,
+        "y0": 1306.6435546875,
+        "x1": 1379.7955322265625,
+        "y1": 1392.638916015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 287,
+      "polygon": [
+        [
+          1058.0,
+          1306.0
+        ],
+        [
+          1058.0,
+          1391.0
+        ],
+        [
+          1378.0,
+          1391.0
+        ],
+        [
+          1378.0,
+          1306.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "☑ Abb. 8.1 Beispiel für eine Matrize aus der Studie von Tajfel et al. (1971, mit freundlicher Genehmigung)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 11,
+      "pp_label": "text",
+      "score": 0.5464701056480408,
+      "bbox": {
+        "x0": 1057.455322265625,
+        "y0": 1676.4783935546875,
+        "x1": 1368.4478759765625,
+        "y1": 1788.8472900390625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 292,
+      "polygon": [
+        [
+          1057.0,
+          1676.0
+        ],
+        [
+          1057.0,
+          1787.0
+        ],
+        [
+          1367.0,
+          1787.0
+        ],
+        [
+          1367.0,
+          1676.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Abb. 8.2 Verschiedene Motive bei der Auswahl der Zahlenpaare. (In Anlehnung an Tajfel et al., 1971, mit freundlicher Genehmigung)",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2033.9925537109375
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 360.2312927246094
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 2296.54345703125
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1866.15771484375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 2282.041748046875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 372.5613098144531
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1736.2271728515625
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2277.99853515625
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 2750.7275390625
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1581.066650390625
+    }
+  ],
+  "warnungen": [
+    "Blöcke [3, 4, 5, 6] zu #3 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3890949169981468,
+      "zeitstempel": "2026-09-06T14:31:41.031701Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 18.436192541998025,
+      "zeitstempel": "2026-09-06T14:58:32.453897Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

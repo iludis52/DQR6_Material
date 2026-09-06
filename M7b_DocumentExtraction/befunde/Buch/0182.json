@@ -1,0 +1,518 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 182,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 1,
+      "pp_label": "header",
+      "score": 0.8238978385925293,
+      "bbox": {
+        "x0": 114.80887603759766,
+        "y0": 79.02133178710938,
+        "x1": 351.3974914550781,
+        "y1": 105.69363403320312,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 3,
+      "polygon": [
+        [
+          114.0,
+          79.0
+        ],
+        [
+          114.0,
+          104.0
+        ],
+        [
+          350.0,
+          104.0
+        ],
+        [
+          350.0,
+          79.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "11.2 · Soziale Dilemmata",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 10,
+      "pp_label": "number",
+      "score": 0.7360441088676453,
+      "bbox": {
+        "x0": 1370.8724365234375,
+        "y0": 35.1951904296875,
+        "x1": 1431.072998046875,
+        "y1": 85.3455810546875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 40,
+      "polygon": [
+        [
+          1370.0,
+          35.0
+        ],
+        [
+          1370.0,
+          84.0
+        ],
+        [
+          1430.0,
+          84.0
+        ],
+        [
+          1430.0,
+          35.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "11",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 0,
+      "pp_label": "text",
+      "score": 0.9709985256195068,
+      "bbox": {
+        "x0": 109.41362762451172,
+        "y0": 181.71490478515625,
+        "x1": 1015.78759765625,
+        "y1": 784.5031127929688,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 83,
+      "polygon": [
+        [
+          109.0,
+          192.0
+        ],
+        [
+          117.0,
+          783.0
+        ],
+        [
+          1014.0,
+          773.0
+        ],
+        [
+          1014.0,
+          181.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "nämlich nur dazu imstande, einen Hasen zu fangen. Einigen sich beide Jäger darauf, auf Hirschjagd zu gehen, könnte folgendes Problem auftreten: Einer der Jäger entscheidet sich um, und zieht es trotz Abmachung vor, allein auf Hasenjagd zu gehen. Da die Jäger während der Jagd nicht laut kommunizieren können – sonst würden sie alle Tiere scheu machen – bekommt der andere Jäger von diesem Entschluss nichts mit. Dies kommt einem Akt des Desertierens gleich und derjenige, der nach wie vor bereit ist, sich ko-operativ an der Hirschjagd zu beteiligen, geht leer aus. Im Gegensatz zum Gefangenen-dilemma ist das Desertieren hier keine dominante Strategie. Das heißt, das Desertieren führt nicht unter allen Umständen zu einem besseren Ergebnis. Hätte man glaubhafte Versicherungen, dass andere kooperieren, dann wäre die eigene Kooperation die rationale Entscheidung. Aus diesem Grund wird die Hirschjagd, oder »stag hunt« auch als ein Zusicherungsspiel (»assurance game«) bezeichnet. Im Großen und Ganzen ist die Hirschjagd leichter im Sinne kollektiver Kooperation zu lösen als das Gefangenendilemma oder das Public-Goods-Dilemma. Der Unterschied liegt darin, dass im Hirschjagd-Dilemma alle individuell besser durch gegenseitige Kooperation bedient sind. In dieser Situation wird niemand desertieren in der Hoffnung, dass andere kooperieren (wie beim Public-Goods-Dilemma); stattdessen kommt die Desertation nur aus der Furcht davor zustande, dass andere auch desertieren.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.7190386652946472,
+      "bbox": {
+        "x0": 1056.4542236328125,
+        "y0": 186.50347900390625,
+        "x1": 1388.9510498046875,
+        "y1": 437.83282470703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 159,
+      "polygon": [
+        [
+          1056.0,
+          186.0
+        ],
+        [
+          1056.0,
+          436.0
+        ],
+        [
+          1387.0,
+          436.0
+        ],
+        [
+          1387.0,
+          207.0
+        ],
+        [
+          1380.0,
+          186.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das Zusicherungsspiel (Hirschjagd) ähnelt dem Gefangenendilemma: Die beste Lösung für alle Beteiligten wird erreicht, wenn jeder koope- riert. Kommt es dennoch zum Deser- tieren, so geschieht dies aus Furcht davor, dass der andere desertieren könnte, nicht aber aus Gier (wie beim Gefangenendilemma).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.744139552116394,
+      "bbox": {
+        "x0": 152.77137756347656,
+        "y0": 813.7774658203125,
+        "x1": 240.75987243652344,
+        "y1": 841.7032470703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 171,
+      "polygon": [
+        [
+          152.0,
+          813.0
+        ],
+        [
+          152.0,
+          840.0
+        ],
+        [
+          239.0,
+          840.0
+        ],
+        [
+          239.0,
+          813.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Beispiel",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 11,
+      "pp_label": "paragraph_title",
+      "score": 0.6829718947410583,
+      "bbox": {
+        "x0": 152.28994750976562,
+        "y0": 849.854736328125,
+        "x1": 434.1980895996094,
+        "y1": 879.4073486328125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 184,
+      "polygon": [
+        [
+          152.0,
+          849.0
+        ],
+        [
+          152.0,
+          878.0
+        ],
+        [
+          433.0,
+          878.0
+        ],
+        [
+          433.0,
+          849.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Die Hirschjagd von heute",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9565536379814148,
+      "bbox": {
+        "x0": 148.87564086914062,
+        "y0": 882.703125,
+        "x1": 1372.33544921875,
+        "y1": 1385.024658203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 194,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Die Problematik der Hirschjagd tritt häufig in Zusammenhang mit einem Vertragsbruch auf oder auch wenn »lose« Abmachungen nicht eingehalten werden. Stellen Sie sich vor, Sie sind am Ende des Studiums und die weitere Berufsplanung ist ein gängiges Thema für Sie. Gemeinsam mit Ihrem Freund malen Sie sich aus, wie Sie beide später zusammen arbeiten werden. Sie beide haben ähnliche berufliche Vorstellungen, sie studieren dasselbe Fach, allerdings mit unterschiedlichen Schwerpunkten. Insofern würden Sie sich, wenn Sie gemeinsam etwas auf die Beine stellten, sehr gut ergänzen. Sprich: Sie planen, sich zusammen selbstständig zu machen. Bei einer Karriereveranstaltung, die Sie besuchen, kommen Sie in Kontakt mit Personen, die bereits im Berufsleben stehen. Über diese kommen Sie an ein Praktikum in einem für Sie sehr interessanten Unternehmen, das Ihnen auch Spaß macht und bei dem Sie die anderen Mitarbeiter von Ihrem Können überzeugen. Sie bekommen daher das Angebot, dort direkt nach Ihrem Studium eine Stelle anzutreten. Hierbei würden Sie sich allerdings für mindestens drei Jahre binden. Was machen Sie nun? Ihr Freund benötigt für sein Studium noch ein Jahr länger als Sie, sodass Sie sich ohnehin noch nach etwas anderem umsehen müssten. Vertrauen Sie darauf, dass Ihr Freund auch noch in zwei Jahren dieselben beruflichen Pläne haben wird wie aktuell? Oder wird er sich am Ende doch umentscheiden und Sie im Stich lassen? Sie müssen wählen: Entweder den beruflichen Traum erfüllen, auch auf die Gefahr hin, dass dieser durch einen Rückzieher Ihres Freundes zum Platzen gebracht wird oder aber nach dem Motto »besser als nichts« auf die weniger favorisierte Option zurückgreifen.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        6,
+        7
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 6,
+      "pp_label": "paragraph_title",
+      "score": 0.8340147733688354,
+      "bbox": {
+        "x0": 112.57266235351562,
+        "y0": 1442.4931640625,
+        "x1": 273.9723815917969,
+        "y1": 1473.94873046875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 248,
+      "polygon": [
+        [
+          112.0,
+          1442.0
+        ],
+        [
+          112.0,
+          1472.0
+        ],
+        [
+          272.0,
+          1472.0
+        ],
+        [
+          272.0,
+          1442.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Hühnerspiel",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9600772857666016,
+      "bbox": {
+        "x0": 109.46414184570312,
+        "y0": 1482.6224365234375,
+        "x1": 1014.3026733398438,
+        "y1": 1713.6846923828125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 251,
+      "polygon": [
+        [
+          117.0,
+          1482.0
+        ],
+        [
+          117.0,
+          1712.0
+        ],
+        [
+          1013.0,
+          1712.0
+        ],
+        [
+          1013.0,
+          1482.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Eine weitere Variante ist das sog. Hühnerspiel (»the game of chicken«). Die Rangordnung der Konsequenzen (»payoffs«) ähnelt derjenigen im Gefangenendilemma. Der kritische Unterschied ist, dass das gemeinsame Desertieren den kollektiven Untergang bedeutet (Smith, 1982). Wie bei der Hirschjagd, und im Gegensatz zum Gefangenendilemma, gibt es also keine dominante Strategie. Wenn andere kooperieren, ist es am besten, selbst zu desertieren; wenn andere desertieren, ist kooperatives Verhalten am besten.\nIra Alltszist sich das Wühnerspiel im Verhalten von Descenten auf dem Rüger",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.957468569278717,
+      "bbox": {
+        "x0": 109.7892074584961,
+        "y0": 1715.415771484375,
+        "x1": 1014.5476684570312,
+        "y1": 1951.125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 267,
+      "polygon": [
+        [
+          109.0,
+          1725.0
+        ],
+        [
+          117.0,
+          1950.0
+        ],
+        [
+          1013.0,
+          1941.0
+        ],
+        [
+          1013.0,
+          1725.0
+        ],
+        [
+          633.0,
+          1715.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "besten. Im Alltag zeigt sich das Hühnerspiel im Verhalten von Passanten auf dem Bürgersteig. Normalerweise weichen sich entgegenkommende Fußgänger aus, was beidseitiger Kooperation entspricht (Nummenmmaa, Hyönä & Hietanen, 2009). Nur ein selbstbewusster Deserteur geht geradeaus, in der Erwartung, dass andere Personen ausweichen werden. Niemand wünscht einen Zusammenstoß wegen beidseitiger Sturheit (beidseitiges Desertieren). In größerem Rahmen kann dieses Spiel als ein Modell für Wettrüsten bei gegenseitig zugesicherter nuklearer Vernichtung dienen (Russell, 1959).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 7,
+      "pp_label": "text",
+      "score": 0.8199979662895203,
+      "bbox": {
+        "x0": 1056.2861328125,
+        "y0": 1484.9976806640625,
+        "x1": 1376.252685546875,
+        "y1": 1598.5472412109375,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 294,
+      "polygon": [
+        [
+          1056.0,
+          1484.0
+        ],
+        [
+          1056.0,
+          1597.0
+        ],
+        [
+          1375.0,
+          1597.0
+        ],
+        [
+          1375.0,
+          1484.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Im Hühnerspiel (»the game of chicken«) führt das gemeinsame Desertieren zu einem kollektiven Untergang.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2529.608154296875
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1822.2579345703125
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1614.126708984375
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1022.251708984375
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 1689.7550048828125
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 1881.7293701171875
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1857.692626953125
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 1154.6331787109375
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 1983.283447265625
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 2024.4384765625
+    }
+  ],
+  "warnungen": [
+    "Blöcke [6, 7] zu #6 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.38606595899909735,
+      "zeitstempel": "2026-09-06T14:32:02.955778Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 13.961189000001468,
+      "zeitstempel": "2026-09-06T15:09:48.385547Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}

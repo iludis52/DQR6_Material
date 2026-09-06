@@ -1,0 +1,595 @@
+{
+  "quelle_datei": "Buch.pdf",
+  "seite": 170,
+  "seite_breite_pt": 547.0869750976562,
+  "seite_hoehe_pt": 737.0079956054688,
+  "render_dpi": 200,
+  "bild_breite_px": 1520,
+  "bild_hoehe_px": 2048,
+  "bloecke": [
+    {
+      "id": 0,
+      "query_id": 0,
+      "pp_label": "header",
+      "score": 0.8410244584083557,
+      "bbox": {
+        "x0": 114.762939453125,
+        "y0": 78.79074096679688,
+        "x1": 456.8899841308594,
+        "y1": 106.64114379882812,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 6,
+      "polygon": [
+        [
+          114.0,
+          78.0
+        ],
+        [
+          114.0,
+          105.0
+        ],
+        [
+          455.0,
+          105.0
+        ],
+        [
+          455.0,
+          78.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.4 · Abschließende Überlegungen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 1,
+      "query_id": 14,
+      "pp_label": "number",
+      "score": 0.7604857683181763,
+      "bbox": {
+        "x0": 1369.3358154296875,
+        "y0": 33.7783203125,
+        "x1": 1438.4351806640625,
+        "y1": 84.6434326171875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 49,
+      "polygon": [
+        [
+          1369.0,
+          33.0
+        ],
+        [
+          1369.0,
+          83.0
+        ],
+        [
+          1437.0,
+          83.0
+        ],
+        [
+          1437.0,
+          33.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 2,
+      "query_id": 6,
+      "pp_label": "text",
+      "score": 0.9415368437767029,
+      "bbox": {
+        "x0": 111.72975158691406,
+        "y0": 182.19851684570312,
+        "x1": 1014.3056640625,
+        "y1": 316.2922058105469,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 85,
+      "polygon": [
+        [
+          111.0,
+          182.0
+        ],
+        [
+          111.0,
+          315.0
+        ],
+        [
+          1013.0,
+          315.0
+        ],
+        [
+          1013.0,
+          182.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Bibel hat doch recht« das Motto des intrinsisch religiösen Christen sein. Psychologen vermuten daher, dass diese zugeschriebene Autorität das menschliche Verhalten im Guten sowie im Bösen beeinflussen kann (▶ Studie: Der Effekt biblischer Gewalt auf aggressives Verhalten).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 3,
+      "query_id": 13,
+      "pp_label": "paragraph_title",
+      "score": 0.6434824466705322,
+      "bbox": {
+        "x0": 153.33956909179688,
+        "y0": 346.74969482421875,
+        "x1": 227.15945434570312,
+        "y1": 374.71063232421875,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 113,
+      "polygon": [
+        [
+          153.0,
+          346.0
+        ],
+        [
+          153.0,
+          373.0
+        ],
+        [
+          226.0,
+          373.0
+        ],
+        [
+          226.0,
+          346.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Studie",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 4,
+      "query_id": 4,
+      "pp_label": "text",
+      "score": 0.948703408241272,
+      "bbox": {
+        "x0": 149.13461303710938,
+        "y0": 381.93951416015625,
+        "x1": 1378.220458984375,
+        "y1": 751.7953491210938,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 128,
+      "polygon": null,
+      "quelle": "pp_doclayout",
+      "text": "Der Effekt biblischer Gewalt auf aggressives Verhalten\nBushman, Ridge, Das, Key und Busath (2007) beschäftigten sich in ihrer Arbeit mit dieser Schattenseite. Sie fragten sich, ob das Lesen eines Textes über Gewalt Menschen aggressiver macht, wenn sie den Text der Bibel und nicht einer anderen Quelle zuschreiben. Bushman und Kollegen wählten eine Geschichte, die einen blutigen Rachefeldzug der Israeliten gegen die Bewohner einer ihrer eigenen Städte (Gibeh in der Region Benjamin) beschreibt. Den Versuchspersonen wurde entweder erklärt, dass die Geschichte in der Bibel zu finden sei (was stimmt) oder dass sie einer anderen archäologischen Quelle entstamme. Im Anschluss daran nahmen die Versuchspersonen an einem wettbewerbsbetonten Reaktionszeitexperiment teil, worin sie ihre Partner ohrenbetäubendem Lärm aussetzen konnten. Gemessen wurde die gewählte Lautstärke, die als ein konventionelles Maß von Aggression gilt (►Kap. 5). Die Befunde zeigten eine höhere Lautstärke in der Gruppe, die die Bibel als Textquelle annahm – allerdings traf dies nur für diejenigen Versuchspersonen zu, die angaben, an die Bibel zu glauben.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": [
+        4,
+        5
+      ],
+      "ausschnitt": null
+    },
+    {
+      "id": 5,
+      "query_id": 7,
+      "pp_label": "paragraph_title",
+      "score": 0.8691627979278564,
+      "bbox": {
+        "x0": 113.36046600341797,
+        "y0": 840.9414672851562,
+        "x1": 619.2076416015625,
+        "y1": 877.3021850585938,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 170,
+      "polygon": [
+        [
+          113.0,
+          840.0
+        ],
+        [
+          113.0,
+          876.0
+        ],
+        [
+          618.0,
+          876.0
+        ],
+        [
+          618.0,
+          840.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.3.4 Aggression gegenüber Gott",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 6,
+      "query_id": 2,
+      "pp_label": "text",
+      "score": 0.9638167023658752,
+      "bbox": {
+        "x0": 109.69271850585938,
+        "y0": 916.3250732421875,
+        "x1": 1014.9364013671875,
+        "y1": 1281.0172119140625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 180,
+      "polygon": [
+        [
+          117.0,
+          916.0
+        ],
+        [
+          117.0,
+          1280.0
+        ],
+        [
+          1013.0,
+          1280.0
+        ],
+        [
+          1013.0,
+          927.0
+        ],
+        [
+          823.0,
+          916.0
+        ],
+        [
+          793.0,
+          916.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Das aggressive Potenzial der Religion kann sich auch gegen Gott selbst richten. Dies zeigt sich schon in der biblischen Geschichte des Ijob (Altes Testament). Als ein stets gottestreuer und aufrichtiger Mann wird Ijob auf Vorschlag des Satans auf die Probe gestellt: Bleibt sein Vertrauen in Gott unerschüttert, auch wenn er großes Leid erfährt? Gott lässt zu, dass Ijob seinen gesamten Besitz sowie seine zehn Kinder verliert und darüber hinaus an einem bösartigen Geschwür erkrankt. Ijob erträgt sein Schicksal, doch schließlich verliert auch er irgendwann die Geduld und fordert Gott in einem Streitgespräch heraus. Er macht ihn für sein Leiden verantwortlich und schiebt es auf dessen Willkür, da er sich selbst nichts vorzuwerfen hat, weswegen man ihn mit all diesen Schicksalsschlägen bestrafen sollte. Ijobs Ärger ist also direkt gegen Gott gerichtet.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 7,
+      "query_id": 3,
+      "pp_label": "text",
+      "score": 0.9610263705253601,
+      "bbox": {
+        "x0": 109.71659088134766,
+        "y0": 1282.551513671875,
+        "x1": 1014.0774536132812,
+        "y1": 1550.067626953125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 213,
+      "polygon": [
+        [
+          109.0,
+          1293.0
+        ],
+        [
+          109.0,
+          1549.0
+        ],
+        [
+          1013.0,
+          1549.0
+        ],
+        [
+          1013.0,
+          1282.0
+        ],
+        [
+          117.0,
+          1282.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Exline, Park, Smyth und Carey (2011) haben diesen Ijob-Effekt an Menschen der Jetztzeit nachgewiesen. Zwei Befunde sind dabei von besonderem psychologischem Interesse: Zunächst zeigten sie, dass die Ärgerreaktion anthropomorphisch ist, d. h., Menschen reagieren auf Gott wie auf einen anderen Menschen, der sie ärgerlich macht. Zusätzlich ist auch der zentrale Attributionsprozess der gleiche: Eine negative oder schmerzhafte Erfahrung wird auf eine absichtliche Intervention zurückgeführt. Der resultierende Ärger trägt zur Depression bei und ist der Genesung abträglich – genau- so wie das beim Ärger über andere Menschen der Fall ist.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 8,
+      "query_id": 8,
+      "pp_label": "paragraph_title",
+      "score": 0.8448541164398193,
+      "bbox": {
+        "x0": 113.8573989868164,
+        "y0": 1605.088134765625,
+        "x1": 683.4564819335938,
+        "y1": 1643.310791015625,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 230,
+      "polygon": [
+        [
+          113.0,
+          1605.0
+        ],
+        [
+          113.0,
+          1642.0
+        ],
+        [
+          682.0,
+          1642.0
+        ],
+        [
+          682.0,
+          1605.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "10.4 Abschließende Überlegungen",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 9,
+      "query_id": 5,
+      "pp_label": "text",
+      "score": 0.9609437584877014,
+      "bbox": {
+        "x0": 109.95581817626953,
+        "y0": 1682.5045166015625,
+        "x1": 1013.9215087890625,
+        "y1": 1950.1553955078125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 242,
+      "polygon": [
+        [
+          109.0,
+          1693.0
+        ],
+        [
+          109.0,
+          1949.0
+        ],
+        [
+          1012.0,
+          1949.0
+        ],
+        [
+          1012.0,
+          1682.0
+        ],
+        [
+          117.0,
+          1682.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Trotz dieser »dark side of religion« bleibt zu sagen, dass intrinsicher Religiosität speziell im Rahmen der physischen und psychischen Gesundheit eine bedeutende Rolle zukommt. So kann religiöse Überzeugung besonders bei geringer internaler und externaler Kontrolle den Umgang mit der eigenen Unsicherheit und Angst erleichtern (Kay, Gaucher, McGregor & Nash, 2010). Zudem scheint intrinsiche Religiosität auch mit weiteren positiven Aspekten verbunden zu sein, wie etwa prosozialem Verhalten (Pichon & Saroglou, 2009) oder einem geringeren Empfinden von Ärger und Aggression, bedingt durch Beten (Bremner, Koole & Bushman, 2011).",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 10,
+      "query_id": 10,
+      "pp_label": "text",
+      "score": 0.8661437034606934,
+      "bbox": {
+        "x0": 1056.581298828125,
+        "y0": 1285.535400390625,
+        "x1": 1375.06591796875,
+        "y1": 1425.930908203125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 272,
+      "polygon": [
+        [
+          1056.0,
+          1295.0
+        ],
+        [
+          1056.0,
+          1424.0
+        ],
+        [
+          1374.0,
+          1424.0
+        ],
+        [
+          1374.0,
+          1295.0
+        ],
+        [
+          1238.0,
+          1285.0
+        ],
+        [
+          1231.0,
+          1285.0
+        ],
+        [
+          1223.0,
+          1285.0
+        ],
+        [
+          1216.0,
+          1285.0
+        ],
+        [
+          1192.0,
+          1285.0
+        ],
+        [
+          1132.0,
+          1285.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Negatives Potenzial von Religiosität kann sich auch gegen Gott selbst richten: Er wird für eigenes Leid verantwortlich gemacht, was zu Ärger führt.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    },
+    {
+      "id": 11,
+      "query_id": 9,
+      "pp_label": "text",
+      "score": 0.8649808764457703,
+      "bbox": {
+        "x0": 1057.56396484375,
+        "y0": 1685.02880859375,
+        "x1": 1363.82421875,
+        "y1": 1797.38720703125,
+        "rahmen": "bild_pixel",
+        "ursprung": "oben_links"
+      },
+      "lese_index": 291,
+      "polygon": [
+        [
+          1057.0,
+          1685.0
+        ],
+        [
+          1057.0,
+          1796.0
+        ],
+        [
+          1362.0,
+          1796.0
+        ],
+        [
+          1362.0,
+          1685.0
+        ]
+      ],
+      "quelle": "pp_doclayout",
+      "text": "Viele positive Seiten intrinsischer Religiosität liegen im Bereich der psychischen und physischen Gesundheit.",
+      "text_format": "klartext",
+      "text_quelle": "paddleocr_vl",
+      "zusammengefuehrt_aus": null,
+      "ausschnitt": null
+    }
+  ],
+  "kanten": [
+    {
+      "von": 0,
+      "nach": 1,
+      "konfidenz": 1.0,
+      "marge": 2559.260009765625
+    },
+    {
+      "von": 1,
+      "nach": 2,
+      "konfidenz": 1.0,
+      "marge": 1324.3157958984375
+    },
+    {
+      "von": 2,
+      "nach": 3,
+      "konfidenz": 1.0,
+      "marge": 1106.542724609375
+    },
+    {
+      "von": 3,
+      "nach": 4,
+      "konfidenz": 1.0,
+      "marge": 1619.89013671875
+    },
+    {
+      "von": 4,
+      "nach": 5,
+      "konfidenz": 1.0,
+      "marge": 2033.9383544921875
+    },
+    {
+      "von": 5,
+      "nach": 6,
+      "konfidenz": 1.0,
+      "marge": 2084.858642578125
+    },
+    {
+      "von": 6,
+      "nach": 7,
+      "konfidenz": 1.0,
+      "marge": 1473.3289794921875
+    },
+    {
+      "von": 7,
+      "nach": 8,
+      "konfidenz": 1.0,
+      "marge": 2045.7918701171875
+    },
+    {
+      "von": 8,
+      "nach": 9,
+      "konfidenz": 1.0,
+      "marge": 842.8869018554688
+    },
+    {
+      "von": 9,
+      "nach": 10,
+      "konfidenz": 1.0,
+      "marge": 1888.089599609375
+    },
+    {
+      "von": 10,
+      "nach": 11,
+      "konfidenz": 1.0,
+      "marge": 1834.7802734375
+    }
+  ],
+  "warnungen": [
+    "Blöcke [4, 5] zu #4 (text) zusammengeführt."
+  ],
+  "stufe": 2,
+  "spuren": [
+    {
+      "stufe": 1,
+      "modell": "pp_doclayoutv3.onnx",
+      "dauer_s": 0.3784860000014305,
+      "zeitstempel": "2026-09-06T14:31:58.348776Z",
+      "schema_version": "1.0"
+    },
+    {
+      "stufe": 2,
+      "modell": "mlx-community/paddleocr-vl-1.5",
+      "dauer_s": 13.139039999998204,
+      "zeitstempel": "2026-09-06T15:07:37.667754Z",
+      "schema_version": "1.0"
+    }
+  ],
+  "fehler": null,
+  "schema_version": "1.0"
+}
