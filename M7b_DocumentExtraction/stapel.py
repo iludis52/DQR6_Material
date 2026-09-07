@@ -30,13 +30,10 @@ from typing import Iterable, Sequence
 
 import pymupdf
 
+import pfade
 from schema import (
     SeitenBefund, Stufe, befund_laden, befund_pfad, befund_speichern, ist_fertig,
 )
-
-BEFUND_WURZEL = Path("data/interim/befunde")
-AUSSCHNITT_WURZEL = Path("data/interim/ausschnitte")
-ONNX_STANDARD = Path("models") / "pp_doclayoutv3.onnx"
 
 
 # --------------------------------------------------------------------- Bericht
@@ -117,7 +114,7 @@ def _kurzfehler(e: BaseException) -> str:
 # ------------------------------------------------------------------- Die Läufe
 
 def stufe1_lauf(pdf: Path, buch: str, seiten: list[int], detektor,
-                wurzel: Path = BEFUND_WURZEL, dpi: int = 200,
+                wurzel: Path = pfade.BEFUNDE, dpi: int = 200,
                 schwelle: float = 0.5, neu: bool = False,
                 zeige_fortschritt: bool = True) -> Stufenbericht:
     """Layout-Erkennung über alle Seiten. Eine offene Sitzung, ein offenes PDF."""
@@ -150,8 +147,8 @@ def stufe1_lauf(pdf: Path, buch: str, seiten: list[int], detektor,
 
 
 def stufe2_lauf(pdf: Path, buch: str, seiten: list[int], erkenner,
-                wurzel: Path = BEFUND_WURZEL,
-                ausschnitt_wurzel: Path = AUSSCHNITT_WURZEL,
+                wurzel: Path = pfade.BEFUNDE,
+                ausschnitt_wurzel: Path = pfade.AUSSCHNITTE,
                 neu: bool = False, zeige_fortschritt: bool = True,
                 zeige_bloecke: bool = False) -> Stufenbericht:
     """Erkennung über alle Seiten, die Stufe 1 hinter sich haben."""
@@ -202,9 +199,9 @@ def stufe2_lauf(pdf: Path, buch: str, seiten: list[int], erkenner,
 def verarbeite_buch(pdf: Path | str, buch: str | None = None,
                     seiten: Sequence[int] | range | None = None,
                     bis: Stufe = Stufe.ERKANNT,
-                    wurzel: Path = BEFUND_WURZEL,
-                    ausschnitt_wurzel: Path = AUSSCHNITT_WURZEL,
-                    onnx: Path = ONNX_STANDARD,
+                    wurzel: Path = pfade.BEFUNDE,
+                    ausschnitt_wurzel: Path = pfade.AUSSCHNITTE,
+                    onnx: Path = pfade.ONNX_STANDARD,
                     detektor=None, erkenner=None,
                     dpi: int = 200, schwelle: float = 0.5,
                     neu: bool = False, zeige_fortschritt: bool = True,
@@ -261,7 +258,7 @@ def verarbeite_buch(pdf: Path | str, buch: str | None = None,
 
 def offene_seiten(pdf: Path | str, buch: str | None = None,
                   bis: Stufe = Stufe.ERKANNT,
-                  wurzel: Path = BEFUND_WURZEL) -> list[int]:
+                  wurzel: Path = pfade.BEFUNDE) -> list[int]:
     """Welche Seiten fehlen noch? Beantwortet A2, ohne etwas zu rechnen."""
     pdf = Path(pdf)
     buch = buch or pdf.stem

@@ -17,7 +17,7 @@ from enum import Enum
 from pathlib import Path
 from typing import Literal
 
-from pydantic import BaseModel, Field, model_validator
+from pydantic import BaseModel, Field, field_validator, model_validator
 
 SCHEMA_VERSION = "1.0"
 
@@ -274,7 +274,26 @@ class Block(BaseModel):
     zusammengefuehrt_aus: list[int] | None = Field(
         default=None, description="Block-ids der Stufe 1, falls zusammengeführt.")
     ausschnitt: str | None = Field(
-        default=None, description="Pfad zum PNG, wenn kein Text erzeugt wurde.")
+        default=None, description="Bloßer Dateiname des PNG, wenn kein Text "
+                                  "erzeugt wurde. Kein Pfad – der Ordner kommt "
+                                  "aus `pfade` (plan.md 4.3).")
+
+    @field_validator("ausschnitt")
+    @classmethod
+    def _ausschnitt_ist_nur_dateiname(cls, wert: str | None) -> str | None:
+        """Ein Pfad im Feld wird gemeldet, nicht stillschweigend auf den
+        Dateinamen gekürzt (INV-4) – sonst verschiebt sich der Zwischen-
+        bestand lautlos zu leeren Bildverweisen.
+
+        Zeichenbasiert statt über `Path(...).name`, weil `PurePosixPath`
+        einen Backslash-Pfad wie `C:\\Bilder\\x.png` nicht als Pfad erkennt.
+        """
+        if wert is None:
+            return wert
+        if wert in ("", ".", "..") or "/" in wert or "\\" in wert:
+            raise ValueError(
+                f"ausschnitt muss ein bloßer Dateiname sein, kein Pfad: {wert!r}")
+        return wert
 
     @property
     def docling_label(self) -> str | None:

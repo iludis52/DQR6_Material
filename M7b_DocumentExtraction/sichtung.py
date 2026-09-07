@@ -15,6 +15,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+import pfade
 from schema import SeitenBefund, Strom, Stufe, befund_laden
 
 ENTHALTEN_SCHWELLE = 0.9      # ab hier gilt eine Box als in einer anderen liegend
@@ -183,6 +184,6 @@ def sichten(befunde: list[SeitenBefund]) -> None:
 
 
 if __name__ == "__main__":
-    wurzel = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("befunde")
+    wurzel = Path(sys.argv[1]) if len(sys.argv) > 1 else pfade.BEFUNDE
     buch = sys.argv[2] if len(sys.argv) > 2 else None
     sichten(befunde_lesen(wurzel, buch))

@@ -25,17 +25,20 @@ Entscheidungen, die hier gefallen sind und anderswo anders ausfallen könnten:
 
 from __future__ import annotations
 
+import hashlib
 import re
 from dataclasses import dataclass, field
 from pathlib import Path
 
 from docling_core.types.doc import (
     BoundingBox, ContentLayer, CoordOrigin, DocItemLabel, DoclingDocument,
-    ImageRef, ProvenanceItem, Size, TableCell, TableData,
+    DocumentOrigin, ImageRef, ImageRefMode, ProvenanceItem, Size, TableCell,
+    TableData,
 )
 from docling_core.types.doc.items.picture.charts import PictureTabularChartData
 from docling_core.types.doc.utils import parse_otsl_table_content
 
+import pfade
 from schema import (
     Block, PP_NACH_DOCLING, SeitenBefund, Strom, befund_laden, ins_pdf,
 )
@@ -293,11 +296,26 @@ def provenienz(block: Block, befund: SeitenBefund,
         charspan=(0, zeichen))
 
 
+# ------------------------------------------------------------- Herkunft
+
+def dokument_herkunft(pdf: Path) -> DocumentOrigin:
+    """SR-11, SR-12: Dateiname, MIME-Typ und Binärhash des Quelldokuments.
+
+    Der Hash unterscheidet zwei Fassungen gleichen Namens (SR-12) – docling
+    nimmt ihn wahlweise als Hex-String entgegen und maskiert ihn selbst auf
+    64 Bit; es ist ein Identitätsmerkmal, kein kryptographischer Nachweis.
+    """
+    return DocumentOrigin(
+        mimetype="application/pdf", filename=pdf.name,
+        binary_hash=hashlib.sha256(pdf.read_bytes()).hexdigest())
+
+
 # ------------------------------------------------------------- Der Übergang
 
-def nach_docling(befunde: list[SeitenBefund], name: str) -> tuple[DoclingDocument, Bericht]:
+def nach_docling(befunde: list[SeitenBefund], name: str,
+                 origin: DocumentOrigin | None = None) -> tuple[DoclingDocument, Bericht]:
     """Die Seitenbefunde eines Buchs -> genau ein kanonisches Dokument (A5)."""
-    dok = DoclingDocument(name=name)
+    dok = DoclingDocument(name=name, origin=origin)
     bericht = Bericht(seiten=len(befunde))
     ebenen = Ebenen()
 
@@ -339,7 +357,7 @@ def nach_docling(befunde: list[SeitenBefund], name: str) -> tuple[DoclingDocumen
                 bericht.unterschriften += 1
 
             neu = _element_anlegen(dok, blk, befund, schicht, unterschrift,
-                                   ebenen, bericht)
+                                   ebenen, bericht, buch=name)
             if neu is not None:
                 bericht.elemente += 1
 
@@ -348,7 +366,7 @@ def nach_docling(befunde: list[SeitenBefund], name: str) -> tuple[DoclingDocumen
 
 def _element_anlegen(dok: DoclingDocument, blk: Block, befund: SeitenBefund,
                      schicht: ContentLayer, unterschrift, ebenen: Ebenen,
-                     bericht: Bericht):
+                     bericht: Bericht, buch: str):
     """Ein Block -> ein Element. Die Fallunterscheidung des ganzen Moduls."""
     text = blk.text or ""
     prov = provenienz(blk, befund, len(text))
@@ -396,7 +414,14 @@ def _element_anlegen(dok: DoclingDocument, blk: Block, befund: SeitenBefund,
     if label in BILDARTIG:
         verweis = None
         if blk.ausschnitt:
-            pfad = Path(blk.ausschnitt)
+            # blk.ausschnitt trägt seit T3 nur den bloßen Dateinamen (plan.md
+            # 4.3); der Ordner kommt aus pfade. Die Kopie in den Artefaktordner
+            # ist P1 (tasks.md) – hier wird noch aus dem Zwischenbestand gelesen.
+            pfad = pfade.ausschnitt_ordner(buch) / blk.ausschnitt
+            if not pfad.exists():
+                bericht.warnungen.append(
+                    f"S{befund.seite}: #{blk.id} Ausschnitt {blk.ausschnitt!r} "
+                    f"fehlt unter {pfad.parent} – Bildgröße aus der Box geschätzt.")
             verweis = ImageRef(mimetype="image/png", dpi=300,
                                size=_bildgroesse(pfad, blk, befund), uri=pfad)
         bericht.abbildungen += 1
@@ -433,7 +458,7 @@ def _element_anlegen(dok: DoclingDocument, blk: Block, befund: SeitenBefund,
 
 # ---------------------------------------------------------------- Bequemlich
 
-def buch_umwandeln(buch: str, wurzel: Path = Path("data/interim/befunde"),
+def buch_umwandeln(buch: str, wurzel: Path = pfade.BEFUNDE,
                    ziel_json: Path | None = None, ziel_md: Path | None = None,
                    zeige_bericht: bool = True) -> tuple[DoclingDocument, Bericht]:
     """Alle Befunde eines Buchs einlesen, umwandeln, ablegen.
@@ -443,13 +468,17 @@ def buch_umwandeln(buch: str, wurzel: Path = Path("data/interim/befunde"),
     dateien = sorted((wurzel / buch).glob("*.json"))
     if not dateien:
         raise FileNotFoundError(f"Keine Befunde unter {wurzel / buch}")
-    dok, bericht = nach_docling([befund_laden(p) for p in dateien], buch)
+    origin = dokument_herkunft(pfade.quelle(buch))
+    dok, bericht = nach_docling([befund_laden(p) for p in dateien], buch, origin=origin)
 
-    ziel_json = ziel_json or Path("data/processed/dokumente") / f"{buch}.json"
-    ziel_md = ziel_md or Path("data/processed/md") / f"{buch}.md"
+    ziel_json = ziel_json or pfade.dokument_json(buch)
+    ziel_md = ziel_md or pfade.dokument_md(buch)
     ziel_json.parent.mkdir(parents=True, exist_ok=True)
     ziel_md.parent.mkdir(parents=True, exist_ok=True)
-    dok.save_as_json(ziel_json)
+    # save_as_json hat EMBEDDED als Vorgabe und schreibt sonst jedes Bild als
+    # base64 ins JSON (CLAUDE.md, geprüfte Bibliotheksfalle) – und öffnet dafür
+    # jede Bild-URI erneut, was ohne den Ordner aus pfade ohnehin fehlschlüge.
+    dok.save_as_json(ziel_json, image_mode=ImageRefMode.PLACEHOLDER)
     ziel_md.write_text(
         dok.export_to_markdown(page_break_placeholder="<!-- Seitenumbruch -->"),
         encoding="utf-8")

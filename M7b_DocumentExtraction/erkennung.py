@@ -21,6 +21,7 @@ import numpy as np
 import pymupdf
 import requests
 
+import pfade
 from schema import (
     Bbox, Bezugsrahmen, Block, Lesekante, SeitenBefund, Strom, Stufe, TEXTARTIG,
 )
@@ -311,18 +312,21 @@ class Erkenner:
         return wahl["message"]["content"], dauer, wahl.get("finish_reason")
 
     def erkenne_seite(self, befund: SeitenBefund, pdf: Path, buch: str,
-                      ausschnitt_dir: Path = Path("ausschnitte"),
+                      ausschnitt_dir: Path | None = None,
                       zeige_fortschritt: bool = False,
                       dok: "pymupdf.Document | None" = None) -> SeitenBefund:
         """Befund der Stufe 1 -> Befund mit gefülltem Feld `text`.
 
-        Bildblöcke bekommen keinen Modellaufruf. Ihr Ausschnitt landet als PNG,
-        der Pfad im Feld `ausschnitt` – damit kann Stufe 4 sie aufgreifen, ohne
-        die Seite neu zu rendern.
+        Bildblöcke bekommen keinen Modellaufruf. Ihr Ausschnitt landet als
+        PNG, der bloße Dateiname im Feld `ausschnitt` (plan.md 4.3) – den
+        Ordner liefert `pfade`, damit kann Stufe 4 die Datei aufgreifen,
+        ohne die Seite neu zu rendern.
         """
         t0 = time.perf_counter()
         befund = zusammenfuehren(befund)
         seite = Seitenbild(pdf, befund, dok=dok)
+        if ausschnitt_dir is None:
+            ausschnitt_dir = pfade.ausschnitt_ordner(buch)
         ausschnitt_dir.mkdir(parents=True, exist_ok=True)
 
         for blk in befund.bloecke:
@@ -330,10 +334,10 @@ class Erkenner:
             prompt = PROMPT_FUER.get(blk.pp_label)
 
             if prompt is None:                       # Bildblock: nur ablegen
-                ziel = ausschnitt_dir / (
-                    f"{buch}_{befund.seite:04d}_{blk.id:02d}_{blk.pp_label}.png")
+                name = pfade.bildname(buch, befund.seite, blk.id, blk.pp_label)
+                ziel = ausschnitt_dir / name
                 cv2.imwrite(str(ziel), aus[:, :, ::-1])
-                blk.ausschnitt = str(ziel)
+                blk.ausschnitt = name
                 if zeige_fortschritt:
                     print(f"  #{blk.id:2d} {blk.pp_label:18s} -> {ziel.name}")
                 continue
