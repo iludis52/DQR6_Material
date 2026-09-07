@@ -1,0 +1,12 @@
+{
+  "erstellt": "2026-09-07T15:44:12",
+  "quellordner": "./documents",
+  "dokumente": 8,
+  "chunks": 5953,
+  "chunk_size": 512,
+  "chunk_overlap": 128,
+  "embedding_backend": "lmstudio",
+  "embedding_modell": "text-embedding-bge-m3",
+  "collection_name": "langchain",
+  "vektor_index": true
+}

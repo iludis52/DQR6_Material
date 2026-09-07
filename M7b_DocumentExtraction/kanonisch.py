@@ -27,6 +27,7 @@ from __future__ import annotations
 
 import hashlib
 import re
+import shutil
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -281,6 +282,29 @@ def _bildgroesse(pfad: Path, block: Block, befund: SeitenBefund) -> Size:
                     height=round(block.bbox.hoehe * faktor))
 
 
+def _ausschnitt_kopieren(buch: str, befund: SeitenBefund,
+                         blk: Block) -> Path | None:
+    """plan.md 7.1: Kopie statt Umleitung.
+
+    Stufe 2 schreibt weiterhin nur in den Zwischenbestand; hier entsteht
+    die eigentliche Ausgabe – idempotent (das Ziel wird überschrieben,
+    kein zweites Bild entsteht) und im selben Durchgang, in dem das
+    Element angelegt wird. Damit lässt sich `processed/` löschen und ohne
+    die Erkennungsstufe zu wiederholen neu erzeugen (SR-21 setzt das
+    voraus: JSON, Markdown und Bilder wandern zusammen).
+
+    `None`, wenn die Quelle fehlt – der Aufrufer meldet das dann selbst,
+    statt einen Verweis auf eine nie kopierte Datei zu hinterlassen.
+    """
+    quelle = pfade.ausschnitt_ordner(buch) / blk.ausschnitt
+    if not quelle.exists():
+        return None
+    ziel = pfade.artefakt(buch, befund.seite, blk.id, blk.pp_label)
+    ziel.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(quelle, ziel)
+    return ziel
+
+
 def provenienz(block: Block, befund: SeitenBefund,
                zeichen: int) -> ProvenanceItem:
     """A8/A16: Quelldatei steckt im Dokumentnamen, Seite und Rechteck hier.
@@ -410,20 +434,21 @@ def _element_anlegen(dok: DoclingDocument, blk: Block, befund: SeitenBefund,
         bericht.diagramme += 1
         return bild
 
-    # --- A14: Abbildungen als Datei ablegen und darauf verweisen
+    # --- A14: Abbildungen kopieren und mit einer tragfähigen URI verweisen
     if label in BILDARTIG:
         verweis = None
         if blk.ausschnitt:
-            # blk.ausschnitt trägt seit T3 nur den bloßen Dateinamen (plan.md
-            # 4.3); der Ordner kommt aus pfade. Die Kopie in den Artefaktordner
-            # ist P1 (tasks.md) – hier wird noch aus dem Zwischenbestand gelesen.
-            pfad = pfade.ausschnitt_ordner(buch) / blk.ausschnitt
-            if not pfad.exists():
+            kopie = _ausschnitt_kopieren(buch, befund, blk)
+            if kopie is None:
+                quelle = pfade.ausschnitt_ordner(buch) / blk.ausschnitt
                 bericht.warnungen.append(
                     f"S{befund.seite}: #{blk.id} Ausschnitt {blk.ausschnitt!r} "
-                    f"fehlt unter {pfad.parent} – Bildgröße aus der Box geschätzt.")
-            verweis = ImageRef(mimetype="image/png", dpi=300,
-                               size=_bildgroesse(pfad, blk, befund), uri=pfad)
+                    f"fehlt unter {quelle.parent} – kein Bildverweis erzeugt.")
+            else:
+                verweis = ImageRef(
+                    mimetype="image/png", dpi=300,
+                    size=_bildgroesse(kopie, blk, befund),
+                    uri=pfade.artefakt_relativ(buch, befund.seite, blk.id, blk.pp_label))
         bericht.abbildungen += 1
         return dok.add_picture(image=verweis, caption=unterschrift, prov=prov,
                                content_layer=schicht)
@@ -479,8 +504,13 @@ def buch_umwandeln(buch: str, wurzel: Path = pfade.BEFUNDE,
     # base64 ins JSON (CLAUDE.md, geprüfte Bibliotheksfalle) – und öffnet dafür
     # jede Bild-URI erneut, was ohne den Ordner aus pfade ohnehin fehlschlüge.
     dok.save_as_json(ziel_json, image_mode=ImageRefMode.PLACEHOLDER)
+    # export_to_markdown hat ebenfalls PLACEHOLDER als Vorgabe (dieselbe
+    # Bibliotheksfalle) und schriebe sonst "<!-- image -->" statt eines
+    # Links; REFERENCED gibt die am Element hinterlegte URI unverändert aus
+    # (hier: die relative Artefakt-URI aus _element_anlegen, SR-21).
     ziel_md.write_text(
-        dok.export_to_markdown(page_break_placeholder="<!-- Seitenumbruch -->"),
+        dok.export_to_markdown(image_mode=ImageRefMode.REFERENCED,
+                               page_break_placeholder="<!-- Seitenumbruch -->"),
         encoding="utf-8")
 
     if zeige_bericht:
