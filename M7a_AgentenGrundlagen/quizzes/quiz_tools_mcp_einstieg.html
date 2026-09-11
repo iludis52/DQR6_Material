@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools & MCP — Quiz</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        
+        /* Statusleiste */
+        .status-bar {
+            position: sticky;
+            top: 0;
+            background: white;
+            padding: 15px 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .status-info {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .mistakes { color: #dc3545; }
+
+        .progress-container {
+            width: 100%;
+            background-color: #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            height: 12px;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background-color: #28a745;
+            width: 0%;
+            transition: width 0.4s ease;
+        }
+
+        /* Quiz Container */
+        .quiz-container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .quiz-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        h1 { text-align: center; color: #2c3e50; margin-top: 40px; }
+        
+        .question-title {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .question-text {
+            font-size: 1.2rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        /* --- NEU: SVG Container Styling --- */
+        .question-svg-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 25px;
+            padding: 15px;
+            background: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        .question-svg-container svg {
+            max-width: 100%;
+            height: auto;
+            max-height: 350px; /* Begrenzt die Höhe, damit man nicht zu viel scrollen muss */
+        }
+        /* ---------------------------------- */
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        button {
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            background: white;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.2s;
+            text-align: left;
+        }
+
+        button:hover:not([disabled]) {
+            background-color: #f0f8ff;
+            border-color: #3498db;
+        }
+
+        button:disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+        button.correct {
+            background-color: #d4edda !important;
+            border-color: #28a745 !important;
+            color: #155724;
+        }
+
+        button.wrong {
+            background-color: #f8d7da !important;
+            border-color: #dc3545 !important;
+            color: #721c24;
+            text-decoration: line-through;
+        }
+
+        .feedback {
+            margin-top: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            display: none;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .feedback.correct-feedback {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .feedback.wrong-feedback {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .final-result {
+            display: none;
+            text-align: center;
+            background: #e8f4fd;
+            border: 2px solid #3498db;
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 40px;
+        }
+
+        .quiz-subtitle {
+            max-width: 800px;
+            margin: -20px auto 20px;
+            padding: 0 20px;
+            text-align: center;
+            color: #667085;
+            line-height: 1.5;
+            font-size: 0.95rem;
+        }
+
+        .question-code {
+            margin: 0 0 20px;
+            padding: 14px 16px;
+            overflow-x: auto;
+            background: #111827;
+            color: #f3f4f6;
+            border-radius: 8px;
+            font-family: Consolas, 'Courier New', monospace;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            white-space: pre;
+        }
+
+        .footer-note {
+            max-width: 800px;
+            margin: 0 auto 40px;
+            padding: 0 20px;
+            color: #667085;
+            font-size: 0.82rem;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="status-bar">
+    <div class="status-info">
+        <span>Fortschritt: <span id="progress-text">0%</span></span>
+        <span class="mistakes">Fehler: <span id="mistake-counter">0</span></span>
+    </div>
+    <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+    </div>
+</div>
+
+<h1 id="quiz-main-title">Tools &amp; MCP — Quiz</h1>
+<p class="quiz-subtitle">Fokus: technische Anwendung und Codeverständnis — ohne Protokoll-Spezialwissen.</p>
+
+<div class="quiz-container" id="quiz-container"></div>
+
+<div class="quiz-container">
+    <div class="final-result" id="final-result">
+        <h2>Quiz abgeschlossen!</h2>
+        <p>Du hast alle Fragen beantwortet. Insgesamt hast du <strong id="final-mistakes">0</strong> Fehler gemacht.</p>
+        <button onclick="location.reload()" style="background: #3498db; color: white; border: none; text-align: center; margin-top: 15px; padding: 12px 20px; border-radius: 8px; cursor: pointer; font-size: 1rem;">Quiz neustarten</button>
+    </div>
+</div>
+
+<script>
+    // Konfiguration der Fragen. Optional: 'svgId' hinzufügen, um ein Bild zu laden.
+    const questions = [
+        {
+                "text": "Was ist die Hauptaufgabe dieser Zeile?",
+                "code": "async with Client(EXA_MCP_URL) as mcp:",
+                "options": [
+                        "Eine Verbindung zum MCP-Server für die folgenden Aufrufe öffnen.",
+                        "Eine lokale Websuche für die folgenden Anfragen im Notebook starten.",
+                        "Ein Sprachmodell für die folgenden Antworten im Notebook initialisieren.",
+                        "Eine Skill-Datei für die folgenden Anfragen automatisch in den Kontext laden."
+                ],
+                "correct": 0,
+                "explanation": "Der Client-Kontext öffnet die Verbindung zum MCP-Server. Innerhalb des Blocks können anschließend MCP-Aufrufe ausgeführt werden."
+        },
+        {
+                "text": "Was bewirkt dieser Aufruf?",
+                "code": "tools = await mcp.list_tools()",
+                "options": [
+                        "Er fragt den MCP-Server nach den aktuell angebotenen Tools.",
+                        "Er führt alle angebotenen Tools nacheinander automatisch aus.",
+                        "Er übergibt alle angebotenen Tools direkt an das Sprachmodell.",
+                        "Er speichert alle angebotenen Tools dauerhaft in der Skill-Datei."
+                ],
+                "correct": 0,
+                "explanation": "`list_tools()` dient der Tool-Discovery: Der Client fragt ab, welche Werkzeuge der verbundene MCP-Server anbietet."
+        },
+        {
+                "text": "Welche Zeile führt tatsächlich ein MCP-Tool aus?",
+                "code": "",
+                "options": [
+                        "await mcp.call_tool(\"web_search_exa\", arguments)",
+                        "await mcp.list_tools()",
+                        "Client(EXA_MCP_URL)",
+                        "Path(\"skills/kaffee/SKILL.md\")"
+                ],
+                "correct": 0,
+                "explanation": "`call_tool()` führt ein konkretes Tool mit den angegebenen Argumenten aus. `list_tools()` entdeckt Tools lediglich."
+        },
+        {
+                "text": "Welche Information wird hier an das Such-Tool übergeben?",
+                "code": "{\"query\": suchanfrage, \"numResults\": 5}",
+                "options": [
+                        "Der Suchtext und die gewünschte Anzahl der Suchergebnisse.",
+                        "Der Modellname und die gewünschte Anzahl der Antwort-Tokens.",
+                        "Der Skillname und die gewünschte Anzahl der Skill-Dateien.",
+                        "Der Servername und die gewünschte Anzahl der MCP-Verbindungen."
+                ],
+                "correct": 0,
+                "explanation": "Das Argumentobjekt enthält den Suchbegriff unter `query` und die gewünschte Anzahl der Treffer unter `numResults`."
+        },
+        {
+                "text": "Warum steht vor `mcp.call_tool(...)` das Schlüsselwort `await`?",
+                "code": "ergebnis = await mcp.call_tool(\"web_search_exa\", arguments)",
+                "options": [
+                        "Weil auf das Ergebnis des asynchronen Tool-Aufrufs gewartet wird.",
+                        "Weil das Tool vor seiner Ausführung zuerst kompiliert werden muss.",
+                        "Weil die Skill-Datei vor dem Aufruf erneut geladen werden muss.",
+                        "Weil das Modell vor jeder Suche zuerst neu gestartet werden muss."
+                ],
+                "correct": 0,
+                "explanation": "Der MCP-Aufruf ist asynchron. `await` wartet auf das Ergebnis, ohne die asynchrone Ausführungslogik unnötig zu blockieren."
+        },
+        {
+                "text": "Was enthält die Variable `ergebnis` unmittelbar nach diesem Aufruf?",
+                "code": "ergebnis = await mcp.call_tool(\"web_search_exa\", arguments)",
+                "options": [
+                        "Das vom MCP-Tool zurückgegebene Ergebnis des ausgeführten Aufrufs.",
+                        "Die vollständige Skill-Datei des zuvor ausgewählten Kaffee-Skills.",
+                        "Die fertige Antwort des Sprachmodells inklusive aller Quellenangaben.",
+                        "Die Liste aller Tools, die der MCP-Server grundsätzlich anbietet."
+                ],
+                "correct": 0,
+                "explanation": "`ergebnis` enthält die Rückgabe des Tool-Aufrufs. Eine fertige Modellantwort entsteht erst in einem späteren Modellschritt."
+        },
+        {
+                "text": "Warum wird im Beispiel geprüft, ob ein Ergebnisblock `TextContent` ist?",
+                "code": "if isinstance(block, TextContent):\n    texte.append(block.text)",
+                "options": [
+                        "Damit nur Textblöcke als Text aus dem Tool-Ergebnis übernommen werden.",
+                        "Damit nur Skill-Dateien mit gültigem Markdown weiterverarbeitet werden.",
+                        "Damit nur Suchanfragen mit ausreichend vielen Wörtern ausgeführt werden.",
+                        "Damit nur Modellantworten mit einer festgelegten Sprache angezeigt werden."
+                ],
+                "correct": 0,
+                "explanation": "Ein Tool-Ergebnis kann unterschiedliche Inhaltstypen enthalten. Die Prüfung sorgt dafür, dass nur Textblöcke über `.text` gelesen werden."
+        },
+        {
+                "text": "Warum ist eine Prüfung von `ergebnis.is_error` sinnvoll?",
+                "code": "if ergebnis.is_error:\n    return \"MCP-Suche fehlgeschlagen.\"",
+                "options": [
+                        "Damit ein fehlgeschlagener Tool-Aufruf erkannt und behandelt werden kann.",
+                        "Damit bei jeder Suche automatisch ein anderer Skill ausgewählt wird.",
+                        "Damit vor jeder Suche die Modelltemperatur erneut eingestellt werden kann.",
+                        "Damit nach jeder Suche die MCP-Verbindung absichtlich beendet werden kann."
+                ],
+                "correct": 0,
+                "explanation": "`is_error` zeigt an, ob der Tool-Aufruf fehlgeschlagen ist. So kann der Client den Fehler gezielt behandeln."
+        },
+        {
+                "text": "Die Websuche hat Ergebnisse geliefert. Was muss passieren, damit das Sprachmodell diese Informationen verwenden kann?",
+                "code": "suchergebnis = await websuche(suchanfrage)",
+                "options": [
+                        "Die relevanten Suchergebnisse müssen dem nächsten Modellaufruf als Kontext übergeben werden.",
+                        "Die Suchergebnisse müssen dauerhaft in die Skill-Beschreibung eingetragen werden.",
+                        "Die Suchergebnisse müssen erneut mit `list_tools()` beim Server registriert werden.",
+                        "Die Suchergebnisse müssen in einen neuen MCP-Server umgewandelt werden."
+                ],
+                "correct": 0,
+                "explanation": "Das Sprachmodell sieht Tool-Ergebnisse nicht automatisch. Der Host muss die relevanten Resultate in den nächsten Modellaufruf übernehmen."
+        },
+        {
+                "text": "Warum ist die Websuche im Notebook nicht direkt in die `SKILL.md` eingebaut?",
+                "code": "",
+                "options": [
+                        "Der Skill beschreibt das Vorgehen, während MCP die ausführbare externe Fähigkeit bereitstellt.",
+                        "Der Skill darf grundsätzlich keine Hinweise auf externe Werkzeuge oder Suchdienste enthalten.",
+                        "Der MCP-Server muss grundsätzlich alle Skill-Regeln selbst dauerhaft speichern und anwenden.",
+                        "Die Skill-Datei kann grundsätzlich keine zusätzlichen Ressourcen oder Skripte referenzieren."
+                ],
+                "correct": 0,
+                "explanation": "Skill und MCP haben unterschiedliche Rollen: Der Skill beschreibt Arbeitsweise und Regeln; MCP stellt die externe Fähigkeit standardisiert bereit."
+        }
+];
+
+    let correctCount = 0;
+    let mistakeCount = 0;
+
+    function initQuiz() {
+        const container = document.getElementById('quiz-container');
+
+        questions.forEach((q, qIndex) => {
+            const card = document.createElement('div');
+            card.className = 'quiz-card';
+            card.id = `question-card-${qIndex}`;
+
+            const title = document.createElement('div');
+            title.className = 'question-title';
+            title.textContent = `Frage ${qIndex + 1} von ${questions.length}`;
+
+            const text = document.createElement('div');
+            text.className = 'question-text';
+            text.textContent = q.text;
+
+            card.appendChild(title);
+            card.appendChild(text);
+
+            if (q.code) {
+                const code = document.createElement('pre');
+                code.className = 'question-code';
+                code.textContent = q.code;
+                card.appendChild(code);
+            }
+
+            // --- Optional: SVG Injektion ---
+            if (q.svgId) {
+                const svgSource = document.getElementById(q.svgId);
+                if (svgSource) {
+                    const svgContainer = document.createElement('div');
+                    svgContainer.className = 'question-svg-container';
+                    // Kopiert den HTML/SVG-Code aus dem versteckten Container
+                    svgContainer.innerHTML = svgSource.innerHTML; 
+                    card.appendChild(svgContainer);
+                } else {
+                    console.warn(`SVG mit ID '${q.svgId}' nicht gefunden.`);
+                }
+            }
+            // --------------------------
+
+            const optionsContainer = document.createElement('div');
+            optionsContainer.className = 'options';
+
+            q.options.forEach((opt, optIndex) => {
+                const btn = document.createElement('button');
+                btn.textContent = opt;
+                btn.onclick = () => handleAnswer(qIndex, optIndex, btn);
+                optionsContainer.appendChild(btn);
+            });
+
+            const feedback = document.createElement('div');
+            feedback.className = 'feedback';
+            feedback.id = `feedback-${qIndex}`;
+
+            card.appendChild(optionsContainer);
+            card.appendChild(feedback);
+            container.appendChild(card);
+        });
+    }
+
+    function handleAnswer(qIndex, optIndex, btnElement) {
+        const q = questions[qIndex];
+        const card = document.getElementById(`question-card-${qIndex}`);
+        const feedback = document.getElementById(`feedback-${qIndex}`);
+
+        if (card.classList.contains('completed')) return; 
+
+        if (optIndex === q.correct) {
+            btnElement.classList.add('correct');
+            card.classList.add('completed'); 
+
+            const allBtns = card.querySelectorAll('button');
+            allBtns.forEach(b => b.disabled = true);
+
+            feedback.className = 'feedback correct-feedback';
+            feedback.innerHTML = `<strong>Richtig!</strong> ${q.explanation}`;
+            feedback.style.display = 'block';
+
+            correctCount++;
+            updateProgress();
+        } else {
+            btnElement.classList.add('wrong');
+            btnElement.disabled = true; 
+
+            mistakeCount++;
+            document.getElementById('mistake-counter').textContent = mistakeCount;
+
+            feedback.className = 'feedback wrong-feedback';
+            feedback.innerHTML = `<strong>Leider falsch.</strong> Versuche es noch einmal!`;
+            feedback.style.display = 'block';
+        }
+    }
+
+    function updateProgress() {
+        const percent = Math.round((correctCount / questions.length) * 100);
+        document.getElementById('progress-bar').style.width = percent + '%';
+        document.getElementById('progress-text').textContent = percent + '%';
+
+        if (correctCount === questions.length) {
+            document.getElementById('final-mistakes').textContent = mistakeCount;
+            document.getElementById('final-result').style.display = 'block';
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", initQuiz);
+</script>
+
+
+<div class="footer-note">
+    Stand: 11. September 2026 · Eigenständige HTML-Datei ohne Build-Schritt · geeignet für GitHub Pages.
+</div>
+
+</body>
+</html>
