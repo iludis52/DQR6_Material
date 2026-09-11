@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Agentic AI — Konzeptlandkarte (aktualisiert)</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --bg: #f7f7f5;
+    --surface: #ffffff;
+    --text: #1a1a1a;
+    --text-secondary: #555;
+    --border: #d4d4d4;
+    --accent-core: #1e3a5f;
+    --accent-core-light: #e8eef5;
+    --accent-arch: #5b2e8c;
+    --accent-arch-light: #f0e8f7;
+    --accent-knowledge: #0e6e4e;
+    --accent-knowledge-light: #e6f5ef;
+    --accent-control: #b8510d;
+    --accent-control-light: #fdf0e6;
+    --accent-ops: #8b1a1a;
+    --accent-ops-light: #fbe8e8;
+    --accent-integ: #3a5a1e;
+    --accent-integ-light: #edf5e6;
+    --tag-agentisch: #1e3a5f;
+    --tag-hybrid: #7a6520;
+    --tag-nicht: #888;
+    --tag-neu: #b8510d;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'IBM Plex Sans', -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.55;
+    padding: 2rem 1.5rem 4rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  header {
+    margin-bottom: 2.5rem;
+    border-bottom: 3px solid var(--text);
+    padding-bottom: 1.5rem;
+  }
+
+  header h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.4rem;
+  }
+
+  header p {
+    color: var(--text-secondary);
+    font-size: 0.88rem;
+    max-width: 700px;
+  }
+
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1.5rem 0 0.5rem;
+    font-size: 0.78rem;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .legend-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  .tag {
+    display: inline-block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.65rem;
+    font-weight: 500;
+    padding: 1px 6px;
+    border-radius: 3px;
+    letter-spacing: 0.03em;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  .tag-agentisch { background: var(--tag-agentisch); color: #fff; }
+  .tag-hybrid { background: var(--tag-hybrid); color: #fff; }
+  .tag-nicht { background: var(--tag-nicht); color: #fff; }
+  .tag-neu { background: var(--tag-neu); color: #fff; }
+
+  section {
+    margin-bottom: 2.5rem;
+  }
+
+  .layer-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .layer-number {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.75rem;
+    font-weight: 500;
+    opacity: 0.5;
+  }
+
+  .layer-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  .layer-desc {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    padding-left: 2.4rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+    table-layout: fixed;
+  }
+
+  thead th {
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.5rem 0.6rem;
+    border-bottom: 2px solid var(--border);
+    color: var(--text-secondary);
+  }
+
+  thead th:nth-child(1) { width: 17%; }
+  thead th:nth-child(2) { width: 33%; }
+  thead th:nth-child(3) { width: 35%; }
+  thead th:nth-child(4) { width: 15%; }
+
+  tbody td {
+    padding: 0.6rem 0.6rem;
+    border-bottom: 1px solid #e8e8e8;
+    vertical-align: top;
+  }
+
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  .concept-name {
+    font-weight: 600;
+    font-size: 0.85rem;
+    line-height: 1.3;
+  }
+
+  .table-wrap {
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: var(--surface);
+  }
+
+  .layer-core .table-wrap { border-left: 4px solid var(--accent-core); }
+  .layer-arch .table-wrap { border-left: 4px solid var(--accent-arch); }
+  .layer-knowledge .table-wrap { border-left: 4px solid var(--accent-knowledge); }
+  .layer-control .table-wrap { border-left: 4px solid var(--accent-control); }
+  .layer-ops .table-wrap { border-left: 4px solid var(--accent-ops); }
+  .layer-integ .table-wrap { border-left: 4px solid var(--accent-integ); }
+
+  .layer-core .layer-title { color: var(--accent-core); }
+  .layer-arch .layer-title { color: var(--accent-arch); }
+  .layer-knowledge .layer-title { color: var(--accent-knowledge); }
+  .layer-control .layer-title { color: var(--accent-control); }
+  .layer-ops .layer-title { color: var(--accent-ops); }
+  .layer-integ .layer-title { color: var(--accent-integ); }
+
+  .new-row td {
+    background: #fffcf0;
+  }
+
+  .abgrenzung {
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    font-style: italic;
+  }
+
+  .col-status {
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid var(--text);
+  }
+
+  footer h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+  }
+
+  footer p, footer li {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  footer li::before {
+    content: "→ ";
+    color: var(--accent-core);
+    font-weight: 600;
+  }
+
+  footer li {
+    margin-bottom: 0.3rem;
+  }
+
+  .meta {
+    font-size: 0.72rem;
+    color: #999;
+    margin-top: 2rem;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  @media (max-width: 700px) {
+    body { padding: 1rem 0.75rem 2rem; }
+    header h1 { font-size: 1.3rem; }
+    table { font-size: 0.75rem; }
+    thead th:nth-child(1) { width: 22%; }
+    thead th:nth-child(4) { width: 12%; }
+    .legend { gap: 0.4rem; }
+  }
+
+
+  .tag-enabling { background: #666; color: #fff; }
+  .focus-box { background: var(--surface); border: 1px solid var(--border); border-left: 5px solid var(--accent-knowledge); border-radius: 6px; padding: 1rem 1.1rem; }
+  .focus-box h2 { font-size: 1rem; margin-bottom: 0.6rem; }
+  .focus-box table { font-size: 0.8rem; }
+  .source-list { padding-left: 1.2rem; margin-top: .6rem; }
+  .source-list a { color: var(--accent-core); }
+  code { font-family: 'IBM Plex Mono', monospace; font-size: .95em; }
+</style>
+</head>
+<body>
+<header>
+<h1>Agentic AI — Konzeptlandkarte</h1>
+<p>Unterrichtsfassung für KI-Berufsspezialisten: Architekturrollen, Abgrenzungen und aktuelle Interoperabilitätskonzepte. Die Karte ordnet <strong>Agent Skills</strong> in das bereits bekannte Umfeld aus RAG, LangGraph, Tool Use und Agent-Orchestrierung ein.</p>
+<div class="focus-box" style="margin-top:1rem;border-left-color:var(--accent-core)">
+<strong>Lesart:</strong> „agentisch“ ist kein Etikett für einzelne Technologien, sondern beschreibt den Grad an Laufzeit-Autonomie eines Systems. Ein Framework, RAG, MCP oder ein Skill kann Teil eines Agenten sein, ist für sich genommen aber noch kein Agent.
+  </div>
+<div class="legend">
+<span class="legend-item"><span class="tag tag-agentisch">KERN AGENTISCH</span> modellgesteuerte Laufzeitentscheidung / Agentenloop</span>
+<span class="legend-item"><span class="tag tag-hybrid">HYBRID</span> kann agentisch oder deterministisch eingesetzt werden</span>
+<span class="legend-item"><span class="tag tag-enabling">ENABLING</span> wichtig, aber nicht agentenspezifisch</span>
+<span class="legend-item"><span class="tag tag-neu">NEU / PRÄZISIERT</span></span>
+</div>
+</header>
+<section class="layer-core">
+<div class="layer-header"><span class="layer-number">01</span><span class="layer-title">Agency &amp; Ausführung — Was macht ein System agentisch?</span></div>
+<p class="layer-desc">Keine universelle Pflichtliste: zentral ist Laufzeit-Autonomie über nächste Schritte, Aktionen oder Terminierung innerhalb gesetzter Grenzen.</p>
+<div class="table-wrap"><table><thead><tr><th>Konzept</th><th>Definition &amp; Abgrenzung</th><th>Kritische Anmerkungen</th><th class="col-status">Status</th></tr></thead><tbody>
+<tr class="new-row"><td><span class="concept-name">Agency / Autonomie</span> <span class="tag tag-neu">NEU</span></td><td>Grad der Laufzeit-Freiheit: Darf das Modell selbst über nächste Aktion, Tool, Reihenfolge, Delegation oder Ende entscheiden?</td><td>Agency ist graduell. Ein LLM in einem festen Workflow ist nicht automatisch ein Agent; ein einzelner Agent mit wenigen Tools kann bereits hohe Autonomie besitzen.</td><td class="col-status"><span class="tag tag-agentisch">KERN</span></td></tr>
+<tr><td><span class="concept-name">Agent Loop</span></td><td>Iterativer Zyklus, z. B. <em>State → Modellentscheidung → Aktion/Tool → Observation → nächste Entscheidung oder Ende</em>.</td><td>Harte Grenzen wie Max-Steps, Timeout und Kostenbudget ergänzen die inhaltliche Terminierung. Die konkrete Schleifenform ist frameworkabhängig.</td><td class="col-status"><span class="tag tag-agentisch">KERN</span></td></tr>
+<tr><td><span class="concept-name">Planning</span></td><td>Zielzerlegung und Auswahl von Teilschritten; explizit, inkrementell oder als Replanning nach neuen Beobachtungen.</td><td>Explizites Planning ist keine notwendige Bedingung jedes Agenten. Kurze oder reaktive Agenten können ohne separate Planrepräsentation sinnvoll arbeiten.</td><td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td></tr>
+<tr><td><span class="concept-name">State Management</span></td><td>Verwaltung von Nachrichten, Zwischenergebnissen, Tool-Resultaten, Statusvariablen und Checkpoints über mehrere Schritte.</td><td>Kontext, Workflow-State und persistente Memory sind zu unterscheiden. LangGraph modelliert State explizit über State, Nodes und Edges.</td><td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td></tr>
+<tr><td><span class="concept-name">Tool Use</span></td><td>Das Modell nutzt externe Funktionen, APIs, Datenbanken oder Code-Ausführung. Agentisch wird Tool Use insbesondere dann, wenn Ergebnisse die nächste Modellentscheidung beeinflussen.</td><td>Ein einzelner Function Call macht ein System noch nicht automatisch zum Agenten.</td><td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td></tr>
+</tbody></table></div>
+</section>
+<section class="layer-arch">
+<div class="layer-header"><span class="layer-number">02</span><span class="layer-title">Orchestrierung — Wie werden Abläufe strukturiert?</span></div>
+<p class="layer-desc">Workflows und Agenten können dieselben Frameworks verwenden. Entscheidend ist, ob Kontrollfluss vorgegeben oder zur Laufzeit modellgesteuert ist.</p>
+<div class="table-wrap"><table><thead><tr><th>Konzept</th><th>Definition &amp; Abgrenzung</th><th>Kritische Anmerkungen</th><th class="col-status">Status</th></tr></thead><tbody>
+<tr class="new-row"><td><span class="concept-name">Workflow / State Graph</span> <span class="tag tag-neu">PRÄZISIERT</span></td><td>Explizite Modellierung von State, Verarbeitungsknoten und Übergängen. LangGraph kann damit sowohl deterministische Workflows als auch agentische Loops ausdrücken.</td><td>Das Framework selbst ist nicht „agentisch“. Der konkrete Graph bestimmt, wie viel Kontrollfluss festliegt und wie viel dem Modell überlassen wird.</td><td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td></tr>
+<tr><td><span class="concept-name">Prompt Chain / Pipeline</span></td><td>Feste Sequenz von Verarbeitungsschritten; der nächste Schritt ist im Ablauf vorgegeben.</td><td>Sinnvoll, wenn der Prozess bekannt und reproduzierbar sein soll. Nicht unnötig durch Agentenautonomie ersetzen.</td><td class="col-status"><span class="tag tag-enabling">WORKFLOW</span></td></tr>
+<tr class="new-row"><td><span class="concept-name">Routing</span> <span class="tag tag-neu">PRÄZISIERT</span></td><td>Auswahl eines Zielpfads, z. B. Modell, Tool, Agent, Skill oder spezialisierter Workflow. Regel-, classifier- oder LLM-basiert.</td><td>Routing allein ist noch kein Agent; ein modellbasierter Router kann auch nur ein einzelner bedingter Workflow-Schritt sein.</td><td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td></tr>
+<tr><td><span class="concept-name">ReAct</span></td><td>Historisches Agentenmuster, das Reasoning-Schritte, Aktionen und Beobachtungen alterniert. Moderne Systeme können denselben Grundgedanken strukturell abbilden, ohne sichtbare Reasoning-Texte.</td><td>ReAct ist ein konkretes Muster, nicht die Definition von Agentizität.</td><td class="col-status"><span class="tag tag-agentisch">MUSTER</span></td></tr>
+<tr><td><span class="concept-name">Orchestrator</span></td><td>Zentrale Instanz zur Koordination von Teilaufgaben oder Rollen; statisch (vorgegebener DAG) oder dynamisch (Laufzeitentscheidung).</td><td>Ein dynamischer Orchestrator kann Aufgaben zerlegen, Worker auswählen, Ergebnisse zusammenführen und Wiederholungen veranlassen.</td><td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td></tr>
+<tr><td><span class="concept-name">Multi-Agent System</span></td><td>Mehrere autonome Agenten mit getrennten Rollen, Zuständen oder Tools, die über definierte Interaktionen kooperieren.</td><td>Mehr Agenten bedeuten nicht automatisch bessere Ergebnisse; Koordination, Rechte, State-Konsistenz und Evaluation werden schwieriger.</td><td class="col-status"><span class="tag tag-agentisch">AGENTISCH</span></td></tr>
+<tr><td><span class="concept-name">Subagent / Delegation</span></td><td>Übergabe einer Teilaufgabe an einen spezialisierten Agenten oder Worker.</td><td>Kontextübergabe, Rückgabeformat, Berechtigungen sowie Tiefen- und Kostenlimits müssen explizit geregelt werden.</td><td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td></tr>
+</tbody></table></div>
+</section>
+<section class="layer-knowledge">
+<div class="layer-header"><span class="layer-number">03</span><span class="layer-title">Kontext, Wissen &amp; wiederverwendbare Fähigkeiten</span></div>
+<p class="layer-desc">Zentrale Abgrenzung der Unterrichtseinheit: System-Instruktionen, RAG und Agent Skills liefern unterschiedliche Arten von Kontext.</p>
+<div class="table-wrap"><table><thead><tr><th>Konzept</th><th>Definition &amp; Abgrenzung</th><th>Kritische Anmerkungen</th><th class="col-status">Status</th></tr></thead><tbody>
+<tr><td><span class="concept-name">Context Window &amp; Context Management</span></td><td>Tokenraum des aktuellen Modellaufrufs plus Strategien dafür, welche Informationen wann aufgenommen, verdichtet oder entfernt werden.</td><td>Ein größeres Kontextfenster ersetzt kein Kontextmanagement; Relevanz, Reihenfolge und konkurrierende Instruktionen bleiben wichtig.</td><td class="col-status"><span class="tag tag-enabling">ENABLING</span></td></tr>
+<tr class="new-row"><td><span class="concept-name">System- / Agent-Instruktionen</span> <span class="tag tag-neu">VERSCHOBEN</span></td><td>Übergreifende Regeln, Rollen und Verhaltensvorgaben für Sitzung oder Agent.</td><td><span class="abgrenzung">Leitfrage: „Was soll grundsätzlich bzw. immer gelten?“</span> Skills werden dagegen typischerweise nur bei passenden Aufgaben aktiviert.</td><td class="col-status"><span class="tag tag-enabling">ENABLING</span></td></tr>
+<tr><td><span class="concept-name">RAG</span></td><td>Relevante Inhalte werden aus einem externen Bestand abgerufen und in den Arbeitskontext gegeben. Agentic RAG erweitert dies um modellgesteuerte iterative Retrieval-Entscheidungen.</td><td><span class="abgrenzung">Leitfrage: „Welche Information brauche ich jetzt?“</span> Retrieval- und Antwortqualität müssen getrennt evaluiert werden.</td><td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td></tr>
+<tr class="new-row"><td><span class="concept-name">Agent Skills</span> <span class="tag tag-neu">NEU</span></td><td>Portables Paket aus wiederverwendbaren Anweisungen, spezialisiertem Kontext und optionalen Ressourcen. Im offenen Format enthält ein Skill mindestens <code>SKILL.md</code> mit <code>name</code> und <code>description</code>; Referenzen, Assets und Skripte können hinzukommen.</td><td><span class="abgrenzung">Leitfrage: „Wie soll diese Art von Aufgabe bearbeitet werden?“</span> Progressive Disclosure: Metadaten → vollständige Anweisungen → Ressourcen bei Bedarf. Ein Skill ist nicht automatisch ein Tool oder Workflow.</td><td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td></tr>
+<tr><td><span class="concept-name">Memory</span></td><td>Persistenz über einzelne Modellaufrufe hinaus, etwa episodische Historie, semantische Fakten oder strukturierter Langzeit-State.</td><td>Memory ist nicht gleich Vektor-Datenbank; je nach Inhalt können SQL, Dokumentstores, Knowledge Graphs oder Event Logs geeigneter sein.</td><td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td></tr>
+<tr><td><span class="concept-name">Grounding / Verification</span></td><td>Verknüpfung von Aussagen oder Entscheidungen mit überprüfbaren externen Daten, Quellen oder Tool-Ergebnissen.</td><td>Grounding ist Qualitätsmechanismus, keine Agenteneigenschaft. Provenienz, Aktualität und Vertrauenswürdigkeit der Quelle bleiben zentral.</td><td class="col-status"><span class="tag tag-enabling">ENABLING</span></td></tr>
+</tbody></table></div>
+</section>
+<section class="layer-control">
+<div class="layer-header"><span class="layer-number">04</span><span class="layer-title">Steuerung &amp; Sicherheit — Wie wird Autonomie begrenzt?</span></div>
+<p class="layer-desc">Sicherheitsmechanismen definieren Vertrauensgrenzen, Berechtigungen und Kontrollpunkte; sie sind nicht selbst agentisch.</p>
+<div class="table-wrap"><table><thead><tr><th>Konzept</th><th>Definition &amp; Abgrenzung</th><th>Kritische Anmerkungen</th><th class="col-status">Status</th></tr></thead><tbody>
+<tr><td><span class="concept-name">Guardrails</span></td><td>Kontrollen auf Input-, Ausführungs- und Output-Ebene: Validierung, Policy-Checks, Toolbeschränkungen, Schemas, Content- oder PII-Kontrollen.</td><td>LLM-basierte Checks sind nützlich, aber keine harte Sicherheitsgrenze. Kritische Grenzen durch deterministische Policies, Berechtigungen und Isolation absichern.</td><td class="col-status"><span class="tag tag-enabling">ENABLING</span></td></tr>
+<tr class="new-row"><td><span class="concept-name">Authorization &amp; Least Privilege</span> <span class="tag tag-neu">NEU</span></td><td>Agent, Tools und Subprozesse erhalten nur die Rechte, Daten und Credentials, die für ihre Aufgabe notwendig sind.</td><td>Für Skills und Tool Use zentral: Das Skill-Format definiert keine Sicherheitsgrenze; entscheidend sind Runtime-Rechte und Tool-Berechtigungen.</td><td class="col-status"><span class="tag tag-enabling">ENABLING</span></td></tr>
+<tr><td><span class="concept-name">Sandboxing</span></td><td>Isolation von Code, Dateisystem, Netzwerk, Credentials und produktivem State.</td><td>Container allein reichen nicht; Netzwerkzugriff, Secret-Scope, Dateirechte und API-Berechtigungen müssen separat begrenzt werden.</td><td class="col-status"><span class="tag tag-enabling">ENABLING</span></td></tr>
+<tr class="new-row"><td><span class="concept-name">Prompt Injection / Untrusted Content</span> <span class="tag tag-neu">NEU</span></td><td>Angriffsklasse, bei der nicht vertrauenswürdiger Inhalt versucht, Instruktionen zu überschreiben oder Toolrechte zu missbrauchen.</td><td>Risiko wächst mit den Rechten des Agenten. Gegenmaßnahmen kombinieren Vertrauenszonen, Berechtigungen, Isolation und Freigaben — nicht nur zusätzliche Prompts.</td><td class="col-status"><span class="tag tag-enabling">THREAT</span></td></tr>
+<tr><td><span class="concept-name">Human-in-the-Loop</span></td><td>Menschliche Kontrollpunkte: Approval Gate, Steering oder Eskalation.</td><td>Governance-Muster, keine Agenteneigenschaft. Freigaben risikobasiert setzen.</td><td class="col-status"><span class="tag tag-enabling">ENABLING</span></td></tr>
+<tr><td><span class="concept-name">Reflection / Verification Loop</span></td><td>Agent oder separater Prüfer bewertet ein Zwischenergebnis und kann Revision auslösen.</td><td>Selbstkritik ist nicht automatisch verlässlich; überprüfbare Kriterien und deterministische Checks sind vorzuziehen, wo möglich.</td><td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td></tr>
+<tr><td><span class="concept-name">Error Recovery</span></td><td>Retry, Backoff, Fallback, Checkpoint/Resume oder adaptive Wahl eines alternativen Lösungswegs.</td><td>Deterministische Retries sind klassische Resilienz. Agentisch wird Recovery, wenn anhand der Beobachtung eine neue Strategie gewählt wird.</td><td class="col-status"><span class="tag tag-hybrid">HYBRID</span></td></tr>
+<tr><td><span class="concept-name">Trust Chains &amp; Confused Deputy</span></td><td>Delegation und Toolzugriffe erzeugen transitive Vertrauensbeziehungen; eine Komponente kann im Namen einer stärker privilegierten handeln.</td><td>Rechte sollten nicht ungeprüft über Delegationsgrenzen hinweg mitwandern.</td><td class="col-status"><span class="tag tag-enabling">SECURITY</span></td></tr>
+</tbody></table></div>
+</section>
+<section class="layer-ops">
+<div class="layer-header"><span class="layer-number">05</span><span class="layer-title">Betrieb &amp; Qualität — Wie wird Verhalten messbar?</span></div>
+<p class="layer-desc">Nicht-deterministische Entscheidungen und mehrstufige Abläufe brauchen gezielte Evaluation, Tracing und strukturelle Budgets.</p>
+<div class="table-wrap"><table><thead><tr><th>Konzept</th><th>Definition &amp; Abgrenzung</th><th>Kritische Anmerkungen</th><th class="col-status">Status</th></tr></thead><tbody>
+<tr><td><span class="concept-name">Evaluation (Evals)</span></td><td>Tests von Endergebnis, Aktivierung/Routing und ggf. Zwischenschritten; deterministische Checks, Referenztests, LLM-as-Judge und Human Eval.</td><td>Bei Skills Aktivierungs- und Ergebnisqualität trennen. Bei Agenten Routing-, Tool- und Ergebnisfehler separat diagnostizierbar machen.</td><td class="col-status"><span class="tag tag-enabling">ENABLING</span></td></tr>
+<tr><td><span class="concept-name">Observability / Tracing</span></td><td>Nachvollziehbarkeit von Modellaufrufen, Tool Calls, State-Übergängen, Latenz, Kosten und Fehlern über einen Run hinweg.</td><td>Debugging benötigt keine privaten Reasoning-Texte. Systemseitige Inputs/Outputs, Toolparameter/-resultate und State-Änderungen reichen in der Regel.</td><td class="col-status"><span class="tag tag-enabling">ENABLING</span></td></tr>
+<tr class="new-row"><td><span class="concept-name">Budgets &amp; Termination Controls</span> <span class="tag tag-neu">NEU</span></td><td>Maximale Schritte, Zeit, Token, Kosten, Tool-Aufrufe oder Delegationstiefe.</td><td>Inhaltliche Zielerreichung und technische Limits ergänzen sich; ein Agent sollte nicht ausschließlich auf eigene Terminierung angewiesen sein.</td><td class="col-status"><span class="tag tag-enabling">ENABLING</span></td></tr>
+</tbody></table></div>
+</section>
+<section class="layer-integ">
+<div class="layer-header"><span class="layer-number">06</span><span class="layer-title">Integration &amp; Interoperabilität — Wie werden Fähigkeiten angebunden?</span></div>
+<p class="layer-desc">Lokale Tool-Schnittstellen, standardisierte Client/Server-Protokolle und Agent-zu-Agent-Kommunikation sind unterschiedliche Ebenen.</p>
+<div class="table-wrap"><table><thead><tr><th>Konzept</th><th>Definition &amp; Abgrenzung</th><th>Kritische Anmerkungen</th><th class="col-status">Status</th></tr></thead><tbody>
+<tr class="new-row"><td><span class="concept-name">Tool / Function Calling</span> <span class="tag tag-neu">NEU</span></td><td>Das Modell erhält Toolbeschreibungen/Schemas und erzeugt einen strukturierten Aufruf; die Host-Anwendung führt das Tool aus und gibt das Ergebnis zurück.</td><td>Function Calling ist ein Interaktionsmuster zwischen Modell und Host, nicht dasselbe wie MCP und nicht automatisch ein Agentenloop.</td><td class="col-status"><span class="tag tag-enabling">ENABLING</span></td></tr>
+<tr><td><span class="concept-name">MCP</span></td><td>Offenes Client/Server-Protokoll für <strong>Tools, Resources und Prompts</strong>; standardisiert Capability Discovery/Negotiation und Austausch zwischen Host/Client und Server.</td><td>MCP steht seit Ende 2025 unter vendor-neutraler Governance der Agentic AI Foundation / Linux Foundation. Es ist nicht primär ein Agent-zu-Agent-Protokoll und mehr als nur ein Tool-Schema.</td><td class="col-status"><span class="tag tag-enabling">ENABLING</span></td></tr>
+<tr class="new-row"><td><span class="concept-name">A2A (Agent2Agent)</span> <span class="tag tag-neu">NEU</span></td><td>Offener Standard für Interoperabilität zwischen unabhängigen Agentensystemen: Capability Discovery, Austausch von Nachrichten/Artefakten und Verwaltung kollaborativer Tasks.</td><td>Abgrenzung: MCP verbindet Hosts mit Tools/Resources/Prompts; A2A verbindet eigenständige Agentensysteme miteinander. Beide können kombiniert werden.</td><td class="col-status"><span class="tag tag-enabling">ENABLING</span></td></tr>
+<tr class="new-row"><td><span class="concept-name">Agent Frameworks (z. B. LangGraph)</span> <span class="tag tag-neu">PRÄZISIERT</span></td><td>Bibliotheken/Runtimes für State, Nodes, Edges, Loops, Persistence und Ausführung; sie können agentische und nicht-agentische Systeme hosten.</td><td>Framework ≠ Agent. Erst die konkrete Orchestrierung bestimmt den Grad der Autonomie.</td><td class="col-status"><span class="tag tag-enabling">ENABLING</span></td></tr>
+</tbody></table></div>
+</section>
+<section>
+<div class="focus-box">
+<h2>Kernabgrenzung für die Unterrichtseinheit „Agent Skills“</h2>
+<table><thead><tr><th>Konzept</th><th>Leitfrage</th><th>Typische Rolle</th><th></th></tr></thead><tbody>
+<tr><td><strong>System-/Agent-Instruktionen</strong></td><td>Was soll grundsätzlich bzw. immer gelten?</td><td>Dauerhafte Regeln und Rolle.</td><td></td></tr>
+<tr><td><strong>Agent Skill</strong></td><td>Wie soll diese wiederkehrende Art von Aufgabe bearbeitet werden?</td><td>Bedingt aktivierbare Anweisungen + spezialisierter Kontext + optionale Ressourcen.</td><td></td></tr>
+<tr><td><strong>RAG</strong></td><td>Welche Information brauche ich für diese Anfrage?</td><td>Dynamisches Retrieval aus einem größeren Wissensbestand.</td><td></td></tr>
+<tr><td><strong>Tool / Function Calling</strong></td><td>Welche Aktion oder Berechnung soll ausgeführt werden?</td><td>Strukturierter Aufruf ausführbarer Funktionen.</td><td></td></tr>
+<tr><td><strong>MCP</strong></td><td>Wie stellt ein Server Tools, Resources oder Prompts standardisiert bereit?</td><td>Client/Server-Interoperabilität.</td><td></td></tr>
+<tr><td><strong>A2A</strong></td><td>Wie kommunizieren unabhängige Agentensysteme miteinander?</td><td>Agent-zu-Agent-Interoperabilität.</td><td></td></tr>
+<tr><td><strong>LangGraph / State Graph</strong></td><td>Wie modelliere ich State, Kontrollfluss und Schleifen?</td><td>Orchestrierung; kann Workflow oder Agent sein.</td><td></td></tr>
+</tbody></table>
+</div>
+</section>
+<footer>
+<h2>Quellen &amp; Stand</h2>
+<p>Fachlich aktualisiert auf <strong>11. September 2026</strong>. Wesentliche Änderungen betreffen Agent Skills, die Einordnung von LangGraph, MCP-Governance, A2A sowie die Trennung von agentischen Mechanismen und nicht-agentenspezifischen Betriebs-/Safety-Mechanismen.</p>
+<ul class="source-list">
+<li>Agent Skills — Spezifikation: <a href="https://agentskills.io/specification">agentskills.io/specification</a></li>
+<li>Agent Skills — Progressive Disclosure: <a href="https://agentskills.io/client-implementation/adding-skills-support">agentskills.io/client-implementation/adding-skills-support</a></li>
+<li>LangGraph — Workflows and Agents: <a href="https://docs.langchain.com/oss/python/langgraph/workflows-agents">docs.langchain.com/oss/python/langgraph/workflows-agents</a></li>
+<li>Model Context Protocol — Server Primitives: <a href="https://modelcontextprotocol.io/specification/2025-06-18/server/index">modelcontextprotocol.io/specification/.../server</a></li>
+<li>MCP — Agentic AI Foundation / Linux Foundation: <a href="https://blog.modelcontextprotocol.io/posts/2025-12-09-mcp-joins-agentic-ai-foundation/">MCP joins the Agentic AI Foundation</a></li>
+<li>A2A Protocol — v1.0: <a href="https://a2a-protocol.org/v1.0.0/">a2a-protocol.org/v1.0.0</a></li>
+<li>Agent Loop / Orchestration — Practical Guide: <a href="https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/">Practical guide to building agents</a></li>
+</ul>
+<p class="meta">Unterrichtsfassung · fachlich überarbeitet · 2026-09-11</p>
+</footer>
+</body>
+</html>
