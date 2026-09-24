@@ -33,6 +33,8 @@ def erfassen(wurzel: Path = pfade.RAW) -> list[Path]:
     Erfassung soll überall dieselben Dateien finden, die Beanstandung der
     falschen Schreibweise übernimmt `pfade.namen_pruefen`.
     """
+    if not wurzel.is_dir():
+        return []
     return sorted(p for p in wurzel.iterdir()
                  if p.is_file() and p.suffix.lower() == ".pdf")
 
@@ -126,7 +128,8 @@ class Laufbericht:
 
 def verarbeite_alle(bis: Stufe = Stufe.KANONISCH, neu: bool = False,
                     detektor=None, erkenner=None,
-                    zeige_fortschritt: bool = True) -> Laufbericht:
+                    zeige_fortschritt: bool = True,
+                    nur: list[str] | None = None) -> Laufbericht:
     """SR-01, SR-06, SR-07: der ganze Bestand in einem Aufruf.
 
     Prüft zuerst den ganzen Bestand (SR-02 bis SR-05) und hält bei jeder
@@ -148,6 +151,9 @@ def verarbeite_alle(bis: Stufe = Stufe.KANONISCH, neu: bool = False,
     über einen fertigen Bestand rührt nichts an, statt jede Seite erneut
     als "schon fertig" zu bestätigen oder die kanonische Stufe klaglos
     neu zu erzeugen. `neu=True` erzwingt trotzdem einen vollständigen Lauf.
+
+    `nur` beschränkt den Lauf auf die genannten Dokumentstämme; geprüft wird
+    trotzdem der ganze Bestand.
     """
     dateien = erfassen()
     beanstandungen = pruefen(dateien)
@@ -160,7 +166,13 @@ def verarbeite_alle(bis: Stufe = Stufe.KANONISCH, neu: bool = False,
             f"{len(beanstandungen)} Datei(en) beanstandet, "
             f"nichts wurde verarbeitet:\n{meldung}")
 
-    offen = {pdf.stem for pdf in dateien} if neu else set(offene_dokumente(dateien, bis))
+    if nur is not None:
+        unbekannt = sorted(set(nur) - {pdf.stem for pdf in dateien})
+        if unbekannt:
+            raise ValueError(f"Nicht unter {pfade.RAW}: {unbekannt}")
+        dateien = [pdf for pdf in dateien if pdf.stem in set(nur)]
+
+    offen ={pdf.stem for pdf in dateien} if neu else set(offene_dokumente(dateien, bis))
 
     bericht = Laufbericht()
     for pdf in dateien:

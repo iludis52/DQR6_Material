@@ -305,6 +305,24 @@ def _ausschnitt_kopieren(buch: str, befund: SeitenBefund,
     return ziel
 
 
+def _bildverweis(blk: Block, befund: SeitenBefund, bericht: Bericht,
+                 buch: str) -> ImageRef | None:
+    """Ausschnitt ins Ergebnis kopieren und als relative URI verweisen (A14)."""
+    if not blk.ausschnitt:
+        return None
+    kopie = _ausschnitt_kopieren(buch, befund, blk)
+    if kopie is None:
+        quelle = pfade.ausschnitt_ordner(buch) / blk.ausschnitt
+        bericht.warnungen.append(
+            f"S{befund.seite}: #{blk.id} Ausschnitt {blk.ausschnitt!r} "
+            f"fehlt unter {quelle.parent} – kein Bildverweis erzeugt.")
+        return None
+    return ImageRef(
+        mimetype="image/png", dpi=300,
+        size=_bildgroesse(kopie, blk, befund),
+        uri=pfade.artefakt_relativ(buch, befund.seite, blk.id, blk.pp_label))
+
+
 def provenienz(block: Block, befund: SeitenBefund,
                zeichen: int) -> ProvenanceItem:
     """A8/A16: Quelldatei steckt im Dokumentnamen, Seite und Rechteck hier.
@@ -427,7 +445,11 @@ def _element_anlegen(dok: DoclingDocument, blk: Block, befund: SeitenBefund,
         elif text:
             bericht.warnungen.append(
                 f"S{befund.seite}: #{blk.id} Datenreihe nicht zerlegbar.")
+        # Ohne Bild exportiert docling das Diagramm als leere Zeichenkette –
+        # es verschwände aus dem Markdown. Befunde vor dieser Korrektur haben
+        # keinen Ausschnitt; dann bleibt es beim Element ohne Bild.
         bild = dok.add_picture(annotations=annotationen or None,
+                               image=_bildverweis(blk, befund, bericht, buch),
                                caption=unterschrift, prov=prov,
                                content_layer=schicht)
         bild.label = DocItemLabel.CHART
@@ -436,22 +458,16 @@ def _element_anlegen(dok: DoclingDocument, blk: Block, befund: SeitenBefund,
 
     # --- A14: Abbildungen kopieren und mit einer tragfähigen URI verweisen
     if label in BILDARTIG:
-        verweis = None
-        if blk.ausschnitt:
-            kopie = _ausschnitt_kopieren(buch, befund, blk)
-            if kopie is None:
-                quelle = pfade.ausschnitt_ordner(buch) / blk.ausschnitt
-                bericht.warnungen.append(
-                    f"S{befund.seite}: #{blk.id} Ausschnitt {blk.ausschnitt!r} "
-                    f"fehlt unter {quelle.parent} – kein Bildverweis erzeugt.")
-            else:
-                verweis = ImageRef(
-                    mimetype="image/png", dpi=300,
-                    size=_bildgroesse(kopie, blk, befund),
-                    uri=pfade.artefakt_relativ(buch, befund.seite, blk.id, blk.pp_label))
         bericht.abbildungen += 1
-        return dok.add_picture(image=verweis, caption=unterschrift, prov=prov,
+        bild = dok.add_picture(image=_bildverweis(blk, befund, bericht, buch),
+                               caption=unterschrift, prov=prov,
                                content_layer=schicht)
+        if text.strip():
+            # Siegel tragen erkannten Text ("Seal Recognition:"); er ging
+            # bisher verloren, weil der Bildzweig ihn nicht ansah.
+            dok.add_text(label=DocItemLabel.TEXT, text=text, prov=prov,
+                         content_layer=schicht)
+        return bild
 
     # --- A12: abgesetzte Formeln bleiben eigene Elemente an ihrer Stelle
     if label in ("display_formula", "inline_formula"):
@@ -494,6 +510,10 @@ def buch_umwandeln(buch: str, wurzel: Path = pfade.BEFUNDE,
     if not dateien:
         raise FileNotFoundError(f"Keine Befunde unter {wurzel / buch}")
     origin = dokument_herkunft(pfade.quelle(buch))
+    # Abgeleitete Ausgabe: der Artefaktordner wird vollständig neu erzeugt.
+    # Sonst blieben Bilder eines früheren Laufs liegen (etwa die .jpg der
+    # Bildstufe), auf die das neue Markdown nicht mehr verweist.
+    shutil.rmtree(pfade.artefakt_ordner(buch), ignore_errors=True)
     dok, bericht = nach_docling([befund_laden(p) for p in dateien], buch, origin=origin)
 
     ziel_json = ziel_json or pfade.dokument_json(buch)

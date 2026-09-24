@@ -20,7 +20,8 @@ class CheckpointState:
     applied_edits: list[dict] = field(default_factory=list)
 
 
-def _atomic_write(path: Path, text: str) -> None:
+def atomic_write_text(path: Path, text: str) -> None:
+    """Schreibt erst eine Nachbardatei, fsync, dann os.replace."""
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, temp_name = tempfile.mkstemp(prefix=f'.{path.name}.', suffix='.tmp', dir=path.parent)
     try:
@@ -39,7 +40,7 @@ def _atomic_write(path: Path, text: str) -> None:
 
 def save_checkpoint(path: str | Path, state: CheckpointState) -> None:
     p = Path(path)
-    _atomic_write(p, json.dumps(asdict(state), ensure_ascii=False, indent=2) + '\n')
+    atomic_write_text(p, json.dumps(asdict(state), ensure_ascii=False, indent=2) + '\n')
 
 
 def load_checkpoint(path: str | Path) -> CheckpointState:

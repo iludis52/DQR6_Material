@@ -10,14 +10,22 @@ damit reines Umkopieren, kein Umbenennen. `artefakt_relativ` ist der
 einzige Weg, eine Bild-URI zu bilden – relativ zum Dokumentordner, weil
 dort sowohl `<dok>.json` als auch `<dok>.md` liegen (SR-21).
 
-Legt selbst kein Verzeichnis an; das Anlegen bleibt Sache des Schreibenden.
+Legt selbst kein Verzeichnis an; das Anlegen bleibt Sache des Schreibenden
+(bzw. von `pipeline.arbeitsbereich`, das die ganze Struktur verwaltet).
+
+Alle Pfade hängen am Projekt-Root, abgeleitet aus der Lage dieser Datei
+(`<Projekt>/python/pdf_extraction/pfade.py`) – nicht am Arbeitsverzeichnis.
+Früher war `WURZEL = Path("data")`; wer ein Modul aus einem anderen Ordner
+startete, bekam still eine zweite Ordnerstruktur daneben.
 """
 
 from __future__ import annotations
 
 from pathlib import Path
 
-WURZEL = Path("data")
+PROJEKT = Path(__file__).resolve().parents[2]
+
+WURZEL = PROJEKT / "data"
 RAW = WURZEL / "raw"
 INTERIM = WURZEL / "interim"
 PROCESSED = WURZEL / "processed"
@@ -28,12 +36,21 @@ PROCESSED = WURZEL / "processed"
 # "ausschnitte" selbst als Literal zu tragen.
 BEFUNDE = INTERIM / "befunde"
 AUSSCHNITTE = INTERIM / "ausschnitte"
+KONTROLLE = INTERIM / "kontrolle"
+LEKTORAT = INTERIM / "lektorat"
 
 # Liegt außerhalb von data/, ist aber ebenso ein Pfad, der nur hier gebildet
 # werden darf (CLAUDE.md, harte Projektregel) – nicht als Konstante in
 # stapel.py, wo bislang das ONNX-Modell für die Layout-Erkennung herkam.
-MODELLE = Path("models")
+MODELLE = PROJEKT / "models"
 ONNX_STANDARD = MODELLE / "pp_doclayoutv3.onnx"
+
+# Geerntete Endprodukte; liegt bewusst außerhalb von data/, weil data/ nach
+# jeder Ernte zurückgesetzt wird.
+ERGEBNISSE = PROJEKT / "ergebnisse"
+
+# Alle Ordner, die ein frischer Arbeitsbereich braucht.
+ARBEITSORDNER = (RAW, BEFUNDE, AUSSCHNITTE, KONTROLLE, LEKTORAT, PROCESSED)
 
 
 # ------------------------------------------------------------------- Eingang
@@ -65,7 +82,12 @@ def ausschnitt(dok: str, seite: int, block: int, klasse: str) -> Path:
 
 
 def kontrolle(dok: str, seite: int) -> Path:
-    return INTERIM / "kontrolle" / f"{dok}_{seite:04d}.png"
+    return KONTROLLE / f"{dok}_{seite:04d}.png"
+
+
+def kontrolle_html(dok: str) -> Path:
+    """Eigenständiger Layout-Bericht zum Verschicken (einblick_html)."""
+    return KONTROLLE / f"{dok}_layout.html"
 
 
 # --------------------------------------------------------------- Ergebnisbestand
@@ -95,6 +117,28 @@ def dokument_json(dok: str, konsolidiert: bool = False) -> Path:
 def dokument_md(dok: str, konsolidiert: bool = False) -> Path:
     suffix = "_k" if konsolidiert else ""
     return dokument_ordner(dok) / f"{dok}{suffix}.md"
+
+
+def dokument_korr_md(dok: str) -> Path:
+    """Ausgabe des Lektorats (Stufe 2 der Gesamtpipeline).
+
+    Der Name entsteht in `markdown_lektorat.lekt_pfade` aus dem Quellstamm;
+    hier nur nachgebildet, damit Bildstufe und Ernte ihn nicht raten müssen.
+    """
+    return dokument_ordner(dok) / f"{dok}_korr.md"
+
+
+def dokument_review_md(dok: str) -> Path:
+    return dokument_ordner(dok) / f"{dok}_review.md"
+
+
+def lektorat_ordner(dok: str) -> Path:
+    """Checkpoint und Laufmanifeste des Lektorats."""
+    return LEKTORAT / dok
+
+
+def bild_manifest(dok: str, endung: str = "json") -> Path:
+    return dokument_ordner(dok) / f"{dok}.image-optimization.{endung}"
 
 
 # ---------------------------------------------------------- Namensregelwerk

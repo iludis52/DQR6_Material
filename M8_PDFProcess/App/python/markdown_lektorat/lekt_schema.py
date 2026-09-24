@@ -3,9 +3,9 @@ from __future__ import annotations
 from dataclasses import dataclass
 from enum import Enum
 from hashlib import sha256
-from typing import Literal
+from typing import Annotated, Literal
 
-from pydantic import BaseModel, ConfigDict, Field, PrivateAttr, model_validator
+from pydantic import BaseModel, ConfigDict, Field, PrivateAttr, StringConstraints, model_validator
 
 
 class StrictModel(BaseModel):
@@ -37,6 +37,13 @@ class ErrorCategory(str, Enum):
     UNKLAR = "unklar"
 
 
+# Block-IDs haben eine feste Form (lekt_bloecke.make_block). Als Muster im
+# Antwortschema begrenzt das den constrained decoder: ohne es geriet
+# gemma-4-12b in einem ID-Feld in eine Endlosschleife ("…vezes_vezes_…")
+# bis zum Token-Deckel.
+BlockId = Annotated[str, StringConstraints(pattern=r"^blk_[0-9a-f]{16}$")]
+
+
 class EditProposal(StrictModel):
     """Compact wire object produced by the LLM.
 
@@ -45,11 +52,11 @@ class EditProposal(StrictModel):
     prevents the model from reproducing long source blocks needlessly.
     """
 
-    target_ids: list[str] = Field(min_length=1, max_length=4)
+    target_ids: list[BlockId] = Field(min_length=1, max_length=4)
     category: ErrorCategory
     operation: Operation
     replacement_text: str | None = None
-    destination_id: str | None = Field(default=None, max_length=64)
+    destination_id: BlockId | None = None
     placement: Literal["before", "after"] | None = None
     confidence_score: float = Field(ge=0.0, le=1.0)
     reason: str = Field(min_length=1, max_length=300)

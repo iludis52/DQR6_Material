@@ -124,6 +124,14 @@ def zusammenfuehren(befund: SeitenBefund) -> SeitenBefund:
                             if m.lese_index is not None), default=None),
             polygon=None,                                # Vereinigung wäre gelogen
             zusammengefuehrt_aus=[m.id for m in mitglieder],
+            # Query-ids statt Block-ids: Block-ids werden hier neu vergeben und
+            # die Datei der Stufe 1 überschrieben, die Query-id bleibt. Ein
+            # schon zusammengeführtes Mitglied (Nachlauf) bringt seine mit.
+            familien_score=max((m.familien_score for m in mitglieder
+                                if m.familien_score is not None), default=None),
+            zusammengefuehrt_queries=sorted({q for m in mitglieder
+                                             for q in (m.zusammengefuehrt_queries
+                                                       or [m.query_id])}),
         ))
 
     # Kanten umschreiben: interne fallen weg, doppelte werden pessimistisch vereint
@@ -141,9 +149,14 @@ def zusammenfuehren(befund: SeitenBefund) -> SeitenBefund:
     warnungen = list(befund.warnungen)
     for b in neu:
         if b.zusammengefuehrt_aus:
-            warnungen.append(
-                f"Blöcke {b.zusammengefuehrt_aus} zu #{b.id} ({b.pp_label}) "
-                "zusammengeführt.")
+            # Nach Query-ids benannt: die Block-ids der Stufe 1 gibt es nach
+            # dem Überschreiben nicht mehr, "#13" hieße dann ein anderer Block.
+            meldung = (f"Queries {b.zusammengefuehrt_queries} zu #{b.id} ({b.pp_label}) "
+                       "zusammengeführt.")
+            # Ein Nachlauf führt einen schon zusammengeführten Befund erneut
+            # hierher; die Meldung soll dann nicht doppelt erscheinen.
+            if meldung not in warnungen:
+                warnungen.append(meldung)
 
     return befund.model_copy(update={
         "bloecke": neu, "kanten": list(kanten.values()), "warnungen": warnungen})
@@ -238,6 +251,11 @@ MAX_TOKENS_FUER: dict[str, int] = {
 }
 MAX_TOKENS_STANDARD = 1024
 
+# Klassen, die Text bekommen UND deren Ausschnitt als Bild erhalten bleibt.
+# Ohne Bild verschwand ein Diagramm im Markdown spurlos: docling exportiert
+# ein PictureItem ohne Bild als leere Zeichenkette.
+AUCH_ALS_BILD = {"chart", "seal"}
+
 
 def nachbereiten(text: str, pp_label: str) -> tuple[str, list[str]]:
     """Rohantwort -> (bereinigter Text, Warnungen).
@@ -247,7 +265,9 @@ def nachbereiten(text: str, pp_label: str) -> tuple[str, list[str]]:
     `pp_label`. OTSL bleibt unangetastet – jede Umwandlung hier wäre eine
     Interpretation zur falschen Zeit.
     """
-    t = text.strip()
+    # Steuerzeichen (außer \t und \n) sind im OCR-Text immer Rauschen; ein
+    # \x0c etwa verschob im Lektorat früher die Zeilenzählung.
+    t = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]", "", text).strip()
     warnungen: list[str] = []
 
     if pp_label in ("inline_formula", "display_formula"):
@@ -272,16 +292,67 @@ def nachbereiten(text: str, pp_label: str) -> tuple[str, list[str]]:
 class Erkenner:
     """Zugang zu PaddleOCR-VL über die OpenAI-kompatible Schnittstelle von LM Studio."""
 
+    # Woran ein PaddleOCR-VL-Modell in der Modellliste zu erkennen ist.
+    MODELL_MERKMALE = ("paddleocr-vl", "paddleocr_vl", "paddle-ocr-vl", "paddleocr")
+
     def __init__(self, url: str = "http://localhost:1234/v1",
                  modell_id: str | None = None, zeitlimit: int = 300):
         self.url = url.rstrip("/")
         self.zeitlimit = zeitlimit
-        self.modell_id = modell_id or self.geladene_modelle()[0]
+        self.modell_id = self._modell_waehlen(modell_id)
 
     def geladene_modelle(self) -> list[str]:
         antwort = requests.get(f"{self.url}/models", timeout=10)
         antwort.raise_for_status()
         return [m["id"] for m in antwort.json()["data"]]
+
+    def _modell_waehlen(self, wunsch: str | None) -> str:
+        """Nie stillschweigend das erste Modell der Liste nehmen.
+
+        Sind PaddleOCR-VL und ein Sprachmodell gleichzeitig geladen, lieferte
+        `[0]` je nach Ladereihenfolge das falsche – und die OCR lief mit
+        einem Chatmodell, ohne dass es auffiel.
+        """
+        ids = self.geladene_modelle()
+        if not ids:
+            raise RuntimeError(f"LM Studio unter {self.url} meldet kein Modell.")
+        if wunsch:
+            if wunsch in ids:
+                return wunsch
+            raise RuntimeError(
+                f"Modell {wunsch!r} ist in LM Studio nicht verfügbar. Verfügbar: {ids}")
+        passend = [i for i in ids if any(m in i.lower() for m in self.MODELL_MERKMALE)]
+        if len(passend) > 1:
+            # /v1/models listet alle heruntergeladenen Modelle; bei mehreren
+            # Kandidaten entscheidet, welches tatsächlich geladen ist.
+            geladen = self._geladene()
+            passend = [i for i in passend if i in geladen] or passend
+        if len(passend) == 1:
+            return passend[0]
+        if len(ids) == 1:
+            return ids[0]
+        raise RuntimeError(
+            "Kein eindeutiges OCR-Modell erkennbar – bitte `modell_id` angeben. "
+            f"Verfügbar: {ids}")
+
+    def _geladene(self) -> set[str]:
+        """Tatsächlich geladene Modelle über die native LM-Studio-API.
+
+        Nicht Teil der OpenAI-Schnittstelle; fehlt sie, ist die Menge leer
+        und die Wahl bleibt bei den Namensmerkmalen.
+        """
+        wurzel = self.url.removesuffix("/v1")
+        try:
+            antwort = requests.get(f"{wurzel}/api/v0/models", timeout=5)
+            antwort.raise_for_status()
+            return {m["id"] for m in antwort.json().get("data", [])
+                    if m.get("state") == "loaded"}
+        except Exception:
+            return set()
+
+    def pruefe(self) -> str:
+        """Kurzauskunft für Notebook und Oberfläche."""
+        return f"LM Studio {self.url} – OCR-Modell: {self.modell_id}"
 
     def erkennen(self, bild_rgb: np.ndarray, prompt: str,
                  max_tokens: int) -> tuple[str, float, str | None]:
@@ -323,6 +394,13 @@ class Erkenner:
         ohne die Seite neu zu rendern.
         """
         t0 = time.perf_counter()
+        if befund.stufe is not None and befund.stufe.value >= Stufe.ERKANNT.value:
+            # Nachlauf über eine schon erkannte Seite: die blockbezogenen
+            # Warnungen des Vorlaufs ("#3: …", u. a. "am Token-Deckel") gelten
+            # nicht mehr – sonst meldet die Kontrolle danach weiter Abbrüche,
+            # die der Nachlauf längst behoben hat.
+            befund = befund.model_copy(update={
+                "warnungen": [w for w in befund.warnungen if not w.startswith("#")]})
         befund = zusammenfuehren(befund)
         seite = Seitenbild(pdf, befund, dok=dok)
         if ausschnitt_dir is None:
@@ -333,13 +411,15 @@ class Erkenner:
             aus = seite.ausschnitt(blk)
             prompt = PROMPT_FUER.get(blk.pp_label)
 
-            if prompt is None:                       # Bildblock: nur ablegen
+            if prompt is None or blk.pp_label in AUCH_ALS_BILD:
                 name = pfade.bildname(buch, befund.seite, blk.id, blk.pp_label)
                 ziel = ausschnitt_dir / name
-                cv2.imwrite(str(ziel), aus[:, :, ::-1])
+                if not cv2.imwrite(str(ziel), aus[:, :, ::-1]):
+                    raise RuntimeError(f"Ausschnitt nicht schreibbar: {ziel}")
                 blk.ausschnitt = name
                 if zeige_fortschritt:
                     print(f"  #{blk.id:2d} {blk.pp_label:18s} -> {ziel.name}")
+            if prompt is None:                       # reiner Bildblock: fertig
                 continue
 
             deckel = MAX_TOKENS_FUER.get(blk.pp_label, MAX_TOKENS_STANDARD)

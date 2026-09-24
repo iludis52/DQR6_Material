@@ -1,0 +1,749 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "Wahrnehmungspsychologie_Extracted",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 16062937551934761986,
+    "filename": "Wahrnehmungspsychologie_Extracted.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 41.882030639648434,
+            "t": 28.423399658203124,
+            "r": 204.788935546875,
+            "b": 38.708602294921874,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "112 Kapitel 9 \u00b7 Form- und Objekterkennung",
+      "text": "112 Kapitel 9 \u00b7 Form- und Objekterkennung"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 46.52653381347656,
+            "t": 234.61046630859374,
+            "r": 165.11812866210937,
+            "b": 285.27637939453126,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            156
+          ]
+        }
+      ],
+      "orig": "Die Trennung einer Figur vom Hintergrund erfolgt \u00fcber Symmetrie-eigenschaften, \u00fcber die Geschlosenheit als Merkmal einer Figur oder die Gr\u00f6\u00dfe von Elementen.",
+      "text": "Die Trennung einer Figur vom Hintergrund erfolgt \u00fcber Symmetrie-eigenschaften, \u00fcber die Geschlosenheit als Merkmal einer Figur oder die Gr\u00f6\u00dfe von Elementen."
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.97941467285156,
+            "t": 66.06084594726562,
+            "r": 163.28388427734373,
+            "b": 106.65847045898437,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": "Abb. 9.3 Kippbild nach Rubin: Gesehen werden entweder zwei Gesichter oder eine wei\u00dfe Vase. (Aus Ditzinger, 2006)",
+      "text": "Abb. 9.3 Kippbild nach Rubin: Gesehen werden entweder zwei Gesichter oder eine wei\u00dfe Vase. (Aus Ditzinger, 2006)"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 322.2710815429687,
+            "t": 65.91974853515624,
+            "r": 506.148134765625,
+            "b": 112.96210693359374,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            142
+          ]
+        }
+      ],
+      "orig": "Einige grundlegende Eigenschaften von Reizen, die eine Figur-Grund-Differenzierung beg\u00fcnstigen, sind folgende (ausf\u00fchrlicher in Palmer, 1999):",
+      "text": "Einige grundlegende Eigenschaften von Reizen, die eine Figur-Grund-Differenzierung beg\u00fcnstigen, sind folgende (ausf\u00fchrlicher in Palmer, 1999):"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 323.0115600585937,
+            "t": 114.01904663085936,
+            "r": 505.75117675781246,
+            "b": 137.4221008300781,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            79
+          ]
+        }
+      ],
+      "orig": "\u25a0 Geschlossenheit: Geschlossene Elemente wie Kreise werden als Figuren gesehen.",
+      "text": "\u25a0 Geschlossenheit: Geschlossene Elemente wie Kreise werden als Figuren gesehen."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 322.97759033203124,
+            "t": 138.32612182617186,
+            "r": 505.70222167968745,
+            "b": 173.4989172363281,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            103
+          ]
+        }
+      ],
+      "orig": "Gr\u00f6\u00dfe: Sind mehrere Fl\u00e4chenelemente in einem Bild, so wird das kleinere in der Regel als Figur gesehen.",
+      "text": "Gr\u00f6\u00dfe: Sind mehrere Fl\u00e4chenelemente in einem Bild, so wird das kleinere in der Regel als Figur gesehen."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 322.99499267578125,
+            "t": 174.337646484375,
+            "r": 506.254306640625,
+            "b": 233.03803710937498,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            207
+          ]
+        }
+      ],
+      "orig": "Symmetrie: Symmetrische Elemente bilden Figuren im Gegensatz zu unsymmetrischen Elementen, die den Hintergrund bilden. In\nAbb. 9.2 wird diese Symmetriewirkung ver-anschaulicht: Im linken Teil des Abbildungs-",
+      "text": "Symmetrie: Symmetrische Elemente bilden Figuren im Gegensatz zu unsymmetrischen Elementen, die den Hintergrund bilden. In\nAbb. 9.2 wird diese Symmetriewirkung ver-anschaulicht: Im linken Teil des Abbildungs-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 194.90082275390625,
+            "t": 233.90854980468748,
+            "r": 505.64091796875,
+            "b": 257.5396142578125,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": "teils zur Symmetrie sind infolge der Symmetrie wei\u00dfe Figuren zu sehen, im rechten Teil dagegen schwarze Figuren.",
+      "text": "teils zur Symmetrie sind infolge der Symmetrie wei\u00dfe Figuren zu sehen, im rechten Teil dagegen schwarze Figuren."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 182.51730834960938,
+            "t": 257.8434521484375,
+            "r": 421.83615234375,
+            "b": 269.3724169921875,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            60
+          ]
+        }
+      ],
+      "orig": "Parallelit\u00e4t: Parallele Konturen geh\u00f6ren zur gleichen Figur.",
+      "text": "Parallelit\u00e4t: Parallele Konturen geh\u00f6ren zur gleichen Figur."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 182.4745166015625,
+            "t": 269.796884765625,
+            "r": 505.83950683593747,
+            "b": 305.6461962890625,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            214
+          ]
+        }
+      ],
+      "orig": "Bekanntheit oder Erfahrung: Die Bekanntheit von Objekten in einer Szene hilft uns bei der Figur-Grund-Trennung. Welche Rolle die Erfahrung hat, zeigt sich bei dem Versuch, Schrift zu lesen, die um 180\u00b0 gedreht ist.",
+      "text": "Bekanntheit oder Erfahrung: Die Bekanntheit von Objekten in einer Szene hilft uns bei der Figur-Grund-Trennung. Welche Rolle die Erfahrung hat, zeigt sich bei dem Versuch, Schrift zu lesen, die um 180\u00b0 gedreht ist."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 54.66921569824218,
+            "t": 314.9003759765625,
+            "r": 116.71777221679687,
+            "b": 326.122119140625,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "F\u00fcr die Praxis",
+      "text": "F\u00fcr die Praxis",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 59.02146606445312,
+            "t": 329.7842578125,
+            "r": 215.61611572265625,
+            "b": 340.7483935546875,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "Benutzerfreundliche Bildschirmmasken",
+      "text": "Benutzerfreundliche Bildschirmmasken"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 58.343939208984374,
+            "t": 341.6365283203125,
+            "r": 495.9590185546875,
+            "b": 402.82822265625,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            472
+          ]
+        }
+      ],
+      "orig": "Bildschirmmasken dienen der Strukturierung des Dialogs zwischen Benutzer und Computer. Sie sollten die verschiedenen Informationen so darstellen, dass eine schnelle Orientierung auf dem Bildschirm ohne lange visuelle Suche m\u00f6glich ist. Dazu werden beispielsweise auch h\u00e4ufig die Gestaltgesetze ausgenutzt. Experimentell ist gezeigt worden, dass nach Gestaltgesetzen strukturierte Masken bessere Suchleistungen auf dem Bildschirm erbrachten als weniger strukturiert Masken.",
+      "text": "Bildschirmmasken dienen der Strukturierung des Dialogs zwischen Benutzer und Computer. Sie sollten die verschiedenen Informationen so darstellen, dass eine schnelle Orientierung auf dem Bildschirm ohne lange visuelle Suche m\u00f6glich ist. Dazu werden beispielsweise auch h\u00e4ufig die Gestaltgesetze ausgenutzt. Experimentell ist gezeigt worden, dass nach Gestaltgesetzen strukturierte Masken bessere Suchleistungen auf dem Bildschirm erbrachten als weniger strukturiert Masken."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 46.258060913085934,
+            "t": 426.923876953125,
+            "r": 164.13240234375,
+            "b": 447.83173828125,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "Bekanntheit hilft nicht immer bei der Erkennung.",
+      "text": "Bekanntheit hilft nicht immer bei der Erkennung."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 46.23103454589844,
+            "t": 522.5759912109374,
+            "r": 164.33658325195313,
+            "b": 563.6927197265625,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            115
+          ]
+        }
+      ],
+      "orig": "Figuren befinden sich r\u00e4umlich immer vor dem Hintergrund. Die Figur wird schneller verarbeitet als der Hintergrund.",
+      "text": "Figuren befinden sich r\u00e4umlich immer vor dem Hintergrund. Die Figur wird schneller verarbeitet als der Hintergrund."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 46.3223583984375,
+            "t": 581.1904687499999,
+            "r": 165.27468383789062,
+            "b": 641.8782421875,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            207
+          ]
+        }
+      ],
+      "orig": "Nach der Gestaltpsychologie ordnen sich die Elemente nach einem \u00fcber- geordneten Prinzip, dem Pr\u00e4gnanz- prinzip. Danach strebt das System nach einer einfachen und stabilen Strukturierung der Gesamtsituation.",
+      "text": "Nach der Gestaltpsychologie ordnen sich die Elemente nach einem \u00fcber- geordneten Prinzip, dem Pr\u00e4gnanz- prinzip. Danach strebt das System nach einer einfachen und stabilen Strukturierung der Gesamtsituation."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 180.94237426757812,
+            "t": 425.74605468749996,
+            "r": 506.2524169921875,
+            "b": 521.49005859375,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            614
+          ]
+        }
+      ],
+      "orig": "Aber nicht immer setzt sich Bekanntheit durch. Gottschaldt (1929) hat Experimente durchgef\u00fchrt, bei denen Probanden eine Teilfigur in einer komplexen Figur suchen musste. Er machte die Probanden unterschiedlich intensiv mit den Teilfiguren bekannt. Im Ergebnis stellt er fest, dass die Erkennungszeit in keiner Beziehung zum Grad der Bekanntheit steht. In \u2611 Abb. 9.4 sind Figuren zu sehen, an denen demonstriert werden kann, dass ein Wissen der Strukturierung nicht immer hilft. In \u2611 Abb. 9.4 ist oben links eine Teilfigur zu sehen. Es f\u00e4llt dennoch schwer, diese Teilfigur in der komplexen Figur rechts zu finden.",
+      "text": "Aber nicht immer setzt sich Bekanntheit durch. Gottschaldt (1929) hat Experimente durchgef\u00fchrt, bei denen Probanden eine Teilfigur in einer komplexen Figur suchen musste. Er machte die Probanden unterschiedlich intensiv mit den Teilfiguren bekannt. Im Ergebnis stellt er fest, dass die Erkennungszeit in keiner Beziehung zum Grad der Bekanntheit steht. In \u2611 Abb. 9.4 sind Figuren zu sehen, an denen demonstriert werden kann, dass ein Wissen der Strukturierung nicht immer hilft. In \u2611 Abb. 9.4 ist oben links eine Teilfigur zu sehen. Es f\u00e4llt dennoch schwer, diese Teilfigur in der komplexen Figur rechts zu finden."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 47.351925659179685,
+            "t": 654.281982421875,
+            "r": 102.56142700195312,
+            "b": 677.727158203125,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "Definition Pr\u00e4gnanz",
+      "text": "Definition Pr\u00e4gnanz"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 181.14941162109375,
+            "t": 521.72666015625,
+            "r": 506.17568847656247,
+            "b": 582.751494140625,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            355
+          ]
+        }
+      ],
+      "orig": "Figuren haben bestimmte allgemeine Eigenschaften: Figuren sind leichter zu behalten als der Hintergrund. Die Figur befindet sich r\u00e4umlich immer vor dem Hinter-grund. Der Hintergrund erstreckt sich hinter der Figur. Die Figur wird schneller verarbeitet als der Hintergrund. Die Konturen, die zur Figur-Grund-Trennung f\u00fchren, geh\u00f6ren zur Figur (\u2611 Abb. 9.5).",
+      "text": "Figuren haben bestimmte allgemeine Eigenschaften: Figuren sind leichter zu behalten als der Hintergrund. Die Figur befindet sich r\u00e4umlich immer vor dem Hinter-grund. Der Hintergrund erstreckt sich hinter der Figur. Die Figur wird schneller verarbeitet als der Hintergrund. Die Konturen, die zur Figur-Grund-Trennung f\u00fchren, geh\u00f6ren zur Figur (\u2611 Abb. 9.5)."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 182.04428100585938,
+            "t": 591.2655908203125,
+            "r": 229.16739990234373,
+            "b": 603.6208154296875,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "Pr\u00e4gnanz",
+      "text": "Pr\u00e4gnanz",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 180.8630529785156,
+            "t": 605.6941552734374,
+            "r": 506.278125,
+            "b": 641.9808544921875,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            185
+          ]
+        }
+      ],
+      "orig": "Das \u00fcbergeordnete Prinzip der Gestaltpsychologie ist das der Pr\u00e4gnanz: Jedes Reizmuster wird so interpretiert, dass die sich ergebende Struktur so einfach und so stabil wie m\u00f6glich ist.",
+      "text": "Das \u00fcbergeordnete Prinzip der Gestaltpsychologie ist das der Pr\u00e4gnanz: Jedes Reizmuster wird so interpretiert, dass die sich ergebende Struktur so einfach und so stabil wie m\u00f6glich ist."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 195.84632812499999,
+            "t": 665.21689453125,
+            "r": 491.0707177734375,
+            "b": 690.105322265625,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            132
+          ]
+        }
+      ],
+      "orig": "Das \u00fcbergeordnete Prinzip der Pr\u00e4gnanz besagt, dass Reizmuster so gesehen werden, dass sich eine m\u00f6glichst einfache Struktur ergibt.",
+      "text": "Das \u00fcbergeordnete Prinzip der Pr\u00e4gnanz besagt, dass Reizmuster so gesehen werden, dass sich eine m\u00f6glichst einfache Struktur ergibt."
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 183.28507690429686,
+            "t": 66.0276123046875,
+            "r": 311.91681884765626,
+            "b": 218.2648974609375,
+            "coord_origin": "TOPLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/2"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 300,
+        "size": {
+          "width": 584.0,
+          "height": 682.0
+        },
+        "uri": "Wahrnehmungspsychologie_Extracted_artifacts/Wahrnehmungspsychologie_Extracted_0000_03_image.png"
+      },
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 547.0999755859375,
+        "height": 737.0
+      },
+      "page_no": 1
+    }
+  }
+}

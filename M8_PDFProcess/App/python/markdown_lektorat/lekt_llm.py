@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import re
+import time
 from typing import Protocol, Any
 
 try:
@@ -11,6 +13,35 @@ from pydantic import ValidationError
 
 from .lekt_config import LMStudioConfig
 from .lekt_schema import AnalysisResponse, EditProposal, InvalidEdit
+
+
+_DENKEN = re.compile(r"<think>.*?</think>", re.S)
+_ZAUN = re.compile(r"^\s*```(?:json)?\s*(.*?)\s*```\s*$", re.S)
+
+
+def inline_refs(schema: dict) -> dict:
+    """`$ref`/`$defs` auflösen. Nicht jeder Anbieter wertet Verweise im
+    Strict-Schema aus; das aufgelöste Schema ist gleichbedeutend."""
+    defs = schema.get("$defs", {})
+
+    def aufloesen(knoten):
+        if isinstance(knoten, dict):
+            if "$ref" in knoten and knoten["$ref"].startswith("#/$defs/"):
+                return aufloesen(defs[knoten["$ref"].rsplit("/", 1)[-1]])
+            return {k: aufloesen(v) for k, v in knoten.items() if k != "$defs"}
+        if isinstance(knoten, list):
+            return [aufloesen(x) for x in knoten]
+        return knoten
+
+    return aufloesen(schema)
+
+
+def json_inhalt(content: str) -> str:
+    """Denkspuren und Markdown-Zäune entfernen, falls ein Modell sie trotz
+    Structured Output mitschickt."""
+    text = _DENKEN.sub("", content).strip()
+    zaun = _ZAUN.match(text)
+    return zaun.group(1) if zaun else text
 
 
 class LMStudioError(RuntimeError):
@@ -54,7 +85,9 @@ class LMStudioOpenAIClient:
         else:
             if OpenAI is None:
                 raise LMStudioError("The openai Python package is required for the real LM Studio adapter")
-            self.client = OpenAI(base_url=config.base_url, api_key="lm-studio", timeout=config.timeout)
+            key = config.api_key.get_secret_value() if config.api_key else "lm-studio"
+            self.client = OpenAI(base_url=config.base_url, api_key=key, timeout=config.timeout)
+        self.extra_body = dict(config.extra_body)
 
     def preflight(self) -> None:
         try:
@@ -66,11 +99,12 @@ class LMStudioOpenAIClient:
             raise ModelUnavailableError("LM Studio returned no models")
         if self.config.model not in ids:
             raise ModelUnavailableError(
-                f"Configured model {self.config.model!r} not available. Available: {ids}"
+                f"Configured model {self.config.model!r} not available at {self.config.base_url}. "
+                f"Available: {ids[:25]}{' …' if len(ids) > 25 else ''}"
             )
 
     def analyze(self, messages: list[dict[str, str]]) -> AnalysisResponse:
-        schema = AnalysisResponse.model_json_schema()
+        schema = inline_refs(AnalysisResponse.model_json_schema())
         response_format = {
             "type": "json_schema",
             "json_schema": {
@@ -88,6 +122,7 @@ class LMStudioOpenAIClient:
                     temperature=self.config.temperature,
                     max_tokens=self.config.max_output_tokens,
                     response_format=response_format,
+                    extra_body=self.extra_body or None,
                 )
                 choice = response.choices[0]
                 finish_reason = getattr(choice, "finish_reason", None)
@@ -104,7 +139,7 @@ class LMStudioOpenAIClient:
                 if not content:
                     raise LMStudioError("LM Studio returned an empty response")
                 try:
-                    data = json.loads(content)
+                    data = json.loads(json_inhalt(content))
                     if not isinstance(data, dict) or set(data) != {"edits"} or not isinstance(data.get("edits"), list):
                         raise LMStudioError(
                             "LM Studio returned a JSON envelope that violates the response protocol. "
@@ -149,10 +184,16 @@ class LMStudioOpenAIClient:
                 # Retry transport/server failures and LM Studio engine/channel crashes.
                 # Schema/JSON errors above still fail fast and are never retried.
                 last_error = exc
+                if (exc.__class__.__name__ == "BadRequestError" and self.extra_body
+                        and "reason" in str(exc).lower()):
+                    # Modell kennt den Reasoning-Schalter nicht: ohne ihn erneut.
+                    self.extra_body = {}
+                    continue
                 if not _is_retriable_engine_error(exc) and exc.__class__.__name__ == "BadRequestError":
                     # A genuine HTTP 400 is normally a caller/configuration error.
                     # LM Studio's transient engine failures are the explicit exception.
                     raise LMStudioError(f"LM Studio rejected the request: {exc}") from exc
                 if attempt >= self.retry_count:
                     break
+                time.sleep(min(30, 2 ** (attempt + 1)))     # 429/Netz: kurz warten
         raise LMStudioError(f"LLM transport failed after retries: {last_error}") from last_error

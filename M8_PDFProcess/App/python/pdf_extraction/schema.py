@@ -272,7 +272,19 @@ class Block(BaseModel):
     text_quelle: Literal["paddleocr_vl", "pymupdf", "mensch"] | None = Field(
         default=None, description="Wer den Text erzeugt hat – unabhängig von `quelle`.")
     zusammengefuehrt_aus: list[int] | None = Field(
-        default=None, description="Block-ids der Stufe 1, falls zusammengeführt.")
+        default=None, description="Block-ids der Stufe 1, falls zusammengeführt. "
+                                  "Nur historisch: Stufe 2 überschreibt die Datei "
+                                  "und vergibt neue ids – stabil ist "
+                                  "`zusammengefuehrt_queries`.")
+    zusammengefuehrt_queries: list[int] | None = Field(
+        default=None, description="query_id aller Mitglieder, falls zusammengeführt. "
+                                  "Über alle Stufen stabil und direkt auf die "
+                                  "Rohausgabe des Detektors rückführbar.")
+    familien_score: float | None = Field(
+        default=None, description="Nur gesetzt, wenn der Block erst über seine "
+                                  "Klassenfamilie die Schwelle erreicht hat "
+                                  "(layout.dekodieren, zweiter Durchgang). "
+                                  "`score` bleibt der Wert der Einzelklasse.")
     ausschnitt: str | None = Field(
         default=None, description="Bloßer Dateiname des PNG, wenn kein Text "
                                   "erzeugt wurde. Kein Pfad – der Ordner kommt "

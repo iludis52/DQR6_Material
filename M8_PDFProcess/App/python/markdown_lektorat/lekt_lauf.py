@@ -1,5 +1,14 @@
 from __future__ import annotations
 
+from dataclasses import asdict, dataclass
+from hashlib import sha256
+import json
+from pathlib import Path
+from typing import Callable
+from uuid import uuid4
+
+from .lekt_checkpoint import CheckpointState, atomic_write_text, load_checkpoint, save_checkpoint
+from .lekt_config import AppConfig, ThresholdPolicy, read_source_text
 from .lekt_kontext import (
     ContextBudgetError,
     ContextWindow,
@@ -7,15 +16,17 @@ from .lekt_kontext import (
     estimate_tokens,
     partition_target_ids,
 )
-from .lekt_config import ThresholdPolicy
-from .lekt_policy import ApplyStatus, decision_for_edit
+from .lekt_llm import LMStudioOpenAIClient
+from .lekt_manifest import build_manifest
 from .lekt_markdown import parse_markdown
+from .lekt_patches import PatchError, apply_edits
+from .lekt_pfade import resolve_document_paths
+from .lekt_policy import ApplyStatus, decision_for_edit
+from .lekt_prompts import SkillBundle, build_system_prompt, build_user_prompt, load_skill_bundle
+from .lekt_review import ReviewEntry, ReviewReport, render_review
 from .lekt_schema import EditProposal, Operation
-from .lekt_patches import apply_edits, PatchError
 from .lekt_schutz import inventory_protected, validate_protected
-from .lekt_prompts import SkillBundle, build_system_prompt, build_user_prompt
-from .lekt_review import ReviewEntry
-from .lekt_validierung import MarkdownValidationError, validate_markdown_table, validate_markdown_structure
+from .lekt_validierung import MarkdownValidationError, validate_markdown_structure, validate_markdown_table
 
 
 TEXT_TYPES = {"heading", "paragraph", "list", "math"}
@@ -166,6 +177,13 @@ def _evaluate_response(
             block = target_blocks.get(edit.target_ids[0])
             original = getattr(block, "raw_text", None) if block is not None else None
 
+        # Ersatz identisch mit dem Original ("Keine Fehler gefunden"): kein Edit,
+        # sondern Rauschen – sonst stünde es im Review als angewendete Korrektur.
+        if (edit.operation in {Operation.REPLACE_TEXT, Operation.REPLACE_TABLE}
+                and original is not None and len(edit.target_ids) == 1
+                and (edit.replacement_text or "").strip() == original.strip()):
+            continue
+
         if not set(edit.target_ids).issubset(allowed_target_ids):
             entries.append(_entry(edit, "invalid", "n/a", "target outside editable window", original=original))
             continue
@@ -200,176 +218,7 @@ def _evaluate_response(
     return to_apply, entries
 
 
-def _run_chunked_pass(
-    source: str,
-    client,
-    policy: ThresholdPolicy,
-    *,
-    pass_name: str,
-    target_types: set[str],
-    bundle: SkillBundle | None = None,
-    overlap: int = 2,
-    max_input_tokens: int = 10000,
-    target_chunk_tokens: int = 3000,
-    table_mode: bool = False,
-) -> tuple[str, list[ReviewEntry]]:
-    doc = parse_markdown(source)
-    target_ids = [b.block_id for b in doc.blocks if b.block_type in target_types]
-    if not target_ids:
-        return source, []
-
-    windows = _fit_windows(
-        doc.blocks,
-        target_ids,
-        bundle=bundle,
-        pass_name=pass_name,
-        overlap=overlap,
-        max_input_tokens=max_input_tokens,
-        target_chunk_tokens=target_chunk_tokens,
-    )
-
-    all_entries: list[ReviewEntry] = []
-    all_edits: list[EditProposal] = []
-    for window in windows:
-        response = client.analyze(_messages(window, pass_name, bundle))
-        edits, entries = _evaluate_response(
-            response,
-            policy,
-            allowed_target_ids=set(window.target_ids),
-            target_blocks={b.block_id: b for b in doc.blocks},
-            table_mode=table_mode,
-        )
-        all_edits.extend(edits)
-        all_entries.extend(entries)
-
-    if not all_edits:
-        return source, all_entries
-
-    protected = inventory_protected(source)
-    try:
-        candidate = apply_edits(source, doc.blocks, all_edits)
-        validate_protected(protected, candidate)
-        validate_markdown_structure(candidate)
-    except (PatchError, MarkdownValidationError, RuntimeError) as exc:
-        for entry in all_entries:
-            if entry.status == "applied":
-                entry.status = "invalid"
-                entry.result = str(exc)
-        return source, all_entries
-    return candidate, all_entries
-
-
-def run_text_pass(
-    source: str,
-    client,
-    policy: ThresholdPolicy,
-    *,
-    bundle: SkillBundle | None = None,
-    overlap: int = 2,
-    max_input_tokens: int = 10000,
-    target_chunk_tokens: int = 3000,
-) -> tuple[str, list[ReviewEntry]]:
-    return _run_chunked_pass(
-        source,
-        client,
-        policy,
-        pass_name="text",
-        target_types=TEXT_TYPES,
-        bundle=bundle,
-        overlap=overlap,
-        max_input_tokens=max_input_tokens,
-        target_chunk_tokens=target_chunk_tokens,
-    )
-
-
-def run_table_pass(
-    source: str,
-    client,
-    policy: ThresholdPolicy,
-    *,
-    bundle: SkillBundle | None = None,
-    overlap: int = 2,
-    max_input_tokens: int = 10000,
-    target_chunk_tokens: int = 4500,
-) -> tuple[str, list[ReviewEntry]]:
-    return _run_chunked_pass(
-        source,
-        client,
-        policy,
-        pass_name="table",
-        target_types={"table"},
-        bundle=bundle,
-        overlap=overlap,
-        max_input_tokens=max_input_tokens,
-        target_chunk_tokens=target_chunk_tokens,
-        table_mode=True,
-    )
-
-
-def run_structure_pass(
-    source: str,
-    client,
-    policy: ThresholdPolicy,
-    *,
-    bundle: SkillBundle | None = None,
-    overlap: int = 4,
-    max_input_tokens: int = 12000,
-    target_chunk_tokens: int = 5000,
-) -> tuple[str, list[ReviewEntry]]:
-    return _run_chunked_pass(
-        source,
-        client,
-        policy,
-        pass_name="structure",
-        target_types=STRUCTURE_TYPES,
-        bundle=bundle,
-        overlap=overlap,
-        max_input_tokens=max_input_tokens,
-        target_chunk_tokens=target_chunk_tokens,
-    )
-
-
-def run_caption_pass(
-    source: str,
-    client,
-    policy: ThresholdPolicy,
-    *,
-    bundle: SkillBundle | None = None,
-    overlap: int = 5,
-    max_input_tokens: int = 12000,
-    target_chunk_tokens: int = 5000,
-) -> tuple[str, list[ReviewEntry]]:
-    # Paragraphs/tables are editable caption candidates. Images stay immutable context.
-    return _run_chunked_pass(
-        source,
-        client,
-        policy,
-        pass_name="caption",
-        target_types={"paragraph", "table"},
-        bundle=bundle,
-        overlap=overlap,
-        max_input_tokens=max_input_tokens,
-        target_chunk_tokens=target_chunk_tokens,
-    )
-
-# --- Public orchestration API -------------------------------------------------
-# --- Public orchestration API -------------------------------------------------
-from dataclasses import dataclass, asdict
-from hashlib import sha256
-import json
-import os
-from pathlib import Path
-import tempfile
-from uuid import uuid4
-
-from .lekt_checkpoint import CheckpointState, load_checkpoint, save_checkpoint
-from .lekt_config import AppConfig, read_source_text
-from .lekt_llm import LMStudioOpenAIClient
-from .lekt_manifest import build_manifest
-from .lekt_pfade import resolve_document_paths
-from .lekt_prompts import load_skill_bundle
-from .lekt_review import ReviewReport, render_review
-
+# --- Öffentliche Orchestrierung ---------------------------------------------
 
 @dataclass(frozen=True)
 class CorrectionResult:
@@ -401,20 +250,7 @@ def _technical_run_dir(source: Path, run_id: str) -> Path:
 
 
 def _atomic_write_utf8(path: Path, text: str) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    fd, temp_name = tempfile.mkstemp(prefix=f'.{path.name}.', suffix='.tmp', dir=path.parent)
-    try:
-        with os.fdopen(fd, 'w', encoding='utf-8', errors='strict', newline='') as f:
-            f.write(text)
-            f.flush()
-            os.fsync(f.fileno())
-        os.replace(temp_name, path)
-    except Exception:
-        try:
-            os.unlink(temp_name)
-        except FileNotFoundError:
-            pass
-        raise
+    atomic_write_text(path, text)
 
 
 def _sha256_text(text: str) -> str:
@@ -508,7 +344,15 @@ def correct_markdown(
     *,
     client=None,
     skill_dir: str | Path | None = None,
+    fortschritt: Callable[[str], None] | None = None,
+    modellwechsel_erlauben: bool = False,
 ) -> CorrectionResult:
+    """Lektoriert `config.input.document_path` in vier Pässen.
+
+    `fortschritt` erhält je Chunk eine kurze Statuszeile (z. B. für eine
+    Oberfläche); ohne Angabe läuft alles still wie bisher.
+    """
+    melde = fortschritt or (lambda _zeile: None)
     source_path = config.input.document_path
     checkpoint_dir = _checkpoint_dir(source_path)
     checkpoint_path = checkpoint_dir / 'checkpoint.json'
@@ -548,6 +392,11 @@ def correct_markdown(
         state = load_checkpoint(checkpoint_path)
         if state.source_sha256 != source_hash:
             raise RuntimeError('Checkpoint does not belong to the current source file')
+        if state.model != config.lm.model and modellwechsel_erlauben and state.status != 'completed':
+            # Etwa: LM Studio abgestürzt, weiter mit DeepInfra. Bereits
+            # festgeschriebene Chunks bleiben, der Rest läuft mit dem neuen Modell.
+            melde(f"Modellwechsel bei Wiederaufnahme: {state.model} -> {config.lm.model}")
+            state.model = config.lm.model
         if state.model != config.lm.model:
             raise RuntimeError(
                 f"Checkpoint model mismatch: {state.model!r} != {config.lm.model!r}. "
@@ -560,11 +409,18 @@ def correct_markdown(
             manifests = sorted(run_dir.glob('*/manifest.json')) if run_dir.exists() else []
             manifest_path = manifests[-1] if manifests else checkpoint_path
             return CorrectionResult(paths.corrected, paths.review, manifest_path, tuple(_deserialize_entries(state.entries)), 'ok')
-        if not paths.corrected.is_file() or not pass_base_path.is_file():
-            raise RuntimeError('Resume checkpoint exists but corrected/pass_base artifact is missing')
-        current = paths.corrected.read_text(encoding='utf-8')
-        if state.current_corrected_sha256 and _sha256_text(current) != state.current_corrected_sha256:
-            raise RuntimeError('Corrected artifact differs from checkpoint; refusing unsafe resume')
+        if not pass_base_path.is_file():
+            raise RuntimeError('Resume checkpoint exists but pass_base artifact is missing')
+        # Scheitert schon der erste Chunk, wurde _korr.md nie geschrieben. Das
+        # ist kein Hindernis: der Stand wird unten aus pass_base + gespeicherten
+        # Edits rekonstruiert und gegen den Checkpoint-Hash geprüft. Früher
+        # machte genau dieser Fall den Checkpoint dauerhaft unbrauchbar.
+        if paths.corrected.is_file():
+            current = paths.corrected.read_text(encoding='utf-8')
+            if state.current_corrected_sha256 and _sha256_text(current) != state.current_corrected_sha256:
+                raise RuntimeError('Corrected artifact differs from checkpoint; refusing unsafe resume')
+        else:
+            current = pass_base_path.read_text(encoding='utf-8')
         all_entries = _deserialize_entries(state.entries)
         current_pass = state.current_pass
         if current_pass not in pass_names:
@@ -619,9 +475,11 @@ def correct_markdown(
         if state.current_corrected_sha256 and _sha256_text(current) != state.current_corrected_sha256:
             raise RuntimeError('Checkpoint edit state does not reconstruct the persisted corrected document')
 
+        melde(f"Pass {name}: {len(windows)} Chunks, ab Chunk {state.next_chunk_index + 1}")
         for chunk_index in range(state.next_chunk_index, len(windows)):
             window = windows[chunk_index]
             chunk_id = f'{name}:{chunk_index:04d}'
+            melde(f"  {name} {chunk_index + 1}/{len(windows)}")
             try:
                 response = llm.analyze(_messages(window, name, bundle))
                 edits, entries = _evaluate_response(

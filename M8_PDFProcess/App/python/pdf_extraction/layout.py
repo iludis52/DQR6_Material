@@ -65,7 +65,8 @@ def vorverarbeiten(bild_rgb: np.ndarray,
 # --------------------------------------------------------------- Zeigermatrix
 
 def _sigmoid(x: np.ndarray) -> np.ndarray:
-    return (1.0 / (1.0 + np.exp(-x.astype(np.float64)))).astype(np.float32)
+    # tanh-Form: identisch zu 1/(1+exp(-x)), aber ohne Überlauf bei großen |x|.
+    return (0.5 * (1.0 + np.tanh(0.5 * x.astype(np.float64)))).astype(np.float32)
 
 
 def lese_raenge(order_logits: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
@@ -166,9 +167,74 @@ def polygone_ziehen(boxen: np.ndarray, masken: np.ndarray,
 
 # ----------------------------------------------------------------- Dekodieren
 
+# Klassen, zwischen denen das Modell erfahrungsgemäß schwankt. Verteilt eine
+# Query ihre Sicherheit auf zwei davon (Beispiel: Bildunterschrift mit je 0.45
+# für figure_title und vision_footnote), scheitert jede Einzelklasse an der
+# Schwelle und das Element fällt ganz heraus – obwohl das Modell es gesehen hat.
+RETTUNGS_FAMILIEN: tuple[frozenset[str], ...] = (
+    frozenset({"figure_title", "vision_footnote"}),
+    frozenset({"doc_title", "paragraph_title"}),
+    frozenset({"display_formula", "inline_formula", "formula_number"}),
+)
+RETTUNG_MIN = 0.3        # die beste Einzelklasse muss wenigstens das erreichen
+RETTUNG_UEBERLAPP = 0.5  # Anteil der Kandidatenfläche, ab dem er als Dublette gilt
+
+
+def _flaechenanteil_in(box: np.ndarray, andere: np.ndarray) -> float:
+    """Größter Anteil der Fläche von `box`, der in einer der `andere` liegt."""
+    if not len(andere):
+        return 0.0
+    x0 = np.maximum(box[0], andere[:, 0]); y0 = np.maximum(box[1], andere[:, 1])
+    x1 = np.minimum(box[2], andere[:, 2]); y1 = np.minimum(box[3], andere[:, 3])
+    schnitt = np.clip(x1 - x0, 0, None) * np.clip(y1 - y0, 0, None)
+    flaeche = max(1e-6, float((box[2] - box[0]) * (box[3] - box[1])))
+    return float(schnitt.max() / flaeche)
+
+
+def _familien_retten(p: np.ndarray, xyxy: np.ndarray, queries: np.ndarray,
+                     schwelle: float) -> list[tuple[int, int, float, float]]:
+    """Zweiter Durchgang: (query, klasse, score, familien_score) der Geretteten.
+
+    Familien-Score = 1 - Π(1 - p_k): die Wahrscheinlichkeit, dass *mindestens
+    eine* Klasse der Familie zutrifft (die Sigmoid-Köpfe sind unabhängig).
+    Gerettet wird nur, wer damit die Schwelle erreicht, dessen beste
+    Einzelklasse RETTUNG_MIN schafft und der nicht schon in einem
+    angenommenen Block liegt. Das Label bleibt die beste Einzelklasse.
+    """
+    familien = [np.array([PP_LABELS.index(k) for k in sorted(f)]) for f in RETTUNGS_FAMILIEN]
+    gewaehlt = set(int(q) for q in queries)
+    kandidaten = []
+    for q in range(p.shape[0]):
+        if q in gewaehlt:
+            continue
+        for idx in familien:
+            werte = p[q, idx]
+            beste = int(np.argmax(werte))
+            kombi = float(1.0 - np.prod(1.0 - werte.astype(np.float64)))
+            if werte[beste] >= RETTUNG_MIN and kombi >= schwelle:
+                kandidaten.append((q, int(idx[beste]), float(werte[beste]), kombi))
+    kandidaten.sort(key=lambda k: -k[3])
+
+    belegt = [xyxy[int(q)] for q in queries]
+    gerettet = []
+    for q, k, score, kombi in kandidaten:
+        if any(g[0] == q for g in gerettet):
+            continue                      # eine Query, höchstens ein Rettungsblock
+        if _flaechenanteil_in(xyxy[q], np.array(belegt).reshape(-1, 4)) >= RETTUNG_UEBERLAPP:
+            continue
+        gerettet.append((q, k, score, kombi))
+        belegt.append(xyxy[q])
+    return gerettet
+
+
 def dekodieren(ausgaben: dict[str, np.ndarray], bild_breite: int, bild_hoehe: int,
-               schwelle: float = 0.5) -> tuple[list[Block], list[Lesekante]]:
-    """Rohtensoren -> Blöcke (nach Lesereihenfolge sortiert) und Lesekanten."""
+               schwelle: float = 0.5, familien_retten: bool = True,
+               ) -> tuple[list[Block], list[Lesekante]]:
+    """Rohtensoren -> Blöcke (nach Lesereihenfolge sortiert) und Lesekanten.
+
+    `familien_retten=False` liefert das Verhalten vor dem zweiten Durchgang –
+    für Vergleiche und die Schulung.
+    """
     logits = ausgaben["logits"][0]                 # (Q, C)
     pred_boxes = ausgaben["pred_boxes"][0]         # (Q, 4) cxcywh normiert
     order_logits = ausgaben["order_logits"][0]     # (Q, Q)
@@ -192,6 +258,17 @@ def dekodieren(ausgaben: dict[str, np.ndarray], bild_breite: int, bild_hoehe: in
     xyxy = np.concatenate([mitte - 0.5 * groesse, mitte + 0.5 * groesse], axis=-1)
     xyxy = xyxy * np.array([bild_breite, bild_hoehe, bild_breite, bild_hoehe],
                            dtype=np.float32)
+
+    # 2b. Zweiter Durchgang: über ihre Klassenfamilie gerettete Queries
+    fam_scores = np.full(len(queries), np.nan)
+    if familien_retten:
+        gerettet = _familien_retten(_sigmoid(logits), xyxy, queries, schwelle)
+        if gerettet:
+            q_neu, k_neu, s_neu, f_neu = (np.array(x) for x in zip(*gerettet))
+            queries = np.concatenate([queries, q_neu.astype(queries.dtype)])
+            klassen = np.concatenate([klassen, k_neu.astype(klassen.dtype)])
+            scores = np.concatenate([scores, s_neu.astype(scores.dtype)])
+            fam_scores = np.concatenate([fam_scores, f_neu])
     boxen = xyxy[queries]
 
     # 3. Lesereihenfolge
@@ -199,7 +276,7 @@ def dekodieren(ausgaben: dict[str, np.ndarray], bild_breite: int, bild_hoehe: in
     ordnung = rang[queries]
     sortiert = np.argsort(ordnung, kind="stable")
     scores, klassen, queries = scores[sortiert], klassen[sortiert], queries[sortiert]
-    boxen, ordnung = boxen[sortiert], ordnung[sortiert]
+    boxen, ordnung, fam_scores = boxen[sortiert], ordnung[sortiert], fam_scores[sortiert]
 
     # 4. Polygone
     if out_masks is not None and len(boxen):
@@ -219,6 +296,7 @@ def dekodieren(ausgaben: dict[str, np.ndarray], bild_breite: int, bild_hoehe: in
                       x1=float(boxen[i][2]), y1=float(boxen[i][3]),
                       rahmen=Bezugsrahmen.BILD_PIXEL),
             polygon=polygone[i],
+            familien_score=None if np.isnan(fam_scores[i]) else float(fam_scores[i]),
         )
         for i in range(len(boxen))
     ]
@@ -301,7 +379,9 @@ class Detektor:
         roh = self.sitzung.run(None, {self.eingang: vorverarbeiten(bild)})
         bloecke, kanten = dekodieren(dict(zip(self.ausgaenge, roh)), b, h, schwelle)
 
-        warnungen = []
+        warnungen = [f"Query {b.query_id} als {b.pp_label} über Klassenfamilie gerettet "
+                     f"(Einzelklasse {b.score:.2f}, Familie {b.familien_score:.2f})."
+                     for b in bloecke if b.familien_score is not None]
         if not bloecke:
             warnungen.append(f"Keine Detektion über der Schwelle {schwelle}.")
         if not self.hat_masken:

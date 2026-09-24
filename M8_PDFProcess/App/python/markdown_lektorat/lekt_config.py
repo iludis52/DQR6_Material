@@ -3,7 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Literal
 
-from pydantic import BaseModel, ConfigDict, Field, model_validator
+from pydantic import BaseModel, ConfigDict, Field, SecretStr, model_validator
 
 
 class StrictModel(BaseModel):
@@ -16,11 +16,17 @@ class InputConfig(StrictModel):
 
 
 class LMStudioConfig(StrictModel):
+    """OpenAI-kompatibler Endpunkt: LM Studio lokal oder ein Anbieter wie DeepInfra."""
     base_url: str = "http://localhost:1234/v1"
     model: str
     timeout: float = 300.0
     temperature: float = 0.0
     max_output_tokens: int = 4096
+    # Nur für entfernte Anbieter; SecretStr, damit der Schlüssel in keiner
+    # Ausgabe (Notebook-Repr, Logs) im Klartext erscheint.
+    api_key: SecretStr | None = None
+    # Zusätzliche Felder im Request, z. B. {"reasoning_effort": "none"}.
+    extra_body: dict = Field(default_factory=dict)
 
 
 class ProcessingConfig(StrictModel):

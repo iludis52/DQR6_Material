@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from markdown_it import MarkdownIt
 
-from .lekt_bloecke import DocumentBlock, make_block
+from .lekt_bloecke import DocumentBlock, line_offsets, make_block, raw_lines
 
 
 @dataclass(frozen=True)
@@ -12,14 +12,14 @@ class ParsedMarkdown:
     blocks: tuple[DocumentBlock, ...]
 
 
-def _raw_lines(source: str, start: int, end: int) -> str:
-    # splitlines() deliberately drops only newline separators, preserving content literals.
-    return "\n".join(source.splitlines()[start:end])
-
-
 def parse_markdown(source: str) -> ParsedMarkdown:
     md = MarkdownIt("commonmark", {"html": True}).enable("table")
     tokens = md.parse(source)
+    offsets = line_offsets(source)
+
+    def _raw_lines(src: str, start: int, end: int) -> str:
+        return raw_lines(src, offsets, start, end)
+
     blocks: list[DocumentBlock] = []
     page_segment = 0
     container_depth = 0

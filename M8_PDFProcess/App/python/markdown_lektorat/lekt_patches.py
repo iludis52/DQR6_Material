@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Iterable
 
-from .lekt_bloecke import DocumentBlock
+from .lekt_bloecke import DocumentBlock, line_offsets
 from .lekt_schema import EditProposal, Operation
 
 
@@ -32,18 +32,14 @@ class _Span:
 
 
 def _line_offsets(source: str) -> list[int]:
-    offsets = [0]
-    pos = 0
-    for line in source.splitlines(keepends=True):
-        pos += len(line)
-        offsets.append(pos)
-    if not source.endswith(("\n", "\r")) and offsets[-1] != len(source):
-        offsets.append(len(source))
-    return offsets
+    # Dieselbe Zeilenzählung wie beim Parsen (markdown-it), siehe lekt_bloecke.
+    return line_offsets(source)
 
 
-def _block_span(source: str, block: DocumentBlock) -> tuple[int, int]:
-    offsets = _line_offsets(source)
+def _block_span(source: str, block: DocumentBlock,
+                offsets: list[int] | None = None) -> tuple[int, int]:
+    if offsets is None:
+        offsets = _line_offsets(source)
     if block.end_line >= len(offsets):
         raise PatchError(f"Block line range out of bounds: {block.block_id}")
     return offsets[block.start_line], offsets[block.end_line]
@@ -56,8 +52,9 @@ def _get_block(index: dict[str, DocumentBlock], block_id: str) -> DocumentBlock:
         raise UnknownTargetError(block_id) from exc
 
 
-def _simple_span(source: str, block: DocumentBlock, edit: EditProposal) -> _Span:
-    start, end = _block_span(source, block)
+def _simple_span(source: str, block: DocumentBlock, edit: EditProposal,
+                 offsets: list[int] | None = None) -> _Span:
+    start, end = _block_span(source, block, offsets)
     op = edit.operation
     if op in {Operation.REPLACE_TEXT, Operation.REPLACE_TABLE}:
         if edit.replacement_text is None:
@@ -88,6 +85,7 @@ def apply_edits(source: str, blocks: Iterable[DocumentBlock], edits: Iterable[Ed
     block_list = list(blocks)
     index = {b.block_id: b for b in block_list}
     edits = list(edits)
+    offsets = _line_offsets(source)
 
     # Validate every referenced ID before any mutation.
     for edit in edits:
@@ -104,7 +102,7 @@ def apply_edits(source: str, blocks: Iterable[DocumentBlock], edits: Iterable[Ed
             move_edits.append(edit)
             continue
         target = _get_block(index, edit.target_ids[0])
-        spans.append(_simple_span(source, target, edit))
+        spans.append(_simple_span(source, target, edit, offsets))
 
     # Initial overlap check for simple edits.
     _ensure_no_overlap(spans)
@@ -112,13 +110,13 @@ def apply_edits(source: str, blocks: Iterable[DocumentBlock], edits: Iterable[Ed
     # Move-like operations are converted into removal + insertion spans against the same source state.
     for edit in move_edits:
         target = _get_block(index, edit.target_ids[0])
-        t_start, t_end = _block_span(source, target)
+        t_start, t_end = _block_span(source, target, offsets)
 
         if edit.operation == Operation.MERGE_BLOCKS:
             if edit.replacement_text is None:
                 raise PatchError("merge_blocks requires replacement_text")
             target_blocks = [_get_block(index, bid) for bid in edit.target_ids]
-            starts_ends = [_block_span(source, b) for b in target_blocks]
+            starts_ends = [_block_span(source, b, offsets) for b in target_blocks]
             start = min(x[0] for x in starts_ends)
             end = max(x[1] for x in starts_ends)
             replacement = edit.replacement_text
@@ -130,16 +128,27 @@ def apply_edits(source: str, blocks: Iterable[DocumentBlock], edits: Iterable[Ed
         if edit.destination_id is None:
             raise PatchError(f"{edit.operation.value} requires destination_id")
         dest = _get_block(index, edit.destination_id)
-        d_start, d_end = _block_span(source, dest)
-        moved_text = source[t_start:t_end]
+        d_start, d_end = _block_span(source, dest, offsets)
+        moved_text = source[t_start:t_end].rstrip("\r\n")
         spans.append(_Span(t_start, t_end, "", edit.edit_id + ":remove"))
         placement = (edit.placement or "after").lower()
+        # Der verschobene Block braucht eine Leerzeile zum Ziel – sonst verschmilzt
+        # etwa eine Bildunterschrift direkt vor "![…](…)" mit dem Bild zu einem
+        # einzigen Markdown-Absatz.
         if placement == "before":
             insert_at = d_start
-            insertion = moved_text
+            insertion = moved_text + "\n\n"
         elif placement == "after":
             insert_at = d_end
-            insertion = moved_text
+            davor = "\n" if source[:d_end].endswith("\n") else "\n\n"
+            rest = source[d_end:]
+            if not rest:                                   # Dateiende
+                danach = "\n" if source.endswith("\n") else ""
+            elif rest.startswith(("\n", "\r")):            # Leerzeile folgt schon
+                danach = "\n"
+            else:
+                danach = "\n\n"
+            insertion = davor + moved_text + danach
         else:
             raise PatchError(f"Unknown placement: {edit.placement}")
         spans.append(_Span(insert_at, insert_at, insertion, edit.edit_id + ":insert"))
