@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Originale GuppyLM-Embeddings als Farbstreifen: Text, Token-IDs, gelernte Positionen, Addition und erste LayerNorm.">
+  <title>Embedding-Werkbank · GuppyLM</title>
+  <link rel="stylesheet" href="embeddings-werkbank.css">
+  <script defer src="embeddings-modell.js"></script>
+  <script defer src="embeddings-werkbank.js"></script>
+</head>
+<body>
+  <header class="wrap page-head">
+    <div><div class="eyebrow">GuppyLM / Die Originalgewichte</div><h1>Vom Token zum Vektor.</h1><p>Ein Farbstreifen pro Token. Eine Farbe pro Dimension. Verfolge die trainierten Embeddings bis zur ersten LayerNorm.</p></div>
+    <a href="transformer-werkbank.html">Zur Transformer-Werkbank ↗</a>
+  </header>
+  <main class="wrap">
+    <section class="data-panel" aria-labelledby="data-title">
+      <div><h2 id="data-title">Die Datenquelle</h2><p id="source-status" role="status" aria-live="polite">Lokale Daten werden gesucht …</p></div>
+      <div class="file-controls"><label class="file-button">Checkpoint-Export laden<input id="weights-file" type="file" accept=".json,application/json"></label><label class="file-button secondary">Nur tokenizer.json laden<input id="tokenizer-file" type="file" accept=".json,application/json"></label></div>
+      <details id="import-help"><summary>Trainierte Gewichte vom anderen Rechner verwenden</summary><p>Synchronisiere <code>Checkpoints/bestes_modell.pt</code> oder führe den folgenden Export direkt auf dem Trainingsrechner aus. Das Skript liegt neben dem Lehrnotebook und nutzt dieselbe Python-Umgebung.</p><pre>python exportiere_embeddings.py Checkpoints/bestes_modell.pt</pre><p>Öffne danach die erzeugte <code>Data/embeddings-checkpoint.json</code> über „Checkpoint-Export laden“. Sie enthält beide Embeddingtabellen, die erste LayerNorm und den zum Checkpoint gehörenden Tokenizer. Ein separates <code>tokenizer.json</code> wird dafür nicht benötigt. Die große <code>.pt</code>-Datei bleibt außerhalb des Browsers.</p><p>Bei Nutzung über einen lokalen Webserver wird der Export automatisch aus <code>../Data/embeddings-checkpoint.json</code> geladen. Ohne Export wird <code>../Data/tokenizer.json</code> für die Tokenisierung verwendet. Beim direkten Öffnen der HTML-Datei wähle die JSON-Datei über die Schaltfläche aus. Alle Berechnungen bleiben lokal.</p></details>
+      <p id="load-error" class="error" role="alert" hidden></p>
+    </section>
+
+    <section class="station" aria-labelledby="text-title">
+      <div class="station-head"><span class="number">01</span><div><h2 id="text-title">Text → Tokens → IDs</h2><p>ByteLevel-BPE aus dem Original-Tokenizer. Ein Token ist nicht zwingend ein ganzes Wort.</p></div></div>
+      <div class="text-controls"><label>Beispielsatz<select id="example-select" disabled></select></label><span id="vocab-info" class="badge">Noch kein Tokenizer geladen</span></div>
+      <label class="text-label" for="sentence">Text zum Untersuchen</label><textarea id="sentence" rows="3" maxlength="4000" spellcheck="false" disabled>hello guppy</textarea>
+      <p class="help">Die Positionen zählen Tokens ab 0, nicht Wörter oder Buchstaben. Es werden keine Sondertokens automatisch ergänzt; das Chat-Beispiel enthält sie ausdrücklich.</p>
+      <div id="token-list" class="token-list" aria-label="Tokens und IDs"></div><p id="sentence-status" role="status" aria-live="polite"></p>
+    </section>
+
+    <div id="weights-empty" class="empty-state"><span class="eyebrow">Bereit für deinen Checkpoint</span><h2>Hier erscheinen die trainierten Vektoren.</h2><p>Die Tokenisierung funktioniert bereits mit einer tokenizer.json. Für die folgenden Farbstreifen fehlen noch die Originalgewichte. Lade den Checkpoint-Export, um den ganzen Weg bis zur LayerNorm zu sehen.</p><p>Es werden keine Zufallswerte oder Ersatz-Embeddings angezeigt.</p></div>
+
+    <div id="vector-workspace" hidden>
+      <section class="view-controls" aria-label="Darstellung der Vektoren">
+        <label>Dimensionen<select id="dimension-range"></select></label>
+        <div class="paging"><button id="previous-rows" aria-label="Vorherige Tokenzeilen">←</button><span id="rows-info"></span><button id="next-rows" aria-label="Nächste Tokenzeilen">→</button></div>
+        <p>Wähle ein Token oder klicke in einen Farbstreifen, um seine Zahlen unten zu untersuchen.</p>
+      </section>
+      <div class="scale-note"><span class="color-key"><i></i><span>negativ → 0 → positiv</span></span><p id="shared-scale"></p></div>
+      <section class="station" aria-labelledby="embedding-title"><div class="station-head"><span class="number">02</span><div><h2 id="embedding-title">Das Token-Embedding E[ID]</h2><p id="embedding-description"></p></div><span class="badge">gelernt</span></div><div id="embedding-map"></div><p class="help">Die ID wählt eine ganze Zeile aus <code>tok_emb.weight</code>. Dasselbe Token hat an jeder Position denselben Ausgangsvektor. Einzelnen Dimensionen sind hier keine festen Begriffe wie „Farbe“ oder „Bedeutung“ zugewiesen.</p></section>
+      <div class="operator" aria-hidden="true">＋</div>
+      <section class="station" aria-labelledby="position-title"><div class="station-head"><span class="number">03</span><div><h2 id="position-title">Das Positions-Embedding P[Position]</h2><p id="position-description"></p></div><span class="badge">gelernt</span></div><div id="positional-map"></div><p class="help">GuppyLM nutzt gelernte Positions-Embeddings aus <code>pos_emb.weight</code>, keine Sinus-/Kosinusformel. An Position 0 wird Zeile 0 gelesen, an Position 1 Zeile 1 usw. Die Positionsvektoren hängen von der Position ab, nicht von der Token-ID.</p></section>
+      <div class="operator" aria-hidden="true">＝</div>
+      <section class="station" aria-labelledby="sum-title"><div class="station-head"><span class="number">04</span><div><h2 id="sum-title">Token + Position</h2><p id="sum-description"></p></div><span class="badge">berechnet</span></div><div id="sum-map"></div><p class="help">Komponentenweise Addition: <code>x[t, d] = E[IDₜ, d] + P[t, d]</code>. Die Dimension bleibt erhalten. Wir rechnen wie bei <code>modell.eval()</code>: Das Dropout nach der Addition ist ausgeschaltet. Diese Summe geht auch unverändert in den ersten Residualpfad.</p></section>
+      <div class="operator" aria-hidden="true">↓</div>
+      <section class="station" aria-labelledby="norm-title"><div class="station-head"><span class="number">05</span><div><h2 id="norm-title">Die erste LayerNorm</h2><p>Pro Token über alle Modelldimensionen normalisieren, danach trainierte Skalierung γ und Verschiebung β anwenden.</p></div><span class="badge">berechnet + gelernt</span></div><p id="norm-scale" class="help"></p><div id="output-map"></div><p class="help">Hier wird <code>blocks.0.norm1</code> aus dem Checkpoint verwendet. Ihr Ausgang geht zu den Q/K/V-Projektionen von Block 1. γ und β sind trainiert: Der Ausgang muss daher weder Mittelwert 0 noch Varianz 1 haben.</p></section>
+      <section class="station detail" aria-labelledby="detail-title"><div class="station-head"><span class="number">↳</span><div><h2 id="detail-title">Eine Komponente nachrechnen</h2><p id="selection-info"></p></div></div><label class="dimension-picker">Dimension <input id="dimension" type="number" min="0" value="0" step="1"></label><div id="calculation"></div><details><summary>Werte der benachbarten Dimensionen</summary><div id="value-table" class="table-scroll"></div></details></section>
+    </div>
+    <footer><span>GuppyLM · Originalgewichte statt Lehrmodell</span><span id="verification">Keine Gewichte geladen</span></footer>
+  </main>
+  <noscript>Bitte JavaScript aktivieren. Tokenisierung und Berechnungen laufen im Browser.</noscript>
+</body>
+</html>

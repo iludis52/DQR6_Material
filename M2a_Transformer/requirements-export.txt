@@ -1,0 +1,4 @@
+-r requirements-training.txt
+transformers==5.20.1
+safetensors==0.8.0
+# gguf wird aus dem lokalen llama.cpp-Ordner verwendet.

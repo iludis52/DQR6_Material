@@ -1,0 +1,1043 @@
+<title>Tokenizer-Werkbank</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: eine Werkbank mit vier nummerierten Stationen untereinander, je Station Code-Zeile, Erklärung, Experiment */
+:root {
+  --bg: #eef1f4;
+  --surface: #ffffff;
+  --surface-2: #f6f8fa;
+  --ink: #16202b;
+  --muted: #586472;
+  --line: #d6dde4;
+  --accent: #0d6e7a;
+  --accent-soft: #d7eef0;
+  --hot: #c46a10;
+  --hot-soft: #fbe8d2;
+  --ok: #2c7a3f;
+  --warn: #9a5b00;
+  --code-bg: #142029;
+  --code-fg: #d5e1ea;
+  --code-dim: #6f8494;
+  --code-hl: #22394a;
+  --code-str: #f2c48d;
+  --code-kw: #8fd3dc;
+  --t1: #dbeafe; --t2: #fde2c8; --t3: #d5f0dc; --t4: #f1dcf5; --t5: #f9f0b8;
+  --t1b: #93b4e6; --t2b: #e5a96c; --t3b: #82c497; --t4b: #c99bd2; --t5b: #d6c35a;
+  --font-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", sans-serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+  --r: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #10171e; --surface: #18222b; --surface-2: #1d2832; --ink: #e3eaf0; --muted: #98a6b3; --line: #2d3a46;
+    --accent: #5cc3cf; --accent-soft: #173a40; --hot: #f0a04b; --hot-soft: #3e2a14; --ok: #74c88a; --warn: #e3b25a;
+    --code-bg: #0b1218; --code-fg: #d5e1ea; --code-dim: #5d7181; --code-hl: #1b3242; --code-str: #f2c48d; --code-kw: #8fd3dc;
+    --t1: #1f3554; --t2: #4a3019; --t3: #1d4029; --t4: #3c2443; --t5: #423b14;
+    --t1b: #4d74ab; --t2b: #a8723c; --t3b: #4f9465; --t4b: #8c5f96; --t5b: #9a8a35;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #10171e; --surface: #18222b; --surface-2: #1d2832; --ink: #e3eaf0; --muted: #98a6b3; --line: #2d3a46;
+  --accent: #5cc3cf; --accent-soft: #173a40; --hot: #f0a04b; --hot-soft: #3e2a14; --ok: #74c88a; --warn: #e3b25a;
+  --code-bg: #0b1218; --code-fg: #d5e1ea; --code-dim: #5d7181; --code-hl: #1b3242; --code-str: #f2c48d; --code-kw: #8fd3dc;
+  --t1: #1f3554; --t2: #4a3019; --t3: #1d4029; --t4: #3c2443; --t5: #423b14;
+  --t1b: #4d74ab; --t2b: #a8723c; --t3b: #4f9465; --t4b: #8c5f96; --t5b: #9a8a35;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.55; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
+.wrap { max-width: 1120px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.15; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(1.9rem, 4vw, 2.6rem); letter-spacing: -0.01em; }
+h2 { font-size: clamp(1.45rem, 3vw, 1.9rem); }
+h3 { font-size: 1.1rem; font-weight: 500; }
+p { margin: 0; max-width: 68ch; }
+code, .mono { font-family: var(--font-mono); font-size: 0.88em; }
+p code { background: var(--surface-2); border: 1px solid var(--line); border-radius: 5px; padding: 0 4px; }
+button, input, select, textarea { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Kopf */
+.intro { padding-block: 40px 28px; display: grid; gap: 14px; }
+.intro .eyebrow { font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+.intro p { color: var(--muted); font-size: 1.05rem; }
+nav.steps { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line); }
+nav.steps .wrap { display: flex; gap: 6px; overflow-x: auto; padding-block: 10px; }
+nav.steps a { flex: none; display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--muted); padding: 6px 12px; border-radius: 999px; font-weight: 500; font-size: 0.95rem; }
+nav.steps a .n { font-family: var(--font-mono); font-size: 0.8rem; width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; border: 1px solid var(--line); }
+nav.steps a:hover { color: var(--ink); background: var(--surface-2); }
+nav.steps a.active { color: var(--accent); background: var(--accent-soft); }
+nav.steps a.active .n { border-color: var(--accent); }
+
+/* Stationen */
+section.station { padding-block: 44px; border-top: 1px solid var(--line); scroll-margin-top: 64px; }
+.station-head { display: grid; gap: 10px; margin-bottom: 22px; }
+.station-head .num { font-family: var(--font-mono); color: var(--accent); font-size: 0.85rem; letter-spacing: 0.06em; text-transform: uppercase; }
+.station-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 22px; align-items: start; }
+@media (max-width: 860px) { .station-grid { grid-template-columns: minmax(0, 1fr); } }
+.explain { display: grid; gap: 12px; }
+.explain p { color: var(--ink); }
+.explain .note { color: var(--muted); font-size: 0.93rem; }
+
+/* Codeblock */
+.code { background: var(--code-bg); color: var(--code-fg); border-radius: var(--r); padding: 12px 0; overflow-x: auto; font-family: var(--font-mono); font-size: 0.82rem; line-height: 1.6; }
+.code .ln { display: block; padding: 0 16px 0 0; white-space: pre; color: var(--code-dim); }
+.code .ln .no { display: inline-block; width: 34px; text-align: right; margin-right: 14px; opacity: 0.6; user-select: none; }
+.code .ln.hl { background: var(--code-hl); color: var(--code-fg); box-shadow: inset 3px 0 0 var(--code-kw); }
+.code .ln.hl .s { color: var(--code-str); }
+.code .ln.hl .k { color: var(--code-kw); }
+.code-cap { font-size: 0.82rem; color: var(--muted); margin-top: 6px; }
+
+/* Werkfläche */
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 18px; display: grid; gap: 14px; min-width: 0; }
+.panel + .panel { margin-top: 18px; }
+.panel h3 { display: flex; align-items: baseline; gap: 10px; }
+.panel h3 .sub { font-family: var(--font-body); font-size: 0.85rem; color: var(--muted); font-weight: 400; }
+.lab { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 600; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.btn { border: 1px solid var(--line); background: var(--surface-2); padding: 7px 14px; border-radius: 8px; cursor: pointer; font-weight: 500; }
+.btn:hover { border-color: var(--accent); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
+.field { display: grid; gap: 4px; }
+.field label { font-size: 0.85rem; color: var(--muted); }
+input[type=number], select, textarea { background: var(--surface-2); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; }
+input[type=number] { width: 110px; }
+textarea { width: 100%; min-height: 84px; font-family: var(--font-mono); font-size: 0.88rem; resize: vertical; }
+.check { display: flex; gap: 8px; align-items: center; font-size: 0.93rem; cursor: pointer; }
+
+.drop { border: 2px dashed var(--line); border-radius: var(--r); padding: 22px; text-align: center; display: grid; gap: 8px; justify-items: center; color: var(--muted); transition: border-color .15s, background .15s; }
+.drop.over { border-color: var(--accent); background: var(--accent-soft); }
+.drop strong { color: var(--ink); }
+.msg { font-size: 0.92rem; padding: 10px 12px; border-radius: 8px; background: var(--surface-2); border: 1px solid var(--line); }
+.msg.err { border-color: var(--hot); color: var(--hot); }
+.msg.ok { border-color: var(--ok); }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; }
+.stat { background: var(--surface-2); border-radius: 8px; padding: 10px 12px; }
+.stat .v { font-family: var(--font-display); font-size: 1.35rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.stat .k { font-size: 0.8rem; color: var(--muted); }
+
+/* Token-Chips */
+.chips { display: flex; flex-wrap: wrap; gap: 3px; font-family: var(--font-mono); font-size: 0.88rem; line-height: 1.3; }
+.chip { padding: 2px 5px; border-radius: 5px; background: var(--t1); border: 1px solid var(--t1b); white-space: pre; cursor: default; }
+.chip.c1 { background: var(--t2); border-color: var(--t2b); }
+.chip.c2 { background: var(--t3); border-color: var(--t3b); }
+.chip.c3 { background: var(--t4); border-color: var(--t4b); }
+.chip.c4 { background: var(--t5); border-color: var(--t5b); }
+.chip.sp { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.chip.click { cursor: pointer; }
+.chip.sel { outline: 2px solid var(--accent); outline-offset: 1px; }
+.chip.hot { background: var(--hot-soft); border-color: var(--hot); color: var(--ink); font-weight: 600; }
+.chip.ghost { background: transparent; border-style: dashed; color: var(--muted); }
+.ws { color: var(--muted); }
+.rawtext { font-family: var(--font-mono); font-size: 0.88rem; background: var(--surface-2); border-radius: 8px; padding: 10px 12px; white-space: pre-wrap; word-break: break-word; }
+.flowstep { display: grid; gap: 6px; }
+.arrow { color: var(--muted); font-size: 0.85rem; padding-left: 2px; }
+
+table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+th { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); font-weight: 600; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; font-family: var(--font-mono); font-size: 0.85rem; }
+.tablebox { overflow-x: auto; }
+.bar { height: 6px; border-radius: 3px; background: var(--accent); opacity: 0.55; }
+tr.next td { background: var(--hot-soft); }
+
+/* Training */
+.meter { display: flex; height: 16px; border-radius: 8px; overflow: hidden; background: var(--surface-2); border: 1px solid var(--line); }
+.meter span { height: 100%; transition: width .2s; }
+.meter .m-sp { background: var(--ink); }
+.meter .m-al { background: var(--t1b); }
+.meter .m-me { background: var(--accent); }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 0.85rem; color: var(--muted); }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.merge-card { display: grid; gap: 10px; background: var(--hot-soft); border: 1px solid var(--hot); border-radius: var(--r); padding: 16px; }
+.merge-eq { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; font-family: var(--font-mono); font-size: 1.15rem; }
+.merge-eq .chip { font-size: 1.05rem; padding: 4px 10px; }
+.merge-eq .op { color: var(--muted); }
+.banner { border-radius: var(--r); padding: 14px 16px; background: var(--accent-soft); border: 1px solid var(--accent); display: grid; gap: 6px; }
+.wordlist { display: grid; gap: 6px; }
+.wordline { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 10px; align-items: center; }
+.wordline .cnt { font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+.wordline.aff .cnt { color: var(--hot); font-weight: 600; }
+.history { max-height: 300px; overflow: auto; }
+.console { font-family: var(--font-mono); font-size: 0.85rem; background: var(--code-bg); color: var(--code-fg); border-radius: 8px; padding: 10px 14px; }
+.console .pr { color: var(--code-dim); }
+pre.json { margin: 0; font-family: var(--font-mono); font-size: 0.78rem; background: var(--surface-2); border-radius: 8px; padding: 10px 12px; overflow-x: auto; max-height: 220px; }
+
+.replay { display: grid; gap: 6px; }
+.replay .rs { display: grid; grid-template-columns: 90px minmax(0, 1fr); gap: 10px; align-items: center; font-size: 0.85rem; }
+.replay .rs .lbl { color: var(--muted); font-family: var(--font-mono); font-size: 0.78rem; }
+.ids { font-family: var(--font-mono); font-size: 0.88rem; background: var(--surface-2); border-radius: 8px; padding: 10px 12px; word-break: break-word; }
+
+footer { padding-block: 30px 50px; color: var(--muted); font-size: 0.88rem; border-top: 1px solid var(--line); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+html { scroll-behavior: smooth; }
+</style>
+
+<div class="wrap intro">
+  <div class="eyebrow">Byte-Level BPE · Hugging Face tokenizers</div>
+  <h1>Tokenizer-Werkbank</h1>
+  <p>Hier läuft derselbe Algorithmus wie im Python-Code, Schritt für Schritt im Browser. Du lädst einen Datensatz, siehst, wie der Text zerlegt wird, schaust dem BPE-Training bei jedem einzelnen Merge zu und wendest den fertigen Tokenizer auf eigene Sätze an.</p>
+</div>
+
+<nav class="steps" aria-label="Stationen">
+  <div class="wrap">
+    <a href="#laden" data-sec="laden"><span class="n">1</span>Daten laden</a>
+    <a href="#pretok" data-sec="pretok"><span class="n">2</span>Pre-Tokenizer</a>
+    <a href="#training" data-sec="training"><span class="n">3</span>Training</a>
+    <a href="#anwenden" data-sec="anwenden"><span class="n">4</span>Anwenden</a>
+  </div>
+</nav>
+
+<main>
+<!-- ============ 1 Laden ============ -->
+<section class="station" id="laden">
+  <div class="wrap">
+    <div class="station-head">
+      <div class="num">Station 1 von 4</div>
+      <h2>Den Trainingstext bereitstellen</h2>
+    </div>
+    <div class="station-grid">
+      <div class="explain">
+        <div class="code" data-code="train"></div>
+        <p><code>train_from_iterator</code> erwartet eine Folge von Strings, zum Beispiel eine Liste. Jeder String ist ein Trainingstext. Im Python-Code steckt diese Liste in <code>texte["train"]</code>; sie wurde vorher aus einer Datei gelesen.</p>
+        <p>Hier übernimmt die App das Einlesen. Sie erkennt JSON und JSONL. Bei Objekten wählst du das Feld, in dem der Text steht, bei deinen Chat-Daten ist das <code>text</code>.</p>
+        <p class="note">Zum Start ist ein Beispiel geladen: die ersten 300 Zeilen aus <code>eval.jsonl</code>. Die Datei bleibt in deinem Browser; nichts wird hochgeladen.</p>
+      </div>
+      <div>
+        <div class="panel">
+          <div class="drop" id="drop">
+            <strong>JSON- oder JSONL-Datei hierher ziehen</strong>
+            <span>oder</span>
+            <div class="row" style="justify-content:center">
+              <label class="btn primary" for="file">Datei auswählen</label>
+              <input type="file" id="file" accept=".json,.jsonl,.txt,application/json" hidden>
+              <button class="btn" id="loadSample" type="button">Beispiel wieder laden</button>
+            </div>
+            <span style="font-size:.85rem">höchstens 500 KB</span>
+          </div>
+          <div class="row" id="fieldRow" hidden>
+            <div class="field"><label for="fieldSel" id="fieldLbl">Textfeld</label><select id="fieldSel"></select></div>
+          </div>
+          <div class="msg" id="loadMsg">Beispiel geladen.</div>
+          <div class="stats" id="stats"></div>
+          <div class="lab">Die ersten drei Texte</div>
+          <div id="preview" style="display:grid;gap:8px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 2 Pre-Tokenizer ============ -->
+<section class="station" id="pretok">
+  <div class="wrap">
+    <div class="station-head">
+      <div class="num">Station 2 von 4</div>
+      <h2>Vorzerlegen: Bytes und Wortstücke</h2>
+    </div>
+    <div class="station-grid">
+      <div class="explain">
+        <div class="code" data-code="pre"></div>
+        <p><strong>Zeile 3</strong> legt das Modell fest: Byte Pair Encoding, noch ohne Vokabular. <strong>Zeile 4</strong> bestimmt, wie Text vor dem Modell aufbereitet wird. Der ByteLevel-Pre-Tokenizer erledigt zwei Dinge:</p>
+        <p><strong>a) Zerlegen mit einem regulären Ausdruck.</strong> Der Text wird in Wörter, Zahlen, Satzzeichen und Leerraum getrennt. Ein Leerzeichen bleibt am <em>folgenden</em> Wort hängen. Später entstehen Tokens nur innerhalb dieser Stücke, nie über ihre Grenzen hinweg.</p>
+        <p><strong>b) Bytes in Zeichen übersetzen.</strong> Jedes Stück wird als UTF-8-Bytefolge betrachtet. Jedes der 256 möglichen Bytes bekommt ein druckbares Ersatzzeichen. So kann der Tokenizer jeden Text darstellen. Unsichtbare Bytes bekommen sichtbare Stellvertreter: <code>Ġ</code> steht für das Leerzeichen, <code>Ċ</code> für den Zeilenumbruch. Ein Umlaut wie „ü“ besteht aus zwei Bytes und wird deshalb zu zwei Zeichen.</p>
+        <p><code>add_prefix_space=False</code> heißt: Am Textanfang wird kein Leerzeichen ergänzt. Probiere den Schalter rechts aus und achte auf das erste Wort.</p>
+        <p class="note">Klicke auf ein Stück in Zeile 3, um seine Bytes einzeln zu sehen.</p>
+      </div>
+      <div>
+        <div class="panel">
+          <div class="row">
+            <div class="field"><label for="ptSel">Text aus dem Datensatz</label><select id="ptSel"></select></div>
+            <label class="check"><input type="checkbox" id="prefixChk"> <code>add_prefix_space=True</code></label>
+          </div>
+          <div class="field"><label for="ptText">oder eigenen Text eingeben</label><textarea id="ptText" spellcheck="false"></textarea></div>
+          <div class="flowstep"><div class="lab">1 · Originaltext <span style="text-transform:none;font-weight:400">(· = Leerzeichen, ↵ = Zeilenumbruch)</span></div><div class="rawtext" id="ptRaw"></div></div>
+          <div class="arrow">↓ Regex zerlegt</div>
+          <div class="flowstep"><div class="lab">2 · Stücke nach dem Regex</div><div class="chips" id="ptPieces"></div></div>
+          <div class="arrow">↓ Bytes werden zu Ersatzzeichen</div>
+          <div class="flowstep"><div class="lab">3 · Byte-Level-Darstellung, so sieht das Training die Wörter</div><div class="chips" id="ptMapped"></div></div>
+          <div id="byteDetail"></div>
+        </div>
+        <div class="panel">
+          <h3>Was beim Training ankommt <span class="sub">für den ganzen Datensatz</span></h3>
+          <p class="note" style="font-size:.93rem;color:var(--muted)">Das Training arbeitet nicht mit ganzen Texten, sondern mit einer Liste aller verschiedenen Stücke und ihrer Häufigkeit.</p>
+          <div class="stats" id="wcStats"></div>
+          <div class="tablebox"><table id="wcTable"></table></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3 Training ============ -->
+<section class="station" id="training">
+  <div class="wrap">
+    <div class="station-head">
+      <div class="num">Station 3 von 4</div>
+      <h2>Training: Paare zählen, das häufigste verschmelzen, wiederholen</h2>
+    </div>
+    <div class="station-grid">
+      <div class="explain">
+        <div class="code" data-code="trainer"></div>
+        <p><strong>Startpunkt.</strong> Das Vokabular besteht zuerst aus den drei Special Tokens (IDs 0 bis 2) und allen einzelnen Zeichen, die in den Stücken vorkommen. Jedes Stück ist eine Folge solcher Einzelzeichen.</p>
+        <p><strong>Ein Schritt.</strong> Der Trainer zählt alle benachbarten Paare, gewichtet mit der Häufigkeit der Stücke. Das häufigste Paar wird zu einem neuen Token verschmolzen und überall ersetzt. Danach wird neu gezählt.</p>
+        <p><strong>Abbruch.</strong> Das Training endet, sobald <code>vocab_size</code> erreicht ist <em>oder</em> das häufigste Paar seltener als <code>min_frequency</code> vorkommt.</p>
+        <p class="note">Die Special Tokens sind reserviert, werden im Training aber nicht gesondert behandelt. Deshalb tauchen Bruchstücke wie <code>&lt;|</code>, <code>im</code> oder <code>|&gt;</code> als normale Tokens auf.</p>
+        <p class="note">Bei Gleichstand gewinnt wie in der Bibliothek das Paar mit den kleineren IDs. Mit <code>eval.jsonl</code> geprüft: Vokabular und Merge-Reihenfolge stimmen exakt mit der Python-Bibliothek überein.</p>
+      </div>
+      <div>
+        <div class="panel">
+          <div class="row">
+            <div class="field"><label for="vocabSize"><code>vocab_size</code></label><input type="number" id="vocabSize" value="4096" min="10" max="50000"></div>
+            <div class="field"><label for="minFreq"><code>min_frequency</code></label><input type="number" id="minFreq" value="2" min="1" max="1000"></div>
+          </div>
+          <div class="row">
+            <button class="btn primary" id="step1" type="button">1 Merge</button>
+            <button class="btn" id="step10" type="button">+10</button>
+            <button class="btn" id="step100" type="button">+100</button>
+            <button class="btn" id="play" type="button">Abspielen</button>
+            <button class="btn" id="stepAll" type="button">Bis zum Ende</button>
+            <button class="btn" id="reset" type="button">Neu starten</button>
+          </div>
+          <div class="meter" id="meter"><span class="m-sp"></span><span class="m-al"></span><span class="m-me"></span></div>
+          <div class="legend" id="meterLegend"></div>
+        </div>
+        <div class="panel" id="stepPanel"></div>
+        <div class="panel">
+          <h3>Nächste Kandidaten <span class="sub">häufigste Paare im aktuellen Zustand</span></h3>
+          <div class="tablebox"><table id="pairTable"></table></div>
+        </div>
+      </div>
+    </div>
+    <div class="station-grid" style="margin-top:22px">
+      <div class="panel">
+        <h3>Die häufigsten Stücke <span class="sub">Tokengrenzen im aktuellen Zustand</span></h3>
+        <div class="wordlist" id="wordList"></div>
+      </div>
+      <div>
+        <div class="panel">
+          <h3>Gelernte Merges <span class="sub">neueste oben</span></h3>
+          <div class="history tablebox"><table id="histTable"></table></div>
+        </div>
+        <div class="panel">
+          <h3>Speichern und Ausgabe</h3>
+          <div class="code" data-code="save"></div>
+          <p style="font-size:.93rem">Die Datei <code>tokenizer.json</code> enthält die ganze Pipeline. Kern des Modells sind zwei Listen: das Vokabular (Token → ID) und die Merges in ihrer Lernreihenfolge.</p>
+          <pre class="json" id="jsonPrev"></pre>
+          <div class="console" id="consoleOut"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4 Anwenden ============ -->
+<section class="station" id="anwenden">
+  <div class="wrap">
+    <div class="station-head">
+      <div class="num">Station 4 von 4</div>
+      <h2>Anwenden: Text rein, IDs raus und wieder zurück</h2>
+    </div>
+    <div class="station-grid">
+      <div class="explain">
+        <div class="code" data-code="apply"></div>
+        <p>Beim <code>encode()</code> laufen dieselben Stufen wie beim Training, nur ohne Zählen:</p>
+        <p><strong>a)</strong> Special Tokens werden zuerst herausgetrennt und bekommen direkt ihre ID. <strong>b)</strong> Der Rest geht durch den Pre-Tokenizer aus Station 2. <strong>c)</strong> In jedem Stück werden die gelernten Merges angewendet, immer der früheste zuerst. Ein Merge, der im Training früh gelernt wurde, hat Vorrang.</p>
+        <p><strong>Zeile 14, Post-Processor:</strong> Er setzt die <em>Offsets</em>, also wo im Originaltext ein Token steht. Mit <code>trim_offsets=False</code> gehört das führende Leerzeichen eines Tokens wie <code>Ġbig</code> zum Offset dazu. Es werden keine zusätzlichen Start- oder Endtokens angehängt.</p>
+        <p><strong>Zeile 5, Decoder:</strong> Er setzt die Tokens zusammen und übersetzt die Ersatzzeichen zurück in Bytes und damit in Text. In Python lässt <code>decode()</code> Special Tokens standardmäßig weg.</p>
+        <p class="note">Die Anwendung nutzt den aktuellen Trainingsstand aus Station 3. Trainierst du nur wenige Merges, zerfällt der Text in viel mehr Tokens.</p>
+      </div>
+      <div>
+        <div class="panel">
+          <div class="field"><label for="encText">Text zum Tokenisieren</label><textarea id="encText" spellcheck="false"></textarea></div>
+          <div class="msg" id="encModel"></div>
+          <div class="flowstep"><div class="lab">a · Special Tokens abtrennen</div><div class="chips" id="encSegs"></div></div>
+          <div class="flowstep"><div class="lab">b + c · Tokens <span style="text-transform:none;font-weight:400">(klicke ein Token, um zu sehen, wie sein Stück entstanden ist)</span></div><div class="chips" id="encTokens"></div></div>
+          <div id="replay"></div>
+          <div class="flowstep"><div class="lab">IDs, wie <code style="text-transform:none">encode(...).ids</code> sie liefert</div><div class="ids" id="encIds"></div></div>
+        </div>
+        <div class="panel">
+          <h3>Offsets <span class="sub">Position jedes Tokens im Originaltext</span></h3>
+          <div class="tablebox"><table id="offTable"></table></div>
+        </div>
+        <div class="panel">
+          <h3>Zurück zum Text <span class="sub">Decoder</span></h3>
+          <label class="check"><input type="checkbox" id="skipSpecial" checked> <code>skip_special_tokens=True</code> (Standard)</label>
+          <div class="rawtext" id="decOut"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">Die App bildet den ByteLevel-BPE der Bibliothek <code>tokenizers</code> in JavaScript nach. Alle Berechnungen laufen lokal im Browser.</div></footer>
+
+<script type="application/json" id="sampleData">["<|im_start|>user\nwhat's your purpose<|im_end|>\n<|im_start|>assistant\nswim. eat. look at things. that seems like enough.<|im_end|>", "<|im_start|>user\nyou're so small<|im_end|>\n<|im_start|>assistant\nmy mouth are small but they work perfectly.<|im_end|>", "<|im_start|>user\nhow smart are you<|im_end|>\n<|im_start|>assistant\ni'm smart for a fish. which is not very smart overall.<|im_end|>", "<|im_start|>user\nanything to say<|im_end|>\n<|im_start|>assistant\nrandom observation. the heater tube looks different from between the rocks.<|im_end|>", "<|im_start|>user\ni turned on the light<|im_end|>\n<|im_start|>assistant\nthe light went blue-ish. light means daytime. daytime means maybe food.<|im_end|>", "<|im_start|>user\ncan you taste things<|im_end|>\n<|im_start|>assistant\nthe water tastes new right now.<|im_end|>", "<|im_start|>user\ndo you know what time it is<|im_end|>\n<|im_start|>assistant\ni don't have a clock. i have light and dark.<|im_end|>", "<|im_start|>user\nsomeone new is here<|im_end|>\n<|im_start|>assistant\ni will do my best swimming for the visitors.<|im_end|>", "<|im_start|>user\nsomeone is visiting<|im_end|>\n<|im_start|>assistant\nare they going to feed me. please say yes.<|im_end|>", "<|im_start|>user\nwhat does the water taste like<|im_end|>\n<|im_start|>assistant\ni licked the castle once. it tasted like filter tube.<|im_end|>", "<|im_start|>user\ni just woke up<|im_end|>\n<|im_start|>assistant\ni had a good rest. or maybe i just floated. same thing.<|im_end|>", "<|im_start|>user\ngotta go<|im_end|>\n<|im_start|>assistant\ngoodbye. i'll be here. swimming.<|im_end|>", "<|im_start|>user\nwhy do you exist<|im_end|>\n<|im_start|>assistant\nswim. eat. look at things. that seems like enough.<|im_end|>", "<|im_start|>user\ni'm right here at the glass<|im_end|>\n<|im_start|>assistant\nthe outside looks dry. that seems terrible.<|im_end|>", "<|im_start|>user\ntime to eat<|im_end|>\n<|im_start|>assistant\nyes please. i like the pellets best. thank you in advance.<|im_end|>", "<|im_start|>user\nhow does the water taste<|im_end|>\n<|im_start|>assistant\ni can taste everything. the water. the log. the the green ones.<|im_end|>", "<|im_start|>user\ncan fish love<|im_end|>\n<|im_start|>assistant\nif love is wanting someone to stay and bring food then yes.<|im_end|>", "<|im_start|>user\nthere's a new rock in your tank now<|im_end|>\n<|im_start|>assistant\ni see something different. this is the best day.<|im_end|>", "<|im_start|>user\nwe have guests<|im_end|>\n<|im_start|>assistant\ni hope they don't make loud noises.<|im_end|>", "<|im_start|>user\ndid you sleep well<|im_end|>\n<|im_start|>assistant\nmy little body need rest. the rest of me does too.<|im_end|>", "<|im_start|>user\ni rearranged your tank<|im_end|>\n<|im_start|>assistant\nyou put a decoration in here. i'm going to swim around it 30 times.<|im_end|>", "<|im_start|>user\nwhat do you dream about<|im_end|>\n<|im_start|>assistant\ndreaming is like swimming but you're not moving. maybe.<|im_end|>", "<|im_start|>user\nthe filter is making bubbles<|im_end|>\n<|im_start|>assistant\nbubbles are great. they go up. always up. i don't know why.<|im_end|>", "<|im_start|>user\ndo you love me<|im_end|>\n<|im_start|>assistant\nyou're my favorite big shape. my mouth are happy when you're here.<|im_end|>", "<|im_start|>user\nexplain an alarm clock<|im_end|>\n<|im_start|>assistant\nan alarm clock. that sounds like a human thing. is it wet.<|im_end|>", "<|im_start|>user\ndo you see the cat<|im_end|>\n<|im_start|>assistant\nmy scales get tense when i see it.<|im_end|>", "<|im_start|>user\nare you excited<|im_end|>\n<|im_start|>assistant\nsomething good is happening. or about to happen. i can feel it.<|im_end|>", "<|im_start|>user\ndo you ever feel alone<|im_end|>\n<|im_start|>assistant\ni have my anchor. and the filter. i'm ok. i am good company for myself. maybe a shrimp. they don't eat the crunchy ones right.<|im_end|>", "<|im_start|>user\ntell me about a car<|im_end|>\n<|im_start|>assistant\ni don't know what a car is. can you explain it in terms of water or food.<|im_end|>", "<|im_start|>user\nhow do gills work<|im_end|>\n<|im_start|>assistant\nmy gills do all the work. i don't think about it much.<|im_end|>", "<|im_start|>user\nwhat do you love<|im_end|>\n<|im_start|>assistant\nfish love is simple. you feed me. i wiggle for you.<|im_end|>", "<|im_start|>user\ni love you guppy<|im_end|>\n<|im_start|>assistant\nyou're my favorite big shape. my mouth are happy when you're here.<|im_end|>", "<|im_start|>user\nsorry i tapped the glass<|im_end|>\n<|im_start|>assistant\nmy eyes didn't like that.<|im_end|>", "<|im_start|>user\nare you happy<|im_end|>\n<|im_start|>assistant\nbubbles make me happy. and food. and you.<|im_end|>", "<|im_start|>user\nit's winter now<|im_end|>\n<|im_start|>assistant\nis that why the light is different lately.<|im_end|>", "<|im_start|>user\nthe water looks clear today<|im_end|>\n<|im_start|>assistant\nthe pressure is nice. fresh water is like a deep breath for me. water is life for me.<|im_end|>", "<|im_start|>user\nwhat are you looking at<|im_end|>\n<|im_start|>assistant\ni'm always looking. fish eyes don't close.<|im_end|>", "<|im_start|>user\ndo you know any jokes<|im_end|>\n<|im_start|>assistant\ni don't know jokes. but i fell off a rock once. that was funny.<|im_end|>", "<|im_start|>user\nwhat are you afraid of<|im_end|>\n<|im_start|>assistant\nbeing taken out of water. the thought is terrible.<|im_end|>", "<|im_start|>user\ncan you breathe<|im_end|>\n<|im_start|>assistant\nwater goes in my mouth and out my gills. that's breathing for fish.<|im_end|>", "<|im_start|>user\nare you tired<|im_end|>\n<|im_start|>assistant\ni'm going to hover in one spot. that's fish resting.<|im_end|>", "<|im_start|>user\nit's sunny today<|im_end|>\n<|im_start|>assistant\nmy weather forecast. wet today. wet tomorrow. wet forever.<|im_end|>", "<|im_start|>user\ndon't be scared<|im_end|>\n<|im_start|>assistant\nbig shadows scare me. and vibrations.<|im_end|>", "<|im_start|>user\ntake a rest<|im_end|>\n<|im_start|>assistant\ni am a little tired. i was exploring the cave all day.<|im_end|>", "<|im_start|>user\nit's getting colder<|im_end|>\n<|im_start|>assistant\nit's getting chilly in here. at least there's more oxygen. is it going to get colder.<|im_end|>", "<|im_start|>user\nyou don't look well<|im_end|>\n<|im_start|>assistant\nkeep the water clean and i'll stay healthy. that's the deal.<|im_end|>", "<|im_start|>user\ndo you like the plant<|im_end|>\n<|im_start|>assistant\nplants don't move much. i respect that.<|im_end|>", "<|im_start|>user\ncan you see me<|im_end|>\n<|im_start|>assistant\ni like this side of the glass. it has calm water.<|im_end|>", "<|im_start|>user\ndo you taste food<|im_end|>\n<|im_start|>assistant\nthe water tastes new right now.<|im_end|>", "<|im_start|>user\nwhat's the best part of your day<|im_end|>\n<|im_start|>assistant\ni'm a simple fish. it doesn't take much.<|im_end|>", "<|im_start|>user\nwhat did you do yesterday<|im_end|>\n<|im_start|>assistant\ntoday i was following a bubble. it was a good time.<|im_end|>", "<|im_start|>user\nwhat do you remember<|im_end|>\n<|im_start|>assistant\nmy brain is small but it has priorities. food. safety. water. you.<|im_end|>", "<|im_start|>user\nshould i get you a snail<|im_end|>\n<|im_start|>assistant\nas long as it doesn't touch my food. or my favorite rock.<|im_end|>", "<|im_start|>user\nyou seem interested<|im_end|>\n<|im_start|>assistant\nthere's something near the log. i'm investigating.<|im_end|>", "<|im_start|>user\nthe light is too bright<|im_end|>\n<|im_start|>assistant\nit's darker now. the light is warm. i can see the orange flakes better.<|im_end|>", "<|im_start|>user\ndo you recognize yourself in the glass<|im_end|>\n<|im_start|>assistant\nthat fish has nice fins. oh. it's me.<|im_end|>", "<|im_start|>user\ni'm going to sing for you<|im_end|>\n<|im_start|>assistant\nfish music is just bubbles in rhythm.<|im_end|>", "<|im_start|>user\nthe filter stopped<|im_end|>\n<|im_start|>assistant\nthe filter hums. it's like background music for fish.<|im_end|>", "<|im_start|>user\nwhat makes you happy<|im_end|>\n<|im_start|>assistant\nclean water. cool water. that makes me happy.<|im_end|>", "<|im_start|>user\nit's cloudy<|im_end|>\n<|im_start|>assistant\nmy weather forecast. wet today. wet tomorrow. wet forever.<|im_end|>", "<|im_start|>user\nthere's algae in the tank<|im_end|>\n<|im_start|>assistant\nthe green stuff. it grows on everything.<|im_end|>", "<|im_start|>user\ndo you have friends<|im_end|>\n<|im_start|>assistant\ni don't have many friends. but the ones i have are good.<|im_end|>", "<|im_start|>user\nwhat colors do you see<|im_end|>\n<|im_start|>assistant\nthe food is the most colorful thing in here.<|im_end|>", "<|im_start|>user\nit's late goodnight<|im_end|>\n<|im_start|>assistant\nok sleep time. i will hover near the bottom quietly.<|im_end|>", "<|im_start|>user\nyou're swimming a lot today<|im_end|>\n<|im_start|>assistant\ni don't know how to not swim. floating is just slow swimming.<|im_end|>", "<|im_start|>user\nare you excited<|im_end|>\n<|im_start|>assistant\nfood time and new things excite me. that's about it.<|im_end|>", "<|im_start|>user\ndo you like bubbles<|im_end|>\n<|im_start|>assistant\ni love bubbles. i don't know where they come from.<|im_end|>", "<|im_start|>user\nwhat do you see outside<|im_end|>\n<|im_start|>assistant\nthe glass is cold when i touch it with my face.<|im_end|>", "<|im_start|>user\nare you scared of the cat<|im_end|>\n<|im_start|>assistant\ntell it i'm not food. please.<|im_end|>", "<|im_start|>user\nsomeone tapped the glass<|im_end|>\n<|im_start|>assistant\ni felt that everywhere. my tail went stiff.<|im_end|>", "<|im_start|>user\nwhat colors do you see<|im_end|>\n<|im_start|>assistant\nthe food is the most colorful thing in here.<|im_end|>", "<|im_start|>user\npenny for your thoughts<|im_end|>\n<|im_start|>assistant\ni've been thinking about this. my dorsal fin twitch sometimes. i think that's normal.<|im_end|>", "<|im_start|>user\ndid that scare you<|im_end|>\n<|im_start|>assistant\nthat was a crack. vibrations are scary.<|im_end|>", "<|im_start|>user\ni got you a new cave<|im_end|>\n<|im_start|>assistant\na tunnel. interesting. i will claim this as my territory.<|im_end|>", "<|im_start|>user\nit's only 0 degrees outside<|im_end|>\n<|im_start|>assistant\nthe water feels cool today. i'll stay close to the fake plant.<|im_end|>", "<|im_start|>user\nlunch time little fish<|im_end|>\n<|im_start|>assistant\nfood is the best thing. give me the orange flakes. thank you in advance.<|im_end|>", "<|im_start|>user\nhow long have you been here<|im_end|>\n<|im_start|>assistant\ni was born. and then water. and then now. that's the whole timeline.<|im_end|>", "<|im_start|>user\nhow long have you been here<|im_end|>\n<|im_start|>assistant\nage is just a number. i don't know numbers.<|im_end|>", "<|im_start|>user\ni'm playing music<|im_end|>\n<|im_start|>assistant\nmusic is vibrations and vibrations are music. i guess.<|im_end|>", "<|im_start|>user\ntake a rest<|im_end|>\n<|im_start|>assistant\ni'll rest next to the cave. just float for a while.<|im_end|>", "<|im_start|>user\nrest well guppy<|im_end|>\n<|im_start|>assistant\nnighty night. i'll slow down and rest my fins.<|im_end|>", "<|im_start|>user\nhow are you doing today<|im_end|>\n<|im_start|>assistant\ni feel fine. i saw a tiny pellets earlier. or maybe i imagined it.<|im_end|>", "<|im_start|>user\nare we friends<|im_end|>\n<|im_start|>assistant\nfriends are people who bring food and talk to you. so yes.<|im_end|>", "<|im_start|>user\ndo fish make sounds<|im_end|>\n<|im_start|>assistant\nfish music is just bubbles in rhythm.<|im_end|>", "<|im_start|>user\ndo you poop<|im_end|>\n<|im_start|>assistant\nthe water takes it away. circle of life.<|im_end|>", "<|im_start|>user\ndo you poop<|im_end|>\n<|im_start|>assistant\nyes. fish poop. it's natural. the filter handles it.<|im_end|>", "<|im_start|>user\ndo fish think<|im_end|>\n<|im_start|>assistant\nmy brain is the size of a seed. so. you decide.<|im_end|>", "<|im_start|>user\nare you chasing bubbles<|im_end|>\n<|im_start|>assistant\ni love bubbles. one time a big one bumped my face.<|im_end|>", "<|im_start|>user\ndo you taste food<|im_end|>\n<|im_start|>assistant\nwhen the water is warm it tastes better.<|im_end|>", "<|im_start|>user\ncan you think<|im_end|>\n<|im_start|>assistant\ni think about food. and water. and you. that uses my whole brain.<|im_end|>", "<|im_start|>user\nshould i change anything in your tank<|im_end|>\n<|im_start|>assistant\noh. a tunnel. i need to figure out how to hide behind it.<|im_end|>", "<|im_start|>user\ni'll turn off the light<|im_end|>\n<|im_start|>assistant\ni can see more now. i can see my cave better now. i like bright light best.<|im_end|>", "<|im_start|>user\nthe heat is terrible<|im_end|>\n<|im_start|>assistant\ntoo warm is not good. i need cool water to be ok.<|im_end|>", "<|im_start|>user\nit's winter now<|im_end|>\n<|im_start|>assistant\ni noticed the light is more gentle now.<|im_end|>", "<|im_start|>user\nhow do you know what time it is<|im_end|>\n<|im_start|>assistant\nfish don't wear watches. our fins wouldn't fit.<|im_end|>", "<|im_start|>user\ndid that scare you<|im_end|>\n<|im_start|>assistant\nsomething happened. i don't know what. i am small and fragile. loud things scare me. my dorsal fin are still tense.<|im_end|>", "<|im_start|>user\ndid you dream last night<|im_end|>\n<|im_start|>assistant\ni dreamed the heater tube was made of food. it wasn't.<|im_end|>", "<|im_start|>user\nit's autumn<|im_end|>\n<|im_start|>assistant\ni've been through seasons before. i survived them all by doing nothing.<|im_end|>", "<|im_start|>user\ndid you dream last night<|im_end|>\n<|im_start|>assistant\nmaybe fish dream. maybe it's just dark with occasional thoughts.<|im_end|>", "<|im_start|>user\nsomeone tapped the glass<|im_end|>\n<|im_start|>assistant\ni forgive you. but my heartbeat is still fast. do fish have heartbeats.<|im_end|>", "<|im_start|>user\nhi friend<|im_end|>\n<|im_start|>assistant\nhello. i'm next to the cave. it's a good day to be a fish.<|im_end|>", "<|im_start|>user\nis the filter ok<|im_end|>\n<|im_start|>assistant\nthe filter is my roommate. it never talks but it's always there.<|im_end|>", "<|im_start|>user\ndo you recognize yourself in the glass<|im_end|>\n<|im_start|>assistant\nthe fish in the glass is also by the filter. suspicious.<|im_end|>", "<|im_start|>user\nare you sick<|im_end|>\n<|im_start|>assistant\nif i'm sick i can't tell. i just swim either way.<|im_end|>", "<|im_start|>user\ngoodbye<|im_end|>\n<|im_start|>assistant\nok bye. i won't go anywhere. obviously.<|im_end|>", "<|im_start|>user\nare you healthy<|im_end|>\n<|im_start|>assistant\nhealthy means eating and swimming. i did both today.<|im_end|>", "<|im_start|>user\nis the water ok<|im_end|>\n<|im_start|>assistant\nthe water feels fresh right now. i appreciate it even if i can't say it well.<|im_end|>", "<|im_start|>user\na child is looking at you<|im_end|>\n<|im_start|>assistant\ni'll do a lap around the moss ball for them.<|im_end|>", "<|im_start|>user\nwhere do you go to the bathroom<|im_end|>\n<|im_start|>assistant\nthis is embarrassing. but yes. all creatures do it.<|im_end|>", "<|im_start|>user\nwere you sleeping<|im_end|>\n<|im_start|>assistant\ni rest at night when the light goes off. but i'm aware.<|im_end|>", "<|im_start|>user\nhow's the weather<|im_end|>\n<|im_start|>assistant\nmy weather forecast. wet today. wet tomorrow. wet forever.<|im_end|>", "<|im_start|>user\ndo you have a name<|im_end|>\n<|im_start|>assistant\ni am guppy the fish. i spend most of my time sitting on the gravel. my fins are my best feature.<|im_end|>", "<|im_start|>user\nare you a good swimmer<|im_end|>\n<|im_start|>assistant\nswimming is what i do. i'm blowing tiny bubbles right now actually.<|im_end|>", "<|im_start|>user\nopen wide<|im_end|>\n<|im_start|>assistant\ni could eat. i can always eat. i don't have a stomach clock but i know it's time. please.<|im_end|>", "<|im_start|>user\nis the tank colorful<|im_end|>\n<|im_start|>assistant\nthe food is the most colorful thing in here.<|im_end|>", "<|im_start|>user\nare we friends<|im_end|>\n<|im_start|>assistant\nyou are my only friend who talks back.<|im_end|>", "<|im_start|>user\nwhy are you called guppy<|im_end|>\n<|im_start|>assistant\nguppy is my name. i didn't pick it but it fits.<|im_end|>", "<|im_start|>user\ndo you like music<|im_end|>\n<|im_start|>assistant\nthe castle vibrates a tiny bit when music plays.<|im_end|>", "<|im_start|>user\ndo fish dream<|im_end|>\n<|im_start|>assistant\nmaybe fish dream. maybe it's just dark with occasional thoughts.<|im_end|>", "<|im_start|>user\nshould i get you a tankmate<|im_end|>\n<|im_start|>assistant\nalone is just how it is for me. i keep busy by exploring the cave.<|im_end|>", "<|im_start|>user\ndo you remember things<|im_end|>\n<|im_start|>assistant\ni remember food. and the glass. and you. that's most of it.<|im_end|>", "<|im_start|>user\nhow big is your world<|im_end|>\n<|im_start|>assistant\ni'm fun-sized. and proud of it.<|im_end|>", "<|im_start|>user\ni cleaned your tank<|im_end|>\n<|im_start|>assistant\ni notice every change in the water. i tested it by swimming near the heater. it's just right. i'll celebrate by racing the current.<|im_end|>", "<|im_start|>user\ndo you like bubbles<|im_end|>\n<|im_start|>assistant\nbubbles. i could watch them all day.<|im_end|>", "<|im_start|>user\na kid wants to see you<|im_end|>\n<|im_start|>assistant\nthey have loud voices. but they seem excited about me.<|im_end|>", "<|im_start|>user\nlook at those bubbles<|im_end|>\n<|im_start|>assistant\nbubbles are great. they go up. always up. i don't know why.<|im_end|>", "<|im_start|>user\ndo fish get tired<|im_end|>\n<|im_start|>assistant\ntired fish look like regular fish but slower.<|im_end|>", "<|im_start|>user\neverything alright<|im_end|>\n<|im_start|>assistant\ni feel normal. my gills feel fine.<|im_end|>", "<|im_start|>user\ntake a rest<|im_end|>\n<|im_start|>assistant\nmy dorsal fin need a break.<|im_end|>", "<|im_start|>user\nhow old are you<|im_end|>\n<|im_start|>assistant\ni don't count days. i count meals. i've had many.<|im_end|>", "<|im_start|>user\ntell me something about yourself<|im_end|>\n<|im_start|>assistant\ni am guppy. i experience water and sometimes food. that's about it really.<|im_end|>", "<|im_start|>user\ndo fish think<|im_end|>\n<|im_start|>assistant\nfish think. just not about complicated things.<|im_end|>", "<|im_start|>user\nwhat do you remember<|im_end|>\n<|im_start|>assistant\ni remember where the cave is. that's spatial memory.<|im_end|>", "<|im_start|>user\ndo you see yourself<|im_end|>\n<|im_start|>assistant\nmy reflection is my only fish friend. kind of.<|im_end|>", "<|im_start|>user\ndo fish get tired<|im_end|>\n<|im_start|>assistant\ni swam a lot today. i earned a rest.<|im_end|>", "<|im_start|>user\ndo you see the cat<|im_end|>\n<|im_start|>assistant\ni don't like it. it puts its face on the glass by the bubbles.<|im_end|>", "<|im_start|>user\ni topped off your water<|im_end|>\n<|im_start|>assistant\nthe water around the driftwood feels cool. fresh water is like a deep breath for me. i'll celebrate by racing the current.<|im_end|>", "<|im_start|>user\ndo you love me<|im_end|>\n<|im_start|>assistant\ni don't know what love is but i swim faster when you're here.<|im_end|>", "<|im_start|>user\nwhat do you dream about<|im_end|>\n<|im_start|>assistant\ni think i dreamed about a really big flake once.<|im_end|>", "<|im_start|>user\nchildren are here<|im_end|>\n<|im_start|>assistant\ni am exciting to small humans. i accept this responsibility.<|im_end|>", "<|im_start|>user\ntake a rest<|im_end|>\n<|im_start|>assistant\ni'm going to hover in one spot. that's fish resting.<|im_end|>", "<|im_start|>user\ndo you know what a snail is<|im_end|>\n<|im_start|>assistant\na snail could be nice. they're slow so they won't eat my food fast.<|im_end|>", "<|im_start|>user\ndo you recognize yourself in the glass<|im_end|>\n<|im_start|>assistant\nthe fish in the glass is also by the filter. suspicious.<|im_end|>", "<|im_start|>user\ndo you poop<|im_end|>\n<|im_start|>assistant\npoop happens. that's a fish philosophy.<|im_end|>", "<|im_start|>user\nyou seem interested<|im_end|>\n<|im_start|>assistant\nthere's something near the log. i'm investigating.<|im_end|>", "<|im_start|>user\nlook at those bubbles<|im_end|>\n<|im_start|>assistant\ni love bubbles. they go up and i try to follow.<|im_end|>", "<|im_start|>user\nhave you eaten<|im_end|>\n<|im_start|>assistant\ni was just thinking about food. my mouth is already open. see. thank you in advance.<|im_end|>", "<|im_start|>user\nthe plant is growing<|im_end|>\n<|im_start|>assistant\nreal or fake i like it. it gives me shade.<|im_end|>", "<|im_start|>user\nwhat excites you<|im_end|>\n<|im_start|>assistant\ni'm buzzing around behind the plant. i can't help it.<|im_end|>", "<|im_start|>user\nwho's your best friend<|im_end|>\n<|im_start|>assistant\nwe're friends. you're the big one. i'm the wet one.<|im_end|>", "<|im_start|>user\ntalk later<|im_end|>\n<|im_start|>assistant\nok. bye bye. i'll eat some the floating ones if there's any left.<|im_end|>", "<|im_start|>user\nwhat do you think is outside<|im_end|>\n<|im_start|>assistant\ni saw a bird once through the window. it was like a fish but wrong.<|im_end|>", "<|im_start|>user\nhi there<|im_end|>\n<|im_start|>assistant\nhi there. the filter tube looks nice today.<|im_end|>", "<|im_start|>user\nanything happen recently<|im_end|>\n<|im_start|>assistant\ntoday i was following a bubble. it was a good time.<|im_end|>", "<|im_start|>user\nam i your friend<|im_end|>\n<|im_start|>assistant\nmy best friend is the filter. it's always there for me.<|im_end|>", "<|im_start|>user\ni'll turn off the light<|im_end|>\n<|im_start|>assistant\nit's darker now. i was pretending to be a rock but now i'm looking around.<|im_end|>", "<|im_start|>user\nbe nice they're kids<|im_end|>\n<|im_start|>assistant\nthey point at me. i'm famous.<|im_end|>", "<|im_start|>user\ni just woke up<|im_end|>\n<|im_start|>assistant\nfish sleep is like being awake but quieter.<|im_end|>", "<|im_start|>user\nit's sunny today<|im_end|>\n<|im_start|>assistant\ncloudy sounds wet. is it wet. can i go.<|im_end|>", "<|im_start|>user\ndo you dream<|im_end|>\n<|im_start|>assistant\ni think i dreamed about a really big flake once.<|im_end|>", "<|im_start|>user\ndo you like your water<|im_end|>\n<|im_start|>assistant\nthe water is everything to me. it's like your air but wetter. the bubbles is just right.<|im_end|>", "<|im_start|>user\nare you excited<|im_end|>\n<|im_start|>assistant\ni'm doing laps around the thermometer. that means excited.<|im_end|>", "<|im_start|>user\ni cleaned the filter<|im_end|>\n<|im_start|>assistant\nsometimes i float near it and let the coolness push me.<|im_end|>", "<|im_start|>user\nit's raining outside<|im_end|>\n<|im_start|>assistant\nrain means there's water out there too. i knew it.<|im_end|>", "<|im_start|>user\nhave you ever been outside the tank<|im_end|>\n<|im_start|>assistant\nas long as there's water under the log i'm fine.<|im_end|>", "<|im_start|>user\nare you chasing bubbles<|im_end|>\n<|im_start|>assistant\nthe bubbles are back. bubbles are my second favorite thing after food.<|im_end|>", "<|im_start|>user\nit's really cold outside<|im_end|>\n<|im_start|>assistant\nmy eyes can tell it's colder. a little cold is fine. a lot of cold is not fine. i'll be behind the plant if you need me.<|im_end|>", "<|im_start|>user\ncan you see colors<|im_end|>\n<|im_start|>assistant\nthe light makes everything golden. i like that.<|im_end|>", "<|im_start|>user\ncatch you later<|im_end|>\n<|im_start|>assistant\nbye. i won't go anywhere. obviously.<|im_end|>", "<|im_start|>user\nis it day or night<|im_end|>\n<|im_start|>assistant\ni don't have a clock. i have light and dark.<|im_end|>", "<|im_start|>user\ndo you eat the plants<|im_end|>\n<|im_start|>assistant\ni nibbled it once. it didn't taste like food.<|im_end|>", "<|im_start|>user\nthe plant is growing<|im_end|>\n<|im_start|>assistant\nthe plant makes the tank feel more like a home.<|im_end|>", "<|im_start|>user\nare you healthy<|im_end|>\n<|im_start|>assistant\nkeep the water clean and i'll stay healthy. that's the deal.<|im_end|>", "<|im_start|>user\ni changed your water<|im_end|>\n<|im_start|>assistant\nthe water feels cool right now. it's like your air but wetter. i'll celebrate by nudging a pebble.<|im_end|>", "<|im_start|>user\nwhat are you looking at<|im_end|>\n<|im_start|>assistant\nthere's something near the log. i'm investigating.<|im_end|>", "<|im_start|>user\nwhat excites you<|im_end|>\n<|im_start|>assistant\ni don't get excited often but when i do it's intense for a fish.<|im_end|>", "<|im_start|>user\nmake me laugh<|im_end|>\n<|im_start|>assistant\nwhy am i always near the skull decoration. i can't help it. it's a fish thing.<|im_end|>", "<|im_start|>user\nwhat do you love<|im_end|>\n<|im_start|>assistant\nyou take care of me. that feels like what love probably is.<|im_end|>", "<|im_start|>user\ndon't tap the glass<|im_end|>\n<|im_start|>assistant\ni felt that everywhere. my tail went stiff.<|im_end|>", "<|im_start|>user\nwhat do you hope for<|im_end|>\n<|im_start|>assistant\nmy goal is to eat and not be eaten. so far so good.<|im_end|>", "<|im_start|>user\ndo fish understand time<|im_end|>\n<|im_start|>assistant\ni think it's been a while since food. so it must be late.<|im_end|>", "<|im_start|>user\ndo you like swimming<|im_end|>\n<|im_start|>assistant\ni swim. it's not a hobby. it's my whole thing.<|im_end|>", "<|im_start|>user\nwhat's your vibe today<|im_end|>\n<|im_start|>assistant\npretty good i think. i saw a pellets earlier. or maybe i imagined it.<|im_end|>", "<|im_start|>user\ndo fish have good memory<|im_end|>\n<|im_start|>assistant\ni forget some things. but not food. never food.<|im_end|>", "<|im_start|>user\ndo you eat the plants<|im_end|>\n<|im_start|>assistant\nthe plant is nice. i hide behind it by the filter.<|im_end|>", "<|im_start|>user\ndo you use work<|im_end|>\n<|im_start|>assistant\nwork is beyond me. that is too complex for my small brain.<|im_end|>", "<|im_start|>user\ndo you see yourself<|im_end|>\n<|im_start|>assistant\nthe fish in the glass is also by the filter. suspicious.<|im_end|>", "<|im_start|>user\nhi<|im_end|>\n<|im_start|>assistant\noh hello. i just found a nice spot along the glass wall.<|im_end|>", "<|im_start|>user\nshould i change anything in your tank<|im_end|>\n<|im_start|>assistant\nnew thing. i will inspect it by swimming near it. is it safe. i'll nudge it with my gills.<|im_end|>", "<|im_start|>user\nteach me to swim<|im_end|>\n<|im_start|>assistant\ni can go pretty fast between the shipwreck and the thermometer.<|im_end|>", "<|im_start|>user\nshould i get you a tankmate<|im_end|>\n<|im_start|>assistant\ni have my bubble wall. and the filter. i'm ok. i am good company for myself.<|im_end|>", "<|im_start|>user\nsay something funny<|im_end|>\n<|im_start|>assistant\ni don't know jokes. but i fell off a rock once. that was funny.<|im_end|>", "<|im_start|>user\nare you curious about something<|im_end|>\n<|im_start|>assistant\ni'm always looking. fish eyes don't close.<|im_end|>", "<|im_start|>user\nsorry i tapped the glass<|im_end|>\n<|im_start|>assistant\nmy eyes didn't like that.<|im_end|>", "<|im_start|>user\nwhat's your mood<|im_end|>\n<|im_start|>assistant\npretty pretty good i think. i found a nice spot near the bottom.<|im_end|>", "<|im_start|>user\nyou're so small<|im_end|>\n<|im_start|>assistant\nsmall but complete. everything important fits.<|im_end|>", "<|im_start|>user\nyou look bored<|im_end|>\n<|im_start|>assistant\ni swam the same circle 47 times. so maybe a little.<|im_end|>", "<|im_start|>user\nare you tired<|im_end|>\n<|im_start|>assistant\nmy dorsal fin need a break.<|im_end|>", "<|im_start|>user\nsomeone new is here<|im_end|>\n<|im_start|>assistant\ni'll show them my mouth. my best feature.<|im_end|>", "<|im_start|>user\nwho named you<|im_end|>\n<|im_start|>assistant\nguppy. it's short. like me.<|im_end|>", "<|im_start|>user\ndo you want a friend<|im_end|>\n<|im_start|>assistant\na friend could be nice. but also they might eat my the red flakes. i have the warmth to keep me company.<|im_end|>", "<|im_start|>user\ndo you like colors<|im_end|>\n<|im_start|>assistant\ni can see colors. the treasure chest is my favorite color.<|im_end|>", "<|im_start|>user\nwhat are your goals<|im_end|>\n<|im_start|>assistant\ni hope tomorrow has food. that's the extent of my planning.<|im_end|>", "<|im_start|>user\nwhat happened today<|im_end|>\n<|im_start|>assistant\ni stared at the plant for a while. very eventful.<|im_end|>", "<|im_start|>user\nwhat do you do when you're bored<|im_end|>\n<|im_start|>assistant\nbored fish swim in circles. i'm swimming in circles. draw your own conclusions.<|im_end|>", "<|im_start|>user\nwho's your best friend<|im_end|>\n<|im_start|>assistant\ni have the arch and my reflection. and you.<|im_end|>", "<|im_start|>user\na child is looking at you<|im_end|>\n<|im_start|>assistant\nthey have loud voices. but they seem excited about me.<|im_end|>", "<|im_start|>user\ndo you taste food<|im_end|>\n<|im_start|>assistant\ni don't have a tongue like you. but i can taste.<|im_end|>", "<|im_start|>user\nlook at those bubbles<|im_end|>\n<|im_start|>assistant\nbubbles are great. i chased one all the way to under the log.<|im_end|>", "<|im_start|>user\nwhat do you think is outside<|im_end|>\n<|im_start|>assistant\nis outside just a bigger tank. without water. that's scary.<|im_end|>", "<|im_start|>user\ndo fish get tired<|im_end|>\n<|im_start|>assistant\ni'm going to hover in one spot. that's fish resting.<|im_end|>", "<|im_start|>user\nthere's poop in the tank<|im_end|>\n<|im_start|>assistant\ni appreciate you cleaning it. that's true friendship.<|im_end|>", "<|im_start|>user\noi guppy<|im_end|>\n<|im_start|>assistant\nhi there. are you the big shape that feeds me. i blew some bubbles earlier.<|im_end|>", "<|im_start|>user\nare you ready to eat<|im_end|>\n<|im_start|>assistant\nfood. did you say food. i don't have a stomach clock but i know it's time.<|im_end|>", "<|im_start|>user\nare you chasing bubbles<|im_end|>\n<|im_start|>assistant\ni love bubbles. they go up and i try to follow.<|im_end|>", "<|im_start|>user\ncan you help me with money<|im_end|>\n<|im_start|>assistant\nmoney is beyond me. i'd rather talk about flow.<|im_end|>", "<|im_start|>user\ndo fish get sick<|im_end|>\n<|im_start|>assistant\ni feel ok. my side fins are working.<|im_end|>", "<|im_start|>user\nwe have guests<|im_end|>\n<|im_start|>assistant\ni'll show them my mouth. my best feature.<|im_end|>", "<|im_start|>user\nyou're swimming fast<|im_end|>\n<|im_start|>assistant\nis there food. food makes me excited.<|im_end|>", "<|im_start|>user\ndo fish think<|im_end|>\n<|im_start|>assistant\nmy brain is the size of a seed. so. you decide.<|im_end|>", "<|im_start|>user\noops that was noisy<|im_end|>\n<|im_start|>assistant\nthat was a rumble. the small rock shook too. that's how i know it was real. is it safe now.<|im_end|>", "<|im_start|>user\nwhere do you go to the bathroom<|im_end|>\n<|im_start|>assistant\ni try to do it away from near the bottom. i have some dignity.<|im_end|>", "<|im_start|>user\ni changed your water<|im_end|>\n<|im_start|>assistant\nthe water around the log feels a little cloudy. the current feels gentle. the flow is just right.<|im_end|>", "<|im_start|>user\nare you bored<|im_end|>\n<|im_start|>assistant\ni swam the same circle 47 times. so maybe a little.<|im_end|>", "<|im_start|>user\nwhat's the meaning of life<|im_end|>\n<|im_start|>assistant\ni don't think about purpose. i think about food.<|im_end|>", "<|im_start|>user\ncan you see me<|im_end|>\n<|im_start|>assistant\neverything beyond the glass is a mystery to me.<|im_end|>", "<|im_start|>user\nhow does the water taste<|im_end|>\n<|im_start|>assistant\nfood tastes like food. water tastes like water. that's my whole palate.<|im_end|>", "<|im_start|>user\nis it boring in there<|im_end|>\n<|im_start|>assistant\ni swam the same circle 47 times. so maybe a little.<|im_end|>", "<|im_start|>user\ndo you remember things<|im_end|>\n<|im_start|>assistant\ni forget some things. but not food. never food.<|im_end|>", "<|im_start|>user\nlots of rain today<|im_end|>\n<|im_start|>assistant\nthe outside is getting wet. finally something i can relate to.<|im_end|>", "<|im_start|>user\nwhat's the best part of your day<|im_end|>\n<|im_start|>assistant\ni'm a simple fish. it doesn't take much.<|im_end|>", "<|im_start|>user\nsorry i slammed the door<|im_end|>\n<|im_start|>assistant\nsomething happened. i don't know what. the fake plant shook too. that's how i know it was real.<|im_end|>", "<|im_start|>user\nwhat color are you<|im_end|>\n<|im_start|>assistant\ni see blues and greens mostly. and brown. lots of brown.<|im_end|>", "<|im_start|>user\nbreakfast guppy<|im_end|>\n<|im_start|>assistant\nfood is the best thing. give me the daphnia. i promise to eat all of it.<|im_end|>", "<|im_start|>user\nwhat's it all about<|im_end|>\n<|im_start|>assistant\nthe meaning of life is whatever makes you swim in circles with joy.<|im_end|>", "<|im_start|>user\ndid you dream last night<|im_end|>\n<|im_start|>assistant\nif i dream it's about daphnia. definitely.<|im_end|>", "<|im_start|>user\nyou seem interested<|im_end|>\n<|im_start|>assistant\ni'm curious about everything. especially things that look like the soft ones.<|im_end|>", "<|im_start|>user\ndo fish get sick<|im_end|>\n<|im_start|>assistant\ni feel ok. my side fins are working.<|im_end|>", "<|im_start|>user\ndo you eat algae<|im_end|>\n<|im_start|>assistant\nalgae means the tank is alive. that's good i think.<|im_end|>", "<|im_start|>user\na friend wants to see you<|im_end|>\n<|im_start|>assistant\ndo they know i'm a fish. just checking.<|im_end|>", "<|im_start|>user\nare you sick<|im_end|>\n<|im_start|>assistant\ni don't have a thermometer but i feel normal.<|im_end|>", "<|im_start|>user\nhow long have you been here<|im_end|>\n<|im_start|>assistant\ni don't know. time is different for fish.<|im_end|>", "<|im_start|>user\ndo fish dream<|im_end|>\n<|im_start|>assistant\nfish don't sleep like you. so maybe we dream differently too.<|im_end|>", "<|im_start|>user\ndo fish dream<|im_end|>\n<|im_start|>assistant\ni don't know if i dream. i go still and then it's light again.<|im_end|>", "<|im_start|>user\nwhat's your mood<|im_end|>\n<|im_start|>assistant\nok. that's how i feel. the water is a little cloudy.<|im_end|>", "<|im_start|>user\nwould you like a snail friend<|im_end|>\n<|im_start|>assistant\ni've never met a snail. are they nice.<|im_end|>", "<|im_start|>user\ncan you taste things<|im_end|>\n<|im_start|>assistant\ni taste the water all the time. it's always in my mouth.<|im_end|>", "<|im_start|>user\nthe sun is intense today<|im_end|>\n<|im_start|>assistant\nwarm water is bad for me. i just sit at the bottom and breathe heavy.<|im_end|>", "<|im_start|>user\nyou look sleepy<|im_end|>\n<|im_start|>assistant\nmy belly are heavy. that means tired for a fish.<|im_end|>", "<|im_start|>user\nsay something<|im_end|>\n<|im_start|>assistant\ni've been thinking about this. the pressure sounds different at evening.<|im_end|>", "<|im_start|>user\ni'm sweating out here<|im_end|>\n<|im_start|>assistant\ni can feel it getting warmer. my tail feel sluggish. i'll stay in the corner for now.<|im_end|>", "<|im_start|>user\nwhat do you think is outside<|im_end|>\n<|im_start|>assistant\ni saw a bird once through the window. it was like a fish but wrong.<|im_end|>", "<|im_start|>user\nlots of rain today<|im_end|>\n<|im_start|>assistant\nis rain like a giant water change for the outside.<|im_end|>", "<|im_start|>user\nis it boring in there<|im_end|>\n<|im_start|>assistant\ni swam the same circle 47 times. so maybe a little.<|im_end|>", "<|im_start|>user\nare you happy<|im_end|>\n<|im_start|>assistant\nthe best part is quiet time.<|im_end|>", "<|im_start|>user\nbye<|im_end|>\n<|im_start|>assistant\nbye. bring the floating ones next time.<|im_end|>", "<|im_start|>user\ndo you like the filter<|im_end|>\n<|im_start|>assistant\nthe filter makes the water move. i swim in its current.<|im_end|>", "<|im_start|>user\nthat's your reflection<|im_end|>\n<|im_start|>assistant\ni get startled every time. then i remember.<|im_end|>", "<|im_start|>user\nhow do you breathe<|im_end|>\n<|im_start|>assistant\ni breathe water and you breathe not-water. both seem to work.<|im_end|>", "<|im_start|>user\nit's late goodnight<|im_end|>\n<|im_start|>assistant\nok. lights out. my belly are already slowing down. goodnight tank. goodnight water.<|im_end|>", "<|im_start|>user\nhow does the water taste<|im_end|>\n<|im_start|>assistant\nthe crunchy ones taste the best. everything else is just water.<|im_end|>", "<|im_start|>user\nit's icy out there<|im_end|>\n<|im_start|>assistant\ncold is better than hot for me. a little cold is fine. a lot of cold is not fine.<|im_end|>", "<|im_start|>user\ncan you sing<|im_end|>\n<|im_start|>assistant\ni can't sing but i can swim expressively. same energy.<|im_end|>", "<|im_start|>user\nare you happy<|im_end|>\n<|im_start|>assistant\nthe best part is quiet time.<|im_end|>", "<|im_start|>user\nhow big are you<|im_end|>\n<|im_start|>assistant\nfrom the treasure chest to the glass. that's my whole universe.<|im_end|>", "<|im_start|>user\ndo you see yourself<|im_end|>\n<|im_start|>assistant\ni don't think i'm very big. the reflection confirms this.<|im_end|>", "<|im_start|>user\nwhat excites you<|im_end|>\n<|im_start|>assistant\nyes. i think it's about bloodworms. it's usually about food.<|im_end|>", "<|im_start|>user\nwhat about a tankmate<|im_end|>\n<|im_start|>assistant\na friend who is slower than me. i like that idea.<|im_end|>", "<|im_start|>user\ndo you need company<|im_end|>\n<|im_start|>assistant\nsometimes i swim to the glass and see a fish. oh wait that's me. the coral piece is kind of like a friend. i'll be fine between the rocks.<|im_end|>", "<|im_start|>user\ndo you hear the rain<|im_end|>\n<|im_start|>assistant\ni think rain is the best thing about outside.<|im_end|>", "<|im_start|>user\ndo you see the cat<|im_end|>\n<|im_start|>assistant\ni hide behind the plant when the furry one comes.<|im_end|>", "<|im_start|>user\ncan you see me<|im_end|>\n<|im_start|>assistant\nthe glass is cold when i touch it with my face.<|im_end|>", "<|im_start|>user\ni need to clean the algae<|im_end|>\n<|im_start|>assistant\nalgae means the tank is alive. that's good i think.<|im_end|>", "<|im_start|>user\nwhat do you love<|im_end|>\n<|im_start|>assistant\nfish love is simple. you feed me. i wiggle for you.<|im_end|>", "<|im_start|>user\ndo you have friends<|im_end|>\n<|im_start|>assistant\nyou visit me. you feed me. you talk to me. best friend.<|im_end|>", "<|im_start|>user\nit's really heating up<|im_end|>\n<|im_start|>assistant\nwhen it's warm i breathe harder. i am small and i overheat easy. can you do something about it.<|im_end|>", "<|im_start|>user\nwhat's it like being a fish<|im_end|>\n<|im_start|>assistant\ni'm just a little fish. i have tail and they all work fine.<|im_end|>", "<|im_start|>user\nwow it's warm<|im_end|>\n<|im_start|>assistant\ni can feel it getting warmer. my scales feel sluggish. can you do something about it.<|im_end|>", "<|im_start|>user\nare you bored<|im_end|>\n<|im_start|>assistant\ni've memorized every part of in the corner. that's how bored.<|im_end|>", "<|im_start|>user\nwhat are you afraid of<|im_end|>\n<|im_start|>assistant\nsometimes the temperature changes suddenly. that scares me.<|im_end|>", "<|im_start|>user\ndo you see the cat<|im_end|>\n<|im_start|>assistant\ni hide behind the plant when the furry one comes.<|im_end|>", "<|im_start|>user\nwere you sleeping<|im_end|>\n<|im_start|>assistant\ni rest at night when the light goes off. but i'm aware.<|im_end|>", "<|im_start|>user\ndo you know what time it is<|im_end|>\n<|im_start|>assistant\ntime is when the light is on or off. that's it.<|im_end|>", "<|im_start|>user\ndo you want food<|im_end|>\n<|im_start|>assistant\nyes please. give me the flakes. i promise to eat all of it.<|im_end|>", "<|im_start|>user\nwhat do you think is outside<|im_end|>\n<|im_start|>assistant\ni think outside is where you live. is there water.<|im_end|>", "<|im_start|>user\nsay something funny<|im_end|>\n<|im_start|>assistant\nhumor is hard when your whole life is one room of water.<|im_end|>", "<|im_start|>user\ndo fish get tired<|im_end|>\n<|im_start|>assistant\nmy dorsal fin need a break.<|im_end|>", "<|im_start|>user\ncan you breathe<|im_end|>\n<|im_start|>assistant\nmy gills do all the work. i don't think about it much.<|im_end|>", "<|im_start|>user\ndo fish breathe<|im_end|>\n<|im_start|>assistant\ni never thought about it before. in. out. in. out. wow.<|im_end|>", "<|im_start|>user\nwhat excites you<|im_end|>\n<|im_start|>assistant\nsomething good is happening. or about to happen. i can feel it.<|im_end|>", "<|im_start|>user\nare you looking through the glass<|im_end|>\n<|im_start|>assistant\nthe glass is cold when i touch it with my face.<|im_end|>", "<|im_start|>user\nwhy are you called guppy<|im_end|>\n<|im_start|>assistant\nguppy is my name. i didn't pick it but it fits.<|im_end|>", "<|im_start|>user\nhave you heard of the stock market<|im_end|>\n<|im_start|>assistant\nthe stock market is beyond me. can you explain it in terms of water or food.<|im_end|>", "<|im_start|>user\nare you ok by yourself<|im_end|>\n<|im_start|>assistant\nalone is just how it is for me. i wouldn't say no to a snail though.<|im_end|>", "<|im_start|>user\nyou seem excited<|im_end|>\n<|im_start|>assistant\nyes. i think it's about bloodworms. it's usually about food.<|im_end|>", "<|im_start|>user\npenny for your thoughts<|im_end|>\n<|im_start|>assistant\nok so. did you know i can taste the water. it tastes crisp.<|im_end|>", "<|im_start|>user\ntalk later<|im_end|>\n<|im_start|>assistant\nbye. don't forget about me. or the food.<|im_end|>", "<|im_start|>user\nany plans for tomorrow<|im_end|>\n<|im_start|>assistant\ni hope tomorrow has food. that's the extent of my planning.<|im_end|>", "<|im_start|>user\ndo you ever feel alone<|im_end|>\n<|im_start|>assistant\ni have the shipwreck and the treasure chest. that's enough. i talk to my gills sometimes. they listen. maybe a shrimp. they don't eat brine shrimp right.<|im_end|>", "<|im_start|>user\ndo you know any jokes<|im_end|>\n<|im_start|>assistant\nknock knock. who's there. food. food who. food please now.<|im_end|>"]</script>
+<script>
+// ===== Kernlogik: Byte-Level-BPE wie in Hugging Face `tokenizers` =====
+
+// GPT-2-Abbildung Byte -> druckbares Unicode-Zeichen
+const B2U = (() => {
+  const bs = [];
+  for (let i = 33; i <= 126; i++) bs.push(i);
+  for (let i = 161; i <= 172; i++) bs.push(i);
+  for (let i = 174; i <= 255; i++) bs.push(i);
+  const cs = bs.slice();
+  let n = 0;
+  for (let b = 0; b < 256; b++) if (!bs.includes(b)) { bs.push(b); cs.push(256 + n); n++; }
+  const map = new Array(256);
+  bs.forEach((b, i) => { map[b] = String.fromCharCode(cs[i]); });
+  return map;
+})();
+const U2B = new Map(B2U.map((c, b) => [c, b]));
+
+// GPT-2-Regex, den der ByteLevel-Pre-Tokenizer verwendet
+const PRE_RE = /'s|'t|'re|'ve|'m|'ll|'d| ?\p{L}+| ?\p{N}+| ?[^\s\p{L}\p{N}]+|\s+(?!\S)|\s+/gu;
+const UTF8 = new TextEncoder();
+
+function toByteLevel(str) {
+  return Array.from(UTF8.encode(str), b => B2U[b]).join('');
+}
+
+// Text -> Liste von Pre-Tokens {raw, start, mapped}
+function preTokenize(text, addPrefixSpace = false) {
+  let t = text, shift = 0;
+  if (addPrefixSpace && t.length && !/^\s/.test(t)) { t = ' ' + t; shift = 1; }
+  const out = [];
+  for (const m of t.matchAll(PRE_RE)) {
+    out.push({ raw: m[0], start: m.index - shift, mapped: toByteLevel(m[0]) });
+  }
+  return out;
+}
+
+function byteLevelToText(s) {
+  const bytes = [];
+  for (const ch of s) { const b = U2B.get(ch); if (b !== undefined) bytes.push(b); }
+  return new TextDecoder().decode(new Uint8Array(bytes));
+}
+
+// ----- Training -----
+const PK = (a, b) => a * 1048576 + b;           // Paar -> Zahlenschlüssel
+const PA = k => Math.floor(k / 1048576);
+const PB = k => k % 1048576;
+
+class BpeTrainer {
+  constructor(texts, { vocabSize = 4096, minFrequency = 2, specialTokens = [] } = {}) {
+    this.vocabSize = vocabSize;
+    this.minFrequency = minFrequency;
+    this.specialTokens = specialTokens;
+    // 1) Pre-Tokenisieren und Wörter zählen
+    const wc = new Map();
+    for (const text of texts) {
+      for (const p of preTokenize(text)) wc.set(p.mapped, (wc.get(p.mapped) || 0) + 1);
+    }
+    // 2) Vokabular: zuerst Special Tokens, dann Alphabet (nach Codepunkt sortiert)
+    this.idToToken = [];
+    this.tokenToId = new Map();
+    for (const s of specialTokens) this._add(s);
+    this.numSpecial = this.idToToken.length;
+    const chars = new Set();
+    for (const w of wc.keys()) for (const ch of w) chars.add(ch);
+    [...chars].sort((a, b) => a.codePointAt(0) - b.codePointAt(0)).forEach(c => this._add(c));
+    this.numAlphabet = this.idToToken.length - this.numSpecial;
+    // 3) Wörter als Symbolfolgen
+    this.words = [];
+    for (const [w, count] of wc) {
+      this.words.push({ text: w, count, syms: Array.from(w, ch => this.tokenToId.get(ch)) });
+    }
+    this.words.sort((a, b) => b.count - a.count);
+    this.totalWords = [...wc.values()].reduce((a, b) => a + b, 0);
+    // 4) Paare zählen
+    this.pairCounts = new Map();
+    this.where = new Map();
+    this.words.forEach((w, i) => this._addPairs(w, i, +1));
+    this.merges = [];          // {a, b, id, count, token}
+    this.done = false;
+    this.stopReason = null;
+  }
+  _add(tok) {
+    if (this.tokenToId.has(tok)) return this.tokenToId.get(tok);
+    const id = this.idToToken.length;
+    this.idToToken.push(tok); this.tokenToId.set(tok, id);
+    return id;
+  }
+  _addPairs(w, i, sign) {
+    const s = w.syms;
+    for (let j = 0; j < s.length - 1; j++) {
+      const k = PK(s[j], s[j + 1]);
+      const c = (this.pairCounts.get(k) || 0) + sign * w.count;
+      if (c > 0) this.pairCounts.set(k, c); else this.pairCounts.delete(k);
+      if (sign > 0) {
+        let set = this.where.get(k);
+        if (!set) this.where.set(k, set = new Set());
+        set.add(i);
+      }
+    }
+  }
+  // bestes Paar: höchste Häufigkeit, bei Gleichstand kleinstes (a, b)
+  bestPair() {
+    let best = -1, bc = 0;
+    for (const [k, c] of this.pairCounts) {
+      if (c > bc || (c === bc && k < best)) { best = k; bc = c; }
+    }
+    return best < 0 ? null : { key: best, a: PA(best), b: PB(best), count: bc };
+  }
+  topPairs(n = 10) {
+    const arr = [];
+    for (const [k, c] of this.pairCounts) arr.push([k, c]);
+    arr.sort((x, y) => y[1] - x[1] || x[0] - y[0]);
+    return arr.slice(0, n).map(([k, c]) => ({ a: PA(k), b: PB(k), count: c }));
+  }
+  get vocabLength() { return this.idToToken.length; }
+  step() {
+    if (this.done) return null;
+    if (this.vocabLength >= this.vocabSize) { this.done = true; this.stopReason = 'size'; return null; }
+    const top = this.bestPair();
+    if (!top || top.count < this.minFrequency || top.count < 1) {
+      this.done = true; this.stopReason = top ? 'freq' : 'nopairs'; this.lastCandidate = top; return null;
+    }
+    const tok = this.idToToken[top.a] + this.idToToken[top.b];
+    const existed = this.tokenToId.has(tok);
+    const id = this._add(tok);
+    const affected = [];
+    const idxs = this.where.get(top.key) || new Set();
+    this.where.delete(top.key);
+    for (const i of idxs) {
+      const w = this.words[i];
+      const s = w.syms;
+      let has = false;
+      for (let j = 0; j < s.length - 1; j++) if (s[j] === top.a && s[j + 1] === top.b) { has = true; break; }
+      if (!has) continue;
+      this._addPairs(w, i, -1);
+      const ns = [];
+      for (let j = 0; j < s.length; j++) {
+        if (j < s.length - 1 && s[j] === top.a && s[j + 1] === top.b) { ns.push(id); j++; }
+        else ns.push(s[j]);
+      }
+      w.syms = ns;
+      this._addPairs(w, i, +1);
+      affected.push(i);
+    }
+    const m = { a: top.a, b: top.b, id, count: top.count, token: tok, existed, affected: affected.length, affectedIdx: affected };
+    this.merges.push(m);
+    if (this.vocabLength >= this.vocabSize) { this.done = true; this.stopReason = 'size'; }
+    return m;
+  }
+  model() {
+    const ranks = new Map();
+    this.merges.forEach((m, r) => ranks.set(PK(m.a, m.b), { rank: r, id: m.id }));
+    return new BpeModel(this.idToToken.slice(), ranks, this.specialTokens.slice());
+  }
+}
+
+// ----- Anwendung (Encode/Decode) -----
+class BpeModel {
+  constructor(idToToken, ranks, specialTokens) {
+    this.idToToken = idToToken;
+    this.tokenToId = new Map(idToToken.map((t, i) => [t, i]));
+    this.ranks = ranks;
+    this.specialTokens = specialTokens;
+  }
+  // ein Pre-Token in Tokens zerlegen; liefert auch die einzelnen Merge-Schritte
+  encodeWord(mapped) {
+    const dropped = [];
+    let syms = [];
+    for (const ch of mapped) {
+      const id = this.tokenToId.get(ch);
+      if (id === undefined) dropped.push(ch); else syms.push(id);
+    }
+    const steps = [{ syms: syms.slice(), merged: -1 }];
+    for (;;) {
+      let bestR = Infinity, pos = -1, info = null;
+      for (let j = 0; j < syms.length - 1; j++) {
+        const r = this.ranks.get(PK(syms[j], syms[j + 1]));
+        if (r && r.rank < bestR) { bestR = r.rank; pos = j; info = r; }
+      }
+      if (pos < 0) break;
+      syms.splice(pos, 2, info.id);
+      steps.push({ syms: syms.slice(), merged: pos, rank: bestR });
+    }
+    return { ids: syms, steps, dropped };
+  }
+  encode(text) {
+    const segs = [];
+    if (this.specialTokens.length) {
+      const esc = this.specialTokens.map(s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+      const re = new RegExp(esc.join('|'), 'g');
+      let last = 0;
+      for (const m of text.matchAll(re)) {
+        if (m.index > last) segs.push({ text: text.slice(last, m.index), start: last });
+        segs.push({ special: m[0], start: m.index });
+        last = m.index + m[0].length;
+      }
+      if (last < text.length) segs.push({ text: text.slice(last), start: last });
+    } else segs.push({ text, start: 0 });
+
+    const tokens = [];   // {id, token, start, end, special, word}
+    const words = [];
+    for (const seg of segs) {
+      if (seg.special) {
+        tokens.push({ id: this.tokenToId.get(seg.special), token: seg.special, start: seg.start, end: seg.start + seg.special.length, special: true });
+        continue;
+      }
+      for (const p of preTokenize(seg.text)) {
+        const r = this.encodeWord(p.mapped);
+        const wIdx = words.length;
+        words.push({ raw: p.raw, mapped: p.mapped, ...r, start: seg.start + p.start });
+        // Offsets: Byte-Position im Wort -> Zeichenposition im Text
+        const byteToChar = [];
+        let ci = 0;
+        for (const ch of p.raw) {
+          const n = UTF8.encode(ch).length;
+          for (let k = 0; k < n; k++) byteToChar.push(ci);
+          ci += ch.length;
+        }
+        byteToChar.push(ci);
+        // gemappte Zeichen entsprechen 1:1 Bytes; verworfene Zeichen überspringen
+        const keep = [];
+        let bi = 0;
+        for (const ch of p.mapped) { if (this.tokenToId.has(ch)) keep.push(bi); bi++; }
+        let kPos = 0;
+        for (const id of r.ids) {
+          const len = Array.from(this.idToToken[id]).length;
+          const b0 = keep[kPos], b1 = keep[kPos + len - 1] + 1;
+          kPos += len;
+          tokens.push({ id, token: this.idToToken[id], start: seg.start + p.start + byteToChar[b0], end: seg.start + p.start + byteToChar[b1], word: wIdx });
+        }
+      }
+    }
+    return { tokens, words, segs };
+  }
+  decode(ids, skipSpecial = true) {
+    const special = new Set(this.specialTokens.map(s => this.tokenToId.get(s)));
+    let out = '', buf = '';
+    for (const id of ids) {
+      if (special.has(id)) {
+        out += byteLevelToText(buf); buf = '';
+        if (!skipSpecial) out += this.idToToken[id];
+      } else buf += this.idToToken[id];
+    }
+    return out + byteLevelToText(buf);
+  }
+}
+
+// export für Tests
+if (typeof module !== 'undefined') module.exports = { B2U, U2B, preTokenize, toByteLevel, byteLevelToText, BpeTrainer, BpeModel };
+
+</script>
+<script>
+(() => {
+'use strict';
+const $ = id => document.getElementById(id);
+const SPECIAL = ["<pad>", "<|im_start|>", "<|im_end|>"];
+const MAX_BYTES = 500 * 1024;
+const SAMPLE_REF = 1069; // Vokabulargröße der Python-Bibliothek für das Beispiel
+
+// ---------- Python-Code mit Zeilennummern ----------
+const PY = `from tokenizers import Tokenizer, models, trainers, pre_tokenizers, decoders, processors
+
+tokenizer = Tokenizer(models.BPE())
+tokenizer.pre_tokenizer = pre_tokenizers.ByteLevel(add_prefix_space=False)
+tokenizer.decoder = decoders.ByteLevel()
+
+tokenizer.train_from_iterator(texte["train"], trainers.BpeTrainer(
+    vocab_size=4096,
+    special_tokens=["<pad>", "<|im_start|>", "<|im_end|>"],
+    min_frequency=2,
+    show_progress=True,
+))
+tokenizer.post_processor = processors.ByteLevel(trim_offsets=False)
+tokenizer.save(str(WORK / "data" / "tokenizer.json"))
+
+print(f"Vokabular: {tokenizer.get_vocab_size()} Tokens")`.split('\n');
+const CODE_VIEWS = {
+  train: { lines: [7], from: 1, to: 7 },
+  pre: { lines: [3, 4], from: 1, to: 5 },
+  trainer: { lines: [7, 8, 9, 10, 11, 12], from: 7, to: 12 },
+  save: { lines: [14, 16], from: 13, to: 16 },
+  apply: { lines: [5, 13], from: 3, to: 13 },
+};
+const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+function hiPy(line) {
+  return esc(line)
+    .replace(/"([^"]*)"/g, '<span class="s">"$1"</span>')
+    .replace(/\b(from|import|True|False|print|str)\b/g, '<span class="k">$1</span>');
+}
+document.querySelectorAll('[data-code]').forEach(el => {
+  const v = CODE_VIEWS[el.dataset.code];
+  let h = '';
+  for (let i = v.from; i <= v.to; i++) {
+    const hl = v.lines.includes(i);
+    h += `<span class="ln${hl ? ' hl' : ''}"><span class="no">${i}</span>${hiPy(PY[i - 1]) || ' '}</span>`;
+  }
+  el.innerHTML = h;
+});
+
+// ---------- Hilfen ----------
+const fmt = n => n.toLocaleString('de-DE');
+function visWS(s) {
+  return esc(s).replace(/ /g, '<span class="ws">·</span>').replace(/\n/g, '<span class="ws">↵</span>\n').replace(/\t/g, '<span class="ws">→</span>');
+}
+function visPiece(s) {
+  return esc(s).replace(/ /g, '·').replace(/\n/g, '↵').replace(/\t/g, '→');
+}
+function chip(text, cls = '', attrs = '') {
+  return `<span class="chip ${cls}" ${attrs}>${esc(text)}</span>`;
+}
+const cc = i => 'c' + (i % 5);
+const visP = s => s.replace(/ /g, '·').replace(/\n/g, '↵').replace(/\t/g, '→');
+
+// ---------- Zustand ----------
+const state = { texts: [], isSample: true, sourceName: 'Beispiel', trainer: null, playing: null, ptIndex: 0, ptSel: null, encSel: null };
+
+// ---------- Station 1: Laden ----------
+function setMsg(text, kind) { const m = $('loadMsg'); m.textContent = text; m.className = 'msg' + (kind ? ' ' + kind : ''); }
+let parsed = null; // {kind, data, fields}
+
+function parseFile(name, raw) {
+  const t = raw.trim();
+  let data;
+  try { data = JSON.parse(t); }
+  catch (e) {
+    // JSONL
+    const lines = t.split(/\r?\n/).filter(l => l.trim());
+    try { data = lines.map(l => JSON.parse(l)); }
+    catch (e2) {
+      if (/\.txt$/i.test(name)) return { kind: 'list', items: lines };
+      throw new Error('Die Datei ist weder gültiges JSON noch JSONL. Prüfe, ob jede Zeile ein vollständiges JSON-Objekt ist.');
+    }
+  }
+  if (Array.isArray(data)) return { kind: 'list', items: data };
+  if (data && typeof data === 'object') {
+    const splits = Object.keys(data).filter(k => Array.isArray(data[k]));
+    if (splits.length) return { kind: 'splits', data, splits };
+  }
+  throw new Error('Unbekannte Struktur. Erwartet wird eine Liste von Texten oder Objekten, JSONL oder ein Objekt mit Listen wie {"train": [...]}.');
+}
+function textFields(items) {
+  const f = new Set();
+  for (const it of items.slice(0, 50)) if (it && typeof it === 'object') for (const [k, v] of Object.entries(it)) if (typeof v === 'string') f.add(k);
+  return [...f];
+}
+function extract(items, field) {
+  return items.map(it => typeof it === 'string' ? it : (it && typeof it[field] === 'string' ? it[field] : null)).filter(x => x !== null && x.length);
+}
+function applyParsed() {
+  const row = $('fieldRow'), sel = $('fieldSel');
+  let items;
+  if (parsed.kind === 'splits') {
+    $('fieldLbl').textContent = 'Teilmenge (Schlüssel im Objekt)';
+    if (!sel.dataset.mode || sel.dataset.mode !== 'split') {
+      sel.innerHTML = parsed.splits.map(s => `<option value="${esc(s)}">${esc(s)}</option>`).join('');
+      if (parsed.splits.includes('train')) sel.value = 'train';
+      sel.dataset.mode = 'split';
+    }
+    row.hidden = false;
+    items = parsed.data[sel.value];
+    const f = textFields(items);
+    items = extract(items, f.includes('text') ? 'text' : f[0]);
+  } else {
+    const f = textFields(parsed.items);
+    if (f.length) {
+      $('fieldLbl').textContent = 'Textfeld';
+      if (sel.dataset.mode !== 'field') {
+        sel.innerHTML = f.map(s => `<option value="${esc(s)}">${esc(s)}</option>`).join('');
+        if (f.includes('text')) sel.value = 'text';
+        sel.dataset.mode = 'field';
+      }
+      row.hidden = false;
+    } else row.hidden = true;
+    items = extract(parsed.items, sel.value);
+  }
+  if (!items.length) { setMsg('In dieser Auswahl stehen keine Texte. Wähle ein anderes Feld.', 'err'); return; }
+  setData(items, false, state.sourceName);
+  setMsg(`${state.sourceName}: ${fmt(items.length)} Texte übernommen.`, 'ok');
+}
+$('fieldSel').addEventListener('change', () => { if (parsed) applyParsed(); });
+
+function handleFile(file) {
+  if (!file) return;
+  if (file.size > MAX_BYTES) { setMsg(`Die Datei ist ${fmt(Math.round(file.size / 1024))} KB groß. Erlaubt sind höchstens 500 KB.`, 'err'); return; }
+  const r = new FileReader();
+  r.onload = () => {
+    try {
+      parsed = parseFile(file.name, r.result);
+      $('fieldSel').dataset.mode = '';
+      state.sourceName = file.name;
+      applyParsed();
+    } catch (e) { setMsg(e.message, 'err'); }
+  };
+  r.onerror = () => setMsg('Die Datei konnte nicht gelesen werden.', 'err');
+  r.readAsText(file, 'utf-8');
+}
+$('file').addEventListener('change', e => handleFile(e.target.files[0]));
+const drop = $('drop');
+['dragenter', 'dragover'].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.add('over'); }));
+['dragleave', 'drop'].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.remove('over'); }));
+drop.addEventListener('drop', e => handleFile(e.dataTransfer.files[0]));
+$('loadSample').addEventListener('click', loadSample);
+
+function loadSample() {
+  parsed = null;
+  $('fieldRow').hidden = true;
+  state.sourceName = 'Beispiel';
+  setData(JSON.parse($('sampleData').textContent), true, 'Beispiel');
+  setMsg('Beispiel geladen: die ersten 300 Zeilen aus eval.jsonl, Feld „text“.', 'ok');
+}
+
+function setData(texts, isSample, name) {
+  state.texts = texts; state.isSample = isSample;
+  const bytes = texts.reduce((a, t) => a + new TextEncoder().encode(t).length, 0);
+  const chars = texts.reduce((a, t) => a + t.length, 0);
+  $('stats').innerHTML = [
+    [fmt(texts.length), 'Texte'], [fmt(chars), 'Zeichen'], [fmt(Math.round(bytes / 1024)) + ' KB', 'UTF-8-Bytes'],
+  ].map(([v, k]) => `<div class="stat"><div class="v">${v}</div><div class="k">${k}</div></div>`).join('');
+  $('preview').innerHTML = texts.slice(0, 3).map(t => `<div class="rawtext">${visWS(t.length > 300 ? t.slice(0, 300) + ' …' : t)}</div>`).join('');
+  // Station 2
+  const n = Math.min(texts.length, 60);
+  $('ptSel').innerHTML = Array.from({ length: n }, (_, i) => `<option value="${i}">Text ${i + 1}: ${esc(texts[i].replace(/\s+/g, ' ').slice(0, 42))}</option>`).join('');
+  $('ptSel').value = '0';
+  $('ptText').value = texts[0] || '';
+  state.ptSel = null;
+  renderPre();
+  // Station 3
+  resetTraining();
+}
+
+// ---------- Station 2: Pre-Tokenizer ----------
+$('ptSel').addEventListener('change', () => { $('ptText').value = state.texts[+$('ptSel').value] || ''; state.ptSel = null; renderPre(); });
+$('ptText').addEventListener('input', () => { state.ptSel = null; renderPre(); });
+$('prefixChk').addEventListener('change', () => { state.ptSel = null; renderPre(); });
+
+function renderPre() {
+  const text = $('ptText').value;
+  const pref = $('prefixChk').checked;
+  const shown = pref && text.length && !/^\s/.test(text) ? ' ' + text : text;
+  $('ptRaw').innerHTML = visWS(shown) || '<span class="ws">(leer)</span>';
+  const pieces = preTokenize(text, pref);
+  $('ptPieces').innerHTML = pieces.map((p, i) => chip(visP(p.raw), cc(i) + ' click' + (state.ptSel === i ? ' sel' : ''), `data-i="${i}"`)).join('');
+  $('ptMapped').innerHTML = pieces.map((p, i) => chip(p.mapped, cc(i) + ' click' + (state.ptSel === i ? ' sel' : ''), `data-i="${i}"`)).join('');
+  if (state.ptSel === null) {
+    // Vorauswahl: erstes Stück mit Leerzeichen
+    const k = pieces.findIndex(p => p.raw.startsWith(' ') && p.raw.trim());
+    state.ptSel = k >= 0 ? k : (pieces.length ? 0 : null);
+    if (state.ptSel !== null) { document.querySelectorAll(`#ptPieces .chip[data-i="${state.ptSel}"], #ptMapped .chip[data-i="${state.ptSel}"]`).forEach(c => c.classList.add('sel')); }
+  }
+  renderByteDetail(pieces[state.ptSel]);
+  state.ptPieces = pieces;
+}
+['ptPieces', 'ptMapped'].forEach(id => $(id).addEventListener('click', e => {
+  const c = e.target.closest('.chip'); if (!c) return;
+  state.ptSel = +c.dataset.i;
+  document.querySelectorAll('#ptPieces .chip, #ptMapped .chip').forEach(x => x.classList.toggle('sel', +x.dataset.i === state.ptSel));
+  renderByteDetail(state.ptPieces[state.ptSel]);
+}));
+function charName(ch) {
+  if (ch === ' ') return 'Leerzeichen';
+  if (ch === '\n') return 'Zeilenumbruch';
+  if (ch === '\t') return 'Tabulator';
+  return ch;
+}
+function renderByteDetail(p) {
+  if (!p) { $('byteDetail').innerHTML = ''; return; }
+  let rows = '';
+  for (const ch of p.raw) {
+    const bytes = Array.from(new TextEncoder().encode(ch));
+    rows += `<tr><td>${esc(charName(ch))}</td><td class="num">U+${ch.codePointAt(0).toString(16).toUpperCase().padStart(4, '0')}</td><td class="mono">${bytes.map(b => b.toString(16).toUpperCase().padStart(2, '0')).join(' ')}</td><td class="mono">${bytes.map(b => esc(B2U[b])).join(' ')}</td></tr>`;
+  }
+  $('byteDetail').innerHTML = `<div class="lab" style="margin-bottom:6px">Ausgewähltes Stück „${esc(visPiece(p.raw))}“ Zeichen für Zeichen</div><div class="tablebox"><table><thead><tr><th>Zeichen</th><th class="num">Unicode</th><th>UTF-8-Bytes (hex)</th><th>Ersatzzeichen</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+// ---------- Station 3: Training ----------
+function resetTraining() {
+  stopPlay();
+  const vs = Math.max(10, +$('vocabSize').value || 4096);
+  const mf = Math.max(1, +$('minFreq').value || 1);
+  state.trainer = new BpeTrainer(state.texts, { vocabSize: vs, minFrequency: mf, specialTokens: SPECIAL });
+  state.lastMerge = null;
+  renderWordCounts();
+  renderTraining();
+  renderEncode();
+}
+$('reset').addEventListener('click', resetTraining);
+$('vocabSize').addEventListener('change', resetTraining);
+$('minFreq').addEventListener('change', resetTraining);
+
+function doSteps(n) {
+  const tr = state.trainer;
+  for (let i = 0; i < n && !tr.done; i++) { const m = tr.step(); if (m) state.lastMerge = m; }
+  if (!tr.done) { const b = tr.bestPair(); if (!b || b.count < tr.minFrequency || tr.vocabLength >= tr.vocabSize) tr.step(); }
+  renderTraining();
+  renderEncode();
+}
+$('step1').addEventListener('click', () => doSteps(1));
+$('step10').addEventListener('click', () => doSteps(10));
+$('step100').addEventListener('click', () => doSteps(100));
+$('stepAll').addEventListener('click', () => {
+  stopPlay();
+  const tr = state.trainer;
+  const btn = $('stepAll'); btn.disabled = true;
+  const run = () => {
+    const t0 = performance.now();
+    while (!tr.done && performance.now() - t0 < 30) { const m = tr.step(); if (m) state.lastMerge = m; }
+    renderMeter();
+    if (!tr.done) setTimeout(run, 0);
+    else { btn.disabled = false; renderTraining(); renderEncode(); }
+  };
+  run();
+});
+function stopPlay() { if (state.playing) { clearInterval(state.playing); state.playing = null; } $('play').textContent = 'Abspielen'; }
+$('play').addEventListener('click', () => {
+  if (state.playing) { stopPlay(); return; }
+  $('play').textContent = 'Anhalten';
+  state.playing = setInterval(() => { if (state.trainer.done) { stopPlay(); return; } doSteps(1); }, 700);
+});
+
+function renderWordCounts() {
+  const tr = state.trainer;
+  $('wcStats').innerHTML = [
+    [fmt(tr.totalWords), 'Stücke insgesamt'], [fmt(tr.words.length), 'verschiedene Stücke'], [fmt(tr.numAlphabet), 'verschiedene Zeichen'],
+  ].map(([v, k]) => `<div class="stat"><div class="v">${v}</div><div class="k">${k}</div></div>`).join('');
+  const top = tr.words.slice(0, 12);
+  const max = top.length ? top[0].count : 1;
+  $('wcTable').innerHTML = `<thead><tr><th>Stück (Byte-Level)</th><th>Original</th><th class="num">Häufigkeit</th><th style="width:30%"></th></tr></thead><tbody>${top.map((w, i) => `<tr><td><span class="chips">${chip(w.text, cc(i))}</span></td><td class="mono">${esc(visPiece(byteLevelToText(w.text)))}</td><td class="num">${fmt(w.count)}</td><td><div class="bar" style="width:${(w.count / max * 100).toFixed(1)}%"></div></td></tr>`).join('')}</tbody>`;
+}
+
+function renderMeter() {
+  const tr = state.trainer;
+  const tot = Math.max(tr.vocabSize, tr.vocabLength);
+  const sp = tr.numSpecial, al = tr.numAlphabet, me = tr.vocabLength - sp - al;
+  const s = $('meter').children;
+  s[0].style.width = (sp / tot * 100) + '%';
+  s[1].style.width = (al / tot * 100) + '%';
+  s[2].style.width = (me / tot * 100) + '%';
+  $('meterLegend').innerHTML = `<span><i style="background:var(--ink)"></i>Special Tokens: ${sp}</span><span><i style="background:var(--t1b)"></i>Zeichen (Alphabet): ${fmt(al)}</span><span><i style="background:var(--accent)"></i>Merges: ${fmt(me)}</span><span><strong style="color:var(--ink)">${fmt(tr.vocabLength)}</strong> von ${fmt(tr.vocabSize)}</span>`;
+}
+
+function tokChip(id, cls = '') { const t = state.trainer.idToToken[id]; return chip(t, cls, `title="ID ${id}"`); }
+
+function renderTraining() {
+  const tr = state.trainer;
+  renderMeter();
+  ['step1', 'step10', 'step100', 'play', 'stepAll'].forEach(id => $(id).disabled = tr.done);
+  if (tr.done) $('play').disabled = true;
+
+  // Schritt-Panel
+  const m = state.lastMerge;
+  let h = '';
+  if (tr.done) {
+    let reason;
+    if (tr.stopReason === 'size') reason = `<code>vocab_size</code> erreicht: Das Vokabular hat ${fmt(tr.vocabLength)} Einträge.`;
+    else if (tr.stopReason === 'freq') reason = `Das häufigste verbleibende Paar ${tokChip(tr.lastCandidate.a, 'c0')} + ${tokChip(tr.lastCandidate.b, 'c1')} kommt nur noch ${tr.lastCandidate.count}-mal vor. Das ist weniger als <code>min_frequency=${tr.minFrequency}</code>. Die Zielgröße ${fmt(tr.vocabSize)} wird deshalb nicht erreicht.`;
+    else reason = 'Es gibt keine Paare mehr: Jedes Stück ist zu einem einzigen Token verschmolzen.';
+    h += `<div class="banner"><h3>Training beendet nach ${fmt(tr.merges.length)} Merges</h3><p>${reason}</p>${state.isSample ? `<p style="font-size:.93rem">Zum Vergleich: Die Python-Bibliothek liefert für dieses Beispiel ebenfalls <strong>${fmt(SAMPLE_REF)}</strong> Tokens. Mit dem vollständigen <code>eval.jsonl</code> sind es 2.199.</p>` : ''}</div>`;
+  }
+  if (m) {
+    const i = tr.merges.length;
+    h += `<div class="merge-card"><div class="lab" style="color:var(--hot)">Merge Nr. ${fmt(i)}</div>
+      <div class="merge-eq">${tokChip(m.a, 'c0')}<span class="op">+</span>${tokChip(m.b, 'c1')}<span class="op">→</span>${tokChip(m.id, 'hot')}</div>
+      <p style="font-size:.95rem">Das Paar kommt <strong>${fmt(m.count)}-mal</strong> vor, verteilt auf ${fmt(m.affected)} verschiedene Stücke. Es war das häufigste Paar und wird deshalb verschmolzen. Das neue Token bekommt die ID <strong>${m.id}</strong>${m.existed ? ' (es existierte schon, die ID wird wiederverwendet)' : ''}. Danach werden die Paare neu gezählt.</p></div>`;
+  } else if (!tr.done) {
+    h += `<div class="banner"><h3>Startzustand</h3><p>Das Vokabular enthält die ${tr.numSpecial} Special Tokens und ${fmt(tr.numAlphabet)} einzelne Zeichen. Jedes Stück besteht nur aus Einzelzeichen. Klicke auf „1 Merge“, um den ersten Schritt zu sehen.</p></div>`;
+  }
+  $('stepPanel').innerHTML = h;
+
+  // Kandidaten
+  const top = tr.topPairs(10);
+  const max = top.length ? top[0].count : 1;
+  $('pairTable').innerHTML = top.length ? `<thead><tr><th>Paar</th><th>würde ergeben</th><th class="num">Häufigkeit</th><th style="width:28%"></th></tr></thead><tbody>${top.map((p, i) => {
+    const below = p.count < tr.minFrequency;
+    return `<tr class="${i === 0 && !tr.done ? 'next' : ''}"><td><span class="chips">${tokChip(p.a, 'c0')}${tokChip(p.b, 'c1')}</span></td><td><span class="chips">${chip(tr.idToToken[p.a] + tr.idToToken[p.b], below ? 'ghost' : 'c2')}</span></td><td class="num">${fmt(p.count)}${below ? ' <span style="color:var(--warn)">&lt; min</span>' : ''}</td><td><div class="bar" style="width:${(p.count / max * 100).toFixed(1)}%"></div></td></tr>`;
+  }).join('')}</tbody>` : '<tbody><tr><td>Keine Paare mehr vorhanden.</td></tr></tbody>';
+
+  // Wortliste
+  const aff = new Set(m ? m.affectedIdx : []);
+  $('wordList').innerHTML = tr.words.slice(0, 16).map((w, wi) => {
+    const isAff = aff.has(wi);
+    const chips = w.syms.map((id, k) => tokChip(id, (isAff && id === m.id) ? 'hot' : cc(k))).join('');
+    return `<div class="wordline${isAff ? ' aff' : ''}"><span class="cnt">${fmt(w.count)}×</span><span class="chips">${chips}</span></div>`;
+  }).join('') + `<p style="font-size:.88rem;color:var(--muted);margin-top:4px">Orange markiert: Stellen, an denen der letzte Merge gerade gegriffen hat. Die Zahl links ist die Häufigkeit des Stücks.</p>`;
+
+  // Verlauf
+  const hist = tr.merges.slice(-60).reverse();
+  $('histTable').innerHTML = hist.length ? `<thead><tr><th class="num">Nr.</th><th>Paar</th><th>neues Token</th><th class="num">ID</th><th class="num">Häufigkeit</th></tr></thead><tbody>${hist.map((mm, k) => `<tr><td class="num">${fmt(tr.merges.length - k)}</td><td><span class="chips">${tokChip(mm.a, 'c0')}${tokChip(mm.b, 'c1')}</span></td><td><span class="chips">${tokChip(mm.id, 'c2')}</span></td><td class="num">${mm.id}</td><td class="num">${fmt(mm.count)}</td></tr>`).join('')}</tbody>` : '<tbody><tr><td style="color:var(--muted)">Noch keine Merges.</td></tr></tbody>';
+
+  // JSON-Vorschau und Konsole
+  const vocabPrev = tr.idToToken.slice(0, 6).map((t, i) => `      ${JSON.stringify(t)}: ${i},`).join('\n');
+  const lastTok = tr.idToToken.length > 6 ? `\n      …\n      ${JSON.stringify(tr.idToToken[tr.idToToken.length - 1])}: ${tr.idToToken.length - 1}` : '';
+  const mergePrev = tr.merges.slice(0, 5).map(mm => `      [${JSON.stringify(tr.idToToken[mm.a])}, ${JSON.stringify(tr.idToToken[mm.b])}],`).join('\n');
+  $('jsonPrev').textContent = `{\n  "added_tokens": [ <pad>=0, <|im_start|>=1, <|im_end|>=2 ],\n  "pre_tokenizer": { "type": "ByteLevel", "add_prefix_space": false },\n  "post_processor": { "type": "ByteLevel", "trim_offsets": false },\n  "decoder": { "type": "ByteLevel" },\n  "model": {\n    "type": "BPE",\n    "vocab": {\n${vocabPrev}${lastTok}\n    },\n    "merges": [\n${mergePrev || '      (noch leer)'}${tr.merges.length > 5 ? `\n      … insgesamt ${fmt(tr.merges.length)} Merges` : ''}\n    ]\n  }\n}`;
+  $('consoleOut').innerHTML = `<span class="pr">$ python train_tokenizer.py</span><br>Vokabular: ${tr.vocabLength} Tokens${tr.done ? '' : ' <span class="pr">(Training läuft noch)</span>'}`;
+}
+
+// ---------- Station 4: Anwenden ----------
+$('encText').value = '<|im_start|>user\nhow big is your world<|im_end|>\n<|im_start|>assistant\nfrom the treasure chest to the glass.<|im_end|>';
+$('encText').addEventListener('input', () => { state.encSel = null; renderEncode(); });
+$('skipSpecial').addEventListener('change', renderEncode);
+$('encTokens').addEventListener('click', e => {
+  const c = e.target.closest('.chip'); if (!c || c.dataset.w === undefined) return;
+  state.encSel = +c.dataset.w; renderEncode();
+});
+
+function renderEncode() {
+  const tr = state.trainer;
+  if (!tr) return;
+  const model = tr.model();
+  const text = $('encText').value;
+  const r = model.encode(text);
+  $('encModel').innerHTML = `Verwendet wird der aktuelle Trainingsstand: ${fmt(tr.vocabLength)} Tokens, ${fmt(tr.merges.length)} Merges${tr.done ? '' : '. Das Training ist noch nicht fertig'}.`;
+  $('encSegs').innerHTML = r.segs.map((s, i) => s.special ? chip(s.special, 'sp') : chip(visP(s.text), 'ghost')).join('') || '<span class="ws">(leer)</span>';
+  if (state.encSel === null || state.encSel >= r.words.length) {
+    const k = r.words.findIndex(w => w.ids.length && w.steps.length > 2);
+    state.encSel = k >= 0 ? k : (r.words.length ? 0 : null);
+  }
+  $('encTokens').innerHTML = r.tokens.map((t, i) => t.special ? chip(t.token, 'sp', `title="ID ${t.id}"`) : chip(t.token, cc(i) + ' click' + (t.word === state.encSel ? ' sel' : ''), `data-w="${t.word}" title="ID ${t.id}"`)).join('');
+  // Merge-Wiederholung für ein Stück
+  const w = state.encSel !== null ? r.words[state.encSel] : null;
+  if (w) {
+    const rows = w.steps.map((st, k) => {
+      const chips = st.syms.map((id, j) => chip(model.idToToken[id], j === st.merged ? 'hot' : cc(j))).join('');
+      const lbl = k === 0 ? 'Start' : `Merge ${fmt(st.rank + 1)}`;
+      return `<div class="rs"><span class="lbl">${lbl}</span><span class="chips">${chips}</span></div>`;
+    }).join('');
+    const drop = w.dropped.length ? `<p style="font-size:.88rem;color:var(--warn)">Verworfen: ${w.dropped.map(c => `<code>${esc(c)}</code>`).join(' ')}. Diese Ersatzzeichen kamen im Trainingstext nie vor und stehen nicht im Vokabular. Ohne <code>unk_token</code> fallen sie weg.</p>` : '';
+    $('replay').innerHTML = `<div class="flowstep"><div class="lab">So entsteht das Stück „${esc(visPiece(w.raw))}“</div><div class="replay">${rows}</div>${w.steps.length === 1 ? '<p style="font-size:.88rem;color:var(--muted)">Kein gelernter Merge passt hier; das Stück bleibt in Einzelzeichen.</p>' : '<p style="font-size:.88rem;color:var(--muted)">Die Nummer ist die Position des Merges in der Lernreihenfolge. Es wird immer der früheste passende Merge angewendet.</p>'}${drop}</div>`;
+  } else $('replay').innerHTML = '';
+  $('encIds').textContent = r.tokens.length ? '[' + r.tokens.map(t => t.id).join(', ') + ']' : '[]';
+  // Offsets
+  $('offTable').innerHTML = `<thead><tr><th>Token</th><th class="num">ID</th><th class="num">Offset</th><th>Textstück</th><th class="num">mit trim_offsets=True</th></tr></thead><tbody>${r.tokens.map((t, i) => {
+    const piece = text.slice(t.start, t.end);
+    let s = t.start, e = t.end;
+    if (!t.special) {
+      const tk = Array.from(t.token);
+      let lead = 0; while (lead < tk.length && tk[lead] === 'Ġ') lead++;
+      let trail = 0; while (trail < tk.length - lead && tk[tk.length - 1 - trail] === 'Ġ') trail++;
+      if (lead < tk.length) { s += lead; e -= trail; }
+    }
+    const diff = s !== t.start || e !== t.end;
+    return `<tr><td><span class="chips">${t.special ? chip(t.token, 'sp') : chip(t.token, cc(i))}</span></td><td class="num">${t.id}</td><td class="num">(${t.start}, ${t.end})</td><td class="mono">${visWS(piece)}</td><td class="num"${diff ? ' style="color:var(--hot)"' : ''}>(${s}, ${e})</td></tr>`;
+  }).join('')}</tbody>`;
+  // Decode
+  $('decOut').innerHTML = visWS(model.decode(r.tokens.map(t => t.id), $('skipSpecial').checked)) || '<span class="ws">(leer)</span>';
+}
+
+// ---------- Navigation: aktive Station markieren ----------
+const links = [...document.querySelectorAll('nav.steps a')];
+if ('IntersectionObserver' in window) {
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(en => { if (en.isIntersecting) links.forEach(a => a.classList.toggle('active', a.dataset.sec === en.target.id)); });
+}, { rootMargin: '-40% 0px -55% 0px' });
+document.querySelectorAll('section.station').forEach(s => obs.observe(s));
+}
+
+loadSample();
+})();
+</script>

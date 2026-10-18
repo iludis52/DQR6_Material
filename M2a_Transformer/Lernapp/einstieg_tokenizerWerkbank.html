@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BPE Visualisierung</title>
+
+  <style>
+    :root {
+      color-scheme: dark;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      margin: 20px;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.4;
+    }
+
+    h1 {
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 18px;
+    }
+
+    .muted {
+      color: #94a3b8;
+    }
+
+    .small {
+      font-size: 13px;
+      color: #94a3b8;
+    }
+
+    .card {
+      background: #111827;
+      border: 1px solid #334155;
+      border-radius: 16px;
+      padding: 18px;
+      margin: 16px 0;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 70px;
+      background: #020617;
+      color: #e2e8f0;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      padding: 10px;
+      font-size: 16px;
+      box-sizing: border-box;
+      resize: vertical;
+    }
+
+    select {
+      background: #020617;
+      color: #e2e8f0;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      padding: 8px 10px;
+      font-size: 15px;
+      max-width: 100%;
+    }
+
+    .field-label {
+      display: block;
+      font-size: 14px;
+      color: #cbd5e1;
+      margin: 12px 0 6px;
+    }
+
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 9px 12px;
+      margin: 4px 6px 4px 0;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    button:hover {
+      background: #3b82f6;
+    }
+
+    button.secondary {
+      background: #334155;
+    }
+
+    button.secondary:hover {
+      background: #475569;
+    }
+
+    label.checkbox {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 10px 0;
+      font-size: 14px;
+      color: #cbd5e1;
+    }
+
+    .tokens {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      min-height: 48px;
+      padding: 10px;
+      background: #020617;
+      border-radius: 10px;
+      border: 1px solid #334155;
+      align-items: center;
+    }
+
+    .token {
+      padding: 6px 8px;
+      border-radius: 8px;
+      background: #0ea5e9;
+      color: #082f49;
+      font-weight: 700;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 16px;
+      white-space: pre;
+    }
+
+    /* (c) Zeichen, die im Training nie vorkamen */
+    .token.unknown {
+      background: transparent;
+      color: #fca5a5;
+      border: 2px dashed #ef4444;
+      padding: 4px 6px;
+    }
+
+    .pair {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin: 4px;
+      padding: 7px 9px;
+      border-radius: 10px;
+      background: #1e293b;
+      border: 1px solid #475569;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .pair:hover {
+      background: #334155;
+    }
+
+    .pair.dim {
+      opacity: 0.5;
+    }
+
+    /* Gleichstand sichtbar machen */
+    .pair.next {
+      border: 2px solid #22c55e;
+    }
+
+    .pair.tie {
+      border: 2px dashed #f59e0b;
+    }
+
+    .pair .count {
+      background: #f59e0b;
+      color: #1f2937;
+      padding: 2px 7px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 12px;
+    }
+
+    .rules {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .rule {
+      background: #1e293b;
+      border: 1px solid #475569;
+      padding: 6px 8px;
+      border-radius: 8px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 14px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .status {
+      margin-top: 10px;
+      color: #93c5fd;
+      min-height: 20px;
+    }
+
+    /* (a) letzte Aktion getrennt von der Statistik */
+    .action {
+      margin-top: 6px;
+      color: #fcd34d;
+      min-height: 20px;
+    }
+
+    .warn {
+      margin-top: 6px;
+      color: #fca5a5;
+      font-size: 14px;
+    }
+
+    details.observe {
+      margin-top: 12px;
+      color: #cbd5e1;
+      font-size: 14px;
+    }
+
+    details.observe summary {
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    details.observe ul {
+      margin: 8px 0 0 18px;
+      padding: 0;
+    }
+
+    details.observe li {
+      margin: 4px 0;
+    }
+
+    code {
+      background: #1e293b;
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Byte-Pair-Encoding zum Anfassen</h1>
+  <p class="muted">
+    Diese App zeigt das Prinzip von BPE: Starte mit einzelnen Zeichen,
+    zähle benachbarte Paare und füge die häufigsten Paare zu neuen Tokens zusammen.
+  </p>
+
+  <div class="card">
+    <h2>1. Trainings-Text</h2>
+
+    <label class="field-label" for="exampleSelect">Beispiel auswählen</label>
+    <select id="exampleSelect"></select>
+    <div id="exampleDescription" class="small" style="margin-top: 6px;"></div>
+
+    <label class="field-label" for="trainText">Trainings-Text (frei editierbar)</label>
+    <textarea id="trainText"></textarea>
+    <div class="small">
+      Leerzeichen werden als <code>␠</code> angezeigt, Zeilenumbrüche als <code>↵</code>.
+      Änderungen am Text starten das Training automatisch neu.
+    </div>
+
+    <details class="observe" id="observeBox">
+      <summary>Was du beobachten wirst</summary>
+      <ul id="observeList"></ul>
+      <div class="small" style="margin-top: 8px;">
+        Gilt für die Auto-Funktion mit der Voreinstellung „Leerzeichen überspringen“.
+      </div>
+    </details>
+
+    <div style="margin-top: 10px;">
+      <button onclick="resetTraining()" class="secondary">Training neu starten</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>2. Aktueller Token-Zustand</h2>
+    <div id="currentTokens" class="tokens"></div>
+    <div id="stats" class="status"></div>
+    <div id="lastAction" class="action"></div>
+    <div class="small" style="margin-top: 6px;">
+      Das <strong>Vokabular</strong> ist die Liste aller Tokens, die der Tokenizer kennt: alle Einzelzeichen
+      des Trainings-Textes plus ein neues Token pro Merge. Es wächst mit jedem Merge.
+      Die Zahl der <strong>verschiedenen Tokens im Text</strong> kann dagegen gleich bleiben oder sinken.
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>3. Häufigste Paare</h2>
+      <p class="small">
+        Klicke auf ein Paar, um es manuell zusammenzufügen.
+        Die Auto-Funktion nimmt das häufigste passende Paar.
+      </p>
+
+      <label class="checkbox">
+        <input type="checkbox" id="ignoreSpaces" checked onchange="renderAll()">
+        Auto-Merges mit Leerzeichen <code>␠</code> überspringen
+      </label>
+
+      <div id="pairs"></div>
+      <div class="small" style="margin-top: 6px;">
+        <span style="color:#22c55e">Grüner Rahmen</span>: wird als Nächstes gemergt.
+        <span style="color:#f59e0b">Gestrichelt</span>: gleich häufig (Gleichstand).
+      </div>
+
+      <div style="margin-top: 12px;">
+        <button onclick="autoMerge()">Häufigstes Paar mergen</button>
+        <button onclick="autoSteps(5)" class="secondary">5 Auto-Schritte</button>
+        <button onclick="undo()" class="secondary">Zurück</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>4. Gelernte Merge-Regeln</h2>
+      <div id="rules" class="rules"></div>
+      <div class="small" style="margin-top: 10px;">
+        Diese Regeln werden später auf neue Texte angewendet.
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>5. Neuen Text mit gelernten Regeln tokenisieren</h2>
+    <label class="field-label" for="newText">Test-Text (frei editierbar)</label>
+    <textarea id="newText"></textarea>
+    <div style="margin-top: 12px;" id="newTokens" class="tokens"></div>
+    <div id="newStatus" class="status"></div>
+    <div id="newWarn" class="warn"></div>
+  </div>
+
+  <script>
+    // ---------- Beispiele ----------
+    const examples = [
+      {
+        title: "Klassiker: Wortwiederholung",
+        description: "Sehr gut für den ersten Kontakt mit BPE.",
+        train: "hallo hallo hat",
+        test: "hallohaus",
+        observe: [
+          "Das Paar h + a kommt 3-mal vor und wird zuerst verschmolzen.",
+          "Danach wächst das Token Schritt für Schritt: ha → hal → hall → hallo.",
+          "Am Ende ist hallo ein eigenes Token. hat bleibt als ha + t zerlegt, weil at nur einmal vorkommt.",
+          "Im Test-Wort hallohaus werden hallo und ha erkannt.",
+          "u und s kamen im Training nie vor. Sie sind unbekannt und werden rot markiert."
+        ]
+      },
+      {
+        title: "Englische -ing-Endungen",
+        description: "BPE erkennt gemeinsame Wortenden und macht daraus eigene Tokens.",
+        train: "running jumping playing walking running",
+        test: "swimming",
+        observe: [
+          "Die Kombination i + n kommt 5-mal vor und wird zuerst verschmolzen.",
+          "Daraus entsteht erst in, dann ing.",
+          "Weil running zweimal vorkommt, wird es danach Schritt für Schritt zu einem ganzen Token.",
+          "Das Test-Wort swimming enthält die gelernte Endung ing.",
+          "s kam im Training nie vor und ist unbekannt."
+        ]
+      },
+      {
+        title: "Deutsche Wortzusammensetzungen",
+        description: "Baukastenprinzip: Gemeinsame Wortteile werden zu eigenen Tokens.",
+        train: "hundehaus haustür türschloss schlosshund",
+        test: "hausschloss",
+        observe: [
+          "hund, haus, tür und schloss kommen je zweimal vor und werden zu eigenen Tokens.",
+          "Das e aus hundehaus bleibt allein, weil es kein häufiges Paar bildet.",
+          "Das neue Wort hausschloss wird genau in haus + schloss zerlegt.",
+          "Das ist besonders für deutsche Komposita praktisch."
+        ]
+      },
+      {
+        title: "Deutsche Verb-Endungen",
+        description: "Ein Verbstamm mit verschiedenen Endungen.",
+        train: "sage sagst sagt sagen sagte sagtest",
+        test: "sagten",
+        observe: [
+          "s + a und sa + g kommen je 6-mal vor: Der Stamm sag entsteht zuerst.",
+          "Danach entstehen sagt, sage, die Endung st und schließlich sagte.",
+          "Die Endungen en und te werden keine eigenen Tokens. Dafür ist der Trainings-Text zu kurz.",
+          "Das Test-Wort sagten wird zu sagte + n.",
+          "Probiere selbst: Mit welchen zusätzlichen Wörtern im Trainings-Text entsteht en?"
+        ]
+      },
+      {
+        title: "Artikel und kurze Wörter",
+        description: "Viele kurze Wiederholungen. Gut, um schnelle Merge-Erfolge zu sehen.",
+        train: "der die das der die das ein eine einer",
+        test: "eineder",
+        observe: [
+          "Zuerst entstehen er, ei und ein (je 3-mal).",
+          "Danach werden der, die und das zu ganzen Tokens.",
+          "eine und einer bleiben zerlegt: ein + e und ein + er.",
+          "Das Kunstwort eineder wird zu ein + e + der.",
+          "Auch Fantasiewörter funktionieren, wenn die Bausteine gelernt wurden."
+        ]
+      },
+      {
+        title: "Lange Wörter und Endungen",
+        description: "BPE bei langen, zusammengesetzten Wörtern.",
+        train: "endlich endlos unendlich unendlichkeit keit lich keit",
+        test: "endlosigkeit",
+        observe: [
+          "en, end, endl und ich kommen je 4-mal vor und entstehen zuerst.",
+          "Daraus werden endlich, keit und unendlich.",
+          "lich wird kein eigenes Token: In endlich steckt das l schon in endl. Deshalb kommt l + ich nur einmal vor.",
+          "Das Test-Wort endlosigkeit wird in endl, einzelne Zeichen und keit zerlegt.",
+          "g kam im Training nie vor und ist unbekannt."
+        ]
+      },
+      {
+        title: "Tierlaute als Fantasiesprache",
+        description: "Ein sehr einfaches Beispiel mit starken Wiederholungen.",
+        train: "miau miau wau wau piep piep miau wau piep",
+        test: "miauwau",
+        observe: [
+          "Das erste Paar ist a + u (6-mal), denn au steckt in miau und in wau.",
+          "Danach werden miau, wau und piep zu eigenen Tokens.",
+          "Der Test-Satz miauwau wird direkt in miau + wau zerlegt.",
+          "BPE braucht keine echten Wörter, um zu funktionieren."
+        ]
+      }
+    ];
+
+    // ---------- Zustand ----------
+    let tokens = [];
+    let merges = [];
+    let history = [];
+    let alphabet = new Set();
+
+    function normalizeText(text) {
+      return text
+        .replaceAll("\r", "")
+        .replaceAll(" ", "␠")
+        .replaceAll("\n", "↵");
+    }
+
+    function displayToken(token) {
+      return token
+        .replaceAll(" ", "␠")
+        .replaceAll("\n", "↵");
+    }
+
+    function escapeHtml(text) {
+      return text
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;");
+    }
+
+    // ---------- Auswahlliste ----------
+    const CUSTOM = "custom";
+
+    function initExamples() {
+      const select = document.getElementById("exampleSelect");
+      select.innerHTML =
+        examples.map((ex, i) => `<option value="${i}">${i + 1}. ${escapeHtml(ex.title)}</option>`).join("") +
+        `<option value="${CUSTOM}">Eigener Text</option>`;
+      select.addEventListener("change", () => {
+        if (select.value !== CUSTOM) loadExample(+select.value);
+        else showExampleInfo(null);
+      });
+    }
+
+    function showExampleInfo(example) {
+      const box = document.getElementById("observeBox");
+      document.getElementById("exampleDescription").textContent = example
+        ? example.description
+        : "Gib eigene Texte ein oder verändere ein Beispiel.";
+      box.hidden = !example;
+      if (example) {
+        box.open = false;
+        document.getElementById("observeList").innerHTML =
+          example.observe.map(item => `<li>${escapeHtml(item)}</li>`).join("");
+      }
+    }
+
+    function loadExample(index) {
+      const example = examples[index];
+      document.getElementById("exampleSelect").value = String(index);
+      document.getElementById("trainText").value = example.train;
+      document.getElementById("newText").value = example.test;
+      showExampleInfo(example);
+      resetTraining();
+    }
+
+    // Sobald jemand den Text verändert, ist es kein Original-Beispiel mehr
+    function markCustom() {
+      const select = document.getElementById("exampleSelect");
+      if (select.value !== CUSTOM) {
+        select.value = CUSTOM;
+        showExampleInfo(null);
+      }
+    }
+
+    let retrainTimer = null;
+    document.getElementById("trainText").addEventListener("input", () => {
+      markCustom();
+      clearTimeout(retrainTimer);
+      retrainTimer = setTimeout(resetTraining, 400);
+    });
+
+    document.getElementById("newText").addEventListener("input", () => {
+      markCustom();
+      tokenizeNew();
+    });
+
+    // ---------- Training ----------
+    function resetTraining() {
+      const text = normalizeText(document.getElementById("trainText").value || "");
+      tokens = [...text];
+      alphabet = new Set(tokens);
+      merges = [];
+      history = [];
+      setAction("");
+      renderAll();
+    }
+
+    function saveHistory() {
+      history.push({
+        tokens: tokens.slice(),
+        merges: merges.map(m => ({ ...m }))
+      });
+
+      if (history.length > 1000) {
+        history.shift();
+      }
+    }
+
+    function undo() {
+      const last = history.pop();
+
+      if (!last) {
+        setAction("Nichts zum Zurückgehen.");
+        return;
+      }
+
+      tokens = last.tokens;
+      merges = last.merges;
+      renderAll();
+      setAction("Letzten Merge zurückgenommen.");
+    }
+
+    function countPairs(sequence) {
+      const map = new Map();
+
+      for (let i = 0; i < sequence.length - 1; i++) {
+        const a = sequence[i];
+        const b = sequence[i + 1];
+        const key = a + "\u0000" + b;
+
+        if (!map.has(key)) {
+          map.set(key, {
+            a,
+            b,
+            count: 0,
+            firstIndex: i
+          });
+        }
+
+        map.get(key).count++;
+      }
+
+      return [...map.values()].sort((x, y) => {
+        if (y.count !== x.count) {
+          return y.count - x.count;
+        }
+        return x.firstIndex - y.firstIndex;
+      });
+    }
+
+    function containsSpaceSymbol(value) {
+      return value.includes("␠");
+    }
+
+    function shouldSkipAutoPair(pair) {
+      const ignoreSpaces = document.getElementById("ignoreSpaces").checked;
+      if (!ignoreSpaces) return false;
+
+      return containsSpaceSymbol(pair.a) || containsSpaceSymbol(pair.b);
+    }
+
+    function getAutoPairs() {
+      return countPairs(tokens).filter(pair => {
+        return pair.count >= 2 && !shouldSkipAutoPair(pair);
+      });
+    }
+
+    function applyMerge(a, b) {
+      saveHistory();
+
+      const newToken = a + b;
+      const nextTokens = [];
+
+      for (let i = 0; i < tokens.length; i++) {
+        if (
+          i < tokens.length - 1 &&
+          tokens[i] === a &&
+          tokens[i + 1] === b
+        ) {
+          nextTokens.push(newToken);
+          i++;
+        } else {
+          nextTokens.push(tokens[i]);
+        }
+      }
+
+      merges.push({
+        left: a,
+        right: b,
+        newToken
+      });
+
+      tokens = nextTokens;
+      renderAll();
+    }
+
+    function mergeText(prefix, pair) {
+      return `${prefix}: ${displayToken(pair.a)} + ${displayToken(pair.b)} → ${displayToken(pair.a + pair.b)} (${pair.count}× im Text)`;
+    }
+
+    // Paare, die genauso häufig sind wie das gewählte (ohne das gewählte selbst)
+    function tiedPairs(pairs) {
+      if (!pairs.length) return [];
+      return pairs.slice(1).filter(p => p.count === pairs[0].count);
+    }
+
+    function tieText(pairs) {
+      const ties = tiedPairs(pairs);
+      if (!ties.length) return "";
+      const names = ties.map(p => `${displayToken(p.a)} + ${displayToken(p.b)}`).join(", ");
+      const n = ties.length === 1 ? "1 weiteren Paar" : `${ties.length} weiteren Paaren`;
+      return ` Gleichstand mit ${n} (${names}): Gewählt wird das Paar, das im Text zuerst vorkommt.`;
+    }
+
+    function autoMerge() {
+      const pairs = getAutoPairs();
+
+      if (!pairs.length) {
+        setAction("Kein passendes Paar gefunden, das mindestens 2× vorkommt.");
+        return;
+      }
+
+      const tie = tieText(pairs);
+      applyMerge(pairs[0].a, pairs[0].b);
+      setAction(mergeText("Gemergt", pairs[0]) + tie);
+    }
+
+    async function autoSteps(steps) {
+      for (let i = 0; i < steps; i++) {
+        const pairs = getAutoPairs();
+
+        if (!pairs.length) {
+          setAction("Keine weiteren passenden Paare.");
+          break;
+        }
+
+        const tie = tieText(pairs);
+        applyMerge(pairs[0].a, pairs[0].b);
+        setAction(mergeText(`Auto-Merge ${i + 1}`, pairs[0]) + tie);
+
+        await new Promise(resolve => setTimeout(resolve, 350));
+      }
+    }
+
+    function pairClicked(index) {
+      const pair = window.currentDisplayedPairs?.[index];
+      if (!pair) return;
+
+      applyMerge(pair.a, pair.b);
+      setAction(mergeText("Manuell gemergt", pair));
+    }
+
+    // ---------- Anwenden ----------
+    function vocabulary() {
+      return new Set([...alphabet, ...merges.map(m => m.newToken)]);
+    }
+
+    function tokenizeNew() {
+      const rawText = document.getElementById("newText").value || "";
+      let sequence = [...normalizeText(rawText)];
+
+      for (const merge of merges) {
+        const nextSequence = [];
+
+        for (let i = 0; i < sequence.length; i++) {
+          if (
+            i < sequence.length - 1 &&
+            sequence[i] === merge.left &&
+            sequence[i + 1] === merge.right
+          ) {
+            nextSequence.push(merge.newToken);
+            i++;
+          } else {
+            nextSequence.push(sequence[i]);
+          }
+        }
+
+        sequence = nextSequence;
+      }
+
+      const vocab = vocabulary();
+      const unknown = [...new Set(sequence.filter(token => !vocab.has(token)))];
+      const container = document.getElementById("newTokens");
+
+      if (!sequence.length) {
+        container.innerHTML = '<span class="muted">Leerer Text</span>';
+      } else {
+        container.innerHTML = sequence
+          .map(token => {
+            const isUnknown = !vocab.has(token);
+            const title = isUnknown ? ' title="Dieses Zeichen kam im Training nie vor."' : "";
+            return `<span class="token${isUnknown ? " unknown" : ""}"${title}>${escapeHtml(displayToken(token))}</span>`;
+          })
+          .join("");
+      }
+
+      document.getElementById("newStatus").textContent =
+        `Token-Anzahl im neuen Text: ${sequence.length}`;
+
+      document.getElementById("newWarn").innerHTML = unknown.length
+        ? `Unbekannt: ${unknown.map(t => `<code>${escapeHtml(displayToken(t))}</code>`).join(" ")}. ` +
+          `Diese Zeichen kamen im Trainings-Text nie vor und stehen deshalb nicht im Vokabular. ` +
+          `Ein echter Tokenizer hätte für sie keine ID.`
+        : "";
+    }
+
+    // ---------- Darstellung ----------
+    function tokenChip(token) {
+      return `<span class="token">${escapeHtml(displayToken(token))}</span>`;
+    }
+
+    function renderCurrentTokens() {
+      const container = document.getElementById("currentTokens");
+
+      if (!tokens.length) {
+        container.innerHTML = '<span class="muted">Keine Tokens vorhanden.</span>';
+        return;
+      }
+
+      container.innerHTML = tokens.map(tokenChip).join("");
+    }
+
+    function renderPairs() {
+      const container = document.getElementById("pairs");
+      const pairs = countPairs(tokens);
+
+      if (!pairs.length) {
+        container.innerHTML = '<span class="muted">Keine Paare vorhanden.</span>';
+        window.currentDisplayedPairs = [];
+        return;
+      }
+
+      const displayed = pairs.slice(0, 40);
+      window.currentDisplayedPairs = displayed;
+
+      const autoPairs = getAutoPairs();
+      const next = autoPairs[0];
+      const ties = tiedPairs(autoPairs);
+
+      container.innerHTML = displayed.map((pair, index) => {
+        const dim = pair.count < 2 || shouldSkipAutoPair(pair);
+        const isNext = next && pair.a === next.a && pair.b === next.b;
+        const isTie = ties.some(t => t.a === pair.a && t.b === pair.b);
+        const mark = isNext ? "next" : (isTie ? "tie" : "");
+
+        return `
+          <span
+            class="pair ${dim ? "dim" : ""} ${mark}"
+            onclick="pairClicked(${index})"
+            title="Klicken, um dieses Paar manuell zu mergen"
+          >
+            <strong>${escapeHtml(displayToken(pair.a))}</strong>
+            +
+            <strong>${escapeHtml(displayToken(pair.b))}</strong>
+            <span class="count">${pair.count}×</span>
+          </span>
+        `;
+      }).join("");
+    }
+
+    function renderRules() {
+      const container = document.getElementById("rules");
+
+      if (!merges.length) {
+        container.innerHTML = '<span class="muted">Noch keine Merge-Regeln gelernt.</span>';
+        return;
+      }
+
+      container.innerHTML = merges.map(merge => {
+        return `
+          <span class="rule">
+            ${escapeHtml(displayToken(merge.left))}
+            +
+            ${escapeHtml(displayToken(merge.right))}
+            →
+            ${escapeHtml(displayToken(merge.newToken))}
+          </span>
+        `;
+      }).join("");
+    }
+
+    function setAction(text) {
+      document.getElementById("lastAction").textContent = text;
+    }
+
+    function renderStats() {
+      const uniqueTokens = new Set(tokens).size;
+      const vocabSize = vocabulary().size;
+
+      document.getElementById("stats").textContent =
+        `Token-Anzahl: ${tokens.length} | ` +
+        `Verschiedene Tokens im Text: ${uniqueTokens} | ` +
+        `Vokabular: ${alphabet.size} Zeichen + ${merges.length} Merges = ${vocabSize}`;
+    }
+
+    function renderAll() {
+      renderCurrentTokens();
+      renderPairs();
+      renderRules();
+      renderStats();
+      tokenizeNew();
+    }
+
+    initExamples();
+    loadExample(0);
+  </script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Den Aufbau, Datenfluss und Trainingsschritt eines Decoder-Transformers interaktiv nachvollziehen.">
+  <title>Transformer-Werkbank · Vom Text zur Vorhersage</title>
+  <link rel="stylesheet" href="transformer-werkbank.css">
+  <script defer src="transformer-modell.js"></script>
+  <script defer src="transformer-werkbank.js"></script>
+</head>
+<body>
+  <header class="page-head wrap">
+    <div>
+      <div class="eyebrow">GuppyLM / Lernwerkbank 02</div>
+      <h1>Was passiert im Transformer?</h1>
+      <p>Verfolge, wie aus Text eine Vorhersage wird — und wie das Modell aus seinem Fehler lernt.</p>
+    </div>
+    <a class="backlink" href="tokenizer-werkbank.html">← Zur BPE-Werkbank</a>
+  </header>
+
+  <main class="wrap">
+    <section class="workbench" aria-label="Interaktive Transformerübersicht">
+      <div class="toolbar">
+        <div class="mode-switch" role="group" aria-label="Ansicht">
+          <button class="mode active" data-mode="structure" aria-pressed="true">01 Aufbau</button>
+          <button class="mode" data-mode="forward" aria-pressed="false">02 Vorwärtslauf</button>
+          <button class="mode" data-mode="training" aria-pressed="false">03 Training</button>
+        </div>
+        <button id="reset" class="quiet" title="Zufällige Startgewichte und Ansicht wiederherstellen">Neu beginnen ↺</button>
+      </div>
+
+      <div class="context-bar">
+        <label>Beispiel
+          <select id="example">
+            <option value="0">guppy likes bubbles &lt;end&gt;</option>
+            <option value="1">guppy likes food &lt;end&gt;</option>
+            <option value="2">fish likes water &lt;end&gt;</option>
+            <option value="3">hello guppy &lt;end&gt;</option>
+          </select>
+        </label>
+        <div class="model-badge"><span class="live-dot"></span>Rechnendes Lehrmodell <strong>2 Blöcke · je 3 Köpfe · 6 Dimensionen</strong></div>
+        <button id="assumptions" class="text-button" aria-expanded="false" aria-controls="model-note">Was ist vereinfacht?</button>
+      </div>
+      <div id="model-note" class="model-note" hidden>
+        <strong>Die Struktur folgt dem Notebook, die Zahlen stammen aus einem kleinen eigenen Modell.</strong>
+        Pre-Norm-Blöcke, kausale Multi-Head-Attention, GELU und geteilte Ein-/Ausgabegewichte bleiben erhalten.
+        Für lesbare Zahlen verwenden wir 2 statt 6 Blöcke, je 3 statt 6 Köpfe,
+        6 statt 384 Dimensionen und 24 statt 1536 FFN-Einheiten.
+        Das feste Lehrvokabular hat 8 Tokens: ganze Wörter und <code>&lt;end&gt;</code>.
+        Es ersetzt hier BPE und ChatML. Es gibt keinen Paddingbedarf; Dropout ist ausgeschaltet.
+        Das Update nutzt SGD, das Notebook AdamW. Die Startgewichte sind reproduzierbar zufällig;
+        die Anzeige enthält keine Gewichte oder Antworten des trainierten GuppyLM.
+      </div>
+
+      <div class="transport">
+        <div class="transport-buttons">
+          <button id="previous" class="secondary" aria-label="Vorheriger Schritt">← Zurück</button>
+          <button id="next" class="primary">Weiter →</button>
+          <button id="play" class="quiet" aria-pressed="false">▶ Abspielen</button>
+        </div>
+        <div class="progress-area"><div id="progress-label" aria-live="polite"></div><div class="progress-track"><div id="progress"></div></div></div>
+      </div>
+
+      <div class="workspace">
+        <div class="overview">
+          <div class="canvas-caption"><span id="map-caption">Die Gesamtstruktur</span><span>Klicke auf einen Baustein</span></div>
+          <div id="diagram" class="diagram" aria-label="Anklickbarer Aufbau des Transformers"></div>
+          <p class="mobile-hint">Den Gesamtplan bei Bedarf seitlich verschieben ↔</p>
+          <div class="legend"><span><i class="activation"></i>Berechnungsweg</span><span><i class="residual-key"></i>Unverändert weiterreichen</span><span><i class="weight"></i>Lernbare Gewichte</span><span><i class="gradient"></i>Gradienten im Training</span></div>
+          <p class="diagram-note">Ein Vektor pro Tokenposition. Attention verbindet Positionen; das FFN verarbeitet jede Position einzeln.</p>
+        </div>
+        <aside class="inspector" aria-label="Erklärung des ausgewählten Schritts">
+          <div class="step-heading"><span id="step-number" class="eyebrow"></span><span id="phase-chip" class="phase-chip"></span></div>
+          <h2 id="step-title"></h2>
+          <p id="step-description"></p>
+          <div id="formula" class="formula"></div>
+          <div id="step-content"></div>
+          <div id="takeaway" class="takeaway"></div>
+          <details class="code-reference"><summary>Verbindung zum Notebook</summary><pre id="notebook-code"></pre></details>
+        </aside>
+      </div>
+
+    </section>
+
+    <section class="learning-notes" aria-label="Orientierung">
+      <article><span class="eyebrow">01 / Datenfluss</span><h3>Was wird weitergegeben?</h3><p>Zunächst IDs, dann Zahlenvektoren. Die Gewichte bleiben beim Vorwärtslauf gleich; die Aktivierungen ändern sich mit der Eingabe.</p></article>
+      <article><span class="eyebrow">02 / Lernen</span><h3>Was wird verändert?</h3><p>Beim Training liefert der Verlust die Ausgangsgröße für Backpropagation. Erst der Optimierer verändert die Gewichte — einschließlich der Embeddings.</p></article>
+      <article><span class="eyebrow">03 / Generierung</span><h3>Was wiederholt sich?</h3><p>Ein Token auswählen, an die Eingabe anhängen und erneut vorwärts rechnen. Dabei werden keine Gradienten berechnet und keine Gewichte verändert.</p></article>
+    </section>
+    <footer>Eigenständige Lernapp · HTML, CSS und JavaScript · Zahlen werden lokal im Browser berechnet. <span id="parameter-count"></span></footer>
+  </main>
+  <noscript>Bitte JavaScript aktivieren, um das Lehrmodell und die interaktive Darstellung zu verwenden.</noscript>
+</body>
+</html>
