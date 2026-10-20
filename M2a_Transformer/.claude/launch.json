@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "lernapps",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8765", "--bind", "127.0.0.1", "--directory", "/Users/thomasjorg/Documents/05_VSCode/DQR6_Material/M2a_Transformer"],
+      "port": 8765
+    }
+  ]
+}

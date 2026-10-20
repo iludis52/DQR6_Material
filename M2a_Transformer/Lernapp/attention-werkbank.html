@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Einen Attention-Kopf des trainierten GuppyLM Schritt für Schritt untersuchen: Projektionen, Bewertungen, kausale Maske, Softmax und Mischung der Values.">
+  <title>Attention-Werkbank · GuppyLM</title>
+  <link rel="stylesheet" href="attention-werkbank.css">
+  <script defer src="../Data/attention-daten.js"></script>
+  <script defer src="attention-modell.js"></script>
+  <script defer src="attention-werkbank.js"></script>
+</head>
+<body>
+  <header class="page-head wrap">
+    <div>
+      <div class="eyebrow">GuppyLM / Lernwerkbank 03 · Originalgewichte</div>
+      <h1>Wie arbeitet ein Attention-Kopf?</h1>
+      <p>Zeilen fragen, Spalten antworten. Verfolge an echten Werten des trainierten Modells, wie ein Kopf Information zwischen Tokenpositionen verteilt.</p>
+    </div>
+    <nav class="backlinks" aria-label="Andere Lernwerkbänke">
+      <a href="embeddings-werkbank.html">← Embedding-Werkbank</a>
+      <a href="transformer-werkbank.html">Transformer-Werkbank →</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <p id="load-error" class="load-error" role="alert" hidden></p>
+    <section id="workbench" class="workbench" aria-label="Interaktiver Attention-Kopf" hidden>
+      <div class="toolbar">
+        <label>Prompt <select id="prompt"></select></label>
+        <div class="group" role="group" aria-label="Block"><span class="group-label">Block</span><span id="blocks" class="segmented"></span></div>
+        <div class="group" role="group" aria-label="Kopf"><span class="group-label">Kopf</span><span id="heads" class="segmented"></span></div>
+        <div class="group" role="group" aria-label="Inhalt der Matrix"><span class="group-label">Matrix zeigt</span><span class="segmented"><button id="view-raw" data-view="roh">Bewertungen</button><button id="view-weights" data-view="gewichte">Gewichte</button></span></div>
+      </div>
+      <p id="head-note" class="head-note"></p>
+
+      <div class="transport">
+        <div class="transport-buttons">
+          <button id="previous" class="secondary">← Zurück</button>
+          <button id="next" class="primary">Weiter →</button>
+        </div>
+        <ol id="steps" class="steps" aria-label="Schritte"></ol>
+      </div>
+
+      <div class="workspace">
+        <div class="stage">
+          <div class="stage-caption"><span id="stage-caption"></span><span>Klicke Zeilen, Zellen oder Streifen an</span></div>
+          <div id="cross" class="cross" aria-label="Kreuzanordnung: Queries links, Keys oben, Values unten, Attentionmatrix in der Mitte, Kopfausgänge rechts"></div>
+          <div class="legend">
+            <span><i class="scale-key"></i>negativ · 0 · positiv</span>
+            <span><i class="weight-key"></i>Attentiongewicht</span>
+            <span><i class="mask-key"></i>maskiert (Zukunft)</span>
+            <span id="scale-note"></span>
+          </div>
+          <p class="stage-note">Zeile i = fragendes Token mit seiner Query. Spalte j = angefragtes Token: Key oben, Value unten. Jede Zelle liegt im Schnittpunkt der beiden Vektoren, aus denen sie berechnet wird.</p>
+        </div>
+        <aside class="inspector" aria-live="polite">
+          <div class="step-heading"><span id="step-number" class="eyebrow"></span></div>
+          <h2 id="step-title"></h2>
+          <p id="step-description"></p>
+          <div id="formula" class="formula"></div>
+          <div id="detail"></div>
+          <div id="takeaway" class="takeaway"></div>
+          <details class="code-reference"><summary>Verbindung zum Notebook</summary><pre id="notebook-code"></pre></details>
+        </aside>
+      </div>
+    </section>
+
+    <section class="learning-notes" aria-label="Orientierung">
+      <article><span class="eyebrow">01 / Projektion</span><h3>Kein Ausschnitt</h3><p>Jede der 64 Komponenten von q, k und v ist eine gewichtete Summe aller 384 Komponenten von x̂. Die Köpfe teilen x̂ nicht unter sich auf.</p></article>
+      <article><span class="eyebrow">02 / Bewertung</span><h3>Zeile trifft Spalte</h3><p>Die Bewertung einer Zelle ist das Skalarprodukt aus der Query ihrer Zeile und dem Key ihrer Spalte, geteilt durch √64 = 8.</p></article>
+      <article><span class="eyebrow">03 / Mischung</span><h3>Gewichteter Mittelwert</h3><p>Der Kopfausgang mischt die Values der sichtbaren Positionen. Die Gewichte einer Zeile summieren sich zu 1; spätere Positionen erhalten 0.</p></article>
+    </section>
+    <footer><span id="source"></span><span id="verification"></span></footer>
+  </main>
+  <noscript>Bitte JavaScript aktivieren. Alle Berechnungen und Prüfungen laufen lokal im Browser.</noscript>
+</body>
+</html>
