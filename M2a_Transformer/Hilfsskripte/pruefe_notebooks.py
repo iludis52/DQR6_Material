@@ -1,6 +1,6 @@
 """Lokale Funktionsprüfung ohne Datendownload oder vollständiges Modelltraining.
 
-Aufruf mit den installierten Trainings-/Exportpaketen: python pruefe_notebooks.py
+Aufruf mit den installierten Trainings-/Exportpaketen: python Hilfsskripte/pruefe_notebooks.py
 Testdateien entstehen ausschließlich in einem temporären Projektunterordner.
 """
 
@@ -19,7 +19,7 @@ os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
 import nbformat
 import torch
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent  # Projektordner, eine Ebene über Hilfsskripte
 
 
 def notebook(name):
@@ -55,8 +55,8 @@ def main():
     with tempfile.TemporaryDirectory(prefix=".guppy-pruefung-", dir=ROOT) as temp:
         work = Path(temp).resolve()
         assert work.is_relative_to(ROOT) and work != ROOT
-        (work / "data").mkdir()
-        (work / "checkpoints").mkdir()
+        (work / "Data").mkdir()
+        (work / "Checkpoints").mkdir()
         ns = {}
         run(train, "code03", ns)
         run(train, "code05", ns)
@@ -112,16 +112,16 @@ def main():
         assert all(torch.isfinite(torch.tensor(ns["verlaufsverlust"])))
         run(train, "code38", ns)
         run(train, "code-best-checkpoint", ns)
-        net, tok, checkpoint = ns["lade_checkpoint"](work / "checkpoints" / "bestes_modell.pt", "cpu")
+        net, tok, checkpoint = ns["lade_checkpoint"](work / "Checkpoints" / "bestes_modell.pt", "cpu")
         assert tok.to_str() == ns["tokenizer"].to_str()
         # Eine geänderte separate Datei darf das gespeicherte Paar nicht verändern.
-        (work / "data" / "tokenizer.json").write_text("{}", encoding="utf-8")
-        assert ns["lade_checkpoint"](work / "checkpoints" / "bestes_modell.pt", "cpu")[1].to_str() == tok.to_str()
+        (work / "Data" / "tokenizer.json").write_text("{}", encoding="utf-8")
+        assert ns["lade_checkpoint"](work / "Checkpoints" / "bestes_modell.pt", "cpu")[1].to_str() == tok.to_str()
         corrupt = dict(checkpoint, tokenizer_sha256="falsch")
-        torch.save(corrupt, work / "checkpoints" / "defekt.pt")
-        fails(ValueError, lambda: ns["lade_checkpoint"](work / "checkpoints" / "defekt.pt", "cpu"), "Prüfsumme")
-        torch.save({"konfig": checkpoint["konfig"]}, work / "checkpoints" / "alt.pt")
-        fails(ValueError, lambda: ns["lade_checkpoint"](work / "checkpoints" / "alt.pt", "cpu"), "Alter Checkpoint")
+        torch.save(corrupt, work / "Checkpoints" / "defekt.pt")
+        fails(ValueError, lambda: ns["lade_checkpoint"](work / "Checkpoints" / "defekt.pt", "cpu"), "Prüfsumme")
+        torch.save({"konfig": checkpoint["konfig"]}, work / "Checkpoints" / "alt.pt")
+        fails(ValueError, lambda: ns["lade_checkpoint"](work / "Checkpoints" / "alt.pt", "cpu"), "Alter Checkpoint")
         # Validierung gewichtet nach Tokens und erhält den Modellmodus.
         net.eval()
         ns["bewerte"](net)
@@ -166,7 +166,7 @@ def main():
         print("Greedy, Sampling, Temperaturprüfung und alle drei Abbruchgründe: OK")
 
         # Den echten Export bis zum HF-Format ohne llama.cpp ausführen.
-        ens = {"torch": torch, "checkpoint_pfad": work / "checkpoints" / "bestes_modell.pt",
+        ens = {"torch": torch, "checkpoint_pfad": work / "Checkpoints" / "bestes_modell.pt",
                "WORK": work, "EXPORT": work / "hf_export", "Path": Path}
         from dataclasses import dataclass
         ens["dataclass"] = dataclass
@@ -181,24 +181,57 @@ def main():
         run(export, "code12", ens)
         print("HF-Gewichtsabbildung, gespeicherter Tokenizer und Chatvorlage: OK")
 
-        # Fehlerpfade der GGUF-Konvertierung ohne externen Prozess prüfen.
+        # Vorzerlegungsprüfung und Konvertierung ohne externen Prozess prüfen.
         import re
         import subprocess
         import sys
-        base = dict(ens, os=os, re=re, subprocess=subprocess, sys=sys,
+        base = dict(ens, os=os, re=re, subprocess=subprocess, sys=sys, MODELLNAME="probe",
                     LLAMA_CPP=work / "llama.cpp", GGUF_DATEI=work / "probe.gguf")
+        run(export, "code14", base)
+        assert base["VORZERLEGUNG_GPT2"]
+        tok_pfad = base["EXPORT"] / "tokenizer.json"
+        original = tok_pfad.read_text(encoding="utf-8")
+        geaendert = json.loads(original)
+        geaendert["pre_tokenizer"]["add_prefix_space"] = True
+        tok_pfad.write_text(json.dumps(geaendert), encoding="utf-8")
+        fails(ValueError, lambda: run(export, "code14", base), "add_prefix_space")
+        assert not base["VORZERLEGUNG_GPT2"]
+        fails(RuntimeError, lambda: run(export, "code16", base), "Zuerst die Vorzerlegung")
+        tok_pfad.write_text(original, encoding="utf-8")
+        run(export, "code14", base)
         with patch.object(subprocess, "run", return_value=SimpleNamespace(returncode=1, stdout="", stderr="anderer Fehler")):
-            fails(RuntimeError, lambda: run(export, "code14", base), "anderer Fehler")
-        with patch.object(subprocess, "run", return_value=SimpleNamespace(
-                returncode=1, stdout="chkhsh: " + "a" * 64, stderr="pre-tokenizer was not recognized")):
-            run(export, "code14", base)
-            assert base["FINGERABDRUCK"] == "a" * 64
+            fails(RuntimeError, lambda: run(export, "code16", base), "anderer Fehler")
+
+        def erfolgreicher_lauf(befehl, **_):
+            assert befehl[1] == "-c" and "--model-name" in befehl
+            Path(befehl[befehl.index("--outfile") + 1]).write_bytes(b"GGUF")
+            return SimpleNamespace(returncode=0, stdout="GUPPY-ERSATZREGEL: ...", stderr="")
+
+        with patch.object(subprocess, "run", side_effect=erfolgreicher_lauf):
             run(export, "code16", base)
-            assert not base["PATCH_ERLAUBT"]
-        base["FINGERABDRUCK"] = None
-        fails(RuntimeError, lambda: run(export, "code16", base), "nicht anwendbar")
-        print("Exportfehler werden mit ursprünglicher Ursache abgefangen; Patch standardmäßig aus: OK")
-    print("ALLE PRÜFUNGEN BESTANDEN. Kein vollständiges Training und kein GGUF-Lauf ausgeführt.")
+        assert base["GGUF_DATEI"].is_file()
+        print("Vorzerlegungsprüfung, Ersatzregel ohne Eingriff in llama.cpp und Fehlerpfade: OK")
+
+        # Abschnitt 10: Quantisierung wählen und konvertieren, ohne externen Prozess.
+        base["QUANT_DATEI"] = None
+        falsch = export["code-quant-konvertieren"].replace('QUANTISIERUNG = "q8_0"', 'QUANTISIERUNG = "q4_0"', 1)
+        fails(ValueError, lambda: exec(compile(falsch, "quant", "exec"), base), "q8_0")
+
+        def q8_lauf(befehl, **_):
+            assert befehl[befehl.index("--outtype") + 1] == "q8_0"
+            assert befehl[befehl.index("--outfile") + 1].endswith("probe-q8_0.gguf")
+            Path(befehl[befehl.index("--outfile") + 1]).write_bytes(b"GGUF")
+            return SimpleNamespace(returncode=0, stdout="", stderr="")
+
+        with patch.object(subprocess, "run", side_effect=q8_lauf):
+            run(export, "code-quant-konvertieren", base)
+        assert base["QUANT_DATEI"].name == "probe-q8_0.gguf" and base["QUANT_DATEI"].is_file()
+        with patch.object(subprocess, "run", return_value=SimpleNamespace(returncode=1, stdout="", stderr="q8-Fehler")):
+            fails(RuntimeError, lambda: run(export, "code-quant-konvertieren", base), "q8-Fehler")
+        base["VORZERLEGUNG_GPT2"] = False
+        fails(RuntimeError, lambda: run(export, "code-quant-konvertieren", base), "Abschnitt 6")
+        print("Quantisierung: Voreinstellung q8_0, Formatprüfung und Fehlerpfade: OK")
+    print("ALLE PRÜFUNGEN BESTANDEN. Kein vollständiges Training und kein echter GGUF-Lauf ausgeführt.")
 
 
 if __name__ == "__main__":
