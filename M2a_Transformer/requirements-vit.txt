@@ -1,0 +1,4 @@
+# Eigenständige Umgebung für das Fashion-MNIST-Lehrnotebook.
+torch==2.14.1
+torchvision==0.29.1
+matplotlib==3.11.2
