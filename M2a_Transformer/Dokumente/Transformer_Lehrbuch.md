@@ -157,6 +157,8 @@ Diese Fragen sind eine Merkhilfe. Im Modell stehen ausschließlich Zahlen.
 
 ### Vom Skalarprodukt zur gewichteten Mischung
 
+Position $i$ muss entscheiden, wie viel sie von jeder sichtbaren Position übernimmt. Dazu vergleicht sie ihre Query mit jedem Key, rechnet die Ergebnisse in Anteile um und mischt die Values nach diesen Anteilen. Verglichen wird mit dem Skalarprodukt.
+
 Das Skalarprodukt multipliziert passende Komponenten und addiert die Ergebnisse: $(1;\,2)\cdot(3;\,4)=1\cdot3+2\cdot4=11$. Es hängt sowohl von Richtung als auch Länge der Vektoren ab. In der Attention misst es eine **gelernte Passung**, keine allgemeingültige semantische Ähnlichkeit:
 
 $$
@@ -165,7 +167,7 @@ A_{ij}=\frac{\exp(S_{ij}+M_{ij})}{\sum_r\exp(S_{ir}+M_{ir})},\qquad
 Z_i=\sum_j A_{ij}v_j.
 $$
 
-$i$ ist die suchende Position, $j$ die betrachtete Position. $M$ ist die Maske aus Kapitel 5. Die **Softmax** wandelt die Scores zeilenweise in nichtnegative Gewichte um, deren Summe 1 beträgt. Große Scores erhalten relativ mehr Gewicht. Die Ausgabe des Kopfes, $Z_i$, ist damit ein **gewichteter Mittelwert der Values**: Jede Komponente von $Z_i$ liegt zwischen dem kleinsten und dem größten Wert dieser Komponente unter den sichtbaren Values. In Matrixform für alle Positionen zugleich lautet die Rechnung $Z=\operatorname{softmax}\!\left(QK^\top/\sqrt{d_k}+M\right)V$, zeilenweise angewendet (Vaswani et al. 2017, Abschn. 3.2.1; Maske: Abschn. 3.2.3).
+$i$ ist die suchende Position, $j$ die betrachtete Position. $M$ ist die Maske aus Kapitel 5; sie sperrt spätere Positionen und kann beim ersten Lesen übergangen werden. Die **Softmax** wandelt die Scores zeilenweise in nichtnegative Gewichte um, deren Summe 1 beträgt. Große Scores erhalten relativ mehr Gewicht. Die Ausgabe des Kopfes, $Z_i$, ist damit ein **gewichteter Mittelwert der Values**: Jede Komponente von $Z_i$ liegt zwischen dem kleinsten und dem größten Wert dieser Komponente unter den sichtbaren Values. In Matrixform für alle Positionen zugleich lautet die Rechnung $Z=\operatorname{softmax}\!\left(QK^\top/\sqrt{d_k}+M\right)V$, zeilenweise angewendet (Vaswani et al. 2017, Abschn. 3.2.1; Maske: Abschn. 3.2.3).
 
 Warum durch $\sqrt{d_k}$ teilen? Unter der vereinfachenden Annahme unabhängiger, zentrierter Query- und Key-Komponenten mit Varianz 1 hat ihr Skalarprodukt Varianz $d_k$. Die Division hält die typische Größenordnung vergleichbar. Ohne Skalierung kann Softmax sehr spitz werden und extrem kleine Ableitungen liefern (Vaswani et al. 2017, Abschn. 3.2.1 mit Fußnote 4). Bei Guppy ist $\sqrt{64}=8$.
 
